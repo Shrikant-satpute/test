@@ -1,15 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getResults } from '@/lib/redis';
+import fs from 'fs';
+import path from 'path';
 import type { QuestionsData } from '@/lib/types';
 
 export const dynamic = 'force-dynamic';
-
-async function readQuestions(): Promise<QuestionsData> {
-  const fs = await import('fs');
-  const path = await import('path');
-  const raw = fs.readFileSync(path.join(process.cwd(), 'data', 'questions.json'), 'utf-8');
-  return JSON.parse(raw);
-}
 
 export async function GET(request: NextRequest) {
   try {
@@ -36,11 +31,16 @@ export async function GET(request: NextRequest) {
       return NextResponse.json({ success: false, error: 'Attempt not found' }, { status: 404 });
     }
 
-    const questions = await readQuestions();
+    const questionsRaw = fs.readFileSync(path.join(process.cwd(), 'data', 'questions.json'), 'utf-8');
+    const questions: QuestionsData = JSON.parse(questionsRaw);
 
     return NextResponse.json({ success: true, attempt, questions, totalAttempts: userAttempts.length });
   } catch (error) {
     console.error('Result error:', error);
-    return NextResponse.json({ success: false, error: 'Internal server error' }, { status: 500 });
+    return NextResponse.json({
+      success: false,
+      error: 'Internal server error',
+      detail: error instanceof Error ? error.message : String(error),
+    }, { status: 500 });
   }
 }

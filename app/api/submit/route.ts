@@ -1,14 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { randomUUID } from 'crypto';
 import { getResults, setResults } from '@/lib/redis';
+import fs from 'fs';
+import path from 'path';
 import type { QuestionsData, SubmitPayload, Attempt, MCQResult, ShortResult, CaseResult } from '@/lib/types';
-
-async function readQuestions(): Promise<QuestionsData> {
-  const fs = await import('fs');
-  const path = await import('path');
-  const raw = fs.readFileSync(path.join(process.cwd(), 'data', 'questions.json'), 'utf-8');
-  return JSON.parse(raw);
-}
 
 function evaluateAnswer(userAnswer: string, keywords: string[], maxMarks: number) {
   const lower = userAnswer.toLowerCase();
@@ -26,7 +21,8 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ success: false, error: 'Username is required' }, { status: 400 });
     }
 
-    const questions = await readQuestions();
+    const questionsRaw = fs.readFileSync(path.join(process.cwd(), 'data', 'questions.json'), 'utf-8');
+    const questions: QuestionsData = JSON.parse(questionsRaw);
 
     const mcqResults: MCQResult[] = questions.mcq.map((q) => {
       const userAnswer = mcqAnswers[q.id.toString()] || '';
@@ -72,6 +68,10 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ success: true, attemptId, scores: { mcqScore, shortScore, caseScore, totalScore, percentage, passed } });
   } catch (error) {
     console.error('Submit error:', error);
-    return NextResponse.json({ success: false, error: 'Internal server error' }, { status: 500 });
+    return NextResponse.json({
+      success: false,
+      error: 'Internal server error',
+      detail: error instanceof Error ? error.message : String(error),
+    }, { status: 500 });
   }
 }

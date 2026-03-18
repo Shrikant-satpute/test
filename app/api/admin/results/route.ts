@@ -1,15 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getResults } from '@/lib/redis';
 import type { AdminAttemptRow } from '@/lib/types';
+import fs from 'fs';
+import path from 'path';
 
 export const dynamic = 'force-dynamic';
-
-async function readQuestions() {
-  const fs = await import('fs');
-  const path = await import('path');
-  const raw = fs.readFileSync(path.join(process.cwd(), 'data', 'questions.json'), 'utf-8');
-  return JSON.parse(raw);
-}
 
 export async function GET(request: NextRequest) {
   try {
@@ -31,11 +26,21 @@ export async function GET(request: NextRequest) {
       : 0;
     const highestScore = totalAttempts > 0 ? Math.max(...allAttempts.map((a) => a.totalScore)) : 0;
 
-    const questions = await readQuestions();
+    const questionsRaw = fs.readFileSync(path.join(process.cwd(), 'data', 'questions.json'), 'utf-8');
+    const questions = JSON.parse(questionsRaw);
 
-    return NextResponse.json({ success: true, attempts: allAttempts, stats: { totalAttempts, uniqueStudents, avgScore, highestScore }, questions });
+    return NextResponse.json({
+      success: true,
+      attempts: allAttempts,
+      stats: { totalAttempts, uniqueStudents, avgScore, highestScore },
+      questions,
+    });
   } catch (error) {
     console.error('Admin results error:', error);
-    return NextResponse.json({ success: false, error: 'Internal server error' }, { status: 500 });
+    return NextResponse.json({
+      success: false,
+      error: 'Internal server error',
+      detail: error instanceof Error ? error.message : String(error),
+    }, { status: 500 });
   }
 }
