@@ -1,28 +1,20 @@
-// =============================================================================
-// Redis client — Upstash (production) or local JSON fallback (dev)
-// Env vars needed on Vercel:
-//   UPSTASH_REDIS_REST_URL
-//   UPSTASH_REDIS_REST_TOKEN
-// These are auto-injected when you connect Upstash via Vercel marketplace.
-// =============================================================================
-
 import type { ResultsData } from '@/lib/types';
 
-function isUpstashConfigured() {
-  return !!(process.env.UPSTASH_REDIS_REST_URL && process.env.UPSTASH_REDIS_REST_TOKEN);
+function isRedisConfigured() {
+  return !!(process.env.KV_REST_API_URL && process.env.KV_REST_API_TOKEN);
 }
 
 export async function getResults(): Promise<ResultsData> {
-  if (isUpstashConfigured()) {
+  if (isRedisConfigured()) {
     const { Redis } = await import('@upstash/redis');
     const redis = new Redis({
-      url: process.env.UPSTASH_REDIS_REST_URL!,
-      token: process.env.UPSTASH_REDIS_REST_TOKEN!,
+      url: process.env.KV_REST_API_URL!,
+      token: process.env.KV_REST_API_TOKEN!,
     });
     return (await redis.get<ResultsData>('ca_results')) ?? {};
   }
 
-  // Local dev fallback — read from JSON file
+  // Local dev fallback
   const fs = await import('fs');
   const path = await import('path');
   try {
@@ -34,17 +26,17 @@ export async function getResults(): Promise<ResultsData> {
 }
 
 export async function setResults(data: ResultsData): Promise<void> {
-  if (isUpstashConfigured()) {
+  if (isRedisConfigured()) {
     const { Redis } = await import('@upstash/redis');
     const redis = new Redis({
-      url: process.env.UPSTASH_REDIS_REST_URL!,
-      token: process.env.UPSTASH_REDIS_REST_TOKEN!,
+      url: process.env.KV_REST_API_URL!,
+      token: process.env.KV_REST_API_TOKEN!,
     });
     await redis.set('ca_results', data);
     return;
   }
 
-  // Local dev fallback — write to JSON file
+  // Local dev fallback
   const fs = await import('fs');
   const path = await import('path');
   fs.writeFileSync(
