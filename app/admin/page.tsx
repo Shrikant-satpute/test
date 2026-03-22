@@ -2,21 +2,24 @@
 
 import { useState, useEffect, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
-import type { AdminAttemptRow, QuestionsData, MCQQuestion, ShortQuestion, CaseQuestion } from '@/lib/types';
+import type { AdminAttemptRow, QuestionsData, MCQQuestion, ShortQuestion, CaseQuestion, SPOMAttempt } from '@/lib/types';
 
 const PAGE_SIZE = 10;
+
+type AdminSPOMAttemptRow = SPOMAttempt & { username: string };
 
 export default function AdminPage() {
   const router = useRouter();
   const [attempts, setAttempts] = useState<AdminAttemptRow[]>([]);
+  const [spomAttempts, setSpomAttempts] = useState<AdminSPOMAttemptRow[]>([]);
   const [questions, setQuestions] = useState<QuestionsData | null>(null);
-  const [stats, setStats] = useState({ totalAttempts: 0, uniqueStudents: 0, avgScore: 0, highestScore: 0 });
+  const [stats, setStats] = useState({ totalAttempts: 0, uniqueStudents: 0, spomAttempts: 0, legacyAttempts: 0 });
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
+  const [activeTab, setActiveTab] = useState<'spom' | 'legacy'>('spom');
   const [search, setSearch] = useState('');
   const [filterStatus, setFilterStatus] = useState<'all' | 'pass' | 'fail'>('all');
   const [filterDate, setFilterDate] = useState('');
-  const [sortBy, setSortBy] = useState<'date' | 'score'>('date');
   const [sortDir, setSortDir] = useState<'asc' | 'desc'>('desc');
   const [page, setPage] = useState(1);
   const [expandedId, setExpandedId] = useState<string | null>(null);
@@ -26,13 +29,14 @@ export default function AdminPage() {
     if (!raw) { router.push('/'); return; }
     const session = JSON.parse(raw);
     if (!session.loggedIn) { router.push('/'); return; }
-    if (session.role !== 'admin') { router.push('/exam'); return; }
+    if (session.role !== 'admin') { router.push('/dashboard'); return; }
 
     fetch('/api/admin/results')
       .then(r => r.json())
       .then(data => {
         if (data.success) {
           setAttempts(data.attempts);
+          setSpomAttempts(data.spomAttempts || []);
           setStats(data.stats);
           setQuestions(data.questions);
         } else {
@@ -43,7 +47,26 @@ export default function AdminPage() {
       .finally(() => setLoading(false));
   }, [router]);
 
-  const filtered = useMemo(() => {
+  const filteredSpom = useMemo(() => {
+    let arr = [...spomAttempts];
+    if (search) arr = arr.filter(a => a.username.toLowerCase().includes(search.toLowerCase()) || a.chapterName.toLowerCase().includes(search.toLowerCase()));
+    if (filterStatus === 'pass') arr = arr.filter(a => a.passed);
+    if (filterStatus === 'fail') arr = arr.filter(a => !a.passed);
+    if (filterDate) {
+      const d = new Date(filterDate);
+      arr = arr.filter(a => {
+        const ad = new Date(a.submittedAt);
+        return ad.getFullYear() === d.getFullYear() && ad.getMonth() === d.getMonth() && ad.getDate() === d.getDate();
+      });
+    }
+    arr.sort((a, b) => {
+      const cmp = new Date(a.submittedAt).getTime() - new Date(b.submittedAt).getTime();
+      return sortDir === 'desc' ? -cmp : cmp;
+    });
+    return arr;
+  }, [spomAttempts, search, filterStatus, filterDate, sortDir]);
+
+  const filteredLegacy = useMemo(() => {
     let arr = [...attempts];
     if (search) arr = arr.filter(a => a.username.toLowerCase().includes(search.toLowerCase()));
     if (filterStatus === 'pass') arr = arr.filter(a => a.passed);
@@ -56,25 +79,25 @@ export default function AdminPage() {
       });
     }
     arr.sort((a, b) => {
-      let cmp = 0;
-      if (sortBy === 'date') cmp = new Date(a.submittedAt).getTime() - new Date(b.submittedAt).getTime();
-      if (sortBy === 'score') cmp = a.totalScore - b.totalScore;
+      const cmp = new Date(a.submittedAt).getTime() - new Date(b.submittedAt).getTime();
       return sortDir === 'desc' ? -cmp : cmp;
     });
     return arr;
-  }, [attempts, search, filterStatus, filterDate, sortBy, sortDir]);
+  }, [attempts, search, filterStatus, filterDate, sortDir]);
 
-  const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
-  const paginated = filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
+  const activeFiltered = activeTab === 'spom' ? filteredSpom : filteredLegacy;
+  const totalPages = Math.ceil(activeFiltered.length / PAGE_SIZE);
+  const paginated = activeFiltered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
 
   const handleLogout = () => {
     localStorage.removeItem('ca_session');
     router.push('/');
   };
 
-  const toggleSort = (by: 'date' | 'score') => {
-    if (sortBy === by) setSortDir(d => d === 'asc' ? 'desc' : 'asc');
-    else { setSortBy(by); setSortDir('desc'); }
+  const handleTabChange = (tab: 'spom' | 'legacy') => {
+    setActiveTab(tab);
+    setPage(1);
+    setExpandedId(null);
   };
 
   if (loading) {
@@ -126,8 +149,8 @@ export default function AdminPage() {
           {[
             { label: 'Total Attempts', value: stats.totalAttempts, icon: '📝', color: '#6366f1' },
             { label: 'Unique Students', value: stats.uniqueStudents, icon: '👥', color: '#f59e0b' },
-            { label: 'Average Score', value: `${stats.avgScore}/55`, icon: '📊', color: '#10b981' },
-            { label: 'Highest Score', value: `${stats.highestScore}/55`, icon: '🏆', color: '#a855f7' },
+            { label: 'SPOM Attempts', value: stats.spomAttempts, icon: '📚', color: '#10b981' },
+            { label: 'Legacy Attempts', value: stats.legacyAttempts, icon: '🏆', color: '#a855f7' },
           ].map(({ label, value, icon, color }) => (
             <div key={label} className="glass rounded-xl p-4 border border-[#1e1e2e] card-hover" style={{ borderTop: `2px solid ${color}` }}>
               <div className="flex items-center justify-between mb-2">
@@ -140,6 +163,24 @@ export default function AdminPage() {
           ))}
         </div>
 
+        {/* Tab switcher */}
+        <div className="flex gap-2 mb-4">
+          <button
+            onClick={() => handleTabChange('spom')}
+            className={`px-4 py-2 rounded-xl text-sm font-semibold transition-all ${activeTab === 'spom' ? 'bg-[#6366f1] text-white' : 'glass border border-[#1e1e2e] text-[#94a3b8] hover:text-[#f1f5f9]'}`}
+          >
+            SPOM Attempts
+            <span className="ml-2 text-xs opacity-70">({stats.spomAttempts})</span>
+          </button>
+          <button
+            onClick={() => handleTabChange('legacy')}
+            className={`px-4 py-2 rounded-xl text-sm font-semibold transition-all ${activeTab === 'legacy' ? 'bg-[#6366f1] text-white' : 'glass border border-[#1e1e2e] text-[#94a3b8] hover:text-[#f1f5f9]'}`}
+          >
+            Legacy CA Inter
+            <span className="ml-2 text-xs opacity-70">({stats.legacyAttempts})</span>
+          </button>
+        </div>
+
         {/* Filter bar */}
         <div className="glass rounded-xl p-4 border border-[#1e1e2e] mb-4 flex flex-col sm:flex-row gap-3">
           <div className="relative flex-1">
@@ -150,7 +191,7 @@ export default function AdminPage() {
               type="text"
               value={search}
               onChange={e => { setSearch(e.target.value); setPage(1); }}
-              placeholder="Search by username..."
+              placeholder={activeTab === 'spom' ? 'Search by username or chapter...' : 'Search by username...'}
               className="w-full bg-[#0a0a0f] border border-[#1e1e2e] rounded-xl pl-9 pr-4 py-2 text-sm text-[#f1f5f9] placeholder-[#4a5568] focus:border-[#6366f1] focus:ring-1 focus:ring-[#6366f1]/20 transition-all"
             />
           </div>
@@ -169,6 +210,12 @@ export default function AdminPage() {
             onChange={e => { setFilterDate(e.target.value); setPage(1); }}
             className="bg-[#0a0a0f] border border-[#1e1e2e] rounded-xl px-3 py-2 text-sm text-[#f1f5f9] focus:border-[#6366f1] transition-all"
           />
+          <button
+            onClick={() => setSortDir(d => d === 'desc' ? 'asc' : 'desc')}
+            className="px-3 py-2 rounded-xl border border-[#1e1e2e] text-[#94a3b8] text-xs font-medium hover:border-[#6366f1]/50 transition-all"
+          >
+            Date {sortDir === 'desc' ? '↓' : '↑'}
+          </button>
           {(search || filterStatus !== 'all' || filterDate) && (
             <button
               onClick={() => { setSearch(''); setFilterStatus('all'); setFilterDate(''); setPage(1); }}
@@ -181,110 +228,173 @@ export default function AdminPage() {
 
         {/* Title */}
         <div className="flex items-center justify-between mb-4">
-          <h2 className="text-lg font-bold text-[#f1f5f9]">All Exam Attempts</h2>
-          <span className="text-xs text-[#94a3b8]">{filtered.length} records</span>
+          <h2 className="text-lg font-bold text-[#f1f5f9]">
+            {activeTab === 'spom' ? 'SPOM Chapter Attempts' : 'Legacy CA Inter Attempts'}
+          </h2>
+          <span className="text-xs text-[#94a3b8]">{activeFiltered.length} records</span>
         </div>
 
-        {/* Desktop Table */}
-        <div className="hidden md:block glass rounded-xl border border-[#1e1e2e] overflow-hidden mb-4">
-          <table className="w-full">
-            <thead className="border-b border-[#1e1e2e]">
-              <tr>
-                {['#', 'Username', 'Attempt', 'Date & Time', 'Sec A', 'Sec B', 'Sec C', 'Total', '%', 'Status'].map((col) => (
-                  <th
-                    key={col}
-                    className="px-4 py-3 text-left text-xs font-semibold text-[#94a3b8] uppercase tracking-wider"
-                  >
-                    {col === 'Date & Time' ? (
-                      <button onClick={() => toggleSort('date')} className="flex items-center gap-1 hover:text-[#f1f5f9] transition-colors">
-                        Date & Time {sortBy === 'date' && (sortDir === 'desc' ? '↓' : '↑')}
-                      </button>
-                    ) : col === 'Total' ? (
-                      <button onClick={() => toggleSort('score')} className="flex items-center gap-1 hover:text-[#f1f5f9] transition-colors">
-                        Total {sortBy === 'score' && (sortDir === 'desc' ? '↓' : '↑')}
-                      </button>
-                    ) : col}
-                  </th>
-                ))}
-              </tr>
-            </thead>
-            <tbody>
-              {paginated.length === 0 ? (
-                <tr>
-                  <td colSpan={10} className="text-center py-12 text-[#4a5568] text-sm">No attempts found</td>
-                </tr>
-              ) : (
-                paginated.map((a, idx) => (
-                  <>
-                    <tr
-                      key={a.attemptId}
-                      onClick={() => setExpandedId(expandedId === a.attemptId ? null : a.attemptId)}
-                      className={`border-b border-[#1e1e2e]/50 cursor-pointer hover:bg-[#1e1e2e]/30 transition-colors ${a.passed ? 'border-l-2 border-l-[#10b981]/40' : 'border-l-2 border-l-[#ef4444]/40'}`}
-                    >
-                      <td className="px-4 py-3 text-sm text-[#94a3b8]">{(page - 1) * PAGE_SIZE + idx + 1}</td>
-                      <td className="px-4 py-3 text-sm text-[#f1f5f9] font-medium">{a.username}</td>
-                      <td className="px-4 py-3 text-sm text-[#94a3b8]">#{a.attemptNumber}</td>
-                      <td className="px-4 py-3 text-xs text-[#94a3b8]">
-                        {new Date(a.submittedAt).toLocaleString('en-IN', { day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' })}
-                      </td>
-                      <td className="px-4 py-3 text-sm font-semibold text-[#6366f1]">{a.mcqScore}/20</td>
-                      <td className="px-4 py-3 text-sm font-semibold text-[#f59e0b]">{a.shortScore}/20</td>
-                      <td className="px-4 py-3 text-sm font-semibold text-purple-400">{a.caseScore}/15</td>
-                      <td className="px-4 py-3 text-sm font-bold text-[#f1f5f9]">{a.totalScore}/55</td>
-                      <td className="px-4 py-3 text-sm text-[#94a3b8]">{a.percentage}%</td>
-                      <td className="px-4 py-3">
-                        <span className={`text-xs px-2 py-1 rounded-full font-bold ${a.passed ? 'bg-[#10b981]/20 text-[#10b981]' : 'bg-[#ef4444]/20 text-[#ef4444]'}`}>
-                          {a.passed ? 'PASS' : 'FAIL'}
-                        </span>
-                      </td>
-                    </tr>
-                    {expandedId === a.attemptId && questions && (
-                      <tr key={`${a.attemptId}-detail`} className="bg-[#0a0a0f]">
-                        <td colSpan={10} className="p-0">
-                          <AttemptDetail attempt={a} questions={questions} />
+        {/* SPOM Table */}
+        {activeTab === 'spom' && (
+          <>
+            <div className="hidden md:block glass rounded-xl border border-[#1e1e2e] overflow-hidden mb-4">
+              <table className="w-full">
+                <thead className="border-b border-[#1e1e2e]">
+                  <tr>
+                    {['#', 'Username', 'Chapter', 'Attempt', 'Date & Time', 'Marks', '%', 'Time Taken', 'Status'].map(col => (
+                      <th key={col} className="px-4 py-3 text-left text-xs font-semibold text-[#94a3b8] uppercase tracking-wider">{col}</th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {paginated.length === 0 ? (
+                    <tr><td colSpan={9} className="text-center py-12 text-[#4a5568] text-sm">No SPOM attempts found</td></tr>
+                  ) : (
+                    (paginated as AdminSPOMAttemptRow[]).map((a, idx) => (
+                      <tr
+                        key={a.attemptId}
+                        className={`border-b border-[#1e1e2e]/50 hover:bg-[#1e1e2e]/30 transition-colors ${a.passed ? 'border-l-2 border-l-[#10b981]/40' : 'border-l-2 border-l-[#ef4444]/40'}`}
+                      >
+                        <td className="px-4 py-3 text-sm text-[#94a3b8]">{(page - 1) * PAGE_SIZE + idx + 1}</td>
+                        <td className="px-4 py-3 text-sm text-[#f1f5f9] font-medium">{a.username}</td>
+                        <td className="px-4 py-3 text-sm text-[#94a3b8] max-w-[180px] truncate" title={a.chapterName}>{a.chapterName}</td>
+                        <td className="px-4 py-3 text-sm text-[#94a3b8]">#{a.attemptNumber}</td>
+                        <td className="px-4 py-3 text-xs text-[#94a3b8]">
+                          {new Date(a.submittedAt).toLocaleString('en-IN', { day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' })}
+                        </td>
+                        <td className="px-4 py-3 text-sm font-bold text-[#f1f5f9]">{a.marksObtained}/{a.totalMarks}</td>
+                        <td className="px-4 py-3 text-sm text-[#94a3b8]">{a.percentage}%</td>
+                        <td className="px-4 py-3 text-xs text-[#94a3b8]">
+                          {Math.floor(a.timeTaken / 60)}m {a.timeTaken % 60}s
+                        </td>
+                        <td className="px-4 py-3">
+                          <span className={`text-xs px-2 py-1 rounded-full font-bold ${a.passed ? 'bg-[#10b981]/20 text-[#10b981]' : 'bg-[#ef4444]/20 text-[#ef4444]'}`}>
+                            {a.passed ? 'PASS' : 'FAIL'}
+                          </span>
                         </td>
                       </tr>
-                    )}
-                  </>
+                    ))
+                  )}
+                </tbody>
+              </table>
+            </div>
+            {/* Mobile SPOM cards */}
+            <div className="md:hidden space-y-3 mb-4">
+              {paginated.length === 0 ? (
+                <div className="text-center py-12 text-[#4a5568] text-sm">No SPOM attempts found</div>
+              ) : (
+                (paginated as AdminSPOMAttemptRow[]).map(a => (
+                  <div key={a.attemptId} className={`glass rounded-xl border border-[#1e1e2e] p-4 border-l-4 ${a.passed ? 'border-l-[#10b981]' : 'border-l-[#ef4444]'}`}>
+                    <div className="flex items-center justify-between mb-1">
+                      <span className="font-semibold text-sm text-[#f1f5f9]">{a.username}</span>
+                      <span className={`text-xs px-2 py-0.5 rounded-full font-bold ${a.passed ? 'bg-[#10b981]/20 text-[#10b981]' : 'bg-[#ef4444]/20 text-[#ef4444]'}`}>
+                        {a.passed ? 'PASS' : 'FAIL'}
+                      </span>
+                    </div>
+                    <p className="text-xs text-[#6366f1] mb-2 truncate">{a.chapterName}</p>
+                    <div className="flex items-center gap-4 text-xs text-[#94a3b8]">
+                      <span>Attempt #{a.attemptNumber}</span>
+                      <span className="font-bold text-[#f1f5f9]">{a.marksObtained}/{a.totalMarks}</span>
+                      <span>{a.percentage}%</span>
+                    </div>
+                    <div className="text-xs text-[#4a5568] mt-1">
+                      {new Date(a.submittedAt).toLocaleString('en-IN', { day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' })}
+                    </div>
+                  </div>
                 ))
               )}
-            </tbody>
-          </table>
-        </div>
+            </div>
+          </>
+        )}
 
-        {/* Mobile card list */}
-        <div className="md:hidden space-y-3 mb-4">
-          {paginated.length === 0 ? (
-            <div className="text-center py-12 text-[#4a5568] text-sm">No attempts found</div>
-          ) : (
-            paginated.map((a) => (
-              <div key={a.attemptId} className="glass rounded-xl border border-[#1e1e2e] overflow-hidden">
-                <div
-                  onClick={() => setExpandedId(expandedId === a.attemptId ? null : a.attemptId)}
-                  className={`p-4 cursor-pointer border-l-4 ${a.passed ? 'border-l-[#10b981]' : 'border-l-[#ef4444]'}`}
-                >
-                  <div className="flex items-center justify-between mb-2">
-                    <span className="font-semibold text-sm text-[#f1f5f9]">{a.username}</span>
-                    <span className={`text-xs px-2 py-0.5 rounded-full font-bold ${a.passed ? 'bg-[#10b981]/20 text-[#10b981]' : 'bg-[#ef4444]/20 text-[#ef4444]'}`}>
-                      {a.passed ? 'PASS' : 'FAIL'}
-                    </span>
+        {/* Legacy Table */}
+        {activeTab === 'legacy' && (
+          <>
+            <div className="hidden md:block glass rounded-xl border border-[#1e1e2e] overflow-hidden mb-4">
+              <table className="w-full">
+                <thead className="border-b border-[#1e1e2e]">
+                  <tr>
+                    {['#', 'Username', 'Attempt', 'Date & Time', 'Sec A', 'Sec B', 'Sec C', 'Total', '%', 'Status'].map(col => (
+                      <th key={col} className="px-4 py-3 text-left text-xs font-semibold text-[#94a3b8] uppercase tracking-wider">{col}</th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {paginated.length === 0 ? (
+                    <tr><td colSpan={10} className="text-center py-12 text-[#4a5568] text-sm">No attempts found</td></tr>
+                  ) : (
+                    (paginated as AdminAttemptRow[]).map((a, idx) => (
+                      <>
+                        <tr
+                          key={a.attemptId}
+                          onClick={() => setExpandedId(expandedId === a.attemptId ? null : a.attemptId)}
+                          className={`border-b border-[#1e1e2e]/50 cursor-pointer hover:bg-[#1e1e2e]/30 transition-colors ${a.passed ? 'border-l-2 border-l-[#10b981]/40' : 'border-l-2 border-l-[#ef4444]/40'}`}
+                        >
+                          <td className="px-4 py-3 text-sm text-[#94a3b8]">{(page - 1) * PAGE_SIZE + idx + 1}</td>
+                          <td className="px-4 py-3 text-sm text-[#f1f5f9] font-medium">{a.username}</td>
+                          <td className="px-4 py-3 text-sm text-[#94a3b8]">#{a.attemptNumber}</td>
+                          <td className="px-4 py-3 text-xs text-[#94a3b8]">
+                            {new Date(a.submittedAt).toLocaleString('en-IN', { day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' })}
+                          </td>
+                          <td className="px-4 py-3 text-sm font-semibold text-[#6366f1]">{a.mcqScore}/20</td>
+                          <td className="px-4 py-3 text-sm font-semibold text-[#f59e0b]">{a.shortScore}/20</td>
+                          <td className="px-4 py-3 text-sm font-semibold text-purple-400">{a.caseScore}/15</td>
+                          <td className="px-4 py-3 text-sm font-bold text-[#f1f5f9]">{a.totalScore}/55</td>
+                          <td className="px-4 py-3 text-sm text-[#94a3b8]">{a.percentage}%</td>
+                          <td className="px-4 py-3">
+                            <span className={`text-xs px-2 py-1 rounded-full font-bold ${a.passed ? 'bg-[#10b981]/20 text-[#10b981]' : 'bg-[#ef4444]/20 text-[#ef4444]'}`}>
+                              {a.passed ? 'PASS' : 'FAIL'}
+                            </span>
+                          </td>
+                        </tr>
+                        {expandedId === a.attemptId && questions && (
+                          <tr key={`${a.attemptId}-detail`} className="bg-[#0a0a0f]">
+                            <td colSpan={10} className="p-0">
+                              <AttemptDetail attempt={a} questions={questions} />
+                            </td>
+                          </tr>
+                        )}
+                      </>
+                    ))
+                  )}
+                </tbody>
+              </table>
+            </div>
+            {/* Mobile legacy cards */}
+            <div className="md:hidden space-y-3 mb-4">
+              {paginated.length === 0 ? (
+                <div className="text-center py-12 text-[#4a5568] text-sm">No attempts found</div>
+              ) : (
+                (paginated as AdminAttemptRow[]).map(a => (
+                  <div key={a.attemptId} className="glass rounded-xl border border-[#1e1e2e] overflow-hidden">
+                    <div
+                      onClick={() => setExpandedId(expandedId === a.attemptId ? null : a.attemptId)}
+                      className={`p-4 cursor-pointer border-l-4 ${a.passed ? 'border-l-[#10b981]' : 'border-l-[#ef4444]'}`}
+                    >
+                      <div className="flex items-center justify-between mb-2">
+                        <span className="font-semibold text-sm text-[#f1f5f9]">{a.username}</span>
+                        <span className={`text-xs px-2 py-0.5 rounded-full font-bold ${a.passed ? 'bg-[#10b981]/20 text-[#10b981]' : 'bg-[#ef4444]/20 text-[#ef4444]'}`}>
+                          {a.passed ? 'PASS' : 'FAIL'}
+                        </span>
+                      </div>
+                      <div className="flex items-center gap-4 text-xs text-[#94a3b8]">
+                        <span>Attempt #{a.attemptNumber}</span>
+                        <span className="font-bold text-[#f1f5f9]">{a.totalScore}/55</span>
+                        <span>{a.percentage}%</span>
+                      </div>
+                      <div className="text-xs text-[#4a5568] mt-1">
+                        {new Date(a.submittedAt).toLocaleString('en-IN', { day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' })}
+                      </div>
+                    </div>
+                    {expandedId === a.attemptId && questions && (
+                      <AttemptDetail attempt={a} questions={questions} />
+                    )}
                   </div>
-                  <div className="flex items-center gap-4 text-xs text-[#94a3b8]">
-                    <span>Attempt #{a.attemptNumber}</span>
-                    <span className="font-bold text-[#f1f5f9]">{a.totalScore}/55</span>
-                    <span>{a.percentage}%</span>
-                  </div>
-                  <div className="text-xs text-[#4a5568] mt-1">
-                    {new Date(a.submittedAt).toLocaleString('en-IN', { day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' })}
-                  </div>
-                </div>
-                {expandedId === a.attemptId && questions && (
-                  <AttemptDetail attempt={a} questions={questions} />
-                )}
-              </div>
-            ))
-          )}
-        </div>
+                ))
+              )}
+            </div>
+          </>
+        )}
 
         {/* Pagination */}
         {totalPages > 1 && (
