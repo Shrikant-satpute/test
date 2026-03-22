@@ -5,6 +5,102 @@
 // or MongoDB Atlas for production. See API routes for specific lines to change.
 // =============================================================================
 
+// ─── SPOM System Types ────────────────────────────────────────────────────────
+
+export interface Chapter {
+  id: string;
+  code: string;
+  name: string;
+  law: string;
+  category: 'companies-act' | 'securities-laws' | 'economic-laws';
+  totalQuestions: number;
+  totalMarks: number;
+  passMarks: number;
+  duration: number; // minutes
+  available: boolean;
+  keySections: string[];
+}
+
+export interface ChaptersData {
+  chapters: Chapter[];
+}
+
+export interface SPOMQuestion {
+  id: number;
+  question: string;
+  options: { A: string; B: string; C: string; D: string };
+  correct: 'A' | 'B' | 'C' | 'D';
+  explanation: string;
+  section: string;
+}
+
+export interface SPOMScenario {
+  scenarioId: string;
+  scenarioText: string;
+  questions: SPOMQuestion[];
+}
+
+export interface SPOMChapterData {
+  chapterId: string;
+  chapterName: string;
+  law: string;
+  category: string;
+  scenarios: SPOMScenario[];
+}
+
+export interface SPOMQuestionResult {
+  questionId: number;
+  scenarioId: string;
+  userAnswer: string;
+  correctAnswer: string;
+  isCorrect: boolean;
+  marksAwarded: number;
+  explanation: string;
+  section: string;
+}
+
+export interface SPOMAttempt {
+  attemptId: string;
+  chapterId: string;
+  chapterName: string;
+  attemptNumber: number;
+  submittedAt: string;
+  timeTaken: number; // seconds
+  answers: Record<number, string>; // questionId -> selected option
+  results: SPOMQuestionResult[];
+  score: number;          // questions correct
+  totalQuestions: number;
+  marksObtained: number;  // score * 2
+  totalMarks: number;     // totalQuestions * 2
+  percentage: number;
+  passed: boolean;
+}
+
+export interface SPOMResultsData {
+  [username: string]: {
+    [chapterId: string]: SPOMAttempt[];
+  };
+}
+
+export interface ChapterProgress {
+  chapterId: string;
+  attempted: boolean;
+  passed: boolean;
+  attempts: number;
+  bestScore: number;
+  bestPercentage: number;
+  lastAttemptedAt: string | null;
+}
+
+export interface SPOMSubmitPayload {
+  username: string;
+  chapterId: string;
+  answers: Record<number, string>;
+  timeTaken: number;
+}
+
+// ─── Legacy CA Intermediate Types (kept for backward compatibility) ───────────
+
 export interface User {
   username: string;
   password: string;

@@ -1,0 +1,277 @@
+{
+  "test": {
+    "ca-ch4": [
+      {
+        "attemptId": "e60bc1c2-ef7e-4eea-9157-531d9af1d856",
+        "chapterId": "ca-ch4",
+        "chapterName": "Inspection, Inquiry and Investigation",
+        "attemptNumber": 1,
+        "submittedAt": "2026-03-22T17:04:09.697Z",
+        "timeTaken": 15,
+        "answers": {
+          "1": "A",
+          "2": "A",
+          "3": "C"
+        },
+        "results": [
+          {
+            "questionId": 1,
+            "scenarioId": "s1",
+            "userAnswer": "A",
+            "correctAnswer": "C",
+            "isCorrect": false,
+            "marksAwarded": 0,
+            "explanation": "Section 206(1) provides that the Registrar may, by a notice in writing, call upon the company to furnish in writing such information or explanation, within such time as may be specified in the notice.",
+            "section": "Section 206(1)"
+          },
+          {
+            "questionId": 2,
+            "scenarioId": "s1",
+            "userAnswer": "A",
+            "correctAnswer": "C",
+            "isCorrect": false,
+            "marksAwarded": 0,
+            "explanation": "Section 206(4) empowers the Registrar, after giving reasonable notice to the company, to inspect the books of account and other books and papers of the company himself or appoint one or more inspectors for this purpose.",
+            "section": "Section 206(4)"
+          },
+          {
+            "questionId": 3,
+            "scenarioId": "s1",
+            "userAnswer": "C",
+            "correctAnswer": "C",
+            "isCorrect": true,
+            "marksAwarded": 2,
+            "explanation": "As per Section 207(2), the Inspector can retain the books of account and other books and papers for a period not exceeding 180 days at a time. After 180 days, it may be extended for a further period not exceeding 180 days with prior approval of the authority that appointed the Inspector.",
+            "section": "Section 207(2)"
+          },
+          {
+            "questionId": 4,
+            "scenarioId": "s1",
+            "userAnswer": "",
+            "correctAnswer": "C",
+            "isCorrect": false,
+            "marksAwarded": 0,
+            "explanation": "Section 208(2) provides that the report of any Inspector appointed under this Chapter shall be admissible as evidence in any legal proceedings. The report is submitted to the Central Government (not NCLT), and there is no mandatory right for the company to see the report before submission.",
+            "section": "Section 208"
+          },
+          {
+            "questionId": 5,
+            "scenarioId": "s2",
+            "userAnswer": "",
+            "correctAnswer": "C",
+            "isCorrect": false,
+            "marksAwarded": 0,
+            "explanation": "Section 210 provides for CG-ordered investigation on three grounds: (a) special resolution by the company, (b) Tribunal's order, or (c) CG's own opinion based on circumstances or information. Non-filing of annual returns is a separate default not covered under Section 210.",
+            "section": "Section 210"
+          },
+          {
+            "questionId": 6,
+            "scenarioId": "s2",
+            "userAnswer": "",
+            "correctAnswer": "B",
+            "isCorrect": false,
+            "marksAwarded": 0,
+            "explanation": "Section 212(2) specifically provides that where SFIO investigates any offence under this Act, no other investigating agency of the Central Government or any State Government shall proceed with investigation in such case. All ongoing investigations are transferred to SFIO.",
+            "section": "Section 212(2)"
+          },
+          {
+            "questionId": 7,
+            "scenarioId": "s2",
+            "userAnswer": "",
+            "correctAnswer": "C",
+            "isCorrect": false,
+            "marksAwarded": 0,
+            "explanation": "Section 212(6) provides that notwithstanding anything contained in the Code of Criminal Procedure, 1973, the offences covered under an SFIO investigation shall be cognizable and non-bailable. This makes it harder for accused persons to obtain bail.",
+            "section": "Section 212(6)"
+          },
+          {
+            "questionId": 8,
+            "scenarioId": "s3",
+            "userAnswer": "",
+            "correctAnswer": "B",
+            "isCorrect": false,
+            "marksAwarded": 0,
+            "explanation": "Section 213(a) provides that the Tribunal may order investigation on application of not less than 100 members, or members holding not less than 1/10th of the total number of members — whichever is less. In Galaxy's case, 1/10th of 8,000 = 800. Since 100 is less, the threshold is 100 members.",
+            "section": "Section 213(a)"
+          },
+          {
+            "questionId": 9,
+            "scenarioId": "s3",
+            "userAnswer": "",
+            "correctAnswer": "B",
+            "isCorrect": false,
+            "marksAwarded": 0,
+            "explanation": "Section 214 requires that no application shall be made to the Tribunal unless the applicant deposits such security for payment of costs and expenses as may be prescribed. The prescribed security deposit under the rules is ₹25,000.",
+            "section": "Section 214"
+          },
+          {
+            "questionId": 10,
+            "scenarioId": "s3",
+            "userAnswer": "",
+            "correctAnswer": "A",
+            "isCorrect": false,
+            "marksAwarded": 0,
+            "explanation": "If the Tribunal finds that the application was frivolous or vexatious, it may after hearing the applicant, by order make the applicant liable to pay costs to the company up to ₹1 lakh. This is a deterrent against frivolous petitions.",
+            "section": "Section 213"
+          },
+          {
+            "questionId": 11,
+            "scenarioId": "s4",
+            "userAnswer": "",
+            "correctAnswer": "C",
+            "isCorrect": false,
+            "marksAwarded": 0,
+            "explanation": "Section 217(1) gives inspectors powers of a civil court for purposes of the inspection, including summoning and enforcing attendance of any person and examining them on oath, and compelling production of documents. All officers, employees, agents, bankers, auditors, and legal advisors of the company are bound to assist the Inspector.",
+            "section": "Section 217"
+          },
+          {
+            "questionId": 12,
+            "scenarioId": "s4",
+            "userAnswer": "",
+            "correctAnswer": "B",
+            "isCorrect": false,
+            "marksAwarded": 0,
+            "explanation": "Section 227 expressly provides that nothing in this Chapter shall compel any legal advisor to disclose any privileged communication made to him in that capacity. Legal professional privilege is fully protected and the Inspector cannot override this protection.",
+            "section": "Section 227"
+          },
+          {
+            "questionId": 13,
+            "scenarioId": "s4",
+            "userAnswer": "",
+            "correctAnswer": "B",
+            "isCorrect": false,
+            "marksAwarded": 0,
+            "explanation": "Section 227 provides that nothing in this Chapter shall compel a banker to disclose any information as to the affairs of any of their customers other than such company, unless the Tribunal directs that such information shall be disclosed. So banker protection exists but can be overridden by Tribunal direction.",
+            "section": "Section 227"
+          },
+          {
+            "questionId": 14,
+            "scenarioId": "s4",
+            "userAnswer": "",
+            "correctAnswer": "C",
+            "isCorrect": false,
+            "marksAwarded": 0,
+            "explanation": "Section 217(7) provides that any person who refuses to answer the questions put to him by the Inspector, or refuses to produce any book or document, shall be punishable as if he were guilty of contempt of court. This gives the investigation teeth and ensures compliance.",
+            "section": "Section 217(7)"
+          },
+          {
+            "questionId": 15,
+            "scenarioId": "s5",
+            "userAnswer": "",
+            "correctAnswer": "B",
+            "isCorrect": false,
+            "marksAwarded": 0,
+            "explanation": "Section 220 provides that an Inspector shall not seize any books and papers unless he has obtained prior approval from the Central Government (if he was appointed by CG) or the Tribunal (if appointed by Tribunal). The appropriate authority depends on who ordered the investigation.",
+            "section": "Section 220"
+          },
+          {
+            "questionId": 16,
+            "scenarioId": "s5",
+            "userAnswer": "",
+            "correctAnswer": "C",
+            "isCorrect": false,
+            "marksAwarded": 0,
+            "explanation": "Section 220(2) requires the Inspector to return the books and papers seized within 180 days of seizure. This period may be extended with the prior approval of the authority under which the Inspector was appointed, for a further period not exceeding 180 days.",
+            "section": "Section 220(2)"
+          },
+          {
+            "questionId": 17,
+            "scenarioId": "s5",
+            "userAnswer": "",
+            "correctAnswer": "B",
+            "isCorrect": false,
+            "marksAwarded": 0,
+            "explanation": "Section 221 empowers the Tribunal to make an order (i) restraining disposal of any assets of a company or its related entities, or (ii) freezing assets of the company, if it is satisfied on the basis of the Inspector's report that there is adequate reason to do so. Interim report is sufficient — final report is not required.",
+            "section": "Section 221"
+          },
+          {
+            "questionId": 18,
+            "scenarioId": "s5",
+            "userAnswer": "",
+            "correctAnswer": "B",
+            "isCorrect": false,
+            "marksAwarded": 0,
+            "explanation": "Section 222 empowers the Tribunal to pass a restraint order directing that no transfer of shares or disposal of any asset of the company shall take place without the prior approval of the Tribunal. Routine operational payments like salaries and taxes are not affected by this order.",
+            "section": "Section 222"
+          },
+          {
+            "questionId": 19,
+            "scenarioId": "s6",
+            "userAnswer": "",
+            "correctAnswer": "B",
+            "isCorrect": false,
+            "marksAwarded": 0,
+            "explanation": "Section 223(1) provides that the Inspector shall, and if directed by the Central Government shall, submit interim reports to the Central Government and on conclusion of the investigation, shall submit a final report. Interim reports are expressly contemplated under the law.",
+            "section": "Section 223"
+          },
+          {
+            "questionId": 20,
+            "scenarioId": "s6",
+            "userAnswer": "",
+            "correctAnswer": "B",
+            "isCorrect": false,
+            "marksAwarded": 0,
+            "explanation": "Section 223(2) expressly provides that the report of any Inspector appointed under Chapter XIV shall be admissible in any legal proceeding as evidence in relation to any matter contained therein. The report is not conclusive but is admissible evidence.",
+            "section": "Section 223(2)"
+          },
+          {
+            "questionId": 21,
+            "scenarioId": "s6",
+            "userAnswer": "",
+            "correctAnswer": "C",
+            "isCorrect": false,
+            "marksAwarded": 0,
+            "explanation": "Section 224 gives multiple concurrent options to the CG: (a) present a petition for winding up, (b) file a complaint in court for any offence, (c) apply to the Tribunal for any appropriate relief against the company or its officers, or (d) arrange for disgorgement/recovery of assets fraudulently acquired.",
+            "section": "Section 224"
+          },
+          {
+            "questionId": 22,
+            "scenarioId": "s6",
+            "userAnswer": "",
+            "correctAnswer": "B",
+            "isCorrect": false,
+            "marksAwarded": 0,
+            "explanation": "Section 225(3) provides that where any person is convicted on a prosecution instituted as a result of the Inspector's report, the expenses of the investigation shall be recoverable from the convicted person as a civil debt due to the Central Government. This creates a personal liability on the convicted fraudster.",
+            "section": "Section 225(3)"
+          },
+          {
+            "questionId": 23,
+            "scenarioId": "s7",
+            "userAnswer": "",
+            "correctAnswer": "B",
+            "isCorrect": false,
+            "marksAwarded": 0,
+            "explanation": "Section 226 expressly provides that the voluntary winding up of a company shall not affect or stop the investigation directed under this Chapter. The legislature deliberately ensured that companies cannot escape investigation by opting for voluntary winding up.",
+            "section": "Section 226"
+          },
+          {
+            "questionId": 24,
+            "scenarioId": "s7",
+            "userAnswer": "",
+            "correctAnswer": "B",
+            "isCorrect": false,
+            "marksAwarded": 0,
+            "explanation": "Section 216(1) empowers the CG to appoint an Inspector to investigate and report on the membership of any company, and otherwise with respect to the company, for the purpose of determining the true persons who are or have been financially interested in the success or failure of the company or who are able to control or materially influence its policy.",
+            "section": "Section 216(1)"
+          },
+          {
+            "questionId": 25,
+            "scenarioId": "s7",
+            "userAnswer": "",
+            "correctAnswer": "B",
+            "isCorrect": false,
+            "marksAwarded": 0,
+            "explanation": "Section 215 provides that a firm or body corporate shall not be appointed as an Inspector under this Chapter. Only an individual person can be appointed as an Inspector. This ensures personal accountability and prevents diffusion of responsibility that would occur if a corporate entity were to act as Inspector.",
+            "section": "Section 215"
+          }
+        ],
+        "score": 1,
+        "totalQuestions": 25,
+        "marksObtained": 2,
+        "totalMarks": 50,
+        "percentage": 4,
+        "passed": false
+      }
+    ]
+  }
+}

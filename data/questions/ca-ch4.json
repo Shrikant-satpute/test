@@ -1,0 +1,375 @@
+{
+  "chapterId": "ca-ch4",
+  "chapterName": "Inspection, Inquiry and Investigation",
+  "law": "Companies Act, 2013",
+  "category": "companies-act",
+  "scenarios": [
+    {
+      "scenarioId": "s1",
+      "scenarioText": "Reliable Technologies Pvt. Ltd., a closely held private company, received a written notice from the Registrar of Companies (ROC) requiring it to furnish information and explanation regarding certain inter-company transactions with its holding company. The directors were unsure how to respond and sought legal advice. During review, the ROC found the information insufficient and decided to conduct deeper scrutiny of the company's books of accounts.",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Under Section 206 of the Companies Act, 2013, when the Registrar issues a written notice requiring the company to furnish information, the time allowed to respond is:",
+          "options": {
+            "A": "A fixed period of 15 days from the date of notice",
+            "B": "A fixed period of 30 days from the date of notice",
+            "C": "Such time as may be specified in the notice",
+            "D": "Not less than 7 days from the date of service"
+          },
+          "correct": "C",
+          "explanation": "Section 206(1) provides that the Registrar may, by a notice in writing, call upon the company to furnish in writing such information or explanation, within such time as may be specified in the notice.",
+          "section": "Section 206(1)"
+        },
+        {
+          "id": 2,
+          "question": "After examining the information furnished by Reliable Technologies Pvt. Ltd., the ROC was not satisfied with the explanation. Under Section 206(4), which action can the ROC take?",
+          "options": {
+            "A": "Directly file a criminal complaint before the Magistrate",
+            "B": "Pass an order for winding up of the company on his own authority",
+            "C": "After giving the company reasonable notice, inspect books himself or appoint one or more Inspectors",
+            "D": "Refer the matter directly to SFIO without any further inquiry"
+          },
+          "correct": "C",
+          "explanation": "Section 206(4) empowers the Registrar, after giving reasonable notice to the company, to inspect the books of account and other books and papers of the company himself or appoint one or more inspectors for this purpose.",
+          "section": "Section 206(4)"
+        },
+        {
+          "id": 3,
+          "question": "The ROC appointed an Inspector who inspected the books of Reliable Technologies Pvt. Ltd. During inspection, the Inspector retained certain documents for further examination. Under Section 207, what is the initial period for which an Inspector can retain such books?",
+          "options": {
+            "A": "30 days",
+            "B": "90 days",
+            "C": "180 days",
+            "D": "365 days"
+          },
+          "correct": "C",
+          "explanation": "As per Section 207(2), the Inspector can retain the books of account and other books and papers for a period not exceeding 180 days at a time. After 180 days, it may be extended for a further period not exceeding 180 days with prior approval of the authority that appointed the Inspector.",
+          "section": "Section 207(2)"
+        },
+        {
+          "id": 4,
+          "question": "After completing the inspection of Reliable Technologies Pvt. Ltd., the Inspector prepared his report. Under Section 208, which of the following statements about the Inspector's report is CORRECT?",
+          "options": {
+            "A": "The report is confidential and cannot be used as evidence in any court of law",
+            "B": "The report must be submitted to the NCLT, which then forwards it to the Central Government",
+            "C": "The report submitted to the Central Government is admissible as evidence in legal proceedings",
+            "D": "The company has a right to access the full report before it is submitted to the Central Government"
+          },
+          "correct": "C",
+          "explanation": "Section 208(2) provides that the report of any Inspector appointed under this Chapter shall be admissible as evidence in any legal proceedings. The report is submitted to the Central Government (not NCLT), and there is no mandatory right for the company to see the report before submission.",
+          "section": "Section 208"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s2",
+      "scenarioText": "Following widespread media reports about large-scale financial irregularities at Prestige Constructions Ltd., a listed public company, the Ministry of Corporate Affairs received multiple complaints from investors and creditors. The Central Government, after preliminary inquiry, found circumstances suggesting that the company's business was being conducted with intent to defraud its creditors and investors. The investigation was subsequently assigned to the Serious Fraud Investigation Office (SFIO).",
+      "questions": [
+        {
+          "id": 5,
+          "question": "Under Section 210 of the Companies Act, 2013, the Central Government can order an investigation into the affairs of a company. Which of the following is NOT a valid ground for ordering such an investigation?",
+          "options": {
+            "A": "The company has passed a special resolution requesting investigation",
+            "B": "The Tribunal, in the course of any proceeding before it, has ordered investigation",
+            "C": "The company has failed to file its annual returns for two consecutive years",
+            "D": "The Central Government is of the opinion, based on information received, that the business is being conducted fraudulently"
+          },
+          "correct": "C",
+          "explanation": "Section 210 provides for CG-ordered investigation on three grounds: (a) special resolution by the company, (b) Tribunal's order, or (c) CG's own opinion based on circumstances or information. Non-filing of annual returns is a separate default not covered under Section 210.",
+          "section": "Section 210"
+        },
+        {
+          "id": 6,
+          "question": "Once the SFIO takes up the investigation of Prestige Constructions Ltd. under Section 212, which of the following statements is CORRECT regarding other investigating agencies?",
+          "options": {
+            "A": "The ROC may simultaneously continue its own inspection initiated before SFIO was assigned",
+            "B": "No other investigating agency of the Central Government shall investigate the affairs of the company",
+            "C": "The company's statutory auditors are automatically suspended from performing their duties",
+            "D": "The company's board of directors must resign immediately upon SFIO assignment"
+          },
+          "correct": "B",
+          "explanation": "Section 212(2) specifically provides that where SFIO investigates any offence under this Act, no other investigating agency of the Central Government or any State Government shall proceed with investigation in such case. All ongoing investigations are transferred to SFIO.",
+          "section": "Section 212(2)"
+        },
+        {
+          "id": 7,
+          "question": "Under Section 212 of the Companies Act, 2013, offences covered in an SFIO investigation are treated as:",
+          "options": {
+            "A": "Compoundable and bailable",
+            "B": "Non-compoundable but bailable",
+            "C": "Cognizable and non-bailable",
+            "D": "Cognizable but bailable at the discretion of the court"
+          },
+          "correct": "C",
+          "explanation": "Section 212(6) provides that notwithstanding anything contained in the Code of Criminal Procedure, 1973, the offences covered under an SFIO investigation shall be cognizable and non-bailable. This makes it harder for accused persons to obtain bail.",
+          "section": "Section 212(6)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s3",
+      "scenarioText": "Galaxy Pharmaceuticals Ltd. is a listed public company having a share capital of ₹10 crores, divided into 1,00,000 equity shares with 8,000 registered members. A group of 120 members filed an application before the National Company Law Tribunal (NCLT) alleging mismanagement and large-scale fraud by the promoter directors, who were siphoning off company funds through fictitious subsidiaries. The NCLT is considering whether to order a formal investigation.",
+      "questions": [
+        {
+          "id": 8,
+          "question": "Under Section 213 of the Companies Act, 2013, for a company having share capital, what is the minimum number of members required to make a valid application to the Tribunal for ordering an investigation?",
+          "options": {
+            "A": "Not less than 200 members or 1/5th of total members, whichever is less",
+            "B": "Not less than 100 members or 1/10th of total members, whichever is less",
+            "C": "Not less than 50 members or 1/5th of total members, whichever is more",
+            "D": "Not less than 100 members or 1/5th of total members, whichever is more"
+          },
+          "correct": "B",
+          "explanation": "Section 213(a) provides that the Tribunal may order investigation on application of not less than 100 members, or members holding not less than 1/10th of the total number of members — whichever is less. In Galaxy's case, 1/10th of 8,000 = 800. Since 100 is less, the threshold is 100 members.",
+          "section": "Section 213(a)"
+        },
+        {
+          "id": 9,
+          "question": "The 120 members of Galaxy Pharmaceuticals Ltd. filed their application before the NCLT. What is the security deposit they must furnish along with the application under Section 213?",
+          "options": {
+            "A": "₹10,000",
+            "B": "₹25,000",
+            "C": "₹50,000",
+            "D": "₹1,00,000"
+          },
+          "correct": "B",
+          "explanation": "Section 214 requires that no application shall be made to the Tribunal unless the applicant deposits such security for payment of costs and expenses as may be prescribed. The prescribed security deposit under the rules is ₹25,000.",
+          "section": "Section 214"
+        },
+        {
+          "id": 10,
+          "question": "After examination, the NCLT found that the application filed by the 120 members of Galaxy Pharmaceuticals Ltd. was vexatious and not supported by genuine concerns. What order can the NCLT pass in such a case?",
+          "options": {
+            "A": "Order the applicant members to pay costs to the company, not exceeding ₹1 lakh",
+            "B": "Dismiss the application and order no further action",
+            "C": "Refer the matter to the ROC for a preliminary investigation",
+            "D": "Pass no specific order — the Tribunal can only order investigation, not costs"
+          },
+          "correct": "A",
+          "explanation": "If the Tribunal finds that the application was frivolous or vexatious, it may after hearing the applicant, by order make the applicant liable to pay costs to the company up to ₹1 lakh. This is a deterrent against frivolous petitions.",
+          "section": "Section 213"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s4",
+      "scenarioText": "An Inspector was appointed by the Central Government to investigate the affairs of Monarch Steel Ltd. following an anonymous complaint. During the investigation, the Inspector summoned the company's statutory auditor, legal advisor, banker, and several employees to produce documents and give statements. Each party raised different objections about the scope of the Inspector's powers and their obligations to cooperate.",
+      "questions": [
+        {
+          "id": 11,
+          "question": "Under Section 217 of the Companies Act, 2013, when an Inspector calls upon any officer, employee, or agent of the company to appear before him, the person is bound to:",
+          "options": {
+            "A": "Appear only if he is a current director or officer of the company",
+            "B": "Appear and answer questions but is not bound to produce physical documents",
+            "C": "Appear, answer questions on oath, and produce all such books, documents and records as required",
+            "D": "Appear only if a separate court order for each person is obtained"
+          },
+          "correct": "C",
+          "explanation": "Section 217(1) gives inspectors powers of a civil court for purposes of the inspection, including summoning and enforcing attendance of any person and examining them on oath, and compelling production of documents. All officers, employees, agents, bankers, auditors, and legal advisors of the company are bound to assist the Inspector.",
+          "section": "Section 217"
+        },
+        {
+          "id": 12,
+          "question": "The company's legal advisor refused to produce certain written communications exchanged with Monarch Steel Ltd., claiming legal professional privilege. Under Section 227 of the Companies Act, 2013, which of the following statements is CORRECT?",
+          "options": {
+            "A": "Legal advisors must produce all communications with the company without any exception",
+            "B": "Legal advisors are not compelled to disclose any privileged communication made to them in that capacity",
+            "C": "Legal professional privilege applies only in criminal proceedings, not in company law investigations",
+            "D": "The Inspector can override legal privilege with a special order from the Central Government"
+          },
+          "correct": "B",
+          "explanation": "Section 227 expressly provides that nothing in this Chapter shall compel any legal advisor to disclose any privileged communication made to him in that capacity. Legal professional privilege is fully protected and the Inspector cannot override this protection.",
+          "section": "Section 227"
+        },
+        {
+          "id": 13,
+          "question": "The banker of Monarch Steel Ltd. was summoned and refused to provide details about the company's accounts, citing banking secrecy obligations. Under Section 227, which statement is CORRECT regarding the banker's position?",
+          "options": {
+            "A": "Bankers are completely exempt from any obligation to disclose customer information to an Inspector",
+            "B": "Bankers can be compelled to disclose information relating to the company's affairs only if the Tribunal makes a specific direction in this regard",
+            "C": "Bankers must mandatorily disclose all account information to the Inspector without requiring any Tribunal order",
+            "D": "Bankers may be compelled by the Central Government to disclose information, but not by an Inspector"
+          },
+          "correct": "B",
+          "explanation": "Section 227 provides that nothing in this Chapter shall compel a banker to disclose any information as to the affairs of any of their customers other than such company, unless the Tribunal directs that such information shall be disclosed. So banker protection exists but can be overridden by Tribunal direction.",
+          "section": "Section 227"
+        },
+        {
+          "id": 14,
+          "question": "An employee of Monarch Steel Ltd. refused to answer certain questions put by the Inspector, claiming the questions were irrelevant to the investigation. What are the legal consequences of such refusal under Section 217?",
+          "options": {
+            "A": "The Inspector can impose a penalty of ₹50,000 on the spot for non-cooperation",
+            "B": "The employee shall be punishable with imprisonment up to 6 months under the Companies Act",
+            "C": "The person refusing shall be liable as if he were guilty of contempt of court",
+            "D": "The Inspector can only report the refusal to the CG, who may take enforcement action later"
+          },
+          "correct": "C",
+          "explanation": "Section 217(7) provides that any person who refuses to answer the questions put to him by the Inspector, or refuses to produce any book or document, shall be punishable as if he were guilty of contempt of court. This gives the investigation teeth and ensures compliance.",
+          "section": "Section 217(7)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s5",
+      "scenarioText": "During the investigation of Pacific Traders Ltd., the Inspector discovered critical financial documents that appeared to be in danger of being tampered with, removed, or destroyed by certain employees. He applied to the Central Government for permission to seize these documents. Separately, following submission of the Inspector's interim report revealing massive asset misappropriation, the company's assets were sought to be protected through court orders.",
+      "questions": [
+        {
+          "id": 15,
+          "question": "Under Section 220 of the Companies Act, 2013, an Inspector can seize documents or books of the company only with prior approval of:",
+          "options": {
+            "A": "The NCLT alone, regardless of who appointed the Inspector",
+            "B": "The Central Government or the Tribunal, depending on under whose authority the investigation was ordered",
+            "C": "The Serious Fraud Investigation Office in all cases",
+            "D": "The Registrar of Companies after obtaining a Magistrate's order"
+          },
+          "correct": "B",
+          "explanation": "Section 220 provides that an Inspector shall not seize any books and papers unless he has obtained prior approval from the Central Government (if he was appointed by CG) or the Tribunal (if appointed by Tribunal). The appropriate authority depends on who ordered the investigation.",
+          "section": "Section 220"
+        },
+        {
+          "id": 16,
+          "question": "After seizing documents from Pacific Traders Ltd., the Inspector must return them within what time period under Section 220?",
+          "options": {
+            "A": "30 days, extendable by another 30 days with fresh approval",
+            "B": "90 days, which is not extendable under any circumstances",
+            "C": "180 days, extendable by a further period not exceeding 180 days with prior approval",
+            "D": "365 days from the date of seizure, with no extension permitted"
+          },
+          "correct": "C",
+          "explanation": "Section 220(2) requires the Inspector to return the books and papers seized within 180 days of seizure. This period may be extended with the prior approval of the authority under which the Inspector was appointed, for a further period not exceeding 180 days.",
+          "section": "Section 220(2)"
+        },
+        {
+          "id": 17,
+          "question": "The NCLT was approached to freeze the assets of Pacific Traders Ltd. based on the Inspector's interim report. Under Section 221, the NCLT can pass a freezing order if:",
+          "options": {
+            "A": "Only after the Inspector has submitted his final report confirming fraud beyond reasonable doubt",
+            "B": "The Tribunal is satisfied on the basis of the Inspector's report that there are adequate reasons to freeze the assets",
+            "C": "The company has already been declared insolvent under the IBC, 2016",
+            "D": "The Central Government passes a specific notification authorising the NCLT to freeze assets"
+          },
+          "correct": "B",
+          "explanation": "Section 221 empowers the Tribunal to make an order (i) restraining disposal of any assets of a company or its related entities, or (ii) freezing assets of the company, if it is satisfied on the basis of the Inspector's report that there is adequate reason to do so. Interim report is sufficient — final report is not required.",
+          "section": "Section 221"
+        },
+        {
+          "id": 18,
+          "question": "The NCLT issued a restraint order against Pacific Traders Ltd. under Section 222. Which of the following transactions would be PROHIBITED without prior NCLT approval under such an order?",
+          "options": {
+            "A": "Payment of salaries and statutory wages to employees",
+            "B": "Transfer of shares by any member, or disposal of any asset of the company",
+            "C": "Filing of statutory returns and compliance forms with the ROC",
+            "D": "Payment of statutory dues such as TDS, GST and other taxes"
+          },
+          "correct": "B",
+          "explanation": "Section 222 empowers the Tribunal to pass a restraint order directing that no transfer of shares or disposal of any asset of the company shall take place without the prior approval of the Tribunal. Routine operational payments like salaries and taxes are not affected by this order.",
+          "section": "Section 222"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s6",
+      "scenarioText": "After completing a two-year investigation of Pinnacle Infrastructure Ltd., the Inspector submitted his comprehensive report to the Central Government. The report revealed serious irregularities including large-scale misappropriation of ₹500 crores by promoter directors, creation of fictitious assets, and systematic fraud against minority shareholders and creditors. The Central Government is now deliberating on the appropriate course of action based on the Inspector's findings.",
+      "questions": [
+        {
+          "id": 19,
+          "question": "Under Section 223 of the Companies Act, 2013, regarding the Inspector's Report, which of the following is CORRECT?",
+          "options": {
+            "A": "The Inspector must submit only a single final report; submission of interim reports is not permitted",
+            "B": "The Inspector may and shall submit interim report(s) as well as a final report to the Central Government",
+            "C": "The final report must be simultaneously submitted to the company and the Central Government",
+            "D": "The Inspector's report must be submitted to the NCLT which then presents it to the Central Government"
+          },
+          "correct": "B",
+          "explanation": "Section 223(1) provides that the Inspector shall, and if directed by the Central Government shall, submit interim reports to the Central Government and on conclusion of the investigation, shall submit a final report. Interim reports are expressly contemplated under the law.",
+          "section": "Section 223"
+        },
+        {
+          "id": 20,
+          "question": "In subsequent legal proceedings against the promoter directors of Pinnacle Infrastructure Ltd., the prosecutor sought to admit the Inspector's report as evidence. This was challenged by the defense. The Inspector's report is admissible because:",
+          "options": {
+            "A": "An Inspector is a government officer and therefore his findings are legally conclusive against the company",
+            "B": "Section 223(2) specifically provides that the Inspector's report is admissible as evidence",
+            "C": "Evidence of this type is always admissible under the Indian Evidence Act, 1872 without qualification",
+            "D": "The company had agreed during the investigation process that the report could be used as evidence"
+          },
+          "correct": "B",
+          "explanation": "Section 223(2) expressly provides that the report of any Inspector appointed under Chapter XIV shall be admissible in any legal proceeding as evidence in relation to any matter contained therein. The report is not conclusive but is admissible evidence.",
+          "section": "Section 223(2)"
+        },
+        {
+          "id": 21,
+          "question": "Based on the Inspector's report revealing massive fraud at Pinnacle Infrastructure Ltd., what actions can the Central Government take under Section 224?",
+          "options": {
+            "A": "Only petition for winding up — the court handles all criminal and civil remedies independently",
+            "B": "Only file a criminal complaint — civil remedies like winding up must be pursued separately",
+            "C": "Present a petition for winding up, file a complaint for prosecution, apply to NCLT for relief, or direct recovery of assets",
+            "D": "Directly impose penalties on the directors without any court proceedings"
+          },
+          "correct": "C",
+          "explanation": "Section 224 gives multiple concurrent options to the CG: (a) present a petition for winding up, (b) file a complaint in court for any offence, (c) apply to the Tribunal for any appropriate relief against the company or its officers, or (d) arrange for disgorgement/recovery of assets fraudulently acquired.",
+          "section": "Section 224"
+        },
+        {
+          "id": 22,
+          "question": "The investigation expenses incurred by the Central Government in the Pinnacle Infrastructure Ltd. case amounted to ₹2 crores. After a promoter director was convicted for the fraud discovered during the investigation, what happens to these investigation expenses under Section 225?",
+          "options": {
+            "A": "The expenses are permanently written off as routine government expenditure",
+            "B": "The expenses are recoverable from the convicted person as a civil debt due to the Central Government",
+            "C": "The company must compulsorily reimburse the Central Government regardless of any conviction",
+            "D": "The NCLT determines on a case-by-case basis whether investigation expenses are recoverable"
+          },
+          "correct": "B",
+          "explanation": "Section 225(3) provides that where any person is convicted on a prosecution instituted as a result of the Inspector's report, the expenses of the investigation shall be recoverable from the convicted person as a civil debt due to the Central Government. This creates a personal liability on the convicted fraudster.",
+          "section": "Section 225(3)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s7",
+      "scenarioText": "Cosmos Trading Ltd. was under active SFIO investigation when its shareholders, due to unrelated business difficulties, passed a special resolution for voluntary winding up. Simultaneously, the Central Government was separately investigating the beneficial ownership structure of Nova Holdings Ltd., where it suspected that certain foreign entities were exercising covert control over the company's affairs in violation of regulatory norms. During the investigation of Nova Holdings, the Central Government was considering appointing a firm of chartered accountants as the Inspector.",
+      "questions": [
+        {
+          "id": 23,
+          "question": "After Cosmos Trading Ltd. passed a resolution for voluntary winding up, what is the effect on the ongoing SFIO investigation under Section 226?",
+          "options": {
+            "A": "Voluntary winding up automatically terminates any ongoing investigation as the company ceases to exist",
+            "B": "The investigation continues undisturbed — Section 226 provides that voluntary winding up shall not affect or stop the investigation",
+            "C": "The investigation is suspended and can only continue after fresh approval from the Central Government",
+            "D": "The Inspector must apply to NCLT within 30 days to obtain permission to continue the investigation"
+          },
+          "correct": "B",
+          "explanation": "Section 226 expressly provides that the voluntary winding up of a company shall not affect or stop the investigation directed under this Chapter. The legislature deliberately ensured that companies cannot escape investigation by opting for voluntary winding up.",
+          "section": "Section 226"
+        },
+        {
+          "id": 24,
+          "question": "The Central Government is investigating the ownership structure of Nova Holdings Ltd. under Section 216. What is the PRIMARY purpose of an investigation ordered under Section 216?",
+          "options": {
+            "A": "To investigate whether the company has committed fraud against its secured creditors",
+            "B": "To ascertain the persons who are or have been financially interested in the success or failure of the company or who are able to control or materially influence its policy",
+            "C": "To identify members who have transferred shares in violation of SEBI insider trading regulations",
+            "D": "To investigate the company's related party transactions for violations under Section 188"
+          },
+          "correct": "B",
+          "explanation": "Section 216(1) empowers the CG to appoint an Inspector to investigate and report on the membership of any company, and otherwise with respect to the company, for the purpose of determining the true persons who are or have been financially interested in the success or failure of the company or who are able to control or materially influence its policy.",
+          "section": "Section 216(1)"
+        },
+        {
+          "id": 25,
+          "question": "The Central Government was considering appointing a reputed firm of chartered accountants as the Inspector for investigating Nova Holdings Ltd.'s ownership structure. Under Section 215, which restriction applies to such an appointment?",
+          "options": {
+            "A": "An Inspector must mandatorily be a practising advocate of at least 10 years standing",
+            "B": "A firm or body corporate shall not be appointed as an Inspector under this Chapter",
+            "C": "The Inspector must be a serving IAS or IPS officer of Joint Secretary rank or above",
+            "D": "Any Inspector appointed must first obtain prior clearance from SEBI before commencing investigation"
+          },
+          "correct": "B",
+          "explanation": "Section 215 provides that a firm or body corporate shall not be appointed as an Inspector under this Chapter. Only an individual person can be appointed as an Inspector. This ensures personal accountability and prevents diffusion of responsibility that would occur if a corporate entity were to act as Inspector.",
+          "section": "Section 215"
+        }
+      ]
+    }
+  ]
+}

@@ -18,7 +18,7 @@ export default function LoginPage() {
     if (session) {
       const { role, loggedIn } = JSON.parse(session);
       if (loggedIn) {
-        router.push(role === 'admin' ? '/admin' : '/exam');
+        router.push(role === 'admin' ? '/admin' : '/dashboard');
       }
     }
   }, [router]);
@@ -46,7 +46,7 @@ export default function LoginPage() {
             loginTime: new Date().toISOString(),
           })
         );
-        router.push(data.role === 'admin' ? '/admin' : '/exam');
+        router.push(data.role === 'admin' ? '/admin' : '/dashboard');
       } else {
         setError(data.error || 'Invalid credentials');
         setShaking(true);
