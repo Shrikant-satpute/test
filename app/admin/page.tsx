@@ -257,7 +257,10 @@ export default function AdminPage() {
                       >
                         <td className="px-4 py-3 text-sm text-[#94a3b8]">{(page - 1) * PAGE_SIZE + idx + 1}</td>
                         <td className="px-4 py-3 text-sm text-[#f1f5f9] font-medium">{a.username}</td>
-                        <td className="px-4 py-3 text-sm text-[#94a3b8] max-w-[180px] truncate" title={a.chapterName}>{a.chapterName}</td>
+                        <td className="px-4 py-3 text-sm text-[#94a3b8] max-w-[180px] truncate" title={a.chapterName}>
+                          {a.chapterName}
+                          {a.chapterId && <span className="ml-1.5 text-xs font-bold text-[#6366f1] bg-[#6366f1]/10 px-1.5 py-0.5 rounded">{a.chapterId.replace('ca-ch', '')}</span>}
+                        </td>
                         <td className="px-4 py-3 text-sm text-[#94a3b8]">#{a.attemptNumber}</td>
                         <td className="px-4 py-3 text-xs text-[#94a3b8]">
                           {new Date(a.submittedAt).toLocaleString('en-IN', { day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' })}
@@ -291,7 +294,10 @@ export default function AdminPage() {
                         {a.passed ? 'PASS' : 'FAIL'}
                       </span>
                     </div>
-                    <p className="text-xs text-[#6366f1] mb-2 truncate">{a.chapterName}</p>
+                    <p className="text-xs text-[#6366f1] mb-2 truncate">
+                      {a.chapterName}
+                      {a.chapterId && <span className="ml-1.5 font-bold bg-[#6366f1]/20 px-1.5 py-0.5 rounded">{a.chapterId.replace('ca-ch', '')}</span>}
+                    </p>
                     <div className="flex items-center gap-4 text-xs text-[#94a3b8]">
                       <span>Attempt #{a.attemptNumber}</span>
                       <span className="font-bold text-[#f1f5f9]">{a.marksObtained}/{a.totalMarks}</span>
