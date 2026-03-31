@@ -1,19 +1,16 @@
-// =============================================================================
-// POST /api/login
-// Validates user credentials against /data/users.json
-//
-// ⚠️ VERCEL DEPLOYMENT NOTE:
-// This route reads from /data/users.json using Node.js `fs` module.
-// On Vercel, files in /data/ are read-only and persist as part of the deployment.
-// For mutable data (results), replace fs.writeFile with:
-//   - Vercel KV: import { kv } from '@vercel/kv'; await kv.set(key, value);
-//   - MongoDB Atlas: Use mongoose or mongodb driver
-// =============================================================================
-
 import { NextRequest, NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
+import { SignJWT } from 'jose';
 import type { UsersData, LoginPayload } from '@/lib/types';
+
+const JWT_SECRET = new TextEncoder().encode(
+  process.env.JWT_SECRET || 'ca-mock-test-secret-key-change-in-production'
+);
+
+export async function OPTIONS() {
+  return new NextResponse(null, { status: 204 });
+}
 
 export async function POST(request: NextRequest) {
   try {
@@ -27,7 +24,6 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // TO REPLACE FOR VERCEL KV: const usersRaw = await kv.get('users');
     const usersPath = path.join(process.cwd(), 'data', 'users.json');
     const usersRaw = fs.readFileSync(usersPath, 'utf-8');
     const usersData: UsersData = JSON.parse(usersRaw);
@@ -43,10 +39,17 @@ export async function POST(request: NextRequest) {
       );
     }
 
+    const token = await new SignJWT({ username: user.username, role: user.role })
+      .setProtectedHeader({ alg: 'HS256' })
+      .setIssuedAt()
+      .setExpirationTime('30d')
+      .sign(JWT_SECRET);
+
     return NextResponse.json({
       success: true,
       role: user.role,
       username: user.username,
+      token,
     });
   } catch (error) {
     console.error('Login error:', error);
