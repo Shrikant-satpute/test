@@ -1,0 +1,718 @@
+{
+  "chapterId": "ca-ch5",
+  "chapterName": "Compromises, Arrangements and Amalgamations",
+  "law": "Companies Act, 2013",
+  "category": "companies-act",
+  "scenarios": [
+    {
+      "scenarioId": "s1",
+      "scenarioText": "Pinnacle Industries Ltd., a listed company facing heavy debt, proposed a scheme of compromise under Section 230 with its secured creditors. The Tribunal directed a meeting of creditors. At the meeting, creditors representing 68% in value voted in favour. A group of creditors holding 6% of the outstanding debt objected to the scheme, claiming the company had not disclosed pending investigations. The company argued the scheme was validly passed.",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Under Section 230, what is the minimum threshold of approval (in value) required from creditors for a scheme of compromise or arrangement to be validly passed at a Tribunal-directed meeting?",
+          "options": {
+            "A": "Simple majority (more than 50%) in value present and voting",
+            "B": "Two-thirds (66.67%) in value of total creditors",
+            "C": "Three-fourths (75%) in value of those present and voting",
+            "D": "Nine-tenths (90%) in value of total creditors"
+          },
+          "correct": "C",
+          "explanation": "Section 230(6) requires the scheme to be agreed to by a majority of persons representing three-fourths in value of the creditors (or members, or class thereof) present and voting at the Tribunal-directed meeting. Since only 68% voted in favour, the scheme was NOT validly passed.",
+          "section": "Section 230(6)"
+        },
+        {
+          "id": 2,
+          "question": "The creditors holding 6% of outstanding debt filed an objection with the Tribunal. Under Section 230(4), what is the minimum debt threshold required for creditors to raise valid objections before the Tribunal?",
+          "options": {
+            "A": "Creditors holding not less than 10% of outstanding debt",
+            "B": "Creditors holding not less than 5% of total outstanding debt",
+            "C": "Creditors holding not less than 1% of total outstanding debt",
+            "D": "Any creditor irrespective of the amount of debt"
+          },
+          "correct": "B",
+          "explanation": "Section 230(4) permits objections to be raised only by persons holding not less than 10% of the shareholding OR having outstanding debt amounting to not less than 5% of the total outstanding debt. Since the creditors hold 6% of outstanding debt (exceeding the 5% threshold), their objection is validly maintainable.",
+          "section": "Section 230(4)"
+        },
+        {
+          "id": 3,
+          "question": "The company's auditor was required to file a certificate with the Tribunal before the scheme could be sanctioned. What must this auditor's certificate confirm under Section 230?",
+          "options": {
+            "A": "That the company is solvent and can pay its debts",
+            "B": "That all creditors have been individually informed about the scheme",
+            "C": "That the accounting treatment proposed in the scheme conforms to the applicable Accounting Standards",
+            "D": "That the scheme will result in a net profit for the company within 3 years"
+          },
+          "correct": "C",
+          "explanation": "No compromise or arrangement shall be sanctioned by the Tribunal unless a certificate from the company's auditor has been filed to the effect that the accounting treatment, if any, proposed in the scheme of compromise or arrangement is in conformity with the Accounting Standards prescribed under Section 133.",
+          "section": "Section 230"
+        },
+        {
+          "id": 4,
+          "question": "Had the scheme been validly passed at the meeting, within how many days of the Chairperson's report must the company file a petition with the Tribunal for sanction of the scheme?",
+          "options": {
+            "A": "3 days",
+            "B": "7 days",
+            "C": "14 days",
+            "D": "30 days"
+          },
+          "correct": "B",
+          "explanation": "Section 230(6) provides that once the proposed compromise or arrangement is agreed to, the company (or its liquidator) shall, within seven days of the filing of the report by the Chairperson, present a petition to the Tribunal for sanction of the scheme.",
+          "section": "Section 230(6)"
+        },
+        {
+          "id": 5,
+          "question": "After the Tribunal sanctions the scheme, within how many days must the company file the Tribunal's order with the Registrar of Companies?",
+          "options": {
+            "A": "7 days",
+            "B": "14 days",
+            "C": "21 days",
+            "D": "30 days"
+          },
+          "correct": "D",
+          "explanation": "Section 230(6) read with the Rules provides that the order of the Tribunal shall be filed with the Registrar of Companies by the company within a period of thirty days of the receipt of the order of the Tribunal.",
+          "section": "Section 230(6)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s2",
+      "scenarioText": "Vega Pharmaceuticals Ltd. proposed a scheme of compromise with its creditors under Section 230. The company wanted to avoid convening a full creditors' meeting. A group of creditors with 92% value of total debt signed affidavits consenting to the scheme. The notice for the meeting was placed on the company's website 25 days before the meeting date. Additionally, a proxy was submitted by a creditor 36 hours before the meeting.",
+      "questions": [
+        {
+          "id": 6,
+          "question": "The company argued that since creditors with 92% value had consented via affidavits, the Tribunal could waive the creditors' meeting. Under Section 230, at what percentage of consent value can the Tribunal dispense with the meeting?",
+          "options": {
+            "A": "More than 75% in value",
+            "B": "More than 80% in value",
+            "C": "At least 90% in value",
+            "D": "100% in value of all creditors"
+          },
+          "correct": "C",
+          "explanation": "Section 230(9) provides that if creditors or members having at least ninety percent value agree and confirm by way of affidavit to the scheme of compromise or arrangement, the Tribunal may dispense with calling of the meeting of creditors or members.",
+          "section": "Section 230(9)"
+        },
+        {
+          "id": 7,
+          "question": "The website notice for the meeting was placed 25 days before the meeting date. Is this compliant with the requirements under Section 230?",
+          "options": {
+            "A": "Yes, because notices must be placed at least 21 days before the meeting",
+            "B": "No, because notices must be placed not less than 30 days before the meeting date",
+            "C": "Yes, because the law only requires 21 days' notice for the website publication",
+            "D": "No, because website notice is not required at all under Section 230"
+          },
+          "correct": "B",
+          "explanation": "Section 230(3) requires that the notice of the meeting shall also be placed, not less than thirty days before the date fixed for the meeting, on the website of the company (if any). Since it was placed only 25 days before, this is non-compliant.",
+          "section": "Section 230(3)"
+        },
+        {
+          "id": 8,
+          "question": "The proxy submitted 36 hours before the meeting was rejected by the company. Is this rejection valid?",
+          "options": {
+            "A": "No, proxies can be submitted until the meeting begins",
+            "B": "No, proxies need only be submitted 24 hours in advance",
+            "C": "Yes, proxies must be submitted not later than 48 hours before the meeting",
+            "D": "Yes, proxies must be submitted at least 72 hours before the meeting"
+          },
+          "correct": "C",
+          "explanation": "The proxy must be submitted not later than 48 hours before the meeting. Since the proxy was submitted only 36 hours before, it was validly rejected as it did not meet the 48-hour requirement.",
+          "section": "Section 230 read with Rules"
+        },
+        {
+          "id": 9,
+          "question": "Under Section 230, which of the following persons is NOT entitled to apply to the Tribunal for a compromise or arrangement?",
+          "options": {
+            "A": "The company itself",
+            "B": "Any creditor of the company",
+            "C": "Any member of the company",
+            "D": "The Registrar of Companies on behalf of any creditor"
+          },
+          "correct": "D",
+          "explanation": "Under Section 230(1), an application may be made to the Tribunal by the company, or any creditor or member of the company, or in the case of a company which is being wound up, the liquidator. The Registrar of Companies has no power to make such an application on behalf of creditors.",
+          "section": "Section 230(1)"
+        },
+        {
+          "id": 10,
+          "question": "Under Section 230, what response timeline is given to regulatory authorities (e.g., RBI, SEBI, income-tax authorities) after the notice of the scheme is sent to them?",
+          "options": {
+            "A": "15 days from receipt of notice",
+            "B": "21 days from receipt of notice",
+            "C": "30 days from the date of receipt",
+            "D": "60 days from the date of receipt"
+          },
+          "correct": "C",
+          "explanation": "Section 230(5) requires that representations, if any, from the regulatory bodies or authorities shall be made within thirty days from the date of receipt of the notice. After 30 days, if no representation is received, it shall be presumed that the concerned authority has no objection.",
+          "section": "Section 230(5)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s3",
+      "scenarioText": "Titan Steels Ltd. and Orion Metals Ltd. proposed a merger under Section 232 of the Companies Act, 2013. Their draft scheme was circulated to shareholders. The last annual accounts of Orion Metals were for a financial year that ended 8 months before the first meeting was to be held. Titan Steels' directors also circulated a report explaining the share exchange ratio. The Tribunal sanctioned the scheme and the transferee company (Titan Steels) held 50,000 shares of the transferor company (Orion Metals) in its own name.",
+      "questions": [
+        {
+          "id": 11,
+          "question": "The last annual accounts of Orion Metals related to a period ending 8 months before the first meeting. What additional document must be circulated to shareholders under Section 232?",
+          "options": {
+            "A": "An interim audit report for the 8-month period",
+            "B": "A supplementary accounting statement covering the period since the last annual accounts",
+            "C": "A solvency declaration by the directors",
+            "D": "A special resolution passed by shareholders authorising the merger"
+          },
+          "correct": "B",
+          "explanation": "Section 232(2)(e) requires that if the latest annual accounts of any of the merging companies relate to a financial year ending more than six months before the first meeting of the company summoned for the purposes of approving the scheme, a supplementary accounting statement must be circulated. Since 8 months have elapsed (exceeding the 6-month trigger), a supplementary accounting statement is mandatory.",
+          "section": "Section 232(2)(e)"
+        },
+        {
+          "id": 12,
+          "question": "After the Tribunal's order was received, what must the companies do under Section 232 within 30 days?",
+          "options": {
+            "A": "Hold a general meeting to ratify the Tribunal's order",
+            "B": "Cause a certified copy of the order to be filed with the Registrar for registration",
+            "C": "Pay stamp duty on all properties transferred",
+            "D": "Cancel all existing contracts of the transferor company"
+          },
+          "correct": "B",
+          "explanation": "Section 232(8) provides that every company in relation to which the order is made shall cause a certified copy of the order to be filed with the Registrar for registration within thirty days of the receipt of the certified copy of the order.",
+          "section": "Section 232(8)"
+        },
+        {
+          "id": 13,
+          "question": "What is the legal position of the 50,000 shares that Titan Steels (transferee) held in the name of Orion Metals (transferor) after the merger was sanctioned?",
+          "options": {
+            "A": "They become treasury shares held by the transferee company",
+            "B": "They must be cancelled or extinguished as the transferee cannot hold its own shares",
+            "C": "They are to be distributed as bonus shares to existing shareholders of the transferee",
+            "D": "They are held in trust for the government until sold"
+          },
+          "correct": "B",
+          "explanation": "Section 232(3)(h) provides that a transferee company shall not, as a result of the compromise or arrangement, hold any shares in its own name or in the name of any trust whether on its behalf or on behalf of any of its subsidiary or associate companies, and any such shares shall be cancelled or extinguished.",
+          "section": "Section 232(3)(h)"
+        },
+        {
+          "id": 14,
+          "question": "Under Section 232, the scheme must indicate an 'appointed date'. Which of the following statements is CORRECT regarding the appointed date?",
+          "options": {
+            "A": "The appointed date must always be a future date from the date of filing the scheme",
+            "B": "The scheme shall be deemed effective from the appointed date, not any subsequent date",
+            "C": "The appointed date is determined solely by the Registrar of Companies",
+            "D": "The appointed date must be the same as the date of the Tribunal's order"
+          },
+          "correct": "B",
+          "explanation": "Section 232(6) provides that a scheme of merger or amalgamation shall clearly indicate an appointed date from which it shall be effective and the scheme shall be deemed to be effective from such appointed date. The appointed date can even be a past (retrospective) date subject to justification, but the scheme is always effective from that date, not any subsequent date.",
+          "section": "Section 232(6)"
+        },
+        {
+          "id": 15,
+          "question": "Under Section 232, what is the annual compliance requirement after the Tribunal's order is made, and what is the deadline for filing such compliance?",
+          "options": {
+            "A": "Monthly compliance statements to the Tribunal; within 30 days of each month",
+            "B": "A statement as to how the scheme is being carried out; within 210 days from the end of each financial year",
+            "C": "Annual audit report on scheme compliance; within 90 days of financial year end",
+            "D": "A statutory declaration of solvency; within 60 days of financial year end"
+          },
+          "correct": "B",
+          "explanation": "Section 232(7) requires every company in relation to which the scheme is sanctioned to file a statement as to how the scheme is being carried out with the Registrar until the scheme is fully implemented. This must be filed within 210 days from the end of each financial year.",
+          "section": "Section 232(7)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s4",
+      "scenarioText": "Nova Startups Private Ltd. (a registered startup) and Micro Solutions Pvt. Ltd. (a small company with paid-up capital of Rs. 3 crore and turnover of Rs. 30 crore) proposed a fast-track merger under Section 233. Their creditors were sent 15 days' notice before the creditors' meeting. At the meeting, creditors representing 85% in value approved the scheme. The scheme was filed with the Central Government. The Registrar of Companies raised no objections within 45 days. The Central Government did not issue any confirmation order within 60 days.",
+      "questions": [
+        {
+          "id": 16,
+          "question": "Is the proposed fast-track merger between Nova Startups Pvt. Ltd. and Micro Solutions Pvt. Ltd. eligible under Section 233?",
+          "options": {
+            "A": "No, because only holding and subsidiary companies can use Section 233",
+            "B": "Yes, because mergers between two or more start-up companies are eligible under Section 233 as per amended Rules",
+            "C": "No, because Micro Solutions Pvt. Ltd. exceeds the small company turnover threshold",
+            "D": "Yes, but only if both companies convert to public companies first"
+          },
+          "correct": "B",
+          "explanation": "Rule 25(1) of the Companies (Compromises, Arrangements and Amalgamations) Rules, 2016 was amended to include mergers between two or more start-up companies, and between a start-up company and a small company, as eligible for the fast-track route under Section 233. Nova Startups is a registered startup and thus qualifies.",
+          "section": "Section 233 read with Rule 25(1)"
+        },
+        {
+          "id": 17,
+          "question": "The creditors received only 15 days' notice before the meeting. Is this valid under Section 233?",
+          "options": {
+            "A": "Yes, 15 days is sufficient for creditor meetings under Section 233",
+            "B": "No, creditors must receive at least 21 days' notice before the meeting",
+            "C": "No, creditors must receive at least 30 days' notice before the meeting",
+            "D": "Yes, because fast-track mergers have relaxed notice requirements"
+          },
+          "correct": "B",
+          "explanation": "Section 233(1)(d) requires that notice be sent to creditors at least 21 days before the date fixed for the meeting. Since only 15 days' notice was given, this is non-compliant with the mandatory 21-day requirement.",
+          "section": "Section 233(1)(d)"
+        },
+        {
+          "id": 18,
+          "question": "Creditors representing 85% in value approved the scheme. Is this sufficient under Section 233?",
+          "options": {
+            "A": "Yes, a simple majority in value is sufficient for fast-track mergers",
+            "B": "Yes, 85% exceeds the 75% threshold required under Section 233",
+            "C": "No, Section 233 requires approval of creditors representing nine-tenths (90%) in value",
+            "D": "No, Section 233 requires unanimous (100%) creditor approval"
+          },
+          "correct": "C",
+          "explanation": "Section 233(1)(d) requires that the scheme be approved by creditors representing nine-tenths in value (i.e., 90%). Since only 85% approved, the scheme does not meet the mandatory threshold and is not validly passed.",
+          "section": "Section 233(1)(d)"
+        },
+        {
+          "id": 19,
+          "question": "The Registrar of Companies raised no objection within 45 days. The Central Government did not issue a confirmation order within 60 days of the scheme being filed. What is the legal effect?",
+          "options": {
+            "A": "The scheme is deemed rejected because confirmation was not issued within 60 days",
+            "B": "The scheme is deemed to have been approved by the Central Government after 60 days",
+            "C": "The Central Government can still object after 60 days with prior NCLT permission",
+            "D": "The companies must restart the entire merger process from scratch"
+          },
+          "correct": "B",
+          "explanation": "Section 233(4) read with Rule 25(5) provides that if the Central Government does not issue a confirmation order within 60 days of the receipt of the scheme, it shall be presumed that the Government has no objection to the scheme and the scheme shall be deemed to be approved. The Central Government is barred from acting after 60 days.",
+          "section": "Section 233(4) read with Rule 25(5)"
+        },
+        {
+          "id": 20,
+          "question": "Under Section 233, what happens to the transferor company upon the scheme taking effect?",
+          "options": {
+            "A": "The transferor company must go through winding-up proceedings before dissolution",
+            "B": "The transferor company is dissolved without winding-up upon the scheme taking effect",
+            "C": "The transferor company becomes a subsidiary of the transferee company",
+            "D": "The transferor company's legal existence continues for 2 years for pending litigation"
+          },
+          "correct": "B",
+          "explanation": "Section 233(8) explicitly provides that the transferor company shall stand dissolved, without following the process of winding up, upon the scheme taking effect. This is a key advantage of fast-track mergers — no winding-up process is required.",
+          "section": "Section 233(8)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s5",
+      "scenarioText": "Global Bridge Ltd., an Indian company, proposed to merge with TechForce Inc., a company incorporated in the United States. The Indian company intended to proceed with the merger directly without obtaining any prior regulatory approval, relying solely on the NCLT's power under Sections 230-232. Shareholders of the merged entity would receive cash consideration. TechForce Inc. was incorporated in a country that is a member of the Bank for International Settlements.",
+      "questions": [
+        {
+          "id": 21,
+          "question": "Under Section 234, which prior approval is MANDATORY before proceeding with a cross-border merger between an Indian company and a foreign company?",
+          "options": {
+            "A": "Prior approval of the Ministry of Corporate Affairs only",
+            "B": "Prior approval of the Reserve Bank of India (RBI)",
+            "C": "Prior approval of the Securities and Exchange Board of India (SEBI)",
+            "D": "Prior approval of the Central Government via notification in the Official Gazette"
+          },
+          "correct": "B",
+          "explanation": "Section 234(2) explicitly requires that a foreign company may merge with an Indian company (or vice versa) only with the prior approval of the Reserve Bank of India. This is a mandatory prerequisite before proceeding under Sections 230-232 for cross-border mergers.",
+          "section": "Section 234(2)"
+        },
+        {
+          "id": 22,
+          "question": "Under Section 234, what forms of consideration are permitted under a cross-border merger scheme?",
+          "options": {
+            "A": "Only shares of the transferee company",
+            "B": "Only cash consideration",
+            "C": "Cash, depository receipts, or a combination thereof",
+            "D": "Debentures or bonds of the transferee company only"
+          },
+          "correct": "C",
+          "explanation": "Section 234(2) provides that the scheme of merger may provide for payment of consideration to the shareholders in cash, depository receipts, or partly in cash and partly in depository receipts, as may be agreed. This is broader than domestic mergers.",
+          "section": "Section 234(2)"
+        },
+        {
+          "id": 23,
+          "question": "For a cross-border merger to proceed, Rule 25A prescribes criteria for the 'notified jurisdiction' of the foreign company. Which of the following is NOT a required criterion?",
+          "options": {
+            "A": "Securities regulator of that country must be a signatory to IOSCO's MOU or have a bilateral MOU with SEBI",
+            "B": "The country's central bank must be a member of the Bank for International Settlements",
+            "C": "The country must have a bilateral investment treaty with India",
+            "D": "The country must not be on the FATF's list of countries with strategic deficiencies"
+          },
+          "correct": "C",
+          "explanation": "Rule 25A prescribes three criteria: (1) IOSCO MOU/bilateral MOU with SEBI, (2) BIS membership for the central bank, and (3) not on FATF's strategic deficiency list. A bilateral investment treaty with India is NOT among the prescribed criteria.",
+          "section": "Section 234 read with Rule 25A"
+        },
+        {
+          "id": 24,
+          "question": "Section 234 applies 'mutatis mutandis' to cross-border mergers. This means:",
+          "options": {
+            "A": "Sections 230-232 do not apply to cross-border mergers at all",
+            "B": "The provisions of Sections 230-232 apply to cross-border mergers with necessary modifications",
+            "C": "Only Section 230 applies; Sections 231 and 232 are excluded from cross-border mergers",
+            "D": "The Central Government replaces the Tribunal for all purposes in cross-border mergers"
+          },
+          "correct": "B",
+          "explanation": "Section 234(1) states that the provisions of Chapter XV (Sections 230-240) shall apply mutatis mutandis to schemes of mergers and amalgamations between Indian companies and foreign companies. 'Mutatis mutandis' means with the necessary modifications/adaptations, so the same framework applies with appropriate changes.",
+          "section": "Section 234(1)"
+        },
+        {
+          "id": 25,
+          "question": "In an outbound merger where an Indian company merges into a foreign company, what must the surviving foreign company offer to dissenting Indian shareholders who do not want to continue?",
+          "options": {
+            "A": "Shares of the foreign company at par value",
+            "B": "Cash equivalent to the book value of their shares",
+            "C": "An exit option at a price determined as per a prescribed valuation",
+            "D": "Debentures of equivalent face value in the surviving foreign company"
+          },
+          "correct": "C",
+          "explanation": "Rule 25A(2) provides that in case of an outbound merger, the transferee foreign company shall provide an exit opportunity to the shareholders of the Indian company who do not wish to continue as shareholders of the foreign entity. This exit must be at a price determined per the prescribed valuation methodology.",
+          "section": "Section 234 read with Rule 25A(2)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s6",
+      "scenarioText": "Crestwood Textiles Ltd. proposed a takeover of Delta Fabrics Pvt. Ltd. (an unlisted company) under Section 230(11). Crestwood and its affiliates together held 78% of Delta Fabrics' shares and wanted to acquire the remaining 22% from minority shareholders. Crestwood filed an application before the NCLT with a valuation report from a registered valuer and deposited 45% of the total consideration in a separate bank account. One aggrieved minority shareholder contested the valuation.",
+      "questions": [
+        {
+          "id": 26,
+          "question": "Under Section 230(11), what is the minimum shareholding threshold required by the majority to initiate a takeover offer to acquire minority shares in an unlisted company?",
+          "options": {
+            "A": "More than 50% of shares",
+            "B": "Not less than two-thirds (66.67%) of shares",
+            "C": "Not less than three-fourths (75%) of shares",
+            "D": "Not less than nine-tenths (90%) of shares"
+          },
+          "correct": "C",
+          "explanation": "Section 230(11) provides that a member or members holding not less than three-fourths (75%) of the shares in the company, and intending to acquire any part of the remaining shares, may make an application for a scheme of arrangement for the purpose of a takeover offer. Since Crestwood holds 78% (exceeding 75%), it qualifies.",
+          "section": "Section 230(11)"
+        },
+        {
+          "id": 27,
+          "question": "Crestwood deposited 45% of the total consideration in a separate bank account. Is this compliant with Section 230(11) requirements?",
+          "options": {
+            "A": "Yes, any deposit over 40% of consideration is sufficient",
+            "B": "Yes, 45% exceeds the minimum 30% deposit requirement",
+            "C": "No, the minimum deposit required is not less than 50% of the total consideration",
+            "D": "No, 100% of the consideration must be deposited upfront"
+          },
+          "correct": "C",
+          "explanation": "Rule 3(5) of the Companies (Compromises, Arrangements and Amalgamations) Rules, 2016 requires that the application must contain details of a bank account, opened separately by the offeror, in which a sum of not less than 50% of the total consideration of the takeover offer is deposited. Since Crestwood deposited only 45%, this is non-compliant.",
+          "section": "Section 230(11) read with Rule 3(5)"
+        },
+        {
+          "id": 28,
+          "question": "The registered valuer's report in a Section 230(11) takeover must take into account the highest price paid for share acquisitions during what period?",
+          "options": {
+            "A": "The last 3 months",
+            "B": "The last 6 months",
+            "C": "The last 12 months",
+            "D": "The last 24 months"
+          },
+          "correct": "C",
+          "explanation": "Rule 3(5) requires that the valuation report must take into account the highest price paid by any person or group of persons for acquisition of shares during the last 12 months, along with the fair price of shares determined through standard valuation parameters (return on net worth, book value, EPS, P/E multiple vis-à-vis industry average, etc.).",
+          "section": "Section 230(11) read with Rule 3(5)"
+        },
+        {
+          "id": 29,
+          "question": "The aggrieved minority shareholder wanted to contest the takeover offer. Under which provision can they approach the NCLT?",
+          "options": {
+            "A": "Section 230(9) – dispensing with the meeting",
+            "B": "Section 230(12) – application by aggrieved shareholders against a takeover offer",
+            "C": "Section 241 – application for oppression and mismanagement",
+            "D": "Section 245 – class action suit"
+          },
+          "correct": "B",
+          "explanation": "Section 230(12) specifically provides that any shareholder of an unlisted company who is aggrieved by the takeover offer may make an application to the Tribunal in the prescribed manner. Rule 80A of the NCLT Rules, 2016 prescribes the procedure for such an application.",
+          "section": "Section 230(12)"
+        },
+        {
+          "id": 30,
+          "question": "Section 230(11) explicitly states that its takeover provisions do NOT apply to which of the following?",
+          "options": {
+            "A": "Mergers between two small companies",
+            "B": "Transfer or transmission of shares through a contract, arrangement or succession",
+            "C": "Acquisition of shares in listed companies",
+            "D": "Purchase of shares by a holding company from its wholly-owned subsidiary"
+          },
+          "correct": "B",
+          "explanation": "Section 230(11) expressly states that the takeover offer provisions shall not apply to any transfer or transmission of shares or any class of shares of a company through a contract, arrangement or succession, or to any acquisition of shares through a statutory or regulatory requirement.",
+          "section": "Section 230(11)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s7",
+      "scenarioText": "Empire Holdings Ltd. made a public offer to acquire shares of Target Ltd., a listed company. Within 4 months of the offer, shareholders holding nine-tenths (90%) in value of the target shares (excluding shares already held by Empire) approved the transfer. Empire then gave notice to the remaining dissenting shareholders to compulsorily acquire their shares under Section 235. One dissenting shareholder, Mr. Arvind, objected and applied to the NCLT. Meanwhile, the consideration for the shares was held in a separate bank account.",
+      "questions": [
+        {
+          "id": 31,
+          "question": "Under Section 235, once 9/10ths approval is obtained within 4 months, within what time period must the transferee company issue notice to dissenting shareholders of its intent to acquire their shares?",
+          "options": {
+            "A": "Within 1 month after the expiry of the 4-month period",
+            "B": "Within 2 months after the expiry of the 4-month period",
+            "C": "Within 3 months after the expiry of the 4-month period",
+            "D": "Within 6 months after the expiry of the 4-month period"
+          },
+          "correct": "B",
+          "explanation": "Section 235(1) provides that where the requisite approval (nine-tenths in value) is obtained within four months after making the offer, the transferee company may, at any time within two months after the expiry of the said four months, give notice to dissenting shareholders of its desire to acquire their shares.",
+          "section": "Section 235(1)"
+        },
+        {
+          "id": 32,
+          "question": "Mr. Arvind received the notice from Empire Holdings under Section 235. Within what time period must he apply to the NCLT to object to the compulsory acquisition?",
+          "options": {
+            "A": "Within 15 days of receiving the notice",
+            "B": "Within 30 days of receiving the notice",
+            "C": "Within 1 month of the notice",
+            "D": "Within 2 months of the notice"
+          },
+          "correct": "C",
+          "explanation": "Section 235(2) provides that where such notice is given, the transferee company shall, unless the National Company Law Tribunal on an application made by the dissenting shareholder within one month of the notice, makes an order to the contrary, be entitled and bound to acquire those shares.",
+          "section": "Section 235(2)"
+        },
+        {
+          "id": 33,
+          "question": "The consideration received by the transferor company (Target Ltd.) for Mr. Arvind's dissenting shares was held in trust. Within what period must these funds be distributed to the dissenting shareholders?",
+          "options": {
+            "A": "Within 30 days of the transfer being registered",
+            "B": "Within 45 days of the amount being received",
+            "C": "Within 60 days of the amount being deposited in the bank account",
+            "D": "Within 90 days of the Tribunal's order"
+          },
+          "correct": "C",
+          "explanation": "Section 235(4) provides that the amount received from the transferee company shall be held by the transferor company in trust for the several persons entitled thereto, in a separate bank account, and the amount shall be disbursed to the entitled shareholders within sixty days.",
+          "section": "Section 235(4)"
+        },
+        {
+          "id": 34,
+          "question": "Section 235 requires approval from holders of 'not less than nine-tenths in value of the shares whose transfer is involved.' Which shares are EXCLUDED from this computation?",
+          "options": {
+            "A": "Shares held by institutional investors",
+            "B": "Shares held by FIIs and foreign portfolio investors",
+            "C": "Shares already held by or by a nominee of the transferee company or its subsidiaries at the date of the offer",
+            "D": "Shares held by employees under ESOPs"
+          },
+          "correct": "C",
+          "explanation": "Section 235(1) explicitly excludes 'shares already held at the date of the offer by, or by a nominee of, the transferee company or its subsidiary companies' from the computation of the nine-tenths approval threshold. This prevents the acquirer from inflating its approval percentage using its own already-held shares.",
+          "section": "Section 235(1)"
+        },
+        {
+          "id": 35,
+          "question": "Under Section 235, on what terms does the transferee acquire the dissenting shareholder's shares (absent a contrary NCLT order)?",
+          "options": {
+            "A": "At the book value as per the latest audited balance sheet",
+            "B": "At market price on the date of notice to the dissenting shareholder",
+            "C": "On the same terms as those applicable to approving shareholders",
+            "D": "At a 10% premium over the price paid to approving shareholders"
+          },
+          "correct": "C",
+          "explanation": "Section 235(2) provides that the transferee company shall be entitled and bound to acquire those shares on the same terms as those on which the shares of the approving shareholders were acquired. Dissenting shareholders receive identical terms — no better, no worse — unless the NCLT orders otherwise.",
+          "section": "Section 235(2)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s8",
+      "scenarioText": "TechGiant Corp. and its associates acquired 92% of the issued equity share capital of Meridian Software Pvt. Ltd. through a share exchange. Upon reaching this threshold, TechGiant did not notify Meridian about its intention to acquire the remaining 8% shares. Six months later, minority shareholders of Meridian holding the remaining 8% demanded that TechGiant purchase their shares. TechGiant refused, claiming the obligation was on minority shareholders to sell. A deceased minority shareholder's estate also had claims to consideration for shares.",
+      "questions": [
+        {
+          "id": 36,
+          "question": "Under Section 236, upon becoming registered holder of 90% or more of issued equity share capital, what is the acquirer's FIRST mandatory obligation?",
+          "options": {
+            "A": "To delist the company from all stock exchanges immediately",
+            "B": "To notify the company of its intention to buy the remaining equity shares",
+            "C": "To file a form with the Registrar of Companies within 15 days",
+            "D": "To appoint a registered valuer within 30 days of reaching 90%"
+          },
+          "correct": "B",
+          "explanation": "Section 236(1) mandates that when an acquirer (or person acting in concert) becomes registered holder of ninety percent or more of the issued equity share capital, such acquirer shall notify the company of their intention to buy the remaining equity shares. This is the first mandatory obligation upon crossing the 90% threshold.",
+          "section": "Section 236(1)"
+        },
+        {
+          "id": 37,
+          "question": "The minority shareholders of Meridian (holding 8%) demanded that TechGiant purchase their shares. Under Section 236(3), can minority shareholders compel the majority to purchase their shares?",
+          "options": {
+            "A": "No, only the majority acquirer has the right to compulsorily acquire minority shares",
+            "B": "Yes, minority shareholders may offer to the majority to purchase the minority shareholding at a prescribed valuation price",
+            "C": "Yes, but only if the minority shareholders collectively hold more than 5% of issued share capital",
+            "D": "No, minority shareholders can only approach SEBI for relief"
+          },
+          "correct": "B",
+          "explanation": "Section 236(3) provides that without prejudice to Sections 236(1) and 236(2), the minority shareholders of the company may offer to the majority shareholders to purchase the minority equity shareholding of the company at the price determined as per the prescribed valuation under Section 236(2). So minority shareholders also have the right to compel the majority to buy their shares.",
+          "section": "Section 236(3)"
+        },
+        {
+          "id": 38,
+          "question": "Under Section 236(4), the acquirer must deposit an amount equal to the value of shares to be acquired. For how long must this deposit be maintained?",
+          "options": {
+            "A": "For a minimum of 6 months from the date of deposit",
+            "B": "Until all eligible shareholders have claimed their consideration",
+            "C": "For at least 1 year from the date of deposit in the designated bank account",
+            "D": "Until the NCLT grants permission for withdrawal"
+          },
+          "correct": "C",
+          "explanation": "Section 236(4) requires the majority shareholders to deposit an amount equal to the value of shares to be acquired in a separate bank account to be opened in a scheduled bank, and this amount shall be paid within sixty days and the deposit shall continue for at least one year.",
+          "section": "Section 236(4)"
+        },
+        {
+          "id": 39,
+          "question": "For the estate of the deceased minority shareholder, for how long does the right to claim the acquisition consideration remain available under Section 236?",
+          "options": {
+            "A": "1 year from the date of death of the shareholder",
+            "B": "1 year from the date of the majority acquisition",
+            "C": "3 years from the date of the majority acquisition",
+            "D": "The right is extinguished upon death of the shareholder"
+          },
+          "correct": "C",
+          "explanation": "Section 236(7) provides that in case of a deceased or ceased shareholder, the acquisition rights of the minority shareholders shall continue and be available for a period of three years from the date of majority acquisition. The legal representatives of the deceased can claim within this 3-year window.",
+          "section": "Section 236(7)"
+        },
+        {
+          "id": 40,
+          "question": "Under Section 236(8), if minority shareholders holding 75% or more of the remaining minority shares negotiate a higher price for their shares, what must the majority shareholders do?",
+          "options": {
+            "A": "Nothing — different shareholders can receive different prices",
+            "B": "Share the additional compensation on a pro rata basis with ALL minority shareholders",
+            "C": "Offer the higher price only to minority shareholders who specifically request it",
+            "D": "Obtain NCLT approval before paying the higher price to any shareholder"
+          },
+          "correct": "B",
+          "explanation": "Section 236(8) provides that if the minority shareholders holding 75% or more of the remaining minority equity shareholding negotiate a higher price without the knowledge and consent of all the minority shareholders, the majority shareholders shall share the additional compensation so received on a pro rata basis with all remaining minority shareholders.",
+          "section": "Section 236(8)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s9",
+      "scenarioText": "The Central Government was satisfied that it was essential in the public interest that Sunrise Bank Ltd. and Horizon Bank Ltd. (both government-owned banking companies) should amalgamate. The Central Government proposed to issue an order under Section 237. A draft order was sent to both companies. Both companies submitted their suggestions within 45 days of receiving the draft. The order was finalised and a creditor of Horizon Bank received reduced rights against the transferee company compared to what she had against Horizon Bank. She applied for compensation.",
+      "questions": [
+        {
+          "id": 41,
+          "question": "Under Section 237, what is the minimum time period that must be given to companies to submit suggestions or objections before a final amalgamation order is issued?",
+          "options": {
+            "A": "Not less than 30 days from receipt of the draft order",
+            "B": "Not less than 45 days from receipt of the draft order",
+            "C": "Not less than 60 days from receipt of the draft order",
+            "D": "Not less than 2 months from receipt of the draft order"
+          },
+          "correct": "D",
+          "explanation": "Section 237(2) requires that the Central Government, before issuing the final amalgamation order, must give each of the companies concerned an opportunity to file their suggestions, which must be received within a period of not less than two months from the date on which the copy of the draft order is received by the company.",
+          "section": "Section 237(2)"
+        },
+        {
+          "id": 42,
+          "question": "The creditor of Horizon Bank received reduced rights against the transferee company. She is entitled to compensation. Where is the assessment of this compensation published, and within what period can she appeal?",
+          "options": {
+            "A": "Published on NCLT website; appeal within 60 days",
+            "B": "Published in the Official Gazette; appeal within 30 days from the date of publication",
+            "C": "Communicated via registered letter; appeal within 45 days of receipt",
+            "D": "Published in two national newspapers; appeal within 15 days"
+          },
+          "correct": "B",
+          "explanation": "Section 237(3) provides that compensation shall be assessed by the prescribed authority and every such assessment shall be published in the Official Gazette. Section 237(4) further provides that any person aggrieved by such assessment may prefer an appeal within thirty days from the date of publication in the Official Gazette.",
+          "section": "Section 237(3) and Section 237(4)"
+        },
+        {
+          "id": 43,
+          "question": "After the final amalgamation order under Section 237 is issued, what parliamentary requirement must be fulfilled?",
+          "options": {
+            "A": "The order must be ratified by a vote in both Houses of Parliament",
+            "B": "The order must be laid before each House of Parliament",
+            "C": "The order must be approved by a Joint Parliamentary Committee",
+            "D": "No parliamentary requirement exists for Section 237 orders"
+          },
+          "correct": "B",
+          "explanation": "Section 237(5) provides that every order made under this section shall, as soon as may be after it has been made, be laid before each House of Parliament. This is a transparency requirement, not a ratification requirement.",
+          "section": "Section 237(5)"
+        },
+        {
+          "id": 44,
+          "question": "Under Section 231, when can the Tribunal order the winding up of a company after sanctioning a compromise or arrangement?",
+          "options": {
+            "A": "Any time the Tribunal deems fit after sanctioning the scheme",
+            "B": "Only when the company fails to file the Tribunal's order with the Registrar within 30 days",
+            "C": "When the Tribunal is satisfied that the sanctioned scheme cannot be implemented satisfactorily and the company is unable to pay its debts",
+            "D": "When less than 75% of creditors have accepted the scheme post-sanction"
+          },
+          "correct": "C",
+          "explanation": "Section 231(2) provides that if the Tribunal is satisfied that the compromise or arrangement sanctioned cannot be implemented satisfactorily with or without modifications, and the company is unable to pay its debts as per the scheme, it may make an order for winding up. Such winding-up order is deemed to be an order under Section 273.",
+          "section": "Section 231(2)"
+        },
+        {
+          "id": 45,
+          "question": "What are the penalties under Section 232 for a company that fails to file the annual compliance statement (as to how the scheme is being carried out) with the Registrar?",
+          "options": {
+            "A": "Fine of Rs. 5,000 per day of default; no imprisonment",
+            "B": "Fine of Rs. 20,000 plus Rs. 1,000 per day of default (maximum Rs. 3 lakh)",
+            "C": "Fine of Rs. 1 lakh to Rs. 5 lakh on the company; no officer liability",
+            "D": "Cancellation of the sanctioned scheme by the Tribunal"
+          },
+          "correct": "B",
+          "explanation": "Section 232 prescribes that failure to file the certified copy of the Tribunal's order or the annual compliance statement with the Registrar attracts a penalty of Rs. 20,000 on the company plus Rs. 1,000 for each day of default (subject to a maximum of Rs. 3 lakh).",
+          "section": "Section 232"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s10",
+      "scenarioText": "Horizon Infra Ltd. and its wholly-owned subsidiary, Nexus Build Pvt. Ltd., proposed a merger under Section 233 (fast-track route). Both companies were solvent. The transferee company (Horizon Infra) would receive additional paid-up capital due to the merger. Nexus Build, after the merger, continued to be shown as an existing entity in the Registrar's records for 3 months because the transferee company had not filed any form.",
+      "questions": [
+        {
+          "id": 46,
+          "question": "Under Section 233(10), what must happen to shares that the transferee company holds in its own name (or in the name of any trust on its behalf) after the scheme takes effect?",
+          "options": {
+            "A": "They must be transferred to the IEPF within 30 days",
+            "B": "They shall be cancelled or extinguished",
+            "C": "They are converted into deferred shares with no voting rights",
+            "D": "They are held in escrow for 5 years before being sold"
+          },
+          "correct": "B",
+          "explanation": "Section 233(10) provides that the transferee company shall not, as a result of the scheme, hold any shares in its own name or in the name of any trust, and any such shares shall be cancelled or extinguished. This mirrors the same principle in Section 232(3)(h) for regular mergers.",
+          "section": "Section 233(10)"
+        },
+        {
+          "id": 47,
+          "question": "Under Section 233(11), when a merger increases the authorized share capital of the transferee company, what must be filed and what benefit does the company receive?",
+          "options": {
+            "A": "No filing required; the capital automatically increases upon merger",
+            "B": "Must file a revised capital structure application with NCLT; receives a fee waiver",
+            "C": "Must file an application for revised authorized capital with the Registrar; fees already paid by the transferor company on the capital are set off against fees payable by the transferee",
+            "D": "Must hold a special resolution and file with MCA; no fee benefit is available"
+          },
+          "correct": "C",
+          "explanation": "Section 233(11) requires the transferee company to file an application with the Registrar for revision of its authorized capital. The key benefit is that the fees already paid by the transferor company on its capital shall be set off against the fees payable by the transferee on account of increase in its authorized capital consequent upon the merger.",
+          "section": "Section 233(11)"
+        },
+        {
+          "id": 48,
+          "question": "Under Section 233, the merger scheme must be approved by members of each company. What is the minimum shareholder approval threshold for a fast-track merger?",
+          "options": {
+            "A": "Simple majority (more than 50%) of total number of members",
+            "B": "Two-thirds (66.67%) of the total number of members",
+            "C": "Three-fourths (75%) of those present and voting",
+            "D": "Ninety per cent (90%) of the total number of members"
+          },
+          "correct": "D",
+          "explanation": "Section 233(1)(b) requires approval of the scheme at a general meeting of each company by a resolution passed by ninety per cent of the total number of members of such company. This is a higher threshold than the three-fourths under Section 230/232, making fast-track mergers subject to stricter member approval.",
+          "section": "Section 233(1)(b)"
+        },
+        {
+          "id": 49,
+          "question": "Under Section 233, the transferee company must file the approved scheme with the Central Government (Regional Director) within how many days after the meeting of members or creditors?",
+          "options": {
+            "A": "Within 3 days of conclusion of the meeting",
+            "B": "Within 7 days of conclusion of the meeting of members or creditors",
+            "C": "Within 14 days of the meeting",
+            "D": "Within 30 days of the meeting"
+          },
+          "correct": "B",
+          "explanation": "Rule 25(4) of the Companies (Compromises, Arrangements and Amalgamations) Rules, 2016 provides that the transferee company shall, within seven days of the conclusion of the meeting of members or creditors, file a copy of the scheme, together with a report of the result of the meeting, with the Central Government.",
+          "section": "Section 233(2) read with Rule 25(4)"
+        },
+        {
+          "id": 50,
+          "question": "Under Section 233, to which authority must the notice inviting objections and suggestions on the proposed fast-track merger scheme be sent FIRST, before the shareholder/creditor meetings?",
+          "options": {
+            "A": "The National Company Law Tribunal",
+            "B": "The Securities and Exchange Board of India",
+            "C": "The Registrar of Companies and the Official Liquidator",
+            "D": "The Reserve Bank of India and the Ministry of Finance"
+          },
+          "correct": "C",
+          "explanation": "Section 233(1)(a) requires that the transferor or the transferee company shall issue a notice to invite objections or suggestions from the Registrar of Companies and the Official Liquidator. This is the first procedural step under Section 233 — before any shareholder or creditor meeting is convened.",
+          "section": "Section 233(1)(a)"
+        }
+      ]
+    }
+  ]
+}

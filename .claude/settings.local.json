@@ -16,7 +16,16 @@
       "WebFetch(domain:resource.cdn.icai.org)",
       "WebSearch",
       "Bash(npm run:*)",
-      "Bash(npx next:*)"
+      "Bash(npx next:*)",
+      "WebFetch(domain:ca2013.com)",
+      "WebFetch(domain:ibclaw.in)",
+      "WebFetch(domain:www.scribd.com)",
+      "WebFetch(domain:live.icai.org)",
+      "WebFetch(domain:blog.ipleaders.in)",
+      "WebFetch(domain:www.taxtmi.com)",
+      "WebFetch(domain:corporate.cyrilamarchandblogs.com)",
+      "WebFetch(domain:www.aaptaxlaw.com)",
+      "WebFetch(domain:www.argus-p.com)"
     ]
   }
 }

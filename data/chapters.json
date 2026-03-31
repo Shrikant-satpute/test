@@ -58,11 +58,11 @@
       "name": "Compromises, Arrangements and Amalgamations",
       "law": "Companies Act, 2013",
       "category": "companies-act",
-      "totalQuestions": 25,
-      "totalMarks": 50,
-      "passMarks": 25,
-      "duration": 45,
-      "available": false,
+      "totalQuestions": 50,
+      "totalMarks": 100,
+      "passMarks": 50,
+      "duration": 90,
+      "available": true,
       "keySections": ["Sec 230", "Sec 231", "Sec 232", "Sec 233", "Sec 234", "Sec 235", "Sec 236", "Sec 237"]
     },
     {
@@ -71,11 +71,11 @@
       "name": "Prevention of Oppression and Mismanagement",
       "law": "Companies Act, 2013",
       "category": "companies-act",
-      "totalQuestions": 25,
-      "totalMarks": 50,
-      "passMarks": 25,
-      "duration": 45,
-      "available": false,
+      "totalQuestions": 50,
+      "totalMarks": 100,
+      "passMarks": 50,
+      "duration": 90,
+      "available": true,
       "keySections": ["Sec 241", "Sec 242", "Sec 243", "Sec 244", "Sec 245"]
     },
     {

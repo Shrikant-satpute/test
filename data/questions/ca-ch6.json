@@ -1,0 +1,718 @@
+{
+  "chapterId": "ca-ch6",
+  "chapterName": "Prevention of Oppression and Mismanagement",
+  "law": "Companies Act, 2013",
+  "category": "companies-act",
+  "scenarios": [
+    {
+      "scenarioId": "s1",
+      "scenarioText": "Bright Horizons Ltd. is a company with a share capital of 1,000 members. The company's affairs were being managed in a manner that a group of minority shareholders believed was oppressive. They wanted to apply to the Tribunal under Section 241. Group A consisted of 85 members who held 9% of the issued share capital. Group B consisted of 120 members who held 8% of the issued share capital. They sought legal advice on whether they had the locus standi to apply.",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Under Section 244, what is the minimum number of members required for a valid application under Section 241 for a company having share capital with 1,000 total members?",
+          "options": {
+            "A": "Not less than 200 members (one-fifth of total)",
+            "B": "Not less than 100 members or one-tenth of total members, whichever is less",
+            "C": "Not less than 100 members OR one-tenth of total members, whichever is MORE",
+            "D": "Not less than 500 members (simple majority)"
+          },
+          "correct": "B",
+          "explanation": "Section 244(1)(a) provides that for a company having share capital, not less than 100 members of the company or not less than one-tenth of the total number of its members, WHICHEVER IS LESS, have the right to apply. One-tenth of 1,000 = 100 members. Since both thresholds give 100, the minimum is 100 members.",
+          "section": "Section 244(1)(a)"
+        },
+        {
+          "id": 2,
+          "question": "Group A has 85 members holding 9% of issued share capital. Can Group A file an application under Section 241?",
+          "options": {
+            "A": "Yes, because they hold 9% of issued share capital which exceeds the 1/10th threshold",
+            "B": "No, 85 members is less than 100 members and they hold less than 1/10th of issued share capital",
+            "C": "Yes, because 85 members is more than 5% of total members",
+            "D": "No, only the Central Government can file on behalf of minority shareholders"
+          },
+          "correct": "B",
+          "explanation": "Under Section 244(1)(a), applicants must satisfy either: (i) not less than 100 members or 1/10th of total (whichever is less) — here minimum is 100; OR (ii) members holding not less than 1/10th (10%) of issued share capital. Group A has only 85 members (less than 100) AND holds only 9% of issued share capital (less than 10%). They fail BOTH thresholds and cannot apply.",
+          "section": "Section 244(1)(a)"
+        },
+        {
+          "id": 3,
+          "question": "Group B has 120 members holding 8% of issued share capital. Can Group B file an application under Section 241?",
+          "options": {
+            "A": "No, because 8% of issued share capital is less than the required 10% threshold",
+            "B": "No, because they need to hold at least 10% AND have at least 100 members simultaneously",
+            "C": "Yes, because 120 members satisfies the 'not less than 100 members' threshold under Section 244(1)(a)",
+            "D": "Yes, but only after obtaining prior written approval from the Tribunal"
+          },
+          "correct": "C",
+          "explanation": "Section 244(1)(a) uses the word 'or' — applicants need to satisfy EITHER the member count threshold OR the shareholding threshold. Group B has 120 members which satisfies the 'not less than 100 members' limb. They do NOT need to also hold 10% of share capital. Since 120 > 100, Group B has valid locus standi to apply under Section 241.",
+          "section": "Section 244(1)(a)"
+        },
+        {
+          "id": 4,
+          "question": "A company called Sunrise Cooperative Society (not incorporated under the Companies Act) has 500 members and wants to apply under Section 241. Is Section 244 applicable to it?",
+          "options": {
+            "A": "Yes, Section 244 applies to all bodies corporate",
+            "B": "No, Chapter XVI (Sections 241-246) applies only to companies registered under the Companies Act, 2013",
+            "C": "Yes, provided at least 1/5th of its members apply",
+            "D": "No, cooperative societies must apply under the Cooperative Societies Act only"
+          },
+          "correct": "B",
+          "explanation": "Chapter XVI of the Companies Act, 2013 (Sections 241-246) applies only to 'companies' as defined under the Companies Act. Cooperative societies, even if incorporated, are governed by the respective State Cooperative Societies Acts and cannot invoke Section 241 or Section 244.",
+          "section": "Section 244 read with Section 241"
+        },
+        {
+          "id": 5,
+          "question": "Group B's 120 members want only 3 of them to sign and file the application on behalf of all 120. Under Section 244(2), is this permissible?",
+          "options": {
+            "A": "No, all 120 members must sign the application personally",
+            "B": "Yes, one or more eligible members may apply with the written consent of the others to the Tribunal",
+            "C": "Yes, but at least 10% of the group (12 members) must personally sign",
+            "D": "No, the entire class of aggrieved members must file collectively as a class action under Section 245"
+          },
+          "correct": "B",
+          "explanation": "Section 244(2) provides that a single member or any number of the eligible members, with the written consent of the eligible number of members, may apply to the Tribunal under Section 241. This enables a representative filing, so 3 members can file on behalf of all 120 with their written consent.",
+          "section": "Section 244(2)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s2",
+      "scenarioText": "Zenith Constructions Ltd. had 200 members. A group of 18 members (not holding any shares — the company had no share capital) wanted to apply to the NCLT for relief against oppressive conduct by the majority. They claimed that the Board's actions had changed the management structure in a manner prejudicial to them. The NCLT sought clarification on whether they met the eligibility criteria under Section 244.",
+      "questions": [
+        {
+          "id": 6,
+          "question": "For a company NOT having a share capital (like Zenith Constructions Ltd. with 200 members), what is the minimum number of members required to apply under Section 241 as per Section 244?",
+          "options": {
+            "A": "Not less than 100 members",
+            "B": "Not less than 1/10th (10%) of total members",
+            "C": "Not less than 1/5th (20%) of the total number of its members",
+            "D": "Not less than 1/4th (25%) of total members"
+          },
+          "correct": "C",
+          "explanation": "Section 244(1)(b) specifies that for a company NOT having a share capital, not less than one-fifth of the total number of its members have the right to apply under Section 241. One-fifth of 200 = 40 members. The 18 members fall short of this requirement.",
+          "section": "Section 244(1)(b)"
+        },
+        {
+          "id": 7,
+          "question": "The 18 members of Zenith Constructions Ltd. do not meet the 1/5th threshold. Can they still apply to the Tribunal for relief?",
+          "options": {
+            "A": "No, the Tribunal has no power to waive the eligibility requirements of Section 244",
+            "B": "Yes, the Tribunal has the power to waive all or any of the requirements of Section 244 on application",
+            "C": "Yes, but only if the Central Government recommends the waiver",
+            "D": "Yes, automatically — if the alleged oppression is gross and obvious"
+          },
+          "correct": "B",
+          "explanation": "The proviso to Section 244(1) provides that the Tribunal may, on an application made to it, waive all or any of the requirements specified in Section 244(1)(a) or (b) so as to enable the members to apply under Section 241. The Tribunal has discretion to grant this waiver in appropriate cases.",
+          "section": "Section 244(1) Proviso"
+        },
+        {
+          "id": 8,
+          "question": "Under Section 241(1)(b), when can members apply on the ground of 'material change' in management or control?",
+          "options": {
+            "A": "After the material change has occurred and resulted in proven financial loss",
+            "B": "When there has been a material change in management or control that is likely to result in the company's affairs being conducted in a prejudicial manner",
+            "C": "Only when the change in management involves the removal of at least 2 directors simultaneously",
+            "D": "Only when the change in shareholding exceeds 25% of total issued share capital"
+          },
+          "correct": "B",
+          "explanation": "Section 241(1)(b) allows members to apply to the Tribunal if there has been a material change in the management or control of the company — whether by alteration of the board, manager, or ownership of shares — that is likely to result in the affairs of the company being conducted in a manner prejudicial to the interests of members. The change is not required to have already caused prejudice; the likelihood of future prejudice is sufficient.",
+          "section": "Section 241(1)(b)"
+        },
+        {
+          "id": 9,
+          "question": "Apart from members, which other entity can independently apply to the Tribunal under Section 241 without needing to satisfy the thresholds of Section 244?",
+          "options": {
+            "A": "Any creditor of the company",
+            "B": "The Securities and Exchange Board of India (SEBI)",
+            "C": "The Central Government",
+            "D": "The Registrar of Companies"
+          },
+          "correct": "C",
+          "explanation": "Section 241(3) empowers the Central Government to apply to the Tribunal if it is of the opinion that the affairs of any company are being conducted in a manner prejudicial to public interest. The Central Government need not satisfy the member thresholds of Section 244 — this is an independent power vested in the government.",
+          "section": "Section 241(3)"
+        },
+        {
+          "id": 10,
+          "question": "Under Section 241(1), what is the PRIMARY condition that must exist before members can apply to the Tribunal for relief?",
+          "options": {
+            "A": "The company must have defaulted on its debt obligations",
+            "B": "The affairs of the company are being or have been conducted in a manner prejudicial or oppressive to members, OR a material change in management has occurred",
+            "C": "The company's losses must exceed its paid-up share capital",
+            "D": "The directors must have held office for more than 5 consecutive years"
+          },
+          "correct": "B",
+          "explanation": "Section 241(1) provides that any member of a company who complains that affairs of the company are being conducted in a manner prejudicial to public interest or in a manner oppressive to any member or members or prejudicial to the interests of the company, OR that there has been a material change in management/control likely to be prejudicial — may apply to the Tribunal for an order. Either ground is independently sufficient.",
+          "section": "Section 241(1)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s3",
+      "scenarioText": "ABC Enterprises Ltd. had its affairs being conducted oppressively against a group of minority shareholders. The NCLT found the allegations proved. The Tribunal passed orders under Section 242 including: (i) terminating the agreement of the Managing Director, Mr. Kapoor, (ii) setting aside a transfer of the company's prime property made 2.5 months before the date of application, and (iii) directing Mr. Kapoor to return undue gains of Rs. 50 lakhs made during his tenure as Managing Director, with the recovered amount to be transferred to IEPF.",
+      "questions": [
+        {
+          "id": 11,
+          "question": "Under Section 242(2)(g), the NCLT set aside a property transfer made 2.5 months before the application date. This power is available for transfers made within what time frame before the application?",
+          "options": {
+            "A": "Within 1 month before the application",
+            "B": "Within 3 months before the date of application",
+            "C": "Within 6 months before the date of application",
+            "D": "Within 1 year before the date of application"
+          },
+          "correct": "B",
+          "explanation": "Section 242(2)(g) empowers the Tribunal to set aside any transfer, delivery of goods, payment, execution or other act relating to property made or done by or against the company within three months before the date of the application under this section, which would, if made or done by or against an individual, be deemed in his insolvency to be a fraudulent preference. The 2.5-month transfer is within this 3-month window and can be set aside.",
+          "section": "Section 242(2)(g)"
+        },
+        {
+          "id": 12,
+          "question": "Mr. Kapoor's undue gains of Rs. 50 lakhs are to be recovered by the Tribunal under Section 242. Which of the following correctly states the Tribunal's powers regarding the utilisation of recovered undue gains?",
+          "options": {
+            "A": "The entire amount must be paid to the shareholders as dividends",
+            "B": "The Tribunal decides the manner of utilisation — either payment to victims or transfer to IEPF",
+            "C": "The amount must be deposited in the Consolidated Fund of India",
+            "D": "The amount is automatically transferred to the company's general reserves"
+          },
+          "correct": "B",
+          "explanation": "Section 242(2)(i) empowers the Tribunal to direct recovery of undue gains made by any managing director, manager, or director during the period of their office and decide the manner of utilisation of the recovered gains — including repayment to victims or transfer to the Investor Education and Protection Fund (IEPF). This is entirely at the Tribunal's discretion.",
+          "section": "Section 242(2)(i)"
+        },
+        {
+          "id": 13,
+          "question": "After the Tribunal's order under Section 242, within what period must the company file a certified copy of the order with the Registrar of Companies?",
+          "options": {
+            "A": "Within 7 days",
+            "B": "Within 14 days",
+            "C": "Within 21 days",
+            "D": "Within 30 days"
+          },
+          "correct": "D",
+          "explanation": "Section 242(7) provides that the company shall within thirty days from the date of the order made by the Tribunal file a certified copy of the order with the Registrar for registration. Both Section 242(3) and Section 242(7) contain this 30-day filing requirement for different sub-orders made by the Tribunal.",
+          "section": "Section 242(3) and Section 242(7)"
+        },
+        {
+          "id": 14,
+          "question": "The Tribunal's order under Section 242 directed modifications to the company's Articles of Association. The company later wanted to further alter its Articles in a manner inconsistent with the Tribunal's order. Under Section 242(5), what must the company do?",
+          "options": {
+            "A": "Pass a special resolution with 75% majority to override the Tribunal's order",
+            "B": "Obtain prior leave of the Tribunal before making any alteration inconsistent with its order",
+            "C": "Inform the Registrar and Ministry of Corporate Affairs before the alteration",
+            "D": "The company cannot alter its Articles at all after a Section 242 order"
+          },
+          "correct": "B",
+          "explanation": "Section 242(5) provides that the company shall not make any alteration in its memorandum or articles, without the leave of the Tribunal, that is inconsistent with the order made by the Tribunal. Any alteration so made without such leave shall be void.",
+          "section": "Section 242(5)"
+        },
+        {
+          "id": 15,
+          "question": "Under Section 242(2)(e), the Tribunal can terminate, set aside, or modify agreements. However, before modifying any agreement with a third party (not a director/manager), what specific procedural requirement must be met?",
+          "options": {
+            "A": "The third party must be given notice and an opportunity to be heard",
+            "B": "The Central Government must approve the modification",
+            "C": "The modification must be consented to by at least 75% of shareholders",
+            "D": "A registered valuer must assess the financial impact of the modification"
+          },
+          "correct": "A",
+          "explanation": "Section 242(2)(f) provides that the Tribunal may set aside or modify any agreement between the company and any other person (not being a director or manager) — but this can only be done after giving that third party a reasonable opportunity of being heard. The notice and hearing requirement is mandatory to protect third-party rights.",
+          "section": "Section 242(2)(f)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s4",
+      "scenarioText": "Mr. Dev Sharma was the Managing Director of Crystal Polymers Ltd. The NCLT found that he had engaged in persistent negligence and breach of trust in the management of company affairs. After hearing the Central Government, the Tribunal declared Mr. Sharma as 'not a fit and proper person' under Section 242(4A) and terminated his agreement as Managing Director. Mr. Sharma contested the order and continued to act as a Director in another company, claiming the bar only applied to Crystal Polymers Ltd.",
+      "questions": [
+        {
+          "id": 16,
+          "question": "Under Section 243(1)(b), for what period is a person whose agreement is terminated by a Tribunal order barred from acting as Managing Director, Director, or Manager of the SAME company?",
+          "options": {
+            "A": "1 year from the date of the order",
+            "B": "2 years from the date of the order",
+            "C": "5 years from the date of the order",
+            "D": "Permanently, until a Court grants relief"
+          },
+          "correct": "C",
+          "explanation": "Section 243(1)(b) provides that no managing director or other director or manager whose agreement is so terminated or set aside shall, for a period of five years from the date of the order, without the leave of the Tribunal, be appointed or act as managing director, other director or manager of the company.",
+          "section": "Section 243(1)(b)"
+        },
+        {
+          "id": 17,
+          "question": "Mr. Sharma was declared 'not a fit and proper person' under Section 242(4A). Under Section 243(1A), can he hold directorial positions in OTHER companies?",
+          "options": {
+            "A": "Yes, the bar under Section 243 only applies to the company involved in the proceedings",
+            "B": "No, a person declared unfit under Section 242(4A) cannot hold any directorial or management position in ANY company for 5 years",
+            "C": "Yes, unless the NCLT specifically extends the disqualification to other companies",
+            "D": "No, the bar extends to other companies but only for 2 years"
+          },
+          "correct": "B",
+          "explanation": "Section 243(1A) (inserted by the Companies (Amendment) Act, 2019) provides that a person declared 'not a fit and proper person' pursuant to Section 242(4A) shall not hold the office of a director or any other office connected with the conduct and management of the affairs of ANY company for a period of five years from the date of such decision. Mr. Sharma cannot act as director in ANY company.",
+          "section": "Section 243(1A)"
+        },
+        {
+          "id": 18,
+          "question": "Mr. Sharma wants to apply for leave from the Tribunal under Section 243(1)(b) to be reappointed as Director in Crystal Polymers Ltd. before the 5-year period expires. Who must be notified before such leave can be granted?",
+          "options": {
+            "A": "The shareholders of Crystal Polymers Ltd.",
+            "B": "The Registrar of Companies and the Regional Director",
+            "C": "The Central Government must receive notice of the intention to apply for leave",
+            "D": "SEBI and the concerned stock exchanges"
+          },
+          "correct": "C",
+          "explanation": "The proviso to Section 243(1)(b) states that the Tribunal shall not grant leave under this clause unless notice of the intention to apply for leave has been served on the Central Government and that Government has been given a reasonable opportunity of being heard in the matter before the leave is granted.",
+          "section": "Section 243(1)(b) Proviso"
+        },
+        {
+          "id": 19,
+          "question": "Mr. Sharma's employment agreement entitled him to 6 months' severance pay upon termination. Under Section 243(1B), is he entitled to this compensation?",
+          "options": {
+            "A": "Yes, contractual compensation survives the Tribunal's order",
+            "B": "Yes, but limited to 3 months' compensation maximum",
+            "C": "No, upon removal under Section 242, the person is not entitled to any compensation for loss or termination of office",
+            "D": "Yes, but only if the Tribunal specifically authorises payment of compensation"
+          },
+          "correct": "C",
+          "explanation": "Section 243(1B) provides that upon the removal of a person from the office of a director or any other office connected with the conduct and management of the affairs of the company, that person shall not be entitled to, or be paid, any compensation for the loss or termination of office, regardless of any contractual entitlement or company articles.",
+          "section": "Section 243(1B)"
+        },
+        {
+          "id": 20,
+          "question": "Mr. Sharma knowingly acted as Director of another company in violation of the 5-year bar under Section 243. What is the penalty for this violation?",
+          "options": {
+            "A": "Imprisonment up to 1 year and/or fine up to Rs. 1 lakh",
+            "B": "Fine which may extend to Rs. 5 lakh",
+            "C": "Imprisonment up to 3 years and fine up to Rs. 5 lakh",
+            "D": "Automatic disqualification for an additional 10 years"
+          },
+          "correct": "B",
+          "explanation": "Section 243(2) provides that if any person knowingly acts as a managing director or other director or manager of a company in contravention of Section 243(1)(b), or knowingly is a party to such contravention, the person shall be punishable with fine which may extend to five lakh rupees.",
+          "section": "Section 243(2)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s5",
+      "scenarioText": "Innovate Tech Ltd. (a listed company) had 5,000 shareholders, of which a group of 80 shareholders holding 1.5% of issued share capital believed that the company's auditors had certified misleading financial statements that damaged their interests. They decided to file a class action suit under Section 245. The company's legal team argued that the suit was not maintainable because (a) the audit firm, not individual partners, should be the sole respondent, and (b) the company was a banking company and Section 245 did not apply.",
+      "questions": [
+        {
+          "id": 21,
+          "question": "The applicant group consists of 80 members holding 1.5% of issued share capital of Innovate Tech Ltd. (a listed company with 5,000 members). Do they meet the eligibility threshold under Section 245?",
+          "options": {
+            "A": "Yes, 80 members holding 1.5% of issued share capital of a listed company meets the Section 245 threshold",
+            "B": "No, for a listed company they need to hold at least 2% of issued share capital or be at least 100 members (whichever is less)",
+            "C": "Yes, because 80 members exceeds 5% of 5,000 total members",
+            "D": "No, listed company class actions require at least 5% of issued share capital"
+          },
+          "correct": "B",
+          "explanation": "Section 245(3)(i) provides that for a company having share capital, applicants must hold either not less than 5% of issued share capital (for unlisted companies) or not less than 2% of issued share capital (for listed companies), OR comprise 100 members or 5% of total members (whichever is less). The group holds only 1.5% (less than 2% for listed companies) and has only 80 members (less than 100). They fail both prongs.",
+          "section": "Section 245(3)(i)"
+        },
+        {
+          "id": 22,
+          "question": "Innovate Tech Ltd. argued that the audit firm (not its partners) is the only proper respondent. Under Section 245(2), what is the correct legal position regarding liability of an audit firm and its partners?",
+          "options": {
+            "A": "Only the audit firm as an entity can be held liable; individual partners are shielded",
+            "B": "Only the partner who signed the audit report can be held personally liable",
+            "C": "Both the audit firm and each partner involved in improper/misleading statements share liability",
+            "D": "Partners are liable only if the firm has been wound up at the time of the suit"
+          },
+          "correct": "C",
+          "explanation": "Section 245(2) specifically provides that where an audit firm has made improper or misleading statements in the audit report or has acted in a fraudulent manner, the liability shall be of the firm as well as of each partner who was involved in making such improper or misleading statements. This creates joint liability for both the firm and the individual involved partners.",
+          "section": "Section 245(2)"
+        },
+        {
+          "id": 23,
+          "question": "Innovate Tech Ltd.'s legal team argued that it is a banking company and thus Section 245 does not apply. Under which sub-section of Section 245 are banking companies excluded?",
+          "options": {
+            "A": "Section 245(7)",
+            "B": "Section 245(8)",
+            "C": "Section 245(9)",
+            "D": "Section 245(10)"
+          },
+          "correct": "C",
+          "explanation": "Section 245(9) explicitly provides that nothing contained in Section 245 shall apply to a banking company. Banking companies are excluded from the class action suit mechanism under the Companies Act, 2013. However, the argument fails here because the question states Innovate Tech Ltd. is listed — it is NOT stated to be a banking company. This is a factual defence, not a legal one.",
+          "section": "Section 245(9)"
+        },
+        {
+          "id": 24,
+          "question": "Under Section 245(1), against which of the following can a class action suit NOT be filed?",
+          "options": {
+            "A": "The company's auditors for improper audit statements",
+            "B": "The company's legal advisors for incorrect statements",
+            "C": "The Registrar of Companies for regulatory failures",
+            "D": "Experts and advisors for misleading statements or wrongful acts"
+          },
+          "correct": "C",
+          "explanation": "Section 245(1) allows class action suits against the company, its directors, auditors/audit firms, and experts/advisors/consultants for improper, misleading, or fraudulent conduct. The Registrar of Companies is a government authority and is NOT one of the parties against whom a class action under Section 245 can be filed.",
+          "section": "Section 245(1)"
+        },
+        {
+          "id": 25,
+          "question": "Under Section 245(8), if the Tribunal finds that the application is frivolous or vexatious, what order can it pass?",
+          "options": {
+            "A": "Dismiss the application and refer the matter to the Central Government",
+            "B": "Reject the application and impose costs up to Rs. 1 lakh on the applicant",
+            "C": "Impose costs up to Rs. 5 lakh on the applicant and suspend their voting rights",
+            "D": "Transfer the matter to the High Court for further inquiry"
+          },
+          "correct": "B",
+          "explanation": "Section 245(8) provides that where the Tribunal rejects a class action application as being frivolous or vexatious, it shall for reasons to be recorded in writing, reject the application and may make an order that the applicant shall pay to the opposite party such cost not exceeding one lakh rupees as may be specified in the order.",
+          "section": "Section 245(8)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s6",
+      "scenarioText": "Granite Exports Ltd. had 800 members. A group of 90 members (representing 11% of issued share capital) filed a class action under Section 245 against the company and its directors for conducting affairs prejudicially. The Tribunal admitted the application. Subsequently, a separate group of 150 members filed another identical class action application based on the same cause of action. The first applicant group later negotiated a settlement individually without involving all class members.",
+      "questions": [
+        {
+          "id": 26,
+          "question": "The group of 90 members holds 11% of issued share capital of Granite Exports Ltd. (an unlisted company with 800 total members). Do they meet the Section 245 threshold?",
+          "options": {
+            "A": "No, they need at least 100 members and 5% of issued share capital simultaneously",
+            "B": "Yes, because members holding not less than 5% of issued share capital of an unlisted company can file a class action under Section 245",
+            "C": "No, 90 members is less than 100 and they don't meet either threshold",
+            "D": "Yes, but only if the Tribunal grants a waiver similar to the one under Section 244"
+          },
+          "correct": "B",
+          "explanation": "Section 245(3)(i) provides that applicants may be members holding not less than 5% of the issued share capital of the company. For unlisted companies, the threshold is 5% of issued share capital. The group holds 11% which exceeds 5%. They independently satisfy the shareholding limb, even though they are fewer than 100 members.",
+          "section": "Section 245(3)(i)"
+        },
+        {
+          "id": 27,
+          "question": "After the first class action was admitted by the Tribunal, the second group of 150 members filed another application for the identical cause of action. What action will the Tribunal take regarding the second application under Section 245(5)?",
+          "options": {
+            "A": "Admit both applications and consolidate them into one proceeding",
+            "B": "Admit the second application separately as both groups have independent standing",
+            "C": "Prohibit a duplicate class action from being filed for the same cause of action",
+            "D": "Transfer the second application to the High Court for independent disposal"
+          },
+          "correct": "C",
+          "explanation": "Section 245(5)(c) provides that the Tribunal shall not permit duplicate class action applications where an application has already been admitted. Upon admission of the first class action, similar applications for the same cause of action must be consolidated or prohibited. The Tribunal has the power to consolidate similar applications and prohibit duplicates.",
+          "section": "Section 245(5)(c)"
+        },
+        {
+          "id": 28,
+          "question": "The first applicant group negotiated a private settlement with the company without involving other class members. Under Section 245, an order of the Tribunal on a class action is binding on whom?",
+          "options": {
+            "A": "Only the applicant members and the company's board of directors",
+            "B": "All members who voted in favour of filing the application",
+            "C": "The company and all its members, depositors, auditors, audit firm, experts, consultants, and advisors",
+            "D": "Only those members who were named as applicants in the application"
+          },
+          "correct": "C",
+          "explanation": "Section 245(6) provides that the order passed by the Tribunal shall be binding on the company and all its members, depositors and auditor including audit firm or expert or consultant or advisor or any other person associated with the company. This broad binding effect is what makes class actions powerful — the order binds all, not just the named applicants.",
+          "section": "Section 245(6)"
+        },
+        {
+          "id": 29,
+          "question": "Under Section 245(5)(a), when the Tribunal admits a class action application, what is it required to do regarding other affected persons?",
+          "options": {
+            "A": "Immediately pass an interim stay order on all company activities",
+            "B": "Cause a public notice to be served on members/depositors of the same class",
+            "C": "Direct the company to hold a general meeting within 30 days",
+            "D": "Appoint a Special Officer to manage the company's affairs"
+          },
+          "correct": "B",
+          "explanation": "Section 245(5)(a) provides that upon admitting an application, the Tribunal shall cause a public notice to be served to all the members or depositors of the same class so that they can be heard in the proceedings or join as co-applicants. This ensures all affected persons are given an opportunity to participate.",
+          "section": "Section 245(5)(a)"
+        },
+        {
+          "id": 30,
+          "question": "The company (Granite Exports Ltd.) failed to comply with a Tribunal order made under Section 245. What is the penalty for the company?",
+          "options": {
+            "A": "Fine not less than Rs. 1 lakh, extendable to Rs. 5 lakh",
+            "B": "Fine not less than Rs. 5 lakh but may extend to Rs. 25 lakh",
+            "C": "Fine not less than Rs. 10 lakh and imprisonment of directors up to 5 years",
+            "D": "Automatic winding-up petition by the Tribunal"
+          },
+          "correct": "B",
+          "explanation": "Section 245(7) provides that if a company fails to comply with a Tribunal order under Section 245, the company shall be punishable with fine which shall not be less than five lakh rupees but which may extend to twenty-five lakh rupees. Officers of the company in default face imprisonment up to 3 years and fine ranging from Rs. 25,000 to Rs. 1 lakh.",
+          "section": "Section 245(7)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s7",
+      "scenarioText": "Pacific Traders Ltd. was facing allegations of oppression by a minority group. The NCLT passed an order under Section 242 directing the majority to purchase the minority shareholders' shares. Subsequently, the company wanted to reduce its share capital as a consequence of the purchase. Additionally, the Tribunal appointed certain directors to report to it directly. The company attempted to alter its Articles of Association to restrict share transfers — a change that was inconsistent with the Tribunal's earlier order — without seeking the Tribunal's leave.",
+      "questions": [
+        {
+          "id": 31,
+          "question": "When the Tribunal orders purchase of member interests by the company itself (under Section 242(2)(b)), what further order may the Tribunal make regarding share capital?",
+          "options": {
+            "A": "The Tribunal may direct issue of new shares to compensate for the reduction",
+            "B": "The Tribunal may provide for the reduction of share capital consequent on such purchase",
+            "C": "The Tribunal shall suspend all rights attached to the repurchased shares for 2 years",
+            "D": "The Tribunal can only allow reduction if approved by a special resolution"
+          },
+          "correct": "B",
+          "explanation": "Section 242(2)(b) empowers the Tribunal to make an order for the purchase of shares or interests of any member of the company by other members thereof or by the company, and in the case of a purchase by the company, for the reduction accordingly of the company's share capital. This consequential capital reduction power is a unique feature of Section 242.",
+          "section": "Section 242(2)(b)"
+        },
+        {
+          "id": 32,
+          "question": "The company altered its Articles inconsistently with the Tribunal's Section 242 order without seeking the Tribunal's leave. What is the legal effect of such alteration?",
+          "options": {
+            "A": "The alteration is valid but the company must pay a penalty of Rs. 5 lakh",
+            "B": "The alteration is void",
+            "C": "The alteration is voidable and can be set aside by any shareholder within 3 months",
+            "D": "The alteration is valid only if approved by a 3/4th majority of shareholders"
+          },
+          "correct": "B",
+          "explanation": "Section 242(5) provides that the company shall not make any alteration in its memorandum or articles that is inconsistent with the Tribunal's order without the leave of the Tribunal, and any alteration so made without such leave shall be void. There is no cure for such alteration — it is absolutely void.",
+          "section": "Section 242(5)"
+        },
+        {
+          "id": 33,
+          "question": "Under Section 242(2)(k), the Tribunal directed certain directors to report to it. What does this power relate to?",
+          "options": {
+            "A": "Appointment of government nominees as permanent directors of the company",
+            "B": "Appointment of directors to report to the Tribunal as directed, to oversee scheme implementation",
+            "C": "Removal of all directors and appointment of a Special Court administrator",
+            "D": "Transfer of management to the Official Liquidator pending company winding-up"
+          },
+          "correct": "B",
+          "explanation": "Section 242(2)(k) empowers the Tribunal to make an order providing for the appointment of such directors or other persons as the Tribunal may deem fit for the purpose of reporting to the Tribunal on such matters as it may direct. This is a supervisory/monitoring mechanism to ensure the Tribunal's orders are being implemented.",
+          "section": "Section 242(2)(k)"
+        },
+        {
+          "id": 34,
+          "question": "Under Section 242(2)(a), the Tribunal may regulate the conduct of company affairs. This means the Tribunal can:",
+          "options": {
+            "A": "Take over the day-to-day management of the company",
+            "B": "Make orders for regulating the future conduct of the company's affairs as it thinks fit",
+            "C": "Merge the company with a stronger competitor in the public interest",
+            "D": "Direct that the company cease all commercial operations for a specified period"
+          },
+          "correct": "B",
+          "explanation": "Section 242(2)(a) provides that the Tribunal may make an order for the regulation of the conduct of affairs of the company in future. This is a forward-looking regulatory power — the Tribunal prescribes how the company must conduct its future affairs to prevent further oppression or mismanagement.",
+          "section": "Section 242(2)(a)"
+        },
+        {
+          "id": 35,
+          "question": "What is the penalty on OFFICERS IN DEFAULT of Pacific Traders Ltd. for failing to comply with the Tribunal's order under Section 242?",
+          "options": {
+            "A": "Fine from Rs. 1 lakh to Rs. 5 lakh only; no imprisonment",
+            "B": "Imprisonment up to 6 months and fine from Rs. 10,000 to Rs. 50,000",
+            "C": "Fine from Rs. 25,000 to Rs. 1 lakh",
+            "D": "Fine from Rs. 1 lakh to Rs. 25 lakh and imprisonment up to 3 years"
+          },
+          "correct": "C",
+          "explanation": "Section 242(8) provides for the following penalties for violation of Section 242 orders: For the company — fine from Rs. 1 lakh to Rs. 25 lakh. For every officer in default — fine from Rs. 25,000 to Rs. 1 lakh, or both (fine and any other punishment the Tribunal may impose). There is no imprisonment penalty specifically under Section 242(8) for officers.",
+          "section": "Section 242(8)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s8",
+      "scenarioText": "Saturn Logistics Ltd. had 2,000 depositors who collectively deposited Rs. 5 crore with the company. The company's management was conducting affairs in a manner prejudicial to depositors' interests. A group of 110 depositors to whom the company owed 4% of total deposits wanted to file a class action under Section 245. Another group of 90 depositors to whom the company owed 6% of total deposits also expressed interest in filing the same application.",
+      "questions": [
+        {
+          "id": 36,
+          "question": "The group of 110 depositors is owed 4% of total deposits. Do they meet the depositor eligibility threshold under Section 245?",
+          "options": {
+            "A": "Yes, 110 depositors exceeds the 100-depositor threshold under Section 245",
+            "B": "No, they need to hold either 5% of total deposits or be at least 100 depositors (whichever is less), and 4% of deposits means they don't satisfy the deposit-value limb",
+            "C": "Yes, 110 depositors exceeds both thresholds simultaneously",
+            "D": "No, depositors can never file class actions; only shareholders can"
+          },
+          "correct": "A",
+          "explanation": "Section 245(3)(ii) provides that depositors must satisfy EITHER: (a) minimum 100 depositors or 5% of total depositors (whichever is less), OR (b) depositors to whom the company owes not less than 5% of total deposits. The group of 110 depositors satisfies the first limb (110 > 100). They need not also satisfy the 5% deposits limb — satisfaction of EITHER limb is sufficient.",
+          "section": "Section 245(3)(ii)"
+        },
+        {
+          "id": 37,
+          "question": "The group of 90 depositors is owed 6% of total deposits. Do they have locus standi under Section 245?",
+          "options": {
+            "A": "No, 90 depositors is less than the 100-depositor minimum and 5% of 2,000 = 100 depositors",
+            "B": "Yes, because depositors owed not less than 5% of total deposits can file, regardless of their number",
+            "C": "No, they need both 100 depositors AND 5% of total deposits",
+            "D": "Yes, but only if the Tribunal grants a waiver under Section 245"
+          },
+          "correct": "B",
+          "explanation": "Section 245(3)(ii)(b) provides that depositors to whom the company owes not less than 5% of total deposits of the company may apply. The 90-depositor group is owed 6% of total deposits, which satisfies the 5% deposit-value threshold. They qualify independently on this basis, even though their number (90) falls below 100 and below 5% of total depositors (5% of 2,000 = 100).",
+          "section": "Section 245(3)(ii)"
+        },
+        {
+          "id": 38,
+          "question": "Under Section 245(4), the Tribunal must consider the 'good faith' of the applicant depositors. Which of the following is NOT a factor the Tribunal considers in determining admissibility of a class action?",
+          "options": {
+            "A": "Whether the interests of the applicants are bona fide",
+            "B": "Whether any other person not a director is involved in the alleged prejudicial conduct",
+            "C": "Whether the annual turnover of the company exceeds Rs. 100 crore",
+            "D": "Whether the cause of action could be addressed by ratification at a general meeting"
+          },
+          "correct": "C",
+          "explanation": "Section 245(4) requires the Tribunal to consider: the bona fides of the applicant, whether the conduct involves persons beyond directors, whether the applicant could have pursued relief individually, the views of disinterested members/depositors, and whether the acts complained of could be ratified or authorised. Annual turnover of the company is NOT a consideration under Section 245(4).",
+          "section": "Section 245(4)"
+        },
+        {
+          "id": 39,
+          "question": "Under Section 245(5)(b), when multiple class action applications exist, what does the Tribunal do?",
+          "options": {
+            "A": "Hear all applications simultaneously through separate benches",
+            "B": "Consolidate similar applications and allow the class to choose a lead applicant, with the Tribunal appointing one if no consensus is reached",
+            "C": "Allow only the application filed earliest in time and dismiss all subsequent ones",
+            "D": "Transfer all applications to the High Court for consolidation"
+          },
+          "correct": "B",
+          "explanation": "Section 245(5)(b) provides that the Tribunal shall consolidate similar applications and allow the class to nominate a lead applicant to represent all. If the class cannot agree on a lead applicant, the Tribunal itself shall appoint one for the purposes of the class action. This ensures a single, unified proceeding.",
+          "section": "Section 245(5)(b)"
+        },
+        {
+          "id": 40,
+          "question": "Under Section 245(5) (final part), who bears the costs and expenses of the class action proceedings?",
+          "options": {
+            "A": "The individual applicants on a pro rata basis",
+            "B": "The Central Government through the legal aid fund",
+            "C": "The ICAI Investor Education and Protection Fund",
+            "D": "The company or the person responsible for the oppressive/prejudicial acts"
+          },
+          "correct": "D",
+          "explanation": "Section 245(5) provides that the cost and expenses of the class action shall be defrayed by the company or the person responsible for any oppressive act. This ensures that the financial burden of pursuing class action relief does not fall on the already-aggrieved members or depositors, making the remedy practically accessible.",
+          "section": "Section 245(5)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s9",
+      "scenarioText": "Oasis Real Estate Ltd. had total issued share capital of 10,00,000 shares held by 500 shareholders. A group of 45 shareholders holding 5.5% of issued share capital wanted to file under Section 241 for oppression. Separately, 60 shareholders holding 12% of issued share capital also alleged oppression. The Tribunal noted that calls on some shares of the first group were unpaid. All shares of the second group had all calls fully paid.",
+      "questions": [
+        {
+          "id": 41,
+          "question": "For Oasis Real Estate Ltd. (500 members, share capital company), what is the minimum number of members required to satisfy the member-count threshold under Section 244?",
+          "options": {
+            "A": "100 members",
+            "B": "50 members (one-tenth of 500)",
+            "C": "25 members (one-twentieth of 500)",
+            "D": "Either 100 members or 50 members, whichever is less — so 50 members"
+          },
+          "correct": "D",
+          "explanation": "Section 244(1)(a) requires 'not less than 100 members or not less than one-tenth of total members, WHICHEVER IS LESS.' One-tenth of 500 = 50 members. Since 50 < 100, the threshold is 50 members. The 'whichever is less' clause reduces the burden for smaller companies.",
+          "section": "Section 244(1)(a)"
+        },
+        {
+          "id": 42,
+          "question": "The group of 45 shareholders (holding 5.5% of issued share capital) has some members with unpaid calls. Can they file under Section 241?",
+          "options": {
+            "A": "Yes, unpaid calls do not affect locus standi for Section 241 applications",
+            "B": "No, 45 members is less than 50 (one-tenth of 500) and those with unpaid calls cannot use the shareholding limb",
+            "C": "Yes, because 5.5% of issued share capital satisfies the 10% shareholding threshold",
+            "D": "No, they need at least 100 members to apply regardless of share percentage"
+          },
+          "correct": "B",
+          "explanation": "Section 244(1)(a) requires applicants using the shareholding limb (1/10th of issued share capital) to have 'paid all calls and other sums due on their shares.' The group has 45 members (less than the 50-member threshold) AND some members with unpaid calls (which disqualifies them from the 10% shareholding limb since calls are not fully paid). They cannot file under either limb.",
+          "section": "Section 244(1)(a)"
+        },
+        {
+          "id": 43,
+          "question": "The second group of 60 shareholders holds 12% of issued share capital with all calls fully paid. Can they file under Section 241?",
+          "options": {
+            "A": "No, 60 members is less than 50 but also less than 100, failing both thresholds",
+            "B": "Yes, members holding not less than 1/10th (10%) of issued share capital with all calls paid can apply independently",
+            "C": "No, because they need at least 100 members and 10% share capital simultaneously",
+            "D": "Yes, but only after obtaining a Tribunal waiver under Section 244 proviso"
+          },
+          "correct": "B",
+          "explanation": "Section 244(1)(a) provides that members holding not less than one-tenth of the issued share capital (subject to payment of all calls and other sums due) may apply. The second group holds 12% (exceeding 10%) with all calls fully paid. They independently satisfy the shareholding limb. The member-count limb is an ALTERNATIVE — satisfaction of EITHER is sufficient.",
+          "section": "Section 244(1)(a)"
+        },
+        {
+          "id": 44,
+          "question": "Under Section 242(2)(d), the Tribunal can restrict shares/allotments. Under Section 242(2)(c), the Tribunal can also restrict or prohibit which activity?",
+          "options": {
+            "A": "Payment of dividends to majority shareholders",
+            "B": "Transfer or allotment of shares of the company",
+            "C": "Holding of Board meetings",
+            "D": "Acceptance of new deposits from the public"
+          },
+          "correct": "B",
+          "explanation": "Section 242(2)(c) empowers the Tribunal to make an order for restrictions on the transfer or allotment of the shares of the company. This is a specific targeted restriction to prevent further dilution of minority interests or inappropriate transfers of shares during or after oppression proceedings.",
+          "section": "Section 242(2)(c)"
+        },
+        {
+          "id": 45,
+          "question": "Under Section 242(4), can the Tribunal pass an interim order while the main application is pending before it?",
+          "options": {
+            "A": "No, the Tribunal can only pass final orders after full hearing under Section 242",
+            "B": "Yes, the Tribunal may issue interim orders for regulating company affairs on just and equitable terms",
+            "C": "Yes, but only after obtaining the Central Government's approval for interim measures",
+            "D": "No, interim orders in oppression matters require a High Court direction"
+          },
+          "correct": "B",
+          "explanation": "Section 242(4) provides that the Tribunal may, on the application of any party to the proceeding, make such interim order, if it is of the opinion that it is just and equitable to do so, to regulate the conduct of the company's affairs upon such terms and conditions as appear to it to be just and equitable. This preventive interim power is crucial to protect minority interests during pending proceedings.",
+          "section": "Section 242(4)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s10",
+      "scenarioText": "Arrow Chemicals Ltd. (a company without share capital) had 300 members. A group of 55 members believed the company was being mismanaged and wanted to apply under Section 241. The Central Government also suspected that the company's affairs were prejudicial to public interest. The NCLT made various orders including removal of the existing Managing Director and appointment of a new one. The Tribunal also found that the Managing Director was 'not a fit and proper person' under Section 242(4A).",
+      "questions": [
+        {
+          "id": 46,
+          "question": "Arrow Chemicals Ltd. has no share capital and has 300 members. The group of 55 members wants to apply under Section 241. Do they satisfy Section 244?",
+          "options": {
+            "A": "Yes, 55 members satisfies the threshold for companies without share capital",
+            "B": "No, one-fifth of 300 = 60 members; 55 is below this minimum threshold",
+            "C": "Yes, because more than 50% of 100-member threshold is satisfied",
+            "D": "No, companies without share capital cannot apply under Section 241 at all"
+          },
+          "correct": "B",
+          "explanation": "Section 244(1)(b) provides that for a company NOT having a share capital, not less than one-fifth of the total number of its members have the right to apply. One-fifth of 300 = 60 members. The group has only 55 members which is less than 60. They fall short of the mandatory threshold.",
+          "section": "Section 244(1)(b)"
+        },
+        {
+          "id": 47,
+          "question": "Can the Central Government independently apply to the NCLT for relief regarding Arrow Chemicals Ltd. under Section 241(3)?",
+          "options": {
+            "A": "No, the Central Government must first refer the matter to the Registrar of Companies",
+            "B": "Yes, but only after the members' application under Section 241 has been dismissed",
+            "C": "Yes, the Central Government can independently apply if it believes affairs are prejudicial to public interest, without needing to meet any member threshold",
+            "D": "No, the Central Government can only apply when the company has more than 500 members"
+          },
+          "correct": "C",
+          "explanation": "Section 241(3) provides an independent power to the Central Government to apply to the Tribunal if it believes the affairs of the company are being conducted in a manner prejudicial to public interest. This power is entirely separate from and independent of the members' right under Section 241(1). The government does not need to satisfy any member threshold.",
+          "section": "Section 241(3)"
+        },
+        {
+          "id": 48,
+          "question": "The NCLT found the Managing Director 'not a fit and proper person' under Section 242(4A). What does Section 242(4A) require the Tribunal to record?",
+          "options": {
+            "A": "A finding on whether the person can repay the undue gains recovered from them",
+            "B": "A finding on whether the respondents are 'fit and proper' persons to hold the office of director",
+            "C": "A finding on whether the company should be wound up or not",
+            "D": "A finding on whether SEBI should investigate the company's securities"
+          },
+          "correct": "B",
+          "explanation": "Section 242(4A) was inserted by the Companies (Amendment) Act, 2019. It provides that the Tribunal shall record its finding on the question as to whether the respondents have been found to be 'fit and proper' person to hold the office of a director of the company. This fitness recording is a mandatory exercise that triggers the consequences under Section 243(1A).",
+          "section": "Section 242(4A)"
+        },
+        {
+          "id": 49,
+          "question": "Under Section 242(2)(h), the Tribunal ordered removal of the Managing Director and also provided for the appointment of his successor. When appointing a new Managing Director under Section 242(2)(j), what reporting requirement may the Tribunal impose?",
+          "options": {
+            "A": "The new MD must report quarterly to SEBI on company performance",
+            "B": "The new MD must submit monthly reports to the Registrar of Companies",
+            "C": "The Tribunal may provide for the appointment of the new MD with a requirement to report to the Tribunal",
+            "D": "The new MD must furnish a security deposit equivalent to 1 year's remuneration to the IEPF"
+          },
+          "correct": "C",
+          "explanation": "Section 242(2)(j) empowers the Tribunal to make orders for providing for the appointment of a managing director, manager or any administrator reporting to the Tribunal as it may deem necessary. This ensures Tribunal oversight over the new management appointed pursuant to its own order.",
+          "section": "Section 242(2)(j)"
+        },
+        {
+          "id": 50,
+          "question": "Under Section 243(1)(b), the debarred Managing Director wants leave from the Tribunal to be reappointed elsewhere before 5 years. Even if the Tribunal is inclined to grant leave, it CANNOT do so unless:",
+          "options": {
+            "A": "A special resolution of the company approving his reappointment is passed",
+            "B": "Notice of the intention to apply for leave has been served on the Central Government and it has been given a reasonable opportunity to be heard",
+            "C": "The Registrar of Companies issues a no-objection certificate",
+            "D": "SEBI confirms that the person's disqualification has been waived for securities law purposes"
+          },
+          "correct": "B",
+          "explanation": "The proviso to Section 243(1)(b) makes it mandatory that the Tribunal shall not grant leave to a debarred person unless notice of the intention to apply for leave has been served on the Central Government AND the Central Government has been given a reasonable opportunity of being heard in the matter. These are cumulative mandatory preconditions — without both being met, the Tribunal has no jurisdiction to grant the leave.",
+          "section": "Section 243(1)(b) Proviso"
+        }
+      ]
+    }
+  ]
+}
