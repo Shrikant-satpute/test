@@ -713,6 +713,77 @@
           "section": "Section 233(1)(a)"
         }
       ]
+    },
+    {
+      "scenarioId": "s11",
+      "scenarioText": "Falcon Textiles Ltd. (transferor) was being amalgamated into Eagle Apparels Ltd. (transferee) pursuant to an NCLT-approved scheme. Eagle Apparels circulated an offer document to Falcon's shareholders before filing it with the Registrar of Companies. After the merger was complete and Falcon was dissolved, Eagle Apparels decided to destroy Falcon's books and papers — some of which were 6 years old — without seeking any permission. The Central Government received credible information that Falcon's directors had engaged in large-scale fraud before the merger. The directors claimed that their liability had ceased upon Falcon's dissolution.",
+      "questions": [
+        {
+          "id": 51,
+          "question": "Eagle Apparels Ltd. circulated the offer document to Falcon Textiles' shareholders before filing it with the Registrar. Under Section 238 of the Companies Act, 2013, which requirement did Eagle Apparels violate?",
+          "options": {
+            "A": "The offer document must be filed with the NCLT before being circulated to shareholders",
+            "B": "A copy of every circular making an offer of a scheme involving transfer of shares must be filed with the Registrar before it is dispatched to members",
+            "C": "The offer document must be approved by SEBI before being sent to shareholders of any company",
+            "D": "The offer document must be approved by three-fourths of Eagle Apparels' own shareholders before circulation"
+          },
+          "correct": "B",
+          "explanation": "Section 238(1) provides that where a scheme or contract involving the transfer of shares or any class of shares in a company to another company is under consideration, every circular containing such offer or recommendation to the members to accept or reject the offer must be filed with the Registrar before it is dispatched to the members of the transferor company. Eagle Apparels violated this by dispatching the document before registration.",
+          "section": "Section 238(1)"
+        },
+        {
+          "id": 52,
+          "question": "Eagle Apparels Ltd. dispatched the circular without first registering it with the Registrar, in violation of Section 238. Who is held liable for this default, and what is the nature of the penalty?",
+          "options": {
+            "A": "The company alone is liable; officers in default are fully exempt from personal liability",
+            "B": "The Registrar can reject the scheme outright and refer it back to the NCLT for fresh sanction",
+            "C": "The company and every officer of the company who is in default shall be punishable as prescribed under the Act",
+            "D": "Only the promoters of the transferor company are liable for non-compliance with Section 238"
+          },
+          "correct": "C",
+          "explanation": "Section 238(2) provides that if a company defaults in complying with the requirements of Section 238(1), the company and every officer of the company who is in default shall be punishable with fine as prescribed. Both the company and the defaulting officers bear personal liability, ensuring individual accountability for regulatory non-compliance.",
+          "section": "Section 238(2)"
+        },
+        {
+          "id": 53,
+          "question": "After Falcon Textiles Ltd. was dissolved upon amalgamation, Eagle Apparels Ltd. destroyed Falcon's books and papers without seeking any permission. Under Section 239, was this permissible?",
+          "options": {
+            "A": "Yes, once a company is dissolved its records automatically vest in the transferee company to dispose of freely",
+            "B": "No, the books and papers of an amalgamated company shall not be disposed of without the prior permission of the Central Government",
+            "C": "Yes, provided the books are more than 5 years old at the time of disposal",
+            "D": "No, but permission must be sought from the NCLT rather than the Central Government"
+          },
+          "correct": "B",
+          "explanation": "Section 239(1) expressly provides that the books and papers of a company which has been amalgamated with, or whose shares have been acquired by, another company shall not be disposed of without the prior permission of the Central Government. Eagle Apparels committed a clear violation by destroying Falcon's records without obtaining such permission.",
+          "section": "Section 239(1)"
+        },
+        {
+          "id": 54,
+          "question": "Before granting permission to dispose of Falcon Textiles' books and papers, the Central Government appointed a person to inspect the records. Under Section 239, what is the PRIMARY purpose of such inspection?",
+          "options": {
+            "A": "To verify that all tax liabilities of the dissolved company have been fully discharged",
+            "B": "To assess the market value of intellectual property transferred to Eagle Apparels",
+            "C": "To examine whether the books contain evidence of the commission of any offence in connection with the promotion, formation, or management of the amalgamated company",
+            "D": "To confirm that the merger scheme was implemented exactly as sanctioned by the NCLT"
+          },
+          "correct": "C",
+          "explanation": "Section 239(2) provides that before granting permission to dispose of the books and papers, the Central Government may appoint a person to examine the books and papers or any of them for the purpose of ascertaining whether they contain any evidence of the commission of an offence in connection with the promotion or formation, or the management of the affairs, of the transferor company. This protects against evidence destruction in fraud cases.",
+          "section": "Section 239(2)"
+        },
+        {
+          "id": 55,
+          "question": "The directors of the dissolved Falcon Textiles Ltd. argued that their liability for offences committed before the merger ceased upon Falcon's dissolution. Under Section 240 of the Companies Act, 2013, is this argument correct?",
+          "options": {
+            "A": "Yes, dissolution of a company extinguishes all liabilities of its former officers under the Companies Act",
+            "B": "Yes, but only if the NCLT sanctioned the amalgamation scheme, as that amounts to a judicial absolution",
+            "C": "No, notwithstanding the dissolution, the liability of every officer in default for offences committed before dissolution continues and may be enforced as if the dissolution had not taken place",
+            "D": "No, but such liability is transferred to the officers of Eagle Apparels Ltd. upon amalgamation"
+          },
+          "correct": "C",
+          "explanation": "Section 240 provides that notwithstanding the dissolution of the transferor company upon amalgamation, the liability of every officer in default of such company in respect of any offence committed by him before dissolution shall continue and may be enforced as if the dissolution had not taken place. The former directors of Falcon cannot escape prosecution by relying on the company's dissolution.",
+          "section": "Section 240"
+        }
+      ]
     }
   ]
 }

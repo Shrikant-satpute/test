@@ -713,6 +713,77 @@
           "section": "Section 243(1)(b) Proviso"
         }
       ]
+    },
+    {
+      "scenarioId": "s11",
+      "scenarioText": "During oppression proceedings under Section 241 against Nova Constructions Ltd., evidence emerged that the majority directors had fraudulently transferred company assets worth ₹50 crore to shell entities they controlled, engaged in fraudulent trading by incurring debts with no intention of repaying creditors, and failed to maintain proper books of account for two years. The minority shareholders' counsel argued that the Tribunal had the same powers in oppression proceedings as it does in winding-up proceedings to hold the directors personally liable. The directors resisted, claiming those powers were available only in winding-up proceedings and not under Chapter XVI.",
+      "questions": [
+        {
+          "id": 51,
+          "question": "The minority shareholders argued that the Tribunal has powers under Sections 337 to 341 even in oppression proceedings under Sections 241 and 242. Which provision of the Companies Act, 2013 extends those powers to Chapter XVI proceedings?",
+          "options": {
+            "A": "Section 242(2)(m) which grants the Tribunal residual power to pass any just and equitable order",
+            "B": "Section 246, which expressly provides that Sections 337 to 341 shall apply mutatis mutandis to proceedings under Sections 241 and 242",
+            "C": "Section 213, which empowers the Tribunal to investigate the affairs of the company on application by members",
+            "D": "Section 224, which empowers the Central Government to take action based on investigation reports"
+          },
+          "correct": "B",
+          "explanation": "Section 246 of the Companies Act, 2013 provides that the provisions of Sections 337 to 341 shall apply mutatis mutandis to proceedings before the Tribunal under Sections 241 and 242. This expressly bridges the Chapter XVI oppression framework and the Chapter XX winding-up fraud liability provisions, giving the Tribunal the same arsenal of powers against delinquent officers in oppression proceedings.",
+          "section": "Section 246"
+        },
+        {
+          "id": 52,
+          "question": "Section 339 (made applicable via Section 246) deals with liability for fraudulent trading. Under Section 339, if during proceedings the Tribunal finds that the business of Nova Constructions Ltd. was carried on with intent to defraud creditors, what order can it make?",
+          "options": {
+            "A": "Order only the company to repay the debt; no personal liability can be imposed on directors under Section 339",
+            "B": "Make the directors personally liable without limitation for all or any of the debts or other liabilities of the company as the Tribunal directs",
+            "C": "Order the directors to pay a fixed penalty of Rs. 10 lakh each for fraudulent trading",
+            "D": "Refer the matter to SFIO for criminal investigation and defer all civil remedies until criminal proceedings conclude"
+          },
+          "correct": "B",
+          "explanation": "Section 339(1) provides that if in the course of proceedings it appears that any business of the company has been carried on with intent to defraud creditors or for any fraudulent purpose, the Tribunal may declare that any persons who were knowingly parties to the carrying on of the business in such manner shall be personally responsible, without any limitation of liability, for all or any of the debts or other liabilities of the company as the Tribunal may direct. Via Section 246, this power extends to oppression proceedings.",
+          "section": "Section 339 read with Section 246"
+        },
+        {
+          "id": 53,
+          "question": "Section 340 (made applicable via Section 246) empowers the Tribunal to assess damages against delinquent directors. Under Section 340, the Tribunal can examine any person it thinks proper and order any director or officer found guilty of misfeasance or breach of trust to:",
+          "options": {
+            "A": "Pay a token penalty not exceeding Rs. 5 lakh; the Tribunal cannot order full restitution",
+            "B": "Repay, restore, or account for money or property or contribute to the assets of the company by way of compensation",
+            "C": "Resign from all directorships and pay a fine to the IEPF; the company itself cannot receive any compensation under Section 340",
+            "D": "Submit to a forensic audit by a SEBI-empanelled auditor before any order of liability is passed"
+          },
+          "correct": "B",
+          "explanation": "Section 340(1) provides that if in the course of proceedings it appears that any person who has taken part in the promotion or formation or management of the company has been guilty of any misfeasance or breach of trust in relation to the company, the Tribunal may examine him and compel him to repay or restore the money or property, or contribute such sum to the assets of the company by way of compensation as the Tribunal thinks just. Via Section 246, this power is available in oppression proceedings under Sections 241 and 242.",
+          "section": "Section 340 read with Section 246"
+        },
+        {
+          "id": 54,
+          "question": "The directors of Nova Constructions Ltd. failed to maintain proper books of account for two years. Section 338 (made applicable via Section 246) deals with liability where proper accounts are not kept. Under Section 338, who bears the burden of proof if the Tribunal presumes that the default in maintaining books contributed to inability to pay debts?",
+          "options": {
+            "A": "The burden of proof lies entirely on the applicant minority shareholders to prove causal connection",
+            "B": "The Tribunal must independently appoint an auditor to establish the link before imposing any liability",
+            "C": "The officer in default must rebut the presumption; the burden shifts to the defaulting officer to show the failure did not cause or contribute to the company's inability to pay",
+            "D": "The Central Government must certify the deficiency in accounts before the Tribunal can invoke Section 338"
+          },
+          "correct": "C",
+          "explanation": "Section 338(2) provides that where a company has failed to keep proper books of account, every officer in default shall be presumed to have been guilty of causing the inability of the company to pay its debts, unless he shows that it was not due to his failure to maintain accounts. This presumption under Section 338, made applicable to oppression proceedings via Section 246, reverses the burden of proof onto the defaulting officer.",
+          "section": "Section 338 read with Section 246"
+        },
+        {
+          "id": 55,
+          "question": "Section 341 (made applicable via Section 246) extends liability under Sections 339 and 340 to partners or directors of a firm or company. Under Section 341, if a person who is personally liable under Section 339 (fraudulent trading) is himself a company, which persons bear liability?",
+          "options": {
+            "A": "Only the company itself; individual directors of that corporate entity are always shielded",
+            "B": "The directors and officers of that corporate entity shall be personally liable to the same extent as if they were liable under Section 339 in their personal capacity",
+            "C": "Only the majority shareholders of the corporate entity bear liability proportionate to their shareholding",
+            "D": "The Registrar of the corporate entity must certify its officers before any personal liability can be fixed"
+          },
+          "correct": "B",
+          "explanation": "Section 341 provides that where an order is made under Section 339 or 340 against a person who is a company or a limited liability partnership, every director, partner, or officer of such company shall be personally liable to the same extent as if the order had been made against them personally. This piercing of the corporate veil via Section 341, made applicable to oppression proceedings through Section 246, ensures that wrongdoers cannot shield themselves behind an intermediate corporate structure.",
+          "section": "Section 341 read with Section 246"
+        }
+      ]
     }
   ]
 }
