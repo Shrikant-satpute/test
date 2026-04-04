@@ -31,6 +31,9 @@ export async function GET(request: NextRequest) {
         totalMarks: a.totalMarks,
         percentage: a.percentage,
         passed: a.passed,
+        correct: a.results.filter((r) => r.isCorrect).length,
+        wrong: a.results.filter((r) => !r.isCorrect && r.userAnswer).length,
+        skipped: a.results.filter((r) => !r.userAnswer).length,
       }))
     );
 

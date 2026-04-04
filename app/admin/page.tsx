@@ -265,7 +265,10 @@ export default function AdminPage() {
                         <td className="px-4 py-3 text-xs text-[#94a3b8]">
                           {new Date(a.submittedAt).toLocaleString('en-IN', { day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' })}
                         </td>
-                        <td className="px-4 py-3 text-sm font-bold text-[#f1f5f9]">{a.marksObtained}/{a.totalMarks}</td>
+                        <td className="px-4 py-3 text-sm font-bold text-[#f1f5f9]">
+                          <span>{a.score}/{a.totalQuestions}</span>
+                          <span className="text-xs text-[#4a5568] font-normal ml-1">({a.marksObtained}m)</span>
+                        </td>
                         <td className="px-4 py-3 text-sm text-[#94a3b8]">{a.percentage}%</td>
                         <td className="px-4 py-3 text-xs text-[#94a3b8]">
                           {Math.floor(a.timeTaken / 60)}m {a.timeTaken % 60}s
@@ -300,7 +303,8 @@ export default function AdminPage() {
                     </p>
                     <div className="flex items-center gap-4 text-xs text-[#94a3b8]">
                       <span>Attempt #{a.attemptNumber}</span>
-                      <span className="font-bold text-[#f1f5f9]">{a.marksObtained}/{a.totalMarks}</span>
+                      <span className="font-bold text-[#f1f5f9]">{a.score}/{a.totalQuestions}</span>
+                      <span className="text-[#4a5568]">({a.marksObtained}m)</span>
                       <span>{a.percentage}%</span>
                     </div>
                     <div className="text-xs text-[#4a5568] mt-1">

@@ -1,0 +1,363 @@
+{
+  "chapterId": "ca-ch7",
+  "chapterName": "Winding Up",
+  "law": "Companies Act, 2013",
+  "category": "companies-act",
+  "scenarios": [
+    {
+      "scenarioId": "s1",
+      "scenarioText": "Nexus Infrastructure Ltd. is a listed public company with a paid-up capital of ₹15 crores incorporated 9 years ago. On January 5, 2026, Buildmart Supplies Ltd., a trade creditor, served a written demand on Nexus for payment of ₹85,000 being dues for construction materials supplied. Nexus acknowledged receipt of the demand but made no payment and raised no dispute. By February 3, 2026, the amount remained entirely unpaid. Separately, the Ministry of Corporate Affairs received credible intelligence that Nexus's promoter-directors had been conducting the company's business with intent to defraud unsecured creditors by routing project funds through related-party shell entities. Nexus had also failed to file its annual returns and financial statements for financial years 2021-22, 2022-23, and 2023-24 — three consecutive years. The creditor, the RoC, and a group of minority shareholders are each independently considering filing winding-up petitions before the NCLT.",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Buildmart Supplies Ltd. wants to file a winding-up petition before the NCLT under Section 271(a) of the Companies Act, 2013, on the ground that Nexus Infrastructure Ltd. is unable to pay its debts. Based strictly on the facts of this case, which statement is CORRECT?",
+          "options": {
+            "A": "The petition is maintainable — the demand of ₹85,000 remained unpaid for 29 days, which exceeds the 21-day statutory period under Section 271(a)",
+            "B": "The petition is NOT maintainable — the demand amount of ₹85,000 is below the minimum threshold of a sum exceeding ₹1 lakh required under Section 271(a) for establishing inability to pay debts",
+            "C": "The petition is NOT maintainable — Buildmart must first obtain a decree from a civil court before it can petition for winding up on inability to pay debts",
+            "D": "The petition is maintainable — any creditor whose written demand remains unpaid for more than 21 days may establish inability to pay irrespective of the amount of the demand"
+          },
+          "correct": "B",
+          "explanation": "Section 271(a) of the Companies Act, 2013 provides that a company shall be deemed unable to pay its debts if a creditor to whom the company owes a sum exceeding ₹1 lakh has served a written demand and the company has neglected to pay the sum for 21 days. Buildmart's claim is ₹85,000 — which is below ₹1 lakh. Therefore, this ground is NOT satisfied regardless of how many days have elapsed since the demand. The critical trap here is confusing this ₹1 lakh Companies Act threshold with the ₹1 crore minimum default threshold under the IBC — both are entirely distinct. Option A is wrong because the number of days is irrelevant if the amount threshold is not met. Option D is wrong as the minimum amount is an essential requirement, not merely the duration.",
+          "section": "Section 271(a)"
+        },
+        {
+          "id": 2,
+          "question": "The Ministry of Corporate Affairs received information that Nexus Infrastructure Ltd.'s business is being conducted with intent to defraud its creditors through fund diversion. Under Section 271 of the Companies Act, 2013, which specific clause covers this as a ground for compulsory winding up by the Tribunal?",
+          "options": {
+            "A": "Section 271(b) — the company has passed a special resolution requesting that it be wound up by the Tribunal",
+            "B": "Section 271(c) — the company has acted against the interests of the sovereignty and integrity of India",
+            "C": "Section 271(d) — the affairs of the company have been conducted in a fraudulent or unlawful manner, or the persons in its management have been guilty of fraud or misconduct",
+            "D": "Section 271(f) — the Tribunal is of the opinion that it is just and equitable that the company should be wound up"
+          },
+          "correct": "C",
+          "explanation": "Section 271(d) specifically covers situations where the affairs of the company have been conducted in a fraudulent or unlawful manner, or where the company was formed for a fraudulent or unlawful purpose, or where the persons concerned in its formation or management have been guilty of fraud, misfeasance, or misconduct. The diversion of project funds through shell entities to defraud creditors falls squarely within this ground. Section 271(f) (just and equitable) is a residual ground used when no specific ground fits — where a specific ground like (d) applies, that is the precise provision to invoke. Options (b) and (c) are clearly inapplicable to these facts.",
+          "section": "Section 271(d)"
+        },
+        {
+          "id": 3,
+          "question": "Nexus Infrastructure Ltd. has failed to file its annual returns and financial statements for three consecutive financial years (2021-22, 2022-23, 2023-24). Does this non-filing constitute a valid ground for compulsory winding up under Section 271(e) of the Companies Act, 2013?",
+          "options": {
+            "A": "Yes — three consecutive years of non-filing is sufficient; the Act requires only three years of default to establish this ground",
+            "B": "No — Section 271(e) requires default in filing for FIVE consecutive financial years; three consecutive years of default does not satisfy the statutory threshold",
+            "C": "Yes — any two or more years of non-filing constitutes a ground for compulsory winding up under Section 271(e)",
+            "D": "No — non-filing of annual returns is not a ground for winding up; it merely attracts monetary penalties under Section 92"
+          },
+          "correct": "B",
+          "explanation": "Section 271(e) provides that a company may be wound up by the Tribunal if it has made a default in filing its financial statements or annual returns with the Registrar for five consecutive financial years. Nexus has defaulted for only three consecutive years — which falls short of the five-year statutory threshold. This is a precision-tested numerical trap: the threshold is specifically FIVE, not three or two. Option A incorrectly states three years is sufficient. Option C (any two years) is entirely without basis. Option D is wrong as Section 271(e) does establish non-filing as a winding-up ground — but only when the five-year threshold is met.",
+          "section": "Section 271(e)"
+        },
+        {
+          "id": 4,
+          "question": "Based on the facts established — specifically that Nexus Infrastructure Ltd.'s affairs have been conducted fraudulently under Section 271(d) — can the Registrar of Companies (RoC) file a winding-up petition on this ground under Section 272 of the Companies Act, 2013?",
+          "options": {
+            "A": "Yes — the RoC is an eligible petitioner for all six grounds listed under Section 271 without any restriction",
+            "B": "Yes — the RoC can petition on fraud grounds under Section 271(d) but must first obtain prior written sanction from the Central Government",
+            "C": "No — a proviso to Section 272(1) expressly bars the RoC from presenting a winding-up petition on the grounds specified in clauses (b) and (d) of Section 271(1)",
+            "D": "No — only the Central Government (and not the RoC) has standing to petition for winding up on grounds of fraudulent conduct under Section 271(d)"
+          },
+          "correct": "C",
+          "explanation": "Section 272(1) lists the persons competent to petition for compulsory winding up: the company, contributories, RoC, a person authorised by the Central Government, and in a Sec 271(f) case, the Central or State Government. However, the proviso to Section 272(1) expressly states that the Registrar shall NOT be entitled to present a petition for winding up on the grounds specified in clauses (b) and (d) of Section 271(1). Since the fraud ground falls under clause (d), the RoC is statutorily barred from petitioning on this ground. Option A is wrong — there are explicit restrictions. Option B invents a 'prior sanction' requirement that does not exist. Option D is overbroad — the Central Government can authorise another person; it need not itself petition.",
+          "section": "Section 272(1) proviso"
+        },
+        {
+          "id": 5,
+          "question": "Nexus Infrastructure Ltd. itself decides to present a winding-up petition before the NCLT. Under Section 272(5) of the Companies Act, 2013, which document is MANDATORY for the company to file along with its own winding-up petition?",
+          "options": {
+            "A": "A special resolution passed at a general meeting of shareholders, irrespective of the ground on which the petition is filed",
+            "B": "A security deposit of ₹25,000 with the NCLT as a precondition for the petition being heard",
+            "C": "A Statement of Affairs of the company, disclosing its assets, liabilities, creditors, and debtors",
+            "D": "A certificate from the statutory auditor confirming the company is unable to continue as a going concern"
+          },
+          "correct": "C",
+          "explanation": "Section 272(5) specifically mandates that where a company presents a petition for its own winding up, it shall, along with the petition, file a Statement of Affairs of the company in the prescribed form. This statement discloses the company's financial position including assets, liabilities, names of creditors, outstanding debts, and details of debtors — enabling the NCLT and Official Liquidator to understand the company's affairs from the outset. Option A is wrong — a special resolution is the ground for winding up under Sec 271(b) but is not a mandatory accompaniment when a company petitions on other grounds. Option B (₹25,000 deposit) is the security deposit under Section 214 for investigation applications — not winding-up petitions. Option D (auditor's certificate) is not prescribed under Section 272.",
+          "section": "Section 272(5)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s2",
+      "scenarioText": "Meridian Exports Pvt. Ltd. is a solvent private company with a paid-up capital of ₹2 crores. After successfully completing its business purpose, the shareholders unanimously agreed to close down operations. The company has a Board of 6 directors. On February 10, 2026, a Board meeting was held at which 4 directors (a majority) made a Declaration of Solvency. The declaration stated that the directors had made a full inquiry into the company's affairs and were of the opinion that the company would be able to pay all its debts in full within 3.5 years from the commencement of winding up. The declaration was accompanied by a statement of assets and liabilities as at February 8, 2026. It was filed with the RoC for registration on February 12, 2026. The shareholders subsequently held a general meeting on March 25, 2026 — 43 days after the declaration — at which they passed a special resolution to wind up the company voluntarily. At the same meeting, they also appointed a liquidator.",
+      "questions": [
+        {
+          "id": 6,
+          "question": "The Declaration of Solvency made by the directors of Meridian Exports Pvt. Ltd. states that the company can pay all its debts within 3.5 years from the commencement of winding up. Is this Declaration of Solvency valid for the purposes of a Members' Voluntary Winding Up under Section 305(1) of the Companies Act, 2013?",
+          "options": {
+            "A": "Yes — 3.5 years is a commercially reasonable estimate and Section 305 permits any reasonable time period",
+            "B": "No — Section 305(1) requires that the declaration state that all debts will be paid within a period NOT exceeding 3 years from commencement of winding up; 3.5 years exceeds the statutory maximum",
+            "C": "Yes — provided all creditors have been individually notified and no objection has been raised within 30 days",
+            "D": "No — only independent directors may make the Declaration of Solvency; executive directors are excluded from making such a declaration"
+          },
+          "correct": "B",
+          "explanation": "Section 305(1) of the Companies Act, 2013 requires that the Declaration of Solvency contain a statement that the directors have made a full inquiry into the company's affairs and are of the opinion that the company shall be able to pay its debts in full within a period NOT EXCEEDING THREE YEARS from the commencement of winding up. A declaration stating '3.5 years' exceeds the statutory ceiling and is therefore legally invalid. The consequence of an invalid declaration is significant — the voluntary winding up cannot proceed as a Members' Voluntary Winding Up and instead defaults to a Creditors' Voluntary Winding Up. Option A (any reasonable period) and Option C (creditor notification) have no basis in Section 305. Option D (only independent directors) is a fictitious restriction.",
+          "section": "Section 305(1)"
+        },
+        {
+          "id": 7,
+          "question": "Assuming the Declaration of Solvency had validly stated that all debts would be paid within 2 years, and it was filed with the RoC on February 12, 2026, the shareholders passed the special resolution to wind up on March 25, 2026 — which is 43 days after the declaration was made. Under Section 305(2) of the Companies Act, 2013, is the timing of the special resolution compliant?",
+          "options": {
+            "A": "Yes — there is no prescribed time limit between the Declaration of Solvency and the shareholders' special resolution for winding up",
+            "B": "Yes — a special resolution passed within 45 days of the declaration is compliant under Section 305(2)",
+            "C": "No — the special resolution must be passed within five weeks (35 days) immediately following the declaration; 43 days exceeds this limit, making the declaration of no effect",
+            "D": "No — the special resolution must be passed within 30 days of the declaration; 43 days is non-compliant"
+          },
+          "correct": "C",
+          "explanation": "Section 305(2)(a) provides that the Declaration of Solvency shall have no effect for the purposes of voluntary winding up unless it is made within the FIVE WEEKS immediately preceding the date of the passing of the resolution for winding up, and is delivered to the Registrar for registration before that date. Five weeks = 35 days. The general meeting resolution was passed on March 25, which is 43 days after the declaration made on February 10 — exceeding the 5-week window by 8 days. As a result, the declaration has no legal effect, and the winding up would proceed as a Creditors' Voluntary Winding Up instead. Option B (45 days) and Option D (30 days) both state incorrect time limits. Option A (no time limit) directly contradicts the statutory requirement.",
+          "section": "Section 305(2)(a)"
+        },
+        {
+          "id": 8,
+          "question": "Assume the Declaration of Solvency for Meridian Exports Pvt. Ltd. was validly made and the Members' Voluntary Winding Up commenced. Within 18 months, it becomes clear that the company's debts CANNOT be fully paid within the 2-year period stated in the declaration — a major debtor has become insolvent, wiping out ₹80 lakhs of expected recoveries. Under Section 305(3) of the Companies Act, 2013, what legal PRESUMPTION arises against the 4 directors who signed the declaration?",
+          "options": {
+            "A": "No presumption arises — the directors are protected because unforeseen events (debtor insolvency) occurred after the declaration was made",
+            "B": "It shall be presumed, until the contrary is shown, that the directors who made the declaration had REASONABLE grounds for the opinion expressed — the burden is on creditors to disprove this",
+            "C": "It shall be presumed, until the contrary is shown, that the directors who made the declaration did NOT have reasonable grounds for the opinion expressed — the burden shifts to the directors to prove they had reasonable basis",
+            "D": "The presumption arises only if the debts remain unpaid for more than 5 years; since the declared period was 2 years, no presumption applies"
+          },
+          "correct": "C",
+          "explanation": "Section 305(3) provides that if the company is wound up in pursuance of a resolution passed within five weeks of the declaration, and its debts are NOT paid or provided for in full within the period stated in the declaration, it shall be PRESUMED until the contrary is shown that the director(s) who made the declaration DID NOT HAVE REASONABLE GROUNDS for the opinion expressed in it. This is a REVERSE burden — the directors must affirmatively prove they had reasonable grounds. The fact that the debtor's insolvency was 'unforeseen' is a defence the directors could raise, but the burden is on THEM to prove it. Option A incorrectly absolves directors automatically. Option B reverses the statutory presumption (says reasonable grounds are presumed — the opposite of the law). Option D invents a 5-year trigger that does not exist. The scenario's specific fact (₹80 lakh debtor insolvency) is what triggers this provision.",
+          "section": "Section 305(3)"
+        },
+        {
+          "id": 9,
+          "question": "The Declaration of Solvency for Meridian Exports Pvt. Ltd. was accompanied by a statement of assets and liabilities dated February 8, 2026 — two days before the declaration on February 10. Had the directors instead attached a statement dated December 28, 2025 — a full 44 days before the declaration — arguing it was the date of the last completed monthly closing, would the Declaration of Solvency satisfy the requirement of Section 305(2)(b) of the Companies Act, 2013?",
+          "options": {
+            "A": "Yes — there is no prescribed maximum gap; any statement of assets and liabilities prepared within the same financial year is acceptable",
+            "B": "Yes — the Act merely requires a statement of assets and liabilities, with no requirement regarding how recent the date must be",
+            "C": "No — Section 305(2)(b) requires the statement to be as at the 'latest practicable date' before the making of the declaration; a 44-day-old statement is unlikely to satisfy this standard when a more recent statement could practicably have been prepared",
+            "D": "No — the statement must be dated on the exact same date as the declaration itself, failing which the declaration is void"
+          },
+          "correct": "C",
+          "explanation": "Section 305(2)(b) requires the declaration to contain a statement of assets and liabilities as at the 'LATEST PRACTICABLE DATE' before the making of the declaration. This is not a fixed-number rule but a PRACTICAL STANDARD — the statement must be as current as it is practically possible to prepare. In the actual Meridian scenario, February 8 (2 days before February 10) clearly satisfies this test. But a statement dated December 28 — 44 days prior — raises a serious question: was a more recent statement practicably available? If the company's books were current and a monthly closing was completed in January 2026, then a December 2025 statement is NOT the 'latest practicable date' and the declaration would have no legal effect. Option A invents a 'same financial year' standard that does not exist. Option B ignores the 'latest practicable date' requirement entirely. Option D is overly rigid — the Act does not require the same date, only the latest practicable date.",
+          "section": "Section 305(2)(b)"
+        },
+        {
+          "id": 10,
+          "question": "Assume the Members' Voluntary Winding Up of Meridian Exports Pvt. Ltd. is validly commenced. Partway through the winding-up process, the appointed company liquidator forms the opinion that the company will NOT be able to pay its debts in full within the 2-year period stated in the Declaration of Solvency. What is the liquidator's statutory obligation under Section 308 of the Companies Act, 2013?",
+          "options": {
+            "A": "The liquidator may independently extend the repayment period by filing a revised Declaration of Solvency on behalf of the directors",
+            "B": "The liquidator must immediately file an application before the NCLT to convert the winding up into a compulsory Tribunal winding up",
+            "C": "The liquidator must forthwith summon a meeting of the creditors and lay before them a statement of the assets and liabilities of the company; thereafter, the winding up continues as a Creditors' Voluntary Winding Up",
+            "D": "The liquidator must resign and notify the shareholders, who will appoint a new liquidator to reassess the position"
+          },
+          "correct": "C",
+          "explanation": "Section 308 of the Companies Act, 2013 deals with the conversion of a Members' Voluntary Winding Up to a Creditors' Voluntary Winding Up. If the liquidator forms the opinion at any time during a Members' VWU that the company will not be able to pay its debts in full within the period stated in the Declaration of Solvency, the liquidator shall forthwith summon a meeting of creditors and lay before the meeting a statement in the prescribed form of the assets and liabilities of the company. Thereafter, the provisions as to Creditors' Voluntary Winding Up apply as if the company had passed a creditors' winding-up resolution at the time of summoning the meeting. The liquidator does NOT go to the NCLT (Option B) — the conversion is self-executing. The liquidator does NOT file a revised declaration (Option A) or resign (Option D).",
+          "section": "Section 308"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s3",
+      "scenarioText": "Vega Hospitality Ltd. is a private company with a paid-up capital of ₹5 crores that operated a chain of boutique hotels. Following a prolonged economic downturn, the company's directors assessed that the company's total liabilities of ₹7.2 crores significantly exceeded its total realisable assets of ₹3.1 crores. The directors concluded they could not honestly make a Declaration of Solvency. On August 1, 2026, the company held a general meeting of its members at which a special resolution was passed for voluntary winding up. A creditors' meeting was held on August 2, 2026. At the creditors' meeting, the directors placed before the creditors a full statement of the company's affairs and a list of creditors with their estimated claims. The members' meeting had nominated Mr. Arjun Mehta as liquidator. At the creditors' meeting, creditors representing 65% in value nominated Ms. Priya Shah as liquidator. A director of the company disagreed and filed an application before the NCLT within 5 days of the creditors' nomination, seeking a Tribunal order that Mr. Arjun Mehta be appointed instead.",
+      "questions": [
+        {
+          "id": 11,
+          "question": "Since Vega Hospitality Ltd.'s directors determined they could not make a Declaration of Solvency, what type of voluntary winding up is this, and under Section 306(1) of the Companies Act, 2013, when must the creditors' meeting be held?",
+          "options": {
+            "A": "Members' Voluntary Winding Up; a creditors' meeting must be held within 14 days of the members' general meeting",
+            "B": "Creditors' Voluntary Winding Up; the creditors' meeting must be held on the same day as the members' resolution OR on the next day following that day",
+            "C": "Creditors' Voluntary Winding Up; the creditors' meeting must be held within 7 days of the date of the special resolution",
+            "D": "Members' Voluntary Winding Up; a creditors' meeting is discretionary and is held only when the liquidator specifically requires it"
+          },
+          "correct": "B",
+          "explanation": "Since the directors are unable to make a Declaration of Solvency (because liabilities exceed assets), this is a Creditors' Voluntary Winding Up (CVW) — not a Members' VWU. Section 306(1) requires that in a CVW, the company shall cause a meeting of its creditors to be held on the day on which the resolution for voluntary winding up is passed OR on the next day following that day. The members' resolution was passed on August 1, 2026, and the creditors' meeting was held on August 2 — the very next day. This is compliant. Options A and C state incorrect timelines (14 days and 7 days). Option D misclassifies the type and incorrectly calls the creditors' meeting discretionary.",
+          "section": "Section 306(1)"
+        },
+        {
+          "id": 12,
+          "question": "At the creditors' meeting of Vega Hospitality Ltd. held on August 2, 2026, the directors presented the Statement of Affairs showing total liabilities of ₹7.2 crores and total realisable assets of ₹3.1 crores. A bank creditor (owed ₹2.8 crores) alleged that the directors had undervalued the company's immovable properties by at least ₹1 crore and that the Statement of Affairs was materially misleading. Under the Companies Act, 2013, which of the following CORRECTLY describes the directors' legal exposure if the Statement of Affairs presented at the creditors' meeting is later proven to contain materially false statements?",
+          "options": {
+            "A": "The directors face no personal liability — the Statement of Affairs is a good-faith estimate and directors are protected from liability for valuation judgments",
+            "B": "Only the company (as a legal entity) can be held liable for inaccurate disclosures; individual directors are insulated during winding up",
+            "C": "A director who makes any statement in the Statement of Affairs which is materially false, knowing it to be false or not believing it to be true, shall be punishable with imprisonment and fine under the penalty provisions of the Act",
+            "D": "The creditors can set aside the entire winding-up resolution if they prove the Statement of Affairs was inaccurate, requiring the company to restart its business operations"
+          },
+          "correct": "C",
+          "explanation": "Under the Companies Act, 2013, directors bear personal responsibility for the accuracy of the Statement of Affairs presented to creditors. Section 306(2) requires directors to lay the statement before the creditors' meeting. If a director makes any statement that is materially false, knowing it to be false or without believing it to be true, the director shall be liable to punishment under the penalty provisions. In this scenario, the bank creditor alleges a ₹1 crore undervaluation of immovable properties — if proven, this is a material misstatement that could expose the directors personally. Option A incorrectly shields directors from accountability. Option B attempts to use corporate veil during winding up which does not apply to personal liability for false statements. Option D wrongly suggests the winding-up resolution itself can be reversed — the remedy is personal liability of the directors, not undoing the winding up.",
+          "section": "Section 306 read with penalty provisions"
+        },
+        {
+          "id": 13,
+          "question": "At the creditors' meeting of Vega Hospitality Ltd., the creditors nominated Ms. Priya Shah as liquidator. The members had already nominated Mr. Arjun Mehta at the earlier meeting. Under Section 310 of the Companies Act, 2013, which person is the liquidator by default, and what remedy does the law provide for the other side?",
+          "options": {
+            "A": "Mr. Arjun Mehta (nominated by members) is the liquidator since the members' meeting preceded the creditors' meeting in time; creditors have no override power in a voluntary winding up",
+            "B": "Ms. Priya Shah (nominated by creditors) is the liquidator by default; however, any director, member, or creditor may apply to the NCLT within 7 days of the creditors' nomination for an order directing that Mr. Mehta be appointed instead or jointly",
+            "C": "Both nominees must be appointed as joint liquidators to represent the interests of both members and creditors",
+            "D": "Neither nominee is automatically appointed; the conflict must be resolved by the RoC appointing a third-party liquidator"
+          },
+          "correct": "B",
+          "explanation": "Section 310 of the Companies Act, 2013 provides that in a Creditors' Voluntary Winding Up, where the creditors and the company nominate different persons as liquidator, the person nominated by the CREDITORS shall be the liquidator. The creditors have economic priority in a CVW since the company is insolvent. Therefore, Ms. Priya Shah is the default liquidator. However, a proviso to Section 310 grants relief: any director, member, or creditor may, WITHIN SEVEN DAYS of the creditors' nomination, apply to the Tribunal for an order that the company's nominee be appointed instead or jointly, or that some other person be appointed. In this scenario, the director filed an application within 5 days — within the 7-day window — making it a valid application. Option A (members' nominee prevails) is the exact opposite of the legal rule. Options C and D are not the statutory defaults.",
+          "section": "Section 310"
+        },
+        {
+          "id": 14,
+          "question": "The director of Vega Hospitality Ltd. filed an application before the NCLT within 5 days of the creditors' nomination seeking Mr. Arjun Mehta's appointment. Under Section 310, which of the following orders can the NCLT pass on hearing this application?",
+          "options": {
+            "A": "The NCLT can only confirm the creditors' nominee (Ms. Priya Shah) — it has no power to replace or add to her appointment once creditors have validly nominated",
+            "B": "The NCLT may direct that Mr. Arjun Mehta (company's nominee) be appointed as liquidator INSTEAD OF Ms. Priya Shah, or JOINTLY WITH her, or appoint a completely different third person",
+            "C": "The NCLT must dismiss the application since the director filed it without the prior written consent of at least 10% of the members",
+            "D": "The NCLT can only appoint both nominees jointly — it has no power to replace the creditors' nominee outright"
+          },
+          "correct": "B",
+          "explanation": "The proviso to Section 310 gives the Tribunal three specific options when hearing such an application: (i) direct that the company's nominee be liquidator INSTEAD OF the creditors' nominee; (ii) direct that both be appointed JOINTLY; or (iii) appoint some OTHER person as liquidator instead of the creditors' nominee. The Tribunal has full discretion among these three options based on the merits. Option A (NCLT cannot interfere) directly contradicts the proviso. Option C invents a '10% member consent' requirement that has no basis in Section 310. Option D limits the NCLT to only joint appointments, which is incorrect — the Tribunal can also replace the creditors' nominee entirely.",
+          "section": "Section 310 proviso"
+        },
+        {
+          "id": 15,
+          "question": "In the Creditors' Voluntary Winding Up of Vega Hospitality Ltd., the liquidator needs to distribute the company's ₹3.1 crore realised assets. Which of the following is NOT an option available to a secured creditor (owed ₹2 crores, holding security over assets worth ₹1.5 crores) in a voluntary winding up under the Companies Act, 2013?",
+          "options": {
+            "A": "Realise the security independently outside the winding-up pool and prove for the ₹0.5 crore shortfall as an unsecured creditor",
+            "B": "Surrender the security to the liquidator and prove for the full ₹2 crore debt as an unsecured creditor alongside other unsecured creditors",
+            "C": "Value the security at ₹1.5 crores, retain possession of it, and prove for the ₹0.5 crore balance as an unsecured creditor",
+            "D": "Apply unilaterally to the NCLT to stay the voluntary winding up and convert it to a compulsory Tribunal winding up solely because it is a secured creditor with unsatisfied claims"
+          },
+          "correct": "D",
+          "explanation": "Secured creditors in a voluntary winding up under the Companies Act have three recognised options: (i) realise security independently and claim shortfall (Option A); (ii) surrender security and prove for full debt as unsecured (Option B); or (iii) value security, retain it, and prove for the balance (Option C). All three are valid. Option D — applying unilaterally to convert voluntary winding up to compulsory winding up merely on the basis of being an unsatisfied secured creditor — is NOT a recognised power. To seek compulsory winding up, a creditor would need to establish an independent ground under Section 271 and be a competent petitioner under Section 272. Being a secured creditor with outstanding dues does not by itself entitle a party to override a valid voluntary winding-up process.",
+          "section": "Sections 271, 272 read with winding-up provisions"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s4",
+      "scenarioText": "Pinnacle Textiles Ltd. is a listed public company with a paid-up capital of ₹20 crores. A group of minority shareholders filed a petition before the NCLT under Section 272 seeking compulsory winding up, primarily on the grounds that it was 'just and equitable' due to a complete breakdown of mutual trust among shareholders. Pinnacle had also failed to file its annual returns and financial statements for all five financial years from 2020-21 to 2024-25. After a hearing at which Pinnacle contested both grounds, the NCLT found that the breakdown of trust was genuine, satisfying the just and equitable ground under Section 271(f). The NCLT made a winding-up order. It then appointed the Official Liquidator attached to the Tribunal to conduct the winding up. After realising all assets and settling all claims, the Official Liquidator completed the winding-up process. The company also had outstanding dues in the Statement of Affairs that it had not previously disclosed — these were discovered only after the winding-up order was passed.",
+      "questions": [
+        {
+          "id": 16,
+          "question": "The NCLT observed that Pinnacle Textiles Ltd. had not filed its annual returns or financial statements for five consecutive financial years (2020-21 to 2024-25). Which ground under Section 271 is independently established by this fact alone?",
+          "options": {
+            "A": "Section 271(a) — inability to pay debts, inferred from persistent non-compliance with statutory obligations",
+            "B": "Section 271(d) — affairs conducted in a fraudulent or unlawful manner, since non-filing is an unlawful act",
+            "C": "Section 271(e) — default in filing financial statements or annual returns with the Registrar for five consecutive financial years",
+            "D": "Section 271(f) — just and equitable, since continued non-filing makes it inequitable for the company to continue"
+          },
+          "correct": "C",
+          "explanation": "Section 271(e) is the specific provision that covers this precise situation: a company which has made a default in filing its financial statements or annual returns with the Registrar for FIVE CONSECUTIVE FINANCIAL YEARS is liable to be wound up compulsorily by the Tribunal. Pinnacle has defaulted for exactly five consecutive years — satisfying this threshold precisely. Section 271(a) (inability to pay) requires a specific monetary demand and period; non-filing does not imply inability to pay. Section 271(d) (fraudulent conduct) requires affirmative evidence of fraudulent intent — mere non-filing does not constitute fraud. Section 271(f) is a residual ground; where Section 271(e) specifically covers the situation, (e) is the applicable provision.",
+          "section": "Section 271(e)"
+        },
+        {
+          "id": 17,
+          "question": "After hearing the petition, the NCLT found the 'just and equitable' ground established. Under Section 274 of the Companies Act, 2013, which of the following is NOT among the powers available to the NCLT when it hears a winding-up petition?",
+          "options": {
+            "A": "Dismiss the petition with or without costs",
+            "B": "Adjourn the hearing of the petition conditionally or unconditionally",
+            "C": "Make any interim order it considers fit",
+            "D": "Order the minority shareholders who filed the petition to pay damages to Pinnacle Textiles Ltd. for loss of future business opportunities caused by the filing of the petition"
+          },
+          "correct": "D",
+          "explanation": "Section 274 of the Companies Act, 2013 specifies the Tribunal's powers on hearing a winding-up petition. The Tribunal may: (a) dismiss the petition with or without costs; (b) adjourn the hearing conditionally or unconditionally; (c) make any interim order it thinks fit; or (d) make a winding-up order. Ordering petitioners to pay 'damages for loss of future business opportunities' has absolutely no basis under Section 274. The Tribunal may award costs against an unsuccessful petitioner — but awarding damages for business loss is a civil remedy entirely outside the scope of Section 274. This question tests whether students confuse the Tribunal's power to award costs (which exists) with compensation for business loss (which does not).",
+          "section": "Section 274"
+        },
+        {
+          "id": 18,
+          "question": "After the NCLT passed the winding-up order for Pinnacle Textiles Ltd., the Official Liquidator discovered that the company had undisclosed outstanding dues — a secured bank loan of ₹4 crores not reflected in the originally filed accounts. The bank now wants to file a recovery suit against Pinnacle in the District Court. Under Section 279 of the Companies Act, 2013, what is the legal position regarding suits against a company after a winding-up order has been made?",
+          "options": {
+            "A": "All existing and future legal proceedings against the company are permanently extinguished and cannot be pursued in any forum once the winding-up order is passed",
+            "B": "No suit or other legal proceeding shall be commenced or continued against the company except by LEAVE OF THE TRIBUNAL and subject to such terms as the Tribunal may impose",
+            "C": "Secured creditors like the bank are exempt from any restriction and can freely commence or continue suits without requiring Tribunal permission",
+            "D": "Legal proceedings are automatically transferred from all courts to the SFIO for consolidated investigation and adjudication"
+          },
+          "correct": "B",
+          "explanation": "Section 279 of the Companies Act, 2013 provides that when a winding-up order has been made, no suit or other legal proceeding shall be commenced or, if already pending, shall be proceeded with against the company EXCEPT BY LEAVE OF THE TRIBUNAL and subject to such terms as the Tribunal may impose. This creates a statutory moratorium (analogous to but distinct from the IBC Section 14 moratorium) that prevents a disorderly scramble by creditors. In this scenario, the bank — despite being a secured creditor owed ₹4 crores — must obtain Tribunal leave before filing a recovery suit. The bank's secured status gives it NO exemption from this requirement. Option A is too drastic — proceedings are stayed pending leave, not permanently extinguished. Option C wrongly exempts secured creditors. Option D invents an SFIO transfer that has no statutory basis under Section 279.",
+          "section": "Section 279"
+        },
+        {
+          "id": 19,
+          "question": "After the winding-up order was passed for Pinnacle Textiles Ltd., the Official Liquidator required the directors and promoters to submit a Statement of Affairs. The directors submitted the statement exactly 30 days after the winding-up order, but it was incomplete — the undisclosed ₹4 crore bank loan was omitted. The Official Liquidator rejected it and demanded a corrected version citing special reasons. The directors submitted the corrected Statement of Affairs 12 days later — a total of 42 days from the date of the winding-up order. Under Section 281 of the Companies Act, 2013, is the corrected submission within the permissible time limit?",
+          "options": {
+            "A": "No — the maximum permissible period is 30 days from the winding-up order with no extension available; 42 days is entirely outside the statutory timeline",
+            "B": "Yes — the Official Liquidator may extend the initial 30-day period by a further period not exceeding 15 days for special reasons; 42 days (30 + 12) falls within the maximum permissible 45-day window",
+            "C": "No — the Official Liquidator can only grant a further extension of 7 days (total 37 days); 42 days exceeds the maximum of 37 days",
+            "D": "Yes — the Official Liquidator may grant unlimited extensions at his discretion; there is no statutory cap on the total time for submission"
+          },
+          "correct": "B",
+          "explanation": "Section 281(1) provides that the Statement of Affairs must be submitted within 30 DAYS from the date of the winding-up order. The Official Liquidator may, for SPECIAL REASONS, extend this period by a further period NOT EXCEEDING 15 DAYS. Total maximum permissible = 30 + 15 = 45 days. The corrected statement at 42 days (30 + 12 additional) is within this 45-day window, and the undisclosed ₹4 crore bank loan constitutes a 'special reason' justifying the extension. The student must: (1) know the 30-day initial period, (2) know the 15-day extension exists, (3) compute that 42 < 45, and (4) recognise that the incomplete statement with omitted liabilities constitutes special reasons. Option A (no extension available) is incorrect — extension exists. Option C invents a 7-day cap. Option D (unlimited extensions) overstates the OL's discretion — the cap is strictly 15 days.",
+          "section": "Section 281(1)"
+        },
+        {
+          "id": 20,
+          "question": "After all assets of Pinnacle Textiles Ltd. have been completely realised and all claims settled by the Official Liquidator, what is the precise procedural sequence under Section 302 of the Companies Act, 2013 for the company to be formally dissolved?",
+          "options": {
+            "A": "The company is automatically dissolved three months after the Official Liquidator files the final accounts with the RoC, without any further Tribunal order",
+            "B": "The Official Liquidator makes a report to the Tribunal upon complete winding up; the Tribunal then makes a dissolution order; the Official Liquidator sends a certified copy to the RoC within 30 days",
+            "C": "The shareholders of the company must pass a resolution confirming dissolution at an extraordinary general meeting before the Tribunal can make a dissolution order",
+            "D": "The Official Liquidator applies directly to the Central Government for a gazette notification declaring the dissolution, bypassing the Tribunal at the final stage"
+          },
+          "correct": "B",
+          "explanation": "Section 302(1) provides that when the affairs of a company have been completely wound up, the Official Liquidator shall make a report to the Tribunal and apply to the Tribunal for an order for dissolution. The Tribunal shall thereupon make an order that the company be dissolved from the date of such order. Section 302(2) further requires that the Official Liquidator shall, within THIRTY DAYS of the dissolution order, send a certified copy of the order to the RoC, who shall make an entry accordingly in the Register. The company ceases to exist from the date of the NCLT's dissolution order. Dissolution is NOT automatic (Options A, D). Shareholders have absolutely no role in this process (Option C) — the entire point of compulsory winding up is that the Tribunal, not the shareholders, controls the dissolution.",
+          "section": "Section 302"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s5",
+      "scenarioText": "Aurora Chemicals Ltd. is a public company with a paid-up capital of ₹12 crores. The company has three outstanding claims against it: (i) Techno Supplies Ltd., a trade creditor, is owed ₹95,000, unpaid for 30 days despite a written demand; (ii) National Finance Bank, a financial creditor under IBC, is owed ₹2.5 crores; and (iii) RawMat Pvt. Ltd., a raw materials supplier, is owed ₹75 lakhs as an operational creditor under IBC. The company's Board has passed a resolution at a Board meeting resolving to wind up the company, but no general meeting of shareholders has been held and no special resolution has been passed by shareholders. Additionally, a group of minority shareholders believes that the promoter family, which holds 71% of the shares, has repeatedly denied dividends to the public shareholders for 8 consecutive years without any commercial or business reason — despite the company being consistently profitable. The minority shareholders are simultaneously exploring winding up under Section 271(f) and an oppression petition under Section 241.",
+      "questions": [
+        {
+          "id": 21,
+          "question": "Techno Supplies Ltd. (owed ₹95,000) and RawMat Pvt. Ltd. (owed ₹75 lakhs) both want to initiate proceedings against Aurora Chemicals Ltd. Which of the following correctly states the eligibility of BOTH parties to initiate insolvency/winding-up proceedings?",
+          "options": {
+            "A": "Techno Supplies can file a winding-up petition under Companies Act Section 271(a); RawMat can file an IBC application under Section 9 — both proceedings can run simultaneously",
+            "B": "Techno Supplies CANNOT file under Section 271(a) as ₹95,000 is below the ₹1 lakh threshold; RawMat CAN file under IBC Section 9 as ₹75 lakhs exceeds the ₹1 crore threshold",
+            "C": "Techno Supplies CANNOT file under Section 271(a) as ₹95,000 is below the ₹1 lakh threshold; RawMat CANNOT file under IBC Section 9 as ₹75 lakhs is below the ₹1 crore minimum default threshold",
+            "D": "Both are barred from filing since National Finance Bank, as the senior financial creditor, has the exclusive right to initiate proceedings first"
+          },
+          "correct": "C",
+          "explanation": "Two entirely separate thresholds apply — one for each law. (i) Companies Act, Section 271(a): to establish inability to pay debts, the creditor's written demand must be for a sum EXCEEDING ₹1 lakh, unpaid for 21 days. Techno Supplies' claim of ₹95,000 is below ₹1 lakh — it CANNOT use this ground. (ii) IBC Section 4: the minimum default threshold to trigger the Corporate Insolvency Resolution Process (CIRP) is ₹1 crore. RawMat's ₹75 lakh claim is below ₹1 crore — it CANNOT file under IBC either. Both are blocked by their respective thresholds. Option A incorrectly allows both. Option B incorrectly allows RawMat under IBC (₹75L < ₹1 crore). Option D invents a seniority-based exclusivity that does not exist in law.",
+          "section": "Section 271(a); IBC Section 4"
+        },
+        {
+          "id": 22,
+          "question": "Aurora Chemicals Ltd.'s Board has passed a board resolution to wind up the company, but no general meeting has been held and no special resolution has been passed by shareholders. Under Section 271(b) of the Companies Act, 2013, does this board resolution constitute a valid ground for compulsory winding up by the Tribunal?",
+          "options": {
+            "A": "Yes — a board resolution unanimously passed by the directors represents the company's collective decision and satisfies Section 271(b)",
+            "B": "No — Section 271(b) requires a SPECIAL RESOLUTION passed at a GENERAL MEETING of members; a board resolution is legally insufficient to establish this ground",
+            "C": "Yes — since the Board holds delegated authority from shareholders, a board resolution is equivalent to a special resolution for the purposes of voluntary actions like winding up",
+            "D": "No — only the Central Government can resolve for winding up under Section 271(b); a private company resolution has no effect"
+          },
+          "correct": "B",
+          "explanation": "Section 271(b) provides that a company may be wound up by the Tribunal if the company has passed a 'special resolution' requiring it to be wound up by the Tribunal. A 'special resolution' under the Companies Act means a resolution passed at a general meeting of members with the votes cast in its favour not less than three times the votes cast against it. A board resolution is an entirely different instrument — it represents the decision of the Board of Directors, not the members as a body. The Board cannot substitute for shareholders on matters that the Act reserves for a general meeting. Option A (board = company decision) and Option C (delegation equivalence) mischaracterise the distinct legal roles of the Board and the general meeting. Option D incorrectly restricts Section 271(b) to the Central Government.",
+          "section": "Section 271(b)"
+        },
+        {
+          "id": 23,
+          "question": "The minority shareholders of Aurora Chemicals Ltd. want to file a winding-up petition under Section 271(f) (just and equitable) based on 8 years of unjustified dividend denial by the 71% majority. Before ordering winding up on the just and equitable ground, which of the following considerations must the NCLT take into account?",
+          "options": {
+            "A": "The NCLT has no power to consider alternative remedies — once the just and equitable ground is established, a winding-up order is mandatory",
+            "B": "The NCLT should first consider whether an alternative remedy is available to the petitioners (such as an order under Section 242 for oppression/mismanagement) and whether winding up is the only just and equitable outcome, since winding up is a remedy of last resort",
+            "C": "The NCLT must dismiss the winding-up petition since the shareholders should first exhaust their remedy of filing a complaint before the SEBI for investor protection",
+            "D": "The NCLT must wind up the company immediately if the just and equitable ground is technically established, since delay would further prejudice the minority shareholders"
+          },
+          "correct": "B",
+          "explanation": "The 'just and equitable' ground under Section 271(f) is a residual, discretionary ground. Established case law (including the House of Lords decision in Ebrahimi v Westbourne Galleries and subsequent Indian jurisprudence) holds that winding up on this ground is a remedy of LAST RESORT. Before ordering dissolution, the NCLT must consider whether the petitioners have an adequate alternative remedy — most relevantly, whether relief could be granted under Section 242 (Tribunal's power to regulate company affairs, order buyback, change management, etc.) or under Section 241 (oppression/mismanagement). The Supreme Court of India has held that if the petitioner can obtain adequate relief without winding up the company, that alternative should be preferred. Option A removes judicial discretion entirely. Option C imposes an irrelevant pre-requisite of SEBI complaint. Option D mandates immediate winding up on mere technical establishment — which contradicts the discretionary nature of Section 271(f).",
+          "section": "Section 271(f) read with Section 242"
+        },
+        {
+          "id": 24,
+          "question": "National Finance Bank (owed ₹2.5 crores) wants to initiate Corporate Insolvency Resolution Process (CIRP) against Aurora Chemicals Ltd. under IBC Section 7. Aurora's lawyer argues that since the Board has already resolved to wind up voluntarily, IBC proceedings are not maintainable. Which statement is CORRECT?",
+          "options": {
+            "A": "The lawyer is correct — once the Board has resolved for voluntary winding up, any creditor's insolvency application under IBC becomes non-maintainable",
+            "B": "The lawyer is incorrect — a mere board resolution to wind up has no legal effect on the company's status; IBC proceedings are fully maintainable since the default of ₹2.5 crores exceeds the ₹1 crore threshold",
+            "C": "The IBC proceedings are maintainable but must be automatically stayed once the shareholders pass a special resolution for voluntary winding up at a general meeting",
+            "D": "National Finance Bank must first file a petition under Companies Act Section 271 and obtain a winding-up order before it can separately apply under IBC"
+          },
+          "correct": "B",
+          "explanation": "A board resolution to wind up the company has NO legal effect under the Companies Act — it is not a 'special resolution' (which requires a general meeting), and no voluntary winding-up has legally commenced. The company continues to exist as a going concern in every legal sense. Even if a valid general meeting special resolution were passed, this would not automatically bar a creditor from filing under IBC — the IBC operates on its own framework independent of the Companies Act. National Finance Bank's default of ₹2.5 crores far exceeds the ₹1 crore minimum IBC threshold under Section 4 read with Section 7 — making the CIRP application fully maintainable. Options A and C incorrectly extend the effect of a board resolution. Option D invents a pre-requisite of Companies Act proceedings before IBC, which has no basis in law.",
+          "section": "IBC Section 7 read with Section 4; Companies Act Section 271"
+        },
+        {
+          "id": 25,
+          "question": "In the event Aurora Chemicals Ltd. is eventually wound up voluntarily and a company liquidator is appointed, the liquidator needs to sell the company's immovable factory property. Under Section 309 of the Companies Act, 2013, can the liquidator sell the factory by private contract WITHOUT obtaining sanction from the Tribunal or the committee of inspection?",
+          "options": {
+            "A": "No — all sales of immovable property must be approved by the NCLT irrespective of the mode of sale",
+            "B": "Yes — Section 309(1) allows the company liquidator to sell the movable and immovable property of the company by public auction OR by private contract without requiring any Tribunal sanction",
+            "C": "No — private contract sales of immovable property always require NCLT sanction; only public auction sales can be conducted freely",
+            "D": "Yes — but only if the sale value does not exceed ₹1 crore; beyond that, NCLT sanction is mandatory"
+          },
+          "correct": "B",
+          "explanation": "Section 309(1) of the Companies Act, 2013 lists the powers that the company liquidator may exercise WITHOUT the sanction of the Tribunal or committee of inspection. These include: (c) selling the movable AND immovable property and actionable claims of the company by PUBLIC AUCTION or by PRIVATE CONTRACT, with power to transfer the whole thereof to any person or company, or to sell the same in parcels. The liquidator therefore has broad authority to sell assets — including immovable property — by whichever mode (auction or private contract) best serves the winding-up estate, without needing NCLT approval for each sale. Powers that DO require sanction (Sec 309(2)) include: paying a class of creditors in full, compromising debts, or accepting shares as consideration for a sale. Options A, C, and D all impose restrictions that Section 309(1) does not.",
+          "section": "Section 309(1)(c)"
+        }
+      ]
+    }
+  ]
+}
