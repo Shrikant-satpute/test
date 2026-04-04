@@ -358,6 +358,361 @@
           "section": "Section 309(1)(c)"
         }
       ]
+    },
+    {
+      "scenarioId": "s6",
+      "scenarioText": "Zenith Pharma Ltd. is a public company with a paid-up capital of ₹25 crores, incorporated 14 years ago, engaged in manufacturing generic pharmaceuticals. In November 2025, a creditor (Medicore Chemicals Ltd., owed ₹3.5 crores) served a statutory written demand, which Zenith neglected to pay for 28 days. The NCLT admitted a winding-up petition filed by Medicore under Section 271(a) and passed a winding-up order on January 15, 2026. On the same date, the NCLT appointed Mr. Raghav Desai, an Insolvency Professional registered with IBBI, as the Company Liquidator. Over the next few months, creditors raised concerns about Mr. Desai's handling of the estate — specifically, that he had delayed realisation of perishable pharmaceutical inventory and had appointed his brother-in-law's firm as the estate valuer without competitive bidding. The NCLT took suo motu cognizance and initiated proceedings regarding the liquidator. Meanwhile, Zenith's promoter-directors argued that since the company had two operating subsidiaries (one in Gujarat and one in Tamil Nadu), the winding-up order should not have been published widely, as it would damage the subsidiaries' business reputation and banking relationships.",
+      "questions": [
+        {
+          "id": 26,
+          "question": "Under Section 270 of the Companies Act, 2013, winding up of a company may be carried out in two specific modes. Which of the following CORRECTLY identifies both modes?",
+          "options": {
+            "A": "Compulsory winding up by the Tribunal, and Voluntary winding up (which itself may be Members' Voluntary or Creditors' Voluntary)",
+            "B": "Compulsory winding up by the Tribunal, and Summary winding up by the Registrar of Companies for small companies",
+            "C": "Voluntary winding up by shareholders, and Administrative dissolution by the Central Government without Tribunal intervention",
+            "D": "Compulsory winding up by the High Court, and Voluntary winding up supervised by the Company Law Board (CLB)"
+          },
+          "correct": "A",
+          "explanation": "Section 270 of the Companies Act, 2013 provides that the winding up of a company may be either (a) by the Tribunal (compulsory winding up), or (b) voluntary. The voluntary mode is further subdivided into Members' Voluntary Winding Up (where a Declaration of Solvency is made) and Creditors' Voluntary Winding Up (where no such declaration can be made). Option B invents a 'summary winding up by RoC' that does not exist under the 2013 Act. Option C fabricates an 'administrative dissolution by CG' route. Option D references the High Court and CLB — the CLB was replaced by the NCLT under the 2013 Act, and winding-up jurisdiction now lies with the NCLT, not the High Court.",
+          "section": "Section 270"
+        },
+        {
+          "id": 27,
+          "question": "When Medicore Chemicals Ltd. filed the winding-up petition against Zenith Pharma Ltd. before the NCLT, which of the following procedural requirements under Section 273 of the Companies Act, 2013 must be complied with BEFORE the petition is heard?",
+          "options": {
+            "A": "The petitioner must serve a copy of the petition on the company and the company must be given a reasonable opportunity to make representations to the Tribunal before the hearing date",
+            "B": "No notice to the company is required — the Tribunal can pass a winding-up order ex parte without hearing the company",
+            "C": "The petitioner must obtain prior written approval from the Central Government before the NCLT can entertain any winding-up petition",
+            "D": "The petitioner must deposit 50% of the claimed debt with the NCLT as security before the petition is listed for hearing"
+          },
+          "correct": "A",
+          "explanation": "Section 273 of the Companies Act, 2013 provides that where a petition for winding up is filed before the Tribunal, a copy of the petition shall be served on the company and the company shall be given a reasonable opportunity of making its representations before the Tribunal before the petition is heard. This ensures principles of natural justice are followed. The NCLT cannot pass a winding-up order without notice to the company (Option B is wrong). No Central Government approval is needed for filing a petition (Option C is fabricated). There is no requirement to deposit 50% of the debt (Option D is a fictitious requirement). The scenario establishes that Zenith had the opportunity to be heard since the order was passed after a proper hearing.",
+          "section": "Section 273"
+        },
+        {
+          "id": 28,
+          "question": "The NCLT appointed Mr. Raghav Desai, an Insolvency Professional registered with IBBI, as the Company Liquidator for Zenith Pharma Ltd. Under Section 275 of the Companies Act, 2013, which of the following statements about the appointment of the Company Liquidator is INCORRECT?",
+          "options": {
+            "A": "The Tribunal may appoint an Official Liquidator or an Insolvency Professional as the Company Liquidator at the time of passing the winding-up order",
+            "B": "The Insolvency Professional so appointed must be registered with the Insolvency and Bankruptcy Board of India (IBBI)",
+            "C": "The Company Liquidator appointed by the Tribunal has no obligation to submit a report on the affairs of the company within any fixed time frame — the timeline is entirely at the liquidator's discretion",
+            "D": "The Tribunal may replace the Company Liquidator if sufficient cause is shown"
+          },
+          "correct": "C",
+          "explanation": "Section 275 provides that the Tribunal shall appoint an Official Liquidator or an Insolvency Professional (registered with IBBI) as the Company Liquidator. Options A and B correctly state this. Option D is also correct — the Tribunal retains power to replace the liquidator (Section 276). However, Option C is INCORRECT because the Company Liquidator is required under Section 281 to submit a preliminary report and under Section 291 to submit a first report to the Tribunal. These are not discretionary timelines. The liquidator must report on the company's affairs within prescribed timeframes. The scenario highlights Mr. Desai's delayed handling of inventory — which is precisely the kind of conduct that invites Tribunal scrutiny of whether the liquidator is fulfilling time-bound obligations.",
+          "section": "Section 275"
+        },
+        {
+          "id": 29,
+          "question": "Creditors raised concerns about Mr. Raghav Desai appointing his brother-in-law's firm as estate valuer without competitive bidding, and the NCLT took suo motu cognizance. Under Section 276 of the Companies Act, 2013, on what grounds can the Tribunal remove a Company Liquidator?",
+          "options": {
+            "A": "The Tribunal can remove the Company Liquidator only if the liquidator is convicted of a criminal offence — administrative misconduct or conflict of interest is insufficient",
+            "B": "The Tribunal may, on due cause shown, remove the Company Liquidator and appoint another in his place; 'due cause' encompasses misconduct, conflict of interest, incompetence, or failure to perform duties faithfully",
+            "C": "Only the creditors' committee can remove the Company Liquidator by passing a resolution with 75% majority; the Tribunal has no independent removal power",
+            "D": "The Company Liquidator can only be removed by the Central Government on the recommendation of the IBBI, not by the Tribunal"
+          },
+          "correct": "B",
+          "explanation": "Section 276 provides that the Tribunal may, on due cause shown, remove the Company Liquidator and appoint another liquidator in his place. The term 'due cause' is deliberately broad and encompasses any conduct that renders the liquidator unfit or unsuitable to continue — including conflict of interest (appointing a relative's firm as valuer), incompetence (delaying realisation of perishable inventory), and failure to perform duties with requisite care. In the Zenith scenario, Mr. Desai's appointment of his brother-in-law's firm without competitive bidding creates a clear conflict of interest constituting 'due cause.' Option A sets an impossibly high bar (criminal conviction) that the Act does not require. Option C gives removal power to creditors' committee, not the statute. Option D invents a CG/IBBI removal mechanism.",
+          "section": "Section 276"
+        },
+        {
+          "id": 30,
+          "question": "The promoter-directors of Zenith Pharma Ltd. argued that the winding-up order should not be published widely to protect the subsidiaries' reputation. Under Section 277 of the Companies Act, 2013, what is the mandatory requirement regarding notification of a winding-up order?",
+          "options": {
+            "A": "The winding-up order is a confidential Tribunal order and is communicated only to the company, the petitioner, and the RoC — no public notification is required",
+            "B": "The Tribunal shall, within a period not exceeding 15 days from the date of the order, cause intimation of the order to be sent to the Official Liquidator and the RoC, and the order must be published in the Official Gazette and in a leading English and vernacular newspaper circulating in the district of the registered office",
+            "C": "Publication is mandatory only if the company's paid-up capital exceeds ₹50 crores; below this threshold, notification to the RoC alone is sufficient",
+            "D": "The promoter-directors may obtain a stay on publication from the NCLT if they demonstrate potential reputational harm to related group companies"
+          },
+          "correct": "B",
+          "explanation": "Section 277 mandates that when a winding-up order is made, the Tribunal shall, within a period not exceeding 15 days from the date of the passing of the order, cause intimation thereof to be sent to the Official Liquidator and to the Registrar. The order shall also be published in the Official Gazette and in a leading English newspaper and a leading vernacular newspaper circulating in the district where the registered office of the company is situated. This publication is MANDATORY and cannot be suppressed to protect reputational interests of subsidiaries or group companies. The promoter-directors' argument has no legal basis — public notification serves the vital purpose of alerting all creditors, stakeholders, and third parties. Option A (confidential) contradicts the mandatory publication requirement. Option C invents a capital threshold. Option D fabricates a stay mechanism that does not exist under Section 277.",
+          "section": "Section 277"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s7",
+      "scenarioText": "Horizon Realty Ltd. is a public company with a paid-up capital of ₹18 crores, engaged in commercial real estate development. The company's major project — a 40-storey commercial tower in Mumbai — stalled after the principal contractor abandoned the project mid-construction. On March 1, 2026, the NCLT passed a winding-up order against Horizon Realty on the 'just and equitable' ground. Three weeks BEFORE the winding-up order (on February 8, 2026), the Managing Director had sold the company's prime Pune land parcel (valued at ₹6 crores) to his wife's family trust for ₹1.2 crores — a transaction made without Board approval. Separately, on February 20, 2026, a secured creditor (Apex Bank, owed ₹12 crores) had obtained an attachment order from the Debt Recovery Tribunal (DRT) against Horizon's Hyderabad office. Additionally, a trade creditor (Buildright Contractors, owed ₹45 lakhs) had filed a recovery suit in the Bombay High Court, which was pending when the winding-up order was passed. After the winding-up order, Horizon continued to exist in name — the Company Liquidator took charge. The liquidator discovered that the MD had made several suspicious payments totalling ₹90 lakhs to shell companies in the 4 months before the winding-up order, which appeared to be preferential transfers designed to benefit certain related-party creditors over others.",
+      "questions": [
+        {
+          "id": 31,
+          "question": "After the NCLT passed the winding-up order against Horizon Realty Ltd. on March 1, 2026, the company's promoters argued that the company has ceased to exist as a legal entity and therefore cannot be subjected to further proceedings. Under Section 278 of the Companies Act, 2013, what is the CORRECT legal position regarding the company's status after a winding-up order?",
+          "options": {
+            "A": "The company is immediately dissolved and ceases to exist from the date of the winding-up order; all further proceedings must be against the directors personally",
+            "B": "The company continues to exist as a body corporate with all its powers until it is dissolved by a specific dissolution order of the Tribunal under Section 302, but the Board's powers are displaced by the Company Liquidator",
+            "C": "The company is suspended for a maximum period of 2 years during which the liquidator operates; if winding up is not completed within 2 years, the company is revived automatically",
+            "D": "The company's legal identity merges with the Official Liquidator's office; the company and the OL become the same legal entity for all purposes"
+          },
+          "correct": "B",
+          "explanation": "Section 278 provides that an order for winding up a company shall operate in favour of all the creditors and all the contributories of the company as if it had been made on the joint petition of a creditor and a contributory. Crucially, the company does NOT cease to exist upon the winding-up order — it continues as a body corporate until the Tribunal makes a specific dissolution order under Section 302. The corporate identity persists; only the management shifts from the Board to the Company Liquidator. This distinction is vital because the company can still be party to legal proceedings, own property, and have obligations during the winding-up period. Option A confuses winding-up order with dissolution order — a common student error. Option C invents an automatic revival mechanism. Option D fabricates a legal identity merger.",
+          "section": "Section 278 read with Section 302"
+        },
+        {
+          "id": 32,
+          "question": "Buildright Contractors had a pending recovery suit for ₹45 lakhs in the Bombay High Court when the winding-up order was passed on March 1, 2026. Under Section 280 of the Companies Act, 2013, what happens to this pending suit?",
+          "options": {
+            "A": "The suit continues in the Bombay High Court without any change — pending suits are not affected by a winding-up order",
+            "B": "The suit is automatically dismissed with liberty to Buildright to file a fresh claim with the Company Liquidator",
+            "C": "The suit or proceeding pending in any court against the company shall be transferred to the Tribunal, and the Tribunal shall dispose of it on the merits",
+            "D": "The suit is stayed permanently and Buildright can only file a proof of debt with the Company Liquidator; it can never resume the suit"
+          },
+          "correct": "C",
+          "explanation": "Section 280 of the Companies Act, 2013 provides that where any suit or other legal proceeding is pending in any court by or against the company at the date of the winding-up order, the court in which such suit or proceeding is pending shall, on the application of the Tribunal, transfer such suit or proceeding to the Tribunal, and the Tribunal may dispose of the same. This centralises all litigation involving the company before the Tribunal conducting the winding up. Buildright's Bombay High Court suit would be transferred to the NCLT. Option A ignores the mandatory transfer requirement. Option B wrongly says the suit is 'dismissed.' Option D confuses Section 280 (transfer) with Section 279 (stay requiring leave) — the suit is not permanently stayed but transferred for disposal on merits.",
+          "section": "Section 280"
+        },
+        {
+          "id": 33,
+          "question": "The Managing Director of Horizon Realty Ltd. sold the company's Pune land parcel (valued ₹6 crores) to his wife's family trust for ₹1.2 crores on February 8, 2026 — three weeks before the winding-up order of March 1, 2026. This transfer was without Board approval. Under Section 283 of the Companies Act, 2013, what is the legal status of this transfer?",
+          "options": {
+            "A": "The transfer is valid — any transaction completed before the winding-up order cannot be challenged, as the winding-up order operates only prospectively",
+            "B": "The transfer is void unless the Tribunal otherwise orders, because it is a voluntary transfer of property made AFTER the commencement of winding up; the commencement date relates back to the date of presentation of the petition, not the date of the winding-up order",
+            "C": "The transfer can be set aside only if Buildright Contractors (as an unsecured creditor) specifically files a separate civil suit challenging it in the High Court",
+            "D": "The transfer is voidable only if the land was the company's SOLE remaining asset; if the company has other assets, the transfer stands"
+          },
+          "correct": "B",
+          "explanation": "Section 283 provides that any transfer of property, movable or immovable, or any delivery of goods made by or against a company after the commencement of the winding up shall, unless the Tribunal otherwise orders, be VOID. Critically, the 'commencement of winding up' in a compulsory winding up relates back to the date of presentation of the winding-up petition — NOT the date of the winding-up order. This means the February 8 transfer, though made before the March 1 order, is likely void if the petition was presented before February 8. Even if the petition was filed after February 8, the transfer at ₹1.2 crores for a ₹6 crore asset to a related party (MD's wife's family trust) without Board approval is a textbook case where the Tribunal would NOT exercise its discretion to validate the transfer. Option A wrongly assumes prospective-only operation. Option C invents a separate civil suit requirement. Option D creates a 'sole asset' condition that does not exist.",
+          "section": "Section 283"
+        },
+        {
+          "id": 34,
+          "question": "Apex Bank had obtained an attachment order from the Debt Recovery Tribunal (DRT) against Horizon Realty Ltd.'s Hyderabad office on February 20, 2026 — nine days before the winding-up order of March 1, 2026. Under Section 284 of the Companies Act, 2013, what is the effect of the winding-up order on this DRT attachment?",
+          "options": {
+            "A": "The DRT attachment order takes priority over the winding-up order because it was obtained first in time, following the principle 'first in time, first in right'",
+            "B": "Where any company is being wound up by the Tribunal, any attachment, distress, or execution put in force against the estate or effects of the company AFTER the commencement of winding up shall be void",
+            "C": "The attachment order remains valid but Apex Bank must pay 10% of the attached property's value to the liquidator as a winding-up fee",
+            "D": "The DRT attachment is suspended for 180 days; if winding up is not completed within 180 days, the attachment automatically revives"
+          },
+          "correct": "B",
+          "explanation": "Section 284 provides that where any company is being wound up by the Tribunal, any attachment, distress, or execution put in force, without leave of the Tribunal, against the estate or effects of the company AFTER the commencement of the winding up shall be VOID. As with Section 283, 'commencement' relates back to the date of petition presentation, not the order date. If the petition was presented before February 20, the DRT attachment is void. This provision ensures that no individual creditor gains an unfair advantage over others during the winding-up process — the principle of pari passu (equal treatment) governs. Option A incorrectly applies a common law priority principle that is expressly overridden by statute. Option C invents a fee mechanism. Option D fabricates a 180-day suspension period.",
+          "section": "Section 284"
+        },
+        {
+          "id": 35,
+          "question": "The Company Liquidator discovered that the MD of Horizon Realty Ltd. had made payments totalling ₹90 lakhs to shell companies in the 4 months before the winding-up order, which appeared to be preferential transfers favouring related-party creditors. Under Section 289 of the Companies Act, 2013, which of the following CORRECTLY describes the law on preferential payments in winding up?",
+          "options": {
+            "A": "Preferential payments are voidable only if made within 30 days immediately preceding the commencement of winding up; payments made 4 months prior are outside the look-back period",
+            "B": "Any transfer of property or payment made within 1 year before the commencement of winding up in favour of any creditor is a fraudulent preference and is automatically void without any further inquiry",
+            "C": "A transfer by way of giving a creditor a preference over other creditors, made within 6 months before the commencement of winding up (or 2 years in case of a related party), shall be deemed a fraudulent preference and shall be invalid — but only if the company was unable to pay its debts at the time of the transfer",
+            "D": "Preferential payment provisions apply only to unsecured creditors; payments to related-party entities are outside the scope of Section 289"
+          },
+          "correct": "C",
+          "explanation": "Section 289 deals with fraudulent preference in winding up. A transfer of property, movable or immovable, delivery of goods, payment, execution, or other act relating to property made or done by or against a company within a period of 6 MONTHS before the commencement of winding up (or 2 YEARS in the case of a related party) which has the effect of giving such creditor a preference over the other creditors shall be deemed a fraudulent preference and shall be invalid. However, this applies only where the company was unable to pay its debts at the time of the transaction. The ₹90 lakh payment to shell companies (related parties) falls within the 2-year look-back period. The key conditions are: (1) made within the statutory period, (2) preferential effect, and (3) company's inability to pay debts at the time. Option A (30 days) is far too short. Option B omits the inability-to-pay condition and uses 1 year. Option D wrongly excludes related parties.",
+          "section": "Section 289"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s8",
+      "scenarioText": "Cosmos Steel Ltd. is a public company with a paid-up capital of ₹30 crores that was incorporated 20 years ago. The NCLT ordered its compulsory winding up on September 15, 2025 under Section 271(a) on the petition of a major creditor. The Company Liquidator commenced the task of identifying all persons liable to contribute to the assets of the company. Cosmos had 4,500 current members. Additionally, Mr. Vikram Joshi, who had transferred his 50,000 shares (fully paid up) to his nephew 8 months before the commencement of winding up, contended he had no further liability. The company also had 2,000 preference shareholders whose preference shares were due for redemption 2 years ago but had not been redeemed. The Company Liquidator calculated that the company's realisable assets fell short of its liabilities by ₹8 crores, requiring calls on contributories. Two former directors — Mr. Ashok Nair and Ms. Ritu Bhatia — were found to have misapplied ₹3.5 crores of company funds by sanctioning interest-free loans to their personal associates without Board approval, during the 3 years preceding the winding-up order. The Company Liquidator filed an application before the NCLT seeking to recover this amount from the directors personally.",
+      "questions": [
+        {
+          "id": 36,
+          "question": "Under Section 285 of the Companies Act, 2013, what is the Company Liquidator's obligation regarding the identification of contributories in the winding up of Cosmos Steel Ltd.?",
+          "options": {
+            "A": "The Company Liquidator must prepare a list of contributories within 60 days of the winding-up order and file it with the NCLT; the Tribunal then settles the list after hearing objections",
+            "B": "The Company Liquidator shall, with all convenient speed after a winding-up order has been made, settle a list of contributories — the list distinguishes between persons who are contributories in their own right and persons who are contributories as representatives of or liable to the debts of others",
+            "C": "Only the RoC can prepare the list of contributories based on the company's Register of Members; the Company Liquidator has no role in this process",
+            "D": "The list of contributories is prepared by the statutory auditor, not the Company Liquidator, as it involves financial determination of liability"
+          },
+          "correct": "B",
+          "explanation": "Section 285 provides that the Tribunal shall, as soon as may be after making a winding-up order, cause the Company Liquidator to settle a list of contributories, and the Company Liquidator shall rectify the register of members in all cases where rectification is required, and every contributory shall, subject to the provisions of this Act, be liable to contribute to the assets of the company the amount which he is liable to contribute. The list distinguishes between persons who are contributories in their own right and those who are contributories as representatives. Option A invents a specific 60-day timeline that is not prescribed — the standard is 'with all convenient speed.' Option C wrongly assigns this to the RoC. Option D incorrectly assigns it to the statutory auditor.",
+          "section": "Section 285"
+        },
+        {
+          "id": 37,
+          "question": "Mr. Vikram Joshi transferred his 50,000 fully paid-up shares to his nephew 8 months before the commencement of winding up. He argues he has no liability as a contributory since he is no longer a member. Under Section 286 of the Companies Act, 2013, which of the following CORRECTLY states the liability of a past member as a contributory?",
+          "options": {
+            "A": "A past member is NOT liable as a contributory if the shares transferred were fully paid up — contributory liability arises only for partly paid shares",
+            "B": "A past member is liable as a contributory in respect of debts and liabilities contracted BEFORE he ceased to be a member, subject to the condition that he ceased to be a member not more than ONE YEAR before the commencement of winding up, and that the existing members are unable to satisfy the contributions required of them",
+            "C": "A past member who transferred shares within 2 years of winding up is treated identically to a current member — there is no distinction in liability",
+            "D": "Past members have no liability whatsoever once a valid transfer has been registered in the company's records — the liability is entirely extinguished upon transfer"
+          },
+          "correct": "B",
+          "explanation": "Section 286 provides that a past member shall not be liable to contribute if he has ceased to be a member for one year or more before the commencement of the winding up. A past member is liable to contribute only in respect of the debts and liabilities of the company contracted before he ceased to be a member, and only if it appears that the existing contributories (current members) are unable to make the contributions required. Mr. Vikram Joshi transferred shares 8 months before commencement — within the 1-year look-back period — making him potentially liable as a past member contributory. However, the fact that his shares were fully paid up is critical: on fully paid shares, there is no further amount 'unpaid' to call. Option A is partially correct in practice but doesn't state the full legal position. Option B correctly identifies all three conditions. Option C wrongly extends to 2 years. Option D wrongly says liability is entirely extinguished.",
+          "section": "Section 286"
+        },
+        {
+          "id": 38,
+          "question": "The Company Liquidator of Cosmos Steel Ltd. calculated an ₹8 crore shortfall between realisable assets and liabilities. Under Section 287 of the Companies Act, 2013, the Tribunal has the power to make calls on contributories to make up this shortfall. Which of the following statements about calls on contributories is CORRECT?",
+          "options": {
+            "A": "The Tribunal can make calls on contributories ONLY for the amount remaining unpaid on their shares; it cannot make calls exceeding the nominal value of the shares",
+            "B": "The Tribunal may, at any time after making a winding-up order, make calls on all or any of the contributories to the extent of their liability, for payment of any money which the Tribunal considers necessary to satisfy the debts and liabilities of the company and the costs, charges, and expenses of winding up",
+            "C": "Calls on contributories can only be made by the Company Liquidator independently without any Tribunal order; the Tribunal merely ratifies the calls after the fact",
+            "D": "Calls on contributories are prohibited in a compulsory winding up — they are permitted only in voluntary winding up where the company's directors retain authority"
+          },
+          "correct": "B",
+          "explanation": "Section 287 empowers the Tribunal to make calls on all or any of the contributories of the company to the extent of their liability for payment of any money which the Tribunal considers necessary to satisfy the debts and liabilities of the company, and the costs, charges, and expenses of winding up, and for the adjustment of the rights of the contributories among themselves. The call is made by the TRIBUNAL, not by the liquidator independently (Option C is wrong). Option A is partially correct in that liability is limited to the amount unpaid on shares, but the section's scope is broader — it covers all liability under Section 285-286, not just unpaid share amounts. Option D wrongly restricts calls to voluntary winding up only.",
+          "section": "Section 287"
+        },
+        {
+          "id": 39,
+          "question": "Cosmos Steel Ltd. has 2,000 preference shareholders whose preference shares were due for redemption 2 years ago but were never redeemed. In the winding up, these preference shareholders want to be treated as creditors (not members) for the unredeemed amount. Under Section 288 of the Companies Act, 2013, which principle governs the adjustment of rights among different classes of contributories?",
+          "options": {
+            "A": "The Tribunal shall adjust the rights of the contributories among themselves, and distribute any surplus among the persons entitled thereto — preference shareholders rank AHEAD of equity shareholders in the return of capital",
+            "B": "All contributories — equity and preference — are treated identically in a winding up with no preferential ranking; the principle of pari passu applies to all members equally",
+            "C": "Preference shareholders with unredeemed shares are automatically converted to secured creditors and rank ahead of all unsecured creditors in the distribution waterfall",
+            "D": "Only equity shareholders are contributories; preference shareholders are never included in the list of contributories regardless of the terms of their shares"
+          },
+          "correct": "A",
+          "explanation": "Section 288 provides that the Tribunal shall adjust the rights of the contributories among themselves and distribute any surplus among the persons entitled thereto. In a winding up, preference shareholders have preferential rights over equity shareholders for the return of capital — this is the fundamental nature of preference shares under Section 43 of the Companies Act. The 2,000 preference shareholders whose shares were due for redemption would rank ahead of equity shareholders for capital repayment. However, they are NOT creditors (Option C is wrong) — they remain members/contributories with a preferential ranking. Option B incorrectly applies pari passu among all member classes. Option D wrongly excludes preference shareholders from the contributory list.",
+          "section": "Section 288"
+        },
+        {
+          "id": 40,
+          "question": "The Company Liquidator filed an application before the NCLT to recover ₹3.5 crores from Mr. Ashok Nair and Ms. Ritu Bhatia, the former directors who sanctioned interest-free loans to personal associates without Board approval. Under Section 303 of the Companies Act, 2013, what power does the Tribunal have in this situation?",
+          "options": {
+            "A": "The Tribunal can only recommend criminal prosecution to the Central Government; it has no power to assess monetary damages or order personal recovery against directors",
+            "B": "The Tribunal may assess damages against any director or officer of the company who has misapplied, retained, or become liable or accountable for any money or property of the company, or been guilty of any misfeasance or breach of trust — and compel such person to repay or restore the money or property with interest",
+            "C": "The Tribunal's power under Section 303 is limited to a maximum recovery of ₹1 crore per director, regardless of the actual amount misapplied",
+            "D": "Only the Company Liquidator can file the application under Section 303; creditors and contributories have no standing to seek such an assessment"
+          },
+          "correct": "B",
+          "explanation": "Section 303 empowers the Tribunal to examine the conduct of any director, officer, or manager of the company and to assess damages against any such person who has misapplied or retained, or become liable or accountable for, any money or property of the company, or has been guilty of any misfeasance or breach of trust in relation to the company. The Tribunal may compel such person to repay or restore the money or property (or any part thereof) with interest at such rate as the Tribunal thinks just. In this case, the ₹3.5 crore interest-free loans to personal associates without Board approval constitutes misapplication of company funds and breach of trust. Option A wrongly limits the Tribunal to criminal recommendation only. Option C invents a ₹1 crore cap. Option D is incorrect — while the liquidator typically files, the section also allows creditors and contributories to apply.",
+          "section": "Section 303"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s9",
+      "scenarioText": "Maple Financial Services Pvt. Ltd. is a private company (not an NBFC) with a paid-up capital of ₹4 crores that operated a fintech lending platform. After achieving its founders' exit plan, the Board of 5 directors decided to wind up voluntarily. On April 1, 2026, 3 directors (a majority of the total 5) held a Board meeting and made a Declaration of Solvency stating that the company could pay all its debts within 18 months. The declaration was verified by an affidavit sworn before a First Class Judicial Magistrate. It was delivered to the RoC on April 3, 2026. On April 28, 2026 — 27 days after the declaration — the members held a general meeting and passed a special resolution for voluntary winding up. At the same meeting, they appointed Mr. Sunil Kapoor as the company liquidator. Subsequently, Mr. Kapoor needed to compromise a disputed ₹40 lakh claim from a former vendor who threatened litigation. He also planned to accept shares of another company as part-consideration for selling Maple's software platform. Additionally, 4 months into the winding up, a secured creditor (owed ₹60 lakhs) approached Mr. Kapoor demanding full payment ahead of all other creditors, claiming the company's Declaration of Solvency guaranteed payment within 18 months.",
+      "questions": [
+        {
+          "id": 41,
+          "question": "The Declaration of Solvency for Maple Financial Services Pvt. Ltd. was made by 3 out of 5 directors and was verified by an affidavit sworn before a First Class Judicial Magistrate. Under Section 304 of the Companies Act, 2013 (read with Section 305), which of the following statements about the formal requirements of the Declaration of Solvency is INCORRECT?",
+          "options": {
+            "A": "The declaration must be made by a majority of the directors at a Board meeting — 3 out of 5 satisfies this requirement",
+            "B": "The declaration must be verified by an affidavit, and the affidavit may be sworn before a First Class Judicial Magistrate or a Notary",
+            "C": "The declaration must be accompanied by a report of the company's auditors on the reasonableness of the directors' opinion regarding the company's ability to pay debts",
+            "D": "The declaration must contain a statement of assets and liabilities as at the latest practicable date before the making of the declaration"
+          },
+          "correct": "C",
+          "explanation": "Under Section 304 and Section 305, the Declaration of Solvency must: (1) be made by a MAJORITY of directors at a Board meeting — 3/5 satisfies this (Option A is correct); (2) be verified by an AFFIDAVIT — it may be sworn before a First Class Judicial Magistrate (Option B is correct); (3) contain a statement of assets and liabilities as at the latest practicable date (Option D is correct per Section 305(2)(b)). However, Option C is INCORRECT — the Act requires the declaration to be accompanied by the AUDITOR'S REPORT on the profit and loss account of the company for the period from the last account date to the latest practicable date. This is not an auditor's report on the 'reasonableness of the directors' opinion' — the auditor certifies the financial statements, NOT the directors' solvency opinion. The directors themselves bear the responsibility for the opinion on solvency.",
+          "section": "Section 304 read with Section 305"
+        },
+        {
+          "id": 42,
+          "question": "The members of Maple Financial Services Pvt. Ltd. passed a special resolution for voluntary winding up on April 28, 2026. Under Section 307 of the Companies Act, 2013, what is the company's obligation regarding publication of this resolution?",
+          "options": {
+            "A": "No publication is required for a private company's voluntary winding-up resolution; publication is mandatory only for public companies",
+            "B": "The company must give notice of the resolution by advertisement in the Official Gazette and also in a newspaper circulating in the district where the registered office is situated, within FOURTEEN DAYS of the passing of the resolution",
+            "C": "The resolution must be published on the company's website within 7 days; no newspaper or gazette publication is needed",
+            "D": "Publication is required only if the company has more than 200 members; Maple, being a private company with limited members, is exempt"
+          },
+          "correct": "B",
+          "explanation": "Section 307 provides that where a company has passed a resolution for voluntary winding up, the company shall, within FOURTEEN DAYS of the passing of the resolution, give notice of the resolution by advertisement in the Official Gazette and also in a newspaper circulating in the district where the registered office of the company is situated. This requirement applies to ALL companies — public or private — without any exemption based on company type, size, or number of members. The purpose is to notify all stakeholders, including unknown creditors, of the commencement of winding up. Option A wrongly exempts private companies. Option C invents a website-only requirement. Option D fabricates a member-count threshold.",
+          "section": "Section 307"
+        },
+        {
+          "id": 43,
+          "question": "Mr. Sunil Kapoor, the company liquidator of Maple Financial Services Pvt. Ltd., wants to: (i) compromise the disputed ₹40 lakh vendor claim, and (ii) accept shares of another company as part-consideration for selling Maple's software platform. Under Section 309(2) of the Companies Act, 2013, which of these actions require the PRIOR SANCTION of the Tribunal?",
+          "options": {
+            "A": "Neither requires sanction — the company liquidator has unfettered discretion over all commercial decisions during winding up",
+            "B": "Only the compromise requires sanction; accepting shares as consideration is within the liquidator's independent power under Section 309(1)",
+            "C": "BOTH require prior sanction — Section 309(2) lists compromising claims exceeding a prescribed amount AND accepting shares or like interest as consideration among the powers exercisable ONLY with Tribunal sanction",
+            "D": "Only accepting shares requires sanction; compromising claims is within the liquidator's power regardless of amount"
+          },
+          "correct": "C",
+          "explanation": "Section 309(2) lists specific powers that the Company Liquidator may exercise ONLY WITH THE SANCTION of the Tribunal. These include: (a) paying any class of creditors in full; (b) making any compromise or arrangement with creditors; and (c) compromising all calls, liabilities, and debts, and all claims whether present or future. Separately, Section 309(2) also requires sanction for accepting shares, policies, or other like interest as consideration for the sale of company property. Both of Mr. Kapoor's proposed actions — compromising the ₹40 lakh claim and accepting shares as consideration — fall squarely under Section 309(2) and require prior Tribunal sanction. This contrasts with Section 309(1) powers (like selling by auction or private contract, executing documents) which do NOT require sanction. Option A, B, and D each wrongly exclude one or both actions from the sanction requirement.",
+          "section": "Section 309(2)"
+        },
+        {
+          "id": 44,
+          "question": "The members' special resolution for voluntary winding up of Maple Financial Services Pvt. Ltd. was passed on April 28, 2026 — exactly 27 days after the Declaration of Solvency was made on April 1, 2026. The Declaration was delivered to the RoC on April 3, 2026. For the Members' Voluntary Winding Up to be validly constituted, which of the following conditions must ALL be satisfied simultaneously?",
+          "options": {
+            "A": "Declaration of Solvency by majority directors + filed with RoC + special resolution within 5 weeks + declaration states debts payable within 3 years — ALL four conditions must be met",
+            "B": "Declaration of Solvency by any 2 directors + filed with RoC + special resolution within 45 days + declaration states debts payable within 5 years",
+            "C": "Declaration of Solvency by unanimous Board + filed with RoC and NCLT + ordinary resolution within 30 days + declaration states debts payable within 2 years",
+            "D": "Declaration of Solvency by majority directors + no filing requirement + special resolution at any time + declaration states debts payable within a 'reasonable period'"
+          },
+          "correct": "A",
+          "explanation": "For a valid Members' Voluntary Winding Up, ALL of the following must be simultaneously satisfied: (1) Declaration of Solvency made by a MAJORITY of directors at a Board meeting (Section 305(1)); (2) Declaration DELIVERED to the RoC for registration BEFORE the date of the special resolution (Section 305(2)(a)); (3) Special resolution passed WITHIN FIVE WEEKS (35 days) of the Declaration (Section 305(2)(a)); and (4) Declaration states debts will be paid within a period NOT EXCEEDING THREE YEARS (Section 305(1)). For Maple: 3/5 directors (majority ✓), filed April 3 before April 28 resolution (✓), 27 days < 35 days (✓), 18 months < 3 years (✓). All conditions are met. Option B: wrong on 2 directors, 45 days, 5 years. Option C: wrong on unanimity, NCLT filing, ordinary resolution, 2 years. Option D: wrong on no filing, no time limit, reasonable period.",
+          "section": "Section 305(1) and 305(2)"
+        },
+        {
+          "id": 45,
+          "question": "Four months into the Members' Voluntary Winding Up of Maple Financial Services Pvt. Ltd., the liquidator Mr. Sunil Kapoor has been paying creditors as their claims are verified. Under Section 300 of the Companies Act, 2013, what ongoing reporting obligation does the Company Liquidator have during a winding up that continues for more than one year?",
+          "options": {
+            "A": "No reporting obligation exists during the winding-up process; the liquidator files only a final report upon completion",
+            "B": "The Company Liquidator must file an annual statement with the Tribunal and the Registrar showing the position of the liquidation, including a statement of accounts of receipts and payments and the position of the liquidation during the year",
+            "C": "The liquidator must hold an annual general meeting of shareholders to present the winding-up progress report — identical to a normal company's AGM requirement",
+            "D": "The Company Liquidator must file monthly reports with the IBBI detailing every transaction exceeding ₹1 lakh"
+          },
+          "correct": "B",
+          "explanation": "Section 300 provides that if the winding up of a company is not concluded within one year after its commencement, the Company Liquidator shall, within TWO MONTHS of the close of each subsequent financial year (or such other period as the Tribunal directs), file a statement in the prescribed form with the Tribunal and the Registrar, containing information on receipts, payments, and the position of the liquidation. This ensures ongoing transparency and accountability. Although Maple's winding up is only 4 months in, if it extends beyond one year, this obligation would kick in. Option A (no reporting until final) is incorrect — annual reporting is mandatory. Option C wrongly equates winding-up reporting with a normal AGM. Option D invents IBBI monthly reporting.",
+          "section": "Section 300"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s10",
+      "scenarioText": "Prism Logistics Ltd. is a public company with a paid-up capital of ₹10 crores that operated a nationwide freight and warehousing business. The company faced crippling losses after losing its three largest clients in rapid succession. A consortium of creditors (owed a collective ₹22 crores) filed a winding-up petition under Section 271(a), and the NCLT passed a winding-up order on June 1, 2026. The Company Liquidator, Ms. Anjali Menon (an Insolvency Professional), immediately took charge. She discovered that the company's books of account had not been properly maintained for the preceding 2 years — ledgers were incomplete, and several bank reconciliations were missing. She also found ₹15 lakhs lying in a bank account earmarked as 'unclaimed dividends' from FY 2022-23 that had never been transferred to the Investor Education and Protection Fund (IEPF). The winding up progressed, but 10 months in, the Company Liquidator had not yet submitted her first report on the company's affairs to the Tribunal. A creditor (Speedway Transport, owed ₹1.8 crores) raised an objection before the Tribunal about this delay. Additionally, during the Creditors' Voluntary Winding Up of a DIFFERENT company (Trident Carriers Pvt. Ltd., a subsidiary of Prism), the liquidator of Trident needed to call a meeting of creditors to present the progress of the winding up. A dispute arose about whether the liquidator of Trident was obliged to convene such meetings and at whose request.",
+      "questions": [
+        {
+          "id": 46,
+          "question": "Ms. Anjali Menon, the Company Liquidator of Prism Logistics Ltd., discovered that the company's books of account were improperly maintained for the preceding 2 years. Under Section 290 of the Companies Act, 2013, what specific obligation does the Company Liquidator have regarding the books of account during the winding-up process?",
+          "options": {
+            "A": "The Company Liquidator has no obligation regarding books — maintaining books is the directors' responsibility even during winding up",
+            "B": "The Company Liquidator shall keep proper books in which he shall cause to be made entries or minutes of proceedings at meetings and of such other matters as may be prescribed; any contributory or creditor may, subject to the control of the Tribunal, inspect such books",
+            "C": "The Company Liquidator must reconstruct the last 10 years of books before any distribution can be made to creditors",
+            "D": "The books of account obligation transfers to the statutory auditor upon the passing of the winding-up order"
+          },
+          "correct": "B",
+          "explanation": "Section 290 imposes a clear obligation on the Company Liquidator to keep PROPER BOOKS in which entries or minutes of proceedings at meetings and such other matters as may be prescribed shall be made. Importantly, any contributory or creditor may, subject to the control of the Tribunal, inspect such books personally. This transparency mechanism ensures that the winding-up process is not opaque. In Ms. Menon's case, even though the company's pre-existing books were incomplete, she is independently obligated to maintain proper books from the commencement of her charge. Option A wrongly absolves the liquidator. Option C invents an impractical 10-year reconstruction requirement. Option D wrongly shifts the obligation to the statutory auditor.",
+          "section": "Section 290"
+        },
+        {
+          "id": 47,
+          "question": "Ten months into the winding up of Prism Logistics Ltd., the Company Liquidator Ms. Anjali Menon has not yet submitted her first report to the Tribunal. Speedway Transport raised an objection about this delay. Under Section 291 of the Companies Act, 2013, within what time frame must the Company Liquidator submit the FIRST report to the Tribunal?",
+          "options": {
+            "A": "Within 30 days of the winding-up order — a preliminary statement of affairs only",
+            "B": "Within 60 days from the date of the winding-up order, the Company Liquidator shall submit a preliminary report to the Tribunal containing information including the nature and estimated value of assets, amount and nature of liabilities, details of any fraud or misconduct discovered, and whether further inquiry is desirable",
+            "C": "Within 6 months of the winding-up order — the first report is due only after substantial asset realisation has occurred",
+            "D": "There is no fixed timeline; the Company Liquidator submits the report when she deems the investigation is sufficiently complete"
+          },
+          "correct": "B",
+          "explanation": "Section 291 requires the Company Liquidator to submit a PRELIMINARY REPORT to the Tribunal within SIXTY DAYS from the date of the winding-up order. This report must contain: (a) the nature and estimated value of the company's assets; (b) the amount and nature of the liabilities; (c) the causes of failure of the company; (d) whether in the liquidator's opinion further inquiry is desirable regarding any matter relating to the promotion, formation, or failure of the company; and (e) any other matters requiring the Tribunal's attention. Ms. Menon's failure to submit within 60 days — let alone 10 months — is a clear dereliction of this statutory duty and Speedway Transport's objection is well-founded. Option A (30 days) is incorrect. Option C (6 months) and Option D (no timeline) both understate the urgency.",
+          "section": "Section 291"
+        },
+        {
+          "id": 48,
+          "question": "The Company Liquidator of Prism Logistics Ltd. found ₹15 lakhs in a bank account earmarked as 'unclaimed dividends' from FY 2022-23 that was never transferred to the Investor Education and Protection Fund (IEPF). Under Section 301 of the Companies Act, 2013, what is the Company Liquidator's obligation regarding money representing unclaimed dividends or undistributed assets that remain unclaimed during the winding up?",
+          "options": {
+            "A": "Unclaimed dividends belong to the company's general pool and can be distributed to known creditors without any special obligation",
+            "B": "The Company Liquidator must pay such unclaimed or undistributed amount into the Company Liquidation Account in the scheduled bank; if the amount remains unclaimed for a prescribed period, it shall be transferred to the IEPF under Section 125",
+            "C": "Unclaimed dividends are automatically forfeited to the Central Government upon the passing of the winding-up order",
+            "D": "The Company Liquidator must return unclaimed dividends directly to the shareholders proportionately, bypassing the creditors entirely"
+          },
+          "correct": "B",
+          "explanation": "Section 301 provides that the Company Liquidator shall pay money representing unclaimed dividends or undistributed assets into a Company Liquidation Account in a scheduled bank. These amounts are held in trust for the persons entitled to them. If amounts remain unclaimed for the prescribed period, they are transferred to the Investor Education and Protection Fund (IEPF) under Section 125. The ₹15 lakhs of unclaimed dividends from FY 2022-23 must be deposited into the Company Liquidation Account and handled per this process — NOT merged into the general creditor pool (Option A), NOT forfeited to CG (Option C), and NOT distributed directly to shareholders bypassing creditors (Option D). The distinction between company assets and unclaimed dividends held in trust is critical.",
+          "section": "Section 301"
+        },
+        {
+          "id": 49,
+          "question": "In the Creditors' Voluntary Winding Up of Trident Carriers Pvt. Ltd. (a subsidiary of Prism Logistics), a dispute arose about whether the liquidator must convene meetings of creditors during the progress of the winding up. Under Section 311 of the Companies Act, 2013, which of the following CORRECTLY states the liquidator's obligation regarding creditors' meetings in a Creditors' Voluntary Winding Up?",
+          "options": {
+            "A": "The liquidator has no obligation to convene any creditors' meeting after the initial meeting held under Section 306; creditors can only seek information through written correspondence",
+            "B": "The liquidator may in his discretion convene meetings of creditors for the purpose of ascertaining their wishes — and shall also convene meetings on such occasions as the creditors by resolution or any one-tenth in value of the creditors may direct",
+            "C": "Only the NCLT can direct the convening of creditors' meetings; the liquidator and creditors themselves have no power to initiate such meetings",
+            "D": "Creditors' meetings can only be convened if the winding up has been ongoing for more than 2 years; shorter proceedings do not require interim meetings"
+          },
+          "correct": "B",
+          "explanation": "Section 311 provides that the liquidator shall summon meetings of the creditors or contributories as and when directed by the Tribunal or as and when the liquidator thinks fit for the purpose of ascertaining their wishes. Additionally, the liquidator shall convene meetings of creditors on such occasions as the creditors by resolution at any meeting, or ANY ONE-TENTH IN VALUE of the creditors, may direct. This dual mechanism — (i) liquidator's own discretion and (ii) creditor-directed meetings (requiring only 1/10 in value) — ensures transparency. The key trap is the 1/10 in value threshold for creditors to demand a meeting. Option A wrongly says no meetings after Section 306. Option C wrongly restricts the power to the NCLT only. Option D invents a 2-year minimum.",
+          "section": "Section 311"
+        },
+        {
+          "id": 50,
+          "question": "Returning to the compulsory winding up of Prism Logistics Ltd. — the winding-up order was passed on June 1, 2026. A former employee of Prism who holds 500 shares wants to inspect the Company Liquidator's books to verify that employee dues are being properly accounted for. The Company Liquidator refuses inspection, stating that only creditors have inspection rights during winding up. Under the provisions of the Companies Act, 2013, is the Company Liquidator's refusal legally correct?",
+          "options": {
+            "A": "Yes — only creditors (not members or contributories) have the right to inspect the liquidator's books during compulsory winding up",
+            "B": "No — under Section 290, any CONTRIBUTORY or CREDITOR may, subject to the control of the Tribunal, inspect the Company Liquidator's books; since the former employee is a shareholder (contributory), he has inspection rights",
+            "C": "Yes — no person other than the Official Liquidator and the Tribunal has any right to inspect books during winding up; this is to protect commercially sensitive information",
+            "D": "No — but only because the person is a former employee; members who are not employees have no inspection rights"
+          },
+          "correct": "B",
+          "explanation": "Section 290 expressly provides that any CONTRIBUTORY or CREDITOR may, subject to the control of the Tribunal, inspect the Company Liquidator's books. A 'contributory' includes every person liable to contribute to the assets of the company — which includes shareholders (current members). The former employee who holds 500 shares is a contributory by virtue of his shareholding, and therefore has the right to inspect the liquidator's books. The Company Liquidator's refusal is legally incorrect. The right is subject to the 'control of the Tribunal' — meaning the Tribunal may regulate the manner and timing of inspection, but cannot deny the right entirely. Option A incorrectly excludes contributories. Option C provides excessive secrecy that the Act does not mandate. Option D wrongly bases the right on employee status rather than contributory status.",
+          "section": "Section 290"
+        }
+      ]
     }
   ]
 }

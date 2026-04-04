@@ -2,11 +2,14 @@
 
 import { useState, useEffect, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
-import type { AdminAttemptRow, QuestionsData, MCQQuestion, ShortQuestion, CaseQuestion, SPOMAttempt } from '@/lib/types';
+import type { AdminAttemptRow, QuestionsData, MCQQuestion, ShortQuestion, CaseQuestion, SPOMAttempt, SPOMChapterData, SPOMScenario } from '@/lib/types';
 
 const PAGE_SIZE = 10;
 
 type AdminSPOMAttemptRow = SPOMAttempt & { username: string };
+
+// Cache for loaded chapter question data
+const chapterDataCache: Record<string, SPOMChapterData> = {};
 
 export default function AdminPage() {
   const router = useRouter();
@@ -23,6 +26,9 @@ export default function AdminPage() {
   const [sortDir, setSortDir] = useState<'asc' | 'desc'>('desc');
   const [page, setPage] = useState(1);
   const [expandedId, setExpandedId] = useState<string | null>(null);
+  const [expandedSpomId, setExpandedSpomId] = useState<string | null>(null);
+  const [spomChapterData, setSpomChapterData] = useState<SPOMChapterData | null>(null);
+  const [spomDetailLoading, setSpomDetailLoading] = useState(false);
 
   useEffect(() => {
     const raw = localStorage.getItem('ca_session');
@@ -92,6 +98,34 @@ export default function AdminPage() {
   const handleLogout = () => {
     localStorage.removeItem('ca_session');
     router.push('/');
+  };
+
+  const handleSpomExpand = async (attempt: AdminSPOMAttemptRow) => {
+    if (expandedSpomId === attempt.attemptId) {
+      setExpandedSpomId(null);
+      return;
+    }
+    setExpandedSpomId(attempt.attemptId);
+
+    // Check cache first
+    if (chapterDataCache[attempt.chapterId]) {
+      setSpomChapterData(chapterDataCache[attempt.chapterId]);
+      return;
+    }
+
+    setSpomDetailLoading(true);
+    try {
+      const res = await fetch(`/api/spom/questions?chapterId=${encodeURIComponent(attempt.chapterId)}`);
+      const data = await res.json();
+      if (data.success) {
+        chapterDataCache[attempt.chapterId] = data.chapterData;
+        setSpomChapterData(data.chapterData);
+      }
+    } catch {
+      // silently fail — detail panel just won't show questions
+    } finally {
+      setSpomDetailLoading(false);
+    }
   };
 
   const handleTabChange = (tab: 'spom' | 'legacy') => {
@@ -251,34 +285,43 @@ export default function AdminPage() {
                     <tr><td colSpan={9} className="text-center py-12 text-[#4a5568] text-sm">No SPOM attempts found</td></tr>
                   ) : (
                     (paginated as AdminSPOMAttemptRow[]).map((a, idx) => (
-                      <tr
-                        key={a.attemptId}
-                        className={`border-b border-[#1e1e2e]/50 hover:bg-[#1e1e2e]/30 transition-colors ${a.passed ? 'border-l-2 border-l-[#10b981]/40' : 'border-l-2 border-l-[#ef4444]/40'}`}
-                      >
-                        <td className="px-4 py-3 text-sm text-[#94a3b8]">{(page - 1) * PAGE_SIZE + idx + 1}</td>
-                        <td className="px-4 py-3 text-sm text-[#f1f5f9] font-medium">{a.username}</td>
-                        <td className="px-4 py-3 text-sm text-[#94a3b8] max-w-[180px] truncate" title={a.chapterName}>
-                          {a.chapterName}
-                          {a.chapterId && <span className="ml-1.5 text-xs font-bold text-[#6366f1] bg-[#6366f1]/10 px-1.5 py-0.5 rounded">{a.chapterId.replace('ca-ch', '')}</span>}
-                        </td>
-                        <td className="px-4 py-3 text-sm text-[#94a3b8]">#{a.attemptNumber}</td>
-                        <td className="px-4 py-3 text-xs text-[#94a3b8]">
-                          {new Date(a.submittedAt).toLocaleString('en-IN', { day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' })}
-                        </td>
-                        <td className="px-4 py-3 text-sm font-bold text-[#f1f5f9]">
-                          <span>{a.score}/{a.totalQuestions}</span>
-                          <span className="text-xs text-[#4a5568] font-normal ml-1">({a.marksObtained}m)</span>
-                        </td>
-                        <td className="px-4 py-3 text-sm text-[#94a3b8]">{a.percentage}%</td>
-                        <td className="px-4 py-3 text-xs text-[#94a3b8]">
-                          {Math.floor(a.timeTaken / 60)}m {a.timeTaken % 60}s
-                        </td>
-                        <td className="px-4 py-3">
-                          <span className={`text-xs px-2 py-1 rounded-full font-bold ${a.passed ? 'bg-[#10b981]/20 text-[#10b981]' : 'bg-[#ef4444]/20 text-[#ef4444]'}`}>
-                            {a.passed ? 'PASS' : 'FAIL'}
-                          </span>
-                        </td>
-                      </tr>
+                      <>
+                        <tr
+                          key={a.attemptId}
+                          onClick={() => handleSpomExpand(a)}
+                          className={`border-b border-[#1e1e2e]/50 cursor-pointer hover:bg-[#1e1e2e]/30 transition-colors ${a.passed ? 'border-l-2 border-l-[#10b981]/40' : 'border-l-2 border-l-[#ef4444]/40'}`}
+                        >
+                          <td className="px-4 py-3 text-sm text-[#94a3b8]">{(page - 1) * PAGE_SIZE + idx + 1}</td>
+                          <td className="px-4 py-3 text-sm text-[#f1f5f9] font-medium">{a.username}</td>
+                          <td className="px-4 py-3 text-sm text-[#94a3b8] max-w-[180px] truncate" title={a.chapterName}>
+                            {a.chapterName}
+                            {a.chapterId && <span className="ml-1.5 text-xs font-bold text-[#6366f1] bg-[#6366f1]/10 px-1.5 py-0.5 rounded">{a.chapterId.replace('ca-ch', '')}</span>}
+                          </td>
+                          <td className="px-4 py-3 text-sm text-[#94a3b8]">#{a.attemptNumber}</td>
+                          <td className="px-4 py-3 text-xs text-[#94a3b8]">
+                            {new Date(a.submittedAt).toLocaleString('en-IN', { day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' })}
+                          </td>
+                          <td className="px-4 py-3 text-sm font-bold text-[#f1f5f9]">
+                            {a.marksObtained}/{a.totalMarks}
+                          </td>
+                          <td className="px-4 py-3 text-sm text-[#94a3b8]">{a.percentage}%</td>
+                          <td className="px-4 py-3 text-xs text-[#94a3b8]">
+                            {Math.floor(a.timeTaken / 60)}m {a.timeTaken % 60}s
+                          </td>
+                          <td className="px-4 py-3">
+                            <span className={`text-xs px-2 py-1 rounded-full font-bold ${a.passed ? 'bg-[#10b981]/20 text-[#10b981]' : 'bg-[#ef4444]/20 text-[#ef4444]'}`}>
+                              {a.passed ? 'PASS' : 'FAIL'}
+                            </span>
+                          </td>
+                        </tr>
+                        {expandedSpomId === a.attemptId && (
+                          <tr key={`${a.attemptId}-detail`} className="bg-[#0a0a0f]">
+                            <td colSpan={9} className="p-0">
+                              <SPOMAttemptDetail attempt={a} chapterData={spomChapterData} loading={spomDetailLoading} />
+                            </td>
+                          </tr>
+                        )}
+                      </>
                     ))
                   )}
                 </tbody>
@@ -290,26 +333,33 @@ export default function AdminPage() {
                 <div className="text-center py-12 text-[#4a5568] text-sm">No SPOM attempts found</div>
               ) : (
                 (paginated as AdminSPOMAttemptRow[]).map(a => (
-                  <div key={a.attemptId} className={`glass rounded-xl border border-[#1e1e2e] p-4 border-l-4 ${a.passed ? 'border-l-[#10b981]' : 'border-l-[#ef4444]'}`}>
-                    <div className="flex items-center justify-between mb-1">
-                      <span className="font-semibold text-sm text-[#f1f5f9]">{a.username}</span>
-                      <span className={`text-xs px-2 py-0.5 rounded-full font-bold ${a.passed ? 'bg-[#10b981]/20 text-[#10b981]' : 'bg-[#ef4444]/20 text-[#ef4444]'}`}>
-                        {a.passed ? 'PASS' : 'FAIL'}
-                      </span>
+                  <div key={a.attemptId} className="glass rounded-xl border border-[#1e1e2e] overflow-hidden">
+                    <div
+                      onClick={() => handleSpomExpand(a)}
+                      className={`p-4 cursor-pointer border-l-4 ${a.passed ? 'border-l-[#10b981]' : 'border-l-[#ef4444]'}`}
+                    >
+                      <div className="flex items-center justify-between mb-1">
+                        <span className="font-semibold text-sm text-[#f1f5f9]">{a.username}</span>
+                        <span className={`text-xs px-2 py-0.5 rounded-full font-bold ${a.passed ? 'bg-[#10b981]/20 text-[#10b981]' : 'bg-[#ef4444]/20 text-[#ef4444]'}`}>
+                          {a.passed ? 'PASS' : 'FAIL'}
+                        </span>
+                      </div>
+                      <p className="text-xs text-[#6366f1] mb-2 truncate">
+                        {a.chapterName}
+                        {a.chapterId && <span className="ml-1.5 font-bold bg-[#6366f1]/20 px-1.5 py-0.5 rounded">{a.chapterId.replace('ca-ch', '')}</span>}
+                      </p>
+                      <div className="flex items-center gap-4 text-xs text-[#94a3b8]">
+                        <span>Attempt #{a.attemptNumber}</span>
+                        <span className="font-bold text-[#f1f5f9]">{a.marksObtained}/{a.totalMarks}</span>
+                        <span>{a.percentage}%</span>
+                      </div>
+                      <div className="text-xs text-[#4a5568] mt-1">
+                        {new Date(a.submittedAt).toLocaleString('en-IN', { day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' })}
+                      </div>
                     </div>
-                    <p className="text-xs text-[#6366f1] mb-2 truncate">
-                      {a.chapterName}
-                      {a.chapterId && <span className="ml-1.5 font-bold bg-[#6366f1]/20 px-1.5 py-0.5 rounded">{a.chapterId.replace('ca-ch', '')}</span>}
-                    </p>
-                    <div className="flex items-center gap-4 text-xs text-[#94a3b8]">
-                      <span>Attempt #{a.attemptNumber}</span>
-                      <span className="font-bold text-[#f1f5f9]">{a.score}/{a.totalQuestions}</span>
-                      <span className="text-[#4a5568]">({a.marksObtained}m)</span>
-                      <span>{a.percentage}%</span>
-                    </div>
-                    <div className="text-xs text-[#4a5568] mt-1">
-                      {new Date(a.submittedAt).toLocaleString('en-IN', { day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' })}
-                    </div>
+                    {expandedSpomId === a.attemptId && (
+                      <SPOMAttemptDetail attempt={a} chapterData={spomChapterData} loading={spomDetailLoading} />
+                    )}
                   </div>
                 ))
               )}
@@ -532,6 +582,172 @@ function AttemptDetail({ attempt, questions }: { attempt: AdminAttemptRow; quest
           })}
         </div>
       </div>
+    </div>
+  );
+}
+
+// ============ SPOM AttemptDetail sub-component ============
+function SPOMAttemptDetail({ attempt, chapterData, loading }: { attempt: AdminSPOMAttemptRow; chapterData: SPOMChapterData | null; loading: boolean }) {
+  const resultMap = Object.fromEntries(attempt.results.map(r => [r.questionId, r]));
+  const correctCount = attempt.results.filter(r => r.isCorrect).length;
+  const wrongCount = attempt.results.filter(r => !r.isCorrect && r.userAnswer).length;
+  const skippedCount = attempt.results.filter(r => !r.userAnswer).length;
+  const [expandedScenario, setExpandedScenario] = useState<string | null>(null);
+
+  if (loading) {
+    return (
+      <div className="px-4 py-8 border-t border-[#1e1e2e] flex items-center justify-center">
+        <div className="w-6 h-6 border-2 border-[#6366f1] border-t-transparent rounded-full animate-spin" />
+        <span className="ml-3 text-sm text-[#94a3b8]">Loading question details...</span>
+      </div>
+    );
+  }
+
+  return (
+    <div className="px-4 md:px-6 py-6 border-t border-[#1e1e2e] space-y-4 bg-[#0a0a0f]/60">
+      {/* Summary bar */}
+      <div className="flex flex-wrap items-center gap-4">
+        <div className="flex items-center gap-2">
+          <span className="text-2xl font-black" style={{ color: attempt.passed ? '#10b981' : '#ef4444' }}>
+            {attempt.marksObtained}/{attempt.totalMarks}
+          </span>
+          <span className="text-sm text-[#94a3b8]">marks</span>
+        </div>
+        <div className="flex gap-3 text-xs">
+          <span className="px-2 py-1 rounded-full bg-[#10b981]/10 text-[#10b981] font-bold">{correctCount} Correct</span>
+          <span className="px-2 py-1 rounded-full bg-[#ef4444]/10 text-[#ef4444] font-bold">{wrongCount} Wrong</span>
+          <span className="px-2 py-1 rounded-full bg-[#4a5568]/20 text-[#94a3b8] font-bold">{skippedCount} Skipped</span>
+        </div>
+        <div className="text-xs text-[#4a5568]">
+          {Math.floor(attempt.timeTaken / 60)}m {attempt.timeTaken % 60}s · {attempt.username} · Attempt #{attempt.attemptNumber}
+        </div>
+      </div>
+
+      {/* Scenario-wise review */}
+      {chapterData ? (
+        <div className="space-y-3">
+          {chapterData.scenarios.map((scenario: SPOMScenario, sIdx: number) => {
+            const sResults = scenario.questions.map(q => resultMap[q.id]).filter(Boolean);
+            const sCorrect = sResults.filter(r => r.isCorrect).length;
+            const isExpanded = expandedScenario === scenario.scenarioId;
+
+            return (
+              <div key={scenario.scenarioId} className="rounded-xl border border-[#1e1e2e] overflow-hidden bg-[#0a0a0f]/40">
+                {/* Scenario header */}
+                <button
+                  onClick={(e) => { e.stopPropagation(); setExpandedScenario(isExpanded ? null : scenario.scenarioId); }}
+                  className="w-full flex items-center justify-between p-3 hover:bg-[#1e1e2e]/30 transition-colors"
+                >
+                  <div className="flex items-center gap-3 text-left">
+                    <span className="w-6 h-6 rounded-lg bg-[#6366f1]/20 text-[#6366f1] text-xs font-bold flex items-center justify-center shrink-0">
+                      {sIdx + 1}
+                    </span>
+                    <div>
+                      <p className="text-xs font-semibold text-[#f1f5f9]">Scenario {sIdx + 1}</p>
+                      <p className="text-xs text-[#4a5568]">{sCorrect}/{scenario.questions.length} correct</p>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <div className="flex gap-1">
+                      {scenario.questions.map(q => {
+                        const r = resultMap[q.id];
+                        return (
+                          <div key={q.id} className={`w-2 h-2 rounded-full ${
+                            !r || !r.userAnswer ? 'bg-[#4a5568]' : r.isCorrect ? 'bg-[#10b981]' : 'bg-[#ef4444]'
+                          }`} />
+                        );
+                      })}
+                    </div>
+                    <svg className={`w-4 h-4 text-[#94a3b8] transition-transform ${isExpanded ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                    </svg>
+                  </div>
+                </button>
+
+                {isExpanded && (
+                  <div className="border-t border-[#1e1e2e] p-4 space-y-4">
+                    {/* Scenario text */}
+                    <div className="bg-[#1e1e2e]/40 rounded-xl p-3 border-l-2 border-[#6366f1]">
+                      <p className="text-xs font-bold text-[#6366f1] mb-1 uppercase tracking-wider">Case Scenario</p>
+                      <p className="text-xs text-[#94a3b8] leading-relaxed">{scenario.scenarioText}</p>
+                    </div>
+
+                    {/* Questions */}
+                    {scenario.questions.map(q => {
+                      const r = resultMap[q.id];
+                      if (!r) return null;
+                      return (
+                        <div key={q.id} className={`rounded-xl border p-3 ${
+                          r.isCorrect ? 'border-[#10b981]/30 bg-[#10b981]/5' : 'border-[#ef4444]/30 bg-[#ef4444]/5'
+                        }`}>
+                          <div className="flex items-start justify-between gap-2 mb-2">
+                            <p className="text-xs font-medium text-[#f1f5f9] flex-1">
+                              <span className="text-[#94a3b8] mr-1">Q{q.id}.</span>
+                              {q.question}
+                            </p>
+                            <span className={`text-xs px-2 py-0.5 rounded-full font-bold shrink-0 ${
+                              r.isCorrect ? 'bg-[#10b981]/20 text-[#10b981]' : 'bg-[#ef4444]/20 text-[#ef4444]'
+                            }`}>
+                              {r.isCorrect ? '+2' : r.userAnswer ? '0' : 'Skip'}
+                            </span>
+                          </div>
+
+                          {/* Options */}
+                          <div className="grid grid-cols-1 gap-1 mb-2">
+                            {(['A', 'B', 'C', 'D'] as const).map(opt => {
+                              const isUser = r.userAnswer === opt;
+                              const isCorrect = r.correctAnswer === opt;
+                              let cls = 'border-[#1e1e2e] text-[#4a5568]';
+                              if (isCorrect) cls = 'border-[#10b981]/50 bg-[#10b981]/10 text-[#10b981]';
+                              else if (isUser && !isCorrect) cls = 'border-[#ef4444]/50 bg-[#ef4444]/10 text-[#ef4444]';
+
+                              return (
+                                <div key={opt} className={`flex items-start gap-2 px-2.5 py-1.5 rounded-lg border text-xs ${cls}`}>
+                                  <span className="font-bold shrink-0">{opt}.</span>
+                                  <span className="flex-1">{q.options[opt]}</span>
+                                  {isCorrect && <span className="ml-auto font-bold shrink-0">✓</span>}
+                                  {isUser && !isCorrect && <span className="ml-auto font-bold shrink-0">✗</span>}
+                                </div>
+                              );
+                            })}
+                          </div>
+
+                          {/* Explanation */}
+                          <div className="bg-[#0a0a0f]/60 rounded-lg p-2.5 border border-[#1e1e2e]">
+                            <p className="text-xs font-bold text-[#6366f1] mb-1 uppercase tracking-wider">
+                              {r.section} — Explanation
+                            </p>
+                            <p className="text-xs text-[#94a3b8] leading-relaxed">{r.explanation}</p>
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                )}
+              </div>
+            );
+          })}
+        </div>
+      ) : (
+        /* Fallback: show results without question text */
+        <div className="grid gap-2">
+          {attempt.results.map((r, i) => (
+            <div key={r.questionId} className={`flex items-center gap-3 p-2.5 rounded-xl text-xs border ${r.isCorrect ? 'border-[#10b981]/20 bg-[#10b981]/5' : 'border-[#ef4444]/20 bg-[#ef4444]/5'}`}>
+              <span className={`w-5 h-5 rounded-full flex items-center justify-center font-bold shrink-0 ${r.isCorrect ? 'bg-[#10b981]/30 text-[#10b981]' : 'bg-[#ef4444]/30 text-[#ef4444]'}`}>
+                {i + 1}
+              </span>
+              <div className="flex-1 min-w-0">
+                <span className="text-[#4a5568]">{r.section}</span>
+                <div className="flex gap-3 mt-0.5">
+                  <span>Selected: <strong className={r.isCorrect ? 'text-[#10b981]' : 'text-[#ef4444]'}>{r.userAnswer || '—'}</strong></span>
+                  <span>Correct: <strong className="text-[#10b981]">{r.correctAnswer}</strong></span>
+                </div>
+              </div>
+              <span className={`font-bold shrink-0 ${r.isCorrect ? 'text-[#10b981]' : 'text-[#94a3b8]'}`}>{r.marksAwarded}</span>
+            </div>
+          ))}
+        </div>
+      )}
     </div>
   );
 }
