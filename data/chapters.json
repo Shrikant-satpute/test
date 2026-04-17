@@ -79,6 +79,19 @@
       "keySections": ["Sec 241", "Sec 242", "Sec 243", "Sec 244", "Sec 245"]
     },
     {
+      "id": "ca-ch6-2",
+      "code": "CA-06.2",
+      "name": "Prevention of Oppression and Mismanagement — Test 2",
+      "law": "Companies Act, 2013",
+      "category": "companies-act",
+      "totalQuestions": 55,
+      "totalMarks": 110,
+      "passMarks": 55,
+      "duration": 90,
+      "available": true,
+      "keySections": ["Sec 241", "Sec 242", "Sec 243", "Sec 244", "Sec 245", "Sec 246"]
+    },
+    {
       "id": "ca-ch7",
       "code": "CA-07",
       "name": "Winding Up",
@@ -90,6 +103,19 @@
       "duration": 90,
       "available": true,
       "keySections": ["Sec 270", "Sec 271", "Sec 272", "Sec 273", "Sec 274", "Sec 275", "Sec 276", "Sec 277", "Sec 278", "Sec 279", "Sec 280", "Sec 281", "Sec 302", "Sec 304", "Sec 306", "Sec 308", "Sec 309", "Sec 310"]
+    },
+    {
+      "id": "ca-ch7-2",
+      "code": "CA-07.2",
+      "name": "Winding Up — Test 2",
+      "law": "Companies Act, 2013",
+      "category": "companies-act",
+      "totalQuestions": 50,
+      "totalMarks": 100,
+      "passMarks": 50,
+      "duration": 90,
+      "available": true,
+      "keySections": ["Sec 270", "Sec 271", "Sec 272", "Sec 273", "Sec 274", "Sec 275", "Sec 276", "Sec 277", "Sec 278", "Sec 279", "Sec 280", "Sec 281", "Sec 302", "Sec 304", "Sec 305", "Sec 306", "Sec 307", "Sec 308", "Sec 309", "Sec 310", "Sec 311", "Sec 328", "Sec 329", "Sec 339"]
     },
     {
       "id": "ca-ch8",

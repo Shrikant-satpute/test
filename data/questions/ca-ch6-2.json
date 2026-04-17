@@ -1,0 +1,789 @@
+{
+  "chapterId": "ca-ch6-2",
+  "chapterName": "Prevention of Oppression and Mismanagement — Test 2",
+  "law": "Companies Act, 2013",
+  "category": "companies-act",
+  "scenarios": [
+    {
+      "scenarioId": "s1",
+      "scenarioText": "Meridian Pharmaceuticals Ltd. is a listed public company with paid-up share capital of ₹200 crore and 8,000 members. The promoter family — headed by Mr. Rajiv Kapoor (Chairman, holding 52%) — decided to issue 5,00,000 new equity shares at ₹40 per share to a closely held family trust, despite the market price being ₹320 per share. The Board passed a resolution approving this preferential allotment without independent valuation. A group of 110 minority shareholders holding 6% of the issued share capital, led by Mrs. Priya Deshmukh, filed an application under Section 241 alleging that the allotment was designed to dilute minority voting power at a grossly undervalued price. The company's counsel argued that share allotment is a management decision and cannot constitute 'oppression' under the Act. The promoter group further contended that no actual financial loss had occurred to the minority since the shares were newly issued, not transferred from existing holders.",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Based on the facts of Meridian Pharmaceuticals Ltd., does the group of 110 minority shareholders led by Mrs. Priya Deshmukh satisfy the eligibility threshold under Section 244(1)(a) to file an application under Section 241?",
+          "options": {
+            "A": "Yes, because 110 members exceeds the minimum threshold of 100 members under Section 244(1)(a)",
+            "B": "No, because one-tenth of 8,000 is 800 members, and they must have at least 800 members since 'whichever is more' applies",
+            "C": "No, because they hold only 6% of issued share capital which is less than the required 10%",
+            "D": "Yes, but only if the Tribunal grants a waiver under the proviso to Section 244(1)"
+          },
+          "correct": "A",
+          "explanation": "Section 244(1)(a) requires 'not less than 100 members or not less than one-tenth of total members, whichever is LESS.' Here, 1/10th of 8,000 = 800. Since 100 < 800, the threshold is 100 (whichever is less). The group has 110 members, which exceeds 100. Option B is the classic trap — applying 'whichever is more' instead of 'whichever is less.' Option C is wrong because the member count threshold and the shareholding threshold are alternatives (connected by 'or'), and satisfying either suffices.",
+          "section": "Section 244(1)(a)"
+        },
+        {
+          "id": 2,
+          "question": "The promoter group of Meridian Pharmaceuticals Ltd. argues that the preferential allotment at ₹40 per share (against a market price of ₹320) is purely a business decision and cannot constitute oppression. Which of the following statements is CORRECT regarding this contention?",
+          "options": {
+            "A": "The promoter group is correct — share allotment decisions are protected under the business judgment rule and cannot be questioned under Section 241",
+            "B": "Allotment of shares at an undervalue to dilute minority shareholding can constitute conduct 'prejudicial to the interests of members' under Section 241(1)(a) and amounts to oppression",
+            "C": "Oppression under Section 241 can only be established if the company suffers financial loss, not the members individually",
+            "D": "Section 241 only covers acts of the Board relating to dividend distribution and profit-sharing, not share allotment"
+          },
+          "correct": "B",
+          "explanation": "Section 241(1)(a) covers situations where the company's affairs are being conducted in a manner 'prejudicial to the interests of any member or members.' Allotment of shares at a gross undervalue (₹40 vs ₹320 market price) to a promoter-related entity, designed to dilute minority voting power, is a well-established ground of oppression. The scenario specifically mentions the purpose was diluting minority voting power, making this prejudicial to member interests. Option A's 'business judgment rule' does not shield allotments made in bad faith. Option C confuses oppression (prejudicial to members) with mismanagement (prejudicial to company).",
+          "section": "Section 241(1)(a)"
+        },
+        {
+          "id": 3,
+          "question": "If the Tribunal finds that the preferential allotment by Meridian Pharmaceuticals Ltd. was indeed oppressive, which of the following remedies can the Tribunal NOT grant under Section 242?",
+          "options": {
+            "A": "Direct the cancellation or reversal of the preferential allotment of shares",
+            "B": "Order the promoter family to purchase the minority shareholders' shares at a fair value determined by the Tribunal",
+            "C": "Impose criminal imprisonment on Mr. Rajiv Kapoor for conducting oppressive allotment",
+            "D": "Regulate the future conduct of the company's affairs by altering the Articles of Association"
+          },
+          "correct": "C",
+          "explanation": "Section 242 gives the Tribunal wide civil remedial powers including regulating company affairs, ordering share purchase, cancelling transactions, and altering the MoA/AoA. However, Section 242 does NOT give the Tribunal power to impose criminal imprisonment — that falls under separate criminal provisions. The Tribunal's jurisdiction under Section 242 is purely civil and remedial. Options A, B, and D are all well within the Tribunal's powers under Section 242(2)(a) through (g).",
+          "section": "Section 242(2)"
+        },
+        {
+          "id": 4,
+          "question": "Mrs. Priya Deshmukh's group argues that the allotment should be treated as 'mismanagement' under Section 241(1)(a) rather than 'oppression.' Which of the following CORRECTLY distinguishes the two grounds?",
+          "options": {
+            "A": "Oppression relates to conduct prejudicial to public interest or the company's interest; mismanagement relates to conduct prejudicial to members' interest",
+            "B": "Oppression relates to conduct prejudicial to members' interest; mismanagement relates to conduct prejudicial to the company's interest or public interest",
+            "C": "There is no distinction — oppression and mismanagement are identical concepts under Section 241",
+            "D": "Oppression can only be alleged against directors; mismanagement can be alleged against any officer of the company"
+          },
+          "correct": "B",
+          "explanation": "Under Section 241(1)(a), there are two distinct grounds: (i) affairs conducted in a manner 'prejudicial to the interests of any member or members' — this is oppression; (ii) affairs conducted in a manner 'prejudicial to public interest or the interests of the company' — this is mismanagement. Option A reverses this distinction, which is a common trap. In the Meridian scenario, the dilution affects members directly, so it is correctly characterised as oppression. The remedy under Section 242 is the same for both grounds.",
+          "section": "Section 241(1)(a)"
+        },
+        {
+          "id": 5,
+          "question": "Assume the Tribunal orders Meridian Pharmaceuticals Ltd. to cancel the preferential allotment and also terminates a 10-year consultancy agreement worth ₹50 crore between the company and Mr. Rajiv Kapoor's family trust. Mr. Kapoor claims compensation for the remaining 8 years of the terminated consultancy agreement. Is his claim valid?",
+          "options": {
+            "A": "Yes, the company must pay compensation for the unexpired portion of the terminated agreement as per contract law",
+            "B": "Yes, but only 50% of the remaining value is payable as per Section 243",
+            "C": "No, Section 243 specifically provides that a person whose agreement is terminated by a Tribunal order under Section 242 shall not be entitled to compensation for the loss or termination",
+            "D": "No, but only if the Tribunal specifically includes a 'no compensation' clause in its order"
+          },
+          "correct": "C",
+          "explanation": "Section 243(1)(b) explicitly provides that where an order under Section 242 terminates, sets aside, or modifies any agreement, no such person shall be entitled to any compensation against the company for the loss or termination of the agreement. This is an automatic statutory consequence — the Tribunal does not need to specifically include a 'no compensation' clause (ruling out Option D). Mr. Kapoor's claim for ₹50 crore compensation for the remaining 8 years of the consultancy agreement is barred by operation of law.",
+          "section": "Section 243(1)(b)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s2",
+      "scenarioText": "Pinnacle Financial Services Ltd. is a registered NBFC (Non-Banking Financial Company) with 3,000 members. The company has been facing allegations of fund diversion by its Managing Director, Mr. Ashok Mehta, who allegedly channelled ₹150 crore of depositor funds into personal real estate ventures. Two groups of shareholders have independently approached their lawyers to file applications under Section 241. Group X comprises 280 members holding 8% of the issued share capital. Group Y comprises 95 members holding 12% of the issued share capital. A third group, Group Z, consisting of 350 institutional investors holding 15% of issued share capital, has indicated interest in joining the petition but has not yet formally consented. The company's legal team argues that since the alleged fund diversion relates to depositor money (not shareholders' money), the members lack standing to file an oppression petition. Additionally, the company's Articles contain a clause requiring all disputes to be resolved through private arbitration.",
+      "questions": [
+        {
+          "id": 6,
+          "question": "For Pinnacle Financial Services Ltd. with 3,000 members, what is the minimum number of members required to file an application under Section 241 as per Section 244(1)(a)?",
+          "options": {
+            "A": "300 members, being one-tenth of total members",
+            "B": "100 members, since 100 is less than one-tenth of 3,000 (i.e., 300)",
+            "C": "600 members, being one-fifth of total members",
+            "D": "150 members, being 5% of total members"
+          },
+          "correct": "B",
+          "explanation": "Section 244(1)(a) states: 'not less than 100 members or not less than one-tenth of total members, whichever is LESS.' One-tenth of 3,000 = 300. Since 100 < 300, the minimum is 100 members. Option A (300) is the trap for students who apply 'whichever is more.' Option C (600 = 1/5th) is the threshold for companies without share capital under Section 244(1)(b), not companies with share capital. This is a critical numerical distinction the scenario is designed to test.",
+          "section": "Section 244(1)(a)"
+        },
+        {
+          "id": 7,
+          "question": "Based on the facts, which of the following statements regarding the eligibility of Group X (280 members, 8% share capital) and Group Y (95 members, 12% share capital) is CORRECT?",
+          "options": {
+            "A": "Group X qualifies but Group Y does not, because Group Y has fewer than 100 members and holds less than one-tenth of total members",
+            "B": "Both groups independently qualify — Group X satisfies the member count threshold, and Group Y satisfies the shareholding threshold",
+            "C": "Neither group qualifies — Group X fails the shareholding test and Group Y fails the member count test",
+            "D": "Both groups qualify only if they combine their applications and file jointly"
+          },
+          "correct": "B",
+          "explanation": "Under Section 244(1)(a), members can qualify through EITHER the member count limb OR the shareholding limb — the two are alternatives connected by 'or.' Group X has 280 members, which exceeds the 100-member threshold (the applicable minimum since 100 < 300). Group Y has 95 members (below 100) BUT holds 12% of issued share capital, which exceeds the 10% threshold. Each independently qualifies through a different limb. Option A wrongly tests Group Y only on the member count. Option C tests each group only on the limb it does NOT satisfy.",
+          "section": "Section 244(1)(a)"
+        },
+        {
+          "id": 8,
+          "question": "The company argues that the arbitration clause in its Articles of Association bars the members from approaching the NCLT. Which of the following is CORRECT?",
+          "options": {
+            "A": "The arbitration clause prevails — members must first exhaust arbitration before approaching the Tribunal",
+            "B": "Arbitration clauses in the Articles cannot override the statutory jurisdiction of the Tribunal under Section 241, as the rights under Section 241 arise from statute, not contract",
+            "C": "The arbitration clause is valid but only for disputes involving amounts below ₹1 crore; larger disputes must go to the Tribunal",
+            "D": "The Tribunal must refer the matter to arbitration under Section 8 of the Arbitration and Conciliation Act, 1996"
+          },
+          "correct": "B",
+          "explanation": "The right to apply under Section 241 is a statutory right conferred by the Companies Act, 2013. Arbitration clauses in the Articles of Association cannot oust or override the statutory jurisdiction of the NCLT. The remedies under Sections 241-242 are specialised statutory remedies that can only be granted by the Tribunal, not by an arbitral tribunal. Options A and D are wrong because Section 430 bars civil courts from entertaining matters where the Tribunal has jurisdiction, and an arbitration clause cannot override this statutory scheme. The scenario fact about the arbitration clause in the Articles is a deliberate red herring.",
+          "section": "Section 241 read with Section 430"
+        },
+        {
+          "id": 9,
+          "question": "If Group Y (95 members holding 12%) fails to satisfy the member count threshold and the Tribunal also declines to recognise the shareholding limb due to a technical objection, what recourse do they have under Section 244?",
+          "options": {
+            "A": "They have no recourse — Section 244 thresholds are absolute and cannot be modified",
+            "B": "They can approach the High Court for a writ directing the Tribunal to admit their application",
+            "C": "They can apply to the Tribunal under the proviso to Section 244(1) seeking a waiver of the eligibility requirements",
+            "D": "They can convert their application into a class action under Section 245, which has lower thresholds"
+          },
+          "correct": "C",
+          "explanation": "The proviso to Section 244(1) specifically empowers the Tribunal to waive all or any of the requirements specified in Section 244(1)(a) or (b) on an application made to it. This waiver power exists precisely for situations where the strict thresholds may cause injustice. Option A is factually wrong — the waiver proviso exists. Option D is misleading because class actions under Section 245 serve a different purpose (seeking damages, not oppression relief) and have their own separate thresholds. The key distinction: Section 244 has a waiver mechanism; Section 245 does NOT have an equivalent waiver provision.",
+          "section": "Section 244(1) Proviso"
+        },
+        {
+          "id": 10,
+          "question": "The company's legal team argues that since the alleged fund diversion relates to depositor funds and not shareholder funds, the shareholders lack standing under Section 241. Which of the following is the MOST accurate response to this argument?",
+          "options": {
+            "A": "The argument is correct — Section 241 only protects direct financial interests of shareholders, not depositors",
+            "B": "The argument is incorrect — Section 241(1)(a) covers affairs conducted in a manner prejudicial to 'public interest' as well, and fund diversion by an NBFC's MD can be prejudicial to both members and public interest",
+            "C": "The argument is correct — depositors must file a separate class action under Section 245 and shareholders cannot represent depositor interests",
+            "D": "The argument is correct — only the RBI can take action against NBFCs for fund diversion, not the NCLT"
+          },
+          "correct": "B",
+          "explanation": "Section 241(1)(a) provides two distinct grounds: affairs conducted in a manner (i) prejudicial to the interests of any member, or (ii) prejudicial to public interest. Fund diversion by an NBFC's MD is prejudicial to both — it endangers the company's financial health (harming shareholders) AND depositor safety (public interest). The scenario specifically mentions ₹150 crore of depositor funds diverted to personal real estate, which is clearly prejudicial to public interest. Option A wrongly narrows Section 241 to only direct shareholder financial harm. Even if the diverted funds were depositor money, shareholders are affected because the company's solvency and reputation are damaged.",
+          "section": "Section 241(1)(a)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s3",
+      "scenarioText": "Quantum IT Solutions Ltd. is a public company with 2,500 members, engaged in software development and IT consulting. The Board, dominated by three brothers — Vikram (MD), Anil (WTD), and Suresh (CFO) — systematically excluded minority shareholders from participating in general meetings by repeatedly changing meeting venues at short notice, failing to circulate agenda items in advance, and withholding financial information. Mrs. Sunita Iyer, representing a group of 150 minority shareholders holding 7% of the issued share capital, filed an application under Section 241. The Tribunal found the company's affairs were being conducted in a manner oppressive to the minority. The Tribunal is now considering the appropriate relief under Section 242. Vikram's counsel argues that the Tribunal can only order one specific remedy and cannot combine multiple remedies. Anil separately argues that the Tribunal has no power to alter the company's internal governance documents (MoA and AoA), as that power vests exclusively with the shareholders in general meeting. Suresh contends that since he is the CFO and not a director, the Tribunal cannot pass any order affecting him.",
+      "questions": [
+        {
+          "id": 11,
+          "question": "Vikram's counsel argues that the Tribunal can only grant a single remedy under Section 242. Which of the following statements regarding the scope of Tribunal's remedial powers is CORRECT?",
+          "options": {
+            "A": "The Tribunal must choose only one remedy from Section 242(2) and cannot combine multiple forms of relief",
+            "B": "Section 242(1) empowers the Tribunal to pass 'such order as it thinks fit,' giving it the power to grant multiple remedies including any combination of the orders listed in Section 242(2)",
+            "C": "The Tribunal can combine remedies only with the consent of both parties",
+            "D": "Multiple remedies can be granted only on appeal by NCLAT, not by the NCLT at first instance"
+          },
+          "correct": "B",
+          "explanation": "Section 242(1) uses the broad language 'make such order as it thinks fit' with respect to the matters complained of. Section 242(2) then provides an illustrative list of specific orders the Tribunal may pass, including regulating future conduct, share purchase, cancellation of transactions, alteration of MoA/AoA, appointment of directors, etc. The wide discretionary language in Section 242(1) empowers the Tribunal to combine multiple remedies as appropriate. Vikram's argument is wrong — the scenario establishes multiple oppressive acts (venue changes, withheld information, excluded shareholders), and the Tribunal can tailor a multi-pronged remedy.",
+          "section": "Section 242(1) and (2)"
+        },
+        {
+          "id": 12,
+          "question": "Anil argues that only shareholders in general meeting can alter the MoA and AoA, and the Tribunal has no power to do so. Is this argument CORRECT in the context of an application under Section 241?",
+          "options": {
+            "A": "Yes — alteration of MoA and AoA is an exclusive power of the general meeting under Sections 13 and 14, and no other body can exercise it",
+            "B": "Yes — the Tribunal can only recommend alterations, and the final decision rests with the company in general meeting",
+            "C": "No — Section 242(2)(c) specifically empowers the Tribunal to provide for the amendment of the memorandum or articles of association of the company",
+            "D": "No — but only the NCLAT (not NCLT) has power to alter the MoA and AoA"
+          },
+          "correct": "C",
+          "explanation": "Section 242(2)(c) expressly empowers the Tribunal to 'provide for the amendment of any provision of the memorandum or articles of association of the company.' This overrides the normal requirement that MoA/AoA alterations require shareholder resolution. In oppression cases, this power is critical — since the majority controls general meetings, requiring the majority's consent to alter governance documents would defeat the purpose of minority protection. Anil's argument ignores the specific statutory override in Section 242(2)(c). The scenario fact that the Board systematically excluded minorities from meetings makes this remedy particularly appropriate.",
+          "section": "Section 242(2)(c)"
+        },
+        {
+          "id": 13,
+          "question": "Regarding the alterations made by the Tribunal to the MoA or AoA under Section 242, which of the following statements is INCORRECT?",
+          "options": {
+            "A": "The company cannot make any further alteration to the MoA/AoA that is inconsistent with the Tribunal's order, except with the Tribunal's leave",
+            "B": "The alterations ordered by the Tribunal have the same effect as if they had been duly made by a resolution of the company",
+            "C": "The company must file a certified copy of the Tribunal's order with the Registrar within 30 days",
+            "D": "The company can freely re-amend the altered provisions by passing a special resolution at the next AGM without any permission from the Tribunal"
+          },
+          "correct": "D",
+          "explanation": "Section 242(3) provides that the company shall NOT make any alteration to the MoA or AoA that is inconsistent with the Tribunal's order, except with the leave of the Tribunal. This prevents the majority from undoing the Tribunal's protective amendments through a subsequent special resolution. Option D states the company can 'freely re-amend' — this is INCORRECT and the answer. Options A, B, and C are all correct statements of law under Section 242(3) and (4). The scenario makes this relevant because if the three brothers could simply re-amend the AoA at the next AGM, the minority protection would be illusory.",
+          "section": "Section 242(3)"
+        },
+        {
+          "id": 14,
+          "question": "Suresh (CFO) contends that since he is not a director, the Tribunal cannot pass any order affecting him under Section 242. Is this contention valid?",
+          "options": {
+            "A": "Yes — Section 242 orders can only be directed against the company and its directors",
+            "B": "No — Section 242(2)(d) empowers the Tribunal to set aside or modify agreements between the company and any person, not just directors, and the Tribunal can pass orders affecting any person involved in the oppressive conduct",
+            "C": "Yes — the CFO is protected because he holds a statutory position under Section 203 and can only be removed through the procedure under Section 203",
+            "D": "No — but the Tribunal must first convert the proceedings into criminal proceedings before passing orders against non-directors"
+          },
+          "correct": "B",
+          "explanation": "Section 242's remedial powers are broadly worded and extend beyond just directors. Section 242(2)(d) allows the Tribunal to set aside or modify any agreement between the company and 'any other person.' Section 242(2)(e) allows cancellation of transactions. The Tribunal's power under Section 242(1) to 'make such order as it thinks fit' is not limited to orders against directors. In the scenario, Suresh as CFO was part of the oppressive management by the three brothers, and the Tribunal can pass orders affecting his position, agreements, and conduct. His CFO status under Section 203 does not provide immunity from oppression proceedings.",
+          "section": "Section 242(2)(d) and (e)"
+        },
+        {
+          "id": 15,
+          "question": "The Tribunal is also considering whether to order the winding up of Quantum IT Solutions Ltd. as an alternative remedy. Under which provision can the Tribunal order winding up while hearing an oppression petition?",
+          "options": {
+            "A": "The Tribunal cannot order winding up in an oppression petition — a separate winding-up petition must be filed under Section 271",
+            "B": "Section 242(2)(g) empowers the Tribunal to order that the company be wound up if it is of the opinion that the facts would justify the making of a winding-up order on the ground that it is just and equitable",
+            "C": "Winding up can only be ordered by the NCLAT on appeal, not by the NCLT at first instance in oppression proceedings",
+            "D": "The Tribunal can order winding up only if the company consents through a special resolution"
+          },
+          "correct": "B",
+          "explanation": "Section 242(2)(g) specifically provides that 'the Tribunal may order that the company be wound up' while hearing an oppression/mismanagement petition, if it is of the opinion that the facts of the case would justify the making of a winding-up order on the ground that it is just and equitable. This is a significant power — it means a separate winding-up petition under Section 271 is NOT necessary. Option A is the trap answer for students who believe winding up always requires a separate petition. The scenario's extreme facts — systematic exclusion, withheld information — could potentially justify such a drastic remedy if lesser remedies are inadequate.",
+          "section": "Section 242(2)(g)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s4",
+      "scenarioText": "Bharat Minerals Ltd. is a mining company with paid-up share capital of ₹500 crore and 12,000 members. The company's Board, led by Mr. Devendra Joshi (Chairman and MD), systematically diverted mining royalties to shell companies controlled by his family. After a group of 250 shareholders filed an application under Section 241, the Tribunal found that Mr. Joshi was guilty of oppression under Section 241 and was also involved in transferring company assets to shell entities at undervalued prices. The Tribunal's order dated March 15, 2026, specifically found Mr. Joshi guilty of conduct described in Section 243. Mr. Joshi's advocate argued that the disqualification under Section 243 should be limited to Bharat Minerals Ltd. only and should not affect his directorships in other companies. The Tribunal also terminated a ₹25 crore management services agreement between Bharat Minerals Ltd. and Joshi Consulting LLP (a firm controlled by Mr. Joshi's wife). Mr. Joshi's wife, Mrs. Kavita Joshi, has filed a separate claim for ₹18 crore as compensation for the unexpired period of this agreement.",
+      "questions": [
+        {
+          "id": 16,
+          "question": "Under Section 243(1)(a), for what period can a person found guilty of oppression be disqualified from being appointed as a director or holding any position in the company?",
+          "options": {
+            "A": "3 years from the date of the Tribunal's order",
+            "B": "5 years from the date of the Tribunal's order",
+            "C": "10 years from the date of the Tribunal's order",
+            "D": "Permanently, unless the Tribunal specifically sets a shorter period"
+          },
+          "correct": "B",
+          "explanation": "Section 243(1)(a) provides that a person who is found guilty shall be disqualified for a period of 5 years from the date of the order from being appointed as a director of the company or of any other company. The scenario states Mr. Joshi was found guilty under Section 243 on March 15, 2026, so his disqualification runs until March 15, 2031. Option A (3 years) is a common confusion with other disqualification periods in the Act. Option C (10 years) and Option D (permanent) overstate the statutory period.",
+          "section": "Section 243(1)(a)"
+        },
+        {
+          "id": 17,
+          "question": "Mr. Joshi's advocate argues that the disqualification should apply only to Bharat Minerals Ltd. and not his directorships in his other five companies. Is this argument CORRECT?",
+          "options": {
+            "A": "Yes — Section 243 disqualification applies only to the company in which oppression was found",
+            "B": "Yes — the Tribunal must pass a separate order for each company where disqualification is sought",
+            "C": "No — Section 243(1)(a) explicitly provides that the disqualification extends to the company in question AND any other company",
+            "D": "No — but the disqualification in other companies applies only for 2 years, not 5 years"
+          },
+          "correct": "C",
+          "explanation": "Section 243(1)(a) uses the clear language: 'shall not without the leave of the Tribunal, be appointed as a director of that company or of any other company for a period of five years.' The disqualification is not limited to Bharat Minerals Ltd. — it extends to ALL companies. Mr. Joshi must vacate his directorships in all five other companies unless he obtains specific leave (permission) from the Tribunal. This scenario fact — multiple directorships — is specifically designed to test whether students know the disqualification is universal, not company-specific.",
+          "section": "Section 243(1)(a)"
+        },
+        {
+          "id": 18,
+          "question": "Mrs. Kavita Joshi claims ₹18 crore compensation for the unexpired period of the management services agreement terminated by the Tribunal's order. Which of the following statements is CORRECT regarding her claim?",
+          "options": {
+            "A": "She is entitled to full compensation because she was not personally found guilty of oppression",
+            "B": "She is entitled to compensation limited to 50% of the contract value under Section 243",
+            "C": "She is not entitled to any compensation because Section 243(1)(b) bars compensation for any person whose agreement is terminated by a Tribunal order under Section 242",
+            "D": "She is entitled to compensation because the agreement was between the company and her LLP, not between the company and Mr. Joshi personally"
+          },
+          "correct": "C",
+          "explanation": "Section 243(1)(b) provides that where the Tribunal's order terminates, sets aside, or modifies any agreement, no such person shall be entitled to any compensation against the company for the loss or termination. This bar applies to the person whose agreement is terminated — here, Joshi Consulting LLP (controlled by Mrs. Kavita Joshi). Option A is the tempting trap — while Mrs. Kavita was not found guilty of oppression personally, Section 243(1)(b) bars compensation to 'any person' whose agreement is terminated, not only to persons found guilty. Option D is also wrong because the statutory bar applies regardless of the corporate form used for the agreement.",
+          "section": "Section 243(1)(b)"
+        },
+        {
+          "id": 19,
+          "question": "Mr. Joshi, after being disqualified under Section 243, wants to hold the position of 'Chief Strategy Advisor' (a non-directorial executive role) in another company. Is this permissible during the disqualification period?",
+          "options": {
+            "A": "Yes — Section 243 only disqualifies from being appointed as a 'director,' not from holding other executive positions",
+            "B": "No — Section 243 disqualifies from being appointed as a director or 'any other position' connected with the conduct and management of the company's affairs",
+            "C": "Yes — but only with prior approval of the Central Government",
+            "D": "No — but only if the other company is a related party of Bharat Minerals Ltd."
+          },
+          "correct": "B",
+          "explanation": "Section 243(1)(a) bars the disqualified person not only from being a director but also from occupying 'any other position connected with the conduct and management of the affairs of the company.' A 'Chief Strategy Advisor' role that involves management functions would fall within this prohibition. Option A is the critical trap — it reads Section 243 too narrowly as applying only to directorships. The statute's language is deliberately broad to prevent circumvention through non-directorial designations. Mr. Joshi cannot hold any management-connected position without the leave of the Tribunal.",
+          "section": "Section 243(1)(a)"
+        },
+        {
+          "id": 20,
+          "question": "Which of the following statements regarding the Tribunal's order in the case of Bharat Minerals Ltd. is INCORRECT?",
+          "options": {
+            "A": "The Tribunal's order under Section 242 is binding on the company and all its members, whether or not they were parties to the proceedings",
+            "B": "Any alteration to the MoA or AoA ordered by the Tribunal cannot be further amended by the company without the Tribunal's leave",
+            "C": "Mr. Joshi can obtain the leave of the Tribunal during the 5-year disqualification period to be appointed as a director of another company",
+            "D": "The Tribunal's disqualification order under Section 243 can be challenged only before the Supreme Court and not before NCLAT"
+          },
+          "correct": "D",
+          "explanation": "Section 421 provides that any person aggrieved by an order of the NCLT may file an appeal to NCLAT within 45 days. The Tribunal's order under Section 242/243 is appealable to NCLAT, not directly to the Supreme Court. Option D is INCORRECT because it skips the NCLAT appellate stage. Options A, B, and C are all correct — the order binds all members (Section 242(4)), AoA alterations cannot be re-amended without leave (Section 242(3)), and leave can be sought during disqualification (Section 243(1)(a) proviso). The appeal chain is NCLT → NCLAT (within 45 days) → Supreme Court (on question of law only).",
+          "section": "Section 243 read with Section 421"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s5",
+      "scenarioText": "FinEdge Technologies Ltd. is a listed fintech company with 45,000 members and an issued share capital of ₹1,200 crore (divided into 12 crore equity shares of ₹10 each, fully paid up). The company's statutory auditors, M/s Sharma & Associates, certified the annual accounts for the financial years 2022-23 and 2023-24 without qualifications despite the accounts containing fabricated revenue of ₹800 crore from fictitious clients. The fraud was discovered when a whistleblower — Mr. Rajan, a former senior accountant — provided evidence to SEBI. The share price crashed from ₹450 to ₹85 per share. A group of 120 members holding 4% of issued share capital (approximately 48 lakh shares) wants to file a class action suit under Section 245 against both the company and M/s Sharma & Associates. Another group of 80 institutional investors holding 6% of issued share capital is also considering joining. The company's counsel argues that auditors are not 'proper respondents' in a class action under Section 245 and that only the company and its directors can be sued.",
+      "questions": [
+        {
+          "id": 21,
+          "question": "For a class action under Section 245 by members of FinEdge Technologies Ltd. (a listed company with 45,000 members), what is the minimum number of members required?",
+          "options": {
+            "A": "Not less than 100 members or not less than such percentage of the total number of its members as may be prescribed, whichever is less",
+            "B": "Not less than 1,000 members or 10% of total members, whichever is more",
+            "C": "Not less than 4,500 members (10% of 45,000)",
+            "D": "Not less than 2,250 members (5% of 45,000)"
+          },
+          "correct": "A",
+          "explanation": "Section 245(3)(a) provides that for a company having a share capital, the requisite number of members for a class action is 'not less than 100 members of the company or not less than such percentage of the total number of its members as may be prescribed, whichever is less.' The prescribed percentage for listed companies is a separate threshold. The group of 120 members exceeds the minimum of 100. Note the difference from Section 244 — Section 245 uses 'such percentage as may be prescribed' rather than 'one-tenth,' though for listed companies the practical thresholds differ. Option B inverts the 'whichever is less' to 'whichever is more.'",
+          "section": "Section 245(3)(a)"
+        },
+        {
+          "id": 22,
+          "question": "The company's counsel argues that M/s Sharma & Associates (statutory auditors) cannot be respondents in a class action under Section 245. Is this argument CORRECT?",
+          "options": {
+            "A": "Yes — Section 245 class actions can only be filed against the company and its directors",
+            "B": "Yes — auditors can only be sued through a separate professional negligence claim under the Chartered Accountants Act, not under Section 245",
+            "C": "No — Section 245(1)(c) specifically provides that a class action can be filed against the auditor, including the audit firm, for any improper or misleading statement in the audit report or for any fraudulent, unlawful, or wrongful act or conduct",
+            "D": "No — but only if the auditor is also a director of the company"
+          },
+          "correct": "C",
+          "explanation": "Section 245(1)(c) explicitly includes 'the auditor including audit firm of the company' as a proper respondent in a class action. The class action can be filed if the auditor's report or conduct was 'improper or misleading' or involved 'any fraudulent, unlawful or wrongful act or conduct.' In the scenario, M/s Sharma & Associates certified fabricated revenue of ₹800 crore without qualifications — this is precisely the kind of auditor misconduct Section 245 targets. Option A is the main trap, as students often assume class actions target only the company and directors. The scenario's fact about fictitious client revenue makes the auditor's certification clearly improper.",
+          "section": "Section 245(1)(c)"
+        },
+        {
+          "id": 23,
+          "question": "Can the Tribunal waive the minimum eligibility threshold for the class action filed by the 120 members of FinEdge Technologies Ltd., similar to the waiver available under Section 244 for oppression petitions?",
+          "options": {
+            "A": "Yes — Section 245 contains a similar proviso allowing the Tribunal to waive the threshold requirements",
+            "B": "No — Section 245 does NOT contain any provision for waiver of the threshold requirements, unlike Section 244 which has an explicit waiver proviso",
+            "C": "Yes — the Tribunal can waive thresholds under its inherent powers even if not specifically mentioned",
+            "D": "Yes — but only if the Central Government makes a recommendation to the Tribunal"
+          },
+          "correct": "B",
+          "explanation": "This is a critical distinction between Sections 244 and 245. Section 244(1) contains a specific proviso empowering the Tribunal to 'waive all or any of the requirements' for oppression/mismanagement petitions. Section 245 has NO such waiver provision. If the members do not meet the prescribed threshold for a class action, the Tribunal cannot relax it. This is a deliberate legislative choice — class actions affect a wider range of respondents (including auditors and experts) and have broader consequences, so the threshold cannot be waived. Option A is the trap answer for students who assume the same rules apply across both sections.",
+          "section": "Section 245 compared with Section 244(1) Proviso"
+        },
+        {
+          "id": 24,
+          "question": "Apart from the company and the auditors, which of the following persons can ALSO be made respondents in the class action filed by the members of FinEdge Technologies Ltd. under Section 245?",
+          "options": {
+            "A": "Only the Managing Director and whole-time directors",
+            "B": "Any director, expert, advisor, or consultant who provided advice to the company in connection with the falsified accounts",
+            "C": "Only persons who are currently holding office in the company, not former directors or officers",
+            "D": "Only the company itself — individual directors, experts, and advisors cannot be personally sued under Section 245"
+          },
+          "correct": "B",
+          "explanation": "Section 245(1) provides for class actions against: (a) the company or its directors for any fraudulent, unlawful, or wrongful act; (b) the auditor including audit firm; and (c) any expert, advisor, consultant, or any other person for any incorrect or misleading statement made to the company or for any fraudulent, unlawful, or wrongful act. This covers a wide range of respondents beyond just directors — including experts, advisors, and consultants who were involved in the fraudulent conduct. In the scenario, if any valuation expert or financial advisor assisted in creating fictitious revenue figures, they can also be sued.",
+          "section": "Section 245(1)"
+        },
+        {
+          "id": 25,
+          "question": "Assume the 120 members file a class action and the Tribunal admits the application. Another group of 500 members of FinEdge Technologies Ltd., who were not part of the original filing, want the same relief. Must they file a separate class action?",
+          "options": {
+            "A": "Yes — each group must file its own application and the Tribunal will hear them separately",
+            "B": "No — under Section 245(7), the order passed on a class action application is binding on all members of the company, whether or not they were party to the application",
+            "C": "No — but the additional members must formally intervene in the existing proceedings within 30 days",
+            "D": "Yes — unless they obtain written consent from the original 120 members to be included"
+          },
+          "correct": "B",
+          "explanation": "Section 245(7) provides that any order passed by the Tribunal under Section 245 shall be binding on the company and all its members, depositors, and other persons associated with the company. This means the 500 additional members automatically benefit from the class action order without needing to file a separate application or formally intervene. This binding effect is the hallmark of a class action — it operates in rem, not just inter partes. The scenario tests whether students understand this collective binding nature of class actions, which distinguishes them from individual oppression petitions.",
+          "section": "Section 245(7)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s6",
+      "scenarioText": "Prism Housing Finance Ltd. is an unlisted public company with a paid-up share capital of ₹80 crore, 1,800 members, and 2,500 depositors who have collectively deposited ₹350 crore with the company. The company failed to repay matured deposits to 600 depositors (amounting to ₹120 crore) for over 18 months. The company's MD, Mr. Harish Gupta, used ₹95 crore of depositor funds to purchase agricultural land in his wife's name. A group of 85 depositors who are owed a total of ₹8 crore wants to file a class action under Section 245. Separately, a group of 150 members holding 3% of the issued share capital also wants to file a class action. The company argues that since Prism Housing Finance Ltd. is unlisted, the class action thresholds are different from those applicable to listed companies, and neither group meets the requirements. Mr. Gupta further contends that misuse of depositor funds is a criminal matter to be dealt with under Sections 73-76 and Section 447, and Section 245 class action is not available for such cases.",
+      "questions": [
+        {
+          "id": 26,
+          "question": "For a class action by depositors of Prism Housing Finance Ltd. (an unlisted company with 2,500 depositors), Section 245(3)(b) prescribes the threshold as 'not less than 100 depositors or not less than such percentage of total depositors as prescribed, whichever is less.' Given this, do the 85 depositors meet the threshold?",
+          "options": {
+            "A": "Yes — 85 depositors exceeds any reasonable threshold for an unlisted company",
+            "B": "No — the minimum threshold is 100 depositors (since 100 is less than the prescribed percentage of 2,500 depositors), and 85 is below 100",
+            "C": "Yes — depositors owed more than ₹5 lakh each are automatically exempt from numerical thresholds",
+            "D": "No — depositors cannot file class actions under Section 245; only members can"
+          },
+          "correct": "B",
+          "explanation": "Section 245(3)(b) requires 'not less than 100 depositors or not less than such percentage of total depositors as may be prescribed, whichever is less.' The prescribed percentage of 2,500 would exceed 100, making 100 the applicable threshold (whichever is less). The group has only 85 depositors, which falls short of 100. Option D is wrong — Section 245(1) explicitly allows depositors to file class actions. Option C is fabricated — there is no exemption based on the amount owed. The 85 depositors need to add at least 15 more to their group to meet the minimum threshold.",
+          "section": "Section 245(3)(b)"
+        },
+        {
+          "id": 27,
+          "question": "The group of 150 members of Prism Housing Finance Ltd. holds 3% of the issued share capital. For an unlisted company, Section 245 prescribes thresholds for members. Which of the following is CORRECT regarding whether they meet the threshold?",
+          "options": {
+            "A": "They do not meet the threshold because they need at least 10% of issued share capital for an unlisted company",
+            "B": "They meet the member count threshold of 100 members (since 150 > 100), and the member count limb is an independent alternative to the shareholding limb",
+            "C": "They do not meet any threshold because unlisted company members cannot file class actions",
+            "D": "They need at least 5% of issued share capital regardless of how many members they have"
+          },
+          "correct": "B",
+          "explanation": "Section 245(3)(a) provides that for a company having share capital, the class action can be filed by 'not less than 100 members or not less than such percentage of the total number of its members as may be prescribed, whichever is less.' The member count threshold (100) and the shareholding threshold are alternatives — meeting either one suffices. The 150 members exceed the 100-member threshold. Option A wrongly imposes a mandatory 10% shareholding requirement. Option D wrongly suggests the 5% shareholding limb must be met regardless of member count. The 3% shareholding is a red herring since the member count is independently sufficient.",
+          "section": "Section 245(3)(a)"
+        },
+        {
+          "id": 28,
+          "question": "Mr. Gupta argues that misuse of depositor funds is a criminal matter under Sections 73-76 and Section 447, and that Section 245 class action is not the appropriate remedy. Which statement BEST addresses this argument?",
+          "options": {
+            "A": "Mr. Gupta is correct — Section 245 cannot be used where the underlying conduct is also a criminal offence; criminal proceedings take precedence",
+            "B": "Mr. Gupta is incorrect — Section 245 class action is a civil remedy that operates independently of criminal proceedings; the existence of criminal liability does not bar a class action seeking compensation or restraint orders",
+            "C": "Mr. Gupta is correct — depositors must first obtain a criminal conviction before filing a class action",
+            "D": "Mr. Gupta is partially correct — class action is barred until the criminal investigation is completed"
+          },
+          "correct": "B",
+          "explanation": "Section 245 provides a civil remedy — it allows class members to seek orders restraining the company/directors from acting in a manner prejudicial to their interests, claiming damages, or seeking other appropriate relief. This civil remedy operates independently of criminal proceedings under Sections 73-76 or Section 447. The two proceedings serve different purposes: criminal proceedings punish the offender, while class actions compensate the victims and restrain future misconduct. In the scenario, the ₹95 crore diversion may attract criminal liability AND justify a class action simultaneously. Neither bars the other.",
+          "section": "Section 245(1)"
+        },
+        {
+          "id": 29,
+          "question": "If the 85 depositors of Prism Housing Finance Ltd. fail to meet the Section 245 threshold, can they alternatively file an application under Section 241 (oppression/mismanagement) as depositors?",
+          "options": {
+            "A": "Yes — Section 241 can be filed by any person affected by the company's affairs, including depositors",
+            "B": "No — Section 241 applications can only be filed by members (shareholders), not depositors; depositors must use Section 245 or other remedies",
+            "C": "Yes — but only if the depositors are also members of the company",
+            "D": "No — depositors can only approach the Company Law Tribunal through the RBI"
+          },
+          "correct": "B",
+          "explanation": "Section 241(1) grants the right to apply only to 'members' of the company, and Section 244 defines eligibility in terms of 'members.' Depositors who are not also members cannot file under Section 241. This is a critical distinction — depositors have the class action route under Section 245 but NOT the oppression/mismanagement route under Section 241 (unless they happen to be members as well). Option A incorrectly expands Section 241 to cover 'any person affected.' The scenario is designed to test whether students understand that depositors and members have different statutory remedies available to them.",
+          "section": "Section 241(1) read with Section 244"
+        },
+        {
+          "id": 30,
+          "question": "Assume the class action by 150 members is admitted. The Tribunal finds that the company's directors and Mr. Gupta diverted depositor funds. Under Section 245, which of the following orders can the Tribunal NOT pass?",
+          "options": {
+            "A": "Restrain the company from committing a breach of its articles",
+            "B": "Declare that the articles were altered fraudulently and require rectification",
+            "C": "Order the imprisonment of Mr. Gupta for 7 years for fraudulent diversion of depositor funds",
+            "D": "Order the company to pay damages to the affected members and depositors"
+          },
+          "correct": "C",
+          "explanation": "Section 245(5) lists the orders the Tribunal may pass in a class action, including restraining orders, declarations regarding modifications to articles, declaring resolutions void, and other appropriate orders. However, the Tribunal's class action powers are civil in nature — it CANNOT order criminal imprisonment. Imprisonment is a criminal punishment that can only be imposed through criminal prosecution under Section 447 or other penal provisions, not through a civil class action. Options A, B, and D are all within the Tribunal's class action powers under Section 245(5).",
+          "section": "Section 245(5)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s7",
+      "scenarioText": "Vanguard Steel Manufacturing Ltd. is a public company with 5,000 members and paid-up share capital of ₹300 crore. The company was founded 40 years ago by the Malhotra family, which currently holds 62% of the shares. A rival group led by Mr. Prakash Sinha, holding 18% of shares, has been systematically marginalized — excluded from board committees, denied access to factory premises, and blocked from receiving dividend cheques. The NCLT received an application under Section 241 from Mr. Sinha's group (comprising 200 members holding 18% share capital) and found the Malhotra family guilty of oppression. The Tribunal is now considering ordering the Malhotra family to purchase the shares of Mr. Sinha's group at a fair value. The Malhotra family argues that the Tribunal should instead order the winding up of the company, which would destroy 3,500 jobs. Mr. Sinha's group wants their shares purchased at ₹600 per share (book value), while the Malhotra family's valuer estimates ₹280 per share (net asset value excluding goodwill). The company's registered valuer has assessed the fair value at ₹450 per share. An independent observation shows that the Malhotra family made the company enter into a 15-year exclusive supply contract with a Malhotra-controlled entity at 30% below market rates, which depresses the company's profitability and therefore its valuation.",
+      "questions": [
+        {
+          "id": 31,
+          "question": "The Tribunal has found oppression and is considering ordering the Malhotra family to purchase Mr. Sinha's group's shares. Under which specific provision of Section 242 does the Tribunal derive this power?",
+          "options": {
+            "A": "Section 242(2)(a) — the power to regulate the conduct of the company's affairs in future",
+            "B": "Section 242(2)(b) — the power to direct the purchase of shares of any members of the company by other members thereof or by the company",
+            "C": "Section 242(2)(d) — the power to set aside any transfer, delivery of goods, or payment",
+            "D": "Section 242(2)(f) — the power to appoint such number of persons as directors as the Tribunal may direct"
+          },
+          "correct": "B",
+          "explanation": "Section 242(2)(b) specifically empowers the Tribunal to 'direct the purchase of shares or interests of any members of the company by other members thereof or by the company.' This is the share purchase remedy — the most common remedy in oppression cases where the relationship between majority and minority has irretrievably broken down. In the Vanguard Steel scenario, the Tribunal can order the Malhotra family (majority) to purchase Mr. Sinha's group's shares at a fair price. Option A relates to regulating future conduct, Option C to setting aside transactions, and Option D to appointing directors — all different remedies.",
+          "section": "Section 242(2)(b)"
+        },
+        {
+          "id": 32,
+          "question": "The Malhotra family argues that instead of ordering a share purchase, the Tribunal should order the winding up of the company. In the context of this case, which of the following is CORRECT regarding the Tribunal's approach?",
+          "options": {
+            "A": "The Tribunal must accept the majority's request for winding up since they hold 62% of shares",
+            "B": "Section 242(1) states that the Tribunal shall, with a view to bringing to an end the matters complained of, make such order as it thinks fit — winding up is a last resort when other remedies are inadequate, not a weapon for the majority to destroy the company",
+            "C": "The Tribunal can only order winding up if both parties consent",
+            "D": "Winding up can never be ordered in oppression proceedings — it requires a separate petition under Section 271"
+          },
+          "correct": "B",
+          "explanation": "Section 242(1) gives the Tribunal wide discretion to 'make such order as it thinks fit' to bring the oppressive matters to an end. While Section 242(2)(g) allows winding up as a remedy, it is generally treated as a remedy of last resort. The Tribunal's primary objective is to end the oppression while preserving the company as a going concern — especially when 3,500 jobs are at stake, as mentioned in the scenario. Ordering the majority to buy out the minority (or vice versa) is a more proportionate remedy. Option D is wrong — winding up CAN be ordered under Section 242(2)(g). Option A is wrong because the majority cannot weaponise winding up to avoid a fair share purchase order.",
+          "section": "Section 242(1) and (2)(g)"
+        },
+        {
+          "id": 33,
+          "question": "The exclusive supply contract between Vanguard Steel and the Malhotra-controlled entity at 30% below market rates depresses the company's profitability and valuation. Which Section 242 power can the Tribunal invoke to address this?",
+          "options": {
+            "A": "The Tribunal has no power to interfere with commercial contracts between the company and third parties",
+            "B": "Section 242(2)(d) empowers the Tribunal to set aside any transfer, delivery of goods, payment, execution of a will, or other transaction involving the transfer of any property of the company",
+            "C": "The Tribunal can only recommend that the Board renegotiate the contract",
+            "D": "The Tribunal can interfere with the contract only if it was entered into within the last 12 months"
+          },
+          "correct": "B",
+          "explanation": "Section 242(2)(d) and (e) empower the Tribunal to set aside or cancel transactions, including contracts that have been made to siphon off the company's value. The 15-year below-market supply contract is a classic mechanism of oppression — it extracts value from the company to a majority-controlled entity, depressing minority share value. The Tribunal can terminate or modify this contract as part of its order. There is no time limitation (Option D is wrong), and the Tribunal can directly order cancellation rather than merely 'recommend' renegotiation (Option C is wrong). The scenario's detail about 30% below market rates establishes the oppressive nature of this contract.",
+          "section": "Section 242(2)(d) and (e)"
+        },
+        {
+          "id": 34,
+          "question": "Regarding the share valuation dispute — Mr. Sinha's group wants ₹600/share (book value), the Malhotra family values at ₹280/share (NAV excluding goodwill), and the registered valuer assesses ₹450/share. If the Tribunal also finds that the below-market supply contract depressed the company's valuation, which approach is the Tribunal MOST likely to adopt?",
+          "options": {
+            "A": "The Tribunal must always accept the registered valuer's assessment and cannot deviate from it",
+            "B": "The Tribunal must adopt the average of all three valuations as the fair value",
+            "C": "The Tribunal has discretion to determine a fair value considering all relevant factors, including adjusting for the impact of oppressive transactions that artificially depressed the company's value",
+            "D": "The Tribunal must order the purchase at the par value of shares as recorded in the MoA"
+          },
+          "correct": "C",
+          "explanation": "Section 242 gives the Tribunal broad discretion in fashioning relief. When ordering share purchase, the Tribunal is not mechanically bound by any single valuation methodology. It can — and commonly does — adjust the valuation to account for oppressive transactions that artificially depressed the company's value. In this scenario, the below-market supply contract depresses profitability by 30%, which in turn deflates the NAV and the registered valuer's assessment. The Tribunal can order that the valuation be computed as if the oppressive contract did not exist, potentially arriving at a figure higher than ₹450. Option A is wrong because the Tribunal retains overriding discretion.",
+          "section": "Section 242(2)(b)"
+        },
+        {
+          "id": 35,
+          "question": "Assuming the Tribunal orders the Malhotra family to purchase shares at ₹450 per share and also terminates the below-market supply contract, the Malhotra family's counsel argues that Section 243(1)(b) bars compensation only for agreements terminated by the Tribunal, but the supply contract was between the company and a separate Malhotra-controlled entity, not with Mr. Devendra Malhotra personally. Is this a valid distinction?",
+          "options": {
+            "A": "Yes — Section 243(1)(b) only bars compensation for agreements directly with the person found guilty, not with entities controlled by that person",
+            "B": "No — Section 243(1)(b) bars compensation for any person whose agreement is terminated by the Tribunal's order, regardless of the corporate structure used; the controlled entity cannot claim compensation for the terminated supply contract",
+            "C": "Yes — the Malhotra-controlled entity has a separate legal personality and is entitled to compensation",
+            "D": "No — but only because the supply contract was at below-market rates, which makes it void ab initio"
+          },
+          "correct": "B",
+          "explanation": "Section 243(1)(b) provides that where any agreement is terminated, set aside, or modified by a Tribunal order under Section 242, no 'such person' shall be entitled to compensation for the loss or termination of the agreement. Courts have interpreted this broadly to prevent circumvention through corporate structures. The Malhotra-controlled entity was the vehicle through which the oppressive conduct operated — allowing it to claim compensation would defeat the purpose of the remedy. Option A and C attempt to use the separate legal entity doctrine to circumvent Section 243, but this fails where the entity is a mere alter ego of the persons found guilty of oppression.",
+          "section": "Section 243(1)(b)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s8",
+      "scenarioText": "Samarpan Seva Trust is a company limited by guarantee (having no share capital) with 150 members, established to manage charitable activities across 6 states. The trust's Managing Trustee, Dr. Anand Bhatt, and his faction of 90 members have been systematically diverting charitable funds to personal accounts, refusing to hold annual general meetings for 3 consecutive years, and expelling dissenting members without following the procedure prescribed in the Articles. A faction of 25 members, led by Mrs. Rekha Pillai, wants to file an application under Section 241 for oppression and mismanagement. Dr. Bhatt's lawyer argues that since the company has no share capital, the threshold under Section 244 is different and Mrs. Pillai's group fails to meet it. Mrs. Pillai's group argues that even if they fall short of the threshold, the Tribunal should waive the requirement given the severity of the allegations. Dr. Bhatt further argues that charitable trusts incorporated as Section 8 companies are exempt from Chapter XVI (oppression/mismanagement) provisions entirely.",
+      "questions": [
+        {
+          "id": 36,
+          "question": "For Samarpan Seva Trust, a company without share capital having 150 members, what is the minimum number of members required to apply under Section 241 as per Section 244(1)(b)?",
+          "options": {
+            "A": "15 members (one-tenth of 150)",
+            "B": "30 members (one-fifth of 150)",
+            "C": "100 members (the standard minimum under Section 244)",
+            "D": "50 members (one-third of 150)"
+          },
+          "correct": "B",
+          "explanation": "Section 244(1)(b) provides that for a company NOT having share capital, 'not less than one-fifth of the total number of its members' have the right to apply under Section 241. One-fifth of 150 = 30 members. Mrs. Pillai's group has only 25 members, which is below the required 30. Option A (one-tenth) is the threshold applicable to companies WITH share capital under Section 244(1)(a), not companies without share capital. Option C (100) is the alternative minimum for share capital companies. This is a critical trap — students frequently apply the 1/10th or 100-member threshold to all companies, but companies without share capital have a separate and higher proportional threshold of 1/5th.",
+          "section": "Section 244(1)(b)"
+        },
+        {
+          "id": 37,
+          "question": "Mrs. Pillai's group of 25 members falls short of the 30-member threshold. Can they still approach the Tribunal?",
+          "options": {
+            "A": "No — the threshold under Section 244(1)(b) is absolute and cannot be relaxed under any circumstances",
+            "B": "Yes — the Tribunal has an inherent power to relax thresholds for companies without share capital regardless of the statute",
+            "C": "Yes — the proviso to Section 244(1) empowers the Tribunal, on an application made to it, to waive all or any of the requirements of Section 244(1)(a) or (b)",
+            "D": "Yes — but only if the Central Government files the application on their behalf under Section 241(2)"
+          },
+          "correct": "C",
+          "explanation": "The proviso to Section 244(1) expressly provides that the Tribunal may, on an application made to it, waive all or any of the requirements specified in Section 244(1). This waiver power applies to both clause (a) (share capital companies) and clause (b) (no share capital companies). Given the severity of the allegations — fund diversion, non-holding of AGMs for 3 years, improper expulsion of members — the Tribunal may exercise its discretion to waive the threshold for Mrs. Pillai's group. Option A is incorrect because the waiver proviso exists. The scenario's detail about 3 years of no AGMs and fund diversion establishes the gravity that may justify a waiver.",
+          "section": "Section 244(1) Proviso"
+        },
+        {
+          "id": 38,
+          "question": "Dr. Bhatt argues that Section 8 companies (formed for charitable purposes) are exempt from Chapter XVI provisions on oppression and mismanagement. Is this argument CORRECT?",
+          "options": {
+            "A": "Yes — Section 8 companies are governed exclusively by the trust laws and Chapter XVI does not apply to them",
+            "B": "Yes — Section 8 companies can only be regulated by the National Company Law Tribunal in winding-up proceedings, not oppression proceedings",
+            "C": "No — Section 8 companies are 'companies' within the meaning of the Companies Act, 2013, and Chapter XVI (Sections 241-246) applies to them unless specifically excluded",
+            "D": "No — but the Tribunal can only grant the remedy of winding up, not share purchase or other remedies, for Section 8 companies"
+          },
+          "correct": "C",
+          "explanation": "Section 8 companies are companies incorporated under the Companies Act, 2013, with a licence for charitable purposes. They are not exempt from Chapter XVI. All provisions of the Companies Act apply to Section 8 companies unless specifically excluded. There is no provision excluding Section 8 companies from Sections 241-246. Dr. Bhatt's argument is legally incorrect. The fact that Samarpan Seva Trust is a charitable company does not shield it from oppression/mismanagement proceedings. The scenario's mention of fund diversion to personal accounts makes this particularly relevant — Section 241 is designed precisely to address such misconduct regardless of the company's charitable status.",
+          "section": "Section 241 read with Section 8"
+        },
+        {
+          "id": 39,
+          "question": "Dr. Bhatt's faction expelled 12 dissenting members without following the procedure in the Articles. If the expelled members want to file under Section 241, which of the following issues arises regarding their standing?",
+          "options": {
+            "A": "They have no standing because only current members can file under Section 241 — expelled members are no longer members",
+            "B": "The Tribunal can treat the expulsion as void and recognise them as continuing members for the purpose of Section 241, especially if the expulsion itself was part of the oppressive conduct",
+            "C": "Expelled members can only file a civil suit for reinstatement, not an application under Section 241",
+            "D": "Expelled members can only file under Section 245 (class action), not Section 241"
+          },
+          "correct": "B",
+          "explanation": "When the expulsion of members is itself part of the oppressive conduct, the Tribunal can treat the expulsion as void and recognise the expelled persons as continuing members for the purpose of Section 241. The oppressor cannot benefit from his own oppressive act — if expelling dissenting members could strip them of standing to file under Section 241, it would create a perverse incentive for the majority to expel minorities before they can file. The scenario specifically states the expulsions were 'without following the procedure prescribed in the Articles,' making them procedurally defective. The Tribunal's power under Section 242(1) to 'make such order as it thinks fit' is broad enough to address this.",
+          "section": "Section 241 read with Section 242(1)"
+        },
+        {
+          "id": 40,
+          "question": "Assume the Tribunal finds Dr. Bhatt guilty of both oppression and mismanagement. Under Section 243, which of the following consequences would NOT apply to Dr. Bhatt?",
+          "options": {
+            "A": "Disqualification from being appointed as a director of any company for 5 years",
+            "B": "Disqualification from holding any position connected with the conduct and management of affairs of any company for 5 years",
+            "C": "Automatic criminal imprisonment for 3 years without a separate criminal trial",
+            "D": "Obligation to vacate office immediately upon the Tribunal's order"
+          },
+          "correct": "C",
+          "explanation": "Section 243(1)(a) provides for disqualification from directorship and management positions for 5 years (Options A and B are valid consequences), and the person must vacate office (Option D). However, Section 243 does NOT provide for criminal imprisonment. Imprisonment is a criminal punishment requiring a separate criminal prosecution under the relevant penal provisions (such as Section 447 for fraud). The Tribunal's order under Section 242/243 is a civil remedy — it can disqualify, remove, and bar compensation, but it cannot imprison. Option C is INCORRECT and therefore the answer. This tests whether students understand the boundary between civil and criminal consequences.",
+          "section": "Section 243(1)(a)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s9",
+      "scenarioText": "National Expressway Infrastructure Ltd. is a public company with 15,000 members and paid-up share capital of ₹2,000 crore, engaged in building toll highways under PPP (Public-Private Partnership) agreements with state governments. The Central Government received reports from the Registrar of Companies indicating that the company had been systematically inflating toll collection figures, claiming ghost maintenance expenses of ₹300 crore annually, and bribing government officials to secure new highway contracts. The company's three independent directors resigned simultaneously, citing 'irreconcilable differences with the management.' No minority shareholder group has filed an application under Section 241, as the promoters control 74% of shares and have allegedly intimidated potential applicants. The Central Government is considering filing an application directly under Section 241(2). The company's counsel argues that the Central Government can only apply if it has first conducted an investigation under Sections 210-212, and since no formal investigation has been ordered, the Section 241(2) application is premature.",
+      "questions": [
+        {
+          "id": 41,
+          "question": "Under Section 241(2), can the Central Government apply to the Tribunal for oppression/mismanagement relief even though no member has filed an application under Section 241(1)?",
+          "options": {
+            "A": "No — the Central Government can only intervene in proceedings already initiated by members under Section 241(1)",
+            "B": "Yes — Section 241(2) independently empowers the Central Government to apply if it is of the opinion that the company's affairs are being conducted in a manner prejudicial to public interest",
+            "C": "No — the Central Government must first direct members to file and only step in if members refuse",
+            "D": "Yes — but only after the SFIO has completed a formal investigation and submitted its report"
+          },
+          "correct": "B",
+          "explanation": "Section 241(2) is an independent provision that empowers the Central Government to apply to the Tribunal if it is of the opinion that the company's affairs are being conducted in a manner prejudicial to public interest. This power is exercisable without any member having filed first — it is a standalone right of the Central Government. The scenario specifically mentions intimidation of minority shareholders, making CG intervention particularly important. Option D is wrong — there is no statutory prerequisite of an SFIO investigation before the CG can apply under Section 241(2). The CG can form its 'opinion' based on any credible information, including ROC reports.",
+          "section": "Section 241(2)"
+        },
+        {
+          "id": 42,
+          "question": "The company's counsel argues that the Central Government must first conduct a formal investigation under Sections 210-212 before filing under Section 241(2). Is this a valid prerequisite?",
+          "options": {
+            "A": "Yes — Section 241(2) requires a prior investigation report as a mandatory precondition",
+            "B": "Yes — without an investigation, the Central Government has no factual basis to form an opinion",
+            "C": "No — Section 241(2) does not prescribe any precondition; the Central Government need only form an opinion that the company's affairs are conducted in a manner prejudicial to public interest",
+            "D": "No — but the Central Government must at least obtain a report from the statutory auditors before filing"
+          },
+          "correct": "C",
+          "explanation": "Section 241(2) contains no precondition requiring a prior investigation under Sections 210-212. The Central Government's right to apply is triggered by its 'opinion' that the company's affairs are being conducted prejudicially to public interest. This opinion can be formed on the basis of any information available — ROC reports, complaints, media reports, or any other source. In the scenario, the ROC reports about inflated toll figures, ghost expenses, and bribery provide sufficient basis for the CG to form its opinion. The investigation provisions under Sections 210-212 are separate powers that the CG may exercise independently, but they are not prerequisites for Section 241(2).",
+          "section": "Section 241(2)"
+        },
+        {
+          "id": 43,
+          "question": "When the Central Government applies under Section 241(2), it does NOT need to satisfy the eligibility thresholds prescribed in Section 244 for members. Why is this the case?",
+          "options": {
+            "A": "Because the Central Government is deemed to represent all members automatically",
+            "B": "Because Section 244 thresholds apply only to applications by 'members' under Section 241(1), and the Central Government applies under the separate provision of Section 241(2) which has no such thresholds",
+            "C": "Because the Central Government always exceeds any threshold by virtue of its sovereign status",
+            "D": "Because Section 244 was repealed by the Companies (Amendment) Act, 2017 for Central Government applications"
+          },
+          "correct": "B",
+          "explanation": "Section 244 prescribes eligibility thresholds for 'members' applying under Section 241(1). The Central Government's power under Section 241(2) is a separate and distinct provision with its own trigger — the CG's opinion about prejudice to public interest. Section 244 does not apply to Section 241(2) applications because Section 244 specifically references 'the right to apply under Section 241' in the context of member applications. The CG is not a 'member' and does not need to satisfy member thresholds. This is significant in the scenario — no minority group could safely file due to intimidation, so the CG's threshold-free standing provides the only available remedy.",
+          "section": "Section 241(2) read with Section 244"
+        },
+        {
+          "id": 44,
+          "question": "The simultaneous resignation of all three independent directors is mentioned in the scenario. Which of the following is the MOST legally significant implication of this fact for the Section 241(2) application?",
+          "options": {
+            "A": "It has no legal significance — independent directors resign frequently for various reasons",
+            "B": "It constitutes a 'material change in management or control' under Section 241(1)(b) and strengthens the case that the company's affairs are being conducted prejudicially",
+            "C": "It automatically triggers a mandatory investigation by SFIO under Section 212",
+            "D": "It disqualifies the company from raising the defence that its affairs were being conducted properly"
+          },
+          "correct": "B",
+          "explanation": "Under Section 241(1)(b), a 'material change in the management or control of the company, whether by an alteration in its Board of Directors or of its manager or in the ownership of the company's shares' is a separate ground for application. The simultaneous resignation of all three independent directors — the very persons tasked with protecting minority interests and corporate governance — constitutes a material change in the Board's composition. When combined with the stated reason ('irreconcilable differences with management'), it strongly indicates that the company's affairs are being conducted in a prejudicial manner. This scenario fact reinforces the CG's opinion under Section 241(2).",
+          "section": "Section 241(1)(b) read with Section 241(2)"
+        },
+        {
+          "id": 45,
+          "question": "If the Tribunal grants relief on the Central Government's application under Section 241(2), can it order the same range of remedies under Section 242 as it would on a member's application under Section 241(1)?",
+          "options": {
+            "A": "No — the Tribunal can only order winding up on a Central Government application, not share purchase or other remedies",
+            "B": "No — the Tribunal can only pass interim orders to protect public interest, not final remedies",
+            "C": "Yes — Section 242 applies equally whether the application is by members under Section 241(1) or by the Central Government under Section 241(2); the full range of remedies is available",
+            "D": "Yes — but the Tribunal requires approval of the Central Government before passing orders on a CG application"
+          },
+          "correct": "C",
+          "explanation": "Section 242(1) begins with 'If, in the opinion of the Tribunal, the application under Section 241 is well founded...' — it does not distinguish between applications under Section 241(1) (by members) and Section 241(2) (by CG). The full range of Section 242 remedies — regulating future conduct, share purchase, cancellation of transactions, alteration of MoA/AoA, appointment of directors, and even winding up — is available regardless of who filed the application. Option A wrongly restricts CG applications to winding up. In the National Expressway scenario, the Tribunal could order removal of the oppressive management, cancellation of fraudulent contracts, and appointment of new directors.",
+          "section": "Section 242(1) and (2)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s10",
+      "scenarioText": "Lakshmi Textiles Ltd. is a public company with 4,000 members and paid-up share capital of ₹150 crore. The company owes ₹45 crore to financial creditors (banks) and ₹12 crore to operational creditors (fabric suppliers). The promoter group, holding 55%, has been siphoning off working capital through related-party transactions. A group of 130 minority shareholders holding 9% of the share capital filed an application under Section 241 alleging oppression. Simultaneously, Punjab National Bank (a financial creditor owed ₹30 crore, with the debt overdue for 14 months) filed an application under Section 7 of the Insolvency and Bankruptcy Code, 2016 (IBC), seeking initiation of Corporate Insolvency Resolution Process (CIRP) against the company. The NCLT admitted the IBC application and declared a moratorium under Section 14 of the IBC. Mr. Anil Khanna, leading the minority shareholders, argues that their Section 241 application should continue despite the IBC moratorium. The company's counsel argues that the moratorium bars all proceedings, including the oppression petition.",
+      "questions": [
+        {
+          "id": 46,
+          "question": "After the NCLT admits the IBC application and declares a moratorium under Section 14 of the IBC, what is the effect on the pending Section 241 oppression application filed by Mr. Khanna's group?",
+          "options": {
+            "A": "The Section 241 application continues unaffected — the IBC moratorium only bars suits for recovery of money, not oppression petitions",
+            "B": "Section 14 of the IBC declares a moratorium on 'institution of suits or continuation of pending proceedings against the corporate debtor' — the Section 241 application is likely to be affected by this moratorium",
+            "C": "The Section 241 application automatically converts into a claim in the CIRP process",
+            "D": "The moratorium only affects proceedings in civil courts, not proceedings before the NCLT itself"
+          },
+          "correct": "B",
+          "explanation": "Section 14 of the IBC imposes a moratorium that prohibits 'the institution of suits or continuation of pending proceedings against the corporate debtor including execution of any judgment, decree or order in any court of law, tribunal, arbitration panel or other authority.' This broad language covers proceedings before the NCLT as well. The oppression petition under Section 241 is a proceeding 'against the corporate debtor' (Lakshmi Textiles) and is therefore caught by the moratorium. Option A incorrectly narrows the moratorium to money recovery suits. Option D wrongly suggests NCLT proceedings are exempt — the moratorium applies across all forums. The scenario tests the critical interplay between IBC and Companies Act proceedings.",
+          "section": "Section 14 of IBC read with Section 241 of Companies Act"
+        },
+        {
+          "id": 47,
+          "question": "Mr. Khanna argues that the Section 241 petition is fundamentally different from a money suit because it seeks equitable relief (stopping oppression), not monetary recovery. Is there merit in this argument?",
+          "options": {
+            "A": "Yes — Section 241 petitions seeking non-monetary equitable relief are completely exempt from the IBC moratorium",
+            "B": "No — the IBC moratorium is absolute and covers ALL proceedings against the corporate debtor without any exception",
+            "C": "The argument has some judicial support in that courts have examined the nature of the proceeding, but the broad language of Section 14 IBC generally extends to oppression petitions as they are 'proceedings against the corporate debtor'",
+            "D": "Yes — but only if the Section 241 petition was filed BEFORE the IBC application was admitted"
+          },
+          "correct": "C",
+          "explanation": "This is a nuanced area of law. While Section 14 of the IBC uses broad language ('continuation of pending proceedings against the corporate debtor'), some judicial interpretations have examined whether a particular proceeding is truly 'against' the corporate debtor or is merely 'in respect of' it. However, the predominant view treats Section 241 petitions as proceedings against the corporate debtor that are caught by the moratorium. The scenario is designed to test whether students can navigate this complexity. Option A overstates the exemption. Option B ignores judicial nuance. The practical reality is that the IBC moratorium generally prevails during CIRP.",
+          "section": "Section 14 IBC read with Section 241 Companies Act"
+        },
+        {
+          "id": 48,
+          "question": "Assume the CIRP is completed and a resolution plan is approved. The minority shareholders' oppression concerns (related-party siphoning) are not addressed in the resolution plan. Can Mr. Khanna's group revive or file a fresh Section 241 application after the CIRP concludes?",
+          "options": {
+            "A": "No — once a resolution plan is approved, all past claims and proceedings stand extinguished permanently under Section 31 of the IBC",
+            "B": "Yes — the Section 241 application can be revived after the moratorium is lifted, as the underlying cause of action (oppression) is independent of the debt resolution",
+            "C": "No — the only remedy available post-CIRP is to challenge the resolution plan before NCLAT",
+            "D": "Yes — but only if the resolution plan specifically preserves the right to pursue oppression claims"
+          },
+          "correct": "A",
+          "explanation": "Section 31 of the IBC provides that once a resolution plan is approved by the NCLT, it is binding on all stakeholders, and all claims not part of the resolution plan stand extinguished. The approved resolution plan operates as a clean slate for the corporate debtor. The oppression petition, being a proceeding against the corporate debtor, stands extinguished upon approval of the resolution plan. Option B is the trap — while the moratorium lifts, the resolution plan's binding effect under Section 31 IBC supersedes the oppression claims. This tests the harsh reality that minority shareholder oppression claims may be collateral damage in the IBC process.",
+          "section": "Section 31 IBC read with Section 241 Companies Act"
+        },
+        {
+          "id": 49,
+          "question": "Before the IBC application was admitted, Mr. Khanna's group of 130 members holding 9% share capital had filed under Section 241. For Lakshmi Textiles Ltd. with 4,000 members, did they independently meet the Section 244 eligibility threshold?",
+          "options": {
+            "A": "No — they needed at least 400 members (one-tenth of 4,000) since the 'whichever is more' rule applies",
+            "B": "Yes — they meet the member count threshold (130 > 100, which is the applicable minimum since 100 < 400 under the 'whichever is less' rule)",
+            "C": "No — they needed at least 10% of share capital (they hold only 9%)",
+            "D": "Yes — but only because the Tribunal waived the threshold requirements"
+          },
+          "correct": "B",
+          "explanation": "Under Section 244(1)(a), the threshold is 'not less than 100 members or one-tenth of total members, whichever is LESS.' One-tenth of 4,000 = 400. Since 100 < 400, the applicable threshold is 100 members (whichever is less). The group has 130 members, which exceeds 100. They satisfy the member count limb independently. Option A applies 'whichever is more' — the classic trap. Option C tests only the shareholding limb, ignoring that member count and shareholding are alternatives. The 9% shareholding is a red herring in this computation since the member count alone qualifies them.",
+          "section": "Section 244(1)(a)"
+        },
+        {
+          "id": 50,
+          "question": "In the scenario, the promoter group holds 55% and has been siphoning working capital through related-party transactions. Which of the following CORRECTLY describes the nature of the wrongful conduct for purposes of Section 241?",
+          "options": {
+            "A": "It constitutes oppression only — since it is prejudicial to the minority members' financial interests",
+            "B": "It constitutes mismanagement only — since siphoning company funds is prejudicial to the company's interest, not members' interest",
+            "C": "It can constitute BOTH oppression (prejudicial to members' interests due to value destruction) and mismanagement (prejudicial to the company's interest due to asset stripping), and the application can be brought on both grounds simultaneously",
+            "D": "It constitutes neither oppression nor mismanagement — it is purely a criminal matter under Section 447"
+          },
+          "correct": "C",
+          "explanation": "Section 241(1)(a) provides two grounds: (i) affairs conducted in a manner 'prejudicial to the interests of any member' (oppression) and (ii) affairs conducted in a manner 'prejudicial to public interest or the interests of the company' (mismanagement). Siphoning working capital through related-party transactions is prejudicial to both: it destroys shareholder value (oppression) AND depletes the company's assets (mismanagement). An application under Section 241 can invoke both grounds simultaneously. Option D is wrong because the existence of potential criminal liability under Section 447 does not preclude civil remedies under Section 241. The scenario establishes both member harm (value destruction) and company harm (asset stripping).",
+          "section": "Section 241(1)(a)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s11",
+      "scenarioText": "QuickCart E-Commerce Ltd. is a listed public company with 60,000 members, paid-up share capital of ₹500 crore, and 4,000 depositors who have invested ₹200 crore in fixed deposits with the company. In January 2026, a class action was filed under Section 245 by a group of 200 members holding 3% of the issued share capital, alleging that the Board misrepresented the company's user acquisition metrics in the annual report, causing the share price to crash from ₹180 to ₹45 when the truth emerged. The class action also named the company's former CFO, Mr. Nitin Verma (who had resigned 8 months before the crash), and the independent auditor, M/s Kapoor & Sons. Mr. Verma argues that since he resigned before the share price crash, he cannot be held liable. M/s Kapoor & Sons argues that the NCLT has no jurisdiction over audit firms as they are regulated by ICAI. Additionally, a second group of 150 members filed an identical class action 3 months later seeking the same relief against the same respondents. The company's counsel raises the issue of multiplicity of proceedings and argues that the second application should be barred.",
+      "questions": [
+        {
+          "id": 51,
+          "question": "Mr. Nitin Verma (former CFO) argues that since he resigned 8 months before the share price crash, he cannot be a respondent in the class action. Is this argument valid under Section 245?",
+          "options": {
+            "A": "Yes — Section 245 only applies to persons currently holding office in the company at the time the class action is filed",
+            "B": "No — Section 245 covers 'any fraudulent, unlawful or wrongful act or omission or conduct' of the directors/officers; if the wrongful act occurred during Mr. Verma's tenure, his subsequent resignation does not extinguish liability",
+            "C": "Yes — once a person resigns, the NCLT loses personal jurisdiction over them",
+            "D": "No — but only if Mr. Verma resigned less than 6 months before the class action was filed"
+          },
+          "correct": "B",
+          "explanation": "Section 245(1)(a) targets 'any fraudulent, unlawful or wrongful act or omission or conduct' of the company or its directors. The misrepresentation of user metrics occurred during Mr. Verma's tenure as CFO. His subsequent resignation does not retroactively extinguish his liability for acts committed while in office. The scenario specifically states the misrepresentation was in the annual report (prepared during his tenure), and the crash merely revealed the pre-existing fraud. Option A is the main trap — Section 245 does not limit respondents to current officers. Option D fabricates a 6-month limitation that does not exist in the statute.",
+          "section": "Section 245(1)(a)"
+        },
+        {
+          "id": 52,
+          "question": "M/s Kapoor & Sons argues that as an audit firm regulated by ICAI, the NCLT has no jurisdiction over them in a class action. Which of the following statements is CORRECT?",
+          "options": {
+            "A": "The argument is valid — auditors are exclusively regulated by ICAI and NFRA, and the NCLT cannot exercise jurisdiction over them",
+            "B": "The argument is invalid — Section 245(1)(c) specifically includes 'the auditor including audit firm of the company' as a respondent in class actions, and the NCLT's jurisdiction under Section 245 is independent of ICAI's regulatory jurisdiction",
+            "C": "The argument is partially valid — the NCLT can hear the case but cannot impose any penalty on the audit firm",
+            "D": "The argument is valid — but only for audit firms; individual auditors can be respondents"
+          },
+          "correct": "B",
+          "explanation": "Section 245(1)(c) explicitly includes 'the auditor including audit firm of the company' as a proper respondent. The words 'including audit firm' leave no ambiguity — both individual auditors and audit firms can be sued in class actions. ICAI's regulatory jurisdiction over professional conduct is separate from the NCLT's statutory jurisdiction under Section 245. The two operate in parallel — ICAI can impose professional penalties while the NCLT can order compensation, restraints, and other civil remedies. Option D is wrong because the statute specifically includes 'audit firm.' The scenario's emphasis on M/s Kapoor & Sons certifying falsified accounts is a textbook case for auditor liability under Section 245.",
+          "section": "Section 245(1)(c)"
+        },
+        {
+          "id": 53,
+          "question": "A second group of 150 members filed an identical class action 3 months after the first group's application. Under Section 245, what is the likely treatment of this second application?",
+          "options": {
+            "A": "The second application must be admitted independently — every group has an independent right to file a class action",
+            "B": "Section 245(4) provides that where a class action application has been filed, no other class action application shall be permitted on the same cause of action — the second application is barred",
+            "C": "The second group must join the first application as co-petitioners or interveners",
+            "D": "Both applications proceed simultaneously and the Tribunal consolidates them at the final hearing stage"
+          },
+          "correct": "B",
+          "explanation": "Section 245(4) provides a clear bar against multiplicity: where an application has been filed under Section 245, no other application by the same or different group on the same cause of action shall be permitted. The second group's application — seeking the same relief against the same respondents on the same facts — is barred. This prevents duplicative litigation and ensures that the first class action represents all affected members. The binding effect under Section 245(7) means the first class action's outcome will bind all members anyway, making a second application redundant. The company's counsel is correct on this point.",
+          "section": "Section 245(4)"
+        },
+        {
+          "id": 54,
+          "question": "Regarding the binding effect of the class action order, which of the following statements about Section 245(7) is INCORRECT?",
+          "options": {
+            "A": "The order is binding on the company and all its members",
+            "B": "The order is binding on all depositors of the company",
+            "C": "The order is binding only on those members who were parties to the class action and who actively participated in the proceedings",
+            "D": "The order is binding on all persons associated with the company including directors and officers"
+          },
+          "correct": "C",
+          "explanation": "Section 245(7) provides that any order passed by the Tribunal 'shall be binding on the company and on all its members, depositors and other persons associated with the company.' The order is binding on ALL members — not just those who participated. Option C states the order binds only participating members, which is INCORRECT and therefore the answer. This 'in rem' binding effect is the essence of a class action — it prevents individual members from re-litigating the same issues. In the QuickCart scenario, all 60,000 members are bound by the order, whether they supported it, opposed it, or were completely unaware of it.",
+          "section": "Section 245(7)"
+        },
+        {
+          "id": 55,
+          "question": "The company's Board wants to withdraw the class action by passing a Board resolution and offering an out-of-court settlement to the 200 members who filed. Can the Board unilaterally dispose of the class action in this manner?",
+          "options": {
+            "A": "Yes — the Board can settle any litigation by passing a resolution and offering compensation to the applicants",
+            "B": "Yes — but only with the approval of shareholders in general meeting by ordinary resolution",
+            "C": "No — Section 245(8) provides that no class action application can be withdrawn or settled without the approval of the Tribunal",
+            "D": "No — class actions cannot be withdrawn or settled under any circumstances; they must proceed to final adjudication"
+          },
+          "correct": "C",
+          "explanation": "Section 245(8) provides that no application filed under Section 245 shall be withdrawn without the leave (approval) of the Tribunal. Similarly, any settlement of a class action requires Tribunal approval. This prevents the respondent company from pressuring applicant members into withdrawing through private settlements that may not serve the interests of the wider class. The Board cannot unilaterally dispose of the class action by offering a settlement to just the 200 filing members — since the order binds all 60,000 members (Section 245(7)), any settlement must protect all affected members and requires Tribunal scrutiny. Option D is too extreme — settlement is possible but only with Tribunal approval.",
+          "section": "Section 245(8)"
+        }
+      ]
+    }
+  ]
+}
