@@ -1,0 +1,363 @@
+{
+  "chapterId": "ca-ch9",
+  "chapterName": "NCLT, NCLAT and Adjudication",
+  "law": "Companies Act, 2013",
+  "category": "companies-act",
+  "scenarios": [
+    {
+      "scenarioId": "s1",
+      "scenarioText": "Meridian Realty Ltd., a listed real estate company with a paid-up share capital of Rs. 200 crore and 4,500 members, was ordered to be wound up by the NCLT, Mumbai Bench on January 15, 2026, under Section 271(a) of the Companies Act, 2013, on a petition filed by Greenfield Housing Finance Ltd. (a financial creditor owed Rs. 85 crore). The winding-up order was passed by a bench comprising Justice K.S. Raghavan (Judicial Member) and Mr. Arun Deshmukh (Technical Member). Meridian's Managing Director, Mr. Vikram Thakur, instructed the company's legal team to challenge the order. The legal team filed an appeal before the Bombay High Court on February 20, 2026, arguing that the winding-up order was based on erroneous interpretation of the 'inability to pay debts' provision. The High Court registry accepted the appeal filing. Meanwhile, Greenfield Housing Finance Ltd. also filed a separate civil suit in the City Civil Court, Mumbai, seeking recovery of the Rs. 85 crore debt independently of the winding-up proceedings. Meridian's auditor, CA Priya Menon, submitted a valuation report to the NCLT showing that the company's net assets exceeded Rs. 350 crore, but this was submitted on March 10, 2026 — 54 days after the winding-up order. Mr. Thakur's personal lawyer advised him that even if the High Court appeal fails, they could approach the Supreme Court to challenge both factual findings and legal conclusions in the NCLT order.",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Regarding the appeal filed by Meridian Realty Ltd. before the Bombay High Court on February 20, 2026, against the NCLT's winding-up order dated January 15, 2026, which of the following statements is CORRECT?",
+          "options": {
+            "A": "The appeal is properly filed because the High Court has concurrent appellate jurisdiction with NCLAT over winding-up orders passed by NCLT benches within its territorial jurisdiction",
+            "B": "The appeal is improperly filed because under Section 421, appeals against orders of the NCLT lie exclusively to the NCLAT, not to the High Court, regardless of the nature of the order",
+            "C": "The appeal is properly filed because winding-up orders are specifically exempted from Section 421 and must be challenged before the High Court under its writ jurisdiction under Article 226",
+            "D": "The appeal is improperly filed before the High Court, but since the High Court registry accepted the filing, Meridian can continue the proceedings there while simultaneously filing at NCLAT as a precautionary measure"
+          },
+          "correct": "B",
+          "explanation": "Under Section 421 of the Companies Act, 2013, any person aggrieved by an order of the NCLT may file an appeal to the NCLAT — this is the exclusive appellate forum. There is no provision for appeals from NCLT to the High Court. The scenario specifically states that the appeal was filed before the Bombay High Court, which is the wrong forum. Option A is wrong because the High Court does NOT have concurrent appellate jurisdiction with NCLAT. Option C fabricates an exemption for winding-up orders — no such exemption exists; Section 421 covers all NCLT orders. Option D is the most tempting trap — the fact that the High Court registry accepted the filing does NOT confer jurisdiction; procedural acceptance of a filing does not override statutory jurisdiction. The scenario fact that the legal team chose the High Court is the determinative error — they should have approached NCLAT. This is a critical trap because many students assume High Courts hear appeals from all tribunals.",
+          "section": "Section 421"
+        },
+        {
+          "id": 2,
+          "question": "Assuming Meridian Realty Ltd. had correctly filed its appeal before the NCLAT instead of the High Court, and the appeal was filed on March 5, 2026 (49 days after the NCLT order of January 15, 2026), which of the following accurately describes the appeal's status under Section 421?",
+          "options": {
+            "A": "The appeal is time-barred because Section 421 mandates filing within 45 days and does not permit any condonation of delay",
+            "B": "The appeal is within time because the 45-day period under Section 421 is calculated from the date the certified copy of the order is received, not from the date of the order itself",
+            "C": "The appeal is time-barred at 49 days, but NCLAT may condone the 4-day delay if sufficient cause is shown, as the proviso to Section 421 allows condonation of delay not exceeding a further 45 days",
+            "D": "The appeal is within time because Section 421 provides a total period of 90 days from the date of the order, giving Meridian time until April 15, 2026"
+          },
+          "correct": "C",
+          "explanation": "Section 421(3) of the Companies Act, 2013 provides that an appeal must be filed within 45 days from the date on which a copy of the order is made available. The proviso allows NCLAT to condone the delay if it does not exceed a further 45 days (total maximum: 90 days). In this scenario, the appeal at 49 days exceeds the initial 45-day limit, but falls well within the condonable period (45 + 45 = 90 days). NCLAT CAN entertain the appeal if sufficient cause for the 4-day delay is shown. Option A is wrong because Section 421 DOES permit condonation. Option B, while technically noting that the period runs from receipt of certified copy (which could extend the effective period), is misleading as a complete answer — the key legal principle is that even if 49 days from the order date, condonation is available. Option D is the biggest trap — it incorrectly states that 90 days is the base period; in reality, 45 days is the base and 45 more is condonable, making 90 the maximum. The scenario's specific date of March 5 (49 days from January 15) is designed to fall just outside the 45-day window, testing whether students know about the condonation mechanism.",
+          "section": "Section 421(3)"
+        },
+        {
+          "id": 3,
+          "question": "Regarding the civil suit filed by Greenfield Housing Finance Ltd. in the City Civil Court, Mumbai, seeking recovery of Rs. 85 crore independently of the winding-up proceedings at NCLT, which of the following is the CORRECT legal position?",
+          "options": {
+            "A": "The civil suit is maintainable because a creditor can simultaneously pursue winding-up proceedings and a separate money recovery suit as these are two distinct remedies with different legal bases",
+            "B": "The civil suit is not maintainable because Section 430 bars the jurisdiction of civil courts in respect of any matter which the NCLT or NCLAT is empowered to determine, and the recovery of debt forms part of the winding-up proceedings",
+            "C": "The civil suit is maintainable only if the amount exceeds Rs. 50 crore, as Section 430 bars civil court jurisdiction only for claims below this threshold",
+            "D": "The civil suit is maintainable because Section 430 only bars civil courts from granting injunctions against NCLT proceedings, not from entertaining independent recovery suits"
+          },
+          "correct": "B",
+          "explanation": "Section 430 of the Companies Act, 2013 provides a comprehensive bar on civil court jurisdiction: 'No civil court shall have jurisdiction to entertain any suit or proceeding in respect of any matter which the Tribunal or the Appellate Tribunal is empowered by or under this Act to determine.' Since the NCLT is empowered to determine all matters related to winding up including the claims of creditors, Greenfield's civil suit for recovery of the same Rs. 85 crore debt is barred. Option A is the most tempting distractor — it sounds logical that two separate remedies could be pursued, but Section 430 specifically prevents this parallel approach. Option C fabricates a threshold that does not exist in Section 430 — the bar is absolute regardless of the amount. Option D incorrectly narrows Section 430 to only injunctions — the section bars ALL suits and proceedings, not just injunctive relief. The scenario fact that Greenfield filed a civil suit for the SAME Rs. 85 crore debt that is the basis of the winding-up petition makes this a direct case of Section 430 applying.",
+          "section": "Section 430"
+        },
+        {
+          "id": 4,
+          "question": "Mr. Thakur's personal lawyer advised that the Supreme Court could be approached to challenge both factual findings and legal conclusions in the NCLT order. Assuming the matter reaches the Supreme Court via the correct appellate chain (NCLT -> NCLAT -> SC), which of the following statements about the Supreme Court's jurisdiction is INCORRECT?",
+          "options": {
+            "A": "The Supreme Court can entertain the appeal only on a question of law arising out of the NCLAT's order under Section 423",
+            "B": "The Supreme Court cannot re-examine the NCLT's factual finding that Meridian was unable to pay its debts, as Section 423 limits the appeal to questions of law only",
+            "C": "If the question involves a mixed question of law and fact — such as whether the NCLT correctly applied the 'inability to pay debts' standard to Meridian's specific financial data — the Supreme Court can examine the factual component to the extent necessary to determine the legal question",
+            "D": "The Supreme Court has full appellate jurisdiction over both questions of fact and questions of law when the appeal involves a winding-up order, as winding up permanently affects the company's existence"
+          },
+          "correct": "D",
+          "explanation": "Section 423 of the Companies Act, 2013 unambiguously limits the Supreme Court's jurisdiction to 'any question of law arising out of such order' of the NCLAT. Option D is INCORRECT because it claims the Supreme Court has 'full appellate jurisdiction over both questions of fact and questions of law' for winding-up orders — there is no such special carve-out for winding-up orders. Section 423 applies uniformly to all appeals from NCLAT orders regardless of the nature of the underlying matter. Options A and B are both correct statements of the law. Option C is a nuanced but correct statement — in 'mixed questions of law and fact,' the Supreme Court may examine facts to the extent necessary to resolve the legal question, which is a well-established judicial principle. The trap is the personal lawyer's advice that 'both factual findings and legal conclusions' can be challenged — this advice is legally incorrect, and Option D mirrors this incorrect advice. The scenario fact about the auditor's valuation report showing net assets of Rs. 350 crore is a factual matter that the Supreme Court cannot independently re-examine.",
+          "section": "Section 423"
+        },
+        {
+          "id": 5,
+          "question": "The NCLT's winding-up order was passed on January 15, 2026, but the auditor CA Priya Menon submitted the valuation report only on March 10, 2026 (54 days after the order). A disgruntled minority shareholder of Meridian holding 2% shares argues that the winding-up order is invalid because the NCLT should have disposed of the petition within 3 months as mandated by Section 422, and the fact that additional evidence (the valuation report) surfaced later proves the NCLT acted hastily. Which of the following statements about this argument is CORRECT?",
+          "options": {
+            "A": "The argument is valid because Section 422 imposes a mandatory 3-month time limit for disposal, and any order passed before considering all available evidence within that period is liable to be set aside",
+            "B": "The argument is invalid because Section 422 requires NCLT to 'endeavour to dispose of' matters within 3 months — it is an aspirational timeline, not a mandatory cutoff, and an order passed in less than 3 months is not automatically invalid for being hasty",
+            "C": "The argument is valid because the NCLT was obligated to wait for the auditor's valuation report before passing the winding-up order, and the 3-month period under Section 422 was designed to ensure all evidence is gathered",
+            "D": "The argument is invalid because Section 422 applies only to NCLAT proceedings, not to NCLT proceedings, and there is no time limit for disposal of matters by NCLT benches"
+          },
+          "correct": "B",
+          "explanation": "Section 422 of the Companies Act, 2013 states that the NCLT and NCLAT shall 'endeavour to dispose of' applications or appeals within 3 months from the date of filing. The word 'endeavour' makes this an aspirational target, NOT a mandatory deadline. An order passed within this period (or even before it) is not invalid merely because it was passed before the full 3 months elapsed. The minority shareholder's argument confuses a target timeline with a mandatory requirement. Option A incorrectly treats the 3-month period as a mandatory cutoff. Option C fabricates an obligation to wait for the valuation report — the NCLT decides cases based on evidence presented before it; if a party fails to submit evidence before the order, that is the party's lapse, not the NCLT's. Option D is wrong because Section 422 applies to BOTH NCLT and NCLAT. The scenario fact that the valuation report was submitted 54 days after the order is the red herring — its late submission does not retroactively invalidate the order. The correct remedy for the auditor's evidence would have been to file it during proceedings or seek a review/appeal.",
+          "section": "Section 422"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s2",
+      "scenarioText": "Apex Pharmaceuticals Ltd. is a public company with paid-up share capital of Rs. 150 crore, 3,200 members, and its registered office in Hyderabad. The company is controlled by the Rajan family, which holds 58% of the equity. A group of 280 minority shareholders (collectively holding 9% of the issued share capital) filed an oppression petition under Section 241 before the NCLT, Hyderabad Bench on February 1, 2026, alleging that the Rajan family was systematically siphoning funds through related-party transactions. The NCLT bench hearing the matter comprised Mr. Justice T.V. Subramaniam (Judicial Member) sitting alone as a single-member bench, as the Technical Member originally assigned was transferred to the Chennai Bench. On March 20, 2026, one of the minority shareholders, Dr. Anil Kapoor (holding 0.8% shares), independently filed a civil suit in the District Court, Hyderabad, seeking damages of Rs. 12 crore against the Rajan family directors personally for breach of fiduciary duty, claiming this was a 'personal tort' action outside the NCLT's jurisdiction. The Rajan family's lawyers simultaneously filed an application before the NCLT arguing that the bench composition was defective and all proceedings should be declared void ab initio. Additionally, the Central Government, through its representative from the Ministry of Corporate Affairs, sought to intervene in the NCLT proceedings to present its findings from an earlier inspection under Section 206, without being a formal party to the oppression petition.",
+      "questions": [
+        {
+          "id": 6,
+          "question": "Regarding the NCLT bench composition with Mr. Justice T.V. Subramaniam sitting as a single Judicial Member, the Rajan family argues all proceedings are void. Which of the following is the MOST ACCURATE legal position on the validity of proceedings conducted by a single-member bench?",
+          "options": {
+            "A": "All proceedings are void ab initio because Section 419 mandates that every NCLT bench must consist of a minimum of two members — one Judicial and one Technical — and a single-member bench has no jurisdiction whatsoever",
+            "B": "The proceedings are valid because Section 419(3) permits the President of the NCLT to authorise a single member to hear specified categories of cases, and an oppression petition may fall within such categories if so authorised",
+            "C": "The proceedings are void only if the Rajan family raised the bench composition objection at the first hearing; having participated in the proceedings without objection, they have waived their right to challenge",
+            "D": "The proceedings are valid because the presence of a Judicial Member alone is sufficient — a Technical Member is required only for matters involving accounting or valuation questions"
+          },
+          "correct": "B",
+          "explanation": "Section 419(1) of the Companies Act, 2013 provides that every bench of the NCLT shall consist of at least one Judicial Member and one Technical Member. However, Section 419(3) empowers the President to authorise that any particular case or class of cases may be heard by a single member. Therefore, if the President has issued such authorisation, the single-member bench proceeding is valid. Option A is the most tempting trap — it correctly states the general rule under Section 419(1) but ignores the exception under Section 419(3). The answer depends on whether Presidential authorisation was obtained, which makes the blanket 'void ab initio' claim in Option A too absolute. Option C incorrectly applies the doctrine of waiver — jurisdiction cannot be conferred by consent or waiver; if the bench lacks jurisdiction, the defect is not cured by participation. Option D fabricates a distinction that does not exist in the statute — there is no provision requiring a Technical Member only for accounting matters. The scenario fact that the Technical Member was 'transferred' (not merely absent for a day) makes it likely this is a systemic arrangement, potentially with Presidential authorisation under Section 419(3).",
+          "section": "Section 419(3)"
+        },
+        {
+          "id": 7,
+          "question": "Dr. Anil Kapoor filed a civil suit in the District Court seeking Rs. 12 crore in personal damages against the Rajan family directors for breach of fiduciary duty. The Rajan family argues the suit is barred by Section 430. Dr. Kapoor argues it is a 'personal tort' action outside NCLT's jurisdiction. Which of the following correctly states the legal position?",
+          "options": {
+            "A": "The civil suit is maintainable because Section 430 only bars civil court jurisdiction over matters 'arising out of the Companies Act' and a personal tort claim for breach of fiduciary duty is a common law remedy not governed by the Companies Act",
+            "B": "The civil suit is barred by Section 430 because the substance of the claim — siphoning of funds through RPTs by directors — is identical to the oppression allegations before the NCLT, and Section 430 bars civil courts from entertaining any matter the NCLT is empowered to determine, regardless of how the plaintiff characterises the cause of action",
+            "C": "The civil suit is maintainable but only if Dr. Kapoor first withdraws from the NCLT oppression petition, as Section 430 prohibits parallel proceedings but does not bar independent civil proceedings",
+            "D": "The civil suit is barred only if the NCLT has already passed an order on the oppression petition; until then, the civil court retains concurrent jurisdiction"
+          },
+          "correct": "B",
+          "explanation": "Section 430 provides an absolute bar: 'No civil court shall have jurisdiction to entertain any suit or proceeding in respect of any matter which the Tribunal or the Appellate Tribunal is empowered by or under this Act to determine.' The test is whether the NCLT is 'empowered to determine' the matter — not how the plaintiff labels the cause of action. Here, the substance of Dr. Kapoor's claim (siphoning funds through RPTs by directors, breach of fiduciary duty) is identical to the oppression allegations under Section 241, which the NCLT is empowered to determine. Re-labelling it as a 'personal tort' does not circumvent Section 430. Option A is the most sophisticated distractor — it attempts to carve out common law claims, but the Supreme Court has held that Section 430 looks at the substance, not the label. Option C incorrectly suggests that withdrawal from NCLT proceedings opens the door to civil court — Section 430 bars jurisdiction regardless. Option D incorrectly conditions the bar on the NCLT having already passed an order — the bar operates from the moment the NCLT is 'empowered' to determine the matter. The scenario fact that Dr. Kapoor's Rs. 12 crore claim arises from the same RPT allegations as the oppression petition is the determinative fact.",
+          "section": "Section 430"
+        },
+        {
+          "id": 8,
+          "question": "The Central Government, through its Ministry of Corporate Affairs representative, seeks to intervene in the oppression proceedings to present findings from an earlier Section 206 inspection. The minority shareholders object, arguing the CG was not named as a party and has no locus standi. Which statement is CORRECT?",
+          "options": {
+            "A": "The CG has no right to appear because Section 241 oppression proceedings are strictly between the applicant members and the company/directors, and no third-party intervention is permitted without NCLT's leave",
+            "B": "The CG can appear only if the NCLT, exercising discretion under Section 424, permits intervention as an amicus curiae, but it has no statutory right to appear as of right",
+            "C": "The CG has an express statutory right to appear and be heard before the NCLT in any proceedings under the Companies Act by virtue of Section 433, regardless of whether it is a named party",
+            "D": "The CG can appear only in proceedings that it has itself initiated (such as CG-ordered investigations under Section 210), not in proceedings initiated by private parties"
+          },
+          "correct": "C",
+          "explanation": "Section 433 of the Companies Act, 2013 explicitly provides that the Central Government shall have the right to appear and be heard in proceedings before the NCLT or NCLAT through an authorised representative. This right exists regardless of whether the CG is a party to the proceedings. The section was enacted to ensure regulatory oversight and public interest representation. Option A is wrong because Section 433 specifically overrides the general rule about party standing. Option B incorrectly downgrades the CG's statutory right to a discretionary permission — the CG has a right, not a privilege requiring leave. Option D incorrectly limits the CG's appearance to self-initiated proceedings — Section 433 contains no such limitation. The scenario fact that the CG wants to present findings from a Section 206 inspection (a separate regulatory function) into the Section 241 oppression proceedings demonstrates the cross-chapter utility of Section 433 — regulatory findings from Chapter 4 (Inspection) are being channelled into Chapter 6 (Oppression) proceedings through the NCLT framework of Chapter 9.",
+          "section": "Section 433"
+        },
+        {
+          "id": 9,
+          "question": "The Rajan family's lawyers argue that the NCLT is bound by the Code of Civil Procedure (CPC) and must follow Order VII Rule 11 CPC to reject Dr. Kapoor's intervention application for non-disclosure of cause of action. The minority shareholders counter that NCLT follows its own procedural rules. Which of the following statements about NCLT's procedural framework is FALSE?",
+          "options": {
+            "A": "The NCLT is not bound by the procedure laid down in the Code of Civil Procedure, 1908, but is guided by the principles of natural justice under Section 424",
+            "B": "The NCLT has the power to regulate its own procedure as prescribed by the Central Government under Section 424",
+            "C": "Despite not being bound by the CPC, the NCLT possesses the same powers as are vested in a civil court under the CPC for purposes such as summoning witnesses, requiring discovery, and receiving evidence on affidavit under Section 425",
+            "D": "The NCLT must mandatorily follow CPC provisions for all procedural matters because Section 425 grants it 'the same powers as a civil court,' which implicitly incorporates the entire CPC procedural framework"
+          },
+          "correct": "D",
+          "explanation": "Option D is the FALSE statement. Section 424 explicitly states that the NCLT and NCLAT shall not be bound by the procedure laid down in the CPC but shall be guided by the principles of natural justice and shall follow the rules prescribed by the Central Government. Section 425 grants NCLT the 'same powers as a civil court' for specific purposes (summoning, discovery, inspection, evidence on affidavit, etc.) — this confers specific civil court POWERS but does NOT incorporate the entire CPC procedural framework. The distinction is critical: having the same powers as a civil court for evidence-gathering is different from being bound by CPC procedure. Option A is a correct statement of Section 424. Option B is correct — Section 424 allows CG-prescribed procedural rules. Option C is correct — Section 425 confers specific civil court powers. The Rajan family's argument about Order VII Rule 11 CPC is therefore incorrect — the NCLT follows its own procedural rules (NCLT Rules, 2016), not the CPC. The scenario tests whether students can distinguish between 'powers of a civil court' (Section 425) and 'procedure of a civil court' (not binding under Section 424).",
+          "section": "Sections 424 and 425"
+        },
+        {
+          "id": 10,
+          "question": "If the NCLT ultimately passes an order under Section 242 in the oppression petition directing the Rajan family to sell their shares to the minority at a fair value determined by a registered valuer, and the Rajan family fails to comply, the minority shareholders want to initiate contempt proceedings. Which of the following correctly describes the contempt jurisdiction and the subsequent appeal route?",
+          "options": {
+            "A": "The NCLT has no contempt power; the minority shareholders must approach the High Court for contempt of the NCLT's order, as tribunals do not have inherent contempt jurisdiction",
+            "B": "The NCLT has power to punish for contempt under Section 431 as per the Contempt of Courts Act, 1971, and an appeal against the NCLT's contempt order lies to the NCLAT under Section 432",
+            "C": "The NCLT has contempt power under Section 431, but any appeal against the NCLT's contempt order must be filed directly before the Supreme Court under Section 432, bypassing the NCLAT",
+            "D": "The NCLT has contempt power under Section 431, and the contempt order is final and non-appealable as contempt proceedings are summary in nature"
+          },
+          "correct": "B",
+          "explanation": "Section 431 confers on both the NCLT and NCLAT the power to punish for contempt of their orders in accordance with the provisions of the Contempt of Courts Act, 1971. Section 432 provides the appeal route: an appeal against a contempt order of the NCLT lies to the NCLAT, and an appeal against a contempt order of the NCLAT lies to the Supreme Court. This maintains the hierarchical appellate structure. Option A is wrong because Section 431 expressly grants contempt power to the NCLT — it need not rely on the High Court. Option C confuses the appeal routes — NCLT contempt goes to NCLAT (not directly to SC); only NCLAT contempt goes to SC. This is a critical cross-reference trap: students who remember 'contempt appeal to SC' might incorrectly apply it to NCLT contempt. Option D incorrectly states that contempt orders are non-appealable — Section 432 expressly provides for appeals. The scenario's cross-chapter dimension is significant: the Section 242 order (Chapter 6 — Oppression) is enforced through Section 431 contempt power (Chapter 9 — NCLT), demonstrating how NCLT's adjudicatory framework operates across different substantive proceedings.",
+          "section": "Sections 431 and 432"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s3",
+      "scenarioText": "Bharat Infrastructure Holdings Ltd. (BIHL), a public company with paid-up share capital of Rs. 500 crore and turnover of Rs. 3,200 crore, proposed a scheme of amalgamation with its subsidiary, Pinnacle Highways Ltd. (PHL, paid-up share capital Rs. 80 crore), under Sections 230-232 of the Companies Act, 2013. The NCLT, Principal Bench in New Delhi, sanctioned the scheme on November 30, 2025, after the requisite majority of creditors (3/4 in value) and members (3/4 in value) of both companies approved it. Mr. Suresh Malhotra, a dissenting creditor of PHL owed Rs. 45 crore (representing 6% of PHL's total outstanding debt), was dissatisfied with the swap ratio and filed an appeal before the NCLAT on January 20, 2026 — exactly 51 days after the NCLT order. His appeal challenged both the NCLT's factual assessment of the swap ratio's fairness and its legal interpretation of Section 232(3) regarding the Tribunal's power to modify a scheme already approved by creditors. Meanwhile, a group of 150 minority shareholders of BIHL (holding 3% of share capital) directly approached the Supreme Court under Article 136 of the Constitution, bypassing the NCLAT entirely, arguing that the scheme violated fundamental rights. The NCLT's sanctioning order was passed by a bench comprising Mr. Justice P.K. Sinha (Judicial Member) and Mrs. Rekha Sharma (Technical Member), with Mrs. Sharma having 22 years of experience in the Indian Revenue Service before her appointment. A rival company, Zenith Corp., sought to file an intervention application at the NCLAT, claiming the merger would create a monopoly, but was told by its lawyers that the Central Government had an exclusive right to intervene under Section 433, barring any private party intervention.",
+      "questions": [
+        {
+          "id": 11,
+          "question": "Mr. Malhotra's appeal was filed 51 days after the NCLT sanctioning order. His lawyers argue that the appeal is within the condonable period. However, BIHL's lawyers contend that the delay cannot be condoned because Mr. Malhotra failed to demonstrate 'sufficient cause.' If hypothetically the appeal had been filed on March 2, 2026 — exactly 92 days after the NCLT order — which of the following would be the CORRECT position?",
+          "options": {
+            "A": "The NCLAT can condone the delay because the proviso to Section 421 grants discretion to condone delay without specifying any outer limit, and 92 days is a relatively short period",
+            "B": "The NCLAT cannot entertain the appeal because Section 421 provides an absolute maximum of 90 days (45 days + 45 days condoned) and 92 days exceeds this outer limit regardless of the reason for delay",
+            "C": "The NCLAT can condone the delay because the Supreme Court's inherent powers under Article 142 can extend the limitation period for tribunals when substantial justice requires it",
+            "D": "The NCLAT cannot entertain the appeal at 92 days, but Mr. Malhotra can directly approach the Supreme Court under Section 423 since the NCLAT appeal period has expired"
+          },
+          "correct": "B",
+          "explanation": "Section 421(3) prescribes a limitation of 45 days for filing an appeal before the NCLAT, with a proviso allowing NCLAT to condone delay 'not exceeding forty-five days' if sufficient cause is shown. The total maximum period is therefore 45 + 45 = 90 days. At 92 days, the appeal exceeds this absolute outer limit and the NCLAT has no jurisdiction to entertain it, regardless of how compelling the reason for delay may be. This is a hard mathematical cutoff, not a discretionary one. Option A incorrectly states there is no outer limit — the statute expressly caps condonation at 45 additional days. Option C, while theoretically correct about Article 142 powers, is misleading — Article 142 is a Supreme Court power, not an NCLAT power, and cannot be used to extend a tribunal's statutory limitation period in a routine matter. Option D incorrectly suggests that the Supreme Court under Section 423 is an alternative when the NCLAT appeal period expires — Section 423 provides appeal FROM NCLAT orders to the SC, not a bypass of NCLAT. The scenario's specific date calculation (92 days from November 30 = March 2) tests whether students can compute the 90-day absolute maximum.",
+          "section": "Section 421(3)"
+        },
+        {
+          "id": 12,
+          "question": "The 150 minority shareholders of BIHL directly approached the Supreme Court under Article 136, bypassing NCLAT entirely. Assuming no exceptional constitutional question is involved, which of the following is the MOST LEGALLY ACCURATE assessment of this approach?",
+          "options": {
+            "A": "The Supreme Court must entertain the petition because Article 136 grants it overriding power to grant special leave against any order of any tribunal, and this power cannot be curtailed by Section 423",
+            "B": "The Supreme Court will likely decline to entertain the petition and direct the shareholders to first exhaust the statutory appellate remedy before the NCLAT under Section 421 before approaching the Supreme Court under Section 423, as the statutory appeal hierarchy must ordinarily be followed",
+            "C": "The Supreme Court has no jurisdiction over NCLT matters because Section 423 is the exclusive provision governing appeals and it only permits appeals from NCLAT orders, not direct petitions from NCLT orders",
+            "D": "The Supreme Court will entertain the petition but convert it into an appeal under Section 423 and hear it as if it were an appeal from NCLAT, to avoid multiplicity of proceedings"
+          },
+          "correct": "B",
+          "explanation": "While Article 136 of the Constitution does grant the Supreme Court power to grant special leave from any tribunal, settled judicial principle requires that parties first exhaust the statutory appellate remedies before invoking Article 136 or the extraordinary jurisdiction. Section 421 provides the appeal route from NCLT to NCLAT, and Section 423 provides the further appeal from NCLAT to the Supreme Court on questions of law. The Supreme Court will ordinarily decline to short-circuit this appellate hierarchy unless exceptional circumstances exist (such as a fundamental constitutional question, which the scenario specifies is NOT involved). Option A overstates Article 136 — while the power exists, the Supreme Court consistently refuses to exercise it when statutory remedies are available. Option C incorrectly states the Supreme Court has 'no jurisdiction' — it does have jurisdiction under Article 136, but will decline to exercise it. Option D's 'conversion' mechanism does not exist. The scenario fact that 'no exceptional constitutional question is involved' is the determinative fact — it eliminates the only basis on which the Supreme Court might directly entertain the matter.",
+          "section": "Sections 421 and 423"
+        },
+        {
+          "id": 13,
+          "question": "Mrs. Rekha Sharma, the Technical Member on the bench that sanctioned the amalgamation scheme, had 22 years of experience in the Indian Revenue Service before her appointment. A party challenging the scheme argues that Mrs. Sharma did not meet the qualification requirements under Section 412 for appointment as a Technical Member. Which of the following statements about Technical Member qualifications is CORRECT?",
+          "options": {
+            "A": "Mrs. Sharma is qualified because Section 412 requires Technical Members to have at least 15 years of experience in a relevant field, and her 22 years of IRS experience exceeds this threshold",
+            "B": "Mrs. Sharma is NOT qualified because Section 412 requires Technical Members to have at least 25 years of experience in their respective field, and her 22 years of IRS experience falls 3 years short",
+            "C": "Mrs. Sharma is qualified because Section 412 requires a minimum of 20 years of experience for Technical Members, and her 22 years exceeds this by 2 years",
+            "D": "Mrs. Sharma is qualified because Technical Members need not have any minimum years of experience — they need only be from the IAS, IRS, or equivalent service cadre"
+          },
+          "correct": "B",
+          "explanation": "Section 412(2) of the Companies Act, 2013 prescribes the qualifications for Technical Members of the NCLT. A Technical Member must be a person who has been a member of the Indian Corporate Law Service or Indian Legal Service and has held a post in Grade I of that service, OR has been a member of the IAS, IRS or equivalent with at least 25 years of experience. Mrs. Sharma's 22 years of IRS experience falls 3 years short of the required 25-year threshold. Option A is the most common student error — students frequently cite 15 years (confusing with other tribunal qualification requirements). Option C uses 20 years, another frequently misremembered figure. Option D incorrectly claims no minimum experience is needed. The scenario deliberately specifies '22 years' to create a borderline case that forces students to recall the exact threshold of 25 years. The 3-year shortfall is specific enough that only students who know the precise requirement will answer correctly.",
+          "section": "Section 412(2)"
+        },
+        {
+          "id": 14,
+          "question": "Zenith Corp.'s lawyers advised that the Central Government has an 'exclusive right to intervene' under Section 433, barring private party intervention at NCLAT. Regarding this advice and Zenith Corp.'s ability to file an intervention application at the NCLAT, which statement is CORRECT?",
+          "options": {
+            "A": "The advice is correct — Section 433 grants the Central Government an exclusive right to appear, which implicitly bars intervention by any private party that is not a named respondent or appellant in the proceedings",
+            "B": "The advice is incorrect — Section 433 grants the CG a right to appear and be heard, but this does not create an exclusive right that bars private parties; the NCLAT has inherent powers under Section 424 to permit intervention by any person with a legitimate interest",
+            "C": "The advice is correct because the NCLAT, unlike the Supreme Court and High Courts, has no power to permit third-party intervention in any proceeding, and only original parties can participate",
+            "D": "The advice is incorrect only because Section 433 applies exclusively to NCLT proceedings and does not extend to the NCLAT at all"
+          },
+          "correct": "B",
+          "explanation": "Section 433 grants the Central Government the right to appear and be heard before both the NCLT and NCLAT — this is a positive right conferred on the CG, not an exclusive right that bars others. The NCLAT, guided by principles of natural justice under Section 424 and possessing procedural flexibility, can permit intervention by persons with a legitimate interest. The lawyers' advice incorrectly conflates the CG's statutory right with exclusivity. Option A misreads Section 433 — the CG's right is not 'exclusive.' Option C incorrectly claims NCLAT has no power to permit third-party intervention — Section 424's natural justice principles and the NCLAT's procedural rules allow it. Option D is factually wrong — Section 433 expressly covers both NCLT and NCLAT. The scenario fact that Zenith Corp. claims the merger would create a monopoly gives it a legitimate commercial interest that NCLAT could consider when deciding on the intervention application, though the Competition Commission of India would be the primary authority for antitrust concerns.",
+          "section": "Sections 424 and 433"
+        },
+        {
+          "id": 15,
+          "question": "The NCLT's sanctioning order for the amalgamation scheme was passed by the Principal Bench in New Delhi. Mr. Malhotra's lawyers argue that the Principal Bench should not have heard the matter because both companies (BIHL and PHL) have registered offices outside Delhi. Regarding the location and constitution of NCLT benches, which of the following is INCORRECT?",
+          "options": {
+            "A": "Section 418 provides that the Principal Bench of the NCLT shall be at New Delhi, with other benches established at such places as the Central Government may prescribe",
+            "B": "The Principal Bench in New Delhi has original jurisdiction over all matters arising under the Companies Act regardless of where the company's registered office is located",
+            "C": "The jurisdiction of NCLT benches is determined by the NCLT Rules, which generally assign matters to the bench within whose territorial jurisdiction the company's registered office is situated",
+            "D": "The Central Government may, by notification, direct that certain classes of cases shall be heard only by the Principal Bench at New Delhi"
+          },
+          "correct": "B",
+          "explanation": "Option B is INCORRECT. The Principal Bench at New Delhi does NOT automatically have original jurisdiction over all matters regardless of the company's registered office location. Under the NCLT Rules, 2016, jurisdiction is generally determined by the location of the company's registered office — if BIHL and PHL have registered offices outside Delhi, the matter would ordinarily be heard by the territorial NCLT bench where the registered office is situated, unless specifically transferred or the CG has notified that certain categories of cases be heard by the Principal Bench. Option A correctly states Section 418 — the Principal Bench is at New Delhi. Option C correctly reflects the NCLT Rules' jurisdictional allocation based on registered office. Option D correctly notes the CG's power to designate certain cases for the Principal Bench. Mr. Malhotra's argument about territorial jurisdiction may have merit — the scenario tests whether students assume the Principal Bench has unlimited original jurisdiction merely because it is the 'principal' bench.",
+          "section": "Section 418"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s4",
+      "scenarioText": "Premier Capital Finance Ltd. (PCFL), a non-banking financial company (NBFC) with paid-up share capital of Rs. 300 crore, is undergoing Corporate Insolvency Resolution Process (CIRP) under the Insolvency and Bankruptcy Code, 2016, with the NCLT, Kolkata Bench serving as the Adjudicating Authority under Section 60 of the IBC. The NCLT declared a moratorium under Section 14 of the IBC on September 1, 2025. Subsequently, Mr. Rajat Singhania, a Whole-Time Director of PCFL, transferred company assets worth Rs. 18 crore to a personal trust on October 15, 2025, in direct violation of the moratorium order. The Resolution Professional (RP), Ms. Nandini Ghosh, filed a contempt petition before the NCLT under Section 431 of the Companies Act, 2013, seeking punishment of Mr. Singhania. The NCLT's Kolkata Bench that heard the contempt petition comprised Mr. Justice H.N. Banerjee (Judicial Member, aged 64 years) and Mr. Deepak Chatterjee (Technical Member, aged 66 years, with 28 years in the Indian Corporate Law Service). The NCLT found Mr. Singhania guilty of contempt and imposed a sentence of 3 months' simple imprisonment and a fine of Rs. 5 lakh. Mr. Singhania's lawyers immediately challenged this contempt order, filing an appeal before the Calcutta High Court. Meanwhile, the Committee of Creditors (CoC), which had approved a resolution plan with 68% voting share, discovered that the NCLT member Mr. Deepak Chatterjee had previously served as a non-executive director of PCFL's holding company, Singhania Group Holdings Ltd., between 2015 and 2018, and raised concerns about bias. The President of the NCLT is Mr. Justice R.K. Mehta, aged 66 years, who was appointed at age 63.",
+      "questions": [
+        {
+          "id": 16,
+          "question": "Mr. Singhania's lawyers filed the appeal against the NCLT's contempt order before the Calcutta High Court. Which of the following correctly identifies the defect in this appeal and the correct appellate forum?",
+          "options": {
+            "A": "The appeal is correctly filed before the Calcutta High Court because contempt orders of all courts and tribunals are exclusively appealable to the High Court within whose territorial jurisdiction the tribunal sits",
+            "B": "The appeal should have been filed before the Supreme Court because Section 432 provides that appeals against contempt orders of NCLT lie directly to the Supreme Court, bypassing NCLAT",
+            "C": "The appeal should have been filed before the NCLAT because Section 432 provides that appeals against contempt orders of the NCLT lie to the NCLAT, not to the High Court",
+            "D": "Contempt orders of the NCLT are not appealable at all because the Contempt of Courts Act, 1971 does not provide an appeal mechanism for tribunal contempt orders"
+          },
+          "correct": "C",
+          "explanation": "Section 432 of the Companies Act, 2013 clearly specifies the appeal route for contempt orders: an appeal against a contempt order of the NCLT lies to the NCLAT, and an appeal against a contempt order of the NCLAT lies to the Supreme Court. Mr. Singhania's lawyers made the same error as Meridian's lawyers in Scenario 1 — filing before the High Court instead of the NCLAT. Option A is the most common misconception — students apply general contempt law principles (where High Courts hear contempt appeals from subordinate courts) to tribunals, but Section 432 creates a specific appellate structure. Option B is the most dangerous trap — it correctly identifies a real provision in Section 432 (appeals from NCLAT contempt to SC) but applies it to the WRONG level; this provision applies to NCLAT's contempt orders, not NCLT's. Option D is wrong because Section 432 expressly provides an appeal mechanism. The cross-chapter dimension is critical: the contempt arose from violation of an IBC moratorium order (Section 14 IBC), but the contempt power derives from the Companies Act (Section 431), and the appeal route follows the Companies Act hierarchy (Section 432).",
+          "section": "Section 432"
+        },
+        {
+          "id": 17,
+          "question": "Regarding the ages and tenure of the NCLT members and President mentioned in the scenario, which of the following statements is INCORRECT?",
+          "options": {
+            "A": "Mr. Justice H.N. Banerjee (Judicial Member, aged 64) is within his permissible tenure as Section 413 provides that NCLT Members hold office for 5 years or until they attain age 65, whichever is earlier",
+            "B": "Mr. Deepak Chatterjee (Technical Member, aged 66) has exceeded the maximum age for NCLT Members as Section 413 prescribes 65 years as the upper age limit for Members, making him ineligible to continue sitting",
+            "C": "The President, Mr. Justice R.K. Mehta (aged 66), is within his permissible tenure as Section 413 provides that the NCLT President holds office for 5 years or until attaining age 67, whichever is earlier",
+            "D": "Mr. Deepak Chatterjee (aged 66) can continue serving because the President's age limit of 67 years under Section 413 also applies to all Technical Members who have completed 25 or more years of experience"
+          },
+          "correct": "D",
+          "explanation": "Option D is INCORRECT. Section 413 distinguishes between the President and Members regarding age limits: the President holds office for 5 years or until age 67 (whichever is earlier), while Members (both Judicial and Technical) hold office for 5 years or until age 65 (whichever is earlier). There is no provision extending the President's higher age limit to experienced Technical Members. Options A, B, and C are all correct statements. Mr. Justice Banerjee at 64 is below the 65-year Member limit. Mr. Chatterjee at 66 has exceeded the 65-year Member limit. Mr. Justice Mehta at 66 is below the 67-year President limit. The scenario deliberately sets ages close to the cutoffs to test whether students know the exact limits: 67 for President and 65 for Members. Option D is the trap because it seems plausible that senior Technical Members might get the President's age extension — but no such provision exists. Students who confuse the two age limits will incorrectly believe Option D is correct and therefore not identify it as the false statement.",
+          "section": "Section 413"
+        },
+        {
+          "id": 18,
+          "question": "The CoC discovered that Technical Member Mr. Deepak Chatterjee previously served as a non-executive director of PCFL's holding company (Singhania Group Holdings Ltd.) from 2015-2018. The CoC seeks his removal from the bench. Under the Companies Act, 2013, what is the prescribed mechanism for removal of an NCLT Member?",
+          "options": {
+            "A": "The NCLT President can suo motu remove any Member if a reasonable apprehension of bias is demonstrated by any party to the proceedings",
+            "B": "The Central Government may remove a Member from office on specified grounds after conducting an inquiry by a Judge of the Supreme Court under Section 415",
+            "C": "The NCLAT, exercising supervisory jurisdiction over the NCLT, can direct the removal or transfer of any NCLT Member against whom bias allegations are raised",
+            "D": "An NCLT Member can be removed only through impeachment by Parliament, following the same procedure as removal of High Court judges"
+          },
+          "correct": "B",
+          "explanation": "Section 415 of the Companies Act, 2013 prescribes the removal mechanism for NCLT/NCLAT Members. The Central Government may remove a Member on specified grounds (such as adjudged insolvent, convicted of an offence involving moral turpitude, becoming physically or mentally incapable, having acquired financial or other interests that could prejudicially affect functions, or having so abused the position as to render continuance prejudicial to public interest) — but only after an inquiry conducted by a Judge of the Supreme Court. This safeguards judicial independence by requiring a high-level inquiry before removal. Option A is wrong because the NCLT President does not have the power to unilaterally remove Members. Option C incorrectly suggests NCLAT has supervisory jurisdiction to remove NCLT Members — NCLAT is an appellate body, not an administrative superior. Option D incorrectly applies the Parliamentary impeachment procedure (applicable to High Court and Supreme Court judges) to NCLT Members. The scenario fact about Mr. Chatterjee's prior association with the holding company could constitute 'financial or other interest' under Section 415 grounds, making the removal inquiry potentially justified.",
+          "section": "Section 415"
+        },
+        {
+          "id": 19,
+          "question": "The NCLT is exercising jurisdiction over PCFL's CIRP under the IBC while simultaneously hearing the contempt application under Section 431 of the Companies Act. Mr. Singhania's defence argues that the NCLT's contempt power under Section 431 of the Companies Act cannot be exercised in respect of IBC moratorium violations because the IBC is a separate statute. Which of the following is the MOST ACCURATE legal position?",
+          "options": {
+            "A": "The argument is correct — Section 431 contempt power can only be exercised for violations of orders passed under the Companies Act, not for violations of IBC orders, even though the same NCLT bench passes both",
+            "B": "The argument is incorrect — the NCLT, as a constituted body under the Companies Act with contempt powers under Section 431, can exercise these powers in respect of contempt of any of its orders regardless of whether the underlying order was passed under the Companies Act or the IBC",
+            "C": "The argument is correct — IBC violations must be dealt with exclusively under Section 74 of the IBC (punishment for contravention of moratorium), and the Companies Act contempt power has no application",
+            "D": "The argument is partially correct — NCLT can exercise contempt power under Section 431 for IBC moratorium violations only if the IBC specifically cross-references the Companies Act's contempt provisions"
+          },
+          "correct": "B",
+          "explanation": "The NCLT's contempt power under Section 431 is an institutional power vested in the tribunal itself. When the NCLT passes any order — whether under the Companies Act, the IBC, or any other statute where it has jurisdiction — contempt of that order can be dealt with under Section 431. The power to punish for contempt flows from the authority of the tribunal as an institution, not from the statute under which the particular order was passed. The Contempt of Courts Act, 1971, which Section 431 references, protects the authority of the court/tribunal, not the authority of any particular statute. Option A incorrectly compartmentalises the contempt power by source statute. Option C refers to Section 74 IBC (punishment for contravention of moratorium) — while this provision exists and provides specific criminal penalties, it does not exclude the NCLT's contempt jurisdiction under Section 431; these are parallel remedies. Option D fabricates a cross-referencing requirement. The scenario's cross-chapter/cross-law dimension is critical: IBC moratorium (Section 14 IBC) + Companies Act contempt (Section 431 Companies Act) operating through the same NCLT bench.",
+          "section": "Section 431"
+        },
+        {
+          "id": 20,
+          "question": "The NCLT Kolkata Bench used its powers under Section 425 to summon bank records of Mr. Singhania's personal trust to trace the Rs. 18 crore in transferred assets. Mr. Singhania's lawyers objected, arguing that the NCLT cannot exercise powers of discovery and inspection because it is 'not a court' and only courts have such powers. Additionally, the NCLT delegated the detailed tracing of fund flows to a chartered accountant appointed under Section 426. Which of the following statements about NCLT's powers and delegation is FALSE?",
+          "options": {
+            "A": "Section 425 vests the NCLT with the same powers as a civil court under the CPC for the purposes of summoning and enforcing attendance of witnesses, requiring discovery and production of documents, receiving evidence on affidavits, and issuing commissions for examination of witnesses",
+            "B": "The NCLT can delegate the inquiry into specific factual questions to a suitably qualified person under Section 426, and the findings of such delegated inquiry are admissible before the NCLT",
+            "C": "The NCLT's powers under Section 425 are inherent powers that exist independently of any statutory conferment and can be expanded by the NCLT bench through its own orders without any legislative amendment",
+            "D": "Despite possessing civil court powers under Section 425, the NCLT's exercise of these powers is subject to the rules prescribed by the Central Government and the overarching requirement of following principles of natural justice under Section 424"
+          },
+          "correct": "C",
+          "explanation": "Option C is FALSE. The NCLT's powers under Section 425 are STATUTORY powers expressly conferred by the legislation — they are NOT inherent powers. The NCLT derives all its powers from the Companies Act, 2013, and cannot expand these powers through its own orders. Only Parliament can expand or modify these powers through legislative amendment. The concept of 'inherent powers' (such as Section 151 CPC for civil courts) does not automatically apply to tribunals unless specifically conferred. Option A is a correct statement of Section 425. Option B correctly describes the delegation power under Section 426. Option D correctly notes that Section 425 powers are exercised subject to Section 424's natural justice requirements. The scenario tests a fundamental jurisprudential point: tribunals are creatures of statute with only those powers conferred upon them, unlike constitutional courts which may have inherent jurisdiction. The fact that the NCLT delegated fund tracing to a CA under Section 426 is a correct exercise of its statutory delegation power.",
+          "section": "Sections 425 and 426"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s5",
+      "scenarioText": "DigiSoft Technologies Pvt. Ltd. (DigiSoft) is an IT company that was involved in a shareholder dispute filed before the erstwhile Company Law Board (CLB) under the old Companies Act, 1956, on December 10, 2015. The proceedings involved a petition by Mr. Anand Krishnan (holding 22% shares) alleging oppression and mismanagement against the majority shareholder group led by Ms. Fatima Sheikh (holding 55% shares). On June 1, 2016, the CLB was abolished and the NCLT was constituted under Section 408 of the Companies Act, 2013. The pending CLB case was transferred to the NCLT, Chennai Bench under Section 434. The NCLT eventually heard the matter and passed an order on August 10, 2025 — more than 9 years after the original CLB filing — directing the majority to buy out Mr. Krishnan's 22% shareholding at a fair value. Mr. Krishnan was dissatisfied with the valuation and filed an appeal before the NCLAT on September 20, 2025, exactly 41 days after the NCLT order. The NCLAT heard the appeal expeditiously and passed its order on December 5, 2025, modifying the valuation upward. Ms. Sheikh's legal team now wants to challenge the NCLAT order before the Supreme Court, arguing that the NCLAT erred in its factual assessment of the company's valuation methodology. Ms. Sheikh also filed a complaint with the Central Government seeking removal of the NCLT President, Mr. Justice A.K. Raghunath (aged 66, appointed 3 years ago with prior experience as a High Court judge for 8 years), alleging that the President influenced the Chennai Bench's composition for the DigiSoft matter. The NCLT President's term was originally for 5 years, and he seeks reappointment upon completion. DigiSoft's company secretary, Mr. Ramesh Iyer, was instructed to check whether the NCLT order could also be enforced in parallel through a civil court decree.",
+      "questions": [
+        {
+          "id": 21,
+          "question": "The CLB proceedings filed on December 10, 2015, were transferred to the NCLT on June 1, 2016, under Section 434. The NCLT passed its order on August 10, 2025 — more than 9 years after the original filing. A party argues that Section 422's requirement to 'endeavour to dispose within 3 months' renders the order invalid due to the extraordinary delay. Which of the following is the MOST ACCURATE legal position?",
+          "options": {
+            "A": "The order is invalid because Section 422's 3-month disposal requirement is mandatory, and a 9-year delay is a gross violation that vitiates the proceedings",
+            "B": "The order is valid because Section 434 transferred proceedings 'as they stood,' and Section 422's 3-month endeavour applies from the date of transfer, but its non-compliance does not invalidate the order since it is aspirational, not mandatory",
+            "C": "The order is invalid because transferred CLB cases under Section 434 were required to be disposed of within 1 year of transfer, failing which they stood dismissed automatically",
+            "D": "The order is valid because Section 422 does not apply to cases transferred from the CLB under Section 434 — it applies only to fresh applications filed directly before the NCLT after its constitution"
+          },
+          "correct": "B",
+          "explanation": "Section 434 of the Companies Act, 2013 provides for the transfer of pending CLB proceedings to the NCLT. The cases are transferred 'as they stood' and the NCLT continues the proceedings. Section 422 requires the NCLT to 'endeavour to dispose of' matters within 3 months — the word 'endeavour' makes this an aspirational target, not a mandatory deadline. Non-compliance with this timeline does not invalidate the resulting order. A 9-year delay, while regrettable, does not render the order void. Option A incorrectly treats Section 422 as mandatory. Option C fabricates a 1-year automatic dismissal provision that does not exist in Section 434 or anywhere in the Act. Option D incorrectly limits Section 422's applicability — it applies to all NCLT matters, including transferred ones. The scenario deliberately uses an extreme 9-year timeline to test whether students understand that Section 422 is aspirational — if even a 9-year delay doesn't invalidate the order, this conclusively demonstrates the non-mandatory nature of the provision.",
+          "section": "Sections 422 and 434"
+        },
+        {
+          "id": 22,
+          "question": "Ms. Sheikh's legal team wants to challenge the NCLAT order before the Supreme Court, arguing the NCLAT erred in its FACTUAL assessment of the company's valuation methodology. Which of the following correctly describes the Supreme Court's likely response?",
+          "options": {
+            "A": "The Supreme Court will hear the appeal on merits because valuation methodology involves complex financial questions that only the highest court can properly assess",
+            "B": "The Supreme Court will dismiss the appeal as not maintainable because Section 423 limits appeals from NCLAT to the Supreme Court to 'any question of law arising out of such order,' and a challenge to the factual assessment of valuation methodology does not constitute a question of law",
+            "C": "The Supreme Court will remand the matter to NCLAT for fresh hearing because the Supreme Court cannot adjudicate valuation disputes under any circumstances",
+            "D": "The Supreme Court will convert the appeal into a Special Leave Petition under Article 136 and hear both factual and legal questions since Article 136 overrides the limitation in Section 423"
+          },
+          "correct": "B",
+          "explanation": "Section 423 of the Companies Act, 2013 restricts appeals from NCLAT to the Supreme Court to 'any question of law arising out of such order.' A challenge to the factual assessment of valuation methodology — i.e., arguing that the NCLAT got the numbers wrong or used the wrong factual inputs — is a question of fact, not law. The Supreme Court will dismiss this as not maintainable. Option A incorrectly suggests complexity of the question affects jurisdiction — the test is law vs fact, not complexity. Option C overstates the limitation — the Supreme Court can adjudicate valuation disputes if they raise questions of law (e.g., whether the correct legal standard for valuation was applied), but cannot re-examine factual determinations. Option D is the sophisticated trap — while Article 136 does grant wider powers, the Supreme Court has consistently held that when a specific statutory appeal provision exists (Section 423), parties should use that route, and the Court will not use Article 136 to circumvent the 'question of law' limitation absent extraordinary circumstances. The scenario fact that the challenge is specifically to the 'factual assessment' of valuation methodology is the determinative fact — this is clearly a factual question.",
+          "section": "Section 423"
+        },
+        {
+          "id": 23,
+          "question": "Regarding the NCLT President, Mr. Justice A.K. Raghunath (aged 66, appointed 3 years ago, prior experience as High Court judge for 8 years), which of the following statements is FALSE?",
+          "options": {
+            "A": "Mr. Justice Raghunath's qualification as a former High Court judge satisfies Section 412's requirement that the President must be or have been a Judge of a High Court",
+            "B": "At age 66, Mr. Justice Raghunath is within the maximum age limit for the NCLT President, which under Section 413 is 67 years",
+            "C": "Mr. Justice Raghunath is eligible for reappointment as President for another term of 5 years under Section 413, subject to the age limit of 67 years, meaning he can serve at most 1 more year before reaching the age ceiling",
+            "D": "Mr. Justice Raghunath can continue serving as NCLT President until age 70, as former High Court judges appointed as tribunal heads are governed by the High Court judges' retirement age of 62, extended to 70 for tribunal service"
+          },
+          "correct": "D",
+          "explanation": "Option D is FALSE. There is no provision extending the NCLT President's tenure to age 70 based on prior High Court service. Section 413 clearly states the NCLT President holds office for a term of 5 years or until attaining age 67, whichever is earlier. The retirement age for High Court judges (62 under Article 217) is irrelevant — once appointed as NCLT President, the Companies Act provisions govern, not the constitutional provisions for High Court judges. Option A is correct — Section 412 requires the President to be or have been a High Court judge, which Mr. Justice Raghunath satisfies. Option B is correct — at 66, he is below the 67-year ceiling. Option C is correct — he is eligible for reappointment under Section 413, but since he is already 66, he can serve at most 1 more year (until turning 67) of a new 5-year term. The scenario deliberately sets the President's age at 66 to test the 67-year age limit for the President (as distinct from the 65-year limit for ordinary Members). Option D is designed to trap students who confuse High Court constitutional provisions with the Companies Act's tribunal provisions.",
+          "section": "Sections 412 and 413"
+        },
+        {
+          "id": 24,
+          "question": "Ms. Sheikh filed a complaint with the Central Government seeking removal of the NCLT President for allegedly influencing bench composition. The CG initiates the removal process. Which of the following correctly describes the procedure under Section 415 and the subsequent appeal mechanism?",
+          "options": {
+            "A": "The CG conducts the inquiry itself through a committee of senior bureaucrats, and the removal order is final with no appeal available",
+            "B": "The CG must conduct an inquiry by a Judge of the Supreme Court before removing the President, and since the President is being removed (not a regular Member), the removal order can be challenged before the Supreme Court under Article 136",
+            "C": "The CG must obtain prior approval of both Houses of Parliament for removing the NCLT President, following the same procedure as removal of High Court judges under Article 217",
+            "D": "The CG can provisionally suspend the President pending inquiry, but the final removal requires approval from the Chief Justice of India since the President is a former High Court judge"
+          },
+          "correct": "B",
+          "explanation": "Section 415 of the Companies Act, 2013 provides that the Central Government may remove the President or any Member of the NCLT or NCLAT on specified grounds, but only after an inquiry conducted by a Judge of the Supreme Court. This is a critical safeguard for judicial independence — a bureaucratic or political body cannot unilaterally remove a tribunal head; a Supreme Court judge must conduct the inquiry first. The removal order, being an executive action, can be challenged through judicial review before the Supreme Court. Option A is wrong because the inquiry must be by a Supreme Court judge, not bureaucrats, and the order is not immune from challenge. Option C incorrectly applies the Parliamentary impeachment procedure (which is for High Court and Supreme Court judges under Articles 124/217) to NCLT members. Option D fabricates a CJI approval requirement. The scenario's allegation about 'influencing bench composition' could potentially fall under the ground of 'abusing the position as to render continuance in office prejudicial to the public interest' — one of the specified grounds for removal under Section 415.",
+          "section": "Section 415"
+        },
+        {
+          "id": 25,
+          "question": "DigiSoft's company secretary, Mr. Ramesh Iyer, was instructed to check whether the NCLT order directing the majority to buy Mr. Krishnan's shares at fair value could also be enforced through a civil court decree in parallel. Additionally, Mr. Krishnan separately wants to file a civil suit for damages against Ms. Sheikh for the years of oppression. Which of the following CORRECTLY states the legal position on BOTH matters?",
+          "options": {
+            "A": "The NCLT order can be filed as a decree in civil court for enforcement purposes, AND Mr. Krishnan can independently file a civil suit for damages since Section 430 only bars suits on matters within NCLT jurisdiction, and general damages for oppression are not within NCLT's express jurisdiction",
+            "B": "The NCLT order is self-executing and needs no civil court enforcement, AND Mr. Krishnan cannot file a civil suit for damages because Section 430 bars civil court jurisdiction over all matters arising from the same factual matrix that the NCLT has adjudicated, including consequential damages",
+            "C": "The NCLT order can be enforced as if it were a decree of the civil court (making separate civil proceedings unnecessary), AND Mr. Krishnan cannot maintain a parallel civil suit for damages because Section 430 bars civil courts from entertaining any matter which the NCLT is empowered to determine, and Section 242's wide remedial powers encompass damages",
+            "D": "Neither the NCLT order can be enforced through civil court NOR can Mr. Krishnan file a civil suit, because the NCLT has no enforcement mechanism and Section 430 simultaneously bars civil courts from all involvement"
+          },
+          "correct": "C",
+          "explanation": "NCLT orders are enforceable as if they were decrees of the civil court — this means they carry the same enforcement power without needing to be separately filed in civil court as a fresh decree. Additionally, Section 430 provides a comprehensive bar on civil court jurisdiction over matters the NCLT is empowered to determine. Section 242 grants the NCLT extremely wide remedial powers in oppression cases — including the power to order compensation, regulate the affairs of the company, and provide any other remedy it deems fit. Since damages arising from oppression fall within the NCLT's wide Section 242 jurisdiction, a separate civil suit for the same would be barred by Section 430. Option A incorrectly suggests the NCLT order needs to be 'filed as a decree' in civil court and incorrectly carves out damages from Section 430's bar. Option B's first limb ('self-executing') is imprecise — NCLT orders are enforceable as court decrees, not merely self-executing. Option D incorrectly claims the NCLT has no enforcement mechanism. The cross-chapter connection is significant: NCLT's adjudicatory framework (Chapter 9) provides enforcement teeth to its substantive orders in oppression proceedings (Chapter 6), making parallel civil litigation unnecessary and impermissible.",
+          "section": "Sections 242, 424, and 430"
+        }
+      ]
+    }
+  ]
+}

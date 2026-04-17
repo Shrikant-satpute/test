@@ -140,7 +140,7 @@
       "totalMarks": 50,
       "passMarks": 25,
       "duration": 45,
-      "available": false,
+      "available": true,
       "keySections": ["Sec 408", "Sec 409", "Sec 410", "Sec 411", "Sec 412", "Sec 413", "Sec 414", "Sec 415", "Sec 416", "Sec 417", "Sec 418", "Sec 419", "Sec 420", "Sec 421", "Sec 422", "Sec 423", "Sec 424", "Sec 425", "Sec 426", "Sec 427", "Sec 428", "Sec 429", "Sec 430", "Sec 431", "Sec 432", "Sec 433", "Sec 434"]
     },
     {
