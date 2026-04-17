@@ -3,6 +3,7 @@ import { randomUUID } from 'crypto';
 import fs from 'fs';
 import path from 'path';
 import { getSPOMResults, setSPOMResults } from '@/lib/redis';
+import { sendResultEmail } from '@/lib/email';
 import type { SPOMChapterData, SPOMAttempt, SPOMQuestionResult, SPOMSubmitPayload } from '@/lib/types';
 
 export async function POST(request: NextRequest) {
@@ -75,6 +76,35 @@ export async function POST(request: NextRequest) {
       [chapterId]: [...chapterAttempts, attempt],
     };
     await setSPOMResults(allResults);
+
+    // Send result email to admin (non-blocking — don't fail submission if email fails)
+    const correctCount = results.filter((r) => r.isCorrect).length;
+    const wrongCount = results.filter((r) => !r.isCorrect && r.userAnswer !== '').length;
+    const skippedCount = results.filter((r) => r.userAnswer === '').length;
+
+    sendResultEmail({
+      username,
+      chapterName: chapterData.chapterName,
+      chapterId,
+      attemptNumber: chapterAttempts.length + 1,
+      score,
+      totalQuestions,
+      marksObtained,
+      totalMarks,
+      percentage,
+      passed,
+      timeTaken,
+      submittedAt: attempt.submittedAt,
+      correctCount,
+      wrongCount,
+      skippedCount,
+      sectionBreakdown: results.map((r) => ({
+        section: r.section,
+        correct: r.isCorrect,
+        userAnswer: r.userAnswer,
+        correctAnswer: r.correctAnswer,
+      })),
+    }).catch((err) => console.error('Failed to send result email:', err));
 
     return NextResponse.json({
       success: true,
