@@ -1,8 +1,13 @@
 import { Resend } from 'resend';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 const ADMIN_EMAIL = 'onlinemandai7581@gmail.com';
+
+function getResendClient(): Resend {
+  if (!process.env.RESEND_API_KEY) {
+    throw new Error('RESEND_API_KEY environment variable is not set');
+  }
+  return new Resend(process.env.RESEND_API_KEY);
+}
 
 interface ResultEmailData {
   username: string;
@@ -171,6 +176,7 @@ function buildEmailHtml(data: ResultEmailData): string {
 
 export async function sendResultEmail(data: ResultEmailData): Promise<{ success: boolean; error?: string }> {
   try {
+    const resend = getResendClient();
     const { error } = await resend.emails.send({
       from: 'CA Mock Test <onboarding@resend.dev>',
       to: [ADMIN_EMAIL],
