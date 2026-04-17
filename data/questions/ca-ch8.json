@@ -1,0 +1,363 @@
+{
+  "chapterId": "ca-ch8",
+  "chapterName": "Miscellaneous Provisions",
+  "law": "Companies Act, 2013",
+  "category": "companies-act",
+  "scenarios": [
+    {
+      "scenarioId": "s1",
+      "scenarioText": "TechNova Inc., a Delaware-incorporated software company with a paid-up share capital of USD 50 million, decided to expand its operations to India. On March 1, 2026, TechNova signed a 5-year lease for a 40,000 sq. ft. office space in Bangalore's Outer Ring Road tech corridor to set up a development centre employing 300 Indian engineers. Mr. Rajesh Iyer, an Indian citizen and senior vice-president of TechNova, was designated as the principal officer in India. The company's global board of directors comprises 7 members, of whom 2 are Indian citizens holding 12% of the company's total paid-up share capital between them. TechNova also maintains a virtual office address in Mumbai for receiving correspondence and has a website accessible to Indian customers, through which it sells software licences to Indian enterprises. The Bangalore office became operational on March 15, 2026, with staff and equipment fully deployed. TechNova's CFO, Ms. Linda Park, instructed the India team to begin filing compliance documents with the Registrar of Companies by May 15, 2026, assuming a 60-day window was available since that was the timeline used for their UK subsidiary.",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Based on the facts described, from which date does TechNova Inc.'s obligation to file documents with the Registrar of Companies under Section 380 of the Companies Act, 2013 begin, and what is the deadline for compliance?",
+          "options": {
+            "A": "From March 1, 2026 (date of signing the lease); documents must be filed within 30 days, i.e., by March 31, 2026",
+            "B": "From March 15, 2026 (date the Bangalore office became operational); documents must be filed within 30 days, i.e., by April 14, 2026",
+            "C": "From March 15, 2026 (date the Bangalore office became operational); documents must be filed within 60 days, i.e., by May 14, 2026",
+            "D": "From March 1, 2026 (date of signing the lease); documents must be filed within 60 days, i.e., by April 30, 2026"
+          },
+          "correct": "B",
+          "explanation": "Section 380(1) of the Companies Act, 2013 requires a foreign company to file prescribed documents with the Registrar within 30 days of establishing a place of business in India. The place of business was established on March 15, 2026, when the Bangalore office became operational with staff and equipment — not on March 1 when the lease was merely signed (signing a lease is a preparatory step, not establishment). The deadline is therefore April 14, 2026 (30 days from March 15). The critical trap is the 60-day assumption made by TechNova's CFO — Section 380 prescribes 30 days, NOT 60 days. Students who confuse this with other filing deadlines (such as RoC annual return filing timelines) would incorrectly choose Option C. The scenario fact that the CFO assumed 60 days based on UK practice is a red herring — Indian law governs Indian compliance.",
+          "section": "Section 380(1)"
+        },
+        {
+          "id": 2,
+          "question": "TechNova Inc. maintains a virtual office in Mumbai for receiving correspondence and operates a website accessible to Indian customers for selling software licences. If TechNova had NOT leased the Bangalore office and operated ONLY through the virtual office and website, which of the following statements would be CORRECT regarding its status under the Companies Act, 2013?",
+          "options": {
+            "A": "TechNova would still be classified as a foreign company under Section 386 because selling software licences to Indian customers through a website constitutes carrying on business in India",
+            "B": "TechNova would NOT be classified as a foreign company under Section 386 because a virtual office and website alone do not constitute establishing a 'place of business' in India as contemplated by the Act",
+            "C": "TechNova would be classified as a foreign company only if its annual revenue from Indian customers exceeded ₹50 crore, which is the threshold for triggering Section 386",
+            "D": "TechNova would be classified as a foreign company because maintaining a virtual office address in India is legally equivalent to establishing a physical place of business"
+          },
+          "correct": "B",
+          "explanation": "Section 386 defines a 'foreign company' as a company incorporated outside India which has a place of business in India. The term 'place of business' requires a physical presence — a virtual office used merely for receiving correspondence and a website accessible to Indian customers do not constitute establishing a place of business in India. Without the Bangalore development centre, TechNova would not satisfy the second limb of the definition. Option A incorrectly equates 'carrying on business' (through online sales) with 'having a place of business' — these are distinct concepts. Option C fabricates a revenue threshold that does not exist in the Act. Option D incorrectly treats a virtual office as equivalent to a physical place of business. The scenario fact that TechNova had both a virtual office AND a website is the key — neither individually nor together constitute a 'place of business' without physical establishment.",
+          "section": "Section 386"
+        },
+        {
+          "id": 3,
+          "question": "Which of the following documents is TechNova Inc. NOT required to file with the Registrar under Section 380 of the Companies Act, 2013 upon establishing its place of business in India?",
+          "options": {
+            "A": "A certified copy of TechNova's charter, statutes, or memorandum and articles of association",
+            "B": "The full address of the registered or principal office of TechNova in the United States",
+            "C": "A list of the directors of TechNova Inc. including their names, addresses, and nationalities",
+            "D": "A copy of TechNova's audited consolidated financial statements for the three preceding financial years as certified by an Indian chartered accountant"
+          },
+          "correct": "D",
+          "explanation": "Section 380(1) requires a foreign company to file with the Registrar: (a) a certified copy of the charter, statutes, memorandum, articles, or other instrument constituting the company; (b) the full address of the registered or principal office; (c) a list of directors with particulars; (d) the name and address of one or more persons resident in India authorised to accept service; and (e) the full address of the office in India which is the principal place of business. Audited consolidated financial statements certified by an Indian CA are NOT part of the Section 380 filing requirements. While Section 381 deals with accounts of foreign companies, that is a separate ongoing obligation and does not require three years of retrospective statements at the time of initial filing. Options A, B, and C are all genuine requirements under Section 380. The trap is that students familiar with Indian company incorporation requirements (which involve financial documentation) may assume similar requirements apply to foreign company registration.",
+          "section": "Section 380(1)"
+        },
+        {
+          "id": 4,
+          "question": "Given that Indian citizens hold only 12% of TechNova Inc.'s total paid-up share capital, which of the following statements CORRECTLY describes the extent of applicability of the Companies Act, 2013 to TechNova?",
+          "options": {
+            "A": "Only Sections 380 to 386 and Sections 392 to 393 of the Companies Act, 2013 apply to TechNova, since Indians hold less than 50% of its paid-up share capital",
+            "B": "The entire Companies Act, 2013 applies to TechNova because it has established a physical place of business in India, regardless of its shareholding pattern",
+            "C": "Only Sections 380 to 386 apply to TechNova; Sections 392 to 393 apply only if annual turnover from Indian operations exceeds ₹100 crore",
+            "D": "No provisions of the Companies Act, 2013 apply to TechNova because it is incorporated in the United States and governed entirely by Delaware corporate law"
+          },
+          "correct": "A",
+          "explanation": "Under Section 379 of the Companies Act, 2013, Sections 380 to 386 and Sections 392 to 393 apply to ALL foreign companies that have established a place of business in India, regardless of their shareholding pattern. However, if not less than 50% of the paid-up share capital of a foreign company is held by Indian citizens or persons resident in India, the Central Government may by notification direct that ALL provisions of the Act apply to such company. Since Indians hold only 12% of TechNova's paid-up capital — far below the 50% threshold — only the limited set of provisions (Sec 380-386 and 392-393) apply automatically. Option B is incorrect because the full Act applies only when the 50% Indian shareholding condition is met, not merely because of physical presence. Option C fabricates a turnover threshold for Sections 392-393 that does not exist. The scenario fact about the 12% Indian shareholding is the determinative fact for this question.",
+          "section": "Section 379"
+        },
+        {
+          "id": 5,
+          "question": "Mr. Rajesh Iyer has been designated as TechNova Inc.'s principal officer in India. If TechNova fails to appoint a person resident in India who is authorised to accept service of process and notices on behalf of the company, which of the following consequences would apply?",
+          "options": {
+            "A": "Service of any document on any officer or employee of TechNova in India shall be deemed sufficient service on the company, and additionally, the company and every officer in default shall be liable to a penalty",
+            "B": "The Registrar of Companies shall automatically appoint a government nominee as the authorised representative, with costs recovered from TechNova",
+            "C": "TechNova's place of business in India shall be deemed to have ceased to exist, and the company must re-register under Section 380 after appointing an authorised representative",
+            "D": "Only the principal officer, Mr. Rajesh Iyer, shall be personally liable for the penalty, and the company itself is exempt from any penalty since it is a foreign entity"
+          },
+          "correct": "A",
+          "explanation": "Under Section 380, a foreign company must file with the Registrar the name and address of one or more persons resident in India who are authorised to accept service of process and notices on behalf of the company. Section 387 provides that where no such person has been appointed, service of any document on any officer or employee of the foreign company in India shall be deemed sufficient service on the company. Additionally, under Section 392, the company and every officer in default shall be liable to penalties for non-compliance with the filing requirements. Option B is incorrect — the Act does not provide for government nominees to be appointed. Option C is incorrect — failure to appoint an authorised representative does not extinguish the place of business. Option D is wrong because the penalty applies to both the company AND its officers, not just the principal officer. The scenario fact that Mr. Iyer is the principal officer is relevant but does not shield TechNova from the consequence of not filing the authorised representative's details with the Registrar.",
+          "section": "Sections 380, 387, 392"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s2",
+      "scenarioText": "GlaxoWright PLC is a pharmaceutical company incorporated in England and Wales under the UK Companies Act 2006. It established a branch office in Hyderabad, India, in 2019 to conduct clinical trials and distribute pharmaceutical products across South Asia. GlaxoWright's total issued share capital is GBP 200 million, divided into 200 million ordinary shares of GBP 1 each. Of these, 110 million shares (55%) are held by Indian citizens and persons resident in India, including Dr. Anand Mehta (holding 18%), Pinnacle Investments Pvt. Ltd., a Mumbai-based investment firm (holding 22%), and approximately 3,000 retail Indian investors collectively holding 15%. The remaining 45% is held by institutional investors based in London and New York. GlaxoWright has 9 directors on its UK board, of whom 4 are Indian citizens. The company's annual turnover from Indian operations is approximately ₹2,400 crore. In February 2026, GlaxoWright's board approved a related-party transaction worth ₹180 crore with Dr. Anand Mehta's family-owned entity, Mehta Biotech Pvt. Ltd., for supply of active pharmaceutical ingredients. The company secretary in India, Ms. Priya Sharma, raised concerns about whether Indian corporate governance provisions including related-party transaction rules under the Companies Act apply to GlaxoWright.",
+      "questions": [
+        {
+          "id": 6,
+          "question": "Given GlaxoWright PLC's shareholding pattern as described in the scenario, which of the following statements about the applicability of the Companies Act, 2013 to GlaxoWright is CORRECT?",
+          "options": {
+            "A": "Only Sections 380 to 386 and Sections 392 to 393 apply to GlaxoWright, as these are the only provisions that apply to any foreign company with a place of business in India",
+            "B": "The Central Government may, by notification in the Official Gazette, direct that ALL provisions of the Companies Act, 2013 shall apply to GlaxoWright, because not less than 50% of its paid-up share capital is held by Indian citizens or persons resident in India",
+            "C": "The entire Companies Act, 2013 automatically applies to GlaxoWright without any Central Government notification because Indian shareholders hold more than 50% of its paid-up share capital",
+            "D": "Only Sections 380 to 386 apply; Sections 392 to 393 are excluded for companies where Indian shareholding exceeds 50% because the full Act supersedes those specific sections"
+          },
+          "correct": "B",
+          "explanation": "Section 379 of the Companies Act, 2013 provides that where not less than 50% of the paid-up share capital of a foreign company is held by Indian citizens or persons resident in India, the Central Government may, by notification in the Official Gazette, direct that ALL provisions of the Act shall apply to such company. GlaxoWright has 55% Indian shareholding (Dr. Mehta 18% + Pinnacle Investments 22% + retail Indian investors 15%), which crosses the 50% threshold. However, the full Act does NOT apply automatically — it requires an affirmative notification by the Central Government. Option A is incorrect because GlaxoWright qualifies for the extended applicability provisions under Section 379 given its 55% Indian shareholding. Option C is the primary trap — students often assume that crossing the 50% threshold automatically triggers full applicability, but the Act requires a CG notification. Option D fabricates a non-existent exclusion. The 55% Indian shareholding figure from the scenario is the determinative fact.",
+          "section": "Section 379"
+        },
+        {
+          "id": 7,
+          "question": "Assuming the Central Government has issued a notification under Section 379 directing that all provisions of the Companies Act, 2013 apply to GlaxoWright PLC, which of the following statements about the related-party transaction with Mehta Biotech Pvt. Ltd. is INCORRECT?",
+          "options": {
+            "A": "The transaction would require prior approval of the Board of Directors under Section 188 of the Companies Act, 2013",
+            "B": "If the transaction exceeds the prescribed thresholds under Section 188, approval by special resolution of the members would be required, and Dr. Anand Mehta, being a related party, cannot vote on such resolution",
+            "C": "The related-party transaction provisions under Section 188 would not apply to GlaxoWright even after the notification because GlaxoWright is governed by UK company law for corporate governance matters",
+            "D": "The company must maintain a register of contracts or arrangements in which directors are interested under Section 189"
+          },
+          "correct": "C",
+          "explanation": "When the Central Government issues a notification under Section 379 directing that all provisions of the Companies Act apply to a foreign company with 50%+ Indian shareholding, ALL provisions including Section 188 (related-party transactions) and Section 189 (register of contracts) become applicable. Option C is INCORRECT and is therefore the right answer — the claim that UK company law exclusively governs GlaxoWright's corporate governance after a Section 379 notification is false. Once notified, Indian corporate governance provisions apply alongside any home country obligations. Options A, B, and D are all correct statements: Section 188 requires board approval for RPTs, a special resolution for material RPTs with the related party barred from voting, and Section 189 requires maintaining the register. The trap is that students may assume a foreign company's home country law always prevails for governance matters, which is incorrect after a Section 379 notification.",
+          "section": "Sections 379, 188, 189"
+        },
+        {
+          "id": 8,
+          "question": "Ms. Priya Sharma discovers that GlaxoWright PLC filed the documents required under Section 380 when it first established its Hyderabad branch in 2019. However, the list of directors filed at that time showed only 7 directors. Since then, 2 additional directors have been appointed to the UK board, bringing the total to 9. Under the Companies Act, 2013, what is GlaxoWright's obligation regarding this change?",
+          "options": {
+            "A": "GlaxoWright has no obligation to update the Registrar about changes in directors because the initial filing under Section 380 is a one-time requirement",
+            "B": "GlaxoWright must file a return of alteration in the list of directors with the Registrar within 30 days of the change occurring",
+            "C": "GlaxoWright must file a return of alteration in the list of directors with the Registrar within 60 days of the change occurring",
+            "D": "GlaxoWright must update the list of directors only at the time of filing its annual accounts under Section 381, and no separate filing is required"
+          },
+          "correct": "B",
+          "explanation": "Section 380(2) of the Companies Act, 2013 provides that where any alteration is made or occurs in the documents filed under Section 380(1), including any change in the directors or the principal officer or the authorised representative, the foreign company must file a return of the alteration with the Registrar within 30 days of the alteration. Since GlaxoWright's board expanded from 7 to 9 directors, this constitutes an alteration in the list of directors originally filed, requiring a fresh filing within 30 days. Option A is the primary trap — students who think Section 380 is only an initial one-time filing obligation are incorrect. Option C uses 60 days, which students may confuse with other filing deadlines. Option D incorrectly ties the director update to the annual accounts filing cycle. The scenario fact that 2 new directors were appointed after the original filing is the determinative fact.",
+          "section": "Section 380(2)"
+        },
+        {
+          "id": 9,
+          "question": "If Pinnacle Investments Pvt. Ltd. (holding 22% of GlaxoWright's shares) sells its entire shareholding to a London-based hedge fund, reducing Indian shareholding from 55% to 33%, which of the following consequences would follow?",
+          "options": {
+            "A": "The Central Government notification under Section 379 directing full Act applicability would automatically cease to operate from the date Indian shareholding fell below 50%",
+            "B": "The Central Government would need to issue a fresh notification revoking the earlier notification, and until revoked, the full Act continues to apply to GlaxoWright",
+            "C": "The change in shareholding has no impact because once a Section 379 notification is issued, it applies permanently and irrevocably to the foreign company",
+            "D": "GlaxoWright would immediately revert to being governed only by Sections 380-386 and 392-393 without any notification, because the statutory condition precedent no longer exists"
+          },
+          "correct": "B",
+          "explanation": "Section 379 empowers the Central Government to issue a notification directing full applicability when 50%+ shareholding is Indian. When the underlying condition (50%+ Indian shareholding) ceases to exist due to Pinnacle's sale bringing Indian holding to 33%, the Central Government would need to take affirmative action to revoke or modify the notification. Until such revocation, the existing notification remains in force — government notifications under the Companies Act do not self-destruct upon change of underlying facts. Option A is the primary trap — students may assume automatic cessation, but administrative notifications require formal revocation. Option C is also incorrect because a notification is not permanent and irrevocable — the CG retains the power to revoke it. Option D incorrectly assumes automatic reversion. The scenario fact that Pinnacle holds 22% and its sale drops Indian holding to 33% (below 50%) is the determinative fact requiring analysis of whether the notification continues.",
+          "section": "Section 379"
+        },
+        {
+          "id": 10,
+          "question": "GlaxoWright PLC's annual turnover from Indian operations is approximately ₹2,400 crore. Ms. Priya Sharma wants to determine whether GlaxoWright is required to prepare and file financial statements relating to its Indian business operations. Which of the following correctly states the position under the Companies Act, 2013?",
+          "options": {
+            "A": "GlaxoWright must prepare a financial statement of its Indian business operations in the prescribed form and file it with the Registrar under Section 381, irrespective of its turnover or shareholding pattern",
+            "B": "GlaxoWright must prepare and file Indian financial statements only if its Indian turnover exceeds ₹500 crore, as Section 381 applies only to large foreign companies",
+            "C": "GlaxoWright is exempt from filing Indian financial statements because it already files consolidated global accounts with the UK Companies House, and the principle of comity prevents double reporting",
+            "D": "GlaxoWright must file Indian financial statements only if the Central Government has issued a Section 379 notification applying the full Act; otherwise, Section 381 does not apply"
+          },
+          "correct": "A",
+          "explanation": "Section 381 of the Companies Act, 2013 requires every foreign company to prepare, in such form as may be prescribed, a financial statement of its Indian business operations and file it with the Registrar. This obligation applies to ALL foreign companies with a place of business in India — Section 381 falls within Sections 380-386, which apply universally to foreign companies regardless of Indian shareholding or turnover. There is no turnover threshold for this obligation. Option B fabricates a ₹500 crore threshold that does not exist. Option C incorrectly invokes comity — Indian law requires separate Indian operations accounts regardless of global filings. Option D is the most tempting trap — students may think Section 381 needs a Section 379 notification, but since Section 381 falls within Sections 380-386, it applies automatically to all foreign companies. The scenario mentions ₹2,400 crore turnover as a red herring — the obligation exists regardless of this figure.",
+          "section": "Section 381"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s3",
+      "scenarioText": "Sakura Motors Co. Ltd. is a Japanese automobile manufacturer incorporated under the Companies Act of Japan, with its registered office in Osaka. In August 2025, Sakura Motors won a contract from the National Highways Authority of India (NHAI) to supply specialised road-building equipment for a 4-year highway construction project connecting Nagpur to Mumbai (the 'Samruddhi Mahamarg Extension'). To execute this contract, Sakura Motors established a project office in Pune on September 1, 2025, with Mr. Takeshi Yamamoto appointed as the project head. The project office employs 45 Indian engineers and 8 Japanese technical experts. All of Sakura Motors' share capital is held by Japanese institutional investors and the founding Sakura family — no Indian citizen holds any shares. The project office has its own dedicated bank account with State Bank of India, Pune branch, through which all project-related payments flow. In March 2026, the highway project is substantially completed, and NHAI issues a completion certificate. However, Sakura Motors retains the Pune project office for 'warranty and defect liability' purposes, keeping a skeleton staff of 5 persons. The company's Japanese auditors prepared global consolidated accounts but did not separately prepare financial statements for Indian operations. Mr. Yamamoto, who was the sole person authorised to accept service of documents on behalf of Sakura Motors in India, returned to Japan in April 2026 without any replacement being designated.",
+      "questions": [
+        {
+          "id": 11,
+          "question": "Does Sakura Motors Co. Ltd.'s project office in Pune constitute a 'place of business' in India under Section 386 of the Companies Act, 2013, thereby making Sakura Motors a 'foreign company'?",
+          "options": {
+            "A": "No — a project office established for a specific, time-bound contract does not constitute a 'place of business' because it is temporary in nature and lacks permanence",
+            "B": "Yes — a project office with physical premises, employees, and a dedicated bank account in India constitutes a 'place of business' in India, regardless of whether it is temporary or permanent",
+            "C": "No — a project office constitutes a 'place of business' only if it generates annual revenue exceeding ₹10 crore from Indian operations",
+            "D": "Yes — but only because the project office employs Indian citizens; if it had employed only Japanese nationals, it would not constitute a 'place of business'"
+          },
+          "correct": "B",
+          "explanation": "Under Section 386 of the Companies Act, 2013, a 'foreign company' is one incorporated outside India that has a place of business in India. A project office with physical premises in Pune, 53 employees (45 Indian + 8 Japanese), and a dedicated SBI bank account clearly establishes a physical presence constituting a 'place of business.' The Act does not distinguish between permanent establishments and temporary project offices — any physical presence with business activity qualifies. Option A is the primary trap — students may import the Income Tax Act concept of 'permanent establishment' and assume temporary offices are excluded, but Section 386 makes no such distinction. Option C fabricates a revenue threshold. Option D incorrectly suggests that the nationality of employees determines whether a place of business exists. The scenario facts about the physical premises, dedicated bank account, and employees are collectively determinative.",
+          "section": "Section 386"
+        },
+        {
+          "id": 12,
+          "question": "After the highway project is substantially completed and NHAI issues a completion certificate in March 2026, Sakura Motors retains the Pune project office with a skeleton staff of 5 persons for warranty and defect liability purposes. Which of the following statements about Sakura Motors' continuing obligations under the Companies Act, 2013 is CORRECT?",
+          "options": {
+            "A": "Sakura Motors' obligations under Sections 380-386 cease immediately upon NHAI issuing the completion certificate because the substantive project for which the office was established is complete",
+            "B": "Sakura Motors' obligations continue as long as the project office physically exists in India with any staff, regardless of the nature or scale of operations being conducted",
+            "C": "Sakura Motors' obligations continue only if the skeleton staff of 5 persons exceeds the prescribed minimum of 3 employees required to constitute a 'place of business'",
+            "D": "Sakura Motors must file a fresh set of documents under Section 380 specifically for the warranty phase, treating it as a new establishment of a place of business"
+          },
+          "correct": "B",
+          "explanation": "As long as Sakura Motors maintains a physical place of business in India — even with a skeleton staff of 5 persons for warranty purposes — it remains a 'foreign company' under Section 386 and all obligations under Sections 380-386 continue to apply. The nature of the work (warranty/defect liability vs active construction) or the scale of operations is irrelevant — what matters is the continued physical presence. Option A is the primary trap — students may assume that completion of the original project terminates the obligations, but the Act looks at whether a place of business EXISTS, not why it exists. Option C fabricates a minimum employee threshold that does not exist in the Act. Option D is incorrect because the warranty operations are a continuation of the existing place of business, not a new establishment. The scenario fact that the office is retained with skeleton staff for warranty purposes is the key — the place of business has not been closed.",
+          "section": "Sections 380-386"
+        },
+        {
+          "id": 13,
+          "question": "Sakura Motors Co. Ltd.'s Japanese auditors prepared global consolidated accounts but did NOT separately prepare financial statements for the company's Indian operations. Which of the following describes the legal position regarding this omission?",
+          "options": {
+            "A": "This is permissible — a foreign company may file its global consolidated accounts with the Registrar in lieu of separate Indian financial statements under Section 381",
+            "B": "This is a violation of Section 381 — every foreign company must prepare a financial statement of its Indian business operations in the prescribed form, and global consolidated accounts do not fulfil this obligation",
+            "C": "This is permissible only if the Japanese auditors' report specifically identifies and segregates the Indian revenue and expenditure within the consolidated accounts",
+            "D": "This is permissible because Section 381 applies only to foreign companies with more than 50% Indian shareholding, and Sakura Motors has zero Indian shareholders"
+          },
+          "correct": "B",
+          "explanation": "Section 381 of the Companies Act, 2013 requires every foreign company to prepare a financial statement of its Indian business operations in such form as may be prescribed and file it with the Registrar. This is an independent obligation — global consolidated accounts prepared by Japanese auditors do not substitute for the prescribed Indian financial statement. Option A is the primary trap — students may assume consolidated accounts suffice, but the Act requires a separate India-specific statement. Option C incorrectly suggests that segregation within consolidated accounts satisfies the requirement. Option D is the second trap — Section 381 falls within Sections 380-386, which apply to ALL foreign companies regardless of Indian shareholding; the 50% threshold under Section 379 is relevant for the FULL Act, not for Sections 380-386 which apply universally. The scenario fact that no Indian shareholders exist is a red herring for this question.",
+          "section": "Section 381"
+        },
+        {
+          "id": 14,
+          "question": "Mr. Takeshi Yamamoto, who was the sole person authorised to accept service of documents on behalf of Sakura Motors in India, returned to Japan in April 2026 without any replacement being designated. If the Registrar of Companies needs to serve a notice on Sakura Motors after Mr. Yamamoto's departure, which of the following correctly states the legal position?",
+          "options": {
+            "A": "The Registrar cannot serve any notice on Sakura Motors until the company designates a new authorised representative, and all compliance deadlines are suspended in the interim",
+            "B": "Service of the notice on any employee of Sakura Motors remaining at the Pune project office shall be deemed sufficient service on the company under Section 387",
+            "C": "The Registrar must send the notice to Sakura Motors' registered office in Osaka, Japan, through diplomatic channels, as no valid Indian representative exists",
+            "D": "The notice must be served exclusively on the Indian engineers since they are Indian citizens, and service on the Japanese technical staff would not constitute valid service"
+          },
+          "correct": "B",
+          "explanation": "Section 387 of the Companies Act, 2013 provides that where a foreign company has not complied with the requirement to appoint a person resident in India authorised to accept service (or where the authorised person is no longer available), service of any document on any officer or employee of the company at its place of business in India shall be deemed sufficient service on the company. Since Mr. Yamamoto left without a replacement being designated, service on any of the 5 remaining skeleton staff at the Pune office would be valid. Option A is the primary trap — the law does NOT suspend service or compliance deadlines; it provides an alternative service mechanism. Option C incorrectly suggests diplomatic channels are required. Option D incorrectly limits valid service to Indian citizens — Section 387 refers to 'any officer or employee,' regardless of nationality. The scenario fact that Mr. Yamamoto was the SOLE authorised person and left without a replacement is the determinative fact.",
+          "section": "Section 387"
+        },
+        {
+          "id": 15,
+          "question": "Sakura Motors wants to formally close its Pune project office and cease all operations in India after the warranty period ends. Which of the following steps must Sakura Motors take under the Companies Act, 2013 to properly effect this closure?",
+          "options": {
+            "A": "Simply vacating the premises and terminating all employees is sufficient — no filing with the Registrar is required since the place of business automatically ceases to exist when operations stop",
+            "B": "Sakura Motors must give notice to the Registrar of Companies of its intention to close within 30 days of the closure, and the Registrar shall strike off the company's name from the register of foreign companies",
+            "C": "Sakura Motors must obtain prior approval from the National Company Law Tribunal before closing its Indian operations, failing which the closure is void",
+            "D": "Sakura Motors must file a notice of cessation of its place of business in India with the Registrar, and the Registrar shall remove the name of the company from the register maintained under Section 391"
+          },
+          "correct": "D",
+          "explanation": "Under Section 391 of the Companies Act, 2013, the Registrar is required to maintain a register of documents filed by foreign companies. When a foreign company ceases to have a place of business in India, it must file notice of cessation with the Registrar, who then removes the company's name from this register. Option A is the most dangerous trap — students may assume that physically closing the office is sufficient, but formal notification to the Registrar is mandatory. Option B is partially correct about notifying the Registrar but incorrectly uses the term 'strike off,' which is a concept applicable to Indian companies under Section 248, not to foreign companies ceasing their place of business. Option C incorrectly requires NCLT approval — no such requirement exists for closure of a foreign company's place of business. The scenario fact about formal closure after warranty completion is the context that drives this procedural question.",
+          "section": "Section 391"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s4",
+      "scenarioText": "Straits Capital Pte. Ltd. is a non-banking financial company incorporated in Singapore under the Singapore Companies Act. In 2022, Straits Capital established a branch office in Mumbai's Bandra Kurla Complex to provide cross-border lending and advisory services to Indian infrastructure companies. Mr. Vincent Tan, a Singaporean citizen, serves as the branch manager, while Ms. Deepa Nair, an Indian citizen and chartered accountant, is the designated principal officer and authorised representative for service of documents. Straits Capital's issued share capital is SGD 80 million, of which 38% is held by Indian-origin persons who are Singapore permanent residents. In January 2026, Straits Capital decided to issue secured debentures worth ₹500 crore to Indian institutional investors through its Mumbai branch to fund an infrastructure lending programme. The company displayed its name on the Mumbai office premises as 'Straits Capital — BKC Branch' without mentioning the country of incorporation or the word 'Limited.' The debenture prospectus described Straits Capital as a 'Singapore-based financial institution' without further corporate identification details. On March 1, 2026, the Reserve Bank of India sent an inspection notice to the Mumbai branch, but Mr. Vincent Tan refused to accept the notice, stating that only the head office in Singapore could receive regulatory communications. Meanwhile, the branch had not filed any alteration returns since 2022 despite changes in its Singapore board composition.",
+      "questions": [
+        {
+          "id": 16,
+          "question": "Regarding the display of Straits Capital's name on its Mumbai office premises as 'Straits Capital — BKC Branch' without mentioning the country of incorporation, which of the following statements is CORRECT under the Companies Act, 2013?",
+          "options": {
+            "A": "The display is compliant because foreign companies are only required to display their name; mentioning the country of incorporation is optional",
+            "B": "Under Section 382, every foreign company must conspicuously display outside every office or place of business in India the name of the company and the country in which it is incorporated, in legible characters — Straits Capital's display is therefore non-compliant",
+            "C": "The display is compliant as long as the company's Singapore registration number is mentioned alongside the name, even if the country is not mentioned",
+            "D": "Section 382 requirements apply only to foreign companies with Indian shareholding exceeding 25%, and since Straits Capital has 38% Indian-origin shareholding, the provision applies but would not apply if the holding were below 25%"
+          },
+          "correct": "B",
+          "explanation": "Section 382 of the Companies Act, 2013 requires every foreign company to conspicuously exhibit on the outside of every office or place where it carries on business in India: (a) the name of the company, and (b) the country in which it is incorporated, in legible letters. Straits Capital's display of 'Straits Capital — BKC Branch' omits the country of incorporation (Singapore), making it non-compliant with Section 382. Option A is the primary trap — mentioning the country of incorporation is MANDATORY, not optional. Option C fabricates a registration number alternative that the Act does not provide. Option D invents a 25% shareholding threshold for Section 382 applicability that does not exist — Section 382 falls within Sections 380-386 and applies to ALL foreign companies. The scenario fact that the display omits 'Singapore' or the country of incorporation is the determinative fact.",
+          "section": "Section 382"
+        },
+        {
+          "id": 17,
+          "question": "Straits Capital Pte. Ltd. plans to issue secured debentures worth ₹500 crore to Indian institutional investors through its Mumbai branch. Considering the provisions applicable to foreign companies issuing debentures in India, which of the following statements is CORRECT?",
+          "options": {
+            "A": "Section 384 of the Companies Act, 2013 extends the provisions relating to issue and registration of debentures to foreign companies, meaning Straits Capital must comply with the same debenture regulations as Indian companies",
+            "B": "Foreign companies are completely exempt from Indian debenture regulations because debentures issued by them are governed exclusively by the laws of the country of incorporation",
+            "C": "Section 384 applies only if the debentures are issued to retail Indian investors; institutional investors are governed by separate SEBI regulations that override the Companies Act provisions",
+            "D": "Foreign companies can issue debentures in India only after obtaining prior approval from the National Company Law Tribunal under Section 384"
+          },
+          "correct": "A",
+          "explanation": "Section 384 of the Companies Act, 2013 provides that the provisions of Part A of Chapter III (which deals with prospectus and allotment of securities, including debentures) apply to a foreign company issuing Indian Depository Receipts or offering for sale any existing securities through a prospectus or letter of offer, and the provisions relating to registration and satisfaction of charges under Chapter VI apply to foreign companies. Straits Capital must comply with these requirements for its ₹500 crore debenture issue. Option B is the primary trap — students may assume foreign incorporation exempts from Indian regulations, but Section 384 specifically extends debenture-related provisions to foreign companies. Option C incorrectly creates a retail/institutional distinction that does not exist in Section 384. Option D fabricates an NCLT approval requirement. The scenario fact about the ₹500 crore debenture issue to Indian institutional investors is the determinative context.",
+          "section": "Section 384"
+        },
+        {
+          "id": 18,
+          "question": "The Indian-origin persons holding 38% of Straits Capital's share capital are Singapore permanent residents, not Indian citizens. Based on this fact, which of the following statements about the applicability of the full Companies Act, 2013 to Straits Capital is CORRECT?",
+          "options": {
+            "A": "The full Companies Act applies because the 38% Indian-origin shareholding exceeds the 25% threshold required under Section 379 for extended applicability",
+            "B": "The full Companies Act may apply because Section 379 includes 'persons resident in India' within the 50% threshold, and Singapore permanent residents of Indian origin may qualify as persons resident in India if they satisfy the FEMA residency test",
+            "C": "The full Companies Act does NOT apply because Section 379 requires 50% of paid-up share capital to be held by 'Indian citizens or persons resident in India' — Singapore permanent residents of Indian origin who are not Indian citizens and do not reside in India do not satisfy either condition",
+            "D": "The full Companies Act applies automatically to all foreign NBFCs operating in India regardless of their shareholding pattern under a special dispensation for financial institutions"
+          },
+          "correct": "C",
+          "explanation": "Section 379 of the Companies Act, 2013 provides for full Act applicability when not less than 50% of paid-up share capital is held by 'Indian citizens or persons resident in India.' The 38% is held by Indian-origin persons who are Singapore permanent residents — they are neither Indian citizens (they hold Singapore PR, and the scenario does not state they hold Indian citizenship) nor persons resident in India (they reside in Singapore). Therefore, even the 38% cannot be counted toward the 50% threshold. Option A is the primary trap — it fabricates a 25% threshold that does not exist. Option B is a sophisticated trap — it suggests the FEMA residency test could be applied, but the persons described are Singapore permanent residents who reside in Singapore, not in India. Option D fabricates a special NBFC dispensation that does not exist. The scenario fact that the shareholders are 'Indian-origin persons who are Singapore permanent residents' (not Indian citizens residing in India) is the determinative fact.",
+          "section": "Section 379"
+        },
+        {
+          "id": 19,
+          "question": "Mr. Vincent Tan refused to accept the RBI inspection notice, stating that only the head office in Singapore could receive regulatory communications. Based on the facts described, which of the following statements is CORRECT?",
+          "options": {
+            "A": "Mr. Tan's position is legally correct — a branch manager has no authority to accept regulatory communications on behalf of a foreign company; only the head office can be served",
+            "B": "Mr. Tan's refusal is irrelevant because Ms. Deepa Nair, the designated authorised representative under Section 380, is the proper person for service of documents, and service on her would be valid and sufficient",
+            "C": "The RBI must serve the notice through the Indian Embassy in Singapore to validly serve Straits Capital because the branch office cannot accept service for the parent company",
+            "D": "The notice is invalid because the RBI does not have jurisdiction over foreign companies under the Companies Act, 2013; only the Registrar of Companies can send notices to foreign companies"
+          },
+          "correct": "B",
+          "explanation": "Under Section 380(1)(d), every foreign company must file with the Registrar the name and address of one or more persons resident in India authorised to accept service of process and notices on behalf of the company. Ms. Deepa Nair has been designated as this authorised representative. Service of documents on her would constitute valid service on Straits Capital. Mr. Tan's refusal does not affect the validity of service if the notice is served on Ms. Nair. Furthermore, under Section 387, even if no authorised representative were available, service on any officer or employee at the Indian office would suffice. Option A incorrectly validates Mr. Tan's position. Option C incorrectly suggests diplomatic channels are required. Option D incorrectly limits the entities that can serve notices — various regulators including RBI can send communications, and Section 387 provides the mechanism for service. The scenario fact that Ms. Nair is the designated authorised representative is the determinative fact.",
+          "section": "Sections 380(1)(d), 387"
+        },
+        {
+          "id": 20,
+          "question": "The scenario states that Straits Capital's Mumbai branch has not filed any alteration returns since 2022 despite changes in its Singapore board composition. Which of the following correctly describes BOTH the obligation violated AND the potential penalty?",
+          "options": {
+            "A": "Obligation: file alteration returns within 60 days of each change under Section 380(2); Penalty: fine up to ₹50,000 only on the principal officer",
+            "B": "Obligation: file alteration returns within 30 days of each change under Section 380(2); Penalty: fine between ₹1 lakh and ₹3 lakh on the company, and every officer in default liable to fine between ₹50,000 and ₹5 lakh",
+            "C": "Obligation: file alteration returns at the time of annual accounts filing under Section 381; Penalty: no separate penalty since this is subsumed within the accounts filing obligation",
+            "D": "Obligation: file alteration returns within 30 days under Section 380(2); Penalty: a fixed fine of ₹10,000 per alteration not filed, with no continuing default penalty"
+          },
+          "correct": "B",
+          "explanation": "Section 380(2) requires filing alteration returns within 30 days of the change occurring. Section 392 prescribes penalties for non-compliance with the provisions applicable to foreign companies: the company shall be punishable with a fine not less than ₹1 lakh but which may extend to ₹3 lakh, and every officer of the company who is in default shall be punishable with a fine not less than ₹50,000 but which may extend to ₹5 lakh. Option A uses 60 days (incorrect — it is 30 days) and understates the penalty. Option C incorrectly links alteration returns to the annual accounts filing cycle. Option D invents a per-alteration fine structure that does not exist. The scenario fact that changes in Singapore board composition occurred but no alteration returns were filed is the determinative fact. The 30-day deadline (not 60 days) is a key trap — students who confuse this with other filing deadlines will select Option A.",
+          "section": "Sections 380(2), 392"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s5",
+      "scenarioText": "Muller Kraftwerk GmbH (hereinafter 'Muller') is a German engineering company incorporated in Frankfurt under the German Commercial Code (HGB). Muller specialises in industrial turbine manufacturing and has clients across Asia. In 2024, Muller began supplying turbines to three Indian power plants through a series of long-term supply contracts. All negotiations were conducted remotely via video conferences from Frankfurt, and the contracts were signed electronically. Muller maintained no office, warehouse, or employees in India. Deliveries were made on a CIF (Cost, Insurance, and Freight) basis to Indian ports, with installation performed by an independent Indian contractor, PowerBuild Engineering Pvt. Ltd., which had no equity or governance relationship with Muller. In November 2025, Muller decided to establish a liaison office in Chennai for market research and to explore setting up a manufacturing facility. Mr. Hans Weber, a German national, was sent to India on a business visa to manage the liaison office, which was staffed with 3 Indian employees. The liaison office commenced operations on December 1, 2025. However, Muller did not file any documents with the Registrar of Companies, believing that a liaison office established solely for communication and market research purposes was exempt from the Companies Act, 2013. By February 2026, the MCA issued a show-cause notice to Muller alleging non-compliance with Section 380. Muller's German lawyers argued that (a) the pre-November 2025 supply activities without any Indian presence did not trigger any obligation, and (b) the liaison office was not a 'place of business' within the meaning of the Act because it did not carry on any commercial or trading activity in India.",
+          "questions": [
+        {
+          "id": 21,
+          "question": "Regarding Muller's turbine supply activities BEFORE establishing the Chennai liaison office (i.e., remote negotiations from Frankfurt, electronic contracts, CIF deliveries, and installation by an independent Indian contractor), which of the following statements is CORRECT?",
+          "options": {
+            "A": "These activities made Muller a 'foreign company' under Section 386 because it was carrying on business in India through the supply contracts, even without a physical presence",
+            "B": "These activities did NOT make Muller a 'foreign company' under Section 386 because Muller had no place of business in India — all activities were conducted from Frankfurt, and the independent contractor's presence cannot be attributed to Muller",
+            "C": "These activities made Muller a 'foreign company' only if the cumulative value of supply contracts exceeded ₹100 crore in a financial year, which is the threshold for Section 386 to apply",
+            "D": "These activities made Muller a 'foreign company' because CIF delivery terms mean that Muller retained control of goods until they reached Indian ports, creating a constructive 'place of business'"
+          },
+          "correct": "B",
+          "explanation": "Section 386 defines a 'foreign company' as one incorporated outside India which HAS A PLACE OF BUSINESS in India. The definition requires a physical 'place of business' — not merely carrying on business activities directed at India. Before November 2025, Muller had no office, warehouse, employees, or any physical establishment in India. Negotiations were remote, contracts electronic, deliveries CIF, and installation performed by an independent contractor (PowerBuild) with no equity or governance relationship with Muller. None of these activities establish a 'place of business.' Option A is the primary trap — students may confuse 'carrying on business in India' (a broader concept relevant to taxation) with 'having a place of business in India' (the specific requirement of Section 386). Option C fabricates a monetary threshold. Option D incorrectly interprets CIF terms as creating a constructive place of business. The scenario facts about the absence of any physical presence in India before November 2025 are collectively determinative.",
+          "section": "Section 386"
+        },
+        {
+          "id": 22,
+          "question": "Muller's German lawyers argue that the Chennai liaison office is NOT a 'place of business' under the Companies Act, 2013 because it conducts only communication and market research — no commercial or trading activity. Which of the following CORRECTLY evaluates this argument?",
+          "options": {
+            "A": "The argument is legally correct — Section 386 requires that the place of business must engage in commercial or trading activities; a liaison office for market research and communication is explicitly exempted",
+            "B": "The argument is legally incorrect — the Companies Act, 2013 does not restrict the definition of 'place of business' to offices engaged in commercial or trading activities; a liaison office with physical premises and employees in India constitutes a place of business regardless of the nature of activities conducted",
+            "C": "The argument is legally correct because the Reserve Bank of India's guidelines for liaison offices specifically exclude them from the definition of 'foreign company' under the Companies Act",
+            "D": "The argument is legally correct only if Muller can demonstrate that the liaison office's annual expenditure in India is below ₹50 lakh, which is the de minimis threshold for a 'place of business'"
+          },
+          "correct": "B",
+          "explanation": "The Companies Act, 2013 does not define 'place of business' narrowly to include only commercial or trading establishments. A liaison office with a physical premises in Chennai staffed with 3 Indian employees and managed by Mr. Hans Weber constitutes a physical place of business in India, regardless of whether its activities are limited to market research and communication. Muller's German lawyers' argument conflates the nature of activities with the existence of a physical presence. Option A is the primary trap — there is no explicit exemption for liaison offices in Section 386. Option C incorrectly claims that RBI guidelines can override the Companies Act definition — RBI approval for establishing a liaison office is a separate regulatory requirement under FEMA and does not affect Companies Act obligations. Option D fabricates a de minimis expenditure threshold. The scenario fact that the liaison office has physical premises, 3 employees, and a manager physically present in India is determinative — this is a 'place of business' regardless of the activities conducted.",
+          "section": "Section 386"
+        },
+        {
+          "id": 23,
+          "question": "The MCA issued a show-cause notice to Muller on or around February 2026, alleging non-compliance with Section 380. The Chennai liaison office commenced operations on December 1, 2025. Which of the following CORRECTLY states Muller's position regarding the Section 380 filing deadline?",
+          "options": {
+            "A": "Muller should have filed within 30 days of December 1, 2025 (i.e., by December 31, 2025), and is therefore in default since February 2026 is well past the deadline",
+            "B": "Muller had 60 days from December 1, 2025 (i.e., until January 30, 2026) to file, and the show-cause notice in February 2026 is premature if Muller filed by January 30",
+            "C": "Muller had 90 days from December 1, 2025 (i.e., until March 1, 2026) because the Companies Act provides an extended timeline for liaison offices compared to branch offices",
+            "D": "No filing deadline has been triggered because Muller first needs to obtain RBI approval for the liaison office, and the Section 380 filing obligation begins only after RBI approval is obtained"
+          },
+          "correct": "A",
+          "explanation": "Section 380(1) requires a foreign company to file the prescribed documents with the Registrar within 30 days of establishing a place of business in India. The Chennai liaison office commenced operations on December 1, 2025, so the filing deadline was December 31, 2025. By February 2026, Muller is approximately 2 months past the deadline and clearly in default. Option B uses 60 days — a common confusion with other filing timelines under the Act. Option C fabricates a 90-day extended timeline for liaison offices that does not exist — all types of offices (branch, liaison, project) are subject to the same 30-day deadline. Option D incorrectly suggests that RBI approval is a precondition for the Section 380 filing obligation — while RBI approval may be separately required under FEMA for establishing a liaison office, the Companies Act filing obligation runs independently from the date of establishment. The scenario fact that the office commenced on December 1, 2025 and no filing was made is determinative.",
+          "section": "Section 380(1)"
+        },
+        {
+          "id": 24,
+          "question": "Assuming Muller is found in default under Section 380 for failing to file documents within the prescribed period, which of the following CORRECTLY describes the penalty framework applicable to Muller and its officers?",
+          "options": {
+            "A": "Muller is liable to a one-time fine of ₹50,000, and Mr. Hans Weber as the person in charge is liable to a fine of ₹25,000; no continuing default penalty applies",
+            "B": "Muller is liable to a fine not less than ₹1 lakh but which may extend to ₹3 lakh, and every officer in default is liable to a fine not less than ₹50,000 but which may extend to ₹5 lakh; if the default continues, a further fine of up to ₹50,000 per day may apply during the period of continuing default",
+            "C": "Only Mr. Hans Weber is personally liable for the penalty since he is the person managing the Indian office; the company itself cannot be penalised because it is a foreign entity outside Indian jurisdiction",
+            "D": "Muller is liable to a fine of up to ₹10 lakh with no minimum, and officers in default are liable to imprisonment for up to 6 months; no continuing default penalty applies"
+          },
+          "correct": "B",
+          "explanation": "Section 392 of the Companies Act, 2013 prescribes the penalty for non-compliance by foreign companies with the provisions of Sections 380-386 and 392-393. The company is punishable with a fine not less than ₹1 lakh but which may extend to ₹3 lakh, and every officer in default is punishable with a fine not less than ₹50,000 but which may extend to ₹5 lakh. For continuing default, a further fine of up to ₹50,000 per day may be imposed during the period the default continues. Option A significantly understates the penalty amounts and omits the continuing default provision. Option C is incorrect — Indian law can penalise foreign companies that have established a place of business in India; their foreign incorporation does not provide immunity. Option D overstates the company fine, incorrectly removes the minimum threshold, and fabricates an imprisonment provision. The scenario context of Muller's prolonged non-compliance (December 2025 to February 2026) makes the continuing default penalty particularly relevant.",
+          "section": "Section 392"
+        },
+        {
+          "id": 25,
+          "question": "Muller is now considering three options: (i) closing the Chennai liaison office and returning to purely remote supply activities from Frankfurt, (ii) upgrading the liaison office to a full branch office with commercial operations, or (iii) incorporating a wholly owned subsidiary in India. Which of the following statements about the regulatory implications of these options is INCORRECT?",
+          "options": {
+            "A": "If Muller closes the Chennai office and reverts to remote-only operations, it would cease to be a 'foreign company' under Section 386, and its obligations under Sections 380-386 would not apply going forward — though it must still file notice of cessation and clear any existing defaults and penalties",
+            "B": "If Muller upgrades to a full branch office, it remains a 'foreign company' under the Companies Act and must continue to comply with Sections 380-386; the change in the nature of activities must be intimated to the Registrar as an alteration under Section 380(2) within 30 days",
+            "C": "If Muller incorporates a wholly owned subsidiary in India, the subsidiary would be an Indian company governed by the FULL Companies Act, 2013, and Muller as the foreign holding company would also automatically become subject to the full Companies Act by virtue of holding 100% of an Indian company",
+            "D": "If Muller incorporates a wholly owned subsidiary and simultaneously closes the Chennai liaison office, Muller itself would no longer be a 'foreign company' under Section 386 (as it would have no place of business in India), though the Indian subsidiary would be fully regulated under the Companies Act"
+          },
+          "correct": "C",
+          "explanation": "Option C is INCORRECT and is therefore the right answer. Incorporating a wholly owned subsidiary in India does NOT make the foreign parent company subject to the full Companies Act. The Indian subsidiary is a separate legal entity — an Indian company governed by the full Act. Muller as the foreign holding company would be subject to the full Act only if: (a) it has a place of business in India AND (b) the Central Government issues a notification under Section 379 because 50%+ of Muller's (not the subsidiary's) paid-up share capital is held by Indian citizens/residents. Holding shares in an Indian subsidiary does not equate to Indian citizens holding shares in Muller. Option A is correct — ceasing physical presence removes Section 386 status, though existing defaults must be remedied. Option B is correct — upgrading from liaison to branch requires alteration intimation within 30 days. Option D is correct — if the liaison office closes, Muller loses its 'place of business' in India. The trap is that students may confuse the subsidiary's Indian incorporation with the parent's regulatory status.",
+          "section": "Sections 379, 386"
+        }
+      ]
+    }
+  ]
+}

@@ -127,7 +127,7 @@
       "totalMarks": 50,
       "passMarks": 25,
       "duration": 45,
-      "available": false,
+      "available": true,
       "keySections": ["Sec 379", "Sec 380", "Sec 381", "Sec 382", "Sec 383", "Sec 384", "Sec 385", "Sec 386", "Sec 387", "Sec 388", "Sec 389", "Sec 390"]
     },
     {
