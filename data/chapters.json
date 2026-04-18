@@ -166,7 +166,7 @@
       "totalMarks": 50,
       "passMarks": 25,
       "duration": 45,
-      "available": false,
+      "available": true,
       "keySections": ["Sec 11", "Sec 11A", "Sec 11B", "Sec 11C", "Sec 11D", "Sec 12", "Sec 14", "Sec 15", "Sec 15A", "Sec 15G", "Sec 15H", "Sec 15I", "Sec 15J", "Sec 15Z"]
     },
     {
