@@ -179,7 +179,7 @@
       "totalMarks": 50,
       "passMarks": 25,
       "duration": 45,
-      "available": false,
+      "available": true,
       "keySections": ["Reg 4", "Reg 16", "Reg 17", "Reg 18", "Reg 19", "Reg 20", "Reg 21", "Reg 22", "Reg 23", "Reg 24", "Reg 25", "Reg 26", "Reg 27", "Reg 28", "Reg 29", "Reg 30", "Reg 31", "Reg 32", "Reg 33", "Reg 34"]
     },
     {
