@@ -1,0 +1,718 @@
+{
+  "chapterId": "el-fema",
+  "chapterName": "Foreign Exchange Management Act (FEMA), 1999",
+  "law": "Economic Laws",
+  "category": "economic-laws",
+  "scenarios": [
+    {
+      "scenarioId": "s1",
+      "scenarioText": "Mr. Raghav Menon, an Indian citizen employed with a multinational bank in Mumbai, was deputed to the bank's Singapore branch on 1st October 2024. He stayed in India from 1st April 2024 to 30th September 2024 (183 days) during FY 2024-25 and then moved to Singapore where he stayed for the remainder of FY 2024-25. During FY 2025-26, he visited India only for 45 days (during Diwali and Christmas holidays). While in Singapore, Mr. Menon continued to receive his Indian salary in his NRO account, purchased shares of an Indian listed company through his existing demat account, remitted USD 180,000 to his wife Mrs. Ananya Menon (who remained in India throughout) for household expenses, and also acquired a residential flat in Singapore worth SGD 500,000 using his overseas earnings. Mrs. Ananya Menon, using the funds received from her husband plus her own savings, invested ₹25 lakh in a fixed deposit with a cooperative bank and also gifted ₹8 lakh to her brother-in-law Mr. Sanjay Menon who is a person resident outside India settled in the UK.",
+      "questions": [
+        {
+          "id": 1,
+          "question": "For the purpose of FEMA, what is Mr. Raghav Menon's residential status during FY 2025-26, given that he stayed in India for only 45 days during that year but had stayed 183 days in India during the preceding FY 2024-25?",
+          "options": {
+            "A": "Person Resident in India, because he stayed in India for more than 182 days in the preceding financial year (FY 2024-25)",
+            "B": "Person Resident Outside India, because he stayed in India for only 45 days in FY 2025-26 and his intention is to reside outside India",
+            "C": "Person Resident in India, because FEMA determines residential status based on the current financial year, and 183 days in FY 2024-25 makes him resident for FY 2024-25 as well as FY 2025-26",
+            "D": "Person Resident Outside India, because FEMA residential status is determined based on the current financial year's stay, and 45 days is less than 182 days"
+          },
+          "correct": "A",
+          "explanation": "Under Section 2(v) of FEMA, a 'person resident in India' is a person residing in India for more than 182 days during the course of the preceding financial year. Since Mr. Menon stayed 183 days in India during FY 2024-25 (the preceding FY), he qualifies as a 'person resident in India' for FY 2025-26, regardless of his actual stay in FY 2025-26. Option D is the most tempting trap — students often think FEMA looks at the current year's stay, but it explicitly uses the PRECEDING financial year. Option C is wrong because it misstates the mechanism — the 183-day count in FY 2024-25 determines status for FY 2025-26, not for FY 2024-25 itself (for FY 2024-25, you'd look at FY 2023-24).",
+          "section": "Section 2(v)"
+        },
+        {
+          "id": 2,
+          "question": "If Mr. Menon's residential status for FY 2025-26 is 'Person Resident in India' under FEMA, which of the following statements about his acquisition of the Singapore residential flat is CORRECT?",
+          "options": {
+            "A": "He can freely acquire the flat as it is a current account transaction permitted under Section 5",
+            "B": "He cannot acquire immovable property outside India without general or special permission of the Reserve Bank of India, as it is a capital account transaction under Section 6",
+            "C": "He can acquire the flat without restriction because he used overseas earnings, not Indian forex",
+            "D": "The acquisition is automatically void under Section 3 because a person resident in India cannot deal in foreign exchange"
+          },
+          "correct": "B",
+          "explanation": "Acquisition of immovable property outside India by a person resident in India is a capital account transaction under Section 2(e) read with Section 6 of FEMA. Capital account transactions are prohibited unless specifically permitted by RBI. Option C is the key trap — students assume that the source of funds (overseas earnings) determines legality, but FEMA restricts the transaction based on residential status, not the source of funds. Option D overstates the prohibition — Section 3 prohibits dealing in forex except through authorized persons, but does not make all transactions void; it is Section 6 that governs capital account restrictions. The scenario fact that Mr. Menon is a 'person resident in India' for FY 2025-26 is determinative.",
+          "section": "Section 6 read with Section 2(e)"
+        },
+        {
+          "id": 3,
+          "question": "Mrs. Ananya Menon's gift of ₹8 lakh to Mr. Sanjay Menon (person resident outside India in the UK) raises a FEMA issue. Which of the following statements is CORRECT?",
+          "options": {
+            "A": "The gift is a current account transaction and is freely permitted without any limit under Section 5",
+            "B": "The gift is a current account transaction but is subject to the Liberalised Remittance Scheme (LRS) limit of USD 2,50,000 per financial year",
+            "C": "The gift is a capital account transaction because it involves transfer of funds to a person resident outside India, altering her assets/liabilities",
+            "D": "The gift is prohibited under FEMA because Mrs. Ananya cannot remit funds to a person resident outside India who is not her direct blood relative"
+          },
+          "correct": "B",
+          "explanation": "A gift in Indian Rupees by a person resident in India to a person resident outside India is treated as a current account transaction (as it does not alter assets/liabilities outside India in terms of creating a lasting foreign asset). However, such remittances are subject to the LRS limit of USD 2,50,000 per person per financial year under the RBI's regulatory framework. Option C is the trap — students confuse 'sending money abroad' with a capital account transaction, but the classification depends on whether the transaction alters assets/liabilities outside India, not merely the direction of payment. Option D is wrong because FEMA does not restrict gifts only to blood relatives — the LRS permits gifts to any person resident outside India within the limit. The determinative scenario fact is that ₹8 lakh is within the LRS equivalent and Mrs. Ananya is a person resident in India.",
+          "section": "Section 5 read with LRS Framework"
+        },
+        {
+          "id": 4,
+          "question": "Mr. Menon purchased shares of an Indian listed company through his existing demat account while being in Singapore. Assuming his FEMA residential status for FY 2025-26 is 'Person Resident in India,' which of the following is CORRECT?",
+          "options": {
+            "A": "He can freely purchase Indian listed shares as a person resident in India through any authorized dealer",
+            "B": "He cannot purchase Indian listed shares because he is physically outside India and must use the FPI route",
+            "C": "He can purchase only through the NRI Portfolio Investment Scheme (PIS) route since he is physically located abroad",
+            "D": "He must first obtain RBI approval as this constitutes a capital account transaction by a person residing abroad"
+          },
+          "correct": "A",
+          "explanation": "Since Mr. Menon qualifies as a 'Person Resident in India' under FEMA for FY 2025-26 (based on 183 days in preceding FY 2024-25), he is treated identically to any Indian resident for FEMA purposes. He can freely purchase Indian listed shares through any authorized channel. Option C is the most tempting trap — students confuse physical location with FEMA residential status. The PIS route is for NRIs, but Mr. Menon is NOT an NRI under FEMA for FY 2025-26. Option B similarly conflates physical location with legal status. The scenario fact that he stayed 183 days in FY 2024-25 is the determinative factor.",
+          "section": "Section 2(v) read with Section 6"
+        },
+        {
+          "id": 5,
+          "question": "For FY 2026-27, what will be Mr. Menon's FEMA residential status, given that he stayed only 45 days in India during FY 2025-26 (the preceding financial year)?",
+          "options": {
+            "A": "Person Resident in India, because once classified as resident, the status continues until formally changed with RBI",
+            "B": "Person Resident Outside India, because he stayed for only 45 days in the preceding financial year (FY 2025-26), which is less than 182 days",
+            "C": "Person Resident in India, because his wife Mrs. Ananya continues to reside in India and FEMA considers family residential status",
+            "D": "The status depends on whether his employer issued a formal deputation letter, not on the number of days of physical stay"
+          },
+          "correct": "B",
+          "explanation": "Under Section 2(v) of FEMA, residential status for any financial year is determined by the number of days of stay in India during the PRECEDING financial year. For FY 2026-27, the preceding year is FY 2025-26, during which Mr. Menon stayed only 45 days — well below the 182-day threshold. Therefore, he becomes a 'Person Resident Outside India' for FY 2026-27. This demonstrates the transitional year effect — a person can be resident in one year and non-resident the next based purely on days of physical presence. Option A is the trap — FEMA status is NOT a 'once resident, always resident' system; it is re-determined every year. Option C is wrong because FEMA does not link a person's status to their spouse's residential status.",
+          "section": "Section 2(v)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s2",
+      "scenarioText": "Pinnacle Exports Pvt. Ltd., an Indian company engaged in the export of handloom textiles, entered into a contract with a buyer in Germany, M/s Berliner Textil GmbH, for supply of textiles worth USD 2,00,000. The goods were shipped on 15th January 2025. The export proceeds were required to be realised within the prescribed period. However, the German buyer delayed payment citing quality disputes. By 15th October 2025 (9 months after shipment), only USD 80,000 had been received. Meanwhile, Pinnacle's Managing Director, Mr. Vikram Joshi, instructed the company's authorised dealer bank to write off the remaining USD 1,20,000 without obtaining RBI permission, claiming the amount was irrecoverable. The authorised dealer bank, without verifying RBI guidelines, processed the write-off. Separately, Pinnacle received an advance payment of USD 50,000 from a new buyer in Japan for a future export order, but the export could not be made within the prescribed period due to a factory fire. The company neither refunded the advance nor sought an extension from RBI within the prescribed time.",
+      "questions": [
+        {
+          "id": 6,
+          "question": "Under FEMA, what is the prescribed time limit within which Pinnacle Exports must realise and repatriate the full export proceeds of USD 2,00,000 to India?",
+          "options": {
+            "A": "Within 6 months from the date of export, as prescribed under Section 7",
+            "B": "Within 9 months from the date of export, as prescribed by RBI regulations under Section 7",
+            "C": "Within 12 months from the date of export, as prescribed under Section 8",
+            "D": "There is no fixed time limit; the exporter must realise proceeds within a 'reasonable time' as determined by the authorised dealer"
+          },
+          "correct": "B",
+          "explanation": "Under Section 7 of FEMA read with the Foreign Exchange Management (Export of Goods and Services) Regulations, RBI has prescribed that export proceeds must be realised and repatriated to India within 9 months from the date of export. Option A (6 months) represents the old pre-2012 timeline which was later extended to 9 months — this is the amendment trap. Option C is wrong as Section 8 deals with realisation and repatriation of foreign exchange generally, not specifically export proceeds. The scenario's timeline showing that by 15th October 2025 (9 months after 15th January 2025 shipment), only partial proceeds were received, is the key fact demonstrating the deadline was being breached.",
+          "section": "Section 7"
+        },
+        {
+          "id": 7,
+          "question": "Regarding the write-off of USD 1,20,000 by the authorised dealer bank without RBI permission, which of the following statements is CORRECT?",
+          "options": {
+            "A": "The write-off is valid because authorised dealer banks have general permission from RBI to write off export receivables up to 25% of the invoice value",
+            "B": "The write-off is valid because the amount is below the RBI's threshold of USD 2,00,000 for automatic write-off",
+            "C": "The write-off requires RBI permission or must comply with specific conditions laid down by RBI; the bank cannot unilaterally write off without following the prescribed procedure",
+            "D": "The write-off is automatically void under Section 3 of FEMA, and the authorised dealer's banking licence will be cancelled"
+          },
+          "correct": "C",
+          "explanation": "While RBI has delegated some write-off powers to authorised dealer banks under specific conditions and thresholds, a write-off of 60% of the invoice value (USD 1,20,000 out of USD 2,00,000) without following prescribed conditions is irregular. The AD bank must ensure that reasonable efforts to recover have been made, appropriate documentation is in place, and the write-off is within delegated limits. Option A is the trap — while ADs do have some delegated write-off authority, it is subject to specific conditions and percentage limits, not a blanket 25% permission. Option D overstates the consequence — the write-off is not 'void' under Section 3; rather, it is a contravention that attracts penalties under Section 13. The scenario fact that the bank processed the write-off 'without verifying RBI guidelines' is determinative.",
+          "section": "Section 7 read with Section 13"
+        },
+        {
+          "id": 8,
+          "question": "The advance payment of USD 50,000 received from the Japanese buyer, where the export could not be fulfilled, creates a specific FEMA obligation. Which statement is CORRECT?",
+          "options": {
+            "A": "Since the failure was due to force majeure (factory fire), the advance can be retained indefinitely without refund or RBI permission",
+            "B": "The advance must be refunded to the overseas buyer or an extension obtained from the authorised dealer/RBI within the prescribed time; failure to do so is a contravention",
+            "C": "The advance automatically becomes a capital account transaction and must be reported to the Enforcement Directorate",
+            "D": "The Japanese buyer can file a complaint with SEBI for non-delivery, and the advance will be forfeited to the Government of India"
+          },
+          "correct": "B",
+          "explanation": "Under FEMA regulations, when an exporter receives advance payment but cannot fulfil the export obligation within the prescribed period, the exporter must either refund the advance to the overseas buyer or obtain prior approval/extension from the authorised dealer/RBI. Force majeure does not automatically exempt compliance — it may be a ground for seeking extension, but the exporter must proactively approach the AD/RBI. Option A is the key trap — students assume force majeure creates an automatic exemption, but FEMA requires active compliance steps even in such circumstances. Option D is absurd — SEBI has no jurisdiction over export-import transactions. The scenario fact that the company 'neither refunded the advance nor sought an extension' is the determinative breach.",
+          "section": "Section 7 read with Export Regulations"
+        },
+        {
+          "id": 9,
+          "question": "If Pinnacle Exports is found to have contravened Section 7 by failing to realise export proceeds within the prescribed time AND by failing to refund the Japanese advance, what is the MAXIMUM penalty that can be imposed?",
+          "options": {
+            "A": "Up to ₹2 lakh for each contravention, since the amount involved cannot be quantified in Indian Rupees",
+            "B": "Up to three times the sum involved in the contravention, plus ₹5,000 per day of continuing default",
+            "C": "Imprisonment up to 3 years and fine up to ₹5 lakh — FEMA violations are criminal offences",
+            "D": "Up to twice the sum involved, as FEMA penalties are capped at double the contravention amount"
+          },
+          "correct": "B",
+          "explanation": "Under Section 13 of FEMA, where the amount of contravention is quantifiable, the penalty can be up to three times the sum involved. Additionally, for continuing contraventions, a further penalty of up to ₹5,000 for every day during which the contravention continues may be imposed. Here, the sum involved IS quantifiable (USD 1,20,000 unrealised + USD 50,000 unrefunded advance). Option C is the critical trap — students who studied the old FERA (1973) recall criminal penalties, but FEMA (1999) converted forex violations from criminal to CIVIL offences. FEMA violations are NOT criminal except under Section 13(1C) for specific situations. Option A would apply only if the amount were not quantifiable (e.g., procedural breach where no sum is involved), but here the forex amounts are clearly identifiable.",
+          "section": "Section 13"
+        },
+        {
+          "id": 10,
+          "question": "Mr. Vikram Joshi, as MD of Pinnacle Exports, instructed the write-off. Under FEMA's personal liability provisions, which statement about Mr. Joshi's liability is CORRECT?",
+          "options": {
+            "A": "Only the company (Pinnacle Exports) is liable; directors cannot be personally penalised under FEMA",
+            "B": "Mr. Joshi is liable only if the company fails to pay the penalty first, as FEMA follows a sequential liability model",
+            "C": "Every person who at the time of the contravention was in charge of and responsible for the conduct of the company's business shall be deemed guilty and liable, unless he proves the contravention occurred without his knowledge or he exercised due diligence",
+            "D": "Mr. Joshi is automatically liable for imprisonment because he instructed an illegal write-off, which is a criminal offence under FEMA"
+          },
+          "correct": "C",
+          "explanation": "Under Section 42 of FEMA (analogous to Section 141 of NI Act), where a contravention is committed by a company, every person who was in charge of and responsible for the conduct of the company's business at the time of the contravention is deemed guilty. However, this is subject to the defence that the person can prove the contravention took place without his knowledge or that he exercised all due diligence to prevent it. Option D is the trap — FEMA is a civil law, not criminal, so imprisonment is not the standard penalty (except for very specific contraventions). Option A is wrong because FEMA explicitly pierces the corporate veil for persons 'in charge.' The scenario establishes that Mr. Joshi specifically instructed the write-off, making it difficult for him to claim lack of knowledge.",
+          "section": "Section 42 read with Section 13"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s3",
+      "scenarioText": "Dr. Priya Sharma, a renowned cardiologist, left India on 1st July 2023 to pursue a 3-year fellowship at Johns Hopkins University, Baltimore, USA. Before leaving, she had the following assets in India: a residential flat in Mumbai worth ₹3 crore (with outstanding home loan of ₹80 lakh), ₹45 lakh in a savings account with HDFC Bank, shares worth ₹20 lakh in Indian listed companies, and a 15% stake in a private clinic (Sharma Healthcare Pvt. Ltd.) worth approximately ₹1.2 crore. During FY 2023-24, she was in India from 1st April to 30th June (91 days) and then abroad for the rest of the year. During FY 2024-25, she visited India for 30 days during December 2024. Her NRI husband, Dr. Arun Sharma, who has been living in the US since 2018, gifted her USD 100,000 in November 2024. She also received a consultancy fee of USD 35,000 from a US hospital directly into her US bank account for advisory services rendered from the US. She wants to know the FEMA implications on all her Indian and foreign assets and transactions.",
+      "questions": [
+        {
+          "id": 11,
+          "question": "What is Dr. Priya Sharma's FEMA residential status for FY 2024-25, and when did her status change from 'Person Resident in India' to 'Person Resident Outside India'?",
+          "options": {
+            "A": "She became Person Resident Outside India from FY 2024-25 because she stayed only 91 days in India during FY 2023-24 (the preceding FY), which is less than 182 days",
+            "B": "She became Person Resident Outside India from 1st July 2023 — the date she left India with the intention to stay abroad for more than 182 days",
+            "C": "She remains Person Resident in India for FY 2024-25 because she was in India for 91 days in FY 2023-24 and had assets in India exceeding ₹3 crore",
+            "D": "She became Person Resident Outside India from FY 2023-24 itself, because she left India during that year with the intention of staying abroad for 3 years"
+          },
+          "correct": "A",
+          "explanation": "Under Section 2(v) of FEMA, residential status is determined mechanically based on the number of days of stay in the PRECEDING financial year. For FY 2024-25, the preceding year is FY 2023-24. Dr. Priya stayed only 91 days in India during FY 2023-24 (1st April to 30th June), which is less than 182 days. Therefore, she is a Person Resident Outside India for FY 2024-25. Option B is the most tempting trap — many students (and even some professionals) believe that FEMA status changes on the date of departure with an intention to stay abroad, but this is INCORRECT. FEMA uses a purely mechanical, backward-looking test based on days of stay in the preceding financial year, not intention. Option C is wrong because FEMA does not consider the value of Indian assets for determining residential status. Option D is wrong because for FY 2023-24, you'd look at FY 2022-23 when she was fully in India.",
+          "section": "Section 2(v)"
+        },
+        {
+          "id": 12,
+          "question": "Regarding Dr. Priya's HDFC Bank savings account with ₹45 lakh, what must she do once she becomes a Person Resident Outside India under FEMA?",
+          "options": {
+            "A": "She can continue operating the savings account as before, since FEMA does not require any change in bank accounts based on residential status",
+            "B": "She must close the savings account immediately and transfer all funds to an NRE account within 30 days of status change",
+            "C": "She must redesignate the account as an NRO (Non-Resident Ordinary) account and can also open an NRE (Non-Resident External) account; the existing savings account cannot continue as a resident account",
+            "D": "She must repatriate all funds in the savings account to the US within 90 days since an NRI cannot hold Indian Rupee deposits exceeding ₹10 lakh"
+          },
+          "correct": "C",
+          "explanation": "Under FEMA regulations (FEMA 5/2000-RB), when a person becomes a Person Resident Outside India, their existing resident bank accounts must be redesignated as NRO accounts. The person can also open NRE accounts for remitting foreign earnings. The existing savings account CANNOT continue operating as a resident account. Option A is the dangerous trap — students assume that simply being physically abroad doesn't require any account changes, but FEMA mandates redesignation. Option B is partially right (must change account type) but wrong on the mechanism (redesignation, not closure) and there is no strict 30-day closure deadline. Option D is wrong because NRIs can hold NRO deposits without a ₹10 lakh cap. The scenario fact that Dr. Priya becomes PROI for FY 2024-25 triggers this redesignation requirement.",
+          "section": "Section 6 read with FEMA 5/2000-RB"
+        },
+        {
+          "id": 13,
+          "question": "Dr. Priya holds a 15% stake in Sharma Healthcare Pvt. Ltd. Now that she is a Person Resident Outside India, which of the following is CORRECT about her continued holding?",
+          "options": {
+            "A": "She must divest her entire 15% stake within 180 days of becoming PROI because a non-resident cannot hold shares in an Indian private company",
+            "B": "She can continue to hold the 15% stake, as shares acquired while she was a resident can be retained on a non-repatriable basis even after becoming a PROI",
+            "C": "She can continue to hold the shares only if Sharma Healthcare Pvt. Ltd. is in a sector where 100% FDI is permitted under the automatic route",
+            "D": "Her shareholding automatically lapses and is deemed transferred to other shareholders at book value under FEMA regulations"
+          },
+          "correct": "B",
+          "explanation": "Under FEMA regulations, shares acquired by a person when she was a Person Resident in India can be continued to be held by her even after becoming a Person Resident Outside India. Such shares are held on a non-repatriable basis. There is no mandatory divestment requirement. Option C is the sophisticated trap — FDI sectoral limits apply to FRESH investments by non-residents, not to shares already held that were acquired during residency. This is a critical distinction that tests deep understanding. Option A is wrong because there is no 180-day divestment rule for shares acquired as a resident. Option D has no basis in FEMA. The key scenario fact is that Dr. Priya acquired the stake WHILE she was a person resident in India.",
+          "section": "Section 6 read with FEMA (Non-debt Instruments) Rules, 2019"
+        },
+        {
+          "id": 14,
+          "question": "The gift of USD 100,000 from Dr. Arun Sharma (NRI husband settled in the US since 2018) to Dr. Priya raises FEMA questions. If Dr. Priya is a Person Resident Outside India for FY 2024-25, which statement is CORRECT?",
+          "options": {
+            "A": "The gift from one PROI to another PROI outside India in foreign currency has no FEMA implications, as the transaction does not involve India or Indian Rupees",
+            "B": "The gift requires prior RBI approval because it is a capital account transaction between two persons of Indian origin",
+            "C": "The gift is prohibited under FEMA because Dr. Arun, being an NRI, cannot gift more than USD 50,000 per year to any person",
+            "D": "The gift requires reporting under LRS as Dr. Arun must report all outward remittances exceeding USD 25,000"
+          },
+          "correct": "A",
+          "explanation": "When both the remitter and the recipient are Persons Resident Outside India, and the transaction takes place entirely outside India in foreign currency (from one foreign bank account to another), FEMA has no jurisdiction over such a transaction. FEMA governs dealings in foreign exchange by persons resident in India and certain transactions by NRIs involving Indian assets. A gift between two NRIs entirely in foreign currency outside India falls outside FEMA's regulatory scope. Option B is the key trap — students assume any transaction between persons of Indian origin triggers FEMA, but the jurisdictional nexus (India/Indian assets/Indian Rupees) is missing here. Option D is wrong because LRS applies only to persons resident in India, not to NRIs. The scenario fact that both persons are PROI and the transaction is in USD outside India is determinative.",
+          "section": "Section 2(v) read with Section 1(3) — Territorial Jurisdiction"
+        },
+        {
+          "id": 15,
+          "question": "Dr. Priya received USD 35,000 as consultancy fees from a US hospital into her US bank account for services rendered while physically present in the US. What are the FEMA implications?",
+          "options": {
+            "A": "She must repatriate the entire USD 35,000 to India within the prescribed period since she is of Indian origin and any income earned abroad must be brought to India",
+            "B": "She must declare this income to FEMA authorities and pay a repatriation tax before retaining it in her US account",
+            "C": "Since she is a Person Resident Outside India for FY 2024-25 and earned the income abroad for services rendered abroad, there is no obligation to repatriate under FEMA; the income is legitimately earned outside India",
+            "D": "She must repatriate 50% of the amount to India through an authorised dealer and can retain only the remaining 50% abroad"
+          },
+          "correct": "C",
+          "explanation": "Since Dr. Priya is a Person Resident Outside India for FY 2024-25, income earned by her outside India for services rendered outside India does not attract any FEMA repatriation obligation. The obligation under Section 8 to realise and repatriate foreign exchange applies to persons resident in India. As a PROI, her overseas earnings are legitimately earned foreign income with no FEMA nexus. Option A is the trap — students confuse the repatriation obligation of a resident (who must bring earnings to India) with a non-resident (who has no such obligation for overseas earnings). Option D has no basis in FEMA. The determinative facts are: (1) she is PROI for FY 2024-25, and (2) the income was earned AND received abroad.",
+          "section": "Section 8 read with Section 2(v)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s4",
+      "scenarioText": "Meridian Infrastructure Ltd., an Indian company listed on BSE and NSE with a paid-up capital of ₹500 crore and consolidated turnover of ₹3,200 crore, decided to establish a wholly-owned subsidiary (WOS) in Dubai, UAE, for executing infrastructure projects in the Middle East. The company's board resolved to invest USD 25 million as equity in the proposed WOS. Simultaneously, Meridian wanted to take an External Commercial Borrowing (ECB) of USD 50 million from a consortium of foreign banks to fund a highway project in Rajasthan. The company's CFO, Mr. Deepak Rajan, arranged a USD-denominated ECB at SOFR + 350 bps with a maturity of 3 years. Meridian also entered into a Joint Venture agreement with a Chinese company, Beijing Roads Corp., where Beijing Roads would invest USD 15 million for a 40% stake in a new Indian entity, Meridian-Beijing Highways Pvt. Ltd. The sector (roads and highways) is on the automatic route for FDI up to 100%. However, the shareholder agreement contained a clause guaranteeing Beijing Roads a minimum 15% annual return on its investment, failing which Meridian would buy back Beijing Roads' stake at 120% of the original investment value.",
+      "questions": [
+        {
+          "id": 16,
+          "question": "Meridian's investment of USD 25 million in a WOS in Dubai is classified under FEMA as which type of transaction?",
+          "options": {
+            "A": "Current account transaction under Section 5, because it is an outward remittance for business purposes",
+            "B": "Capital account transaction under Section 6, as it alters the assets and liabilities of a person resident in India outside India",
+            "C": "Neither current nor capital — it is governed exclusively by the Foreign Direct Investment policy, not FEMA",
+            "D": "It is a prohibited transaction under Section 3 because Indian companies cannot invest abroad without CG permission"
+          },
+          "correct": "B",
+          "explanation": "Under Section 2(e) of FEMA, a capital account transaction is one which alters the assets or liabilities, including contingent liabilities, outside India of persons resident in India. Investment in equity of a foreign entity clearly creates an asset outside India for Meridian (a person resident in India). Therefore, it is a capital account transaction governed by Section 6. Option A is the most common trap — students assume that if a transaction is for 'business purposes,' it becomes current account, but the classification depends on whether it creates/alters foreign assets or liabilities, not the purpose. Option C is wrong because FDI policy governs INWARD investment; OUTWARD investment by Indian entities is governed by FEMA's Overseas Investment Rules. The scenario fact that Meridian is an Indian company investing abroad is determinative.",
+          "section": "Section 2(e) read with Section 6"
+        },
+        {
+          "id": 17,
+          "question": "The ECB of USD 50 million at SOFR + 350 bps with a 3-year maturity raises a potential FEMA compliance issue. Which of the following concerns is MOST RELEVANT?",
+          "options": {
+            "A": "The ECB is prohibited because Indian companies cannot borrow in foreign currency from non-Indian banks",
+            "B": "The all-in-cost ceiling prescribed by RBI for ECBs must be complied with; if SOFR + 350 bps exceeds the applicable ceiling, the ECB cannot be raised under the automatic route",
+            "C": "ECBs with maturity less than 5 years are completely prohibited under FEMA for infrastructure companies",
+            "D": "The ECB requires prior approval from the Ministry of Finance since the borrowing exceeds USD 10 million"
+          },
+          "correct": "B",
+          "explanation": "Under FEMA's ECB framework, RBI prescribes an all-in-cost ceiling for ECBs. The all-in-cost includes interest rate, guarantee fees, and other charges. If the cost exceeds the prescribed ceiling, the borrowing cannot proceed under the automatic route and would require RBI approval. Option C is the key trap — while there are minimum maturity requirements for ECBs, a 3-year ECB is NOT completely prohibited for infrastructure companies; it depends on the ECB track (Track I/II/III) and end-use. Option A is wrong because Indian companies CAN borrow from foreign banks — ECB is a well-established FEMA-permitted transaction. Option D is wrong because the approval authority for ECBs under FEMA is RBI, not the Ministry of Finance. The scenario facts of SOFR + 350 bps and 3-year maturity must both be evaluated against RBI's prevailing ECB norms.",
+          "section": "Section 6 read with FEMA (ECB) Regulations"
+        },
+        {
+          "id": 18,
+          "question": "The guaranteed minimum 15% annual return clause in the Joint Venture agreement with Beijing Roads Corp. has a specific FEMA implication. Which statement is CORRECT?",
+          "options": {
+            "A": "The guarantee is permitted because the FDI is under the automatic route with 100% cap, and shareholders are free to agree on commercial terms",
+            "B": "The guaranteed return clause converts the equity investment into a debt instrument under FEMA pricing guidelines, violating the principle that equity must carry risk",
+            "C": "The guarantee is valid but must be reported to RBI within 30 days of signing the shareholder agreement",
+            "D": "The guarantee clause is only problematic if the guaranteed return exceeds the prevailing SBI lending rate plus 300 basis points"
+          },
+          "correct": "B",
+          "explanation": "Under FEMA's FDI regulations and RBI's pricing guidelines, equity investments by non-residents must conform to the principle that equity carries risk — there can be no guaranteed return on equity. A clause guaranteeing a minimum 15% annual return with a buyback at 120% of investment effectively converts equity into a debt-like instrument with assured returns, which violates FEMA's FDI pricing norms. Such optionality clauses and guaranteed returns are specifically prohibited under the Non-debt Instrument Rules. Option A is the most tempting trap — students assume that if FDI is under the automatic route, all commercial terms are permitted. However, the 'automatic route' governs the approval mechanism, NOT the pricing and exit terms. Option C is wrong because reporting a prohibited clause does not make it valid. The scenario's specific mention of '15% annual return guarantee' and '120% buyback' is the determinative red flag.",
+          "section": "FEMA (Non-debt Instruments) Rules, 2019 read with FDI pricing guidelines"
+        },
+        {
+          "id": 19,
+          "question": "If Beijing Roads Corp. (Chinese company) wants to invest in Meridian-Beijing Highways Pvt. Ltd., and the sector is roads/highways (100% automatic route), which of the following additional FEMA considerations applies specifically due to the ORIGIN of the investor?",
+          "options": {
+            "A": "No additional consideration — since the sector allows 100% FDI under the automatic route, any foreign investor from any country can invest freely",
+            "B": "Investment from entities of countries sharing a land border with India requires prior government approval regardless of the sectoral route, following the Press Note 3 of 2020 amendment",
+            "C": "Chinese companies are completely banned from investing in India under FEMA since 2020",
+            "D": "The investment requires SEBI approval because it involves a listed company's subsidiary"
+          },
+          "correct": "B",
+          "explanation": "Following Press Note 3 of 2020 (now incorporated into FEMA Non-debt Instrument Rules), any investment by an entity of a country which shares a land border with India (including China, Pakistan, Bangladesh, Nepal, Myanmar, Bhutan, Afghanistan) requires prior Government approval through the government route, regardless of the sectoral route. This means even though roads/highways is on the automatic route for FDI, Beijing Roads Corp. (Chinese entity) must obtain prior government approval. Option A is the critical trap — students who studied FDI policy before 2020 would assume the automatic route applies universally, but Press Note 3 introduced a country-of-origin filter. Option C overstates — Chinese companies are NOT banned; they require government approval, which CAN be granted. The key scenario fact is that the investor is a Chinese company.",
+          "section": "FEMA (Non-debt Instruments) Rules, 2019 — Press Note 3 of 2020"
+        },
+        {
+          "id": 20,
+          "question": "Meridian wants to repatriate dividends from its Dubai WOS back to India. Under FEMA, which of the following is CORRECT regarding the repatriation?",
+          "options": {
+            "A": "Dividends from the Dubai WOS must be repatriated within 60 days of declaration, failing which Meridian must seek RBI extension",
+            "B": "Dividends from overseas subsidiaries need not be repatriated to India; the Indian parent company can retain them in the foreign country for reinvestment",
+            "C": "All earnings from overseas investments, including dividends, must be repatriated to India within the prescribed period, and any retention requires specific RBI permission",
+            "D": "Repatriation of dividends is governed by the Double Taxation Avoidance Agreement (DTAA) between India and UAE, not by FEMA"
+          },
+          "correct": "C",
+          "explanation": "Under Section 8 of FEMA read with the Overseas Investment Rules, a person resident in India who has made an overseas investment is required to realise and repatriate to India all dues receivable, including dividends, within the prescribed period. While there are provisions for reinvestment in some cases, this requires compliance with specific RBI guidelines — blanket retention abroad is not permitted. Option B is the most tempting trap — students assume that once a subsidiary is abroad, the parent can freely manage its foreign earnings, but FEMA's repatriation obligation applies. Option D is wrong because DTAA governs tax treatment of cross-border income, not the foreign exchange repatriation obligation, which is governed by FEMA. The scenario's mention of Meridian as an Indian listed company makes it squarely a person resident in India with repatriation duties.",
+          "section": "Section 8 read with Overseas Investment Rules"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s5",
+      "scenarioText": "Mr. Arjun Kapoor, a successful Indian entrepreneur (Person Resident in India), wanted to diversify his investments globally. In FY 2025-26, he undertook the following transactions: (i) Remitted USD 1,50,000 to his son studying at MIT, USA, for tuition fees and living expenses through an authorised dealer; (ii) Remitted USD 80,000 as a gift to his friend Mr. Tom Harris, a US citizen with no Indian connection, through the same authorised dealer; (iii) Invested USD 30,000 in shares of Apple Inc. through an overseas brokerage account; (iv) Purchased a holiday home in Bali, Indonesia for USD 90,000 through direct wire transfer from his Indian bank account; (v) Donated USD 15,000 to a US-based charitable trust working on climate change; and (vi) Made an advance payment of USD 20,000 to a UK medical hospital for his mother's planned heart surgery in London. His total remittances through the LRS route during FY 2025-26 (including the above) aggregate to USD 2,35,000. He also holds a foreign currency account (RFC account) with a balance of USD 50,000 from a period when he was a non-resident, from which he separately transferred USD 30,000 to his son.",
+      "questions": [
+        {
+          "id": 21,
+          "question": "Which of Mr. Arjun's transactions would NOT be counted towards his LRS limit of USD 2,50,000 per financial year?",
+          "options": {
+            "A": "The USD 1,50,000 remitted for his son's education fees, because education remittances have a separate limit outside LRS",
+            "B": "The USD 20,000 medical advance payment, because medical treatment abroad is covered under a separate FEMA provision outside LRS",
+            "C": "The USD 30,000 transferred from the RFC (Resident Foreign Currency) account, because RFC account transactions are NOT counted within the LRS limit",
+            "D": "The USD 15,000 charitable donation, because donations to foreign entities are prohibited under FEMA and therefore cannot be counted under any scheme"
+          },
+          "correct": "C",
+          "explanation": "Transactions from an RFC (Resident Foreign Currency) account — which holds foreign currency legitimately acquired during a period of non-residence — are NOT subject to the LRS limit. RFC accounts operate under their own set of FEMA regulations. The USD 30,000 transfer from Mr. Arjun's RFC account to his son is outside the LRS framework. Option A is the most tempting trap — education remittances ARE covered under LRS and DO count towards the USD 2,50,000 limit; there is no separate education remittance limit outside LRS. Option B is similarly wrong — medical remittances also fall within LRS. The key scenario fact is that Mr. Arjun holds an RFC account from his period of non-residence, which has a fundamentally different regulatory treatment.",
+          "section": "LRS Framework read with FEMA (Foreign Currency Accounts by Residents) Regulations"
+        },
+        {
+          "id": 22,
+          "question": "Mr. Arjun's total LRS remittances (excluding RFC account transactions) aggregate to USD 2,35,000. He now wants to remit an additional USD 25,000 as a maintenance payment to his elderly aunt living in Canada. What is the FEMA position?",
+          "options": {
+            "A": "He can remit the additional USD 25,000 because maintenance of close relatives abroad is exempt from LRS limits",
+            "B": "He cannot remit the additional amount as it would take his LRS total to USD 2,60,000, which exceeds the limit of USD 2,50,000; he must wait until the next financial year",
+            "C": "He can remit up to USD 2,50,000, so he can remit only USD 15,000 more under LRS this financial year; for the remaining USD 10,000, he must apply to RBI",
+            "D": "He can remit the full USD 25,000 because LRS limits reset quarterly, not annually, and it is now a new quarter"
+          },
+          "correct": "C",
+          "explanation": "The LRS limit is USD 2,50,000 per person per financial year. Mr. Arjun has already utilized USD 2,35,000. He can remit a further USD 15,000 (to reach the USD 2,50,000 cap) under LRS. For any amount beyond this limit in the same financial year, he would need prior RBI approval. Option B is partially correct in identifying the limit breach but wrong in saying he 'cannot remit' — he CAN remit up to the remaining limit AND can seek RBI approval for amounts beyond. Option A is the trap — maintenance of close relatives is a PERMITTED purpose under LRS but is NOT exempt from the LRS monetary limit. Option D is wrong — LRS resets annually (financial year), not quarterly. The scenario's specific aggregation of USD 2,35,000 is the determinative calculation.",
+          "section": "LRS Framework"
+        },
+        {
+          "id": 23,
+          "question": "Mr. Arjun invested USD 30,000 in shares of Apple Inc. through an overseas brokerage account. Which of the following statements about this investment is INCORRECT?",
+          "options": {
+            "A": "Investment in overseas securities is a permitted capital account transaction under LRS for a person resident in India",
+            "B": "The USD 30,000 investment counts towards his overall LRS limit of USD 2,50,000 per financial year",
+            "C": "Any dividends or sale proceeds from the Apple shares must be repatriated to India within 180 days and cannot be reinvested abroad",
+            "D": "He can hold the Apple shares indefinitely and is not required to divest them within any prescribed period"
+          },
+          "correct": "C",
+          "explanation": "This is an INCORRECT statement identification question. Statement C is incorrect because under LRS, a person resident in India who invests in overseas securities CAN reinvest the sale proceeds or dividends abroad without bringing them back to India, subject to the overall LRS limit. There is no mandatory 180-day repatriation requirement for LRS investments in overseas securities — this is unlike the export proceeds repatriation requirement under Section 7 for exporters. Students confuse the repatriation obligation for export proceeds with LRS overseas investment proceeds — this is the cross-provision confusion trap. Options A, B, and D are all correct statements. The key distinction is between repatriation obligations for business export proceeds versus personal overseas investments under LRS.",
+          "section": "LRS Framework read with Section 6"
+        },
+        {
+          "id": 24,
+          "question": "Mr. Arjun's purchase of a holiday home in Bali for USD 90,000 has which of the following FEMA implications?",
+          "options": {
+            "A": "Purchase of immovable property abroad is completely prohibited for a person resident in India under FEMA",
+            "B": "Purchase of immovable property abroad is permitted under LRS, and the USD 90,000 counts towards his annual LRS limit",
+            "C": "Purchase of immovable property abroad is permitted only in countries that have a bilateral agreement with India",
+            "D": "Purchase of immovable property abroad is permitted only through the Overseas Investment route, not through LRS"
+          },
+          "correct": "B",
+          "explanation": "Under the LRS framework, a resident individual can acquire immovable property outside India, and such acquisition is one of the permitted capital account transactions under LRS. The USD 90,000 spent on the Bali holiday home counts towards Mr. Arjun's annual LRS limit of USD 2,50,000. Option A is the trap — students from the FERA era recall that acquiring foreign immovable property was heavily restricted, but FEMA's LRS framework liberalized this. Option D is a sophisticated wrong answer — the Overseas Investment route is for corporate/business investments, not personal immovable property by individuals. The scenario fact that Mr. Arjun is a person resident in India undertaking a personal property purchase makes LRS the applicable route.",
+          "section": "LRS Framework read with Section 6"
+        },
+        {
+          "id": 25,
+          "question": "If Mr. Arjun fails to comply with LRS reporting requirements by not declaring the purpose of remittances correctly to the authorised dealer bank, what is the consequence under FEMA?",
+          "options": {
+            "A": "The authorised dealer bank is solely liable; Mr. Arjun has no personal liability for incorrect declarations",
+            "B": "The remittances are deemed void and must be returned to India immediately",
+            "C": "Mr. Arjun is liable for penalty under Section 13 of FEMA — up to three times the amount involved for a quantifiable contravention, plus ₹5,000 per day for continuing default",
+            "D": "Mr. Arjun faces criminal prosecution with imprisonment up to 5 years under FEMA for false declaration"
+          },
+          "correct": "C",
+          "explanation": "Misrepresentation of purpose or incorrect declaration to an authorised dealer constitutes a contravention of FEMA provisions. Under Section 13, where the contravention amount is quantifiable, the penalty can be up to three times the sum involved, with an additional penalty of up to ₹5,000 per day for continuing contravention. Option D is the critical trap — FEMA is fundamentally a CIVIL enforcement law, not criminal (unlike the old FERA). Penalties under FEMA are civil penalties imposed by the Adjudicating Authority, not criminal sentences by a court. The exception is Section 13(1C) for very specific situations involving non-cooperation with the Enforcement Directorate. Option A is wrong because the individual making the declaration is responsible for its accuracy. The scenario establishes that Mr. Arjun made the declarations, making him personally liable.",
+          "section": "Section 13"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s6",
+      "scenarioText": "Zenith Pharma Ltd., an Indian pharmaceutical company with 60% promoter holding and 40% public holding, planned a cross-border acquisition of MedTech BV, a Dutch company, for EUR 80 million. The acquisition was to be funded through: (a) overseas borrowing of EUR 30 million from a Dutch bank, (b) internal accruals remitted through an authorised dealer amounting to EUR 35 million, and (c) a share swap where MedTech's existing shareholders would receive 15% equity in Zenith Pharma, valued at EUR 15 million. Separately, Zenith had an existing overseas subsidiary in Bangladesh — Zenith Pharma Bangladesh Ltd. — where it wanted to infuse an additional USD 5 million as capital. Zenith's compliance officer, Ms. Rekha Menon, discovered that the total overseas investment commitments (existing + proposed) would exceed 400% of the company's net worth as per the last audited balance sheet. The company's audited net worth stood at ₹200 crore (approximately EUR 22 million). Meanwhile, MedTech BV had a step-down subsidiary in Pakistan, MedTech Karachi Ltd., which would also come under Zenith's control post-acquisition.",
+      "questions": [
+        {
+          "id": 26,
+          "question": "The share swap component — where MedTech's shareholders receive 15% equity in Zenith Pharma — raises a specific FEMA concern. Which of the following is CORRECT?",
+          "options": {
+            "A": "Share swaps in cross-border acquisitions are completely prohibited under FEMA; only cash consideration is permitted",
+            "B": "The share swap results in foreign nationals acquiring shares in an Indian listed company, which requires compliance with FEMA's FDI/FPIIFPI regulations, including pricing guidelines and sectoral caps",
+            "C": "Share swaps are permitted without any FEMA compliance because SEBI regulates all transactions involving listed company shares",
+            "D": "The share swap is valid only if MedTech's shareholders are residents of a country with which India has a bilateral investment treaty"
+          },
+          "correct": "B",
+          "explanation": "When MedTech's existing shareholders (foreign nationals/entities) receive 15% equity in Zenith Pharma (an Indian listed company) as part of the share swap, this constitutes issuance of shares to non-residents, which is a capital account transaction governed by FEMA's FDI regulations. The issuance must comply with: (1) sectoral cap for pharma (74% under automatic route for brownfield), (2) pricing guidelines (shares must be issued at or above fair market value for listed companies), and (3) reporting requirements. Option C is the key trap — students assume SEBI governs everything related to listed companies, but FEMA governs the foreign exchange aspect of non-residents acquiring Indian shares. Both SEBI and FEMA apply simultaneously. Option A is wrong because share swaps are permitted under FEMA subject to conditions. The scenario fact that Zenith is a listed Indian pharma company receiving foreign shareholders makes FDI compliance mandatory.",
+          "section": "Section 6 read with FEMA (Non-debt Instruments) Rules, 2019"
+        },
+        {
+          "id": 27,
+          "question": "Ms. Rekha Menon found that total overseas investment commitments exceed 400% of net worth. Under the current FEMA Overseas Investment Rules, what is the significance of this?",
+          "options": {
+            "A": "There is no regulatory cap on overseas investment relative to net worth; the overseas investment rules were liberalized in 2022 removing all net worth-based limits",
+            "B": "Overseas investment exceeding 400% of net worth requires prior RBI approval through the approval route; within 400% is under the automatic route",
+            "C": "The limit is 100% of net worth under the automatic route; anything above requires CG approval through the approval route",
+            "D": "The limit is 50% of net worth for overseas investment; Zenith has massively exceeded the permissible limit and the entire investment structure is void"
+          },
+          "correct": "A",
+          "explanation": "Under the Overseas Investment Rules, 2022, which replaced the earlier ODI regulations, the RBI has significantly liberalized overseas investment norms. The earlier cap linked to net worth (400% of net worth for the automatic route) has been removed. Indian entities can now make overseas investments without a net worth-based ceiling under the financial commitment route, subject to other conditions. Option B is the most tempting trap — this was the OLD rule before August 2022 when the 400% net worth cap existed. Students who studied the pre-2022 framework would select this. This is a classic amendment trap. Options C and D cite even more restrictive limits that never existed. The scenario deliberately mentions 400% of net worth to test whether students know this cap has been removed.",
+          "section": "FEMA Overseas Investment Rules, 2022"
+        },
+        {
+          "id": 28,
+          "question": "The acquisition of MedTech BV would give Zenith indirect control over MedTech Karachi Ltd. (a Pakistani subsidiary). What FEMA implication arises from this?",
+          "options": {
+            "A": "No additional FEMA compliance is needed because Zenith is acquiring MedTech BV (Dutch), not directly investing in Pakistan",
+            "B": "Indian entities require prior government approval for investment in Pakistan under FEMA, and indirect acquisition through a step-down route also requires this approval",
+            "C": "Zenith must divest MedTech Karachi Ltd. within 12 months of acquisition because Indian companies cannot hold investments in Pakistan under any route",
+            "D": "The Pakistani subsidiary is automatically excluded from the acquisition and its shares are deemed not transferred"
+          },
+          "correct": "B",
+          "explanation": "Under FEMA Overseas Investment Rules, investment in Pakistan requires prior government approval. This applies not only to direct investment but also to indirect acquisitions where an Indian entity gains control of a Pakistani entity through a step-down subsidiary route. Zenith acquiring MedTech BV (which owns MedTech Karachi) is effectively an indirect investment in Pakistan. Option A is the dangerous trap — students think the 'interposed entity' structure shields them from Pakistan-specific restrictions, but FEMA's look-through approach captures indirect investments. Option C overstates — divestment is not mandated; rather, prior approval must be obtained, and if obtained, the holding is valid. The scenario's specific mention of the Pakistani step-down subsidiary is the determinative fact triggering this additional compliance.",
+          "section": "FEMA Overseas Investment Rules, 2022 read with Government approval requirements"
+        },
+        {
+          "id": 29,
+          "question": "Zenith wants to borrow EUR 30 million from a Dutch bank to fund part of the acquisition. This overseas borrowing by Zenith to fund overseas acquisition is classified as:",
+          "options": {
+            "A": "An External Commercial Borrowing (ECB) under FEMA's ECB framework, subject to end-use restrictions, all-in-cost ceiling, and maturity norms",
+            "B": "An overseas borrowing that falls under the Overseas Investment Rules and NOT under the ECB framework, since the end-use is an overseas acquisition",
+            "C": "A current account transaction because it is a borrowing for business purposes",
+            "D": "A prohibited transaction because Indian companies cannot borrow from foreign banks to fund overseas acquisitions"
+          },
+          "correct": "B",
+          "explanation": "Overseas borrowings by an Indian entity for the purpose of making overseas investments (acquisitions, JVs, WOS) are governed by the Overseas Investment Rules, not the ECB framework. The ECB framework governs foreign borrowings for use in India (infrastructure, working capital, etc.). This is a critical distinction in FEMA. Option A is the most sophisticated trap — students assume ALL foreign borrowings are ECBs, but the end-use determines the applicable framework. If the borrowing funds an overseas acquisition, it falls under the OI route. If the borrowing is for domestic use, it is an ECB. Option C wrongly classifies a borrowing (which creates a foreign liability) as a current account transaction. The scenario fact that the borrowing is specifically to fund the MedTech acquisition abroad is determinative.",
+          "section": "FEMA Overseas Investment Rules, 2022 read with ECB Regulations"
+        },
+        {
+          "id": 30,
+          "question": "The additional USD 5 million capital infusion in Zenith Pharma Bangladesh Ltd. raises which of the following FEMA concerns similar to the Pakistan issue?",
+          "options": {
+            "A": "No additional concern — Bangladesh does not face the same investment restrictions as Pakistan under FEMA",
+            "B": "Investment in Bangladesh by an Indian entity requires prior government approval as Bangladesh shares a land border with India, similar to the inbound FDI restriction under Press Note 3 of 2020",
+            "C": "Investment in Bangladesh requires prior government approval under the Overseas Investment Rules because Bangladesh is a country sharing a land border with India and specific restrictions apply to outbound investments in such countries",
+            "D": "The investment is freely permitted under the automatic route because Zenith already has an existing subsidiary in Bangladesh"
+          },
+          "correct": "C",
+          "explanation": "Under the Overseas Investment Rules, Indian entities making investments in countries sharing a land border with India (including Bangladesh) require prior government approval. This is an outbound investment restriction that mirrors the inbound Press Note 3 restriction but operates under the OI Rules. Option B is close but references the wrong legal framework — Press Note 3 governs INBOUND FDI, not outbound investments. The outbound restriction is under the OI Rules, though the policy rationale (national security, land border sensitivity) is similar. Option A is the key trap — students who focus only on Press Note 3 (which is about inbound FDI from China/Pakistan) may forget that outbound investment restrictions to land-border countries also exist under OI Rules. Option D is wrong because having an existing subsidiary does not exempt future capital infusions from the approval requirement.",
+          "section": "FEMA Overseas Investment Rules, 2022"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s7",
+      "scenarioText": "The Enforcement Directorate (ED) received intelligence that Mr. Suresh Gupta, a prominent real estate developer in Delhi (Person Resident in India), had acquired three luxury apartments in London worth GBP 2.5 million through a complex structure involving: (a) round-tripping through his brother Mr. Nitin Gupta (a UK citizen settled in London since 2005), (b) a Mauritius-based shell company, Global Estates Ltd., in which Mr. Suresh held beneficial ownership through nominee arrangements, and (c) hawala transactions totalling ₹8 crore routed through a network of intermediaries. The ED also found that Mr. Suresh had failed to declare these foreign assets in his annual LRS declarations to the authorised dealer bank. Additionally, Mr. Suresh had opened a bank account in Dubai with Emirates NBD bank holding AED 500,000, without informing any Indian authority. His CA firm had filed his income tax returns showing no foreign assets in the Foreign Asset Schedule. When the ED issued a show-cause notice, Mr. Suresh's lawyer argued that: (i) FEMA violations are civil in nature and cannot lead to arrest, (ii) the properties are in his brother's name, not his, so FEMA doesn't apply to him, and (iii) the ED has no jurisdiction as FEMA matters are handled by the Adjudicating Authority appointed by the Central Government.",
+      "questions": [
+        {
+          "id": 31,
+          "question": "Mr. Suresh's lawyer argued that FEMA violations are civil in nature and cannot lead to arrest. Which of the following statements about FEMA's enforcement mechanism is CORRECT?",
+          "options": {
+            "A": "The lawyer is fully correct — FEMA is entirely a civil statute, and no person can be arrested for any FEMA violation",
+            "B": "The lawyer is partially correct — FEMA contraventions are civil, but Section 13(1C) provides that if a person fails to pay the penalty within 90 days and does not comply with the Directorate's directive to deposit the penalty, he may be liable to civil imprisonment",
+            "C": "The lawyer is wrong — all FEMA violations are criminal offences punishable with imprisonment, just like the old FERA",
+            "D": "The lawyer is correct about civil nature, but the ED can still arrest Mr. Suresh under the Prevention of Money Laundering Act (PMLA) if the FEMA violation generates proceeds of crime"
+          },
+          "correct": "D",
+          "explanation": "This is a nuanced question. FEMA violations are indeed civil in nature — the penalties are monetary, not criminal. However, the ED has dual jurisdiction: it enforces FEMA (civil penalties through Adjudicating Authority) AND PMLA (criminal prosecution). If the FEMA contravention involves proceeds of crime (money laundering), the ED can invoke PMLA, which IS criminal and permits arrest. Mr. Suresh's round-tripping and hawala transactions may well constitute money laundering under PMLA. Option B describes a mechanism that does exist (civil imprisonment for non-payment) but misses the more immediate and relevant PMLA connection. Option A is the trap for students who correctly learned FEMA is civil but don't connect it to PMLA. The scenario facts of round-tripping, hawala, and shell companies are strong indicators of potential PMLA applicability.",
+          "section": "Section 13 read with PMLA, 2002"
+        },
+        {
+          "id": 32,
+          "question": "The lawyer's argument that the London properties are in Mr. Nitin Gupta's name (not Mr. Suresh's) and therefore FEMA doesn't apply to Mr. Suresh is:",
+          "options": {
+            "A": "Correct, because FEMA only governs the legal owner of property, not the person who financed it; Mr. Nitin as a UK citizen is outside FEMA jurisdiction",
+            "B": "Incorrect, because FEMA looks at beneficial ownership, not just legal ownership, and the ED can investigate the source of funds and the real beneficiary",
+            "C": "Correct, because nominee arrangements are legal in the UK, and Indian law cannot apply extraterritorially to property situated in the UK",
+            "D": "Incorrect, but only if there is a written agreement between Mr. Suresh and Mr. Nitin proving the nominee arrangement; oral arrangements cannot be challenged"
+          },
+          "correct": "B",
+          "explanation": "FEMA's enforcement framework looks at the substance of a transaction, not merely its legal form. If Mr. Suresh, a Person Resident in India, funded the acquisition of foreign properties through prohibited channels (hawala, round-tripping) and the properties are beneficially owned by him (held in his brother's name as a nominee), FEMA applies to Mr. Suresh's actions — specifically the unauthorized remittance, acquisition of foreign assets without RBI permission, and contravention of Section 4 (holding foreign exchange/assets outside India without general or special RBI permission). Option C is the most tempting trap — while UK property law does recognize nominee arrangements, the question is not whether the UK arrangement is valid but whether Mr. Suresh's ACTIONS in India (remitting funds through hawala, failing to declare) violate FEMA. FEMA applies to the person resident in India, not the foreign property. Option D is wrong because the ED can establish beneficial ownership through circumstantial evidence.",
+          "section": "Section 4 read with Section 37"
+        },
+        {
+          "id": 33,
+          "question": "Mr. Suresh holds a bank account with Emirates NBD in Dubai (AED 500,000) without informing any Indian authority. Under FEMA, which specific provision has he contravened?",
+          "options": {
+            "A": "Section 3 — dealing in foreign exchange through an unauthorized channel, because Emirates NBD is not an authorised dealer under FEMA",
+            "B": "Section 4 — no person resident in India shall acquire, hold, own, possess, or transfer any foreign exchange, foreign security, or any immovable property situated outside India, except as specifically permitted by RBI",
+            "C": "Section 5 — conducting a current account transaction without proper authorization from an authorised dealer",
+            "D": "Section 6 — undertaking a capital account transaction without RBI's prior permission"
+          },
+          "correct": "B",
+          "explanation": "Section 4 of FEMA directly prohibits a person resident in India from acquiring, holding, owning, possessing, or transferring any foreign exchange, foreign security, or immovable property situated outside India, except as specifically permitted by RBI. A bank account in Dubai containing AED 500,000 constitutes 'holding foreign exchange' outside India. Unless Mr. Suresh has RBI's general or special permission (e.g., through LRS or RFC account provisions), this is a clear Section 4 contravention. Option A is tempting because it addresses 'unauthorized channel,' but the core violation is not how the account was opened but the very ACT of holding foreign exchange outside India without permission. Option D (capital account) is partially applicable but Section 4 is more directly on point. The scenario's emphasis on Mr. Suresh being a Person Resident in India and holding funds in Dubai is the determinative fact.",
+          "section": "Section 4"
+        },
+        {
+          "id": 34,
+          "question": "The hawala transactions totalling ₹8 crore used to acquire the London properties constitute a contravention under which provision of FEMA?",
+          "options": {
+            "A": "Section 3 — because hawala is dealing in foreign exchange otherwise than through an authorised person, which is prohibited",
+            "B": "Section 5 — because hawala is a current account transaction that has been specifically restricted by the Central Government",
+            "C": "Section 6 — because hawala is a capital account transaction involving transfer of assets outside India",
+            "D": "Section 10A — because hawala operators are unauthorized money changers who need FEMA registration"
+          },
+          "correct": "A",
+          "explanation": "Section 3 of FEMA is the foundational prohibition: no person shall deal in or transfer any foreign exchange, or make any payment to or for the credit of any person resident outside India, EXCEPT through an authorised person. Hawala transactions by definition bypass the authorised channel — money is paid in India in Rupees and equivalent foreign currency is delivered abroad through an informal network. This is a direct contravention of Section 3's requirement to deal only through authorised persons. Option C is tempting because the ultimate transaction (acquiring foreign property) is a capital account transaction under Section 6, but the specific violation of using HAWALA is the method of dealing, which is squarely Section 3. Option D references a non-existent provision (Section 10A doesn't deal with money changers in this way). The scenario's description of hawala as 'routed through a network of intermediaries' rather than through an authorised dealer is determinative.",
+          "section": "Section 3"
+        },
+        {
+          "id": 35,
+          "question": "The lawyer's third argument — that ED has no jurisdiction because FEMA matters are handled by the Adjudicating Authority — is:",
+          "options": {
+            "A": "Correct — the Adjudicating Authority has exclusive jurisdiction over FEMA contraventions, and the ED can only investigate but not adjudicate",
+            "B": "Partially correct — the Adjudicating Authority adjudicates contraventions, but the ED (Directorate of Enforcement) is the investigative and enforcement agency with powers to search, seize, and initiate proceedings",
+            "C": "Incorrect — the ED has been replaced by the Adjudicating Authority and has no role under FEMA post-1999",
+            "D": "Incorrect — only SEBI can handle financial market violations including FEMA contraventions"
+          },
+          "correct": "B",
+          "explanation": "Under FEMA's enforcement structure, the Directorate of Enforcement (ED) is the investigative and enforcement agency that conducts investigations, searches, seizures, and initiates proceedings. However, the actual adjudication (determining contravention and imposing penalty) is done by the Adjudicating Authority appointed by the Central Government under Section 16. The ED investigates and files a complaint before the Adjudicating Authority, who then decides the case after giving an opportunity of being heard. So the lawyer is partially right that the Adjudicating Authority 'handles' FEMA matters in the sense of adjudication, but wrong in implying the ED has no jurisdiction — the ED's investigation and prosecution powers are central to FEMA enforcement. Option C is wrong because the ED is very much active under FEMA. The scenario's show-cause notice from the ED is itself evidence of ED's jurisdictional role.",
+          "section": "Section 16 read with Section 37"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s8",
+      "scenarioText": "Mrs. Kavitha Sundaram, a 62-year-old retired school teacher (Person Resident in India), received an inheritance of GBP 300,000 from her deceased uncle Mr. Rajendran, who had been a UK citizen and Person Resident Outside India since 1985. The inheritance consisted of: (a) GBP 200,000 in a Barclays bank account in London, (b) GBP 60,000 in UK government bonds, and (c) a residential flat in Manchester valued at GBP 40,000. Mrs. Kavitha had never travelled abroad and had no prior foreign exchange dealings. Her nephew, Mr. Karthik (a Chartered Accountant), advised her to: (i) keep the Barclays account as-is since it was inherited, (ii) continue holding the UK bonds until maturity (3 years away), (iii) rent out the Manchester flat, and (iv) use the rental income to fund a holiday in Europe. The total value of the inheritance (approximately ₹3.2 crore) exceeded her lifetime savings. Mrs. Kavitha's authorised dealer bank informed her that she must comply with FEMA regulations regarding these foreign assets. Meanwhile, the Enforcement Directorate's Financial Intelligence Unit flagged the large inward inheritance as requiring verification.",
+      "questions": [
+        {
+          "id": 36,
+          "question": "Under FEMA, when a person resident in India inherits foreign assets (bank account, securities, immovable property) from a person resident outside India, which of the following is CORRECT?",
+          "options": {
+            "A": "The inheritance is a prohibited transaction under Section 4, and all inherited assets must be immediately repatriated to India within 30 days",
+            "B": "Inheritance of foreign assets is specifically permitted under FEMA, and RBI has granted general permission to hold such inherited assets, subject to reporting and eventual repatriation requirements",
+            "C": "The inheritance is a current account transaction and can be freely received without any FEMA compliance",
+            "D": "The inheritance requires prior RBI approval before the assets can be transferred to Mrs. Kavitha's name"
+          },
+          "correct": "B",
+          "explanation": "Under FEMA regulations, RBI has granted general permission to persons resident in India to inherit foreign assets (including immovable property, securities, and bank accounts) from persons resident outside India. This is a specific exception to Section 4's general prohibition on holding foreign assets. However, this permission comes with conditions — the inherited assets must be reported, and certain categories (like bank balances) may need to be repatriated within a prescribed time or redesignated as RFC accounts. Option A is the trap — while Section 4 does prohibit holding foreign assets generally, inheritance is a SPECIFIC EXCEPTION where general permission has been granted. Students who know Section 4 but not its exceptions would choose this. Option C wrongly classifies it — inheriting foreign assets alters the asset position outside India of a person resident in India, making it a capital account matter, not current account.",
+          "section": "Section 6 read with FEMA (Non-debt Instruments) Rules, 2019"
+        },
+        {
+          "id": 37,
+          "question": "Mr. Karthik's advice to Mrs. Kavitha to 'keep the Barclays account as-is since it was inherited' is:",
+          "options": {
+            "A": "Correct — inherited bank accounts can be maintained indefinitely in the original form without any FEMA compliance",
+            "B": "Incorrect — she must close the account and repatriate the funds to India immediately, as holding foreign bank accounts is absolutely prohibited under Section 4",
+            "C": "Partially incorrect — while she can hold inherited foreign currency, she must either repatriate the funds to India through an authorised dealer or redesignate the holding in compliance with FEMA regulations within the prescribed time",
+            "D": "Correct — but only if the account balance does not exceed USD 1,00,000 equivalent; above that threshold, she must repatriate"
+          },
+          "correct": "C",
+          "explanation": "While RBI permits inheritance of foreign assets, the person resident in India cannot simply retain a foreign bank account indefinitely without FEMA compliance. The inherited foreign currency must either be repatriated to India within a reasonable time or dealt with in accordance with RBI guidelines. Simply keeping a Barclays account in London 'as-is' without any FEMA compliance steps (reporting, repatriation, or redesignation) would be non-compliant. Option A is the trap — it reflects the common misconception that 'inherited' means 'no compliance needed.' Option B overstates by saying holding is 'absolutely prohibited' — the prohibition has exceptions, including for inherited assets, but with conditions. Option D creates a fictitious USD 1,00,000 threshold that does not exist. The scenario fact that Mrs. Kavitha has no prior foreign exchange experience makes professional guidance particularly important.",
+          "section": "Section 4 read with RBI general permission for inherited assets"
+        },
+        {
+          "id": 38,
+          "question": "The advice to continue holding UK government bonds until maturity (3 years) is evaluated under FEMA as follows. Which statement is CORRECT?",
+          "options": {
+            "A": "Mrs. Kavitha can hold the inherited UK bonds until maturity, as RBI's general permission for inherited foreign securities does not impose a mandatory divestment timeline for debt securities",
+            "B": "She must sell the UK bonds immediately because a person resident in India cannot hold foreign securities of any type under Section 4",
+            "C": "She can hold the bonds but must report them annually to the Reserve Bank under the Foreign Assets and Liabilities Return (Form FLA)",
+            "D": "She can hold the bonds only if she obtains a No Objection Certificate from the Adjudicating Authority under FEMA"
+          },
+          "correct": "A",
+          "explanation": "Under RBI's general permission for inherited foreign assets, Mrs. Kavitha can continue to hold the inherited UK government bonds until maturity. RBI's regulations do not impose a mandatory immediate divestment timeline for inherited foreign securities — the permission extends to holding them. Option B is wrong because Section 4's prohibition has specific exceptions for inherited assets. Option C creates a reporting mechanism (Form FLA) that applies to Indian entities with overseas investments, not to individuals who inherited foreign assets — the individual reporting requirements are different. Option D references a procedure that does not exist under FEMA for inherited assets. The scenario's specification of '3 years to maturity' tests whether students would impose a fictional time limit for divestment.",
+          "section": "Section 6 read with general permission for inherited assets"
+        },
+        {
+          "id": 39,
+          "question": "Mrs. Kavitha wants to rent out the inherited Manchester flat and use the rental income for a European holiday. Under FEMA, which of the following is CORRECT?",
+          "options": {
+            "A": "She can rent out the flat and use the rental income abroad freely, as inherited property is exempt from all FEMA restrictions",
+            "B": "She can rent out the flat (as holding inherited immovable property is permitted), but the rental income constitutes foreign exchange earned by a person resident in India and must be repatriated to India under Section 8; using it directly for a holiday abroad without repatriation would contravene FEMA",
+            "C": "She cannot rent out the flat because renting is a commercial activity, and inherited property can only be retained for personal use",
+            "D": "She can use the rental income directly for travel as it falls within her LRS limit of USD 2,50,000"
+          },
+          "correct": "B",
+          "explanation": "This question tests two overlapping FEMA provisions. While Mrs. Kavitha can hold the inherited flat (general permission for inherited assets), any income generated from it (rent) is foreign exchange received by a person resident in India under Section 8, which must be repatriated to India. She cannot directly use the rental income abroad for her holiday without first bringing it to India and then remitting it under LRS or other permissible routes. Option D is the sophisticated trap — while LRS could potentially be used for travel expenses, the rental income must FIRST be repatriated and THEN remitted under LRS; she cannot shortcut by directly using foreign rental income. Option A is wrong because inherited property, while permitted to be held, is NOT exempt from all FEMA provisions — the repatriation obligation for income still applies.",
+          "section": "Section 8 read with general permission for inherited assets"
+        },
+        {
+          "id": 40,
+          "question": "If Mrs. Kavitha fails to report the inherited foreign assets and the Enforcement Directorate issues a show-cause notice, what is the penalty she faces for the non-reporting contravention (assuming the amount is not quantifiable)?",
+          "options": {
+            "A": "Up to three times the value of the inherited assets (approximately ₹9.6 crore)",
+            "B": "Up to ₹2 lakh, as the contravention (failure to report) does not involve a quantifiable sum; plus ₹5,000 per day of continuing default",
+            "C": "No penalty, because inheritance from a deceased relative is exempt from all FEMA penalties",
+            "D": "Imprisonment up to 2 years because non-reporting of foreign assets is a criminal offence under FEMA"
+          },
+          "correct": "B",
+          "explanation": "Under Section 13 of FEMA, where the amount of contravention is NOT quantifiable (such as failure to report or file returns — the contravention is the non-reporting itself, not the holding), the penalty is up to ₹2 lakh, with a further penalty of up to ₹5,000 per day during which the contravention continues. This is distinct from Section 13's penalty for quantifiable contraventions (up to 3x the sum involved). Option A is the trap — students confuse the penalty for a quantifiable contravention (e.g., unauthorized holding or transfer of ₹3.2 crore) with a non-quantifiable one (failure to file a report). The non-reporting itself has no quantifiable 'sum involved' — the sum involved is in the underlying holding, not the reporting failure. Option D again falls into the FERA-era criminal penalty trap. The scenario's large inheritance amount (₹3.2 crore) is a red herring for this specific question about the reporting penalty.",
+          "section": "Section 13(1)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s9",
+      "scenarioText": "TechGlobe Solutions Ltd., an Indian IT services company, established a branch office in Germany and a project office in Saudi Arabia. The German branch office generated revenue of EUR 5 million in FY 2025-26, out of which EUR 3 million was retained in Germany for operational expenses including office rent, employee salaries, and equipment purchases. The remaining EUR 2 million was remitted to the Indian head office. The Saudi project office was established for a specific 2-year infrastructure digitization project and received USD 1.5 million as a mobilization advance from the Saudi client. The project was completed 6 months ahead of schedule. After project completion, the Saudi project office had surplus funds of USD 400,000 (after settling all local liabilities). TechGlobe's CFO, Mr. Anand Krishnan, proposed to: (a) use the surplus USD 400,000 from the Saudi project office to fund a new project in Qatar without remitting it to India first, and (b) use the EUR 3 million retained by the German branch to acquire a small German IT company for EUR 2.8 million as a strategic investment. Meanwhile, TechGlobe's authorized dealer bank raised queries about the delay in repatriation of the Saudi surplus and the German branch's retention of EUR 3 million abroad.",
+      "questions": [
+        {
+          "id": 41,
+          "question": "Under FEMA, what is TechGlobe's obligation regarding the EUR 3 million retained by the German branch office for operational expenses?",
+          "options": {
+            "A": "The German branch can retain unlimited funds abroad for bona fide operational expenses without any FEMA compliance, as branch offices are autonomous entities",
+            "B": "All revenue earned by an overseas branch of an Indian company must be repatriated to India in full; no retention abroad is permitted under any circumstances",
+            "C": "The branch can retain funds abroad for meeting normal business expenses, but the retained amount and the repatriation of profits must comply with RBI's guidelines for overseas offices; the retention should be within reasonable limits approved by the AD bank",
+            "D": "The branch can retain up to 50% of revenue abroad and must repatriate the remaining 50% within 30 days of the end of the financial year"
+          },
+          "correct": "C",
+          "explanation": "Under FEMA regulations governing the establishment of offices abroad, an Indian company's overseas branch can retain funds abroad for meeting normal business expenses of the branch. However, this retention must be within reasonable limits as prescribed by RBI guidelines, and the profits/surplus of the branch must be repatriated to India. The authorized dealer bank monitors these remittances. Option A is the trap — branch offices are NOT autonomous entities under FEMA; they are part of the Indian company and subject to FEMA's repatriation obligations. Option B overstates by requiring full repatriation of all revenue, which is impractical for a functioning branch. Option D creates a fictitious 50% rule. The scenario's mention of the AD bank raising queries about the German branch's retention demonstrates the monitoring mechanism in action.",
+          "section": "Section 8 read with FEMA (Establishment in India of Branch Office) Regulations"
+        },
+        {
+          "id": 42,
+          "question": "The CFO's proposal to use the Saudi project office surplus (USD 400,000) directly for a new project in Qatar without repatriation to India is:",
+          "options": {
+            "A": "Permitted, because both Saudi Arabia and Qatar are in the same GCC region, and intra-regional transfers are allowed",
+            "B": "Not permitted — a project office's surplus funds after completion must be repatriated to India; diverting them to another country without repatriation constitutes a contravention of Section 8",
+            "C": "Permitted, provided TechGlobe obtains prior approval from the Saudi Arabian Monetary Authority (SAMA)",
+            "D": "Permitted under the LRS scheme if the CFO personally remits the funds under his individual LRS limit"
+          },
+          "correct": "B",
+          "explanation": "Under FEMA, a project office is established for a specific project. Upon completion of the project, the surplus funds must be repatriated to India. Diverting the surplus to fund a new project in another country without first repatriating to India violates Section 8's repatriation obligations. If TechGlobe wants to fund a Qatar project, it must bring the Saudi surplus back to India and then remit fresh funds for the Qatar project through proper channels. Option A is the trap — there is no 'intra-regional' exemption under FEMA; the repatriation obligation applies regardless of geography. Option D is absurd — LRS is for resident individuals, not for corporate transactions. The key scenario fact is that the project is completed and surplus funds exist, triggering the repatriation obligation.",
+          "section": "Section 8 read with FEMA (Establishment of Branch or Office) Regulations"
+        },
+        {
+          "id": 43,
+          "question": "The CFO's second proposal — using the German branch's retained EUR 3 million to acquire a German IT company — raises which FEMA concern?",
+          "options": {
+            "A": "The acquisition is freely permitted because the branch already holds the funds in Germany, eliminating the need for fresh outward remittance",
+            "B": "The German branch's funds are part of TechGlobe's overall assets and any investment decision constitutes an overseas investment requiring compliance with FEMA Overseas Investment Rules, separate from the branch's operational activities",
+            "C": "Branch offices cannot make investments under any circumstances; only subsidiaries can invest in foreign companies",
+            "D": "The acquisition is a current account transaction because it uses funds already available abroad"
+          },
+          "correct": "B",
+          "explanation": "The German branch's funds are not independent of TechGlobe — they are the Indian company's assets held abroad for branch operations. Using these funds to acquire a separate German company is a strategic investment (overseas direct investment) that must comply with FEMA's Overseas Investment Rules. The fact that the funds are already in Germany does not eliminate the regulatory requirement. Option A is the most tempting trap — students assume that since no fresh outward remittance from India is needed, FEMA doesn't apply. However, FEMA governs the INVESTMENT decision by a person resident in India, regardless of the source of funds. Option D wrongly classifies an equity acquisition as a current account transaction — acquiring equity in a company alters assets outside India, making it a capital account transaction. The scenario's distinction between branch operations and strategic investment is the key issue.",
+          "section": "Section 6 read with FEMA Overseas Investment Rules, 2022"
+        },
+        {
+          "id": 44,
+          "question": "TechGlobe's authorized dealer bank raised queries about repatriation delays. Under FEMA, the authorised dealer bank's role in monitoring compliance includes:",
+          "options": {
+            "A": "The AD bank has no monitoring role; it merely processes transactions. Compliance monitoring is exclusively the Enforcement Directorate's function",
+            "B": "The AD bank acts as the first line of defence — it must verify the purpose and compliance of all foreign exchange transactions, report suspicious transactions, ensure repatriation within prescribed periods, and can refuse to process non-compliant transactions",
+            "C": "The AD bank's role is limited to collecting TCS (Tax Collected at Source) on foreign remittances; FEMA compliance is between the company and RBI directly",
+            "D": "The AD bank only monitors inward remittances, not outward; for outward remittances, the company self-certifies compliance"
+          },
+          "correct": "B",
+          "explanation": "Under FEMA, authorised dealer banks are the primary gatekeepers of foreign exchange compliance. They are required to verify the purpose, documentation, and regulatory compliance of all foreign exchange transactions they process. They must monitor repatriation of export proceeds and other receivables, report suspicious or non-compliant transactions to RBI, and can (and must) refuse to process transactions that violate FEMA regulations. Option A is the key trap — students underestimate the AD bank's compliance role, thinking enforcement is only the ED's job. In reality, ADs are the first line of defence, and the ED steps in when ADs' monitoring reveals violations or when violations bypass the AD channel (like hawala). Option C reduces the AD's role to mere tax collection, which is only one of many functions. The scenario's AD bank raising queries is exactly the monitoring function in action.",
+          "section": "Section 10 read with Section 11"
+        },
+        {
+          "id": 45,
+          "question": "If TechGlobe contravenes Section 8 by failing to repatriate the Saudi project office surplus within the prescribed time, and the ED initiates proceedings, which authority will ADJUDICATE the contravention?",
+          "options": {
+            "A": "The Reserve Bank of India, which has exclusive jurisdiction over all FEMA contraventions",
+            "B": "The Enforcement Directorate, which can both investigate and adjudicate FEMA contraventions",
+            "C": "The Adjudicating Authority — an officer not below the rank of Special Director (ED), appointed by the Central Government under Section 16, who adjudicates after giving an opportunity of being heard",
+            "D": "The National Company Law Tribunal (NCLT), which handles all financial law adjudications including FEMA"
+          },
+          "correct": "C",
+          "explanation": "Under Section 16 of FEMA, the Central Government appoints Adjudicating Authorities (officers not below the rank of Special Director of Enforcement) to adjudicate FEMA contraventions. The Adjudicating Authority must hold an inquiry after giving the person an opportunity of being heard and then determine whether a contravention has occurred and the quantum of penalty. Option B is the trap — the ED investigates and initiates proceedings, but does NOT adjudicate. The separation of investigation (ED) and adjudication (Adjudicating Authority) is a key structural feature of FEMA. Option A is wrong because RBI is the regulatory authority (makes rules, grants permissions), not the adjudicatory body. Option D is wrong because NCLT handles Companies Act and IBC matters, not FEMA. The scenario's ED show-cause notice leads to adjudication by a separate authority.",
+          "section": "Section 16"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s10",
+      "scenarioText": "Mr. Rajan Pillai, an Indian citizen, returned to India permanently on 1st April 2025 after living in the United States for 12 years (2013–2025). He had the following assets in the US: (a) a residential house in New Jersey worth USD 600,000, (b) a 401(k) retirement account with USD 350,000, (c) a brokerage account with Fidelity Investments holding US stocks worth USD 200,000, (d) a checking account with Chase Bank holding USD 85,000, and (e) a whole life insurance policy with MetLife with a surrender value of USD 120,000. Upon returning, he opened a Resident Foreign Currency (RFC) account with ICICI Bank and deposited USD 85,000 from his Chase account. He also received a severance package of USD 150,000 from his former US employer, credited to his Chase account on 15th May 2025 (after his return to India). His wife, Mrs. Lata Pillai, also returned to India but 6 months later (on 1st October 2025). During April–September 2025, she remained in the US and continued to receive her US salary. Mr. Pillai's financial advisor suggested he could maintain all his US assets indefinitely through the 'returning Indian' exemption under FEMA.",
+      "questions": [
+        {
+          "id": 46,
+          "question": "For FEMA purposes, when does Mr. Rajan Pillai become a 'Person Resident in India' after his return on 1st April 2025?",
+          "options": {
+            "A": "Immediately on 1st April 2025, because he returned with the intention to reside permanently in India",
+            "B": "From FY 2026-27 onwards, because for FY 2025-26 the preceding year (FY 2024-25) determines status, and he was in the US for most of FY 2024-25",
+            "C": "After completing 182 continuous days of stay in India post-return, i.e., from 30th September 2025",
+            "D": "Only after he surrenders his US Green Card and obtains an OCI card cancellation certificate"
+          },
+          "correct": "A",
+          "explanation": "Under Section 2(v)(i) of FEMA, a person who comes to or stays in India for or on taking up employment or for carrying on a business or vocation in India, or for any other purpose in such circumstances as would indicate his INTENTION to stay in India for an uncertain period, is treated as a Person Resident in India. This 'intention-based' test is an exception to the 182-day mechanical test. Mr. Pillai returned permanently — his intention is clear, making him a Person Resident in India from 1st April 2025 itself. Option B is the most sophisticated trap — it applies the 182-day preceding year test, which is the GENERAL rule under Section 2(v)(ii). However, Section 2(v)(i)'s intention-based test takes precedence when someone comes to India for employment/business/permanent residence. This distinction between Section 2(v)(i) and 2(v)(ii) is rarely tested but critically important. Option C confuses FEMA's test with a continuous stay requirement, which doesn't exist.",
+          "section": "Section 2(v)(i)"
+        },
+        {
+          "id": 47,
+          "question": "The severance package of USD 150,000 credited to Mr. Pillai's US Chase account on 15th May 2025 (after his return to India) has the following FEMA implication:",
+          "options": {
+            "A": "Since the severance relates to his pre-return employment, it is treated as 'assets acquired when non-resident' and can be retained abroad indefinitely",
+            "B": "Since Mr. Pillai is now a Person Resident in India and the amount was received AFTER his return, it constitutes foreign exchange due or accrued to a person resident in India and must be repatriated within the prescribed time under Section 8",
+            "C": "The severance is tax-free under FEMA and need not be reported to any Indian authority",
+            "D": "He must pay a 30% withholding tax to FEMA authorities before the amount can be credited to his account"
+          },
+          "correct": "B",
+          "explanation": "Section 8 of FEMA requires every person resident in India to take all reasonable steps to realise and repatriate to India all foreign exchange due to or accrued to him. The severance was received on 15th May 2025, by which time Mr. Pillai is already a Person Resident in India. Even though the severance relates to his pre-return employment, the RECEIPT occurred post-return, making it foreign exchange due to a person resident in India. Option A is the most tempting trap — students assume that because the employment was abroad and pre-return, the severance can be treated like a pre-existing asset. However, FEMA focuses on WHEN the amount was received/accrued, not when the employment that generated it occurred. Option C and D conflate tax obligations with FEMA compliance — FEMA does not impose taxes; it governs foreign exchange transactions. The timing fact (received on 15th May, after 1st April return) is determinative.",
+          "section": "Section 8"
+        },
+        {
+          "id": 48,
+          "question": "Mr. Pillai opened an RFC (Resident Foreign Currency) account and deposited USD 85,000. Which of the following statements about the RFC account is INCORRECT?",
+          "options": {
+            "A": "An RFC account can be maintained by a person resident in India who was previously a person resident outside India",
+            "B": "Funds in the RFC account can be used for any permissible current or capital account transaction without being counted towards the LRS limit",
+            "C": "The RFC account can hold only the foreign exchange brought back to India at the time of return; no subsequent deposits from Indian sources are permitted",
+            "D": "Interest earned on the RFC account is exempt from Indian income tax under the Income Tax Act"
+          },
+          "correct": "D",
+          "explanation": "This is an INCORRECT statement identification question. Option D is incorrect — interest earned on RFC accounts IS taxable under the Income Tax Act. FEMA provides the foreign exchange regulatory framework for maintaining the account, but it does not grant income tax exemptions. Students confuse FEMA permissions with tax exemptions — these are separate regulatory domains. Options A, B, and C are all correct: RFC accounts are available to returning Indians (A), RFC funds are not within LRS limits (B), and RFC accounts can hold foreign exchange brought back at the time of return (though subsequent deposits of eligible amounts are also possible, Option C's restriction to 'only at the time of return' is an oversimplification but substantially correct for the core feature). The scenario's RFC deposit is the contextual anchor.",
+          "section": "FEMA (Foreign Currency Accounts by Residents) Regulations read with Income Tax Act"
+        },
+        {
+          "id": 49,
+          "question": "Mrs. Lata Pillai, who returned to India on 1st October 2025 (6 months after Mr. Pillai), continued to receive her US salary during April–September 2025 while in the US. Her FEMA residential status for FY 2025-26 is:",
+          "options": {
+            "A": "Person Resident in India for the entire FY 2025-26, because her husband Mr. Pillai became resident on 1st April 2025 and FEMA treats spouses' residential status as linked",
+            "B": "Person Resident Outside India for FY 2025-26, because she stayed less than 182 days in India during FY 2025-26 (only October 2025 to March 2026 = approximately 182 days)",
+            "C": "Her status depends on her intention — if she returned to India permanently on 1st October 2025 with the intention to stay, she becomes Person Resident in India from that date under Section 2(v)(i)",
+            "D": "Person Resident Outside India for FY 2025-26 AND FY 2026-27, because the 182-day test requires stay in the PRECEDING financial year"
+          },
+          "correct": "C",
+          "explanation": "Like her husband, Mrs. Lata's residential status will be determined under Section 2(v)(i) if she returned with the intention to reside permanently. She would become a Person Resident in India from 1st October 2025 (her date of return with permanent intent), NOT from the beginning of the financial year. This creates a split-year situation where she was PROI until 30th September and PRI from 1st October. Option A is a critical trap — FEMA does NOT link spousal residential status; each person's status is independently determined based on their own circumstances. Option B attempts to apply the 182-day mechanical test, but Section 2(v)(i)'s intention test takes precedence when someone returns permanently. Option D doubly applies the mechanical test. The scenario's specific different return dates for husband and wife test whether students know residential status is individually determined.",
+          "section": "Section 2(v)(i)"
+        },
+        {
+          "id": 50,
+          "question": "The financial advisor's suggestion that Mr. Pillai can maintain ALL his US assets indefinitely through the 'returning Indian' exemption is:",
+          "options": {
+            "A": "Correct — returning Indians can hold all foreign assets acquired during their period of non-residence indefinitely without any FEMA restrictions whatsoever",
+            "B": "Partially correct — assets acquired while non-resident can be retained, but income from such assets (rent, dividends, interest) must be repatriated to India; also, bank accounts must be redesignated as RFC/NRO accounts within a reasonable time",
+            "C": "Incorrect — all foreign assets must be divested within 180 days of returning to India under the FEMA repatriation rules",
+            "D": "Correct — but only for the first 3 financial years after return; thereafter, all assets must be repatriated"
+          },
+          "correct": "B",
+          "explanation": "The returning Indian can retain assets acquired during the period of non-residence — the house, retirement account, stocks, insurance policy can all be held. However, 'holding' the assets is not the same as 'no compliance.' Income earned on these assets (rent from the NJ house, dividends on stocks, interest on bank accounts) is foreign exchange accruing to a person resident in India and must be repatriated under Section 8. Additionally, bank accounts must be redesignated (e.g., Chase checking account should become RFC or the funds brought to India). The advisor's blanket 'indefinitely maintain everything' advice ignores the repatriation obligation on INCOME and the account redesignation requirement. Option A is the trap — the word 'indefinitely' and 'without any restrictions' makes it wrong because while the assets can be held, income must flow to India. Option C creates a fictional 180-day divestment rule. The comprehensive list of US assets in the scenario tests each asset type's treatment.",
+          "section": "Section 4 read with Section 8 and RFC Regulations"
+        }
+      ]
+    }
+  ]
+}
