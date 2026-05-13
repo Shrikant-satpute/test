@@ -240,12 +240,12 @@
       "name": "Foreign Contribution Regulation Act (FCRA), 2010",
       "law": "Economic Laws",
       "category": "economic-laws",
-      "totalQuestions": 25,
-      "totalMarks": 50,
-      "passMarks": 25,
-      "duration": 45,
-      "available": false,
-      "keySections": ["Sec 2", "Sec 3", "Sec 4", "Sec 5", "Sec 6", "Sec 7", "Sec 8", "Sec 11", "Sec 12", "Sec 13", "Sec 14", "Sec 15", "Sec 16", "Sec 17", "Sec 18", "Sec 19", "Sec 20"]
+      "totalQuestions": 50,
+      "totalMarks": 100,
+      "passMarks": 50,
+      "duration": 90,
+      "available": true,
+      "keySections": ["Sec 2", "Sec 3", "Sec 4", "Sec 5", "Sec 6", "Sec 7", "Sec 8", "Sec 11", "Sec 12", "Sec 12A", "Sec 13", "Sec 14", "Sec 15", "Sec 16", "Sec 17", "Sec 18", "Sec 19", "Sec 20", "Sec 35", "Sec 41"]
     },
     {
       "id": "el-ibc",

@@ -1,0 +1,718 @@
+{
+  "chapterId": "el-fcra",
+  "chapterName": "Foreign Contribution (Regulation) Act (FCRA), 2010",
+  "law": "Economic Laws",
+  "category": "economic-laws",
+  "scenarios": [
+    {
+      "scenarioId": "s1",
+      "scenarioText": "Bhumika Welfare Trust, a charitable trust registered under the Bombay Public Trusts Act on 1st April 2022, has been working in the field of rural healthcare in Maharashtra. The board of trustees consists of 7 members including the chairperson Dr. Priya Naik. During its first three financial years of operation (FY 2022-23 to FY 2024-25), the trust spent ₹4.50 lakh, ₹6.20 lakh and ₹5.10 lakh respectively on its core charitable activities (excluding administrative expenditure). In April 2025, the trust received an invitation from a US-based foundation, Global Health Initiative Inc., to receive a one-time grant of USD 50,000 (approx. ₹41 lakh) for setting up a community mobile clinic. Excited about the offer, the trustees authorised the chairperson to immediately accept the funds into the trust's existing State Bank of India branch account in Pune, on 20th April 2025. Simultaneously, the trust filed an application for FCRA registration with the Ministry of Home Affairs (MHA). One trustee, Mr. Ashok Bhonsle, who is the editor of a registered weekly newspaper named 'Maharashtra Sandesh', signed the FCRA application as part of the office-bearers list. Another trustee, Mr. Vinay Pawar, is an Indian citizen currently engaged as a contracted consultant at the Indian Embassy in London on a project-fee basis (he is not on the embassy's permanent staff). The MHA finally granted registration to the trust on 15th October 2025.",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Considering Bhumika Welfare Trust's three-year spending pattern of ₹4.50 lakh, ₹6.20 lakh and ₹5.10 lakh on its core charitable activities, is the trust eligible to apply for FCRA registration under Section 11 read with Section 12 of FCRA, 2010?",
+          "options": {
+            "A": "Yes, the trust has completed 3 years of existence which is the sole eligibility criterion under Section 12",
+            "B": "No, although 3 years of existence is met, each individual year must show a minimum of ₹5 lakh spent on core activities, and FY 2022-23 (₹4.50 lakh) fails to meet that minimum",
+            "C": "Yes, because the cumulative spending of ₹15.80 lakh on core activities over the last 3 financial years marginally exceeds the prescribed minimum of ₹15 lakh, and the trust is at least 3 years old",
+            "D": "No, the trust must complete a minimum of 5 years of existence and have spent ₹25 lakh on its core activities to be eligible for fresh registration"
+          },
+          "correct": "C",
+          "explanation": "Section 12 of FCRA read with Rule 9 of the FCRA Rules, 2011 prescribes two cumulative conditions for grant of registration: (i) the applicant must have been in existence for at least 3 years; AND (ii) it must have spent at least ₹15 lakh on its aims and objects during the preceding 3 financial years (excluding administrative expenditure). Bhumika Trust's cumulative spending of ₹4.50 + ₹6.20 + ₹5.10 = ₹15.80 lakh marginally exceeds the ₹15 lakh threshold, and 3 years are complete. Option B is the most tempting trap — there is NO statutory requirement that each individual year must show ≥ ₹5 lakh; only the cumulative figure matters. Option D inflates the existence and spending thresholds. The determinative scenario facts are the specific year-by-year figures totalling ₹15.80 lakh.",
+          "section": "Section 12 read with Rule 9"
+        },
+        {
+          "id": 2,
+          "question": "Mr. Ashok Bhonsle, listed as a trustee of Bhumika, is the editor of the registered weekly newspaper 'Maharashtra Sandesh'. What is the legal effect of his inclusion as an office-bearer on the trust's FCRA application?",
+          "options": {
+            "A": "The trust's application remains valid as long as Mr. Bhonsle does not draw a salary from the trust",
+            "B": "The trust's application is liable to be rejected — Section 3(1)(g) prohibits the editor of a registered newspaper from receiving foreign contribution, and the prohibition extends to an association whose office bearers fall under prohibited categories",
+            "C": "The application remains valid because Section 3 only prohibits 'owners' of newspapers, not editors",
+            "D": "The application remains valid because Section 3's newspaper prohibition applies only to English-language newspapers, not vernacular ones"
+          },
+          "correct": "B",
+          "explanation": "Section 3(1)(g) of FCRA expressly lists 'correspondent, columnist, cartoonist, editor, owner, printer or publisher of a registered newspaper' among prohibited persons. The eligibility regime under Section 11 read with Rule 9 requires that NO office-bearer / key functionary of an applicant entity falls within Section 3. Since Mr. Bhonsle is a trustee and is also an editor of a registered newspaper, the trust's application is liable to be rejected unless his role is removed. Option C is the most tempting trap — Section 3 covers a wide range of newspaper-related roles, not merely owners. Option D is fabricated; there is no language-based exemption. The determinative scenario fact is that he is the editor of a 'registered' newspaper.",
+          "section": "Section 3(1)(g) read with Section 11"
+        },
+        {
+          "id": 3,
+          "question": "The trustees authorised receipt of USD 50,000 directly into the trust's existing SBI Pune account on 20th April 2025, before FCRA registration was granted. Which of the following statements is CORRECT under FCRA?",
+          "options": {
+            "A": "It is permissible because the FCRA application had already been filed; pending grant, any SBI account in India is acceptable",
+            "B": "It is permissible because a grant for setting up a community mobile clinic is a 'specified purpose' exempt from the FCRA registration requirement",
+            "C": "It is illegal — under Section 17 (as amended in 2020), foreign contribution must be received ONLY in a designated 'FCRA Account' opened at the State Bank of India, New Delhi Main Branch (NDMB), and only by an entity that already has FCRA registration or prior permission",
+            "D": "It is permissible because USD 50,000 is below the ₹15 lakh equivalent threshold for mandatory FCRA registration"
+          },
+          "correct": "C",
+          "explanation": "Post the FCRA (Amendment) Act, 2020, Section 17 mandates that foreign contribution shall be received only in an 'FCRA Account' opened at the State Bank of India, New Delhi Main Branch. Section 11 separately requires PRIOR registration or PRIOR permission before any receipt. The trust's plan to receive funds into its existing Pune SBI account, without yet having FCRA registration, violates both Section 11 (no prior registration) and Section 17 (wrong account). Option A is the most tempting trap — merely filing an application does not authorise receipt. Option D is fabricated; there is no de minimis threshold below which FCRA is inapplicable. The determinative scenario facts are the 20th April 2025 receipt date and the 15th October 2025 grant date.",
+          "section": "Section 11 read with Section 17"
+        },
+        {
+          "id": 4,
+          "question": "Mr. Vinay Pawar, a trustee, is engaged as a contracted consultant at the Indian Embassy in London (project-fee basis, not on permanent staff). Does his role disqualify the trust under Section 3 of FCRA?",
+          "options": {
+            "A": "No, because contracted consultants are not 'employees' of Government and Section 3 covers only permanent government servants",
+            "B": "Yes, but only if he is paid directly out of the Embassy's foreign-currency budget",
+            "C": "Yes — the FCRA (Amendment) Act, 2020 inserted 'public servant' as defined in Section 21 of the IPC into Section 3(1)(c); a contracted consultant in the service or pay of the Government of India (including at its missions abroad) is a public servant and prohibited",
+            "D": "No, because employees of Indian missions abroad are governed by foreign service rules and are outside the scope of FCRA"
+          },
+          "correct": "C",
+          "explanation": "The FCRA (Amendment) Act, 2020 amended Section 3(1)(c) by inserting 'public servant' (as defined in Section 21 of the Indian Penal Code) into the list of prohibited persons. Section 21 IPC's definition of 'public servant' includes any officer in the service or pay of the Government, regardless of permanence — this expressly captures contracted consultants performing public duty for the Government. A contracted consultant at the Indian Embassy is in the pay of the Government and therefore a 'public servant'. As one of the trustees is a public servant, the trust's eligibility is impaired. Option A is the most tempting trap — the 2020 amendment was specifically designed to widen the prohibition beyond permanent staff. The determinative scenario fact is his contracted-consultant status at an Indian mission.",
+          "section": "Section 3(1)(c) (as amended in 2020)"
+        },
+        {
+          "id": 5,
+          "question": "Assume the trust subsequently corrects its office-bearer composition and is granted FCRA registration on 15th October 2025. What is the legal status of the USD 50,000 that was already received in the Pune SBI account on 20th April 2025?",
+          "options": {
+            "A": "The amount is automatically validated as the trust now has FCRA registration; subsequent registration cures the prior receipt",
+            "B": "The amount remains tainted — receipt without registration violates Section 11 and is liable to be confiscated under Section 17; subsequent registration operates prospectively and does NOT retrospectively validate the prior receipt",
+            "C": "The trust may apply for prior permission under Section 11(2) to regularise the prior receipt post-facto",
+            "D": "The trust may simply transfer the funds from the Pune account to its new SBI NDMB FCRA account, after which the funds are treated as fresh receipt"
+          },
+          "correct": "B",
+          "explanation": "Section 11(1) prohibits acceptance of foreign contribution by an unregistered person. The grant of registration on a later date operates prospectively only; it does not retrospectively validate receipts made before its grant. Such pre-registration funds are liable to confiscation under Section 17, and the trust attracts penalty under Sections 35-37 and may be denied registration on this very ground. Option C is the trap — 'prior permission' under Section 11(2) is for SPECIFIC future receipts identified in advance, not for post-facto regularisation. Option D is a fraud — re-routing already-tainted funds does not cleanse the underlying illegality. The determinative scenario fact is the six-month gap between receipt (April 2025) and grant of registration (October 2025).",
+          "section": "Section 11 read with Section 17"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s2",
+      "scenarioText": "The Citizens Initiative for Good Governance (CIGG), a society registered under the Societies Registration Act and holding valid FCRA registration since 2020, has invited a panel of speakers for its annual conference titled 'Public Policy in the Indian Federal System' scheduled for 10th December 2025. The list of invited dignitaries includes: (i) Hon'ble Justice Ratan Kapoor, a sitting judge of the Delhi High Court, who has been offered business-class air travel from Delhi to Geneva plus 5-star accommodation by an Italian think-tank to speak at a parallel event in Geneva on 18th December 2025; (ii) Mr. Devendra Joshi, a sitting Member of the Maharashtra Legislative Assembly (MLA), who has been offered a return air ticket plus a daily allowance of USD 200 by the German foundation 'Friedrich Ebert Stiftung' for an academic visit to Berlin; (iii) Shri Pankaj Verma, a retired IAS officer who served as Cabinet Secretary until 2023 and is currently engaged on a project-consultancy basis by the Government of India for one specific reform project on civil services; (iv) Ms. Nidhi Sharma, an investigative journalist whose articles are published in an English-language newspaper registered under the Press and Registration of Books Act, 1867; and (v) Mr. Arjun Khanna, who unsuccessfully contested the 2024 Lok Sabha elections and is now a private practising lawyer. CIGG plans to defray all related expenses through its FCRA-account funds donated by an American philanthropic foundation.",
+      "questions": [
+        {
+          "id": 6,
+          "question": "Can Hon'ble Justice Ratan Kapoor, a sitting High Court judge, accept the business-class air travel and 5-star accommodation offered by the Italian think-tank for the Geneva event without further compliance under FCRA?",
+          "options": {
+            "A": "Yes, because a one-time speaking engagement at an academic event is exempt from Section 6",
+            "B": "No — Section 6 prohibits judges from accepting foreign hospitality from a foreign source while visiting any foreign country, except with prior permission of the Central Government",
+            "C": "Yes, provided the value of hospitality does not exceed USD 10,000 per visit",
+            "D": "Yes, because Section 6 applies only when judges visit countries that share a land border with India"
+          },
+          "correct": "B",
+          "explanation": "Section 6 of FCRA prohibits enumerated office-holders — members of any legislature, office-bearers of political parties, judges, government servants and employees of government-controlled corporations — from accepting 'foreign hospitality' while visiting any foreign country/territory, except with prior permission of the Central Government. 'Foreign hospitality' is defined in Section 2(i) to include offers of free transport, board or lodging from a foreign source. Option A is wrong — there is no academic-event exemption. Option C is wrong — Section 6 does not have a monetary threshold. Option D is wrong — Section 6 covers visits to all foreign countries. The determinative scenario fact is that Justice Kapoor is a sitting High Court judge being offered foreign-source hospitality on a foreign visit.",
+          "section": "Section 6 read with Section 2(i)"
+        },
+        {
+          "id": 7,
+          "question": "Mr. Devendra Joshi, the sitting Maharashtra MLA, has been offered air travel and daily allowance by Friedrich Ebert Stiftung for an academic visit to Berlin. Which provision applies and what is the legal consequence?",
+          "options": {
+            "A": "Section 3 applies — MLAs are absolutely prohibited from accepting foreign contribution including hospitality",
+            "B": "Section 6 applies — as a sitting MLA he requires prior permission of the Central Government to accept foreign hospitality on foreign travel; failure to obtain prior permission renders the acceptance a punishable contravention",
+            "C": "Section 5 applies — Friedrich Ebert Stiftung must first be notified as an 'organisation of political nature' before he may accept",
+            "D": "Section 6 does not apply because Section 6 covers only Members of Parliament; State legislators are not within its ambit"
+          },
+          "correct": "B",
+          "explanation": "Section 6 covers 'member of any Legislature' — both Parliament and State legislatures. A sitting MLA accepting foreign hospitality on foreign travel must obtain prior permission of the Central Government. Failure to obtain that permission is a contravention attracting penalty. Option A is the most tempting trap — Section 3 deals separately with acceptance of 'foreign contribution' (i.e., funds for use); Section 6 covers 'foreign hospitality' on foreign visits and is the directly applicable provision here. Option D incorrectly narrows Section 6 to Members of Parliament. The determinative scenario fact is his status as a sitting MLA receiving foreign hospitality for foreign travel.",
+          "section": "Section 6 read with Section 2(i)"
+        },
+        {
+          "id": 8,
+          "question": "Shri Pankaj Verma, the retired IAS officer now engaged on a project-consultancy basis by the Government of India, attends the CIGG conference and is paid an honorarium of ₹50,000 from CIGG's FCRA-account funds. Which of the following statements is CORRECT?",
+          "options": {
+            "A": "Permissible — he is no longer in regular government service after retiring as Cabinet Secretary",
+            "B": "Impermissible under Section 3(1)(c) as amended in 2020 — his current role as project-consultant to the Government of India brings him within the expanded 'public servant' definition (Section 21 IPC), and a public servant is prohibited from receiving foreign contribution",
+            "C": "Permissible — an honorarium is a 'fee for service' and is excluded from foreign contribution under Section 2(h) Explanation",
+            "D": "Impermissible only under Section 6, not Section 3"
+          },
+          "correct": "B",
+          "explanation": "The FCRA (Amendment) Act, 2020 inserted 'public servant' (as defined in Section 21 IPC) into the list of prohibited persons under Section 3(1)(c). Section 21 IPC includes any person in the service or pay of the Government performing public duty — even on a project-consultancy basis. Shri Verma's current engagement makes him a public servant and his honorarium drawn from CIGG's FCRA funds is foreign contribution received by a prohibited person. Option C is the most tempting trap — the 'fee for service' exclusion under Section 2(h) presupposes that the recipient is otherwise eligible to receive; a person prohibited under Section 3 cannot escape the bar by re-labelling the receipt. Option D is wrong — Section 6 covers foreign hospitality on foreign travel, not domestic receipt of foreign contribution. The determinative scenario fact is his continuing engagement with the Government of India.",
+          "section": "Section 3(1)(c) (as amended in 2020)"
+        },
+        {
+          "id": 9,
+          "question": "Ms. Nidhi Sharma, an investigative journalist whose articles are published in a registered English-language newspaper, attends the conference and is offered an honorarium of ₹25,000 from CIGG's FCRA-account funds. Which of the following is CORRECT?",
+          "options": {
+            "A": "She may accept; Section 3 does not cover journalists working for newspapers",
+            "B": "She may accept because Section 3 covers only 'owners' of newspapers, not journalists / correspondents",
+            "C": "She cannot accept — Section 3(1)(g) prohibits 'correspondent, columnist, cartoonist, editor, owner, printer or publisher of a registered newspaper' from receiving foreign contribution",
+            "D": "She may accept if she signs an undertaking that the honorarium will not be used for newspaper-related work"
+          },
+          "correct": "C",
+          "explanation": "Section 3(1)(g) of FCRA enumerates 'correspondent, columnist, cartoonist, editor, owner, printer or publisher of a registered newspaper' among the persons prohibited from receiving foreign contribution. As an investigative journalist whose articles are published in a registered newspaper, Ms. Sharma falls within this prohibition. Option B is the most tempting trap — the section is not limited to owners; it captures a wide range of newspaper-related functionaries. Option D is fabricated — there is no purpose-based undertaking that overrides Section 3. The determinative scenario fact is that her articles are published in a 'registered newspaper'.",
+          "section": "Section 3(1)(g)"
+        },
+        {
+          "id": 10,
+          "question": "Mr. Arjun Khanna unsuccessfully contested the 2024 Lok Sabha elections and is now a private practising lawyer. CIGG offers him ₹40,000 from its FCRA-account funds for legal consulting services. Which of the following is CORRECT?",
+          "options": {
+            "A": "He cannot accept; Section 3 prohibits 'candidates for election' from receiving foreign contribution permanently, even after the election concludes",
+            "B": "He may accept because he is no longer a 'candidate for election' once the 2024 election has concluded; the Section 3(1)(d) prohibition is status-based and ceases when the candidature ends",
+            "C": "He cannot accept because Section 3 prohibits receipt from the date he filed nomination until 6 months after election results were declared",
+            "D": "He may accept only if his security deposit was refunded after the election"
+          },
+          "correct": "B",
+          "explanation": "Section 3(1)(d) prohibits a 'candidate for election' from accepting foreign contribution. The prohibition is status-based — it operates only while the person is a candidate, and ceases once the election is concluded. Since the 2024 Lok Sabha elections are concluded and Mr. Khanna is now in private legal practice, he is not currently a 'candidate' and is therefore outside the Section 3(1)(d) prohibition. Option A is the trap — it treats the prohibition as lifetime. Option C inserts a fabricated 6-month tail. Option D is irrelevant to the legal test. The determinative scenario facts are the conclusion of the 2024 election and his current status as a private lawyer.",
+          "section": "Section 3(1)(d)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s3",
+      "scenarioText": "Karuna Rural Development Society (KRDS), an FCRA-registered NGO based in Tamil Nadu, received total foreign contribution of ₹2.50 crore during FY 2024-25 from three foreign donors — a US foundation (₹1.50 crore), a German charity (₹60 lakh) and a Canadian university (₹40 lakh) — for various rural development projects. The opening unutilised FC balance at the start of FY 2024-25 was ₹60 lakh, making the total handleable FC ₹3.10 crore. During FY 2024-25 KRDS incurred the following expenses out of foreign contribution funds: (a) salaries of administrative office staff at the headquarters — ₹35 lakh; (b) rent of head-office premises — ₹12 lakh; (c) running costs of vehicles used by field officers travelling between project villages — ₹8 lakh; (d) honorarium to its Chief Functionary (Executive Director) — ₹15 lakh; (e) auditor's fees — ₹3 lakh; (f) consultancy fees paid to a strategy consultancy firm for an organisational restructuring exercise — ₹5 lakh; (g) training of beneficiaries in 12 villages — ₹22 lakh; (h) agricultural inputs distributed to 800 small farmers — ₹85 lakh. In addition, KRDS transferred ₹30 lakh from its FCRA funds to its partner NGO 'Grameen Vikas Sangam' (which is itself FCRA-registered) for joint implementation of a water harvesting project in the same district.",
+      "questions": [
+        {
+          "id": 11,
+          "question": "Under Section 8 read with Rule 5 of the FCRA Rules, 2011 (as amended in 2020), what is the maximum permissible administrative expense out of foreign contribution that KRDS may incur for FY 2024-25?",
+          "options": {
+            "A": "50% of the foreign contribution received during the financial year, i.e., ₹1.25 crore",
+            "B": "20% of the foreign contribution received during the financial year, i.e., ₹50 lakh",
+            "C": "20% of the total handleable foreign contribution including opening balance, i.e., ₹62 lakh",
+            "D": "There is no monetary cap; the expense must merely be 'reasonable' and proportionate to project size"
+          },
+          "correct": "B",
+          "explanation": "Section 8(1)(b) read with Rule 5 of the FCRA Rules, 2011 was amended in 2020 to REDUCE the administrative-expense cap from 50% to 20% of the FOREIGN CONTRIBUTION RECEIVED during the financial year. The denominator is FC received in the FY, not opening balance + receipts. For FY 2024-25, KRDS received ₹2.50 crore; the cap is therefore ₹50 lakh. Option A is the pre-2020 figure of 50% — the classic amendment trap. Option C is the trap of applying the cap to total handleable funds including opening balance, but the rule specifies receipts in the FY. The determinative scenario fact is that KRDS received ₹2.50 crore in FY 2024-25.",
+          "section": "Section 8(1)(b) read with Rule 5"
+        },
+        {
+          "id": 12,
+          "question": "Based on the listed expenditure items, what is KRDS's total ADMINISTRATIVE expenditure for FY 2024-25 (correctly classified under Rule 5), and does it breach the Section 8 cap?",
+          "options": {
+            "A": "Administrative expense = ₹50 lakh (admin staff salaries ₹35L + HQ rent ₹12L + audit fees ₹3L); cap of ₹50 lakh is just met — no breach",
+            "B": "Administrative expense = ₹70 lakh (admin staff salaries ₹35L + HQ rent ₹12L + ED honorarium ₹15L + audit fees ₹3L + strategy consultancy ₹5L); cap exceeded by ₹20 lakh",
+            "C": "Administrative expense = ₹78 lakh (admin staff salaries ₹35L + HQ rent ₹12L + field-officer vehicles ₹8L + ED honorarium ₹15L + audit fees ₹3L + strategy consultancy ₹5L); cap exceeded by ₹28 lakh",
+            "D": "Administrative expense = ₹15 lakh (only the ED honorarium); cap not breached"
+          },
+          "correct": "B",
+          "explanation": "Rule 5 of the FCRA Rules, 2011 defines 'administrative expenses' to include salaries of administrative office staff, rent of HQ premises, audit fees, honoraria to functionaries engaged in administration, legal and professional fees, and consultancy on organisational / strategic matters; it expressly EXCLUDES expenses directly related to project implementation, including travel by field officers between project sites and training of beneficiaries. The admin expenses are therefore: ₹35L (admin staff salaries) + ₹12L (HQ rent) + ₹15L (ED honorarium) + ₹3L (audit fees) + ₹5L (strategy consultancy on restructuring) = ₹70 lakh. With the cap at ₹50 lakh, KRDS is in breach by ₹20 lakh. Option C wrongly classifies field-officer vehicle costs as administrative — they are project-implementation expenses. Option D omits multiple admin items. The determinative scenario facts are the specific characterisation of each expense head.",
+          "section": "Section 8 read with Rule 5"
+        },
+        {
+          "id": 13,
+          "question": "KRDS transferred ₹30 lakh of its foreign contribution to its partner NGO 'Grameen Vikas Sangam', which is itself FCRA-registered, for a joint water-harvesting project. Post the FCRA (Amendment) Act, 2020, is this transfer legally valid?",
+          "options": {
+            "A": "Yes — transfer between two FCRA-registered entities for a joint project is permissible with intimation to the MHA",
+            "B": "Yes — transfer is permissible if approved by both NGOs' boards of trustees and disclosed in Form FC-4",
+            "C": "No — Section 7, as amended by the FCRA (Amendment) Act, 2020, imposes an ABSOLUTE prohibition on transfer of foreign contribution to any other person, whether or not such other person is FCRA-registered",
+            "D": "Yes — transfer is permissible up to 25% of FC received during the year, provided the recipient is FCRA-registered"
+          },
+          "correct": "C",
+          "explanation": "The FCRA (Amendment) Act, 2020 substituted Section 7 to impose an ABSOLUTE prohibition on the transfer of foreign contribution by a registered or permitted person to any 'other person'. The pre-2020 law had permitted such transfers to other FCRA-registered entities (subject to conditions); the 2020 amendment swept that away. The Supreme Court upheld this amendment in Noel Harper v. Union of India (2022). KRDS's ₹30 lakh transfer to Grameen Vikas Sangam — even though the latter is FCRA-registered — therefore violates Section 7. Option A reflects the pre-2020 position and is the most common trap. Option D is wholly fabricated. The determinative scenario fact is that this is a post-2020 transfer.",
+          "section": "Section 7 (as substituted in 2020)"
+        },
+        {
+          "id": 14,
+          "question": "Assuming KRDS spent ₹70 lakh on administrative expenses, exceeding the Section 8 cap by ₹20 lakh, what is the legal consequence under FCRA?",
+          "options": {
+            "A": "The excess is recoverable as penalty and the certificate of registration may be cancelled under Section 14(1)(d) for violation of the conditions of registration / provisions of the Act",
+            "B": "The excess is automatically converted into an interest-free loan from the Central Government repayable over 5 years",
+            "C": "There is no consequence as the 20% cap is a guideline and not a binding requirement",
+            "D": "The excess must be refunded to the foreign donors with interest at 12% per annum"
+          },
+          "correct": "A",
+          "explanation": "Spending in excess of the Section 8 / Rule 5 administrative cap is a violation of the conditions of FCRA registration. Section 14(1)(d) empowers the Central Government to cancel the certificate where the holder has violated any of the provisions of the Act or any of the conditions of the certificate. The excess is also liable to recovery and the entity faces penalty under Sections 35-37. Option B is fabricated. Option C is wrong — the cap is statutorily binding under Rule 5 read with Section 8. Option D — refund to donors is not the prescribed legal remedy. The determinative scenario fact is the ₹70 lakh admin spend versus the ₹50 lakh cap.",
+          "section": "Section 8 read with Section 14"
+        },
+        {
+          "id": 15,
+          "question": "For purposes of Section 8 / Rule 5, how should the ₹85 lakh distributed as agricultural inputs to 800 farmer-beneficiaries be classified?",
+          "options": {
+            "A": "Administrative expense, because the overhead of distribution is absorbed within it",
+            "B": "Programme / project expense, since it is the direct delivery of the charitable aim to the ultimate beneficiaries and is not organisational overhead",
+            "C": "Capital expenditure requiring separate sanction under Section 8(2)",
+            "D": "Transfer of foreign contribution to other persons, requiring compliance with Section 7 (post-2020)"
+          },
+          "correct": "B",
+          "explanation": "Distribution of agricultural inputs to farmer-beneficiaries is the direct delivery of the charitable aim and constitutes a programme / project expense. It is NOT 'administrative expense' under Rule 5, which is restricted to organisational overhead. The 800 farmers are ultimate beneficiaries and they are not 'other persons' within the meaning of Section 7 — receipt of programme benefits by beneficiaries is not a 'transfer' that the 2020 amendment captures. Option D is the most tempting trap given the 2020 amendment's wide language; however, Section 7 contemplates inter-organisational transfer of FC, not delivery of programme outputs to ultimate beneficiaries. The determinative scenario fact is that the farmers are direct beneficiaries of the development programme.",
+          "section": "Rule 5 read with Section 7"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s4",
+      "scenarioText": "The Shanti Foundation, an FCRA-registered Section 8 company headquartered in Bengaluru, received its registration from the MHA in March 2025. Its Chief Executive Officer, Mr. Krishna Iyengar, is an Indian citizen who holds an Aadhaar number. However, the foundation's Treasurer, Ms. Sophie Mueller, is a German citizen residing in India on an OCI card. The foundation's bankers in Bengaluru, ICICI Bank, advised the foundation that opening its FCRA primary account at ICICI Bank's Connaught Place, New Delhi branch would suffice, and issued a letter to that effect. Relying on the letter, the foundation opened its FCRA primary account at ICICI Bank Connaught Place. It also opened 'utilisation accounts' at HDFC Bank Bengaluru and Axis Bank Pune to route day-to-day project disbursements. On 5th April 2025, the foundation received its first foreign contribution — USD 100,000 (approx. ₹83 lakh) from a Dutch foundation — directly into its newly opened ICICI Connaught Place account. Mr. Iyengar promptly furnished his Aadhaar to the MHA. Ms. Mueller, however, refused to furnish any identification document, contending that she only holds a German passport and an OCI card and that Section 12A does not apply to her as an OCI cardholder.",
+      "questions": [
+        {
+          "id": 16,
+          "question": "Which of the following statements about the LOCATION of an FCRA primary account is CORRECT under Section 17 (as amended by the FCRA (Amendment) Act, 2020)?",
+          "options": {
+            "A": "The FCRA primary account may be opened at any branch of the State Bank of India located in New Delhi",
+            "B": "The FCRA primary account must be opened ONLY at the State Bank of India, New Delhi Main Branch (NDMB) — no other bank and no other SBI branch is permitted",
+            "C": "The FCRA primary account may be opened at any nationalised bank located in New Delhi",
+            "D": "The FCRA primary account may be opened at any scheduled bank branch in New Delhi as designated in the certificate of registration"
+          },
+          "correct": "B",
+          "explanation": "Section 17(1), as substituted in 2020, mandates that foreign contribution shall be received only in an 'FCRA Account' opened by the entity at the State Bank of India, NEW DELHI MAIN BRANCH. This is an exclusive designation — no other bank, and no other SBI branch, satisfies the requirement. ICICI Bank's Connaught Place branch is not the correct location. Option A is the most tempting trap — students recall 'New Delhi' but forget the specific 'NDMB' designation. Options C and D conflate the location requirement with the broader category of scheduled banks. The determinative scenario fact is that the foundation opened the account at ICICI Bank Connaught Place rather than SBI NDMB.",
+          "section": "Section 17(1)"
+        },
+        {
+          "id": 17,
+          "question": "Is the foundation permitted to open utilisation accounts at HDFC Bank Bengaluru and Axis Bank Pune for routing day-to-day project disbursements?",
+          "options": {
+            "A": "No — every FCRA-related account, including utilisation accounts, must be at SBI NDMB only",
+            "B": "Yes — after the foreign contribution is RECEIVED in the FCRA Account at SBI NDMB, the entity may transfer funds to one or more utilisation accounts opened in any scheduled bank under the proviso to Section 17",
+            "C": "Yes, but utilisation accounts may be opened only with public-sector banks",
+            "D": "Yes, but only one utilisation account per FCRA-registered entity is permitted"
+          },
+          "correct": "B",
+          "explanation": "While Section 17 mandates RECEIPT of foreign contribution at the SBI NDMB FCRA Account, the proviso to the section permits the registered entity to open one or more 'utilisation accounts' at any scheduled bank for actual deployment of funds. Funds are first received at SBI NDMB and then transferred to utilisation account(s) as needed. Option A misreads Section 17 — only the receipt is location-restricted; utilisation can be from accounts at any scheduled bank. Options C and D introduce restrictions that do not exist in the statute. HDFC and Axis are scheduled banks, so the foundation's utilisation accounts are permissible.",
+          "section": "Section 17(1) proviso"
+        },
+        {
+          "id": 18,
+          "question": "The foundation received USD 100,000 directly into its ICICI Connaught Place account on 5th April 2025 instead of into an SBI NDMB FCRA Account. What is the legal consequence?",
+          "options": {
+            "A": "It is a curable irregularity — the foundation can transfer the funds to its SBI NDMB account within 30 days and the receipt is regularised",
+            "B": "It is a violation of Section 17 — the receipt is illegal per se, attracts penalty under Sections 35-37 and is a ground for cancellation under Section 14",
+            "C": "It is valid because ICICI is a scheduled bank and Section 17 permits receipt at any scheduled bank",
+            "D": "It is valid because the foundation already holds FCRA registration and the bank's letter constitutes a designation"
+          },
+          "correct": "B",
+          "explanation": "Section 17(1) is mandatory. Any receipt of foreign contribution at an account other than the prescribed SBI NDMB FCRA Account violates the section. Such violation attracts penalty under Sections 35-37 and is a ground for cancellation under Section 14. There is no statutory grace period or curing mechanism. A bank's letter cannot override an Act of Parliament. Option A is the trap. Option C misreads Section 17 — utilisation accounts may be at any scheduled bank, but receipt must be at SBI NDMB only. The determinative scenario fact is that the receipt was into an ICICI Bank account.",
+          "section": "Section 17(1) read with Section 14"
+        },
+        {
+          "id": 19,
+          "question": "Section 12A (inserted by the FCRA (Amendment) Act, 2020) requires office-bearers and key functionaries to furnish identification. Which of the following is CORRECT regarding Ms. Sophie Mueller, a German citizen with an OCI card?",
+          "options": {
+            "A": "As an OCI cardholder she is treated as an Indian citizen and must furnish Aadhaar",
+            "B": "Section 12A requires Aadhaar from Indian citizen office-bearers / key functionaries; foreign nationals (including OCI cardholders who are foreign citizens) may furnish a copy of their passport or OCI card in lieu of Aadhaar",
+            "C": "OCI cardholders are exempt from Section 12A identification requirements altogether",
+            "D": "She must surrender her German citizenship and apply for Indian citizenship to be eligible to serve as Treasurer"
+          },
+          "correct": "B",
+          "explanation": "Section 12A, inserted by the 2020 amendment, requires each office-bearer / director / key functionary of an applicant or registered entity to furnish identification. For Indian citizens, Aadhaar is required; for foreign nationals (which includes OCI cardholders, who remain foreign citizens), the requirement is satisfied by furnishing a copy of the passport or the OCI card. Option A is the trap — OCI status does not equate to Indian citizenship for the purpose of the Aadhaar mandate under Section 12A. Option C is wrong — foreigners are NOT exempt; they merely furnish a different document. Option D is a fabricated extreme. The determinative scenario fact is her German citizenship plus OCI status.",
+          "section": "Section 12A"
+        },
+        {
+          "id": 20,
+          "question": "Ms. Mueller has refused to furnish ANY identification document. What is the consequence for the foundation's FCRA registration?",
+          "options": {
+            "A": "The foundation can continue to operate; only Ms. Mueller's individual identity is unverified",
+            "B": "The foundation's FCRA registration is liable to be refused or cancelled, because Section 12A makes furnishing of identification by office-bearers a precondition for grant and continuance of registration",
+            "C": "The MHA must grant a 90-day grace period for compliance before any adverse action",
+            "D": "Ms. Mueller is deemed to have resigned by operation of FCRA, and the foundation may continue with the remaining office-bearers"
+          },
+          "correct": "B",
+          "explanation": "Section 12A makes the furnishing of prescribed identification by every office-bearer / director / key functionary a precondition for grant and continuance of FCRA registration. Failure of any such office-bearer to furnish the required identification is a ground for refusal of registration or cancellation under Section 14. Option C is fabricated — there is no statutory 90-day grace. Option D is wrong — FCRA does not deem resignation. The determinative scenario fact is that Ms. Mueller, an office-bearer (Treasurer), has refused to furnish either Aadhaar (which would not apply to her anyway) or passport / OCI card (which would).",
+          "section": "Section 12A read with Section 14"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s5",
+      "scenarioText": "The Sunlight Education Trust (SET), an FCRA-registered trust working in education for underprivileged children in Bihar since 2015, has been under scrutiny by the Ministry of Home Affairs (MHA) following multiple whistle-blower complaints alleging diversion of FC funds for non-charitable purposes. On 1st June 2025, the MHA issued an order under Section 13 of FCRA suspending SET's FCRA certificate for an initial period of 180 days. At the time of suspension, SET's SBI NDMB FCRA account held ₹85 lakh. SET had pre-existing project commitments — already approved before suspension — requiring disbursement of ₹15 lakh towards scholarships of 500 students for the current academic year. SET's Chief Functionary, Dr. Rakesh Pandey, sought to (i) appeal the suspension; (ii) continue disbursing from the FCRA account towards the existing scholarship commitments; and (iii) freely use funds in the trust's separate DOMESTIC (Indian-source) bank account at HDFC Bank to fund the trust's other regular charitable operations. On 25th November 2025 (i.e., 177 days into the suspension), the MHA passed a further order extending the suspension. Eventually, on 30th April 2026, the MHA passed a final cancellation order under Section 14. Dr. Pandey claims that SET may immediately apply afresh for FCRA registration.",
+      "questions": [
+        {
+          "id": 21,
+          "question": "Under Section 13 of FCRA (as amended by the FCRA (Amendment) Act, 2020), what is the maximum total period for which an FCRA certificate may be suspended?",
+          "options": {
+            "A": "180 days with no possibility of extension",
+            "B": "180 days initially, extendable by such further period not exceeding an additional 180 days — i.e., a maximum total of 360 days",
+            "C": "90 days initially, extendable by a further 90 days — i.e., a maximum total of 180 days",
+            "D": "365 days, at the unfettered discretion of the Central Government"
+          },
+          "correct": "B",
+          "explanation": "The FCRA (Amendment) Act, 2020 substituted Section 13(1) to provide for suspension of registration for an initial period not exceeding 180 days, EXTENDABLE by such further period as may be specified, but not exceeding an additional 180 days. The cumulative maximum is therefore 360 days. Option A reflects the pre-amendment position (180 days fixed). Option C is fabricated. The scenario's facts — MHA extending the suspension at day 177 — fit the amended framework precisely. The determinative scenario fact is the MHA's extension order issued on 25th November 2025.",
+          "section": "Section 13(1) (as amended in 2020)"
+        },
+        {
+          "id": 22,
+          "question": "During the suspension period, may SET continue to disburse ₹15 lakh from its FCRA account towards already-approved scholarship commitments?",
+          "options": {
+            "A": "Yes — pre-suspension commitments are vested rights and must be honoured notwithstanding the suspension",
+            "B": "No — Section 13(2) prohibits the suspended person from receiving any foreign contribution AND from utilising the foreign contribution in its custody during the suspension; utilisation requires PRIOR approval of the Central Government, which may permit utilisation only up to a specified percentage (commonly 25%) on application",
+            "C": "Yes — scholarships paid to ultimate beneficiaries are expressly exempt from suspension under Section 13(3)",
+            "D": "Yes — up to 25% of the suspended FC balance may be drawn freely without any application, subject only to monthly intimation to MHA"
+          },
+          "correct": "B",
+          "explanation": "Section 13(2) prohibits a person whose certificate is suspended from RECEIVING any foreign contribution during the suspension period and from UTILISING the foreign contribution in its custody, except with prior approval of the Central Government. The Central Government may, on application, permit utilisation up to a prescribed percentage (commonly 25%) of unutilised balance. Pre-suspension commitments do not automatically authorise continued utilisation — they must be specifically permitted by the Central Government on application. Option A is the most tempting trap. Option D is partially correct in the cap but wrong in saying disbursement requires no application — it is the application that triggers the permission. The determinative scenario fact is the absence of any MHA permission for disbursement.",
+          "section": "Section 13(2)"
+        },
+        {
+          "id": 23,
+          "question": "Dr. Pandey plans to freely use funds in the trust's separate DOMESTIC (Indian-source) HDFC Bank account during the suspension period to fund the trust's other regular charitable operations. Is this permissible under FCRA?",
+          "options": {
+            "A": "Yes — FCRA regulates only foreign contribution; suspension under Section 13 does not impair the use of domestic / Indian-source funds, provided they are maintained separately as required under Section 17",
+            "B": "No — suspension under Section 13 freezes all bank accounts of the entity, including those holding Indian-source funds",
+            "C": "Yes, but only with prior MHA approval to confirm that the domestic funds were not commingled with FC",
+            "D": "No — once registered under FCRA, all funds of the entity become subject to FCRA regulation"
+          },
+          "correct": "A",
+          "explanation": "FCRA regulates only the receipt and utilisation of FOREIGN CONTRIBUTION. Suspension under Section 13 restricts utilisation of FC; it does NOT affect the entity's ability to use its domestic / Indian-source funds, provided FC and non-FC funds have been maintained separately (which is a basic requirement under Section 17). Option B is the most tempting trap — it imagines that FCRA orders freeze all bank accounts, which they do not. Option D over-extends FCRA's reach. The determinative scenario fact is that SET maintains a separate domestic HDFC account.",
+          "section": "Section 13 read with Section 17"
+        },
+        {
+          "id": 24,
+          "question": "If MHA passes a final cancellation order under Section 14 on 30th April 2026, after how long may SET apply afresh for FCRA registration?",
+          "options": {
+            "A": "Immediately, after rectifying the violations and submitting a fresh application",
+            "B": "After 1 year from the date of cancellation",
+            "C": "After 3 years from the date of cancellation, by virtue of the express bar in Section 14(3)",
+            "D": "After 5 years from the date of cancellation"
+          },
+          "correct": "C",
+          "explanation": "Section 14(3) expressly prohibits a person whose certificate of registration has been cancelled from making a fresh application for grant of certificate or for prior permission under Section 11 for a period of 3 years from the date of cancellation. Option D is the most tempting trap (often confused with the 5-year renewal cycle under Section 16). Option A would defeat the deterrent purpose of cancellation. The determinative scenario fact is the cancellation order dated 30th April 2026.",
+          "section": "Section 14(3)"
+        },
+        {
+          "id": 25,
+          "question": "On cancellation under Section 14, what happens to the foreign contribution remaining UNUTILISED in SET's FCRA account, as well as assets created out of foreign contribution?",
+          "options": {
+            "A": "Such unutilised FC and assets revert to the original foreign donors along with interest",
+            "B": "Such unutilised FC and all assets created out of FC vest in such authority as may be prescribed by the Central Government under Section 15, and the entity loses control over them",
+            "C": "The funds and assets are transferred to the entity's domestic account and continue to be used for charitable purposes under judicial supervision",
+            "D": "The funds and assets are held in escrow by SBI NDMB pending judicial review of the cancellation"
+          },
+          "correct": "B",
+          "explanation": "Section 15 of FCRA provides that on cancellation of a certificate of registration under Section 14, all foreign contribution remaining UNUTILISED, as well as ALL ASSETS created out of foreign contribution, shall vest in such authority as may be prescribed by the Central Government. The entity loses control over both the funds and the assets. Option A is the most tempting trap — funds do NOT revert to donors. The determinative scenario fact is the final cancellation order under Section 14.",
+          "section": "Section 15"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s6",
+      "scenarioText": "The Annapurna Health Foundation (AHF), an FCRA-registered Section 8 company, obtained its FCRA registration on 15th August 2020. The certificate was issued for the standard statutory validity period. AHF has been continuously receiving foreign contributions since 2020. As the expiry approached in 2025, AHF's Treasurer filed the renewal application online on 5th July 2025 (i.e., about 40 days before expiry). The MHA processed the renewal but issued queries on 30th July 2025, which AHF responded to on 20th August 2025 — that is, five days AFTER expiry of the original certificate on 14th August 2025. AHF's officers claim that during the period between expiry and the MHA's final decision on renewal, the certificate must be treated as 'deemed valid'. Meanwhile, on 25th August 2025 — 10 days after the original certificate expired and while the renewal was still pending — AHF received a foreign grant of USD 75,000 into its FCRA Account at SBI NDMB. The MHA finally REFUSED renewal on 30th September 2025 on the ground of inadequate accountability of past funds.",
+      "questions": [
+        {
+          "id": 26,
+          "question": "What is the statutory validity period of a certificate of FCRA registration under Section 16 of FCRA, 2010?",
+          "options": {
+            "A": "3 years from the date of grant",
+            "B": "5 years from the date of grant",
+            "C": "7 years from the date of grant",
+            "D": "10 years from the date of grant, with renewal at the discretion of the Central Government"
+          },
+          "correct": "B",
+          "explanation": "Section 16 of FCRA provides that every certificate of registration shall be valid for a period of 5 years from the date of its issue, subject to renewal. AHF's certificate, issued on 15th August 2020, was therefore valid until 14th August 2025.",
+          "section": "Section 16(1)"
+        },
+        {
+          "id": 27,
+          "question": "By what date should AHF have applied for renewal of its certificate under Section 16 read with the relevant Rules?",
+          "options": {
+            "A": "At least 6 months before the date of expiry, i.e., on or before 15th February 2025",
+            "B": "At least 3 months before the date of expiry, i.e., on or before 15th May 2025",
+            "C": "At least 30 days before the date of expiry, i.e., on or before 15th July 2025",
+            "D": "At any time before the date of expiry; there is no minimum advance period prescribed"
+          },
+          "correct": "A",
+          "explanation": "Section 16 read with the FCRA Rules requires that an application for renewal be made AT LEAST 6 MONTHS before the date of expiry of the certificate. For AHF, with the certificate expiring on 14th August 2025, the renewal application should have been filed on or before 15th February 2025. AHF's application on 5th July 2025 is delayed by approximately 4.5 months beyond the prescribed limit. Option B is the most tempting trap — students often confuse this with the 3-month intimation requirements in other contexts. The determinative scenario facts are the registration date (15th August 2020) and the application date (5th July 2025).",
+          "section": "Section 16 read with FCRA Rules"
+        },
+        {
+          "id": 28,
+          "question": "AHF claims that during the gap between expiry of the original certificate and the MHA's final decision on renewal, the certificate is 'deemed valid'. Is this claim correct?",
+          "options": {
+            "A": "Yes — Section 16 contains an implied 'deemed extension' until the renewal decision is made",
+            "B": "No — FCRA contains NO 'deemed continuation' clause; expiry of the certificate without timely grant of renewal extinguishes the registration, and there is no automatic protection during the pendency of the renewal application",
+            "C": "Yes — deemed validity continues for 90 days post-expiry as a transitional cushion",
+            "D": "Yes — deemed validity applies provided the renewal application was filed at least one day before expiry"
+          },
+          "correct": "B",
+          "explanation": "FCRA does not provide for any 'deemed continuation' of registration after the original 5-year term ends. If renewal is not granted before expiry, the registration LAPSES and the entity becomes ineligible to receive foreign contribution until renewal is actually granted. Option A is the trap — many other statutes do provide for deemed continuation pending renewal decisions, but FCRA does not. Options C and D are fabricated. The determinative scenario fact is that the renewal application was not even filed within time and the original certificate expired before renewal was granted.",
+          "section": "Section 16"
+        },
+        {
+          "id": 29,
+          "question": "AHF received USD 75,000 on 25th August 2025 — i.e., 10 days after expiry of the original certificate on 14th August 2025 and while the renewal application was still pending. What is the legal characterisation of this receipt?",
+          "options": {
+            "A": "Valid receipt — the pending renewal application preserves AHF's registered status during the gap",
+            "B": "Illegal receipt — AHF is NOT a person registered or permitted under FCRA on the date of receipt; the receipt violates Section 11 and requires fresh registration or specific prior permission",
+            "C": "Valid receipt — the foreign donor has a vested right to make the contribution once the donation is announced",
+            "D": "Conditional receipt — the legality of the receipt depends on the eventual outcome of the renewal application"
+          },
+          "correct": "B",
+          "explanation": "Section 11 prohibits acceptance of foreign contribution unless the person has a valid certificate of registration OR prior permission. Following expiry of the certificate on 14th August 2025 and prior to grant of renewal, AHF was NOT a registered or permitted person. The receipt on 25th August 2025 is therefore unlawful. Subsequent renewal — even if it had been granted — would NOT retrospectively validate the receipt. Option D is fabricated; legality is not 'conditional' under FCRA. The determinative scenario fact is the gap between expiry and the receipt date.",
+          "section": "Section 11 read with Section 16"
+        },
+        {
+          "id": 30,
+          "question": "The MHA refused AHF's renewal application on 30th September 2025 on the merits. From that date, how long must AHF wait before applying afresh for FCRA registration?",
+          "options": {
+            "A": "There is NO statutory bar — Section 14(3)'s 3-year prohibition applies only on CANCELLATION under Section 14; refusal of renewal under Section 16 is a distinct legal event and does not automatically trigger the 3-year bar (though the MHA may refuse a fresh application on the merits)",
+            "B": "3 years from the date of refusal, by virtue of Section 14(3)",
+            "C": "1 year from the date of refusal",
+            "D": "5 years from the date of refusal"
+          },
+          "correct": "A",
+          "explanation": "Section 14(3) imposes a 3-year bar only on a person whose CERTIFICATE HAS BEEN CANCELLED under Section 14. Refusal of renewal under Section 16 is not the same legal event as cancellation; consequently, the express 3-year bar of Section 14(3) does not apply. AHF may, in principle, apply afresh for registration, though the MHA can refuse a fresh application on the merits. Option B is the most tempting trap — students conflate 'cancellation' with 'non-renewal / refusal of renewal'. The determinative scenario fact is that the certificate lapsed by non-renewal, not by mid-term cancellation.",
+          "section": "Section 14(3) read with Section 16"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s7",
+      "scenarioText": "Avantika Memorial Foundation (AMF), an FCRA-registered trust in Pune, received the following payments during FY 2024-25, and is now preparing its annual return Form FC-4: (i) ₹25 lakh donation from Goodwill Charities UK Ltd., a UK-incorporated charitable company; (ii) ₹50 lakh from the United Nations Development Programme (UNDP) office in Geneva for a women-empowerment project; (iii) ₹15 lakh from Mr. Ashwin Ranganathan, a US citizen of Indian origin (OCI cardholder) settled in San Francisco for 18 years; (iv) ₹40 lakh from International Diaspora Welfare Foundation, a trust registered in Mauritius whose ultimate beneficial owners are all of Indian origin and have all been Mauritius-resident for 25+ years; (v) ₹12 lakh from Bharatiya Sanskriti Foundation Inc., a US-incorporated charity 6 of whose 7 directors are US citizens of Indian origin; and (vi) ₹8 lakh paid by Apex Multinationals Inc. (a US-incorporated MNC) as a CONSULTANCY FEE to AMF's project director for consultancy services rendered to the MNC's CSR project in India. AMF's accountant is uncertain which of these receipts qualify as 'foreign contribution' requiring FCRA compliance.",
+      "questions": [
+        {
+          "id": 31,
+          "question": "Is the ₹50 lakh from the United Nations Development Programme (UNDP) considered 'foreign contribution' from a 'foreign source' under Section 2(j) of FCRA?",
+          "options": {
+            "A": "Yes — UNDP is based outside India and therefore a foreign source",
+            "B": "No — the United Nations, its specialised agencies (including UNDP) and other notified international agencies are EXPRESSLY EXCLUDED from the definition of 'foreign source' under Section 2(j); receipts from such agencies are not foreign contribution",
+            "C": "Yes — but only the portion ultimately utilised in India counts as foreign contribution",
+            "D": "No — because UNDP funds are technically 'international' and not 'foreign' for FCRA purposes"
+          },
+          "correct": "B",
+          "explanation": "The Explanation to Section 2(j) of FCRA EXPRESSLY excludes the United Nations and any of its specialised agencies (such as UNDP, WHO, UNICEF, UNESCO, World Bank, IMF, etc., subject to notification) from the definition of 'foreign source'. Therefore, receipts from UNDP do NOT constitute foreign contribution and are outside FCRA's regulatory net. Option A is the most tempting trap based on the literal sense of 'foreign'. Option D is wrong in reasoning — the exclusion is statutory, not based on a 'technical' definition. The determinative legal fact is the statutory exclusion in the Explanation to Section 2(j).",
+          "section": "Section 2(j) Explanation"
+        },
+        {
+          "id": 32,
+          "question": "Mr. Ashwin Ranganathan is a US citizen of Indian origin (OCI cardholder) settled in the US for 18 years. He donated ₹15 lakh to AMF. Is this receipt 'foreign contribution' from a 'foreign source'?",
+          "options": {
+            "A": "No — he is of Indian origin and remains culturally connected to India",
+            "B": "No — OCI cardholders are deemed Indian residents for FCRA purposes",
+            "C": "Yes — Section 2(j) of FCRA expressly includes 'a citizen of a foreign country' within 'foreign source'; the OCI status and Indian origin are legally irrelevant",
+            "D": "No — remittances from OCI cardholders for charitable purposes are exempt up to ₹50 lakh per FY"
+          },
+          "correct": "C",
+          "explanation": "Section 2(j) defines 'foreign source' to expressly include 'a citizen of a foreign country'. Mr. Ranganathan is a US citizen and therefore a 'foreign source' under FCRA, irrespective of his Indian origin or OCI cardholder status. The OCI is merely an immigration / travel facilitation; it does NOT alter his citizenship under FCRA. Options A and B are common traps that students fall into. Option D is fabricated; there is no such exemption. The determinative scenario fact is his US citizenship.",
+          "section": "Section 2(j)(vi)"
+        },
+        {
+          "id": 33,
+          "question": "Is the ₹40 lakh from International Diaspora Welfare Foundation — a Mauritius-registered trust whose ultimate beneficial owners are all of Indian origin (long-term Mauritius residents) — 'foreign contribution' from a 'foreign source' under FCRA?",
+          "options": {
+            "A": "No — the ultimate beneficial owners are of Indian origin, so the trust takes its 'character' from them",
+            "B": "Yes — Section 2(j) includes 'a society, club or other association of individuals... having its principal place of business outside India' within 'foreign source'; the nationality / origin of the UBOs is NOT the test",
+            "C": "Yes — but only 50% of the receipt counts, proportionate to the Indian-origin character of the donors",
+            "D": "No — Mauritius has a long-standing treaty relationship with India and is treated as a domestic source"
+          },
+          "correct": "B",
+          "explanation": "Section 2(j) of FCRA defines 'foreign source' to include any society, club, trade union or other association having its principal place of business outside India — regardless of the nationality of its members or ultimate beneficial owners. The Mauritius trust qualifies as 'foreign source' by virtue of its situs alone. Option A is the most tempting trap based on a UBO-focused intuition that is contrary to FCRA's framework. Option C invents a proportionality test that does not exist. The determinative scenario fact is that the trust's principal place of business is in Mauritius.",
+          "section": "Section 2(j)"
+        },
+        {
+          "id": 34,
+          "question": "Bharatiya Sanskriti Foundation Inc. is a US-incorporated charity; 6 of its 7 directors are US citizens of Indian origin. It donated ₹12 lakh. Is this 'foreign contribution' from a 'foreign source'?",
+          "options": {
+            "A": "No — 6 of 7 directors are of Indian origin, so the entity is 'effectively Indian'",
+            "B": "Yes — Section 2(j) read with the definition of 'foreign company' includes any company incorporated outside India within 'foreign source'; the ethnic origin of directors is not the test",
+            "C": "Conditional — depends on the nationality of the foundation's original founders",
+            "D": "No — donations made for cultural-preservation purposes are exempt from FCRA"
+          },
+          "correct": "B",
+          "explanation": "Section 2(j) makes a 'foreign company' a 'foreign source'. The US-incorporated charity is a foreign company regardless of the ethnicity of its board. The 'Indian-origin' composition of the board is legally irrelevant. Option A is the trap — many students intuitively place weight on board composition, but FCRA's test is the entity's place of incorporation / principal place of business. Option D is fabricated; there is no purpose-based exemption under FCRA. The determinative scenario fact is the US incorporation.",
+          "section": "Section 2(j) read with Section 2(g)"
+        },
+        {
+          "id": 35,
+          "question": "Apex Multinationals Inc., a US-incorporated MNC, paid ₹8 lakh as CONSULTANCY FEE to AMF's project director for consultancy services rendered to the MNC's CSR project in India. Is this 'foreign contribution' under Section 2(h)?",
+          "options": {
+            "A": "Yes — all receipts from a foreign source are foreign contribution",
+            "B": "No — the Explanation to Section 2(h) of FCRA EXCLUDES from 'foreign contribution' any fee received for services rendered in the ordinary course of business, profession or trade; a consultancy fee for actual services is excluded",
+            "C": "Yes — but only to the extent the consultancy fee exceeds the market rate",
+            "D": "No — because the project director received it personally and not the trust itself"
+          },
+          "correct": "B",
+          "explanation": "Section 2(h) defines 'foreign contribution' and the Explanation thereto carves out receipts that are: (i) fee received in the ordinary course of business, profession or trade; (ii) compensation for services rendered; (iii) sale proceeds for ordinary commercial transactions. The ₹8 lakh consultancy fee is excluded because it is a fee for actual services rendered. Option A overstates the rule. Option D is the trap — the actual legal hook for exclusion is the 'fee for service' Explanation, not the recipient's identity. The determinative scenario fact is the characterisation as consultancy fee for actual services rendered.",
+          "section": "Section 2(h) Explanation"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s8",
+      "scenarioText": "Mr. Vinay Khurana, an Indian citizen residing in Mumbai, is the elder of two adult siblings (a younger brother and a younger sister, both Indian residents). During FY 2024-25, Mr. Khurana received the following gifts: (a) ₹12 lakh from his MATERNAL UNCLE Mr. Arvind Kapur, who has been a Canadian citizen for the past 22 years (originally of Indian origin); (b) ₹4 lakh from his COUSIN SISTER Ms. Priyanka Saxena, a US citizen settled in Boston; (c) USD 6,000 (approx. ₹5 lakh) from a non-relative US friend, Mr. James Walker, intended for the higher education of Mr. Khurana's daughter; and (d) ₹3 lakh from his WIFE'S BROTHER Mr. Sanjay Mehra, a UK citizen settled in London. Mr. Khurana did not file any intimation with the Central Government in respect of any of these receipts, claiming that 'gifts from foreign-source relatives are altogether exempt from FCRA'.",
+      "questions": [
+        {
+          "id": 36,
+          "question": "Under Section 4 read with Rule 6 of the FCRA Rules, 2011 (as currently in force), what is the threshold beyond which a person resident in India must intimate the Central Government regarding foreign contribution received from RELATIVES?",
+          "options": {
+            "A": "₹1 lakh in a financial year",
+            "B": "₹10 lakh in a financial year — receipt beyond ₹10 lakh requires intimation in Form FC-1 within 3 months",
+            "C": "₹15 lakh in a financial year",
+            "D": "₹25 lakh in a financial year"
+          },
+          "correct": "B",
+          "explanation": "Rule 6 of the FCRA Rules, 2011 (as amended) provides that any person receiving foreign contribution exceeding ₹10 lakh in a financial year from any of his relatives shall intimate the Central Government within 3 months in Form FC-1. The threshold of ₹10 lakh replaced the earlier ₹1 lakh limit. Option A reflects the pre-amendment figure — a common trap. Option C is the registration-eligibility threshold (₹15 lakh spent on aims under Section 12), which is a different concept entirely. The determinative legal fact is the current Rule 6 threshold of ₹10 lakh.",
+          "section": "Section 4(g) read with Rule 6"
+        },
+        {
+          "id": 37,
+          "question": "Mr. Khurana's MATERNAL UNCLE Mr. Arvind Kapur (Canadian citizen for 22 years) gifted ₹12 lakh. Considering both the source and the threshold, what is the CORRECT FCRA position?",
+          "options": {
+            "A": "Not foreign contribution — gifts between relatives are excluded from Section 2(h)",
+            "B": "Foreign contribution from a 'foreign source' (Canadian citizen) but from a 'relative' — Section 4(g) permits Mr. Khurana to receive it WITHOUT FCRA registration; however, since the amount ₹12 lakh exceeds the Rule 6 threshold of ₹10 lakh, Mr. Khurana must INTIMATE the Central Government in Form FC-1 within 3 months",
+            "C": "Exempt — no intimation needed because Indians can freely receive gifts from blood relatives",
+            "D": "Illegal — Mr. Khurana, being unregistered under FCRA, cannot lawfully receive ₹12 lakh from any foreign source, even a relative"
+          },
+          "correct": "B",
+          "explanation": "Section 4(g) of FCRA exempts a person from the requirement of FCRA registration to the extent he receives foreign contribution from a RELATIVE. Rule 6, however, requires intimation in Form FC-1 within 3 months where the receipt from a relative EXCEEDS ₹10 lakh in a financial year. Mr. Khurana's ₹12 lakh receipt from his Canadian-citizen maternal uncle (who is a 'relative' under FCRA — see explanation in Q40) requires Form FC-1 intimation. Option A is the trap — gifts from foreign-source relatives ARE foreign contribution; Section 4(g) does not make them 'not FC' — it merely waives the requirement of registration. Option D is wrong because Section 4(g) permits receipt. The determinative scenario fact is the ₹12 lakh exceeding the ₹10 lakh threshold.",
+          "section": "Section 4(g) read with Rule 6"
+        },
+        {
+          "id": 38,
+          "question": "Ms. Priyanka Saxena, Mr. Khurana's COUSIN SISTER (US citizen), gifted ₹4 lakh. What is the CORRECT FCRA position?",
+          "options": {
+            "A": "Exempt as a 'relative' gift under Section 4(g); no intimation required",
+            "B": "A cousin sister is NOT a 'relative' under the FCRA framework — FCRA adopts the Companies Act, 2013 definition of 'relative' (Rule 4 of the Companies (Specification of Definitions Details) Rules, 2014), which lists only specific categories (father, mother, son, son's wife, daughter, daughter's husband, brother, sister, plus spouse and HUF members) and does NOT include cousins. The ₹4 lakh from her is therefore foreign contribution from a NON-RELATIVE foreign source, and Mr. Khurana — being unregistered — has received it in violation of Section 11",
+            "C": "A cousin sister is a relative; intimation is required only when the amount exceeds ₹10 lakh — here only ₹4 lakh, so no compliance needed",
+            "D": "A cousin sister qualifies as a relative only if she is unmarried"
+          },
+          "correct": "B",
+          "explanation": "Rule 2(g) of the FCRA Rules, 2011 defines 'relative' by reference to the Companies Act, 2013. Section 2(77) of the Companies Act read with Rule 4 of the Companies (Specification of Definitions Details) Rules, 2014 enumerates 8 specific categories — father (incl. step-father), mother (incl. step-mother), son (incl. step-son), son's wife, daughter, daughter's husband, brother (incl. step-brother), sister (incl. step-sister) — plus spouse and members of HUF. Cousins are NOT in this enumeration. Ms. Saxena is therefore NOT a 'relative' under FCRA; the ₹4 lakh receipt from her is foreign contribution from a non-relative foreign source, which Mr. Khurana, being unregistered, cannot lawfully accept under Section 11. Options A and C are the traps for those who assume cousins are relatives. The determinative facts are her US citizenship and her status as cousin.",
+          "section": "Section 11 read with Rule 2(g)"
+        },
+        {
+          "id": 39,
+          "question": "Mr. Khurana received USD 6,000 (approx. ₹5 lakh) from his non-relative US friend Mr. James Walker for the higher education of his daughter. What is the FCRA position?",
+          "options": {
+            "A": "Permissible — there is a general 'personal-receipt' exemption for educational purposes under FCRA",
+            "B": "Impermissible — receipt from a non-relative foreign source by an individual WITHOUT FCRA registration / prior permission violates Section 11; the purpose (education) does not save it",
+            "C": "Permissible up to USD 10,000 per annum under the 'Liberalised Personal Receipt Scheme'",
+            "D": "Permissible — the funds are intended for the daughter, a separate person, not Mr. Khurana himself"
+          },
+          "correct": "B",
+          "explanation": "Section 11 prohibits any person — including an individual — from accepting foreign contribution from a non-relative foreign source without FCRA registration or prior permission. There is NO purpose-based exemption (educational, medical, etc.) under FCRA. Option C is a fabricated scheme. Option D is the trap — receiving in one's own name on behalf of a family member does NOT escape Section 11. The determinative scenario fact is that Mr. Walker is a non-relative US citizen.",
+          "section": "Section 11"
+        },
+        {
+          "id": 40,
+          "question": "Mr. Sanjay Mehra, Mr. Khurana's WIFE'S BROTHER (UK citizen), gifted ₹3 lakh. Considering the Companies Act, 2013 definition of 'relative' adopted by FCRA, what is the CORRECT position?",
+          "options": {
+            "A": "Wife's brother IS a relative under the Companies Act definition; since ₹3 lakh is below the Rule 6 threshold of ₹10 lakh, no intimation is required and the receipt is lawful under Section 4(g)",
+            "B": "Wife's brother is NOT a relative under the closed list in Rule 4 of the Companies (Specification of Definitions Details) Rules, 2014, which the FCRA adopts via Rule 2(g) — the list captures only specific categories (parents, children, son's wife, daughter's husband, siblings, plus spouse and HUF members) and excludes most in-laws. The ₹3 lakh from Mr. Mehra is therefore foreign contribution from a non-relative foreign source, and Mr. Khurana's receipt without FCRA registration violates Section 11",
+            "C": "Wife's brother is a relative under FCRA but not under the Companies Act; the FCRA position governs",
+            "D": "Wife's brother qualifies as a relative only if his sister (i.e., Mr. Khurana's wife) is a HUF Karta"
+          },
+          "correct": "B",
+          "explanation": "Rule 2(g) of FCRA Rules adopts the definition of 'relative' under the Companies Act, 2013. Section 2(77) read with Rule 4 of the Companies (Specification of Definitions Details) Rules, 2014 lists 8 closed categories: father (incl. step-father), mother (incl. step-mother), son (incl. step-son), son's wife, daughter, daughter's husband, brother (incl. step-brother), sister (incl. step-sister) — plus spouse and members of HUF. The list captures the spouse's parents-via-HUF in narrow circumstances but does NOT generally include a spouse's brother (brother-in-law). Mr. Mehra is therefore NOT a 'relative' for FCRA. The ₹3 lakh from him is foreign contribution from a non-relative foreign source. Option A is the most tempting trap — students assume all in-laws are relatives. Option C is wrong — FCRA does adopt the Companies Act definition.",
+          "section": "Section 11 read with Rule 2(g)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s9",
+      "scenarioText": "The Helping Hands Society (HHS), an FCRA-registered society, was found during an MHA inspection in June 2025 to have committed the following infractions in FY 2024-25: (i) it failed to file its annual return Form FC-4 for FY 2023-24 within the prescribed time; (ii) it spent 28% of its FC receipts (₹1.4 crore out of ₹5 crore total FC received in FY 2024-25) on administrative expenses, in breach of the 20% cap under Section 8 / Rule 5; (iii) it transferred ₹40 lakh of its FC funds to another FCRA-registered NGO for a joint disaster-relief project in flood-affected districts; and (iv) HHS's Chief Functionary Mr. Anand Kumar (an Indian citizen, not a legislator / judge / public servant) accepted hospitality (flights + 4-star hotel for 5 days, total value ₹3 lakh) from a foreign donor while attending an international conference in Dubai. HHS thereafter made a representation seeking compounding of the offences under Section 41 of FCRA.",
+      "questions": [
+        {
+          "id": 41,
+          "question": "HHS transferred ₹40 lakh of its FC to another FCRA-registered NGO for a joint disaster-relief project in 2024-25. Which provision, if any, has been violated?",
+          "options": {
+            "A": "No violation — transfer of FC between two FCRA-registered entities is permitted with intimation to the MHA",
+            "B": "Section 7 (as substituted by the FCRA (Amendment) Act, 2020) — there is an ABSOLUTE prohibition on transfer of foreign contribution from one person to any 'other person', regardless of whether the transferee is itself FCRA-registered",
+            "C": "Section 8 — the transfer counts as administrative expense and is subject to the 20% cap",
+            "D": "Section 17 — wrong-account violation"
+          },
+          "correct": "B",
+          "explanation": "The FCRA (Amendment) Act, 2020 substituted Section 7 to impose an ABSOLUTE prohibition on the transfer of foreign contribution by a registered or permitted person to any 'other person'. The pre-amendment law (which permitted transfers to other FCRA-registered entities) is no longer in force. The Supreme Court upheld this amendment in Noel Harper v. Union of India (2022). HHS's ₹40 lakh transfer therefore violates Section 7 notwithstanding that the transferee is itself FCRA-registered. Option A reflects the pre-2020 position and is the classic amendment trap.",
+          "section": "Section 7 (as substituted in 2020)"
+        },
+        {
+          "id": 42,
+          "question": "Mr. Anand Kumar, Chief Functionary of HHS (Indian citizen, not a legislator / judge / public servant), accepted hospitality worth ₹3 lakh from a foreign donor on a foreign visit. Does Section 6 of FCRA apply to him?",
+          "options": {
+            "A": "Yes — Section 6 applies to all persons including the office-bearers / chief functionaries of FCRA-registered NGOs",
+            "B": "No — Section 6 is limited to specifically enumerated office-holders: members of any legislature, office-bearers of political parties, judges, government servants, and employees of government-controlled corporations. NGO chief functionaries who are not in any of those capacities are NOT covered by Section 6",
+            "C": "Yes — Section 6 applies to anyone accepting hospitality from a foreign source on a foreign visit",
+            "D": "No — Section 6 was repealed by the FCRA (Amendment) Act, 2020"
+          },
+          "correct": "B",
+          "explanation": "Section 6 of FCRA is restricted to specifically enumerated categories — members of legislatures, office-bearers of political parties, judges, government servants, and employees of government-controlled corporations. An NGO chief functionary who is not himself within any of those categories falls OUTSIDE Section 6. Mr. Kumar's acceptance of hospitality from the foreign donor therefore does not engage Section 6. Option A is overbroad. Option D is wrong — Section 6 remains in force.",
+          "section": "Section 6"
+        },
+        {
+          "id": 43,
+          "question": "Section 41 of FCRA permits compounding of certain offences. Which of the following statements is CORRECT regarding the scope of compounding?",
+          "options": {
+            "A": "All offences under FCRA, including those punishable with imprisonment exceeding 3 years, are compoundable",
+            "B": "Compounding is permitted only for offences punishable with imprisonment, and not for offences punishable with fine alone",
+            "C": "Compounding is permitted with the consent of the Central Government, on payment of prescribed compounding amount, in respect of specified offences under FCRA — the effect is to discharge the person from prosecution / further prosecution for that offence",
+            "D": "Compounding is wholly prohibited under FCRA; all offences must be prosecuted in full"
+          },
+          "correct": "C",
+          "explanation": "Section 41 of FCRA empowers the Central Government to compound specified offences before or after institution of prosecution. On payment of the prescribed compounding amount, the person is discharged from prosecution / further prosecution. Option A is overbroad — not all offences are compoundable; offences carrying severe punishment are typically excluded. Option B inverts the test.",
+          "section": "Section 41"
+        },
+        {
+          "id": 44,
+          "question": "HHS spent 28% of its ₹5 crore FC receipts on administrative expenses, exceeding the 20% Section 8 cap. By how much, in absolute terms, has the cap been exceeded?",
+          "options": {
+            "A": "₹40 lakh (8% excess × ₹5 crore receipts)",
+            "B": "₹1.4 crore (the total administrative expenditure)",
+            "C": "₹1 crore (the cap itself, i.e., 20% of ₹5 crore)",
+            "D": "₹35 lakh"
+          },
+          "correct": "A",
+          "explanation": "The Section 8 / Rule 5 cap is 20% of FC received in the FY — i.e., 20% × ₹5 crore = ₹1 crore. HHS spent ₹1.4 crore (i.e., 28% of receipts). The excess is ₹1.4 crore − ₹1 crore = ₹40 lakh. Equivalently, 8% (i.e., 28% − 20%) of ₹5 crore = ₹40 lakh. Option B is the total admin spend (not the excess). Option C is the cap itself (not the excess). The determinative scenario facts are the 28% admin spend and ₹5 crore FC receipts.",
+          "section": "Section 8 / Rule 5"
+        },
+        {
+          "id": 45,
+          "question": "HHS's failure to file Form FC-4 annual return for FY 2023-24 within the prescribed time attracts which statutory consequence?",
+          "options": {
+            "A": "Automatic cancellation of FCRA registration without notice or opportunity of hearing",
+            "B": "Compoundable offence under Section 41 read with prescribed compounding rules; AND it may also serve as a ground for cancellation under Section 14, but only after due notice and opportunity of hearing",
+            "C": "Only a written warning; no monetary consequence",
+            "D": "₹100 per day penalty subject to a maximum of ₹10,000"
+          },
+          "correct": "B",
+          "explanation": "Failure to file the annual return Form FC-4 within the prescribed time is a compoundable offence under Section 41 of FCRA and attracts prescribed compounding fees under the relevant Rules / Schedules. Persistent or material non-compliance may further be a ground for cancellation under Section 14, but only after due notice and an opportunity of hearing. Option A is the trap — cancellation requires due procedure under Section 14. Options C and D are fabricated quantum / consequence.",
+          "section": "Section 41 read with Section 14"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s10",
+      "scenarioText": "Veerangana Women Empowerment Foundation (VWEF), an FCRA-registered Section 8 company, received its registration in 2021. Its FY 2024-25 activities include: (i) receiving USD 200,000 from a Norwegian agency in three tranches — USD 50,000 on 5th April 2024, USD 80,000 on 15th September 2024 and USD 70,000 on 28th February 2025; (ii) opening a second utilisation account at Yes Bank, Mumbai, for project deployment; (iii) the CEO Ms. Aarti Sehgal — an Indian citizen — transferring her entire personal foreign-source savings of ₹4 lakh (legally earned during her earlier US residency) from her own savings account to her own NRO account at HDFC Bank Mumbai; (iv) the foundation placing details of FC receipts and donor names on its official website within 15 days of the end of each quarter; and (v) the foundation accepting a donation of computer equipment (worth ₹6 lakh) from a Dutch educational charity, delivered directly to its training centre in Pune.",
+      "questions": [
+        {
+          "id": 46,
+          "question": "Under the FCRA framework (Rule 13 of the FCRA Rules, 2011, read with Section 18), what is the periodicity at which an FCRA-registered entity must disclose details of foreign contribution receipts on its official website / FCRA portal?",
+          "options": {
+            "A": "Annually, along with the FC-4 return",
+            "B": "Quarterly — within 15 days after the close of each quarter, the entity must place on its official website (or designated FCRA portal) the names of foreign donors and the amount received during that quarter",
+            "C": "Monthly, on the first day of each month",
+            "D": "Daily, on each receipt of foreign contribution"
+          },
+          "correct": "B",
+          "explanation": "Rule 13 of the FCRA Rules, 2011 (as amended) requires every FCRA-registered entity to place on its official website / designated FCRA portal — within 15 days after the close of every quarter — the details of foreign contribution received in that quarter, including donor name, amount and date. Option A understates the frequency (annual disclosure happens through Form FC-4 separately). Options C and D over-state. The determinative scenario fact is that VWEF's quarterly disclosure practice (within 15 days) is compliant.",
+          "section": "Section 18 read with Rule 13"
+        },
+        {
+          "id": 47,
+          "question": "VWEF accepted a donation of computer equipment worth ₹6 lakh from a Dutch educational charity, received in kind directly at its training centre. Is this 'foreign contribution' within Section 2(h)?",
+          "options": {
+            "A": "No — it is in kind (an article), not currency or security, and therefore outside the definition",
+            "B": "Yes — Section 2(h) defines 'foreign contribution' to include the donation, delivery or transfer by a foreign source of any article (other than a gift for personal use of nominal value), currency or security; computer equipment from a foreign source is an 'article' and therefore foreign contribution",
+            "C": "Foreign contribution only if the value of the equipment exceeds ₹25 lakh",
+            "D": "Foreign contribution only if accompanied by cash"
+          },
+          "correct": "B",
+          "explanation": "Section 2(h) defines 'foreign contribution' to include the donation, delivery or transfer made by any foreign source of any (i) article (excluding articles given as gifts for personal use, where market value does not exceed the prescribed nominal sum); (ii) currency, whether Indian or foreign; or (iii) any security as defined under Indian law. Computer equipment from a foreign source is an 'article' and constitutes foreign contribution. Receipt must be recorded in FCRA accounts. Option A is the most tempting trap — many students assume only money counts. Options C and D introduce non-existent thresholds.",
+          "section": "Section 2(h)"
+        },
+        {
+          "id": 48,
+          "question": "VWEF opened a SECOND utilisation account at Yes Bank, Mumbai, in addition to its existing utilisation account, to deploy FC funds for projects. Is this permissible under Section 17?",
+          "options": {
+            "A": "No — only ONE utilisation account is permitted per FCRA-registered entity",
+            "B": "Yes — the proviso to Section 17 permits the entity to open ONE OR MORE utilisation accounts in one or more SCHEDULED banks, after FC has first been received in the FCRA Account at SBI NDMB",
+            "C": "Yes — but only nationalised banks (not private-sector banks such as Yes Bank) qualify as 'scheduled banks' for this purpose",
+            "D": "No — all FC operations must be carried out from SBI NDMB only"
+          },
+          "correct": "B",
+          "explanation": "The proviso to Section 17 permits an FCRA-registered entity to open one or more accounts in one or more scheduled banks for the utilisation of foreign contribution, after first receiving FC in the FCRA Account at SBI NDMB. Yes Bank is a scheduled bank. Option A is fabricated — multiple utilisation accounts are permitted. Option C wrongly equates 'scheduled bank' with 'nationalised bank'.",
+          "section": "Section 17 proviso"
+        },
+        {
+          "id": 49,
+          "question": "Ms. Aarti Sehgal, the CEO and an Indian citizen, transferred her ENTIRE PERSONAL foreign-source savings of ₹4 lakh (legally earned during her earlier US residency) from her own personal savings account to her own personal NRO account at HDFC Bank. Does this transaction implicate FCRA?",
+          "options": {
+            "A": "Yes — all transactions involving foreign-source funds, including personal funds, are FCRA-regulated",
+            "B": "No — FCRA regulates the RECEIPT of foreign contribution by a person in India FROM a foreign source. An individual moving her own funds between her own personal accounts is neither 'receiving' from a foreign source nor 'transferring' under Section 7. The fact that she is an office-bearer of an FCRA-registered entity does not subject her personal transactions to FCRA",
+            "C": "Yes — she must obtain prior MHA permission for the transfer because she is an office-bearer of an FCRA-registered entity",
+            "D": "Yes — the inter-account transfer is a 'transfer to another person' within Section 7 (as substituted in 2020)"
+          },
+          "correct": "B",
+          "explanation": "FCRA regulates the RECEIPT of foreign contribution by a person in India FROM a foreign source. A person moving her OWN personal funds between her OWN personal accounts is not 'receiving' from a foreign source — it is a self-transfer. Further, Section 7's prohibition on transfer is on a registered FCRA entity transferring its FC to another person; it does not apply to an individual's personal account movements. Option C is the trap — an individual's office-bearer status in an FCRA entity does not subject her personal banking activities to FCRA. The determinative scenario fact is that the funds are her own personal money in her own personal accounts.",
+          "section": "Section 11 read with Section 7"
+        },
+        {
+          "id": 50,
+          "question": "For purposes of Section 18 and Form FC-4, how should the three Norwegian tranches (USD 50,000 + USD 80,000 + USD 70,000 = USD 200,000), received on different dates within FY 2024-25, be reported?",
+          "options": {
+            "A": "Three separate line-item entries in the annual return for FY 2024-25 — each tranche disclosed with its date, currency, INR equivalent, donor and purpose",
+            "B": "One consolidated entry of USD 200,000 in the annual return for FY 2024-25",
+            "C": "Two separate annual returns for FY 2024-25 — one covering the first half-year (April-September) and another covering the second half-year (October-March)",
+            "D": "No reporting needed if the aggregate is below USD 250,000"
+          },
+          "correct": "A",
+          "explanation": "Form FC-4 — the annual return prescribed under Rule 17 of the FCRA Rules, 2011 — requires detailed line-by-line disclosure of every receipt of foreign contribution during the financial year, including the donor's name, donor's country, date of receipt, amount in foreign currency and INR equivalent, currency of receipt and purpose. The three tranches must therefore be separately disclosed. Option B oversimplifies. Option C invents two half-yearly returns that do not exist. Option D fabricates a USD 250,000 threshold (which is in fact the LRS limit for OUTBOUND remittances by individuals, unrelated to FCRA reporting). The determinative scenario facts are the three discrete tranche dates and amounts.",
+          "section": "Section 18 read with Rule 17 (Form FC-4)"
+        }
+      ]
+    }
+  ]
+}
