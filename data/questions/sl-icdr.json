@@ -1,0 +1,363 @@
+{
+  "chapterId": "sl-icdr",
+  "chapterName": "SEBI (ICDR) Regulations, 2018",
+  "law": "Securities Laws",
+  "category": "securities-laws",
+  "scenarios": [
+    {
+      "scenarioId": "s1",
+      "scenarioText": "Apex Pharma Ltd. is a Hyderabad-based specialty pharmaceutical formulator incorporated on 12 January 2018. The company proposes a maiden mainboard IPO with a fresh issue of ₹220 crore plus an offer-for-sale of ₹80 crore by promoters. The financial position on a consolidated basis is as follows: net tangible assets (after applying the 50% monetary-assets cap under Regulation 6(1)(a)) of ₹4.2 crore in FY 2022-23, ₹3.8 crore in FY 2023-24 and ₹2.9 crore in FY 2024-25; pre-tax operating profit of ₹12 crore, ₹16 crore, ₹18 crore, ₹13 crore and ₹14 crore for the five immediately preceding financial years respectively; net worth of ₹8 crore, ₹10 crore and ₹12 crore in the three preceding years. Apex changed its corporate name from 'Apex Healthcare' to 'Apex Pharma' on 15 May 2024 — i.e., within twelve months preceding the proposed filing — and revenue from the new pharmaceutical-formulation activity contributed 45% of consolidated operating income in FY 2024-25. The merchant banker has advised that if Apex cannot satisfy the profitability route under Regulation 6(1), it may still proceed via the alternative route in Regulation 6(2) by allotting shares predominantly to qualified institutional buyers and the lead manager has tentatively proposed a 60% QIB allocation under this route.",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Considering Apex Pharma's net tangible assets of ₹4.2 cr (FY23), ₹3.8 cr (FY24) and ₹2.9 cr (FY25), does the company satisfy the NTA limb of Regulation 6(1)(a)?",
+          "options": {
+            "A": "Yes — the simple average across the three years is ₹3.63 crore, which is comfortably above the ₹3 crore floor",
+            "B": "Yes — only the most recent year must clear ₹3 crore, and ₹2.9 cr rounds up to ₹3 crore for compliance purposes",
+            "C": "No — Regulation 6(1)(a) requires NTA of at least ₹3 crore in EACH of the three preceding financial years; FY 2024-25's ₹2.9 cr falls below the floor and disqualifies Apex from the profitability route",
+            "D": "No — Regulation 6(1)(a) requires NTA of ₹5 crore in each of the three preceding years"
+          },
+          "correct": "C",
+          "explanation": "Regulation 6(1)(a) requires the issuer to have net tangible assets of AT LEAST ₹3 crore (calculated on restated and consolidated basis) IN EACH of the three preceding full financial years, with not more than 50% held in monetary assets. The test is year-by-year, not averaged. Apex's FY 2024-25 NTA of ₹2.9 crore falls below the ₹3 crore floor and breaks the chain. Option A is the textbook trap (averaging the values is intuitive but legally wrong). Option B fabricates a 'most recent year only' rule and a rounding convention that does not exist. Option D inflates the threshold. The determinative scenario detail is the precise ₹2.9 cr figure deliberately placed just below the ₹3 cr line.",
+          "section": "Regulation 6(1)(a)"
+        },
+        {
+          "id": 2,
+          "question": "On the profitability limb under Regulation 6(1)(c), Apex's pre-tax operating profit for the last 5 years stands at ₹12 cr, ₹16 cr, ₹18 cr, ₹13 cr, ₹14 cr. Does this satisfy the profitability test?",
+          "options": {
+            "A": "Fails — only one year (₹18 crore) crosses ₹15 crore individually, and at least three years must individually exceed ₹15 crore",
+            "B": "Passes — taking the best three of the preceding five years (₹16 cr + ₹18 cr + ₹14 cr = ₹48 cr; average ₹16 cr) the average comfortably exceeds the ₹15 crore floor prescribed by Regulation 6(1)(c)",
+            "C": "Fails — the simple average across ALL five years is ₹14.6 crore, which is below the ₹15 crore floor",
+            "D": "Passes — Regulation 6(1)(c) is satisfied if ANY single year exceeds ₹15 crore"
+          },
+          "correct": "B",
+          "explanation": "Regulation 6(1)(c) requires a minimum AVERAGE pre-tax operating profit of ₹15 crore (consolidated) calculated for ANY THREE of the five immediately preceding financial years. Picking the best three (₹16, ₹18, ₹14) gives an average of ₹16 crore, clearing the floor. The clause does NOT require each year to individually exceed ₹15 crore (Option A is wrong). It does NOT use an all-five-year average (Option C is the favourite arithmetic trap). It is not satisfied by any single year above ₹15 crore (Option D is wrong). The determinative scenario detail is the five distinct yearly figures designed to let only Option B-style aggregation succeed.",
+          "section": "Regulation 6(1)(c)"
+        },
+        {
+          "id": 3,
+          "question": "Apex changed its corporate name on 15 May 2024 (within the last 12 months) and revenue from the new activity contributed 45% in FY 2024-25. Does Apex satisfy the name-change limb under Regulation 6(1)(d)?",
+          "options": {
+            "A": "Yes — the name-change rule under Regulation 6(1)(d) applies only to industries other than pharmaceuticals",
+            "B": "No — Regulation 6(1)(d) requires that where the issuer has changed its name within the last one year, at least 50% of revenue for the preceding one full year must come from the activity indicated by the new name; Apex's 45% falls short",
+            "C": "Yes — 45% is sufficiently close to 50% and Regulation 6(1)(d) is a substantial-compliance test",
+            "D": "No — Regulation 6(1)(d) requires 75% of revenue from the new activity"
+          },
+          "correct": "B",
+          "explanation": "Regulation 6(1)(d) provides that where an issuer has changed its name within the last one year, at least 50% of revenue (calculated on a consolidated basis) for the preceding full year must be earned from the activity indicated by the new name. Apex's 45% does not clear the 50% floor, so Reg 6(1)(d) fails. There is no industry-based exemption (Option A is fabricated). 'Substantial compliance' is not a doctrine recognised in Reg 6(1)(d) — the threshold is a hard 50% (Option C is the consolation-prize trap). Option D inflates the figure. The determinative scenario fact is the precise 45% revenue split.",
+          "section": "Regulation 6(1)(d)"
+        },
+        {
+          "id": 4,
+          "question": "Apex's merchant banker proposes to invoke the alternate route under Regulation 6(2) with a 60% QIB allocation. Does this satisfy the alternate route?",
+          "options": {
+            "A": "Yes — Regulation 6(2) requires only a 50% allocation to QIBs",
+            "B": "No — Regulation 6(2)(a) requires the issuer to allot AT LEAST 75% of the net offer to qualified institutional buyers; a 60% allocation is insufficient to invoke the alternate route",
+            "C": "Yes — 60% is greater than the Reg 32(1) minimum of 50% applicable to book-built offerings",
+            "D": "No — Regulation 6(2) requires 90% allotment to QIBs"
+          },
+          "correct": "B",
+          "explanation": "Regulation 6(2) is the 'compulsory book-building' alternate route for issuers unable to satisfy the profitability test under Regulation 6(1). It requires that at least 75% of the NET OFFER be allotted to QIBs; failure of this threshold causes the issue to fail. Option A and C conflate the Reg 32(1) MINIMUM QIB allocation for book-built offerings (50%) with the much higher Reg 6(2) ELIGIBILITY threshold (75%) — this is the single most common ICDR trap. Option D inflates the figure to 90%. The determinative scenario fact is the explicit proposal of 60%, which sits cleanly between the two competing thresholds.",
+          "section": "Regulation 6(2)(a)"
+        },
+        {
+          "id": 5,
+          "question": "Assume Apex proceeds under the alternate Regulation 6(2) route but the actual QIB allotment in the issue ultimately falls below the prescribed threshold. What is the consequence under the ICDR Regulations?",
+          "options": {
+            "A": "The fresh issue proceeds with reduced size; the offer-for-sale portion is withdrawn",
+            "B": "The issue is treated as a failed issue and the entire subscription monies must be refunded to all applicants; allotment cannot be effected — Regulation 6(2)(b) read with Regulation 49(1)",
+            "C": "The issue proceeds at a reduced size; the unfilled QIB portion is converted into a non-institutional bucket",
+            "D": "SEBI may grant a 30-day extension to obtain additional QIB subscriptions"
+          },
+          "correct": "B",
+          "explanation": "Where an issuer relies on Regulation 6(2), satisfying the 75% QIB allotment is itself a CONDITION OF VALIDITY of the issue. Falling short means the issuer never had eligibility in the first place; the entire issue fails and all subscription monies must be refunded under Regulation 49. The pro-rata reduction and bucket-conversion options (A and C) are fabricated workarounds that do not exist in the regulations. Option D invents a SEBI extension power. The determinative aspect is that Reg 6(2) is an ELIGIBILITY gateway, not an allocation preference.",
+          "section": "Regulation 6(2)(b) read with Regulation 49"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s2",
+      "scenarioText": "Karthik Steel Ltd. is a Pune-based long-product steel manufacturer proposing a mainboard IPO. The pre-IPO equity is ₹50 crore (5,00,00,000 shares of ₹10 face value); the proposed fresh issue is 1,50,00,000 shares at ₹10 face value plus a premium, making the post-issue equity ₹65 crore (6,50,00,000 shares). The promoter group consists of four family members and two group companies holding 3,50,00,000 shares in aggregate. The IPO floor price is fixed at ₹200 per share. Of the promoter holdings: (i) 80,00,000 shares were acquired by one promoter family member at ₹150 per share through a related-party purchase eleven months ago; (ii) 50,00,000 shares were bonus shares received three months ago, declared by the company out of its revaluation reserve following an asset write-up; (iii) 1,20,00,000 shares form a long-held parcel acquired before the company's amalgamation with Karthik Alloys Ltd. eight years ago; (iv) 1,00,00,000 shares were received as a gift from a foreign affiliate, 'Steel Capital Mauritius', nine months before the proposed IPO. One of the promoters, Mr. Karthik Patil, also wishes to pledge a portion of his MPC-locked shares to State Bank of India to secure project financing for the company's expansion plan disclosed as an IPO objective.",
+      "questions": [
+        {
+          "id": 6,
+          "question": "Applying Regulation 15 to the promoter parcel of 3,50,00,000 shares, how many shares are ELIGIBLE to be counted toward the minimum promoter contribution under Regulation 14?",
+          "options": {
+            "A": "All 3,50,00,000 shares — the promoter holding fully counts so long as it is held by promoters",
+            "B": "2,70,00,000 shares (3,50,00,000 minus the 80,00,000 recently acquired)",
+            "C": "1,20,00,000 shares — only the pre-amalgamation long-held parcel qualifies; the recently acquired (below IPO price), bonus from revaluation reserve, and gift-from-affiliate parcels are EACH excluded by Regulation 15",
+            "D": "1,70,00,000 shares — the long-held parcel plus the bonus shares"
+          },
+          "correct": "C",
+          "explanation": "Regulation 15 excludes from MPC, inter alia: (i) shares acquired in the last three years for consideration other than cash where they result from a bonus issue out of REVALUATION RESERVES (excludes the 50,00,000 bonus parcel); (ii) shares acquired during the last one year at a price LOWER than the issue price (₹150 < ₹200 floor — excludes the 80,00,000 recent parcel); (iii) shares received as gift within the last five years (excludes the 1,00,00,000 from Steel Capital Mauritius); (iv) shares pledged. Only the 1,20,00,000 pre-amalgamation long-held parcel survives the exclusion grid. Option A ignores Regulation 15 entirely. Options B and D each catch only some of the exclusions. The determinative scenario facts are the four distinct acquisition profiles, each designed to trigger a separate Reg 15 exclusion.",
+          "section": "Regulation 15"
+        },
+        {
+          "id": 7,
+          "question": "What is the MPC requirement in absolute share terms for Karthik Steel's IPO under Regulation 14?",
+          "options": {
+            "A": "65,00,000 shares (10% of post-issue capital)",
+            "B": "1,30,00,000 shares (20% of post-issue capital of 6,50,00,000 shares)",
+            "C": "1,00,00,000 shares (20% of pre-issue capital of 5,00,00,000 shares)",
+            "D": "2,00,00,000 shares (one-third of post-issue capital)"
+          },
+          "correct": "B",
+          "explanation": "Regulation 14 requires the promoters to contribute MINIMUM 20% of the POST-ISSUE capital. Post-issue = 6,50,00,000 × 20% = 1,30,00,000 shares. Option A halves the percentage. Option C uses the wrong base — pre-issue rather than post-issue — a popular trap. Option D inflates the percentage. Combined with Q6, the answer reveals that Karthik Steel falls 10,00,000 shares short of MPC (eligible 1,20,00,000 vs required 1,30,00,000) and must remedy this before filing. The determinative scenario facts are the explicit pre- and post-issue share counts.",
+          "section": "Regulation 14"
+        },
+        {
+          "id": 8,
+          "question": "What is the lock-in period applicable to the minimum promoter contribution portion under Regulation 16(1) as currently in force?",
+          "options": {
+            "A": "Three years from the date of commencement of commercial production or date of allotment, whichever is later",
+            "B": "Eighteen months from the date of allotment in the initial public offer — Regulation 16(1) as amended by the SEBI (ICDR) (Second Amendment) Regulations, 2022 effective 14 August 2022",
+            "C": "One year from the date of listing",
+            "D": "Five years from the date of allotment in the initial public offer"
+          },
+          "correct": "B",
+          "explanation": "The SEBI (ICDR) (Second Amendment) Regulations, 2022 amended Regulation 16(1) to reduce the MPC lock-in from three years to 18 months from the date of allotment in the IPO. The 3-year figure (Option A) is the pre-amendment position and remains the most popular distractor in coaching material — it is OUTDATED. Options C and D fabricate alternative figures. The determinative test is whether the candidate is current on the August 2022 amendment.",
+          "section": "Regulation 16(1) as amended in 2022"
+        },
+        {
+          "id": 9,
+          "question": "Beyond the MPC, what is the lock-in for the EXCESS promoter holding (the portion in excess of 20% of post-issue capital) under Regulation 16(2)?",
+          "options": {
+            "A": "One year from the date of allotment in the IPO",
+            "B": "Six months from the date of allotment — Regulation 16(2) as amended in 2022",
+            "C": "Eighteen months from the date of allotment",
+            "D": "Three years from the date of allotment"
+          },
+          "correct": "B",
+          "explanation": "Regulation 16(2), as amended in 2022, reduces the lock-in on the promoter's excess holding (beyond MPC) to SIX months from date of allotment, down from one year. Option A is the pre-amendment figure and is the principal trap. Option C confuses with the MPC 18-month lock-in. Option D fabricates a 3-year period.",
+          "section": "Regulation 16(2) as amended in 2022"
+        },
+        {
+          "id": 10,
+          "question": "Mr. Karthik Patil wishes to pledge a portion of his MPC-locked shares to State Bank of India to secure project financing for the IPO-disclosed expansion. Is the pledge permissible during the lock-in?",
+          "options": {
+            "A": "No — locked-in promoter shares cannot be pledged under any circumstance during the lock-in period",
+            "B": "Yes — Regulation 21(a) permits pledge of locked-in promoter shares to a scheduled commercial bank / public financial institution / SFC, provided the pledge is a term of sanction by the lender AND the financing is for the project for which the IPO objects are stated (or for any of the IPO objects)",
+            "C": "Yes — pledge of locked-in shares is permitted only to an ESOP trust",
+            "D": "No — pledge is permitted only after the lock-in period expires"
+          },
+          "correct": "B",
+          "explanation": "Regulation 21 expressly permits pledge of locked-in promoter shares to scheduled commercial banks / PFIs / SFCs, but only as a TERM OF SANCTION of the loan and where the financing is for the project for which the IPO objects are stated (or any of those objects). The pledge survives the lock-in but the LIEN continues alongside the lock-in. Option A overstates the bar. Option C invents an ESOP-trust restriction. Option D defeats the very purpose of Regulation 21. The determinative scenario facts are (i) SBI as a scheduled commercial bank and (ii) the financing being for an IPO-disclosed objective.",
+          "section": "Regulation 21(a)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s3",
+      "scenarioText": "Hexagon NBFC Ltd. is a Mumbai-based non-banking financial company proposing a book-built mainboard IPO with a fresh issue of ₹500 crore and offer-for-sale by promoter holding companies of ₹200 crore — aggregate issue size ₹700 crore. The merchant bankers have fixed a price band of ₹110 (floor) to ₹140 (cap), i.e., the cap is approximately 27.27% above the floor. The proposed allocation in the net offer to the public is: qualified institutional buyers 60%, non-institutional investors 12%, retail individual investors 28%. The bid/issue period has been notified as 5 working days (Monday to Friday). On day 5 the issue closes oversubscribed 4.5 times overall; immediately thereafter one QIB anchor investor sends a notice to the merchant bankers seeking withdrawal of its ₹50 crore bid citing market volatility. The merchant bankers respond that QIB bids placed in the book-built portion are irrevocable post-closure, while retail individual investors retain the right to revise or withdraw bids until allotment is finalised. The lead manager is now seeking SEBI/exchange clearance on the price band, the allocation pattern and the bid period before going live.",
+      "questions": [
+        {
+          "id": 11,
+          "question": "Is the price band of ₹110 (floor) to ₹140 (cap) compliant with Regulation 30 of ICDR?",
+          "options": {
+            "A": "Compliant — Regulation 30(2) permits the cap to be up to 1.5 times the floor",
+            "B": "Non-compliant — Regulation 30(2) provides that the CAP shall NOT exceed 120% of the FLOOR price; ₹110 × 1.2 = ₹132, and the proposed cap of ₹140 (≈ 127.27% of floor) exceeds the statutory ceiling",
+            "C": "Compliant — a premium of approximately 27% over the floor is within the permitted 30% range",
+            "D": "Non-compliant — but only because the issue size exceeds ₹500 crore"
+          },
+          "correct": "B",
+          "explanation": "Regulation 30(2) caps the upper end of the price band at 120% of the floor (i.e., multiplicative ×1.2, NOT additive ₹+1.2 or any other variant). ₹110 × 1.2 = ₹132 is the ceiling; the proposed ₹140 cap is invalid. Option A inflates the multiple. Option C is the favourite intuitive trap — '27% is just a small premium', but the rule is bright-line 20%. Option D fabricates an issue-size linkage that the regulation does not contain. The determinative scenario fact is the precise ₹110/₹140 band, deliberately placed just above the 20% ceiling.",
+          "section": "Regulation 30(2)"
+        },
+        {
+          "id": 12,
+          "question": "Is the proposed allocation (QIB 60%, NII 12%, RII 28%) compliant with Regulation 32(1) for a book-built IPO?",
+          "options": {
+            "A": "Compliant — only the QIB category has a mandatory minimum floor of 50%; NII and RII are residuals",
+            "B": "Non-compliant — Regulation 32(1) prescribes individual MINIMUM floors of NII ≥ 15% and RII ≥ 35%, both of which are mandatory; here NII (12%) and RII (28%) BOTH fall short notwithstanding QIB compliance",
+            "C": "Compliant — all percentages aggregate to 100% so the allocation is valid",
+            "D": "Non-compliant only on RII; NII allocation has no statutory minimum"
+          },
+          "correct": "B",
+          "explanation": "Regulation 32(1) for a book-built IPO under Reg 6(1) (i.e., the profitability route) prescribes net-offer allocation of NOT LESS THAN 35% to RII, NOT LESS THAN 15% to NII and NOT MORE THAN 50% to QIB (the QIB cap is effectively a minimum-50% allocation in the post-2014 framework which has evolved to a ≥50% QIB minimum). Hexagon's 12% NII and 28% RII both fall below their respective floors and the issue is non-compliant on both counts. Option A is the classic 'only QIB matters' trap. Option C ignores the categorical floors. Option D arbitrarily exempts the NII category. The determinative scenario facts are the precise 12% / 28% / 60% figures, designed to fail both NII and RII floors while passing QIB.",
+          "section": "Regulation 32(1)"
+        },
+        {
+          "id": 13,
+          "question": "Is the proposed bid/issue period of 5 working days compliant with Regulation 30?",
+          "options": {
+            "A": "Non-compliant — the minimum bid period is 7 working days",
+            "B": "Compliant — Regulation 30 permits the bid/issue period to be 3 to 10 working days; 5 working days is within range",
+            "C": "Non-compliant — the bid period must be exactly 7 working days",
+            "D": "Compliant — but only because the issue closes within the same calendar week"
+          },
+          "correct": "B",
+          "explanation": "Regulation 30 prescribes a bid period of NOT LESS THAN three working days and NOT MORE THAN ten working days (extendable in specific circumstances such as price-band revision). 5 working days comfortably sits within this window. Option A inflates the floor. Option C fabricates a precise figure. Option D introduces an irrelevant calendar-week criterion. The determinative scenario fact is the precise 5-working-day window.",
+          "section": "Regulation 30"
+        },
+        {
+          "id": 14,
+          "question": "The issue closes 4.5x oversubscribed. What is the minimum-subscription threshold prescribed by Regulation 49 and what would have been the consequence had it not been met?",
+          "options": {
+            "A": "75% of net offer; below 75% the issue is treated as failed",
+            "B": "90% of the NET OFFER must be subscribed; if not, the entire subscription monies are refunded under Regulation 49(1)",
+            "C": "100% of the fresh issue must be subscribed (the OFS portion is exempt from minimum-subscription analysis)",
+            "D": "No minimum is prescribed once the issue is oversubscribed in any category"
+          },
+          "correct": "B",
+          "explanation": "Regulation 49(1) prescribes minimum subscription of 90% of the NET OFFER (i.e., issue size excluding reservations). Falling short triggers refund of the entire subscription monies. The 4.5x oversubscription means this threshold was obviously met in the present facts, but the question tests doctrinal knowledge of the floor. Option A lowers the figure. Option C arbitrarily exempts OFS portions, which has limited statutory basis at this exact threshold. Option D denies the floor entirely. The determinative scenario detail is the 4.5x figure that triggers the doctrinal inquiry without making it answer-determinative.",
+          "section": "Regulation 49(1)"
+        },
+        {
+          "id": 15,
+          "question": "The QIB anchor investor seeks to withdraw its ₹50 crore bid after the issue has closed. The merchant bankers refuse. Who is legally correct?",
+          "options": {
+            "A": "The anchor — under Regulation 38 a QIB may withdraw a bid until allotment is finalised",
+            "B": "The merchant bankers — Regulation 38 read with Schedule XIII prohibits QIBs and NIIs from withdrawing or downward-revising bids once the bid period has CLOSED; only retail individual investors may withdraw or revise bids until allotment",
+            "C": "The anchor — but only because anchor allocation is governed by a separate sub-regulation that permits withdrawal",
+            "D": "The merchant bankers — but only for the 30% portion of anchor allocation that is subject to a 90-day lock-in"
+          },
+          "correct": "B",
+          "explanation": "The bid-withdrawal architecture under Regulation 38 / Schedule XIII reverses retail-investor protections for institutional investors: QIBs and NIIs cannot withdraw OR downward-revise their bids after the bid period closes, precisely because their bids drive price discovery. RIIs alone retain the right to revise or withdraw bids until allotment. The anchor sub-category is even more restrictive — 30% of anchor allocation is subject to a 90-day post-listing lock-in. Option A inverts the rule. Option C invents an anchor-specific carve-out. Option D's lock-in mention is true in itself but irrelevant to the withdrawal question. The determinative scenario fact is the post-CLOSURE timing of the withdrawal request.",
+          "section": "Regulation 38 and Schedule XIII"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s4",
+      "scenarioText": "Aurora Metals Ltd., a listed copper-cathode producer with paid-up capital of ₹400 crore, proposes a rights issue of one right share for every two existing shares held, at an issue price of ₹85 per share (face value ₹10 + premium ₹75). The record date is fixed for 1 April 2026. The company filed notice of the record date with BSE and NSE on 27 March 2026 — i.e., five working days before the record date. The rights subscription period is twelve days, with renunciation permitted until four days before issue close. The company proposes to call ₹40 on application and the balance ₹45 by first call within eight months of allotment; the shares will accordingly be partly paid-up until the first call. One non-promoter shareholder, Crescent Capital, wishes to renounce its Rights Entitlement (RE) to a third-party institutional investor through the dematerialised RE trading mechanism on the stock exchange. Aurora has been listed continuously since 2019, has a public-shareholding market capitalisation of ₹320 crore as on the relevant date under Regulation 99, has filed all LODR returns and has no pending SEBI proceedings against its promoters or directors. Final subscription tallies show that the rights issue achieved 85% subscription by issue close.",
+      "questions": [
+        {
+          "id": 16,
+          "question": "Is the proposed twelve-day rights-issue subscription period compliant with the ICDR Regulations?",
+          "options": {
+            "A": "Non-compliant — the minimum subscription period for rights issues is fifteen days",
+            "B": "Compliant — the rights-issue subscription period under Part B of Chapter III is permitted to be between seven and thirty days; twelve days is within range",
+            "C": "Non-compliant — subscription must run for exactly twenty-one days",
+            "D": "Compliant only for fast-track rights issues, not standard rights issues"
+          },
+          "correct": "B",
+          "explanation": "The ICDR Regulations (rights-issue chapter, Regulation 87 / Schedule equivalents) permit the issue to remain open for a minimum of 7 days and a maximum of 30 days. 12 days is within range. Option A fabricates a 15-day floor (potentially confusing it with the 15-30 day range published in older summaries). Option C is fabricated. Option D introduces a false fast-track / standard distinction on this parameter. The determinative scenario fact is the precise 12-day window.",
+          "section": "Regulation 87"
+        },
+        {
+          "id": 17,
+          "question": "Is the five-working-days advance notice of the record date (filed 27 March for a 1 April record date) compliant?",
+          "options": {
+            "A": "Compliant — Regulation 84A requires only three working days' advance notice",
+            "B": "Non-compliant — LODR Regulation 42(2) requires a listed entity to give the recognised stock exchanges PRIOR INTIMATION of the record date of AT LEAST SEVEN working days (excluding the date of intimation and the record date)",
+            "C": "Compliant — five working days is the SEBI minimum",
+            "D": "Non-compliant — minimum advance notice is ten working days"
+          },
+          "correct": "B",
+          "explanation": "Regulation 42(2) of the SEBI (LODR) Regulations, 2015 — which is the operative cross-reference for record-date intimation by listed entities undertaking corporate actions including rights issues — prescribes a MINIMUM seven working days' advance notice to the stock exchanges (excluding the date of intimation and the record date). Five working days falls short and triggers non-compliance, attracting LODR penal consequences. Options A and C lower the requirement; Option D inflates it. The determinative scenario fact is the precise 5-working-day gap between intimation (27 March) and record date (1 April).",
+          "section": "LODR Regulation 42(2) read with ICDR rights-issue requirements"
+        },
+        {
+          "id": 18,
+          "question": "Crescent Capital wishes to renounce its Rights Entitlement to an unrelated third-party institutional investor through the dematerialised RE trading mechanism on the stock exchange. Is this permissible?",
+          "options": {
+            "A": "No — Rights Entitlements are non-transferable; only the underlying right shares are transferable after allotment",
+            "B": "Yes — pursuant to the SEBI amendments effective from January 2020, the RE is issued in dematerialised form and is freely TRADABLE on the stock exchange during the renunciation period; any person may acquire the RE and exercise the rights subscription thereon",
+            "C": "Yes — but only to existing shareholders of the company",
+            "D": "Yes — but the renouncee must obtain prior SEBI approval before bidding"
+          },
+          "correct": "B",
+          "explanation": "Following the SEBI circular dated 22 January 2020, Rights Entitlements in rights issues by listed entities are issued in DEMATERIALISED form to eligible shareholders and are freely tradable on the recognised stock exchange during a specified RE trading window. Any person — promoter, non-promoter, retail, institutional — may acquire RE on-exchange and use it to subscribe to the rights issue. Option A reflects the pre-2020 cumbersome physical-RE position and is the principal trap. Option C restricts the universe of permissible acquirers. Option D fabricates a SEBI-approval gateway. The determinative scenario detail is the explicit invocation of 'dematerialised RE trading mechanism'.",
+          "section": "Regulation 84 read with SEBI Circular dated 22-01-2020"
+        },
+        {
+          "id": 19,
+          "question": "Aurora wishes to invoke the fast-track rights-issue route under Regulation 99. Are the Regulation 99 prerequisites met on the scenario facts?",
+          "options": {
+            "A": "No — fast-track rights require an average market capitalisation of public shareholding of at least ₹1,000 crore",
+            "B": "Yes — Regulation 99 requires inter alia: (i) continuous listing for at least three years (Aurora since 2019 ✓), (ii) average market capitalisation of public shareholding of at least ₹250 crore on the relevant date (Aurora ₹320 cr ✓), (iii) timely LODR compliance ✓ and (iv) no pending SEBI proceedings against issuer/promoters/directors ✓",
+            "C": "No — the fast-track route is available only for QIPs, not for rights issues",
+            "D": "Yes — but only if the issue size is below ₹500 crore"
+          },
+          "correct": "B",
+          "explanation": "Regulation 99 (fast-track issuance for rights / FPOs) requires the listed issuer to satisfy a bundle of conditions including: continuous equity listing for at least three years immediately preceding the reference date; an average market capitalisation of public shareholding of at least ₹250 crore (NOT ₹1,000 crore — Option A is the pre-amendment threshold or a fabricated higher floor); no pending SEBI examination/investigation; LODR compliance; and absence of certain promoter/director debarments. Option C arbitrarily restricts fast-track to QIPs. Option D fabricates an issue-size cap. The determinative scenario facts are the four explicit Reg 99 eligibility data points provided.",
+          "section": "Regulation 99"
+        },
+        {
+          "id": 20,
+          "question": "Final subscription tallies show that the rights issue achieved only 85% subscription by issue close. What is the consequence under ICDR?",
+          "options": {
+            "A": "The issue proceeds with the subscribed portion; the unsubscribed 15% lapses",
+            "B": "The issue is treated as a failed issue; under the minimum-subscription requirement of 90% applicable to rights issues, the entire subscription monies must be refunded — the company may not proceed with allotment",
+            "C": "The issue is extended automatically by fifteen days to achieve the shortfall",
+            "D": "The promoter is automatically bound under ICDR to subscribe the unsubscribed 5% to reach the 90% floor"
+          },
+          "correct": "B",
+          "explanation": "The minimum subscription requirement for a rights issue under ICDR is 90% of the issue size (computed on the offered amount). Falling short of this threshold disentitles the company from allotting the rights shares; subscription monies must be refunded. Option A invents a 'lapse the unsubscribed portion' workaround that contradicts the threshold. Option C invents an automatic extension. Option D conflates underwriting / promoter top-up commitments (which can be voluntarily structured) with an automatic statutory obligation. The determinative scenario fact is the precise 85% subscription figure, sitting just below the 90% floor.",
+          "section": "Regulation 86 (minimum subscription for rights issues)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s5",
+      "scenarioText": "Sunshine FMCG Ltd., a listed packaged-foods major with public-shareholding market capitalisation of ₹4,200 crore, is evaluating two equity-raising routes for its expansion plan. Option A: a preferential issue of ₹250 crore to a single strategic investor, Olympus Holdings Mauritius (a non-promoter financial investor proposing to acquire approximately 8% of the post-issue capital). Option B: a qualified institutions placement (QIP) of ₹500 crore to a mix of QIBs. For the preferential issue route, the 'relevant date' is fixed as the thirtieth day before the proposed general meeting (an EGM scheduled for 15 April 2026); the 90 trading-day volume-weighted average price (VWAP) of the Sunshine FMCG scrip is ₹220 and the 10 trading-day VWAP is ₹245 per share. For the QIP route, the relevant-date floor price computed under Regulation 176 as the average of the weekly high-low closing prices of the preceding two weeks works out to ₹210 per share; the Board has authorised a maximum discount of 5% from the floor with prior shareholder special resolution. The merchant bankers are now finalising the pricing, the applicable lock-in regime, and the minimum-allottee thresholds under Regulation 174 read with Regulation 176, and Olympus has indicated it would like the option to exit after the shortest possible lock-in period.",
+      "questions": [
+        {
+          "id": 21,
+          "question": "Olympus Holdings Mauritius is a NON-PROMOTER strategic investor. What is the lock-in period applicable to the shares allotted to Olympus under the preferential issue, as per Regulation 167?",
+          "options": {
+            "A": "Three years from the date of trading approval — the pre-amendment regime",
+            "B": "Eighteen months from the date of trading approval — applicable to promoter allottees only",
+            "C": "Six months from the date of trading approval — Regulation 167(2) as amended by SEBI in 2022 prescribes a 6-month lock-in for non-promoter preferential-issue allottees",
+            "D": "One year from the date of trading approval"
+          },
+          "correct": "C",
+          "explanation": "The SEBI (ICDR) (Second Amendment) Regulations, 2022 reduced the preferential-issue lock-ins to (i) 18 months for the promoter / promoter-group portion (Regulation 167(1)) and (ii) 6 months for the non-promoter portion (Regulation 167(2)). Olympus is a non-promoter, so the 6-month lock-in applies. Option A is the pre-amendment 3-year figure — the standard trap. Option B applies the promoter-portion lock-in to a non-promoter — an easy mis-classification. Option D is the older pre-2022 non-promoter lock-in. The determinative scenario fact is Olympus's express classification as a non-promoter financial investor.",
+          "section": "Regulation 167(2) as amended in 2022"
+        },
+        {
+          "id": 22,
+          "question": "What is the minimum issue price for the preferential issue to Olympus under Regulation 164(1)(a), given the 90 trading-day VWAP of ₹220 and the 10 trading-day VWAP of ₹245 immediately preceding the relevant date?",
+          "options": {
+            "A": "₹220 — the 90-day VWAP, being the lower of the two",
+            "B": "₹245 — the HIGHER of the 90 trading-day VWAP and the 10 trading-day VWAP; Regulation 164(1)(a) for frequently-traded shares requires the issue price to be the higher of the two benchmarks",
+            "C": "₹232.50 — the simple average of the 90-day and 10-day VWAPs",
+            "D": "The market price prevailing on the relevant date"
+          },
+          "correct": "B",
+          "explanation": "Regulation 164(1)(a) for frequently traded shares fixes the minimum issue price as the HIGHER of (i) 90 trading-day VWAP and (ii) 10 trading-day VWAP, both computed on the recognised stock exchange having the highest trading volume, preceding the relevant date. The higher of ₹220 and ₹245 is ₹245. Option A is the favourite arithmetic trap — students reflexively pick the lower benchmark because it favours the allottee. Option C invents a simple-average formula that does not exist in the regulation. Option D ignores the VWAP benchmarks entirely. The determinative scenario detail is the precise pair of VWAP figures designed to make the higher/lower distinction outcome-decisive.",
+          "section": "Regulation 164(1)(a)"
+        },
+        {
+          "id": 23,
+          "question": "Sunshine's QIP issue size is ₹500 crore. What is the minimum-allottee threshold under Regulation 174?",
+          "options": {
+            "A": "Minimum of 2 allottees for any QIP irrespective of issue size",
+            "B": "Minimum of 5 allottees because the issue size is above ₹250 crore; further, no single QIB may receive more than 50% of the issue under Regulation 174(2)",
+            "C": "Minimum of 10 allottees for any QIP exceeding ₹100 crore",
+            "D": "Minimum of 25 allottees on the analogy of the mutual fund placement regime"
+          },
+          "correct": "B",
+          "explanation": "Regulation 174(1) provides that the QIP shall have at least (i) two allottees where the aggregate size of the issue is up to ₹250 crore, and (ii) five allottees where the aggregate exceeds ₹250 crore. Sunshine's ₹500 crore issue requires AT LEAST 5 allottees. Regulation 174(2) further prohibits any single QIB from receiving more than 50% of the issue. Option A applies the smaller-issue floor universally. Option C fabricates a 10-allottee figure (likely confusing it with subscription-base thresholds elsewhere). Option D invents a 25-allottee analogy. The determinative scenario fact is the precise ₹500 crore issue size, deliberately above the ₹250 crore step.",
+          "section": "Regulation 174"
+        },
+        {
+          "id": 24,
+          "question": "Post-allotment under the QIP route, what is the position regarding transferability of the allotted shares by the QIB allottees under Regulation 178?",
+          "options": {
+            "A": "Fully free immediately — QIBs are sophisticated investors and no transfer restriction applies",
+            "B": "The shares allotted in a QIP cannot be sold by the allottees for a period of one year from the date of allotment EXCEPT on a recognised stock exchange — Regulation 178",
+            "C": "The shares are absolutely locked-in (no sale at all) for one year",
+            "D": "The shares are absolutely locked-in for six months"
+          },
+          "correct": "B",
+          "explanation": "Regulation 178 provides that allotted securities under a QIP shall not be sold by the allottee for a period of one year from the date of allotment 'except on a recognised stock exchange'. This is a HYBRID regime: tradable on-exchange immediately, but off-exchange transfers (private off-market sales) are restricted for one year. Option A is a 'no restrictions' trap. Options C and D each overstate the restriction by making it an absolute lock. The determinative aspect is the unique 'on-exchange permitted, off-exchange restricted' architecture of Regulation 178 — distinct from the lock-ins applicable to preferential issues.",
+          "section": "Regulation 178"
+        },
+        {
+          "id": 25,
+          "question": "Sunshine's QIP floor price under Regulation 176 is ₹210. The Board, with prior shareholder special resolution, wishes to offer the QIP at ₹195 per share. Is this permissible?",
+          "options": {
+            "A": "Yes — a shareholder special resolution overrides the regulatory minimum price",
+            "B": "No — the proviso to Regulation 176(1) permits a discount of NOT MORE THAN 5% from the floor price with prior shareholder special resolution; 5% of ₹210 = ₹10.50, so the minimum acceptable price with SR is ₹199.50. ₹195 represents a discount of approximately 7.14%, exceeding the 5% cap, and is therefore NOT permissible even with SR",
+            "C": "Yes — Regulation 176 permits a discount of up to 10% with shareholder special resolution",
+            "D": "No — QIPs may only be issued at a premium to the floor, never at a discount"
+          },
+          "correct": "B",
+          "explanation": "The proviso to Regulation 176(1) permits a maximum discount of 5% from the calculated floor price, AND only with prior shareholder special resolution. Here ₹210 × 0.95 = ₹199.50 is the lowest permissible price; ₹195 falls below that floor and the SR cannot rescue it. Option A treats SR as an unconditional override. Option C inflates the discount cap to 10%. Option D denies any discount facility. The determinative arithmetic is the specific ₹210 floor and ₹195 proposed price, designed to clearly cross the 5%-discount boundary at approximately 7.14%.",
+          "section": "Regulation 176(1) proviso"
+        }
+      ]
+    }
+  ]
+}
