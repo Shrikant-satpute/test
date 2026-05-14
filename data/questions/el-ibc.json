@@ -1,0 +1,363 @@
+{
+  "chapterId": "el-ibc",
+  "chapterName": "Insolvency and Bankruptcy Code (IBC), 2016",
+  "law": "Economic Laws",
+  "category": "economic-laws",
+  "scenarios": [
+    {
+      "scenarioId": "s1",
+      "scenarioText": "Saraswati Steel Ltd. is a sponge iron manufacturer in Raipur with paid-up capital of ₹120 crore. It has a secured term loan of ₹85 crore from Indus Bank and a working capital facility of ₹40 crore from the same bank. On 30 September 2025 it defaulted on a single quarterly instalment of ₹85 lakh on the term loan and simultaneously had ₹6.50 crore overdue on the working capital limit for 95 days. On 5 December 2025 Indus Bank's compliance officer drafted a 'demand notice under Section 8 of the IBC' addressed to Saraswati Steel and dispatched it the same day. The bank then filed an application under Section 7 before NCLT, Mumbai on 15 December 2025. NCLT listed the matter on 22 December 2025 and admitted the petition on 4 January 2026 (within 14 days of listing). On 5 January 2026 — one day after admission — ABB Lifts Pvt. Ltd., which leases factory lifts to Saraswati Steel under a 5-year operational lease, issued a termination notice and demanded immediate return of the lifts. Saraswati Steel is also expecting a ₹40 crore receivable from a Mumbai infrastructure project, due 45 days after the admission order. Indus Bank's senior counsel argues that the term-loan default of ₹85 lakh alone is sufficient to invoke Section 7 because the original IBC threshold has not changed.",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Treating the term-loan instalment of ₹85 lakh as the SOLE defaulted facility (and ignoring the working capital limit), would Indus Bank's Section 7 application be maintainable on this isolated default?",
+          "options": {
+            "A": "Yes — Section 4 of the IBC fixes the minimum default at ₹1 lakh; ₹85 lakh comfortably exceeds it",
+            "B": "Yes — financial creditors with a secured charge are exempt from the Section 4 minimum-default threshold",
+            "C": "No — Section 4 was amended by the Central Government's notification dated 24 March 2020 raising the minimum default to ₹1 crore; ₹85 lakh falls below that floor",
+            "D": "Maintainable only if combined with a Section 8 demand notice that the bank has already issued"
+          },
+          "correct": "C",
+          "explanation": "The minimum default threshold under Section 4 was raised from ₹1 lakh to ₹1 crore by the Central Government notification S.O. 1205(E) dated 24 March 2020 in the wake of the COVID-19 pandemic; this amendment has NOT been rolled back. On the isolated ₹85 lakh default, Section 7 is therefore NOT maintainable. Option A is the headline pre-amendment trap that the senior counsel in the scenario himself articulates. Option B is fabricated — no such exemption exists for secured creditors; Section 4 applies uniformly. Option D wrongly imports the Section 8 demand-notice requirement (which applies only to operational creditors) into Section 7. The decisive scenario fact is that the question isolates the ₹85 lakh facility; if aggregated with the ₹6.50 crore working capital default the answer would differ.",
+          "section": "Section 4 read with Section 7"
+        },
+        {
+          "id": 2,
+          "question": "Indus Bank's compliance officer issued a 'demand notice under Section 8' before filing under Section 7. What is the legal status of this notice in the context of the Section 7 application?",
+          "options": {
+            "A": "It is a mandatory pre-condition; without the 21-day waiting period after the Section 8 notice, the Section 7 application is liable to be dismissed",
+            "B": "It is procedurally redundant — Section 8 is meant for operational creditors; a financial creditor proceeds directly under Section 7 and need not wait for any debtor reply",
+            "C": "It converts the Section 7 application into a Section 9 application by operation of law",
+            "D": "It is mandatory only when the financial creditor is also the largest secured creditor; otherwise optional"
+          },
+          "correct": "B",
+          "explanation": "Section 8 (demand notice + 21-day reply window) applies ONLY to operational creditors invoking Section 9. A financial creditor invoking Section 7 needs neither a prior demand notice nor a waiting period; it files directly with NCLT showing 'default' and the FC-debtor relationship. The compliance officer's Section 8 notice is therefore surplusage — it neither helps nor hurts the Section 7 application. Option A is the classic confusion of FC/OC procedural tracks and is the most tempting wrong answer. Option C is fabricated — the nature of the creditor (financial vs operational) is determined by the debt, not by the form of notice issued. The determinative scenario fact is that Indus Bank is a financial creditor (term loan + working capital facility), not an operational creditor.",
+          "section": "Section 7 read with Section 8"
+        },
+        {
+          "id": 3,
+          "question": "On 5 January 2026 ABB Lifts Pvt. Ltd. terminated its operational lease for the lifts and demanded immediate return. What is the legal effect of this termination notice under the Code?",
+          "options": {
+            "A": "Valid — equipment lessors are outside the Section 14 moratorium because they retain title to the leased asset",
+            "B": "Valid — the termination notice was served on 5 January, but Section 14 moratorium operates only from 30 days after admission",
+            "C": "Invalid — Section 14(1)(d) prohibits the recovery of any property by an owner or lessor where such property is occupied by or in the possession of the corporate debtor during the moratorium period",
+            "D": "Valid but suspended — ABB Lifts may file a separate suit which the NCLT shall stay only on the corporate debtor's application"
+          },
+          "correct": "C",
+          "explanation": "Section 14(1)(d) expressly prohibits 'the recovery of any property by an owner or lessor where such property is occupied by or in the possession of the corporate debtor' during moratorium. The moratorium begins at the moment of NCLT admission (Section 13 — declared simultaneously with admission) and continues until completion of CIRP or approval of resolution plan. ABB Lifts is precisely an owner/lessor in possession-by-the-debtor situation. Option A is the most dangerous trap — students assume that retained title bypasses Section 14; the Code explicitly closes this loophole. Option B is fabricated; moratorium is not delayed by 30 days. Option D wrongly suggests a parallel-civil-suit route. The decisive scenario fact is that the termination notice was issued AFTER the admission order, i.e. during the moratorium.",
+          "section": "Section 14(1)(d) read with Section 13"
+        },
+        {
+          "id": 4,
+          "question": "Saraswati Steel's ₹40 crore receivable from the Mumbai infrastructure project arrives 45 days after admission of the Section 7 petition. Under the Code, who is entitled to receive and control these funds?",
+          "options": {
+            "A": "Indus Bank directly, because the term loan is secured and the receivable is part of the security pool",
+            "B": "The Interim Resolution Professional, because the receivable forms part of the assets of the corporate debtor over which the IRP takes management control under Section 17",
+            "C": "The Mumbai infra company may withhold payment indefinitely, citing the moratorium under Section 14",
+            "D": "The receivable bypasses CIRP because the underlying contract was executed before the admission date"
+          },
+          "correct": "B",
+          "explanation": "On admission, Section 17 vests the management of the corporate debtor in the IRP; all assets — including receivables under existing contracts — fall under the IRP's control. The moratorium under Section 14 stays creditor action against the debtor but does NOT stay payments owed TO the debtor. Indus Bank cannot intercept receivables outside the CIRP framework (Option A is wrong even though the bank is secured — secured creditors must wait for resolution or liquidation). Option C inverts moratorium logic; the moratorium protects the debtor's estate, it does not let third parties withhold payments to the debtor. Option D is fabricated — pre-existing contracts remain in force and their proceeds enter the estate. The determinative scenario fact is that the receivable becomes payable post-admission, placing it within the CIRP estate.",
+          "section": "Section 17 read with Section 14"
+        },
+        {
+          "id": 5,
+          "question": "NCLT received the petition on 22 December 2025 and admitted it on 4 January 2026 — exactly 13 days later. Saraswati Steel argues that this was too quick and demands a 30-day extension to reply. Which statement BEST captures the law?",
+          "options": {
+            "A": "Section 7(4) directs NCLT to ascertain default and admit/reject within 14 days; the corporate debtor has no statutory right to seek an extension of this 14-day timeline",
+            "B": "Section 7 is silent on time and Saraswati Steel can claim a Section 9-style 21-day reply window by analogy",
+            "C": "The 14-day timeline is a constitutional minimum; NCLT must take at least 14 days before admission",
+            "D": "Section 12 governs and gives 90 days from filing to admission; admission on day 13 is premature"
+          },
+          "correct": "A",
+          "explanation": "Section 7(4) requires NCLT to ascertain the existence of default and pass the admission/rejection order 'within fourteen days of receipt of the application'. The corporate debtor's role at this stage is limited; there is NO right to a Section 9-style 21-day reply window (that window belongs exclusively to operational-creditor proceedings under Section 8). Option B confuses FC/OC procedure — the very confusion the scenario sets up. Option C inverts the timeline (14 days is a ceiling, not a floor). Option D imports Section 12 which governs CIRP duration POST-admission, not the admission process itself. The decisive scenario detail is the 13-day interval between listing and admission, used to bait students into believing admission must wait the full 14 days or longer.",
+          "section": "Section 7(4)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s2",
+      "scenarioText": "Polestar Pharma Ltd., a mid-sized formulation manufacturer in Hyderabad, purchases pharmaceutical-grade glass vials from Bluepine Glass Suppliers, an MSME based in Firozabad. Between April and August 2025, Polestar received and accepted invoices aggregating ₹3.40 crore from Bluepine. On 15 January 2026 Bluepine, frustrated by repeated payment promises, served a demand notice in Form 3 under Section 8 of the IBC for the full ₹3.40 crore. Polestar replied on 2 February 2026 (i.e., on the 18th day after the demand notice) disputing ₹40 lakh of the invoice on the ground that one lot of vials was defective. Polestar did not pay the remaining undisputed ₹3 crore either. On 10 February 2026 Bluepine filed an application under Section 9 before NCLT, Hyderabad. NCLT actually admitted the application only on 8 March 2026 — i.e., 26 days after filing. Polestar's total debt structure shows three financial creditor banks holding aggregate financial claims of 89%, while Bluepine alone holds 11% of total claims. The first CoC meeting is scheduled for 1 April 2026. Bluepine, having read selectively about 'operational creditor rights', insists it is entitled to vote in CoC because its claim exceeds 10% of total debt.",
+      "questions": [
+        {
+          "id": 6,
+          "question": "Polestar disputed ₹40 lakh of the ₹3.40 crore invoice in its 2 February 2026 reply. Does this dispute prevent Bluepine from maintaining its Section 9 application for the undisputed ₹3 crore?",
+          "options": {
+            "A": "Yes — once any portion of the operational debt is disputed, the entire Section 9 application becomes incompetent and must be dismissed",
+            "B": "No — Section 9 may be maintained on the undisputed ₹3 crore alone, which independently exceeds the Section 4 minimum-default threshold of ₹1 crore",
+            "C": "No — Section 9 may be maintained on the full ₹3.40 crore including the disputed portion, since NCLT must adjudicate the dispute summarily",
+            "D": "Yes — but Bluepine may convert its application into a civil suit before the commercial court"
+          },
+          "correct": "B",
+          "explanation": "Section 8(2)(a) bars Section 9 only where there exists a 'pre-existing dispute' regarding the debt. Even where part of the claim is disputed, Section 9 may proceed on the UNDISPUTED portion provided that portion independently satisfies the Section 4 minimum-default threshold (₹1 crore post-March 2020). Here the undisputed ₹3 crore comfortably clears ₹1 crore. Option A overstates the bar — partial dispute does not vitiate the entire application. Option C ignores the dispute principle entirely and asks NCLT to adjudicate disputed sums (the very thing Mobilox Innovations v. Kirusa Software warned against). Option D is fabricated. The decisive scenario fact is the precise ₹40 lakh disputed / ₹3 crore undisputed split.",
+          "section": "Section 8(2)(a) read with Section 9 and Section 4"
+        },
+        {
+          "id": 7,
+          "question": "Polestar's reply disputing the ₹40 lakh portion was served on the 18th day after the demand notice. What is the effect of this timing under Section 8(2)?",
+          "options": {
+            "A": "Effective — Section 8(2) gives the corporate debtor 21 days to raise a dispute; the 18th-day reply is well within time and qualifies as a 'notice of dispute'",
+            "B": "Effective — the time limit under Section 8(2) is directory not mandatory; a dispute raised at any time before NCLT order qualifies",
+            "C": "Ineffective as a Section 8(2) 'notice of dispute' — Section 8(2) requires the dispute to be brought to the operational creditor's notice within 10 days of receipt of the demand notice; the 18th-day reply is beyond this window",
+            "D": "Effective — the Supreme Court has held that the 10-day window applies only to Section 8(2)(b), not Section 8(2)(a)"
+          },
+          "correct": "C",
+          "explanation": "Section 8(2) of the IBC requires the corporate debtor to bring to the notice of the operational creditor the existence of a dispute (or record of pending suit/arbitration) WITHIN 10 DAYS of receipt of the demand notice. Polestar's 18th-day reply is outside this window, so its purported dispute is not a 'Section 8(2)(a) notice of dispute' in the technical sense, although NCLT may still consider whether a pre-existing dispute objectively existed. Option A confuses the 21-day reply window (which is for PAYMENT or for the operational creditor's filing under Section 9) with the 10-day dispute-notice window. Option B is wrong on the strict statutory text. Option D is fabricated. The determinative scenario detail is the explicit '18th day' marker.",
+          "section": "Section 8(2)"
+        },
+        {
+          "id": 8,
+          "question": "Bluepine's claim is 11% of Polestar's total debt — exceeding the 10% threshold for operational creditor representation. Bluepine insists this entitles it to VOTE in CoC. Is this correct?",
+          "options": {
+            "A": "Yes — Section 21 grants OCs whose aggregate dues exceed 10% of total debt full voting rights proportionate to their claim",
+            "B": "Yes — Section 21(2) read with Section 24 entitles such OCs to vote on the resolution plan, though not on procedural matters",
+            "C": "No — Section 21(2) provides that OCs whose aggregate dues are at least 10% of the total debt may attend CoC meetings, but they have NO right to vote",
+            "D": "No — OCs are entirely excluded from CoC meetings unless there is no financial creditor at all"
+          },
+          "correct": "C",
+          "explanation": "Section 21(2) provides that the CoC comprises all financial creditors. Where the aggregate dues of operational creditors are at least 10% of the total debt, their representatives are entitled to ATTEND CoC meetings — but NOT to vote. This is the single biggest misconception students carry into the exam. Option A is the textbook trap and the position Bluepine itself takes in the scenario. Option B fabricates a split between procedural and substantive voting. Option D overstates the exclusion — OCs are entitled to attend (just not vote) once the 10% threshold is met. The determinative scenario fact is the precise 11% figure crossing the 10% line.",
+          "section": "Section 21(2)"
+        },
+        {
+          "id": 9,
+          "question": "After admission, the CoC of Polestar — comprising the three banks holding 89% financial claims — meets on 1 April 2026. The banks hold 50%, 25% and 14% of CoC voting share respectively. The two larger banks vote in favour of a resolution plan, contributing 75% of total CoC voting share. The third bank opposes. Is the plan validly approved under Sections 30/31?",
+          "options": {
+            "A": "No — Section 30(4) requires approval by at least 75% of voting share; the plan was passed by exactly 75% so it is on the borderline of approval",
+            "B": "Yes — Section 30(4) requires approval by at least 66% of voting share; 75% comfortably exceeds 66%",
+            "C": "No — the Insolvency and Bankruptcy Code (Amendment) Act, 2019 raised the threshold to 90% and the plan fails",
+            "D": "Yes — but only because the dissenting creditor holds less than 26%"
+          },
+          "correct": "B",
+          "explanation": "The CoC approval threshold for a resolution plan under Section 30(4) is 66% (sixty-six per cent) of voting share — reduced from the original 75% by the IBC (Second Amendment) Act, 2018 effective 6 June 2018. The 75% figure in Option A is the pre-amendment threshold and is the most popular trap. Option C inverts the direction of amendments (90% is fictional). Option D fabricates a 26% rule (that's the SAST open-offer size, not IBC voting). The determinative scenario detail is the explicit 75% voting figure, deliberately chosen to sit between the old and current thresholds.",
+          "section": "Section 30(4) as amended in 2018"
+        },
+        {
+          "id": 10,
+          "question": "Bluepine's Section 9 application was filed on 10 February 2026 but NCLT did not admit it until 8 March 2026 — i.e., 26 days after filing. What is the legal consequence of NCLT exceeding the 14-day timeline?",
+          "options": {
+            "A": "The application is automatically deemed admitted from day 15",
+            "B": "The application stands abated and Bluepine must refile within 30 days",
+            "C": "Polestar gains an automatic 30-day extension on its CIRP timeline as compensation",
+            "D": "The 14-day period under Section 9(5) is held to be directory and not mandatory by the Supreme Court (Surendra Trading Co. v. Juggilal Kamlapat Jute Mills, 2017); NCLT's delay does not invalidate the admission order though reasons for delay should be recorded"
+          },
+          "correct": "D",
+          "explanation": "In Surendra Trading Co. v. Juggilal Kamlapat Jute Mills (2017) 16 SCC 143, the Supreme Court held that the 14-day timelines under Sections 7(4), 9(5) and 10(4) are DIRECTORY, not mandatory; admission orders are not vitiated by NCLT's delay though the Tribunal should record reasons for any departure. Option A invents a 'deemed admission' doctrine that does not exist in the IBC. Option B invents an abatement rule. Option C fabricates a CIRP-extension consequence. The decisive scenario fact is the precise 26-day delay forcing a choice between rigid and flexible interpretations of Section 9(5).",
+          "section": "Section 9(5) — judicially interpreted"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s3",
+      "scenarioText": "Vajra Cement Ltd., a Gujarat-based cement manufacturer with paid-up capital of ₹350 crore, was admitted into CIRP on 5 January 2025 by NCLT, Ahmedabad on a Section 7 application by Federal Bank Ltd. NCLT appointed Mr. Karan Khanna, an IBBI-registered insolvency professional, as Interim Resolution Professional under Section 16 on the same date. The first CoC meeting was held on 2 February 2025 — i.e., on day 28 from CIRP commencement — and seven financial creditors were constituted on the CoC. On day 75 (20 March 2025) the CoC, by a vote of 71% of voting share, resolved to replace Karan Khanna with Mr. Devang Patel as Resolution Professional under Section 22. On day 175 (29 June 2025), with no resolution plan yet finalised owing to a complex inter-corporate forensic audit, the CoC unanimously resolved to seek a 90-day extension of the CIRP period. NCLT granted the extension. Subsequently, certain promoter-affiliated parties filed writ petitions in the Gujarat High Court which were transferred and consolidated before NCLT under Section 60(5); these proceedings consumed an additional 35 days that are sought to be 'excluded' from the CIRP computation under judicial precedent. On day 295 (excluding excluded time), the CoC approved a resolution plan by 67.5% voting share. NCLT sanctioned the plan on day 320 (excluding excluded time). The absolute calendar duration from CIRP commencement to sanction was therefore 355 days. Karan Khanna, the displaced IRP, has now filed a claim for compensation for what he calls 'premature termination' of his role.",
+      "questions": [
+        {
+          "id": 11,
+          "question": "The CoC of Vajra Cement was constituted on day 28 from CIRP commencement. Is this constitution within the prescribed timeline?",
+          "options": {
+            "A": "No — CoC must be constituted within 14 days of CIRP commencement under Section 21(1); day 28 is late",
+            "B": "Yes — Section 18 read with Regulation 17 of the CIRP Regulations requires the IRP to constitute the CoC within 30 days of his appointment, and day 28 is within that window",
+            "C": "Yes — there is no fixed period for CoC constitution; only the 180-day CIRP outer limit governs the IRP's pace",
+            "D": "No — CoC must be constituted within 21 days from the public announcement, which itself is made within 3 days; day 28 is therefore presumptively late"
+          },
+          "correct": "B",
+          "explanation": "Section 18(1)(c) read with Regulation 17(1) of the IBBI (Insolvency Resolution Process for Corporate Persons) Regulations, 2016 requires the IRP to file a report certifying the constitution of the CoC within 30 days of his appointment. Day 28 is therefore within time. Option A invents a 14-day rule. Option C is wrong — there IS a specific period (30 days) for CoC constitution, distinct from the overall 180-day CIRP window. Option D confuses two timelines — the 21-day window is for SUBMISSION OF CLAIMS by creditors, not for CoC constitution. The determinative scenario fact is the precise 'day 28' marker, chosen to sit between fabricated 14/21-day rules and the actual 30-day rule.",
+          "section": "Section 18(1)(c) read with Regulation 17"
+        },
+        {
+          "id": 12,
+          "question": "On day 75, CoC replaced the IRP (Karan Khanna) with the RP (Devang Patel) by a 71% vote. Under which provision and at what voting threshold is such replacement permitted?",
+          "options": {
+            "A": "Section 16 — by simple majority of CoC by NUMBER of financial creditors present and voting",
+            "B": "Section 22(2) — by a vote of NOT LESS than 66% of voting share of financial creditors; the 71% vote is therefore valid",
+            "C": "Section 27 — by 75% voting share; the 71% vote is short of the required threshold",
+            "D": "Section 22(2) — by 51% voting share, since the replacement of IRP by RP is a routine procedural matter"
+          },
+          "correct": "B",
+          "explanation": "Section 22(2) provides that the CoC, at its first meeting, may by a majority vote of NOT LESS than 66% of voting share of the financial creditors EITHER resolve to appoint the IRP as RP OR replace him with another RP. The 71% vote is therefore valid. Option A is wrong — voting in CoC is by VALUE (voting share) not by number. Option C uses the wrong section (Section 27 deals with REPLACEMENT of an existing RP mid-process, not the initial IRP-to-RP transition) and the wrong (pre-amendment) threshold. Option D applies a fabricated simple-majority rule. The determinative scenario fact is the explicit 71% vote — chosen to comfortably clear 66% but fall short of the trap 75%.",
+          "section": "Section 22(2)"
+        },
+        {
+          "id": 13,
+          "question": "After the 90-day extension granted on day 175, an additional 35 days of Section 60(5)-related litigation were excluded from CIRP computation. What is the absolute outer limit of CIRP duration under Section 12 as currently in force?",
+          "options": {
+            "A": "180 days — Section 12 is a strict cap with no extensions whatsoever",
+            "B": "270 days — Section 12(3) permits one 90-day extension, beyond which CIRP must yield to liquidation",
+            "C": "330 days INCLUSIVE of all time taken for legal proceedings — Section 12(3) proviso (inserted by the IBC (Amendment) Act, 2019) caps the entire process at 330 days inclusive of litigation",
+            "D": "365 days — Section 12(3) caps CIRP at one calendar year inclusive of all extensions and litigation"
+          },
+          "correct": "C",
+          "explanation": "Section 12(3) as amended by the IBC (Amendment) Act, 2019 contains a proviso that the CIRP shall mandatorily be completed within 330 days from the insolvency commencement date INCLUDING any extension AND the time taken in legal proceedings. This 330-day cap is the constitutional ceiling as upheld by the Supreme Court in Essar Steel India Ltd. (CoC v. Satish Kumar Gupta). Option A ignores extensions entirely. Option B captures only the basic 180+90 mathematics but misses the litigation-exclusion mechanism. Option D fabricates a 365-day rule. The determinative scenario fact is the deliberately ambiguous '35 days of excluded litigation' — designed to test whether the student understands that the 330-day cap is the OUTER limit even after litigation exclusion.",
+          "section": "Section 12(3) proviso"
+        },
+        {
+          "id": 14,
+          "question": "Vajra Cement's resolution plan was approved by CoC on day 295 (excluding excluded time) by 67.5% voting share, and NCLT sanctioned it on day 320 (excluding excluded time). The absolute calendar duration was 355 days. Is the sanction valid under Section 12?",
+          "options": {
+            "A": "Invalid — 355 absolute days breaches the 330-day Section 12 cap",
+            "B": "Valid — Section 12 outer limit is 330 days EXCLUDING time spent in legal proceedings; the 35 excluded days bring the 'computed' duration to 320 days, which is within 330",
+            "C": "Invalid — Section 12 outer limit is 270 days; sanction is far outside",
+            "D": "Valid — once CoC approves a plan, no Section 12 limit operates on NCLT's sanction order"
+          },
+          "correct": "B",
+          "explanation": "The Section 12(3) proviso allows time spent in legal proceedings to be excluded from the 330-day computation. Here the absolute 355 days less 35 excluded days = 320 'computed' days, well within 330. Option A ignores the litigation exclusion that the scenario explicitly identifies. Option C uses the pre-amendment 270-day limit. Option D is doctrinally wrong — Section 12 binds the entire CIRP including NCLT's sanction stage. The decisive scenario detail is the precise 320 vs 330 day arithmetic, which only a student who has internalised the exclusion mechanism can navigate.",
+          "section": "Section 12(3) proviso"
+        },
+        {
+          "id": 15,
+          "question": "Karan Khanna, displaced as IRP on day 75 by the CoC's resolution, has filed a claim for compensation for 'premature termination'. Is he entitled?",
+          "options": {
+            "A": "Yes — IRP appointment is for the full CIRP duration; mid-process replacement entitles him to fees for the unutilised period",
+            "B": "Yes — but only if the CoC failed to give 60 days' prior written notice of replacement",
+            "C": "No — the IRP holds office only until the CoC, by Section 22(2) vote, either confirms him as RP or replaces him with another RP; replacement does not give rise to any compensation claim, only entitlement to fees and expenses incurred up to the date of replacement",
+            "D": "No — only because Karan Khanna had been appointed by NCLT and not by the CoC itself"
+          },
+          "correct": "C",
+          "explanation": "The IRP is appointed by NCLT under Section 16 and is INHERENTLY a transitional office. Section 22 expressly contemplates the CoC either confirming him as RP or replacing him within the first CoC meeting — there is no statutory expectation of continuity. The displaced IRP is entitled only to fees and expenses for the period he served, not to compensation for the 'remaining' period. Option A fabricates a tenure-protection doctrine that Section 16 does not contain. Option B invents a 60-day notice requirement. Option D's reasoning is technically irrelevant — the result would be the same regardless of who originally appointed him. The determinative scenario fact is the day-75 replacement.",
+          "section": "Sections 16 and 22"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s4",
+      "scenarioText": "Ravan Power Ltd., a thermal power generator in Singrauli with paid-up capital of ₹280 crore, has been in CIRP since June 2025 owing to default on a ₹620 crore consortium loan. The Resolution Professional has invited resolution plans. Three principal expressions of interest are received: (i) Mr. Sanjay Goyal, the erstwhile promoter and managing director of Ravan Power who personally owned 41% of the equity and whose stewardship led to the default — now applying through 'Hexbridge Consortium', a Singapore-incorporated SPV in which Goyal holds an 8% indirect interest, alongside a Japanese strategic investor. Ravan Power's loan account has been classified as NPA by the lead banker for 18 consecutive months; (ii) Ms. Rinky Mehra, who in 2022 personally guaranteed ₹85 crore of Ravan Power's debt to State Bank of India; the guarantee was invoked on 1 December 2025; Mehra has not paid any portion as on the date of plan submission; (iii) Hexagon Capital Pvt. Ltd., classified as a 'wilful defaulter' by the Reserve Bank of India 14 months ago in connection with unrelated dues owed to another bank. Beyond these three, a fourth genuinely arm's-length bidder — Mr. Kapil Joshi's company Sunrise Energy Pvt. Ltd. — submits a plan offering 65% recovery to financial creditors, complying with all Section 30(2) mandatory contents. CoC approves Sunrise Energy's plan by 67% voting share.",
+      "questions": [
+        {
+          "id": 16,
+          "question": "Sanjay Goyal seeks to submit a resolution plan through 'Hexbridge Consortium', in which he holds only 8% indirect interest. The corporate debtor's account has been NPA for 18 months. Is Goyal eligible under Section 29A?",
+          "options": {
+            "A": "Eligible — Section 29A applies only to direct applicants; the consortium structure with 8% holding takes him outside Section 29A's reach",
+            "B": "Eligible — Section 29A(c) bars only persons holding 26% or more in the resolution applicant; Goyal's 8% falls below the control threshold",
+            "C": "Ineligible — Section 29A(c) bars any person who is, or whose 'connected person' is, the promoter of a corporate debtor whose account has been classified as NPA for at least one year; Hexbridge Consortium is a 'connected person' under Explanation I to Section 29A because Goyal — as erstwhile promoter and as a person 'acting in concert' with the consortium — falls within its sweep",
+            "D": "Ineligible — but only because Section 29A bars all former promoters absolutely, regardless of NPA status"
+          },
+          "correct": "C",
+          "explanation": "Section 29A(c) disqualifies any person who has an account, or whose 'connected person' has an account, classified as NPA for one year or more before the commencement of CIRP. Explanation I to Section 29A defines 'connected person' very widely — including persons in management or control, holding companies, and persons acting in concert. The scenario's 18-month NPA + erstwhile-promoter + consortium structure squarely engages Section 29A(c). Option A is the textbook 'consortium shield' trap that the Supreme Court demolished in ArcelorMittal India Pvt. Ltd. v. Satish Kumar Gupta. Option B invents a 26% threshold (that figure belongs to SAST open offers, not IBC). Option D overstates the bar — Section 29A is NPA-conditional, not absolute against all former promoters. The determinative scenario facts are the 41% prior equity, the personal-default linkage, and the 18-month NPA classification.",
+          "section": "Section 29A(c) and Explanation I"
+        },
+        {
+          "id": 17,
+          "question": "Rinky Mehra personally guaranteed ₹85 crore of Ravan Power's debt; the guarantee was invoked on 1 December 2025 and remains entirely unpaid on the plan submission date. Is she eligible under Section 29A?",
+          "options": {
+            "A": "Eligible — personal guarantors are not specifically barred under Section 29A unless they are also promoters",
+            "B": "Ineligible — Section 29A(h) bars any person whose enforceable guarantee in favour of a creditor of the corporate debtor has been invoked and where any amount remains unpaid",
+            "C": "Ineligible — but only because the guaranteed amount exceeds ₹50 crore",
+            "D": "Eligible — Section 29A(h) bar attaches only if the guarantee was invoked more than two years before plan submission"
+          },
+          "correct": "B",
+          "explanation": "Section 29A(h) expressly disqualifies any person 'who has executed a guarantee in favour of a creditor in respect of a corporate debtor against which an application for insolvency resolution made by such creditor has been admitted under this Code AND such guarantee has been invoked by the creditor AND remains unpaid in full or part'. All three limbs are satisfied: Mehra's guarantee is in favour of SBI (a creditor of Ravan Power); it has been invoked (1 December 2025); and remains unpaid. Option A misses Section 29A(h) entirely — guarantors ARE specifically and separately disqualified. Option C fabricates a ₹50 crore threshold. Option D fabricates a two-year stale-guarantee rule. The determinative scenario facts are the explicit invocation date and the unpaid status.",
+          "section": "Section 29A(h)"
+        },
+        {
+          "id": 18,
+          "question": "Hexagon Capital was classified as a 'wilful defaulter' by RBI 14 months ago in respect of unrelated dues. The classification has not been challenged or set aside. Is Hexagon Capital eligible to submit a resolution plan for Ravan Power?",
+          "options": {
+            "A": "Eligible — Section 29A(b) bar applies only if the wilful-defaulter classification is by SEBI, not RBI",
+            "B": "Eligible — Section 29A(b) bar lapses after 12 months from classification; the 14-month-old classification is therefore stale",
+            "C": "Ineligible — Section 29A(b) bars any person who is a wilful defaulter in accordance with the guidelines issued by the Reserve Bank of India under the Banking Regulation Act, 1949, without any time limitation",
+            "D": "Ineligible — but only because the classification is against Hexagon itself; if it were against a 'connected person', Section 29A would not apply"
+          },
+          "correct": "C",
+          "explanation": "Section 29A(b) disqualifies any person who is a wilful defaulter in accordance with the RBI's wilful defaulter guidelines. The disqualification has NO statutory sunset — it operates so long as the classification stands. Option A inverts the regulator (it is RBI, not SEBI). Option B invents a 12-month sunset that does not exist. Option D is wrong because Section 29A(b) also extends to 'connected persons' via Explanation I — but the principal applicant's own classification is itself sufficient to trigger the bar. The determinative scenario fact is the unchallenged, subsisting RBI classification.",
+          "section": "Section 29A(b)"
+        },
+        {
+          "id": 19,
+          "question": "After eliminating the three ineligible bidders, the CoC of Ravan Power approves Sunrise Energy's resolution plan by 67% voting share. Was the approval threshold satisfied under Section 30(4)?",
+          "options": {
+            "A": "No — Section 30(4) requires 75% voting share; 67% falls short",
+            "B": "Yes — Section 30(4) requires not less than 66% voting share; 67% satisfies the threshold",
+            "C": "No — Section 30(4) was amended in 2019 to require 90% voting share for plans involving substantial haircuts",
+            "D": "Yes — but only because the plan offers more than 50% recovery; otherwise 75% would be required"
+          },
+          "correct": "B",
+          "explanation": "Section 30(4) requires CoC approval by not less than 66% of voting share of financial creditors; 67% clears this threshold. The 75% figure in Option A is the pre-June-2018 threshold and remains the single most popular distractor. Option C fabricates a recovery-linked threshold. Option D invents a haircut-linked sliding scale. The determinative scenario fact is the precise 67% vote — chosen to sit just above 66% and well below 75%.",
+          "section": "Section 30(4)"
+        },
+        {
+          "id": 20,
+          "question": "Suppose NCLT, while considering Sunrise Energy's plan, finds that the plan does not provide for payment to operational creditors of an amount which would have been paid to them on liquidation (Section 30(2)(b)). What is the consequence under Section 31 and the subsequent flow under Section 33?",
+          "options": {
+            "A": "NCLT must directly approve the plan after directing the CoC to enhance OC recovery",
+            "B": "NCLT may suo motu modify the plan and approve the modified version",
+            "C": "NCLT shall reject the plan; once the plan is rejected and no further plans are forthcoming within the CIRP timeline, NCLT shall pass an order for liquidation under Section 33(1)(b)",
+            "D": "Promoter Sanjay Goyal gets a fresh opportunity to submit a revised plan under Section 33(2)"
+          },
+          "correct": "C",
+          "explanation": "Section 30(2)(b) is a MANDATORY content of any resolution plan — non-compliance disentitles the plan from approval (Section 31). If the plan is rejected and the CIRP period expires, Section 33(1)(b) requires NCLT to pass an order of liquidation. Option A is doctrinally wrong — NCLT cannot direct the CoC to enhance recovery; the commercial wisdom belongs to the CoC. Option B is wrong — NCLT cannot rewrite a plan (Essar Steel). Option D is wrong because Sanjay Goyal remains ineligible under Section 29A; rejection does not revive ineligibility. The decisive scenario fact is the explicit Section 30(2)(b) non-compliance.",
+          "section": "Sections 30(2)(b), 31 and 33(1)(b)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s5",
+      "scenarioText": "Tarafdar Textiles Ltd., a denim manufacturer in Bhilwara, enters liquidation on 20 March 2026 after its CIRP failed to attract a viable resolution plan. The liquidator realises a total pool of ₹120 crore from the corporate debtor's assets. The outstanding admitted claims are: CIRP costs (liquidator's fees + earlier IRP/RP fees + estate management costs) of ₹4 crore; workmen's dues — ₹18 crore relating to the 24 months immediately preceding liquidation commencement, plus a further ₹6 crore relating to the period 24-36 months prior; secured financial creditors who relinquished their security to the liquidation estate — ₹62 crore; one secured financial creditor (Sidhanta Bank) which opted to realise its security OUTSIDE the liquidation estate, recovering ₹15 crore from its collateral but suffering a residual shortfall of ₹4 crore; non-workmen employee wages — ₹9 crore for the last 12 months and a further ₹3 crore for the period 12-24 months prior; unsecured financial creditors — ₹22 crore; government statutory dues (income tax + GST) — ₹8 crore; other dues — ₹3 crore; preference shareholders — ₹15 crore. Equity shareholders rank last. The liquidator now begins to disburse the ₹120 crore pool in accordance with Section 53.",
+      "questions": [
+        {
+          "id": 21,
+          "question": "Workmen's total admitted dues are ₹24 crore — ₹18 crore relating to the 24 months preceding liquidation and ₹6 crore relating to the period 24-36 months prior. What portion ranks PARI PASSU with secured creditors who relinquished their security?",
+          "options": {
+            "A": "All ₹24 crore — the entirety of workmen's dues enjoys parity with secured creditors",
+            "B": "Only ₹18 crore — the portion relating to the 24 months immediately preceding liquidation commencement; the older ₹6 crore falls into the residual 'remaining debts and dues' bucket lower in the waterfall",
+            "C": "Only ₹6 crore — the older portion enjoys statutory protection; recent wages are subordinated to secured creditors",
+            "D": "None — workmen's dues rank uniformly BELOW secured creditors in all cases"
+          },
+          "correct": "B",
+          "explanation": "Section 53(1)(b) groups (i) workmen's dues 'for the period of twenty-four months preceding the liquidation commencement date' and (ii) debts owed to a secured creditor who has relinquished security PARI PASSU at the second tier (after CIRP/liquidation costs at tier (a)). Wages beyond that 24-month window fall under Section 53(1)(f) 'any remaining debts and dues' — far below in the cascade. Option A is the most tempting trap — students assume all workmen dues are protected. Option C inverts the temporal direction. Option D is wrong on the basic structure of Section 53. The decisive scenario fact is the precise ₹18 + ₹6 split across the 24-month line.",
+          "section": "Section 53(1)(b) read with Section 53(1)(f)"
+        },
+        {
+          "id": 22,
+          "question": "Non-workmen employee wages total ₹12 crore — ₹9 crore for the last 12 months and ₹3 crore for the period 12-24 months prior. What portion qualifies for the dedicated employee tier under Section 53?",
+          "options": {
+            "A": "All ₹12 crore — the full 24-month employee wages get the dedicated tier",
+            "B": "Only ₹9 crore — Section 53(1)(c) covers 'wages and any unpaid dues owed to employees OTHER THAN WORKMEN for the period of twelve months' preceding liquidation commencement; the older ₹3 crore drops to the residual 'remaining debts' tier",
+            "C": "Only ₹3 crore — the older portion enjoys priority while recent wages are subordinated",
+            "D": "None — employee wages rank pari passu with unsecured financial creditors and have no dedicated tier"
+          },
+          "correct": "B",
+          "explanation": "Section 53(1)(c) carves out a dedicated tier for non-workmen employee wages for the TWELVE MONTHS preceding liquidation commencement (note: 12 months, NOT the 24 months that workmen enjoy). The older ₹3 crore falls into Section 53(1)(f). This is the most popular cross-trap in the IBC syllabus because students reflexively pair 'employees' with the 24-month figure they remember for workmen. Option A is the trap. Option C inverts time. Option D ignores Section 53(1)(c) altogether. The determinative scenario facts are (i) the explicit identification of these workers as 'non-workmen employees' and (ii) the ₹9 + ₹3 split across the 12-month boundary.",
+          "section": "Section 53(1)(c)"
+        },
+        {
+          "id": 23,
+          "question": "Sidhanta Bank, the secured financial creditor that opted to realise its security OUTSIDE the liquidation estate, recovered ₹15 crore but is short by ₹4 crore relative to its admitted claim. How is the ₹4 crore shortfall treated in the Section 53 waterfall?",
+          "options": {
+            "A": "Recoverable from the estate alongside the CIRP costs at tier (a)",
+            "B": "Recoverable from the estate alongside relinquishing secured creditors at tier (b)",
+            "C": "Treated as the claim of an UNSECURED financial creditor for the shortfall and recoverable at tier (d) of Section 53(1)",
+            "D": "Not recoverable from the estate at all — by choosing to realise security outside, Sidhanta Bank has waived any further claim"
+          },
+          "correct": "C",
+          "explanation": "Section 52(9) and Section 53 together provide that where a secured creditor elects to realise its security outside the liquidation estate (Section 52) and the realisation falls short of the admitted claim, the unsatisfied portion is treated as an UNSECURED CLAIM payable from the estate per Section 53(1)(d) (i.e., unsecured financial creditors' tier). Option A elevates the shortfall improperly. Option B is the most attractive trap — students think 'still secured' equals 'tier (b)'; but tier (b) is reserved for secured creditors who have RELINQUISHED their security to the estate, not those who realised it independently. Option D imposes a punitive forfeiture not contained in the Code. The determinative scenario fact is the explicit 'realised outside the estate' election.",
+          "section": "Sections 52(9) and 53(1)(d)"
+        },
+        {
+          "id": 24,
+          "question": "Government statutory dues (₹8 crore — income tax + GST) — where do they rank in the Section 53 waterfall relative to unsecured financial creditors?",
+          "options": {
+            "A": "Above unsecured FCs — government dues are a sovereign priority claim",
+            "B": "Pari passu with unsecured FCs — both are general unsecured claims",
+            "C": "BELOW unsecured FCs — Section 53(1)(e) places 'any amount due to the Central Government and the State Government' below unsecured financial creditors at tier (d), reversing the position under pre-IBC law and under the Companies Act, 2013",
+            "D": "Above workmen's dues — government dues are pre-deductible from the estate"
+          },
+          "correct": "C",
+          "explanation": "Section 53(1)(e) places government dues (Central + State, including taxes) BELOW unsecured financial creditors. This deliberate inversion is one of the most distinctive features of the IBC waterfall and was upheld by the Supreme Court in State Tax Officer v. Rainbow Papers Ltd. (with important nuances on secured-creditor status for certain statutory charges). Option A is the most common pre-IBC instinct — students assume sovereign priority. Option B subordinates them less than the Code does. Option D inverts the entire structure. The determinative scenario fact is the explicit identification of the dues as 'government statutory dues (income tax + GST)' — flagged precisely to test waterfall placement.",
+          "section": "Section 53(1)(e)"
+        },
+        {
+          "id": 25,
+          "question": "The liquidator has ₹120 crore to disburse. After meeting CIRP costs (₹4 crore), tier-(b) dues pari passu (workmen 24-month ₹18 crore + relinquishing secured creditors ₹62 crore = ₹80 crore), and tier-(c) employee wages (12-month ₹9 crore), how much remains in the pool for tier-(d) unsecured financial creditors?",
+          "options": {
+            "A": "₹27 crore (₹120 cr − ₹4 cr − ₹80 cr − ₹9 cr)",
+            "B": "₹22 crore — exactly matching the unsecured FC claim",
+            "C": "₹35 crore — because the older workmen ₹6 crore and older employee ₹3 crore must be paid at tier (b) and (c) first",
+            "D": "₹15 crore — after also setting aside preference shareholders' dues"
+          },
+          "correct": "A",
+          "explanation": "Arithmetic per Section 53: ₹120 cr − ₹4 cr CIRP costs − ₹80 cr (₹18 cr 24-month workmen + ₹62 cr relinquishing secured pari passu) − ₹9 cr (12-month employee wages) = ₹27 crore available for tier (d). Of this, Sidhanta Bank's ₹4 crore shortfall (from Q23) plus the unsecured FCs' ₹22 crore = ₹26 crore total tier-(d) claim, fully payable; ₹1 crore residual rolls down to tier (e) government dues. Option B is the seductive but wrong figure — it matches the bare unsecured FC claim and tempts students who forget the secured-creditor shortfall. Option C wrongly includes the older workmen/employee amounts at the higher tiers (they actually fall to the residual Section 53(1)(f) bucket). Option D wrongly pre-deducts preference shareholders, who in fact rank at tier (g), well below this point. The determinative scenario facts are the specific figures and the temporal splits forcing the student to compute the exact cascade.",
+          "section": "Section 53(1) — full waterfall arithmetic"
+        }
+      ]
+    }
+  ]
+}
