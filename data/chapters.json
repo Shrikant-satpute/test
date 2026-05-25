@@ -205,7 +205,7 @@
       "totalMarks": 50,
       "passMarks": 25,
       "duration": 45,
-      "available": false,
+      "available": true,
       "keySections": ["Reg 3", "Reg 4", "Reg 5", "Reg 6", "Reg 7", "Reg 8", "Reg 13", "Reg 14", "Reg 15", "Reg 16", "Reg 17", "Reg 18", "Reg 19", "Reg 20", "Reg 26"]
     },
     {
@@ -218,7 +218,7 @@
       "totalMarks": 50,
       "passMarks": 25,
       "duration": 45,
-      "available": false,
+      "available": true,
       "keySections": ["Reg 2", "Reg 3", "Reg 4", "Reg 5", "Reg 6", "Reg 7", "Reg 8", "Reg 9", "Reg 9A", "Reg 10"]
     },
     {

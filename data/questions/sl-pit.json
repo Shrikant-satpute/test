@@ -1,0 +1,363 @@
+{
+  "chapterId": "sl-pit",
+  "chapterName": "SEBI (PIT) Regulations, 2015",
+  "law": "Securities Laws",
+  "category": "securities-laws",
+  "scenarios": [
+    {
+      "scenarioId": "s1",
+      "scenarioText": "Zenith Therapeutics Ltd. (NSE-listed) is awaiting the results of a pivotal Phase-III trial of its lead oncology molecule, expected to move the share price materially. On 8 April 2026 the positive top-line results are finalised internally but are not disclosed to the exchanges. Four persons come to learn of them: (i) Dr. Anaya Rao, Zenith's Chief Scientific Officer; (ii) Mr. Vikram Sethi, a partner at Zenith's external legal firm advising on the regulatory filing; (iii) Ms. Priya Nair, a financial journalist who overhears two scientists discussing the results in a café and has no association whatsoever with Zenith; and (iv) Mr. Rahul Kapoor, brother of Zenith's CFO, who is told the results by the CFO over dinner. On 9 April 2026, before any public disclosure, Rahul buys 5,000 Zenith shares. The results are finally announced to the stock exchanges on 15 April 2026 at 10:00 a.m.",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Is Ms. Priya Nair (the journalist who merely overheard the results) an 'insider' within the meaning of Regulation 2(1)(g)?",
+          "options": {
+            "A": "No — Priya has no contractual, fiduciary or employment connection with Zenith, so she cannot be an insider",
+            "B": "Yes — an 'insider' under Regulation 2(1)(g) includes any person in possession of or having access to UPSI, regardless of whether she is a 'connected person'; Priya possesses the unpublished trial result",
+            "C": "No — a journalist enjoys a statutory exemption for information gathered while reporting",
+            "D": "Yes — but only because overhearing in a public place is deemed 'procurement' of UPSI under Regulation 3"
+          },
+          "correct": "B",
+          "explanation": "Regulation 2(1)(g) defines 'insider' in TWO independent limbs: (i) a connected person, OR (ii) any person in possession of or having access to UPSI. The second limb does not require any connection — mere possession suffices. Priya, though wholly unconnected, is in possession of the unpublished Phase-III result and is therefore an insider. Option A wrongly treats 'connected person' as the only route to insider status — the classic PIT trap. Option C invents a journalist exemption. Option D mislabels the basis (her status flows from possession, not from 'procurement'). Determinative fact: Priya possesses the UPSI despite having no connection to Zenith.",
+          "section": "Regulation 2(1)(g)"
+        },
+        {
+          "id": 2,
+          "question": "Mr. Rahul Kapoor (the CFO's brother) bought 5,000 shares on 9 April 2026, before the results were announced. Is he liable for insider trading?",
+          "options": {
+            "A": "Not liable — Rahul is neither an employee nor a director of Zenith and owes the company no duty",
+            "B": "Liable — as an immediate relative of the CFO (a deemed connected person under Regulation 2(1)(d)) who traded while in possession of the unpublished trial result, Rahul traded in violation of Regulation 4(1)",
+            "C": "Not liable — he traded before the results were announced, and trading before public announcement is permitted",
+            "D": "Liable — but only under Regulation 3 for communicating UPSI, not for trading"
+          },
+          "correct": "B",
+          "explanation": "An 'immediate relative' of a connected person (here the CFO) is a DEEMED connected person under Regulation 2(1)(d), and a connected person in possession of UPSI is an insider. Regulation 4(1) prohibits an insider from trading while in possession of UPSI. Rahul bought shares on 9 April while holding the unpublished result, breaching Reg 4(1). Option A wrongly assumes liability requires employment. Option C inverts the rule — trading BEFORE disclosure, while in possession, is precisely what is prohibited. Option D misidentifies the provision (Rahul traded; he did not communicate). Determinative facts: Rahul's relationship to the CFO and his purchase before the 15 April announcement.",
+          "section": "Regulation 4(1)"
+        },
+        {
+          "id": 3,
+          "question": "Did Zenith's CFO breach Regulation 3 by telling his brother Rahul the trial results over dinner?",
+          "options": {
+            "A": "No — private family conversations fall outside the scope of the Regulations",
+            "B": "Yes — the CFO breached Regulation 3(1) by communicating UPSI to his brother otherwise than in furtherance of a legitimate purpose, performance of duties, or discharge of legal obligations",
+            "C": "Yes — but only if Rahul actually made a profit from his trade",
+            "D": "Yes — the CFO is liable under Regulation 4 (trading while in possession), even though he did not trade"
+          },
+          "correct": "B",
+          "explanation": "Regulation 3(1) prohibits an insider from communicating, providing or allowing access to UPSI except where the communication is in furtherance of legitimate purposes, performance of duties or discharge of legal obligations. A dinner-table disclosure to a relative meets none of these and breaches Reg 3(1) — and the breach is complete on communication, irrespective of whether the recipient profits. Option A wrongly carves out family talk. Option C wrongly conditions liability on Rahul's profit. Option D misapplies Reg 4 (the CFO communicated; he did not trade). Determinative fact: the CFO's communication of the unpublished result over dinner for no legitimate purpose.",
+          "section": "Regulation 3(1)"
+        },
+        {
+          "id": 4,
+          "question": "Was Zenith's disclosure of the trial result to Mr. Vikram Sethi (the external legal adviser) a breach of Regulation 3?",
+          "options": {
+            "A": "Yes — disclosing UPSI to any outsider, including legal advisers, breaches Regulation 3",
+            "B": "No — communicating UPSI to legal advisers advising on the regulatory filing is in furtherance of a 'legitimate purpose'; Vikram thereby becomes an insider and must maintain confidentiality and not trade",
+            "C": "No — external advisers can never be insiders, so the question of a breach does not arise",
+            "D": "Yes — unless a non-disclosure agreement was signed, any sharing with advisers is a breach"
+          },
+          "correct": "B",
+          "explanation": "Regulation 3 permits sharing UPSI for a 'legitimate purpose' — and the explanation/illustration expressly contemplates sharing with legal advisers, auditors and other advisers in the ordinary course of business. Advising on the regulatory filing is a legitimate purpose, so the disclosure to Vikram is not a breach; however, by Reg 3(3)/(4) Vikram becomes an insider and is bound by confidentiality and the trading prohibition. Option A is overbroad. Option C is wrong — advisers can certainly be insiders. Option D wrongly makes legitimacy turn on an NDA. Determinative fact: Vikram's role as legal adviser on the filing, bringing the communication within the legitimate-purpose gateway.",
+          "section": "Regulation 3(1)"
+        },
+        {
+          "id": 5,
+          "question": "Zenith's designated persons were in a closed trading window. The results were declared to the exchanges on 15 April 2026 at 10:00 a.m. From when may designated persons commence trading?",
+          "options": {
+            "A": "Immediately upon declaration of the results at 10:00 a.m. on 15 April 2026",
+            "B": "From 10:00 a.m. on 17 April 2026 — that is, 48 hours after the results are declared to the exchanges",
+            "C": "From the start of the next trading day, 16 April 2026",
+            "D": "From 22 April 2026 — that is, 7 days after the results"
+          },
+          "correct": "B",
+          "explanation": "Under the model Code of Conduct (Schedule B, framed under Regulation 9), the trading window closed for results reopens only 48 HOURS AFTER the UPSI becomes generally available — i.e., 48 hours after the results are declared to the exchanges. Results declared at 10:00 a.m. on 15 April means the window reopens at 10:00 a.m. on 17 April 2026. Option A allows immediate trading (the common error). Option C uses 'next trading day' / 24-hour reasoning. Option D invents a 7-day gap. Determinative fact: the precise declaration time of 10:00 a.m. on 15 April, from which 48 hours runs.",
+          "section": "Regulation 9 (Schedule B)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s2",
+      "scenarioText": "Meridian Bank Ltd. (BSE-listed) maintains a Code of Conduct framed under Regulation 9 read with Schedule B. Mr. Suresh Iyer, a designated person and General Manager (Treasury), buys 10,000 shares of Meridian Bank on 2 March 2026 at ₹150 per share, at a time when the trading window was open and he held no UPSI. On 5 May 2026 he wishes to sell 6,000 of those shares to fund a property purchase. Separately, Ms. Tara Menon, a clerk in a branch who is NOT a designated person and has no access to UPSI, buys 2,000 shares on 10 May 2026 — during a period when the trading window for designated persons is closed ahead of the annual results. The compliance officer had closed that window from 1 April 2026.",
+      "questions": [
+        {
+          "id": 6,
+          "question": "May Suresh sell the 6,000 shares on 5 May 2026?",
+          "options": {
+            "A": "Yes — the trading window is open and he holds no UPSI on 5 May",
+            "B": "No — a designated person who has executed a trade cannot execute a contra-trade within 6 months; only about 2 months have elapsed since the 2 March purchase, so the sale is barred and any profit is liable to be disgorged",
+            "C": "Yes — the 6-month contra-trade restriction applies only to a purchase following a sale, not a sale following a purchase",
+            "D": "No — but only because the proposed sale of 6,000 shares exceeds 5,000 shares"
+          },
+          "correct": "B",
+          "explanation": "Schedule B's Code of Conduct prohibits a designated person from executing a CONTRA-TRADE (an opposite transaction) within 6 months of an earlier trade; a profit from any such contra-trade is liable to be disgorged. Suresh bought on 2 March and proposes to sell on 5 May — barely two months later — so the sale is a prohibited contra-trade. The fact that the window is open and he holds no UPSI (Option A) does not cure the contra-trade bar, which is independent. Option C invents a one-directional rule (the bar applies both ways). Option D fabricates a share-count threshold. Determinative facts: the 2 March purchase and the 5 May proposed sale, well within 6 months.",
+          "section": "Regulation 9 (Schedule B) — contra-trade"
+        },
+        {
+          "id": 7,
+          "question": "Has Ms. Tara Menon committed a violation by buying 2,000 shares on 10 May 2026 while the trading window was closed?",
+          "options": {
+            "A": "Yes — the trading window was closed, and no person may trade while it is closed",
+            "B": "No — the trading-window closure under the Code of Conduct binds only designated persons (and their immediate relatives); Tara is neither a designated person nor in possession of UPSI, so her trade is not restricted",
+            "C": "Yes — all employees of a listed company are automatically designated persons",
+            "D": "No — but only because she traded fewer than 5,000 shares"
+          },
+          "correct": "B",
+          "explanation": "The trading-window mechanism in the Code of Conduct applies to DESIGNATED PERSONS and their immediate relatives — not to every employee. Tara is expressly a non-designated clerk with no access to UPSI, so neither the window closure nor the Reg 4 trading prohibition (which needs possession of UPSI) catches her trade. Option A is overbroad. Option C is false — not all employees are designated persons; the board/compliance officer designates them. Option D fabricates a share-count exemption. Determinative facts: Tara's status as a non-designated person with no UPSI.",
+          "section": "Regulation 9 (Schedule B) — trading window"
+        },
+        {
+          "id": 8,
+          "question": "Suppose Suresh ignores the advice and executes the contra-sale, making a profit of ₹3 lakh. What is the consequence prescribed under the Code of Conduct?",
+          "options": {
+            "A": "The trade is void and must be reversed by the depository",
+            "B": "The profit of ₹3 lakh is liable to be disgorged and remitted to SEBI for credit to the Investor Protection and Education Fund",
+            "C": "Suresh must pay a penalty of ₹25 crore for the contra-trade",
+            "D": "Suresh is automatically debarred from the securities market for 10 years"
+          },
+          "correct": "B",
+          "explanation": "Under Schedule B, where a designated person executes a prohibited contra-trade, the profits made from such trade are liable to be DISGORGED for remittance to SEBI for credit to the Investor Protection and Education Fund (IPEF) — a Code-of-Conduct consequence administered by the company. Option A wrongly treats the trade as void. Option C imports the ₹25 crore figure from Section 15G of the SEBI Act (the penalty for insider trading proper) — a cross-provision trap. Option D invents an automatic 10-year ban. Determinative facts: the contra-trade and the ₹3 lakh profit it generated.",
+          "section": "Regulation 9 (Schedule B) — contra-trade"
+        },
+        {
+          "id": 9,
+          "question": "Which of the following statements about Meridian's trading window and Code of Conduct is INCORRECT?",
+          "options": {
+            "A": "The trading-window restriction applies to designated persons and their immediate relatives",
+            "B": "A designated person cannot execute a contra-trade within six months of a prior trade",
+            "C": "The trading window must be closed during the period from the end of a quarter until 48 hours after the results are declared",
+            "D": "Once the trading window is closed, a designated person may still trade freely through a pre-cleared market purchase, provided the value is below ₹10 lakh"
+          },
+          "correct": "D",
+          "explanation": "The question asks for the INCORRECT statement. There is no '₹10 lakh' exception that re-opens trading for designated persons during a closed window — the ₹10 lakh figure is the CONTINUAL DISCLOSURE threshold under Regulation 7(2) and has nothing to do with whether one may trade while the window is shut. So Option D is false and is the answer. Options A (window applies to designated persons/relatives), B (six-month contra-trade bar) and C (window closed from quarter-end to 48 hours post-results) are all correct. Determinative point: distinguishing the trading-window prohibition from the ₹10 lakh disclosure threshold — a deliberate cross-provision confusion.",
+          "section": "Regulation 9 (Schedule B)"
+        },
+        {
+          "id": 10,
+          "question": "Suresh's purchase of 10,000 shares on 2 March 2026 was at ₹150 per share (₹15 lakh). Does it attract a disclosure obligation under Regulation 7(2)?",
+          "options": {
+            "A": "No — disclosure under Regulation 7(2) is triggered only when the holding crosses 5%",
+            "B": "Yes — a designated person must disclose to the company within 2 trading days where the value of securities traded exceeds ₹10 lakh in a calendar quarter; ₹15 lakh exceeds the threshold",
+            "C": "No — the ₹10 lakh threshold applies per transaction over a year, and ₹15 lakh relates to a long-term holding",
+            "D": "Yes — but the threshold is ₹50 lakh, so only the excess is reportable"
+          },
+          "correct": "B",
+          "explanation": "Regulation 7(2)(a) requires every promoter, member of the promoter group, designated person and director to disclose to the company any trading where the aggregate traded VALUE exceeds ₹10 lakh (or such other value as specified) over a CALENDAR QUARTER, within 2 trading days; the company then informs the exchanges within 2 trading days. Suresh's ₹15 lakh purchase exceeds ₹10 lakh, triggering disclosure. Option A imports the 5% threshold, which belongs to SEBI (SAST) Regulation 29 — a cross-law trap. Option C misstates the period. Option D uses a non-existent ₹50 lakh threshold. Determinative fact: the ₹15 lakh trade value crossing the ₹10 lakh floor.",
+          "section": "Regulation 7(2)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s3",
+      "scenarioText": "CloudNova Technologies Ltd. (NSE-listed) faces a 'perpetual insider' problem: its founder-CEO, Mr. Aravind Menon, is almost always in possession of some UPSI. To enable him to sell shares for estate planning, on 1 February 2026 he submits a trading plan to the compliance officer under Regulation 5. The plan proposes to: commence selling on 1 April 2026; sell 20,000 shares per month for six months thereafter; and be publicly disclosed upon approval. The compliance officer approves the plan and discloses it to the stock exchanges on 5 February 2026. In June 2026, the CloudNova share price falls sharply; Aravind wishes to suspend the plan and also asks whether he may trade additional shares OUTSIDE the plan during the same period.",
+      "questions": [
+        {
+          "id": 11,
+          "question": "Aravind's plan, disclosed on 5 February 2026, proposes to commence trading on 1 April 2026. Is that commencement date compliant with Regulation 5?",
+          "options": {
+            "A": "Yes — a trading plan may commence as soon as it is approved and publicly disclosed",
+            "B": "No — trading under a plan cannot commence earlier than 120 calendar days after public disclosure; disclosure was on 5 February 2026, so trading cannot begin before about 5 June 2026, making the proposed 1 April start non-compliant",
+            "C": "Yes — the cooling-off period is 60 calendar days, which is satisfied by 1 April",
+            "D": "No — the plan must wait 6 months (until about 5 August 2026) before trading can commence"
+          },
+          "correct": "B",
+          "explanation": "Regulation 5(2) requires that a trading plan not entail commencement of trading earlier than 120 CALENDAR DAYS from the public disclosure of the plan (the cooling-off period, reduced from 6 months by the 2024 amendment). Disclosure on 5 February 2026 means trading cannot start before roughly 5 June 2026; a proposed 1 April start (under 2 months later) is non-compliant. Option A ignores the cooling-off period entirely. Option C uses an incorrect 60-day figure. Option D applies the PRE-amendment 6-month period — a deliberate amendment trap. Determinative facts: the 5 February disclosure date and the 1 April proposed commencement.",
+          "section": "Regulation 5(2)"
+        },
+        {
+          "id": 12,
+          "question": "The plan covers a 6-month trading period. Does this contravene the minimum-duration requirement under Regulation 5?",
+          "options": {
+            "A": "Yes — Regulation 5 requires a trading plan to cover a minimum period of 12 months",
+            "B": "No — the erstwhile requirement that a trading plan cover a minimum of 12 months was removed by the 2024 amendment; there is no longer a minimum-duration requirement",
+            "C": "Yes — Regulation 5 requires a minimum coverage of 24 months",
+            "D": "No — but only because estate-planning plans are exempt from the minimum-duration rule"
+          },
+          "correct": "B",
+          "explanation": "The original Regulation 5(2)(iii) required a trading plan to cover a minimum period of 12 months. The 2024 amendment to the PIT Regulations REMOVED this minimum-duration condition, so a 6-month plan no longer offends any minimum-coverage requirement. Option A states the pre-amendment position (the amendment trap). Option C invents a 24-month figure. Option D fabricates an estate-planning exemption. Determinative facts: the 6-month coverage of the plan, tested against the current (post-2024-amendment) law.",
+          "section": "Regulation 5(2)"
+        },
+        {
+          "id": 13,
+          "question": "When the share price falls in June 2026, may Aravind suspend or abandon the trading plan?",
+          "options": {
+            "A": "Yes — an insider may modify or suspend a trading plan at any time in response to market conditions",
+            "B": "No — a trading plan is irrevocable once approved, and the insider must mandatorily implement it; a fall in the share price is not a permitted ground to deviate from or suspend the plan",
+            "C": "Yes — provided he gives the compliance officer 48 hours' notice of suspension",
+            "D": "No — but he may unilaterally reduce the planned quantity by up to 50%"
+          },
+          "correct": "B",
+          "explanation": "Regulation 5(4) makes an approved trading plan IRREVOCABLE: the insider must mandatorily implement it and must not deviate from it, except where compliance with the plan is not possible due to subsequent permanent legal/regulatory restrictions. An adverse price movement is precisely the kind of opportunistic ground the irrevocability rule is designed to defeat, so Aravind cannot suspend it. Option A permits free modification — the opposite of the rule. Option C invents a 48-hour notice escape. Option D invents a 50%-reduction right. Determinative facts: the price fall and Aravind's wish to suspend the already-approved plan.",
+          "section": "Regulation 5(4)"
+        },
+        {
+          "id": 14,
+          "question": "Aravind asks whether, during the plan period, he may also trade additional shares OUTSIDE the approved plan. What is the correct position?",
+          "options": {
+            "A": "Yes — the plan governs only the planned trades; he is free to trade additional shares outside it",
+            "B": "No — as a person almost always in possession of UPSI, any trade outside the approved plan would be trading 'while in possession of UPSI' prohibited by Regulation 4; the pre-approved plan is the very mechanism that protects him, and only trades within it are protected",
+            "C": "Yes — provided each outside trade is individually below ₹10 lakh",
+            "D": "No — outside trades are allowed only during the open trading window"
+          },
+          "correct": "B",
+          "explanation": "The trading-plan route in Regulation 5 exists precisely for insiders who are perpetually in possession of UPSI and therefore cannot otherwise trade without breaching Regulation 4. Trades made within the approved plan enjoy the Reg 4(1) defence; trades OUTSIDE the plan get no such protection, and because Aravind is almost always in possession of UPSI, any such outside trade would violate Reg 4(1). Option A wrongly frees up outside trades. Option C misuses the ₹10 lakh disclosure threshold as a trading carve-out. Option D wrongly suggests the window cures his UPSI possession. Determinative fact: Aravind's status as a near-perpetual possessor of UPSI.",
+          "section": "Regulation 4(1)"
+        },
+        {
+          "id": 15,
+          "question": "Once the plan is compliant and has commenced, does it protect Aravind's sales even though he is in possession of UPSI at the time of each sale?",
+          "options": {
+            "A": "No — possessing UPSI at the time of any trade always defeats the defence, even for trading-plan trades",
+            "B": "Yes — Regulation 4(1) recognises trades carried out in accordance with an approved and disclosed trading plan under Regulation 5 as a defence to the prohibition on trading while in possession of UPSI",
+            "C": "Yes — but only for trades up to ₹10 lakh per calendar quarter",
+            "D": "No — the trading-plan defence applies only to purchases, not to sales"
+          },
+          "correct": "B",
+          "explanation": "The proviso to Regulation 4(1) lists circumstances in which an insider may demonstrate innocence, expressly including trades carried out in accordance with a trading plan set up under Regulation 5. So once the plan is valid (cooling-off observed, disclosed) and has commenced, Aravind's planned sales are protected notwithstanding his possession of UPSI — that is the whole point of the mechanism. Option A would render Regulation 5 useless. Option C misuses the ₹10 lakh threshold. Option D invents a purchase-only limitation. Determinative facts: the plan's validity and Aravind's continuing UPSI possession.",
+          "section": "Regulation 4(1)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s4",
+      "scenarioText": "FreshHarvest Foods Ltd. (BSE-listed) appoints Ms. Leela Krishnan as a new whole-time director on 12 January 2026; on that date she holds 40,000 shares. During the quarter January–March 2026, Mr. Dev Anand, a designated person and Head of Sales, undertakes the following trades in FreshHarvest shares: buys worth ₹6 lakh on 20 January, buys worth ₹5 lakh on 18 February, and sells worth ₹2 lakh on 10 March. Separately, FreshHarvest's promoter, Harvest Holdings, crosses 5% of the company's total shareholding on 25 February 2026 through an on-market purchase. FreshHarvest maintains a Code of Fair Disclosure under Regulation 8 and an internal Code of Conduct.",
+      "questions": [
+        {
+          "id": 16,
+          "question": "What initial disclosure must Ms. Leela Krishnan make on becoming a whole-time director, and by when, under Regulation 7(1)?",
+          "options": {
+            "A": "She must disclose her holding within 30 days of her appointment",
+            "B": "She must disclose her holding of 40,000 shares to the company within 7 days of her appointment as a whole-time director",
+            "C": "She need not disclose anything unless her holding exceeds 5%",
+            "D": "She must disclose her holding within 2 trading days of her appointment"
+          },
+          "correct": "B",
+          "explanation": "Regulation 7(1)(b) requires every person who becomes a promoter, member of the promoter group, designated person or director to disclose his/her holding of securities to the company within 7 days of becoming such. Leela, appointed a whole-time director on 12 January with 40,000 shares, must disclose within 7 days. Option A uses 30 days. Option C imports the 5% threshold from SAST Regulation 29 — a cross-law trap. Option D uses the 2-trading-day timeline that applies to CONTINUAL disclosures under Reg 7(2), not initial disclosures. Determinative facts: her appointment date and her status as a director holding shares.",
+          "section": "Regulation 7(1)"
+        },
+        {
+          "id": 17,
+          "question": "Do Mr. Dev Anand's trades during January–March 2026 attract a continual disclosure under Regulation 7(2), and if so, when is it triggered?",
+          "options": {
+            "A": "No — each individual trade is below ₹10 lakh, so no disclosure is required",
+            "B": "Yes — Regulation 7(2) aggregates the traded value over the calendar quarter; the cumulative traded value crosses ₹10 lakh on the 18 February purchase (₹6 L + ₹5 L = ₹11 L), triggering disclosure within 2 trading days, and the 10 March sale must also be reported",
+            "C": "Yes — but only the net value (₹6 L + ₹5 L − ₹2 L = ₹9 L) counts, which is below ₹10 lakh, so no disclosure arises",
+            "D": "No — disclosure is required only when his holding crosses 5%"
+          },
+          "correct": "B",
+          "explanation": "Regulation 7(2) tests the AGGREGATE traded value over a calendar quarter, not each transaction. Dev's cumulative traded value reaches ₹6 L on 20 January and ₹11 L on the 18 February purchase — crossing ₹10 lakh — so disclosure is triggered within 2 trading days, and the subsequent 10 March sale must also be reported. Option A wrongly tests each trade individually. Option C nets buys against the sale; the threshold is based on traded VALUE (gross turnover), not the net position. Option D imports the SAST 5% threshold. Determinative facts: the three dated trade values, whose running total crosses ₹10 lakh on 18 February.",
+          "section": "Regulation 7(2)"
+        },
+        {
+          "id": 18,
+          "question": "Harvest Holdings crosses 5% of FreshHarvest's total shareholding on 25 February 2026. Under which regime does this primarily trigger a disclosure, and on what basis?",
+          "options": {
+            "A": "Under PIT Regulation 7(2), because crossing 5% is the continual-disclosure trigger for promoters",
+            "B": "Under SEBI (SAST) Regulation 29(1) — crossing 5% of shares/voting rights requires disclosure to the company and the exchanges within 2 working days; the PIT Regulation 7 trigger is value-based (₹10 lakh), not a 5% threshold",
+            "C": "Under PIT Regulation 7(1), as an initial disclosure made on crossing 5%",
+            "D": "No disclosure arises until the holding crosses 25%"
+          },
+          "correct": "B",
+          "explanation": "Crossing 5% of total shares/voting rights is the disclosure trigger under SEBI (SAST) Regulation 29(1) (within 2 working days) — NOT a PIT trigger. PIT continual disclosure under Reg 7(2) is keyed to traded VALUE (₹10 lakh in a calendar quarter), not to a 5% holding level. The scenario deliberately mixes the two regimes. Option A and C wrongly map the 5% event onto PIT Reg 7. Option D borrows the 25% open-offer trigger from SAST Reg 3. Determinative fact: the 5%-crossing event, which belongs to the SAST disclosure regime, not PIT — the precise cross-law confusion the question targets.",
+          "section": "Regulation 7"
+        },
+        {
+          "id": 19,
+          "question": "Which of the following is NOT a principle of the Code of Fair Disclosure under Regulation 8 (Schedule A)?",
+          "options": {
+            "A": "Prompt public disclosure of UPSI that would impact price discovery, once it credibly and concretely crystallises",
+            "B": "Uniform and universal dissemination of UPSI so as to avoid selective disclosure",
+            "C": "Designating a senior officer (a chief investor-relations officer) to handle the dissemination of UPSI and responses to queries",
+            "D": "Permitting selective disclosure of UPSI to favoured analysts, provided the company keeps a structured digital database of such disclosures"
+          },
+          "correct": "D",
+          "explanation": "The question asks which is NOT a principle. Schedule A's Code of Fair Disclosure requires prompt public disclosure of UPSI, uniform and universal dissemination, a designated officer for dissemination, prompt dissemination of UPSI that gets disclosed selectively, and handling of unanticipated questions — all aimed at PREVENTING selective disclosure. Option D endorses selective disclosure to favoured analysts, which is precisely what the Code forbids; maintaining a structured digital database does not legitimise it. Hence Option D is the answer. Options A, B and C are genuine principles. Determinative point: selective disclosure is prohibited, not permitted, under the fair-disclosure code.",
+          "section": "Regulation 8"
+        },
+        {
+          "id": 20,
+          "question": "Dev Anand (a designated person) bought shares on 20 January and 18 February and sold shares on 10 March 2026. Does the 10 March sale raise a contra-trade issue?",
+          "options": {
+            "A": "No — buying and then selling within the same quarter is normal portfolio activity and is permitted",
+            "B": "Yes — the 10 March sale is a contra-trade against the January/February purchases executed within 6 months; under the Code of Conduct a designated person cannot execute an opposite transaction within 6 months, and any profit is liable to disgorgement",
+            "C": "No — the contra-trade restriction applies only to promoters, not to designated persons",
+            "D": "Yes — but the restriction period is 12 months, so the timing here is irrelevant"
+          },
+          "correct": "B",
+          "explanation": "Schedule B prohibits a designated person from executing a contra-trade (an opposite transaction) within 6 months of an earlier trade. Dev's purchases on 20 January and 18 February, followed by a sale on 10 March, place the sale squarely within the 6-month window, making it a prohibited contra-trade with any profit liable to disgorgement. Option A wrongly treats it as ordinary activity. Option C wrongly limits the rule to promoters (it applies to designated persons). Option D misstates the period as 12 months. Determinative facts: the buy dates in January/February and the sell date of 10 March, all within 6 months.",
+          "section": "Regulation 9 (Schedule B) — contra-trade"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s5",
+      "scenarioText": "Titan Engineering Ltd. (NSE-listed) is in advanced, undisclosed merger talks with a competitor — clearly UPSI. Its CEO, under Regulation 9A, must put in place an institutional mechanism for prevention of insider trading. Consider four situations during the UPSI period: (i) Titan's PE investor, Orbit Fund, sells its 4% stake to another fund, Zephyr Capital, in an off-market deal where BOTH funds are in possession of the same merger UPSI and have each made an informed trading decision; (ii) Titan's treasury, a non-individual, trades in Titan shares where the individuals who took the trading decision were demonstrably NOT in possession of the UPSI and adequate 'Chinese walls' existed; (iii) Mr. Naveen, a designated person, exercises stock options at an exercise price fixed long ago; and (iv) Mr. Bose, a connected employee, buys 50,000 Titan shares on the market knowing of the merger and makes a profit of ₹9 crore when the merger is announced. SEBI later investigates.",
+      "questions": [
+        {
+          "id": 21,
+          "question": "Is the Orbit–Zephyr off-market transaction in situation (i) protected, or does it violate Regulation 4?",
+          "options": {
+            "A": "It violates Regulation 4, because both Orbit and Zephyr traded while in possession of UPSI",
+            "B": "It is protected — the proviso to Regulation 4(1) recognises a defence where an off-market inter-se transfer is between two persons who were BOTH in possession of the same UPSI and each took an informed trading decision",
+            "C": "It is protected only if it is executed on the stock exchange rather than off-market",
+            "D": "It is protected only if SEBI grants prior approval for the transfer"
+          },
+          "correct": "B",
+          "explanation": "The proviso to Regulation 4(1) lets an insider rebut the charge by proving the trade fell within recognised circumstances — one being an off-market inter-se transfer between two parties who were BOTH in possession of the same UPSI and took an informed decision. Orbit and Zephyr satisfy this exactly. Option A ignores the proviso. Option C reverses the requirement — the defence specifically contemplates an OFF-market transfer (on-market would expose an uninformed counterparty). Option D invents a prior-approval requirement. Determinative facts: both funds possessed the same merger UPSI and dealt off-market on an informed basis.",
+          "section": "Regulation 4(1) proviso"
+        },
+        {
+          "id": 22,
+          "question": "Is Titan's treasury trade in situation (ii) protected under Regulation 4?",
+          "options": {
+            "A": "No — a company can never trade in its own shares during a UPSI period",
+            "B": "Yes — the proviso to Regulation 4(1) provides a defence for a non-individual insider where the individuals who took the trading decision were not in possession of the UPSI and arrangements (Chinese walls) existed to ensure the UPSI was not communicated to them",
+            "C": "Yes — but only if each trade is below ₹10 lakh in value",
+            "D": "No — the defence applies only to individual insiders, not to non-individuals"
+          },
+          "correct": "B",
+          "explanation": "The proviso to Regulation 4(1) gives a non-individual (such as a company/treasury desk) a defence where it can show the individuals who took the trading decision were not in possession of the UPSI AND that it had put in place adequate Chinese-wall arrangements preventing communication of the UPSI to those individuals. Titan's facts fit. Option A is overbroad. Option C misuses the ₹10 lakh disclosure figure. Option D is precisely wrong — this limb of the proviso is designed FOR non-individuals. Determinative facts: the decision-makers lacked UPSI and Chinese walls existed.",
+          "section": "Regulation 4(1) proviso"
+        },
+        {
+          "id": 23,
+          "question": "Mr. Naveen exercises his stock options at a long-ago pre-determined exercise price during the UPSI period (situation (iii)). Is this permissible?",
+          "options": {
+            "A": "No — any dealing in securities during a UPSI period, including exercising options, is prohibited",
+            "B": "Yes — the mere exercise of stock options at a pre-determined exercise price is not regarded as prohibited 'trading'; however, the SALE of the shares so acquired while in possession of UPSI would not be protected",
+            "C": "Yes — and Naveen may freely sell the resulting shares immediately, as exercising the options cleanses the UPSI",
+            "D": "No — option exercise is permitted only after the UPSI becomes generally available"
+          },
+          "correct": "B",
+          "explanation": "SEBI's settled position (reflected in the PIT FAQs) is that the exercise of employee stock options at a pre-determined exercise price is not 'trading' that offends Regulation 4 — the price is fixed in advance and not influenced by UPSI. But this protection does NOT extend to a subsequent SALE of the resulting shares while the insider is in possession of UPSI. Option A is overbroad. Option C wrongly says exercise 'cleanses' the UPSI and permits an immediate sale. Option D wrongly bars even the exercise. Determinative fact: Naveen is exercising options at a pre-fixed price, not selling shares.",
+          "section": "Regulation 4"
+        },
+        {
+          "id": 24,
+          "question": "Mr. Bose traded on the merger UPSI (situation (iv)) and made a profit of ₹9 crore. What is the MAXIMUM monetary penalty under Section 15G of the SEBI Act, 1992?",
+          "options": {
+            "A": "₹25 crore — the fixed statutory penalty for insider trading",
+            "B": "₹27 crore — being the HIGHER of ₹25 crore or three times the profit made (3 × ₹9 crore = ₹27 crore)",
+            "C": "₹9 crore — equal to the profit made (disgorgement only)",
+            "D": "₹1 crore — the general penalty cap for contraventions"
+          },
+          "correct": "B",
+          "explanation": "Section 15G of the SEBI Act penalises insider trading with a penalty that is the HIGHER of ₹25 crore OR three times the amount of profit made out of insider trading. Here 3 × ₹9 crore = ₹27 crore, which exceeds ₹25 crore, so the maximum penalty is ₹27 crore. Option A stops at the ₹25 crore floor and ignores the 3× limb (the most common error). Option C confuses the penalty with bare disgorgement of profit. Option D uses the ₹1 crore cap that applies to other contraventions (e.g., Section 15A/15HB) — a cross-provision trap. Determinative fact: the ₹9 crore profit, which makes the 3× limb (₹27 crore) exceed the ₹25 crore floor.",
+          "section": "SEBI Act Section 15G"
+        },
+        {
+          "id": 25,
+          "question": "Which of the following is NOT a requirement of the institutional mechanism for prevention of insider trading that Titan's CEO must establish under Regulation 9A?",
+          "options": {
+            "A": "Maintaining a structured digital database capturing the nature of UPSI and the persons who shared or received it, with non-editable, time-stamped records",
+            "B": "Identifying designated persons and restricting the communication of UPSI on a need-to-know basis",
+            "C": "Formulating a whistle-blower policy and conducting periodic reviews of the adequacy of internal controls",
+            "D": "Obtaining SEBI's prior written approval before any designated person executes a trade"
+          },
+          "correct": "D",
+          "explanation": "The question asks which is NOT a requirement. Regulation 9A requires the CEO/MD (and the board) to put in place adequate internal controls — identifying designated persons, restricting access to and communication of UPSI on a need-to-know basis, maintaining a structured digital database (SDD) with non-tamperable time stamps, a whistle-blower policy, and periodic reviews of the controls. There is NO requirement to obtain SEBI's prior approval before each individual trade — Option D is fabricated and is therefore the answer. Options A, B and C are all genuine Regulation 9A requirements. Determinative point: Reg 9A is about systems and controls, not transaction-by-transaction SEBI pre-clearance.",
+          "section": "Regulation 9A"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,363 @@
+{
+  "chapterId": "sl-sast",
+  "chapterName": "SEBI (SAST) Regulations, 2011",
+  "law": "Securities Laws",
+  "category": "securities-laws",
+  "scenarios": [
+    {
+      "scenarioId": "s1",
+      "scenarioText": "Vajra Steelworks Ltd. is a BSE-listed integrated steel producer with 8 crore fully paid equity shares outstanding. Ironbridge Capital LLP, a private-equity acquirer acting in concert with its affiliate Ironbridge Strategic Pte, held 1.60 crore shares (20%) of Vajra on 1 April 2025. During FY 2025-26 Ironbridge transacted on the open market as follows: acquired 24 lakh shares (3%) on 12 May 2025, sold 8 lakh shares (1%) on 20 June 2025, and acquired a further 16 lakh shares (2%) on 9 September 2025. Then, on 5 January 2026 (a Monday), Ironbridge signed a share-purchase agreement with a departing financial investor to buy 80 lakh shares (10%) at ₹260 per share, and made the public announcement the same day. The Mehta family promoter group separately holds 42% throughout. Relevant prices before the SPA date were: 60-trading-day volume-weighted average market price ₹242; highest price Ironbridge paid in the preceding 26 weeks ₹251; volume-weighted average price of all Ironbridge purchases in the preceding 52 weeks ₹238; and the prevailing market price ₹248.",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Considering Ironbridge's holding immediately before the 5 January 2026 SPA and the effect of the SPA itself, which statement is CORRECT about its open-offer obligation?",
+          "options": {
+            "A": "No open offer arises — Ironbridge's net acquisition during FY 2025-26 (3% − 1% + 2% = 4%) is within the 5% annual creeping limit under Regulation 3(2)",
+            "B": "The SPA takes Ironbridge from 24% to 34%, crossing the 25% threshold in Regulation 3(1), which mandates an open offer irrespective of the creeping limit",
+            "C": "No open offer arises — because the Mehta family already holds 42%, a second acquirer cannot trigger a takeover open offer",
+            "D": "An open offer arises only because the gross acquisitions of 5% during the financial year exceed the creeping limit in Regulation 3(2)"
+          },
+          "correct": "B",
+          "explanation": "Before the SPA, Ironbridge held 20% + 3% − 1% + 2% = 24% — still below 25%. The creeping limit in Reg 3(2) only governs acquirers ALREADY holding 25% or more; below 25% an acquirer may buy freely up to 25%. The SPA adds 10%, taking Ironbridge to 34% and crossing the 25% line in Reg 3(1), which compels an open offer. Option A wrongly applies the creeping limit (and on a net basis) when Ironbridge was below 25%. Option D misattributes the trigger to creeping rather than the 25% crossing. Option C is irrelevant. Determinative facts: the pre-SPA holding of exactly 24% and the 10% SPA.",
+          "section": "Regulation 3(1)"
+        },
+        {
+          "id": 2,
+          "question": "Having triggered the open offer, what is the minimum number of shares Ironbridge must offer to acquire under Regulation 7(1)?",
+          "options": {
+            "A": "1.60 crore shares (20% of total shares)",
+            "B": "2.08 crore shares (26% of total shares)",
+            "C": "80 lakh shares (10% of total shares)",
+            "D": "6.00 crore shares (75% less the Mehta family holding)"
+          },
+          "correct": "B",
+          "explanation": "Regulation 7(1) fixes the minimum mandatory open offer size at 26% of the total shares of the target company. 26% of 8 crore = 2.08 crore shares. Option A uses 20%, the pre-2011 minimum offer size under the 1997 code — a classic amendment trap. Option C uses 10%, which is the minimum size for a VOLUNTARY offer under Reg 7(2), not a mandatory one. Option D invents a residual figure. Determinative fact: the total of 8 crore shares stated in the scenario, against which 26% must be computed.",
+          "section": "Regulation 7(1)"
+        },
+        {
+          "id": 3,
+          "question": "What is the minimum open offer price per share Ironbridge must offer under Regulation 8 for this direct acquisition?",
+          "options": {
+            "A": "₹242 — the 60-trading-day volume-weighted average market price, being the most objective market parameter",
+            "B": "₹251 — the highest price Ironbridge paid in the preceding 26 weeks",
+            "C": "₹260 — the highest negotiated price under the SPA, being the highest of all the Regulation 8 parameters",
+            "D": "₹248 — the prevailing market price on the date of the public announcement"
+          },
+          "correct": "C",
+          "explanation": "Regulation 8(2) requires the offer price to be the HIGHEST of: (a) the negotiated price under the agreement (₹260); (b) the 52-week VWAP of acquisitions by the acquirer/PAC (₹238); (c) the highest price paid in the preceding 26 weeks (₹251); and (d) the 60-trading-day VWAMP for frequently traded shares (₹242). The highest is ₹260. Option A picks the lowest market parameter, Option B the second-highest, and Option D introduces 'current market price', which is NOT a Regulation 8 parameter at all. Determinative facts: the four distinct prices, of which only ₹260 (the negotiated SPA price) is the maximum.",
+          "section": "Regulation 8(2)"
+        },
+        {
+          "id": 4,
+          "question": "Ironbridge made the public announcement on 5 January 2026 (a Monday). By when must the detailed public statement be published in newspapers under Regulation 14(3)?",
+          "options": {
+            "A": "9 January 2026 — within 4 working days of the public announcement",
+            "B": "12 January 2026 — within 5 working days of the public announcement, excluding the intervening Saturday and Sunday",
+            "C": "10 January 2026 — within 5 calendar days of the public announcement",
+            "D": "14 January 2026 — within 7 working days of the public announcement"
+          },
+          "correct": "B",
+          "explanation": "Regulation 14(3) requires the detailed public statement (DPS) to be published within 5 WORKING days of the public announcement. Counting working days from Monday 5 January: Tue 6, Wed 7, Thu 8, Fri 9, then (skipping Sat 10 and Sun 11) Mon 12 January 2026 is the fifth working day. Option A uses 4 working days, which is the timeline for the public announcement itself in an INDIRECT acquisition (Reg 13(4)), not the DPS. Option C wrongly counts calendar days. Option D inflates to 7 working days. Determinative fact: the PA date of Monday 5 January, requiring the weekend to be excluded.",
+          "section": "Regulation 14(3)"
+        },
+        {
+          "id": 5,
+          "question": "Assume the open offer is completed and Ironbridge's holding settles at 34%. In FY 2026-27 it acquires 3% in April, sells 1% in June, and acquires a further 2.5% in November. Which conclusion on the creeping-acquisition limit is INCORRECT?",
+          "options": {
+            "A": "Ironbridge has breached Regulation 3(2): creeping acquisitions are reckoned on a GROSS basis ignoring intervening disposals, so 3% + 2.5% = 5.5% exceeds the 5% annual limit",
+            "B": "Because Ironbridge holds 34% (within the 25%–75% band), the creeping limit in Regulation 3(2) applies to it",
+            "C": "No breach occurs because the NET increase is only 4.5% (3% − 1% + 2.5%), which is within the 5% annual creeping limit",
+            "D": "The 5% limit is measured per financial year (April–March), and all three trades fall within FY 2026-27"
+          },
+          "correct": "C",
+          "explanation": "The question asks which statement is INCORRECT. Regulation 3(2) caps additional acquisitions at 5% per financial year for holders between 25% and 75%, and the explanation to Reg 3(2) requires the limit to be reckoned on a GROSS basis — disposals are NOT netted off. Gross acquisitions of 3% + 2.5% = 5.5% breach the 5% limit, so Option C (which nets the 1% sale to reach 4.5%) is the wrong proposition and is therefore the answer. Options A, B and D are all correct statements. Determinative facts: the 34% holding (placing Ironbridge in the creeping band) and the three FY 2026-27 trade figures.",
+          "section": "Regulation 3(2)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s2",
+      "scenarioText": "Nivaa Pharmaceuticals Ltd., listed on the NSE, has 5 crore equity shares. Cortex Lifesciences Pvt Ltd already holds 1.10 crore shares (22%). On 3 February 2026 Cortex signs a shareholders' agreement with Nivaa under which, in exchange for a ₹150 crore preferential allotment that will take its stake to 24.5%, Cortex acquires the right to appoint a majority of Nivaa's board and a veto over the annual business plan; no shares beyond the preferential allotment are to be acquired. Cortex proposes that its open offer (if any) be conditional upon a minimum acceptance of 18% so that it secures management control, failing which it intends to withdraw. The open offer price is determined at ₹400 per share. A rival, Helix Bio, holds 8% and is contemplating a competing offer. During the offer period, Nivaa's board — keen to look independent — proposes to sell its loss-making active-pharmaceutical-ingredient (API) division valued at ₹90 crore and to constitute a committee of independent directors.",
+      "questions": [
+        {
+          "id": 6,
+          "question": "Does Cortex's arrangement trigger an open offer even though its shareholding will remain at 24.5%, below 25%?",
+          "options": {
+            "A": "No — 24.5% remains below the 25% threshold in Regulation 3(1), so no open offer is required",
+            "B": "Yes — under Regulation 4, acquiring 'control' (here the right to appoint a majority of directors and to veto the business plan) triggers an open offer irrespective of the percentage of shares or voting rights acquired",
+            "C": "No — control acquired through a shareholders' agreement is outside the scope of the Takeover Regulations",
+            "D": "Yes — but only because the ₹150 crore preferential allotment by itself breaches the 5% creeping limit"
+          },
+          "correct": "B",
+          "explanation": "Regulation 4 is an independent trigger: irrespective of the number of shares or voting rights held, an acquirer who acquires CONTROL over a target must make an open offer. The right to appoint a majority of the board and to veto the business plan is 'control' as defined in Reg 2(1)(e). The 24.5% holding (below 25%) is a deliberate red herring — Option A falls into the trap of looking only at the Reg 3(1) percentage. Option C is wrong; control via agreement is squarely covered. Option D misapplies creeping (which is irrelevant below 25%). Determinative facts: the board-majority and veto rights, coupled with the sub-25% holding.",
+          "section": "Regulation 4"
+        },
+        {
+          "id": 7,
+          "question": "Cortex proposes to make its open offer conditional on a minimum acceptance of 18%. Which statement is CORRECT under Regulation 19?",
+          "options": {
+            "A": "A SAST open offer can never be made conditional on a minimum level of acceptance",
+            "B": "The offer may be conditional, but Cortex must deposit 100% of the consideration in escrow, and if the 18% minimum is not achieved it must withdraw the offer and cannot acquire any shares or control, including under the preferential allotment",
+            "C": "The offer may be conditional, and even if only 10% is tendered Cortex may still acquire whatever is tendered and complete the preferential allotment",
+            "D": "A conditional offer requires only a 25% escrow deposit because the offer size is below the 26% statutory minimum"
+          },
+          "correct": "B",
+          "explanation": "Regulation 19 permits an open offer to be conditional as to a minimum level of acceptances, but where the open offer is conditional the acquirer (and PACs) must deposit 100% of the consideration in escrow, and the underlying acquisition agreement must itself be conditional on the same minimum being met. If the minimum (18%) is not reached, the acquirer must withdraw and cannot acquire ANY shares or control — it cannot cherry-pick. Option A is wrong (Reg 19 expressly allows conditional offers). Option C wrongly allows partial completion. Option D invents a reduced escrow. Determinative facts: the 18% minimum-acceptance condition linked to the preferential allotment.",
+          "section": "Regulation 19"
+        },
+        {
+          "id": 8,
+          "question": "Helix Bio wishes to launch a competing offer. By when must it make its public announcement, and for what minimum size, under Regulation 20?",
+          "options": {
+            "A": "Within 15 working days of the detailed public statement of Cortex's offer, and for at least the number of shares Cortex offered to acquire",
+            "B": "Within 4 working days of Cortex's public announcement, and for a minimum of 26% of total shares",
+            "C": "Within 21 working days of Cortex's public announcement, with no minimum size requirement",
+            "D": "At any time before Cortex's tendering period closes, and for at least 10% of total shares"
+          },
+          "correct": "A",
+          "explanation": "Regulation 20(1) requires a competing offer to be made by way of a public announcement within 15 WORKING DAYS of the date of the detailed public statement of the first (Cortex's) offer. Under Reg 20(2) the competing offer must be for at least the number of shares held by the first acquirer plus the shares the first acquirer offered to acquire under its open offer. Option B borrows the 4-working-day indirect-PA timeline and a flat 26%. Option C overstates the window and drops the size requirement. Option D is open-ended and uses the voluntary 10% minimum. Determinative fact: Helix's status as a rival contemplating a competing offer against Cortex's announced offer.",
+          "section": "Regulation 20"
+        },
+        {
+          "id": 9,
+          "question": "Regarding Nivaa's board proposing to sell the ₹90 crore API division during the offer period, which statement is INCORRECT?",
+          "options": {
+            "A": "During the offer period the board must not alienate material assets such as the ₹90 crore API division otherwise than in the ordinary course, without shareholder approval by special resolution",
+            "B": "The board must constitute a committee of independent directors to provide written reasoned recommendations on the open offer to the shareholders",
+            "C": "Because the API division is loss-making, the board may sell it freely during the offer period by a mere board resolution, without any shareholder approval",
+            "D": "The restrictions on the board during the offer period are aimed at preventing frustration of the open offer"
+          },
+          "correct": "C",
+          "explanation": "The question asks for the INCORRECT statement. Regulation 26(2)/(3) bars the target's board, during the offer period, from alienating material assets (otherwise than in the ordinary course) or making material borrowings outside the ordinary course without the approval of shareholders by SPECIAL RESOLUTION; the loss-making character of the API division is irrelevant. Hence Option C is false and is the answer. Options A, B (Reg 26(6)–(7) independent directors' committee) and D are all correct. Determinative fact: the proposed sale of the specific ₹90 crore API division during the offer period.",
+          "section": "Regulation 26"
+        },
+        {
+          "id": 10,
+          "question": "Cortex's open offer is for 26% of Nivaa's 5 crore shares at ₹400 per share. What is the minimum escrow deposit it must make under Regulation 17?",
+          "options": {
+            "A": "₹130 crore — a flat 25% of the ₹520 crore offer consideration",
+            "B": "₹127 crore — 25% of the first ₹500 crore (₹125 crore) plus 10% of the balance ₹20 crore (₹2 crore)",
+            "C": "₹52 crore — a flat 10% of the offer consideration",
+            "D": "₹125 crore — 25% of the consideration, capped at ₹500 crore"
+          },
+          "correct": "B",
+          "explanation": "Offer size = 26% of 5 crore = 1.30 crore shares; consideration = 1.30 crore × ₹400 = ₹520 crore. Regulation 17(1) sets the escrow at 25% of the consideration up to ₹500 crore, plus 10% of the consideration exceeding ₹500 crore. So 25% × ₹500 cr = ₹125 cr, plus 10% × ₹20 cr = ₹2 cr, totalling ₹127 crore. Option A wrongly applies a flat 25% to the whole amount. Option C applies a flat 10%. Option D stops at ₹125 crore, ignoring the 10% slab on the excess. Determinative facts: the 26% of 5 crore shares and the ₹400 price, which together fix the ₹520 crore base.",
+          "section": "Regulation 17"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s3",
+      "scenarioText": "GlobalSoft Inc., a Singapore holding company, owns 100% of Indus Cloud Pvt Ltd, which in turn holds 3.4 crore shares (51%) of BSE-listed Indus Digital Ltd (total 6.67 crore shares). On 10 March 2026 (a Tuesday), Apex Tech Holdings agrees to acquire 100% of GlobalSoft Inc. for US$1.2 billion and announces the deal in the international press the same day, thereby indirectly acquiring control of Indus Digital; completion is expected on 30 April 2026. As per the latest audited consolidated financials, Indus Digital's proportionate figures are: net asset value ₹2,900 crore, sales turnover ₹3,100 crore, and market capitalisation (60-trading-day VWAMP basis) ₹6,800 crore. The corresponding consolidated figures for the entire GlobalSoft group being acquired are: net asset value ₹3,800 crore, sales turnover ₹9,500 crore, and market capitalisation ₹7,900 crore. Apex's detailed public statement for the Indus Digital open offer is published on 20 March 2026 (a Friday); the open-offer tendering period closes on 5 June 2026 (a Friday).",
+      "questions": [
+        {
+          "id": 11,
+          "question": "Is the acquisition of control over Indus Digital to be treated as a direct or an indirect acquisition under Regulation 5?",
+          "options": {
+            "A": "Indirect — because neither net asset value (76.3%) nor sales turnover (32.6%) individually crosses 80% of the consolidated figure of the entity being acquired",
+            "B": "Deemed a DIRECT acquisition — under Regulation 5(2) it is so treated if the proportionate net asset value, sales turnover OR market capitalisation of the target exceeds 80% of the corresponding consolidated figure; market capitalisation (₹6,800 cr / ₹7,900 cr = 86%) crosses 80%",
+            "C": "Indirect — the 80% test applies only to net asset value, which is 76.3% and therefore below the threshold",
+            "D": "Deemed direct — but only because Indus Digital represents more than 50% of the group's sales turnover"
+          },
+          "correct": "B",
+          "explanation": "Regulation 5(2) treats an indirect acquisition as a DIRECT acquisition if, on the basis of the latest audited financials, the proportionate net asset value OR the proportionate sales turnover OR the proportionate market capitalisation of the target exceeds 80% of the consolidated figure of the entity/business being acquired — ANY ONE limb suffices. Here NAV is 2,900/3,800 = 76.3% and sales 3,100/9,500 = 32.6% (both below 80%), but market cap is 6,800/7,900 = 86%, which crosses 80%; so it is a deemed direct acquisition. Option A and C wrongly require all limbs (or only NAV) to cross. Option D's reasoning is false (sales is only 32.6%). Determinative facts: all six proportionate figures.",
+          "section": "Regulation 5(2)"
+        },
+        {
+          "id": 12,
+          "question": "Apex publicly announced the primary acquisition of GlobalSoft on 10 March 2026 (a Tuesday). By when must it make the public announcement of the open offer for Indus Digital under Regulation 13?",
+          "options": {
+            "A": "13 March 2026 — within 4 working days, counting the intervening weekend",
+            "B": "16 March 2026 — within 4 working days of the public announcement of the primary acquisition, excluding the intervening Saturday and Sunday",
+            "C": "14 March 2026 — within 4 calendar days",
+            "D": "30 April 2026 — on the date the primary acquisition completes"
+          },
+          "correct": "B",
+          "explanation": "For an indirect acquisition, Regulation 13(4) requires the public announcement to be made within 4 WORKING days of the earlier of (i) the date the primary acquisition is contracted and (ii) the date the intention/decision is announced in the public domain — here both are 10 March. Counting working days from Tuesday 10 March: Wed 11, Thu 12, Fri 13, then (skipping Sat 14 and Sun 15) Mon 16 March 2026 is the fourth working day. Option A counts the weekend as working days; Option C uses calendar days; Option D wrongly uses the completion date (which would let the acquirer delay disclosure). Determinative facts: the 10 March announcement date and the indirect nature of the acquisition.",
+          "section": "Regulation 13(4)"
+        },
+        {
+          "id": 13,
+          "question": "Given that Indus Digital's acquisition is a deemed DIRECT acquisition under Regulation 5(2), which consequence follows under the Regulations?",
+          "options": {
+            "A": "Apex need make no open offer at all, because it is acquiring a foreign holding company rather than Indus Digital's shares directly",
+            "B": "The open offer is governed by the offer-price and procedural rules applicable to a direct acquisition, with the relevant market parameters under Regulation 8 reckoned with reference to the date of the primary acquisition",
+            "C": "Apex may set the offer price at the US$1.2 billion deal value divided by GlobalSoft's shares, disregarding the Indian market parameters in Regulation 8",
+            "D": "Apex is exempt under Regulation 10 because the acquisition arises from a global merger"
+          },
+          "correct": "B",
+          "explanation": "Once an indirect acquisition is 'deemed direct' under Reg 5(2), it is treated like a direct acquisition for offer-price and timing purposes, save that the Reg 8 market parameters are computed with reference to the date of the PRIMARY acquisition (10 March) rather than a later completion date. Option A is wrong — control over a listed Indian target triggers an open offer regardless of the foreign acquisition structure. Option C wrongly substitutes the foreign deal price for the Reg 8 parameters. Option D fabricates a Reg 10 exemption. Determinative fact: the deemed-direct conclusion drawn from the 80% market-cap test in the previous question.",
+          "section": "Regulation 5(2)"
+        },
+        {
+          "id": 14,
+          "question": "Apex's detailed public statement was published on 20 March 2026 (a Friday). What is the immediate NEXT procedural step and its deadline under Regulation 16?",
+          "options": {
+            "A": "Dispatch the letter of offer to all shareholders by 25 March 2026, within 5 calendar days of the detailed public statement",
+            "B": "File the draft letter of offer with SEBI by 27 March 2026, within 5 working days of the detailed public statement, along with the prescribed fee",
+            "C": "Open the tendering period by 24 March 2026, within 4 working days of the detailed public statement",
+            "D": "File the letter of offer with SEBI by 10 April 2026, within 15 working days of the detailed public statement"
+          },
+          "correct": "B",
+          "explanation": "Regulation 16(1) requires the acquirer to file a DRAFT letter of offer with SEBI within 5 WORKING days of the detailed public statement, accompanied by the prescribed fee; dispatch to shareholders comes later (within 7 working days of receiving SEBI's comments). Counting working days from Friday 20 March: Mon 23, Tue 24, Wed 25, Thu 26, Fri 27 — so 27 March 2026. Option A confuses the draft-filing step with dispatch and uses calendar days. Option C invents a 4-working-day tendering opening. Option D overstates the window. Determinative fact: the DPS date of 20 March, from which 5 working days are counted.",
+          "section": "Regulation 16"
+        },
+        {
+          "id": 15,
+          "question": "The open-offer tendering period closes on 5 June 2026 (a Friday). By when must Apex pay the consideration to shareholders who tendered, under Regulation 18, and what is the consequence of delay?",
+          "options": {
+            "A": "By 19 June 2026 — within 10 working days of the closure of the tendering period; any delay attracts interest payable to the tendering shareholders",
+            "B": "By 15 June 2026 — within 10 calendar days of closure, with no interest consequence",
+            "C": "By 22 June 2026 — within 10 working days of closure, counting the intervening weekends as working days",
+            "D": "By 5 July 2026 — within 30 days of closure"
+          },
+          "correct": "A",
+          "explanation": "Regulation 18(11) requires the acquirer to complete payment of consideration to the shareholders who have accepted the open offer within 10 WORKING days of the closure of the tendering period, and Reg 18(11) read with Reg 18(12) makes any delay liable to interest payable to the tendering shareholders. Counting 10 working days from Friday 5 June: Mon 8 to Fri 12 (5 days) and Mon 15 to Fri 19 (next 5) gives 19 June 2026. Option B uses calendar days and drops the interest consequence; Option C wrongly counts weekends; Option D applies an unrelated 30-day period. Determinative fact: the closure date of 5 June.",
+          "section": "Regulation 18"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s4",
+      "scenarioText": "Sun Capital Finance Ltd. is an RBI-registered NBFC listed on the NSE with 4 crore equity shares. Anchor Holdings Pvt Ltd, together with its PAC Anchor Trust, has held 1.20 crore shares (30%) continuously since 2019. The maximum permissible non-public shareholding for Sun Capital is 75%. On 1 June 2026 Anchor wishes to make a VOLUNTARY open offer under Regulation 6 to consolidate its position, and proposes to acquire an additional 8% through that offer. Anchor believes it is comfortably eligible, having held its 30% for years; however, in April 2026 it had acquired an additional 0.5% through a small open-market purchase. A rival, Delta Finvest, holds 12%.",
+      "questions": [
+        {
+          "id": 16,
+          "question": "Is Anchor eligible to make a voluntary open offer under Regulation 6 on 1 June 2026?",
+          "options": {
+            "A": "Yes — Anchor holds 30%, which is at least 25% and below the 75% maximum, satisfying the only eligibility condition",
+            "B": "No — under Regulation 6, an acquirer who has acquired any shares in the preceding 52 weeks (here the 0.5% market purchase in April 2026) without attracting an open-offer obligation is not eligible to make a voluntary open offer",
+            "C": "No — a voluntary open offer can only be made by an acquirer holding less than 25%",
+            "D": "Yes — the April purchase of 0.5% is below the 2% disclosure threshold and is therefore disregarded for eligibility"
+          },
+          "correct": "B",
+          "explanation": "Regulation 6 entitles an acquirer holding 25% or more (but below the maximum permissible non-public shareholding) to make a voluntary open offer, BUT bars it if the acquirer or its PACs have acquired shares in the preceding 52 weeks without attracting an open-offer obligation. Anchor's April 2026 purchase of 0.5% falls within the preceding 52 weeks, so it is ineligible. Option A ignores the 52-week bar. Option C reverses the holding requirement. Option D wrongly imports the 2% SAST disclosure threshold into the eligibility test — the bar applies to ANY acquisition, however small. Determinative fact: the 0.5% purchase in April 2026, within 52 weeks of the proposed offer.",
+          "section": "Regulation 6"
+        },
+        {
+          "id": 17,
+          "question": "Setting eligibility aside, Anchor proposes a voluntary offer of 8%. Is the proposed SIZE valid under Regulation 7(2)?",
+          "options": {
+            "A": "Valid — a voluntary offer may be for any size the acquirer chooses",
+            "B": "Invalid — a voluntary open offer under Regulation 7(2) must be for at least 10% of the total shares; the proposed 8% is below the minimum",
+            "C": "Invalid — a voluntary offer must be for at least 26% of total shares",
+            "D": "Valid — the 8% plus the 0.5% already acquired equals 8.5%, which is within the permissible window"
+          },
+          "correct": "B",
+          "explanation": "Regulation 7(2) prescribes that a voluntary open offer under Reg 6 must be for at least 10% of the total shares of the target (subject to the post-offer holding not exceeding the maximum permissible non-public shareholding). The proposed 8% is below the 10% floor and is invalid. Option A ignores the minimum. Option C confuses the voluntary minimum with the 26% mandatory minimum under Reg 7(1). Option D conflates an unrelated creeping concept. Determinative fact: the proposed 8% offer size.",
+          "section": "Regulation 7(2)"
+        },
+        {
+          "id": 18,
+          "question": "Assume Anchor were eligible and completes a voluntary offer raising its stake to 38%. Three months later it wishes to buy a further 1% on the open market. Is this permissible?",
+          "options": {
+            "A": "Yes — at 38% Anchor is within the 25%–75% band and the 1% is within the annual 5% creeping limit",
+            "B": "No — having made a voluntary open offer, Anchor cannot acquire any further shares for 6 months after completion of the offer, except through another voluntary offer or a competing offer",
+            "C": "Yes — the 6-month restriction applies only to mandatory open offers, not voluntary ones",
+            "D": "No — once an acquirer has made a voluntary offer it can never acquire further shares"
+          },
+          "correct": "B",
+          "explanation": "Regulation 6(3) provides that an acquirer who has made a voluntary open offer shall not acquire any further shares for a period of 6 months after completion of the open offer, except pursuant to another voluntary open offer or a competing offer. Only 3 months have elapsed, so the 1% purchase is barred. Option A wrongly relies on the creeping limit, which is overridden by the specific 6-month bar. Option C reverses the rule. Option D is overbroad — the bar is for 6 months, not perpetual. Determinative facts: the voluntary-offer route and the 3-month gap.",
+          "section": "Regulation 6(3)"
+        },
+        {
+          "id": 19,
+          "question": "Which statement about Anchor's April 2026 acquisition of 0.5% is CORRECT, distinguishing the disclosure rule from the voluntary-offer eligibility rule?",
+          "options": {
+            "A": "It required a Regulation 29(2) disclosure (any change must be disclosed) and also disqualifies the voluntary offer",
+            "B": "It did NOT require a Regulation 29(2) disclosure (which is triggered only by a change of 2% or more), yet the same acquisition still disqualifies Anchor from a voluntary offer because the Regulation 6 bar applies to ANY acquisition in the preceding 52 weeks",
+            "C": "It neither required disclosure nor affects the voluntary-offer eligibility",
+            "D": "It required a disclosure but does not affect eligibility, as 0.5% is negligible"
+          },
+          "correct": "B",
+          "explanation": "Two different thresholds apply. Regulation 29(2) requires a continual disclosure only when a holder of 5% or more records an acquisition or disposal aggregating 2% or more; Anchor's 0.5% change is below 2%, so NO disclosure was triggered. However, the Regulation 6 voluntary-offer bar is not threshold-based — it disqualifies an acquirer that made ANY acquisition in the preceding 52 weeks. So the same 0.5% trade is disclosure-irrelevant yet eligibility-fatal. Options A and D wrongly assume a disclosure was needed; Option C wrongly says it has no effect at all. Determinative fact: the precise 0.5% figure, sitting below 2% but still a fresh acquisition.",
+          "section": "Regulation 29(2)"
+        },
+        {
+          "id": 20,
+          "question": "What is the permissible RANGE for the size of Anchor's voluntary open offer, given its 30% holding and the 75% maximum permissible non-public shareholding?",
+          "options": {
+            "A": "Between 10% and 45% of total shares — a minimum of 10% under Regulation 7(2), and a maximum such that the post-offer holding does not exceed 75%",
+            "B": "Between 26% and 45% of total shares",
+            "C": "Exactly 10% of total shares, no more and no less",
+            "D": "Between 5% and 70% of total shares"
+          },
+          "correct": "A",
+          "explanation": "Regulation 7(2) fixes the minimum voluntary offer at 10%; the maximum is constrained by the rule that the acquirer's post-offer holding must not exceed the maximum permissible non-public shareholding (75%). Starting at 30%, the largest offer that keeps Anchor at or below 75% is 45% (30% + 45% = 75%). So the valid range is 10% to 45%. Option B uses the wrong 26% minimum. Option C wrongly fixes a single value. Option D uses an arbitrary range. Determinative facts: the 30% existing holding and the 75% ceiling, which together cap the offer at 45%.",
+          "section": "Regulation 7(2)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s5",
+      "scenarioText": "BharatBridge Infra Ltd. (NSE-listed, 10 crore shares) is promoted by two brothers, Rohan and Karan Saxena, who have been named as promoters in the company's filings continuously since its 2015 listing. Rohan holds 2.5 crore shares (25%) and Karan holds 1.5 crore shares (15%). On 4 May 2026 Rohan agrees to transfer his entire 25% to Karan by way of an inter-se transfer between promoters at ₹180 per share, against a 60-trading-day VWAMP of ₹172; after the transfer Karan will hold 40%. Separately, an external infrastructure fund, Meridian InvIT, has made a mandatory open offer for 26% of BharatBridge at ₹190 per share; in response, shareholders tendered 3.2 crore shares while the offer was for 2.6 crore shares. Meridian funded its escrow partly in cash and partly by a bank guarantee from a scheduled commercial bank. BharatBridge's board separately controls a ₹500 crore Eastern Expressway toll concession.",
+      "questions": [
+        {
+          "id": 21,
+          "question": "Is Karan required to make an open offer for acquiring Rohan's 25% stake?",
+          "options": {
+            "A": "Yes — acquiring 25% from Rohan takes Karan to 40%, crossing the 25% trigger in Regulation 3(1)",
+            "B": "No — the transfer is an inter-se transfer between promoters named as such for at least 3 years, exempt under Regulation 10(1)(a), and the price of ₹180 is within 25% above the 60-day VWAMP of ₹172 (cap ₹215)",
+            "C": "No — all transfers between brothers are exempt as transfers between immediate relatives, with no price condition",
+            "D": "Yes — inter-se promoter transfers are exempt only up to 5% of voting rights per year"
+          },
+          "correct": "B",
+          "explanation": "Regulation 10(1)(a) exempts inter-se transfers among qualifying persons — including promoters who have been named as promoters for at least 3 years prior to the transfer — from the open-offer obligation, subject to conditions, one of which is that the transfer price must not exceed 25% above the 60-trading-day VWAMP. Both Saxenas have been promoters since 2015 (well over 3 years), and ₹180 is below the cap of ₹172 × 1.25 = ₹215, so the exemption applies. Option A ignores the exemption. Option C is wrong because the exemption is conditional (and rests on promoter status, not mere kinship). Option D invents a 5% cap. Determinative facts: the 3-year-plus promoter naming and the ₹180-vs-₹172 price comparison.",
+          "section": "Regulation 10"
+        },
+        {
+          "id": 22,
+          "question": "Suppose instead the inter-se transfer price were ₹220 per share (60-day VWAMP still ₹172). Would the open-offer exemption survive?",
+          "options": {
+            "A": "Yes — the inter-se transfer exemption is unconditional once both parties are promoters",
+            "B": "No — the exemption is conditional on the transfer price not exceeding 25% above the 60-day VWAMP; ₹220 exceeds the ₹215 cap, so the exemption is lost and Karan must make an open offer",
+            "C": "Yes — ₹220 is acceptable because it is below the ₹190 open-offer price paid by Meridian",
+            "D": "No — but only because ₹220 exceeds the highest negotiated price in the market"
+          },
+          "correct": "B",
+          "explanation": "The inter-se transfer exemption under Regulation 10(1)(a) is conditional; one condition is that the transfer price must not be higher than 25% above the 60-trading-day VWAMP. The cap is ₹172 × 1.25 = ₹215. A price of ₹220 breaches the cap, so the exemption falls away and Karan's acquisition of 25% (taking him to 40%) triggers a mandatory open offer under Reg 3(1). Option A wrongly treats the exemption as unconditional. Option C makes an irrelevant comparison (and ₹220 is in fact above ₹190). Option D gives a wrong reason. Determinative facts: the hypothetical ₹220 price against the ₹172 VWAMP, breaching the ₹215 ceiling.",
+          "section": "Regulation 10"
+        },
+        {
+          "id": 23,
+          "question": "Meridian's open offer was for 2.6 crore shares but 3.2 crore shares were tendered. How must Meridian deal with the tendered shares under Regulation 18?",
+          "options": {
+            "A": "Meridian must accept all 3.2 crore shares tendered, since the offer was oversubscribed",
+            "B": "Meridian accepts shares on a PROPORTIONATE basis up to 2.6 crore shares (the offer size); it is not obliged to accept the excess 0.6 crore shares",
+            "C": "Meridian must accept the first 2.6 crore shares tendered on a first-come-first-served basis",
+            "D": "Meridian must increase its offer size to 3.2 crore shares to absorb all the shares tendered"
+          },
+          "correct": "B",
+          "explanation": "Where an open offer is oversubscribed, Regulation 18 requires the acquirer to accept the tendered shares on a PROPORTIONATE basis up to the offer size — here 2.6 crore shares. The acquirer is neither obliged to accept the excess (0.6 crore) nor to enlarge the offer. Option A wrongly compels acceptance of everything. Option C substitutes a first-come-first-served rule, which is not permitted. Option D wrongly forces an enlargement of the offer. Determinative facts: the 2.6 crore offer size against 3.2 crore tendered.",
+          "section": "Regulation 18"
+        },
+        {
+          "id": 24,
+          "question": "Meridian's open offer is for 2.6 crore shares at ₹190 (₹494 crore), and it funds the escrow partly by a bank guarantee. What minimum cash must it ADDITIONALLY deposit under Regulation 17?",
+          "options": {
+            "A": "Nil — a bank guarantee from a scheduled commercial bank fully satisfies the escrow requirement",
+            "B": "₹4.94 crore — at least 1% of the total consideration must be deposited in cash where the escrow is by bank guarantee",
+            "C": "₹123.5 crore — at least 25% of the consideration must be in cash regardless of the bank guarantee",
+            "D": "₹49.4 crore — at least 10% of the consideration must be in cash"
+          },
+          "correct": "B",
+          "explanation": "Regulation 17(3) permits the escrow to be by way of cash, a bank guarantee from a scheduled commercial bank, or freely transferable frequently traded securities; but where it is in the form of a bank guarantee or securities, at least 1% of the total consideration must additionally be deposited in cash with the escrow bank. Consideration = 2.6 crore × ₹190 = ₹494 crore, so 1% = ₹4.94 crore. Option A ignores the 1% cash requirement. Options C and D inflate the percentage (25%/10% relate to the main escrow slab, not the additional cash). Determinative facts: the ₹494 crore consideration and the bank-guarantee funding mode.",
+          "section": "Regulation 17"
+        },
+        {
+          "id": 25,
+          "question": "During Meridian's open offer for BharatBridge, which action would be IMPERMISSIBLE under the SAST Regulations?",
+          "options": {
+            "A": "Meridian making the detailed public statement within 5 working days of the public announcement",
+            "B": "BharatBridge's board selling the ₹500 crore Eastern Expressway toll concession during the offer period by a mere board resolution, without shareholder approval by special resolution",
+            "C": "Meridian accepting tendered shares on a proportionate basis up to the offer size",
+            "D": "Meridian completing payment to tendering shareholders within 10 working days of the close of the tendering period"
+          },
+          "correct": "B",
+          "explanation": "The question asks which action is IMPERMISSIBLE. Regulation 26(2) bars the target's board, during the offer period, from alienating material assets otherwise than in the ordinary course without shareholder approval by SPECIAL RESOLUTION. Selling the ₹500 crore Eastern Expressway concession by a mere board resolution would frustrate the open offer and breach Reg 26 — so Option B is impermissible and is the answer. Option A (Reg 14(3)), Option C (Reg 18 proportionate acceptance) and Option D (Reg 18(11) payment) are all permissible/required actions. Determinative fact: the specific ₹500 crore toll concession the board controls and proposes to sell during the offer period.",
+          "section": "Regulation 26"
+        }
+      ]
+    }
+  ]
+}
