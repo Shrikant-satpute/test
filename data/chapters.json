@@ -153,7 +153,7 @@
       "totalMarks": 50,
       "passMarks": 25,
       "duration": 45,
-      "available": false,
+      "available": true,
       "keySections": ["Sec 396", "Sec 398", "Sec 399", "Sec 400", "Sec 401", "Sec 402", "Sec 403", "Sec 404", "Sec 405", "Sec 406", "Sec 407"]
     },
     {

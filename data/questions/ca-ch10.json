@@ -1,0 +1,363 @@
+{
+  "chapterId": "ca-ch10",
+  "chapterName": "e-Filing and Other Provisions",
+  "law": "Companies Act, 2013",
+  "category": "companies-act",
+  "scenarios": [
+    {
+      "scenarioId": "s1",
+      "scenarioText": "ByteForge Analytics Pvt Ltd, a Bengaluru software start-up, held its AGM for FY 2024-25 on 30 September 2025. Its financial statements (Form AOC-4) had to be filed within 30 days of the AGM and its annual return (Form MGT-7) within 60 days of the AGM. ByteForge actually filed AOC-4 on 14 November 2025 and MGT-7 on 9 January 2026. Its company secretary, relying on an old 2016 handbook, advised the directors that (a) a 270-day immunity window is available before any penal consequence arises, and (b) the additional fee is charged on a slab basis capped at twelve times the normal fee. The normal filing fee for each form is ₹600. ByteForge had also filed its AOC-4 and MGT-7 late in each of the previous two financial years.",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What additional fee is payable for the late filing of Form AOC-4 (financial statements), which was due on 30 October 2025 and filed on 14 November 2025?",
+          "options": {
+            "A": "₹0 — the 270-day immunity window applies, so no additional fee accrues until 270 days elapse",
+            "B": "₹1,500 — additional fee at ₹100 per day for the 15 days of delay (30 October 2025 due → 14 November 2025 filed)",
+            "C": "₹1,200 — twice the normal fee (2 × ₹600) under the slab applicable to delays up to 30 days",
+            "D": "₹7,200 — additional fee capped at twelve times the normal fee (12 × ₹600)"
+          },
+          "correct": "B",
+          "explanation": "Post the 2018 amendment to Section 403, financial statements under Section 137 (and the annual return under Section 92) attract a flat additional fee of ₹100 PER DAY of delay, with no upper cap and no immunity window. AOC-4 was due on 30 October 2025 (30 days after the 30 September AGM) and filed on 14 November 2025 — a delay of 15 days — so the fee is ₹100 × 15 = ₹1,500. Option A applies the pre-2018 '270-day immunity', which was removed. Options C and D apply the old slab multipliers (2× and the 12× cap), which no longer govern Section 92/137 documents. Determinative facts: the 30 October due date and 14 November filing date, fixing 15 days of delay.",
+          "section": "Section 403"
+        },
+        {
+          "id": 2,
+          "question": "What additional fee is payable for the late filing of Form MGT-7 (annual return), which was due on 29 November 2025 and filed on 9 January 2026?",
+          "options": {
+            "A": "₹4,100 — additional fee at ₹100 per day for the 41 days of delay (29 November 2025 due → 9 January 2026 filed)",
+            "B": "₹2,400 — four times the normal fee (4 × ₹600) under the slab for a 30–60 day delay",
+            "C": "₹0 — the filing is within the 270-day immunity window",
+            "D": "₹3,600 — six times the normal fee (6 × ₹600)"
+          },
+          "correct": "A",
+          "explanation": "The annual return (Section 92) was due within 60 days of the 30 September 2025 AGM, i.e. by 29 November 2025, and was filed on 9 January 2026 — a delay of 41 days (1 day in November + 31 in December + 9 in January). Section 403 prescribes a flat ₹100 per day, so ₹100 × 41 = ₹4,100. Option B and D revive the pre-amendment slab multipliers (4× and 6×). Option C relies on the removed 270-day immunity. The two-step trap is computing the 60-day due date first (29 November), then the 41-day delay. Determinative facts: the AGM date, the 60-day window, and the 9 January filing date.",
+          "section": "Section 403"
+        },
+        {
+          "id": 3,
+          "question": "Is the company secretary's advice about the 270-day immunity correct, and what is the effect of paying the additional fee?",
+          "options": {
+            "A": "The advice is correct — Section 403 grants a 270-day immunity before any penal consequence arises",
+            "B": "The advice is wrong — the 270-day immunity was removed by the 2018 amendment; belated documents may be filed only on payment of additional fee, and such payment does not shield the company or its officers from the penalties prescribed under Sections 92(5) and 137(3)",
+            "C": "The advice is correct, but the immunity is available only to private companies such as ByteForge",
+            "D": "The advice is wrong — there is no additional fee at all now, and late filing is condoned automatically without any fee"
+          },
+          "correct": "B",
+          "explanation": "The 2018 amendment to Section 403 deleted the 270-day grace window. After the prescribed period, documents can be filed only with the additional fee, and very late filings require condonation of delay (e.g. under Section 460). Crucially, paying the additional fee regularises the filing but does NOT extinguish the substantive penalties under Sections 92(5)/137(3) — so the CS's 2016-handbook advice is wrong. Option A states the repealed position. Option C invents a private-company carve-out. Option D wrongly says no fee is payable. Determinative fact: the CS's reliance on the outdated 2016 handbook, which pre-dates the amendment.",
+          "section": "Section 403"
+        },
+        {
+          "id": 4,
+          "question": "Given that ByteForge filed these forms late in each of the previous two financial years as well, what is the consequence under Section 403 for the current default?",
+          "options": {
+            "A": "No higher fee applies — the additional fee is identical regardless of how many times a company has defaulted",
+            "B": "A higher additional fee of not less than TWICE the additional fee otherwise payable applies, because there has been default on two or more occasions in filing such documents",
+            "C": "A higher additional fee of twelve times the normal fee applies for repeat defaults",
+            "D": "ByteForge is barred from e-filing and must obtain an NCLT order before it can file"
+          },
+          "correct": "B",
+          "explanation": "The second proviso to Section 403(1) provides that where there is default on two or more occasions in filing/recording a document, it may be filed only on payment of a HIGHER additional fee of not less than twice the additional fee otherwise payable. ByteForge has defaulted in the prior two years, so the higher (≥2×) additional fee applies. Option A ignores the repeat-default proviso. Option C borrows the old 12× slab cap. Option D invents an NCLT bar. Determinative fact: the stated pattern of late filing in the previous two financial years, which triggers the 'two or more occasions' proviso.",
+          "section": "Section 403"
+        },
+        {
+          "id": 5,
+          "question": "Which of the following statements about ByteForge's late filings is INCORRECT?",
+          "options": {
+            "A": "The additional fee for delay in filing AOC-4 and MGT-7 is ₹100 per day, with no upper monetary cap",
+            "B": "Payment of the additional fee regularises the filing but does not extinguish liability for the penalties prescribed under the Act",
+            "C": "Because the 270-day immunity still applies, ByteForge incurs no additional fee if it files within 270 days of the due date",
+            "D": "For default on two or more occasions, a higher additional fee of at least twice the additional fee is payable"
+          },
+          "correct": "C",
+          "explanation": "The question asks for the INCORRECT statement. The 270-day immunity was removed by the 2018 amendment, so Option C is false and is the answer — additional fee accrues from the very first day of delay. Options A (flat ₹100/day, no cap for Section 92/137), B (additional fee does not extinguish penalty liability) and D (≥2× higher additional fee for repeat default) are all correct statements of the current law. Determinative point: distinguishing the live ₹100/day regime from the repealed 270-day cushion that the CS wrongly assumed.",
+          "section": "Section 403"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s2",
+      "scenarioText": "The Ministry of Corporate Affairs, by an order published in the Official Gazette under Section 405, directs all companies in the auto-components sector to furnish, within 45 days, statistics on their installed capacity, employment and export turnover. SteelGear Components Ltd, a Pune-based auto-ancillary, ignores the order for three months. When finally prodded, its finance head, Mr. Jacob, files the return but deliberately understates export turnover by ₹40 crore to make the company appear less significant. SteelGear's directors believe that, at worst, the company faces a fine of ₹25,000 and that Mr. Jacob could be imprisoned for up to six months, relying on a 2015 commentary. The continuing failure ran for 80 days beyond the first day of default before SteelGear furnished the (incorrect) information.",
+      "questions": [
+        {
+          "id": 6,
+          "question": "Can the Central Government validly require an entire sector (a class of companies) to furnish statistics by a single Gazette order under Section 405?",
+          "options": {
+            "A": "No — Section 405 allows the CG to seek information only from an individual company by a specific notice, not from a whole class",
+            "B": "Yes — Section 405(1) empowers the CG, by order, to require companies generally, or any class of companies, or any company, to furnish information or statistics regarding their constitution or working, within the time specified",
+            "C": "No — the CG can call for such information only through the National Company Law Tribunal",
+            "D": "Yes — but only with the prior approval of SEBI in the case of listed companies in the class"
+          },
+          "correct": "B",
+          "explanation": "Section 405(1) expressly lets the Central Government require information or statistics from 'companies generally, or any class of companies, or any company'. A Gazette order covering the entire auto-components sector is squarely a 'class of companies' order and is valid. Option A wrongly limits the power to a single company. Option C inserts a non-existent NCLT route. Option D fabricates a SEBI pre-approval. Determinative fact: the order is addressed to 'all companies in the auto-components sector' — a class — which the section permits.",
+          "section": "Section 405"
+        },
+        {
+          "id": 7,
+          "question": "SteelGear ignored the order, the continuing failure lasting 80 days. What is the correct penalty exposure under Section 405(4) as it currently stands?",
+          "options": {
+            "A": "A fine of ₹25,000 on the company and imprisonment up to 6 months for Mr. Jacob, as the directors believe",
+            "B": "A penalty of ₹20,000 plus ₹1,000 for each day of continuing failure (₹1,000 × 80 = ₹80,000), i.e. ₹1,00,000 in all, subject to a maximum of ₹3,00,000 — with no imprisonment",
+            "C": "A penalty of ₹20,000 only, with no continuing daily component",
+            "D": "A penalty of ₹1,000 per day from the first day, subject to a maximum of ₹5,00,000"
+          },
+          "correct": "B",
+          "explanation": "Section 405(4) was decriminalised by the 2019 amendment: the company and every officer in default are now liable to a PENALTY (not a fine plus imprisonment) of ₹20,000, and, for continuing failure, a further ₹1,000 per day, subject to a maximum of ₹3,00,000. For an 80-day continuing failure: ₹20,000 + (₹1,000 × 80) = ₹1,00,000, well within the ₹3 lakh cap. Option A states the repealed criminal position (the directors' error, drawn from the 2015 commentary). Option C drops the daily component. Option D omits the ₹20,000 base and inflates the cap to ₹5 lakh. Determinative fact: the 80-day continuing failure, which drives the ₹80,000 daily component.",
+          "section": "Section 405"
+        },
+        {
+          "id": 8,
+          "question": "Mr. Jacob understated export turnover by ₹40 crore in the return he eventually filed. How is this treated under Section 405?",
+          "options": {
+            "A": "No consequence — once a return is filed, an understatement of figures is not penalised under Section 405",
+            "B": "It is caught by Section 405(4), which penalises furnishing information that is incorrect or incomplete in any material respect; a ₹40 crore understatement is material and attracts the same penalty as non-furnishing",
+            "C": "It attracts only a separate prosecution for fraud under Section 447 and is wholly outside Section 405",
+            "D": "Only the company, and not Mr. Jacob, can be penalised for the incorrect statement"
+          },
+          "correct": "B",
+          "explanation": "Section 405(4) applies not only where a company fails to furnish information, but equally where it 'furnishes any information or statistics which is incorrect or incomplete in any material respect'. A deliberate ₹40 crore understatement of export turnover is plainly material, so the same penalty regime applies. Option A wrongly treats filing as a cure. Option C wrongly says Section 405 is ousted altogether (a Section 447 fraud action may co-exist, but Section 405(4) still bites). Option D ignores that the penalty falls on the company AND every officer in default, including Mr. Jacob. Determinative fact: the ₹40 crore understatement, which makes the information 'incorrect in a material respect'.",
+          "section": "Section 405"
+        },
+        {
+          "id": 9,
+          "question": "Unconvinced by SteelGear's belated and understated return, the MCA wishes to verify the true export figures. What does Section 405 permit?",
+          "options": {
+            "A": "Nothing further — Section 405 permits only a single request for statistics; any verification needs a fresh Section 206 inquiry by the Registrar",
+            "B": "Under Section 405(3), the CG may, by order, require SteelGear to produce records or documents in its possession, allow their inspection by a specified officer, or furnish such further information as the CG considers necessary",
+            "C": "The CG must refer the matter to the SFIO under Section 212 before any verification can occur",
+            "D": "The CG can act only through the NCLT to verify the figures under Section 405"
+          },
+          "correct": "B",
+          "explanation": "Section 405(3) empowers the Central Government, by order, to require the company to produce records or documents in its possession, or allow their inspection by a specified officer, or furnish further information it considers necessary — precisely the verification step the MCA now needs. Option A wrongly caps the power at one request and diverts to Section 206. Options C and D insert SFIO/NCLT gatekeepers that Section 405 does not require. Determinative fact: the MCA's wish to verify the understated figures, which Section 405(3) directly enables.",
+          "section": "Section 405"
+        },
+        {
+          "id": 10,
+          "question": "Which statement about the Section 405 proceedings against SteelGear is INCORRECT?",
+          "options": {
+            "A": "The CG could validly require the auto-components sector, as a class, to furnish the statistics",
+            "B": "Furnishing materially incorrect statistics is penalised in the same manner as failing to furnish them",
+            "C": "Following the 2019 amendment, the default is punishable with imprisonment of up to six months in addition to a fine of ₹25,000",
+            "D": "The penalty includes a continuing daily component, subject to a ceiling of ₹3,00,000"
+          },
+          "correct": "C",
+          "explanation": "The question asks for the INCORRECT statement. Section 405(4) was decriminalised in 2019, so imprisonment is no longer a consequence — Option C is false and is the answer. Options A (class-of-companies power under 405(1)), B (incorrect/incomplete information penalised like non-furnishing) and D (₹20,000 + ₹1,000/day, max ₹3,00,000) are all correct. Determinative point: recognising that the ₹25,000-and-imprisonment regime is the repealed, pre-2019 position the directors wrongly relied on.",
+          "section": "Section 405"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s3",
+      "scenarioText": "In a shareholder dispute before the NCLT, Orchid Realty Ltd denies that it ever filed a particular special resolution (Form MGT-14) altering its articles. The petitioner produces a copy of the resolution downloaded from the MCA21 portal, bearing the Registrar's electronic authentication. Orchid argues that (a) an electronic record has no evidentiary value unless the original signed physical document is produced, and (b) the Information Technology Act, 2000 has no application to filings under the Companies Act. The petitioner also seeks, on payment of the prescribed fee, a certified copy of all documents Orchid has filed with the Registrar over the past five years. The Registrar maintains all such records exclusively in electronic form, physical filing having been dispensed with for these documents.",
+      "questions": [
+        {
+          "id": 11,
+          "question": "Is Orchid's contention (a) — that the MCA21 e-record is inadmissible without the original physical document — correct?",
+          "options": {
+            "A": "Yes — an electronic record has no evidentiary value unless the original signed physical document is produced",
+            "B": "No — under Section 397, a document reproduced or derived from records maintained by the Registrar (including in electronic form) is admissible in evidence and presumed genuine, without production of the original",
+            "C": "Yes — MCA21 downloads are admissible only if separately certified by a notary public",
+            "D": "No — but the e-record is admissible only against the Registrar, not against Orchid"
+          },
+          "correct": "B",
+          "explanation": "Section 397 provides that documents reproduced or extracted from returns/documents maintained by the Registrar (whether on paper, in electronic form, or stored electronically) are admissible in evidence and shall be presumed genuine without proof of the original. The MCA21 download bearing the Registrar's authentication is therefore admissible against Orchid, defeating contention (a). Option A states the position Orchid wrongly asserts. Option C adds a notarisation requirement that does not exist. Option D wrongly limits the admissibility to actions against the Registrar. Determinative fact: the resolution is a Registrar-authenticated MCA21 record, squarely within Section 397.",
+          "section": "Section 397"
+        },
+        {
+          "id": 12,
+          "question": "Is Orchid's contention (b) — that the Information Technology Act, 2000 has no application — correct?",
+          "options": {
+            "A": "Yes — the IT Act, 2000 is wholly inapplicable to filings under the Companies Act",
+            "B": "No — Section 402 applies the provisions of the Information Technology Act, 2000 relating to electronic records to records in electronic form under Section 398, in so far as they are not inconsistent with the Companies Act",
+            "C": "Yes — the IT Act applies only to electronic records created after 2020",
+            "D": "No — but only the digital-signature provisions of the IT Act apply, and nothing else"
+          },
+          "correct": "B",
+          "explanation": "Section 402 expressly provides that all provisions of the Information Technology Act, 2000 relating to electronic records (including the manner and format of filing) apply to records in electronic form specified under Section 398, in so far as they are not inconsistent with the Companies Act. Orchid's contention (b) is therefore wrong. Option A denies the IT Act's application altogether. Option C invents a 2020 cut-off. Option D arbitrarily narrows the IT Act to digital signatures only. Determinative fact: the dispute concerns an electronic record filed under the Companies Act, to which Section 402 routes the IT Act.",
+          "section": "Section 402"
+        },
+        {
+          "id": 13,
+          "question": "Can the petitioner obtain a certified copy of Orchid's filings of the past five years on payment of the prescribed fee?",
+          "options": {
+            "A": "No — only the company itself may obtain copies of its own filings; an outsider cannot",
+            "B": "Yes — under Section 399, any person may, on payment of the prescribed fee, inspect documents kept by the Registrar and obtain a certified copy of or extract from any such document, and certified copies are admissible in evidence",
+            "C": "Yes, but a certified copy can be issued only pursuant to an order of the Tribunal",
+            "D": "No — only members and creditors of Orchid may inspect or obtain copies of its filings"
+          },
+          "correct": "B",
+          "explanation": "Section 399 entitles ANY person, on payment of the prescribed fee, to inspect documents kept by the Registrar (other than those exempt) and to obtain a certified copy of, or extract from, any such document; such certified copies are admissible in evidence in legal proceedings. The petitioner (an outsider) therefore qualifies. Option A and D wrongly restrict inspection to the company / its members and creditors. Option C wrongly requires a Tribunal order for routine certified copies. Determinative fact: the petitioner seeks certified copies on payment of the prescribed fee — exactly the Section 399 right.",
+          "section": "Section 399"
+        },
+        {
+          "id": 14,
+          "question": "Orchid argues that maintaining the records exclusively in electronic form (with physical filing dispensed with) is impermissible. Is that argument correct?",
+          "options": {
+            "A": "Yes — the Act mandates that parallel physical records always be maintained, so exclusive electronic maintenance is ultra vires",
+            "B": "No — Section 400 permits the Central Government to provide that the electronic form shall be exclusive, or in the alternative, or in addition to the physical form; exclusive electronic maintenance is therefore valid",
+            "C": "Yes — electronic form can only ever be 'in addition to' the physical form, never exclusive",
+            "D": "No — but exclusive electronic form is permitted only for listed companies"
+          },
+          "correct": "B",
+          "explanation": "Section 400 empowers the Central Government to provide, in the rules made under Sections 398 and 399, that the electronic form shall be EXCLUSIVE, or in the alternative, or in addition to the physical form. So dispensing with physical filing and keeping records solely in electronic form is expressly contemplated and valid. Option A and C wrongly insist on parallel/additional physical records. Option D invents a listed-company limitation. Determinative fact: the Registrar maintains these records exclusively in electronic form — a mode Section 400 authorises.",
+          "section": "Section 400"
+        },
+        {
+          "id": 15,
+          "question": "Which of the following statements in the NCLT proceedings is INCORRECT?",
+          "options": {
+            "A": "The MCA21 e-record bearing the Registrar's authentication is admissible without producing the original document",
+            "B": "The Information Technology Act, 2000 provisions on electronic records apply to the filing, so far as not inconsistent with the Companies Act",
+            "C": "A downloaded MCA21 record has no evidentiary value unless Orchid admits it, because electronic records are inherently unreliable",
+            "D": "The petitioner may obtain certified copies of Orchid's filings on payment of the prescribed fee"
+          },
+          "correct": "C",
+          "explanation": "The question asks for the INCORRECT statement. Section 397 makes Registrar-maintained electronic records admissible and presumed genuine without the original and without the company's admission, so Option C is false and is the answer. Options A (Section 397 admissibility), B (Section 402 applying the IT Act) and D (Section 399 certified copies for any person) are all correct. Determinative point: electronic records held by the Registrar carry a statutory presumption of genuineness — they are not 'inherently unreliable'.",
+          "section": "Section 397"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s4",
+      "scenarioText": "Sahyadri Nidhi Ltd is a mutual-benefit society notified as a Nidhi. The Central Government issues a notification under Section 406 directing that certain provisions of the Companies Act shall apply to Nidhis with specified modifications. Separately, Sahyadri uses an MCA-portal value-added service to obtain certified, e-stamped documents, paying a prescribed fee for it. During a routine filing, the company pays ₹8 lakh in filing and additional fees at the Registrar's office at Pune. A junior compliance clerk at Sahyadri assumes that (i) the Section 406 notification takes effect immediately with no parliamentary oversight, (ii) the value-added-service fee is illegal because the Act allows only 'filing fees', and (iii) the ₹8 lakh collected is retained by the Pune Registrar's office to fund its operations.",
+      "questions": [
+        {
+          "id": 16,
+          "question": "Is the clerk's assumption (i) — that the Section 406 notification takes effect immediately with no parliamentary oversight — correct?",
+          "options": {
+            "A": "Yes — a Section 406 notification takes effect immediately on publication, with no parliamentary involvement",
+            "B": "No — a copy of every notification proposed to be issued under Section 406 must be laid in draft before each House of Parliament for a total period of 30 days, and is subject to parliamentary modification or annulment",
+            "C": "Yes — only notifications affecting listed companies require parliamentary laying",
+            "D": "No — but the notification first requires the approval of the NCLT rather than Parliament"
+          },
+          "correct": "B",
+          "explanation": "Section 406 lets the Central Government modify the application of the Act to Nidhis by notification, but it builds in parliamentary scrutiny: a copy of every notification proposed to be issued must be laid in DRAFT before each House of Parliament for a total period of 30 days, and Parliament may modify or annul it. So the notification does not take effect immediately and without oversight. Option A states the clerk's error. Option C invents a listed-company filter. Option D substitutes NCLT approval for parliamentary laying. Determinative fact: the notification is issued under Section 406, which carries the mandatory parliamentary-laying safeguard.",
+          "section": "Section 406"
+        },
+        {
+          "id": 17,
+          "question": "Is the clerk's assumption (ii) — that charging a fee for the value-added service is illegal — correct?",
+          "options": {
+            "A": "Yes — the Act permits only statutory filing fees, so the value-added-service charge is illegal",
+            "B": "No — Section 401 expressly empowers the Central Government to provide value-added services through the electronic form and to levy a prescribed fee for those services",
+            "C": "Yes — value-added services may be provided only to government departments, not to companies",
+            "D": "No — but such services can be charged only at cost, with no separate fee permitted"
+          },
+          "correct": "B",
+          "explanation": "Section 401 specifically authorises the Central Government to provide such value-added services through the electronic form as may be prescribed and to levy a fee thereon. The e-stamped certified-document service Sahyadri used is exactly such a value-added service, and the fee is lawful. Option A wrongly confines lawful charges to filing fees. Option C wrongly excludes companies. Option D invents an at-cost limitation. Determinative fact: Sahyadri used an MCA-portal value-added service, which Section 401 permits the CG to charge for.",
+          "section": "Section 401"
+        },
+        {
+          "id": 18,
+          "question": "Is the clerk's assumption (iii) — that the ₹8 lakh is retained by the Pune Registrar's office — correct?",
+          "options": {
+            "A": "Yes — the Pune Registrar retains the ₹8 lakh to fund its own operations",
+            "B": "No — under Section 404, all fees, charges and other sums received by a Registrar are paid into the public account of India in the Reserve Bank of India, and are not retained by the office",
+            "C": "No — the sums are credited to the Consolidated Fund of India and appropriated by Parliament",
+            "D": "Yes — but only the additional-fee component is retained, while the normal filing fee is remitted"
+          },
+          "correct": "B",
+          "explanation": "Section 404 requires that all fees, charges and other sums received by any Registrar (or other CG officer) under the Act be paid into the PUBLIC ACCOUNT OF INDIA in the Reserve Bank of India — they are not retained by the local office. Option A states the clerk's error. Option C is the venom distractor: it swaps the 'public account of India' for the 'Consolidated Fund of India', a closely related but different constitutional head. Option D wrongly splits the fee. Determinative fact: the ₹8 lakh collected by the Pune Registrar must be routed to the public account, not kept locally.",
+          "section": "Section 404"
+        },
+        {
+          "id": 19,
+          "question": "Who establishes the Registrar's office at Pune and appoints the Registrars who staff it?",
+          "options": {
+            "A": "The State Government establishes the offices and the NCLT appoints the Registrars",
+            "B": "Under Section 396, the Central Government establishes Registrar of Companies offices at such places as it thinks fit and appoints Registrars and Additional, Joint, Deputy and Assistant Registrars for the registration of companies",
+            "C": "SEBI appoints Registrars for listed companies and the Central Government for the rest",
+            "D": "The Institute of Company Secretaries of India establishes the offices and appoints the Registrars"
+          },
+          "correct": "B",
+          "explanation": "Section 396 provides that, for the purposes of registration of companies, the Central Government establishes such offices (Registrar of Companies offices) as it thinks fit, and appoints Registrars, Additional, Joint, Deputy and Assistant Registrars as it considers necessary. The Pune office and its Registrars therefore derive from CG action. Option A wrongly assigns the role to the State Government / NCLT. Option C invents a SEBI role. Option D substitutes the ICSI. Determinative fact: the reference to the Pune Registrar's office, which Section 396 attributes to the Central Government.",
+          "section": "Section 396"
+        },
+        {
+          "id": 20,
+          "question": "Which statement about Sahyadri's situation is INCORRECT?",
+          "options": {
+            "A": "A notification modifying the Act's application to Nidhis under Section 406 is subject to being laid before Parliament",
+            "B": "The Central Government may levy a fee for value-added services delivered through the electronic form",
+            "C": "Fees received by the Registrar are retained by the local Registrar's office to meet its own expenses",
+            "D": "It is the Central Government, and not a State Government, that establishes Registrar of Companies offices"
+          },
+          "correct": "C",
+          "explanation": "The question asks for the INCORRECT statement. Under Section 404, fees received by a Registrar go into the public account of India in the RBI — they are not retained by the local office — so Option C is false and is the answer. Options A (Section 406 parliamentary laying), B (Section 401 value-added-service fee) and D (Section 396 CG establishment of offices) are all correct. Determinative point: the destination of collected fees is the public account, defeating the clerk's 'local retention' assumption.",
+          "section": "Section 404"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s5",
+      "scenarioText": "Medicare Labs Ltd, a listed pharmaceutical company, files several forms late in FY 2025-26: (i) a return of allotment (Form PAS-3) 20 days late, the normal fee for which is ₹500; and (ii) its financial statements (Form AOC-4) 12 days late. For documents OTHER than the annual return and financial statements, the Registrar applies the slab table (delay up to 30 days = two times the normal fee; 30–60 days = four times; and so on up to twelve times). For the annual return and financial statements, a flat per-day additional fee applies. Medicare also maintains and inspects all its statutory records exclusively on the MCA21 portal. Medicare's compliance team wrongly assumes that the same ₹100-per-day rule applies to every late form, and that a 270-day cushion still exists.",
+      "questions": [
+        {
+          "id": 21,
+          "question": "What additional fee is payable for the late filing of Form PAS-3 (a return of allotment), filed 20 days late with a normal fee of ₹500?",
+          "options": {
+            "A": "₹2,000 — ₹100 per day for 20 days, since the same per-day rule applies to all forms",
+            "B": "₹1,000 — for a document other than the annual return/financial statements, the slab applies; a delay up to 30 days attracts two times the normal fee (2 × ₹500)",
+            "C": "₹0 — the filing is within the 270-day immunity window",
+            "D": "₹6,000 — twelve times the normal fee (12 × ₹500)"
+          },
+          "correct": "B",
+          "explanation": "PAS-3 is NOT a Section 92/137 document, so the flat ₹100/day rate does not apply to it; instead the slab table governs. A delay of 20 days (up to 30 days) attracts 2× the normal fee, i.e. 2 × ₹500 = ₹1,000. Option A applies the ₹100/day rate meant for the annual return/financial statements — the compliance team's error. Option C revives the removed 270-day immunity. Option D applies the top 12× slab meant for delays beyond 180 days. Two-step trap: classify the document (not 92/137 → slab) then apply the correct tier (≤30 days → 2×). Determinative facts: the ₹500 normal fee and the 20-day delay.",
+          "section": "Section 403"
+        },
+        {
+          "id": 22,
+          "question": "What additional fee is payable for the late filing of Form AOC-4 (financial statements), filed 12 days late?",
+          "options": {
+            "A": "₹1,000 — two times the normal fee under the slab for delays up to 30 days",
+            "B": "₹1,200 — for financial statements (Section 137), a flat additional fee of ₹100 per day applies, i.e. ₹100 × 12 days",
+            "C": "₹0 — the 270-day immunity applies to financial statements",
+            "D": "₹2,400 — four times the normal fee under the slab"
+          },
+          "correct": "B",
+          "explanation": "Financial statements filed under Section 137 attract a FLAT additional fee of ₹100 per day (the slab table does NOT apply to Section 92/137 documents). For a 12-day delay: ₹100 × 12 = ₹1,200. Option A wrongly applies the 'other documents' slab (2×) to a Section 137 filing. Option C relies on the removed immunity. Option D applies a 4× slab. Note the deliberate mirror-image of the previous question: here the slab is the trap, whereas for PAS-3 the ₹100/day was the trap. Determinative facts: AOC-4 is a Section 137 document and the delay is 12 days.",
+          "section": "Section 403"
+        },
+        {
+          "id": 23,
+          "question": "Which statement about the additional-fee regime applicable to Medicare's forms is INCORRECT?",
+          "options": {
+            "A": "For AOC-4 (financial statements), the additional fee is ₹100 per day, with no upper cap",
+            "B": "For PAS-3 (a document other than the annual return/financial statements), a slab-based additional fee (a multiple of the normal fee) applies, not a flat ₹100 per day",
+            "C": "The same flat ₹100-per-day additional fee applies uniformly to PAS-3 and AOC-4 alike",
+            "D": "A 270-day immunity from additional fee no longer exists for any of these forms"
+          },
+          "correct": "C",
+          "explanation": "The question asks for the INCORRECT statement. The ₹100/day flat rate applies only to Section 92/137 documents (such as AOC-4), whereas other documents (such as PAS-3) are governed by the slab table — so Option C, which applies a uniform ₹100/day to both, is false and is the answer (it is precisely the compliance team's mistake). Options A (₹100/day, no cap for financial statements), B (slab for non-92/137 documents) and D (no 270-day immunity) are all correct. Determinative point: the additional-fee rate depends on the class of document.",
+          "section": "Section 403"
+        },
+        {
+          "id": 24,
+          "question": "What is the correct TOTAL additional fee payable by Medicare for the late filing of PAS-3 and AOC-4 taken together?",
+          "options": {
+            "A": "₹3,200 — applying ₹100 per day to both forms (PAS-3: ₹2,000; AOC-4: ₹1,200)",
+            "B": "₹2,200 — PAS-3 at the slab rate (2 × ₹500 = ₹1,000) plus AOC-4 at the flat rate (₹100 × 12 = ₹1,200)",
+            "C": "₹0 — both filings fall within the 270-day immunity window",
+            "D": "₹2,000 — applying the slab (two times the normal fee) to both forms"
+          },
+          "correct": "B",
+          "explanation": "The two forms follow different rules: PAS-3 (non-92/137) attracts the slab — 2 × ₹500 = ₹1,000 — while AOC-4 (Section 137) attracts the flat ₹100/day — ₹100 × 12 = ₹1,200. The correct total is ₹1,000 + ₹1,200 = ₹2,200. Option A is the compliance team's wrong total (₹100/day applied to both). Option C relies on the removed immunity. Option D wrongly applies the 2× slab to both forms. Determinative facts: combining the correctly classified fees for PAS-3 and AOC-4 — the answer turns on using two different rates for the two forms.",
+          "section": "Section 403"
+        },
+        {
+          "id": 25,
+          "question": "Medicare maintains, files and inspects all its records exclusively on the MCA21 portal. Which statement about that e-filing framework is INCORRECT?",
+          "options": {
+            "A": "Section 398 enables the Central Government to prescribe the filing, maintenance and inspection of documents in electronic form",
+            "B": "Section 400 allows the electronic form to be made exclusive, or alternative, or in addition to the physical form",
+            "C": "Section 402 applies the Information Technology Act, 2000 to such electronic records, so far as not inconsistent with the Companies Act",
+            "D": "Electronic filing under Section 398 is always optional, so Medicare may insist on paper filing instead of the electronic mode"
+          },
+          "correct": "D",
+          "explanation": "The question asks for the INCORRECT statement. Because Section 400 lets the Central Government make the electronic form EXCLUSIVE, a company cannot insist on paper filing where the electronic mode has been made compulsory — so Option D is false and is the answer. Options A (Section 398 enabling e-filing/maintenance/inspection), B (Section 400 making e-form exclusive/alternative/additional) and C (Section 402 applying the IT Act) are all correct. Determinative point: the interplay of Sections 398 and 400 means e-filing can be made mandatory, defeating any claimed right to file on paper.",
+          "section": "Section 398"
+        }
+      ]
+    }
+  ]
+}
