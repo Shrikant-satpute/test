@@ -1,0 +1,1428 @@
+{
+  "chapterId": "full-mock-1",
+  "chapterName": "Full Syllabus Grand Test — All Chapters (Integrated)",
+  "law": "Corporate & Economic Laws (All 18 chapters)",
+  "category": "full-mock",
+  "scenarios": [
+    {
+      "scenarioId": "s1",
+      "scenarioText": "Zencor Pharmaceuticals Ltd is an unlisted public company. Mr. Rao, proposed for appointment to Zencor's board, already holds directorships in 19 other companies, of which 10 are public companies. Zencor has not filed its financial statements or annual returns for FY 2021-22, 2022-23 and 2023-24 (three consecutive years), and has also defaulted for 14 months in repaying public deposits. The company is loss-making this year; its effective capital is ₹180 crore, yet it proposes to pay its managing director, Ms. Iyer, remuneration of ₹78 lakh. The board separately proposes to advance a ₹2 crore loan to the spouse of one of its directors.",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Can Mr. Rao validly accept the directorship of Zencor (a public company), given his existing 19 directorships of which 10 are in public companies?",
+          "options": {
+            "A": "Yes — his total of 20 directorships is exactly at the Sec 165 overall cap of 20, so it is permissible",
+            "B": "No — including Zencor he would hold 11 public-company directorships, exceeding the Sec 165 sub-limit of 10 public companies, even though his total of 20 is within the overall cap",
+            "C": "No — the overall ceiling is 15 companies, which he already exceeds",
+            "D": "Yes — dormant and Section 8 companies are excluded, leaving him well within the limit"
+          },
+          "correct": "B",
+          "explanation": "Sec 165 caps directorships at 20 companies overall, with a SUB-LIMIT of 10 public companies. Adding Zencor (public) takes Mr. Rao to 11 public companies — breaching the public-company sub-limit — even though his total of 20 is at (not above) the overall cap. Option A looks only at the overall cap (the favourite trap). Option C uses 15 (no such figure). Option D introduces exclusions not supported by the facts. Determinative facts: 10 existing public directorships + Zencor being public.",
+          "section": "Section 165"
+        },
+        {
+          "id": 2,
+          "question": "[ICAI-style · Nov 2022] What is the consequence for Zencor's directors arising from the three-year non-filing and the 14-month deposit default?",
+          "options": {
+            "A": "They are disqualified from Zencor only, but may continue on other company boards",
+            "B": "Each director is disqualified for 5 years and cannot be reappointed in Zencor or appointed in ANY other company; both the 3-year non-filing and the 14-month deposit default independently attract Sec 164(2)",
+            "C": "Disqualification arises only after 5 consecutive years of non-filing",
+            "D": "Only the managing director is disqualified, not the other directors"
+          },
+          "correct": "B",
+          "explanation": "Sec 164(2) disqualifies a director of a company that (a) has not filed financial statements/annual returns for 3 continuous years, OR (b) failed to repay deposits/redeem debentures/pay interest for one year or more. Either ground bites here, and the disqualification runs for 5 years and extends to appointment/reappointment in OTHER companies too. Option A wrongly confines it to Zencor. Option C confuses the 3-year disqualification trigger with the 5-year non-filing ground for winding-up/strike-off — a cross-provision trap. Option D wrongly limits it to the MD. Determinative facts: 3 consecutive years' non-filing + 14-month deposit default.",
+          "section": "Section 164(2)"
+        },
+        {
+          "id": 3,
+          "question": "[ICAI-style · May 2023] In this loss year, can Zencor pay Ms. Iyer remuneration of ₹78 lakh (effective capital ₹180 crore)?",
+          "options": {
+            "A": "Yes, without special approval, since ₹78 lakh is within the 11% overall limit of Sec 197",
+            "B": "Yes, but only with a special resolution — the Schedule V slab for effective capital of ₹100–250 crore is ₹60 lakh, which may be doubled to ₹120 lakh by special resolution, and ₹78 lakh falls within that doubled band",
+            "C": "No — the maximum for this slab in a loss year is ₹42 lakh and cannot be exceeded",
+            "D": "Yes — ₹84 lakh is the slab limit, so ₹78 lakh needs only board approval"
+          },
+          "correct": "B",
+          "explanation": "In a loss/inadequate-profit year the Sec 197 percentage limits do NOT operate; Schedule V Part II governs. For effective capital of ₹100–250 crore the yearly ceiling is ₹60 lakh, which can be DOUBLED to ₹120 lakh if approved by special resolution. ₹78 lakh exceeds ₹60 lakh but is within ₹120 lakh, so it is payable only with a special resolution. Option A wrongly applies the 11% (profit-year) limit. Option C uses the adjacent ₹5–100 crore slab (₹42 lakh). Option D uses the >₹250 crore slab (₹84 lakh) and wrongly says board approval suffices. Determinative facts: loss year + ₹180 crore effective capital + ₹78 lakh.",
+          "section": "Section 197 / Schedule V"
+        },
+        {
+          "id": 4,
+          "question": "Is the proposed ₹2 crore loan to the spouse of a director permissible under Sec 185?",
+          "options": {
+            "A": "Yes — loans to relatives of directors fall outside Sec 185 altogether",
+            "B": "It is generally prohibited under Sec 185(1) as a loan to a person in whom a director is interested; it can be made only under Sec 185(2), subject to a special resolution and the loan being used by the borrower for its principal business activities",
+            "C": "Yes — any loan below ₹5 crore is exempt from Sec 185",
+            "D": "No — Sec 185 bars all such loans absolutely, with no exception whatsoever"
+          },
+          "correct": "B",
+          "explanation": "Sec 185(1) prohibits a company from advancing a loan to any director or to 'any other person in whom the director is interested' — which includes a relative such as a spouse. Such a loan is permissible only under the Sec 185(2) gateway: prior approval by special resolution plus utilisation for the borrower's principal business activities. Option A wrongly exempts relatives. Option C invents a ₹5 crore threshold. Option D overstates the bar by ignoring the Sec 185(2) exception. Determinative fact: the loan is to a director's spouse.",
+          "section": "Section 185"
+        },
+        {
+          "id": 5,
+          "question": "Which statement about Zencor is INCORRECT?",
+          "options": {
+            "A": "A director disqualified under Sec 164(2) consequently vacates office under Sec 167",
+            "B": "In a loss year, managerial remuneration is governed by Schedule V, not the 11% limit in Sec 197",
+            "C": "Mr. Rao's acceptance of Zencor's directorship is valid because only the overall 20-company cap is relevant",
+            "D": "A loan to a person in whom a director is interested is restricted by Sec 185"
+          },
+          "correct": "C",
+          "explanation": "The question seeks the INCORRECT statement. Option C is false: Sec 165 also imposes a 10-public-company sub-limit, which Mr. Rao would breach (11 public companies) — so it is the answer. Options A (Sec 167(1)(a) read with Sec 164), B (Schedule V governs loss years) and D (Sec 185 restriction) are all correct. Determinative point: the public-company sub-limit, not just the overall cap.",
+          "section": "Section 165"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s2",
+      "scenarioText": "Lohit Steel Ltd is a public company with 5,000 members and issued share capital of ₹50 crore. The Central Government assigns the Serious Fraud Investigation Office (SFIO) to investigate suspected fund diversion. While the SFIO probe is on, the State economic-offences police begin a parallel investigation into the same persons. A group of 480 shareholders, together holding 4% of the issued capital, want to file an oppression petition under Sec 241. The SFIO asks Lohit's banker and its external legal adviser to produce certain documents; both decline, claiming privilege. An aggrieved party receives an adverse NCLT order on 1 March 2026 and wishes to appeal.",
+      "questions": [
+        {
+          "id": 6,
+          "question": "[ICAI-style · May 2022] Can the State economic-offences police continue their parallel investigation once the SFIO has been assigned the same matter?",
+          "options": {
+            "A": "Yes — the SFIO and the State police enjoy concurrent jurisdiction",
+            "B": "No — once the SFIO is assigned an investigation under Sec 212, it has exclusive jurisdiction; no other investigating agency of the Central or State Government may proceed, and relevant documents must be handed over to the SFIO",
+            "C": "Yes, but only if the suspected offence is bailable",
+            "D": "No — but the SFIO must first obtain a Magistrate's order to displace the police"
+          },
+          "correct": "B",
+          "explanation": "Sec 212(2) gives the SFIO EXCLUSIVE jurisdiction once an investigation is assigned to it: no other investigating agency of the Central Government or any State Government shall proceed with investigation into that offence, and any material already collected must be transferred to the SFIO. Option A (concurrent jurisdiction) is the trap. Option C wrongly conditions it on bailability — Sec 212 offences are in fact cognizable and non-bailable. Option D invents a Magistrate-order precondition. Determinative facts: SFIO assigned + parallel State-police probe.",
+          "section": "Section 212"
+        },
+        {
+          "id": 7,
+          "question": "[ICAI-style · Nov 2023] Do the 480 shareholders (of 5,000 total members), holding 4% of issued capital, meet the Sec 244 eligibility to petition for oppression?",
+          "options": {
+            "A": "No — they hold only 4% of issued capital, short of the 10% capital requirement",
+            "B": "Yes — the threshold is the LOWER of 100 members or one-tenth of the total members (one-tenth of 5,000 = 500, so the figure is 100); 480 members exceeds 100, satisfying the member-count route regardless of the 4% capital held",
+            "C": "No — they need at least 500 members, being one-tenth of the total membership",
+            "D": "Yes — any group of members may approach the Tribunal once oppression is alleged"
+          },
+          "correct": "B",
+          "explanation": "For a company with share capital, Sec 244 requires not less than 100 members OR not less than one-tenth of the total members, whichever is LESS, OR members holding at least one-tenth of the issued capital. One-tenth of 5,000 = 500; the lower of 100 and 500 is 100. The 480 members clear the 100-member route, so eligibility is satisfied even though their 4% capital falls short of the separate 10% capital route. Option A looks only at capital. Option C applies '1/10th of members' without the 'whichever LESS' rider. Option D ignores the threshold entirely. Determinative facts: 480 members, 5,000 total, 4% capital.",
+          "section": "Section 244"
+        },
+        {
+          "id": 8,
+          "question": "Lohit's banker and external legal adviser both decline to produce certain documents to the SFIO. Whose claim of privilege holds under Sec 227?",
+          "options": {
+            "A": "Both must produce everything; no privilege survives an SFIO investigation",
+            "B": "The legal adviser's privilege is absolute and cannot be overridden, whereas the banker is protected only unless the Tribunal specifically directs disclosure",
+            "C": "The banker's privilege is absolute; the legal adviser must produce everything",
+            "D": "Neither enjoys any privilege once the Central Government orders an investigation"
+          },
+          "correct": "B",
+          "explanation": "Sec 227 preserves the legal adviser's privilege ABSOLUTELY (an inspector cannot compel privileged communications), while a banker's duty of confidentiality is protected UNLESS the Tribunal directs disclosure of a customer's affairs. Option C reverses the two. Options A and D wrongly abolish all privilege. Determinative facts: the differing positions of the banker and the legal adviser.",
+          "section": "Section 227"
+        },
+        {
+          "id": 9,
+          "question": "The aggrieved party received the NCLT order on 1 March 2026. By when must it appeal to the NCLAT, and what is the maximum condonable delay?",
+          "options": {
+            "A": "Within 30 days, extendable by a further 30 days (60 days maximum)",
+            "B": "Within 45 days of receipt (i.e., by 15 April 2026); the NCLAT may condone a further period not exceeding 45 days, capping the total at 90 days",
+            "C": "Within 90 days, with no power of condonation",
+            "D": "Within 45 days, with no power in the NCLAT to condone any delay"
+          },
+          "correct": "B",
+          "explanation": "Sec 421 allows an appeal to the NCLAT within 45 days of receipt of the order; the NCLAT may condone a further period not exceeding 45 days on sufficient cause, so the outer limit is 90 days. From 1 March 2026, the 45-day period ends on 15 April 2026. Option A uses 30+30. Option C drops the 45-day base and the condonation structure. Option D wrongly denies any condonation. Determinative fact: order received on 1 March 2026.",
+          "section": "Section 421"
+        },
+        {
+          "id": 10,
+          "question": "Which statement regarding the Lohit Steel matters is INCORRECT?",
+          "options": {
+            "A": "Offences in respect of which the SFIO investigates under Sec 212 are cognizable and non-bailable",
+            "B": "An appeal from the NCLT lies to the NCLAT, not to the High Court",
+            "C": "A legal adviser's privilege can be overridden by the Tribunal, just as a banker's can",
+            "D": "The Tribunal may, as an oppression remedy under Sec 242, order winding-up of the company"
+          },
+          "correct": "C",
+          "explanation": "The question seeks the INCORRECT statement. A legal adviser's privilege under Sec 227 is ABSOLUTE and cannot be overridden — unlike a banker's, which yields to a Tribunal direction — so Option C is false and is the answer. Options A (Sec 212 cognizable + non-bailable), B (appeal to NCLAT) and D (winding-up as a Sec 242 remedy) are all correct. Determinative point: the absolute nature of legal-adviser privilege.",
+          "section": "Section 227"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s3",
+      "scenarioText": "Nimbus Technologies Ltd is listed on the NSE with 10 crore equity shares. Falcon Capital holds 23% and signs a share-purchase agreement to acquire a further 6%, taking it to 29%. Nimbus is finalising its Q4 results, which are not yet announced (UPSI). A Falcon-appointed nominee director, who is in possession of the unannounced results, sells 50,000 Nimbus shares during a closed trading window. Nimbus's board has 12 directors, of whom only 4 are independent; its chairperson is non-executive but is a relative of the promoter. Its audit committee has 3 members, of whom only 1 is an independent director.",
+      "questions": [
+        {
+          "id": 11,
+          "question": "Does Falcon's acquisition of a further 6% (from 23% to 29%) trigger an open offer under SAST?",
+          "options": {
+            "A": "No — Falcon remains below the 30% open-offer threshold",
+            "B": "Yes — moving from 23% to 29% crosses the 25% threshold in Reg 3(1), triggering a mandatory open offer for at least 26% of the shares",
+            "C": "No — the 6% is within the annual creeping limit available to a holder in the 25–75% band",
+            "D": "Yes — but only because the 6% acquisition exceeds the 5% creeping limit"
+          },
+          "correct": "B",
+          "explanation": "SAST Reg 3(1) triggers a mandatory open offer when an acquirer crosses 25% of voting rights. Falcon moves from 23% to 29%, crossing 25%, so an open offer (minimum 26%) is mandatory. Option A uses 30% (an outdated/incorrect threshold). Option C invokes creeping, which is available only to acquirers ALREADY at 25%+ — Falcon was at 23%. Option D misattributes the trigger to creeping. Determinative facts: pre-acquisition 23% and post-acquisition 29%.",
+          "section": "SEBI SAST Reg 3"
+        },
+        {
+          "id": 12,
+          "question": "The Falcon nominee director sold 50,000 shares during the closed trading window while in possession of the unannounced Q4 results. Which is correct?",
+          "options": {
+            "A": "No violation — a nominee director is not an insider",
+            "B": "This violates Reg 4 of the PIT Regulations (trading while in possession of UPSI) and also breaches the trading-window closure that binds designated persons; a nominee director is an insider",
+            "C": "No violation — directors may always trade in their own company's shares",
+            "D": "A violation only of the trading-window rule, not of Reg 4, because he is a director"
+          },
+          "correct": "B",
+          "explanation": "Unannounced financial results are UPSI; a director (including a nominee director) is a connected person and an insider. Trading while in possession of UPSI breaches PIT Reg 4(1), and trading during a closed window breaches the Code of Conduct binding designated persons — both are violated. Option A wrongly excludes nominee directors. Option C asserts an absolute right to trade that does not exist. Option D wrongly severs the Reg 4 breach. Determinative facts: nominee director + possession of unannounced results + sale during the closed window.",
+          "section": "SEBI PIT Reg 4"
+        },
+        {
+          "id": 13,
+          "question": "[ICAI-style · May 2024] For Nimbus's 12-member board, with a non-executive chairperson who is related to the promoter, what is the minimum number of independent directors under LODR Reg 17, and is Nimbus compliant?",
+          "options": {
+            "A": "4 independent directors (one-third); Nimbus is compliant",
+            "B": "6 independent directors (one-half) — because the non-executive chairperson is related to the promoter, at least half the board must be independent; with only 4 IDs, Nimbus is NON-compliant",
+            "C": "2 independent directors; Nimbus is compliant",
+            "D": "All 12 directors must be independent"
+          },
+          "correct": "B",
+          "explanation": "Under LODR Reg 17(1), if the chairperson is a non-executive director who is NOT related to the promoter, at least one-third of the board must be IDs; but if the chairperson is executive OR is a promoter/related to the promoter, at least HALF the board must be IDs. Nimbus's non-executive chairperson is a promoter-relative, so half of 12 = 6 IDs are required; with only 4, it is non-compliant. Option A applies the one-third rule, ignoring the promoter relationship (the trap). Options C and D use wrong fractions. Determinative facts: 12 directors, only 4 IDs, chairperson non-executive but promoter-related.",
+          "section": "SEBI LODR Reg 17"
+        },
+        {
+          "id": 14,
+          "question": "Is Nimbus's audit committee (3 members, only 1 independent director) compliant with LODR Reg 18?",
+          "options": {
+            "A": "Yes — one independent director on a three-member audit committee is sufficient",
+            "B": "No — Reg 18 requires at least two-thirds of the audit committee to be independent directors, i.e. at least 2 of the 3 members; with only 1 ID it is non-compliant",
+            "C": "Yes — only a simple majority of any composition is required",
+            "D": "No — the audit committee must have at least 5 members"
+          },
+          "correct": "B",
+          "explanation": "LODR Reg 18 requires the audit committee to have a minimum of three directors, with at least two-thirds being independent directors. Two-thirds of 3 is 2, so at least 2 IDs are needed; Nimbus has only 1, so it is non-compliant. Option A understates the ID requirement. Option C substitutes a 'simple majority' test. Option D invents a five-member minimum. Determinative facts: 3 members with only 1 independent director.",
+          "section": "SEBI LODR Reg 18"
+        },
+        {
+          "id": 15,
+          "question": "Which statement about Nimbus is INCORRECT?",
+          "options": {
+            "A": "Crossing 25% triggers a mandatory open offer for at least 26% under SAST",
+            "B": "A nominee director in possession of UPSI is an insider under the PIT Regulations",
+            "C": "Because the chairperson is non-executive, only one-third of the board need be independent, regardless of his relationship with the promoter",
+            "D": "An audit committee must have at least two-thirds independent directors"
+          },
+          "correct": "C",
+          "explanation": "The question seeks the INCORRECT statement. Where a non-executive chairperson is related to the promoter, LODR Reg 17 requires HALF the board to be independent — not one-third — so Option C is false and is the answer. Options A, B and D are all correct. Determinative point: the promoter relationship of the chairperson shifts the threshold from one-third to one-half.",
+          "section": "SEBI LODR Reg 17"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s4",
+      "scenarioText": "Arthveda Finance Ltd has defaulted on its obligations. A financial creditor, owed a defaulted amount of ₹3 crore, prepares an application under Sec 7 of the IBC. An operational creditor, owed a defaulted ₹90 lakh, also wants to initiate insolvency. Arthveda's former promoter, Mr. Khanna — whose loan account was classified as a non-performing asset 18 months ago and remains unsettled — wishes to submit a resolution plan. At the relevant CoC meeting, one resolution plan secures 64% of the voting share. Separately, an old creditor had served a statutory demand of ₹80,000 that has remained unpaid for 25 days and now threatens a winding-up petition under the Companies Act.",
+      "questions": [
+        {
+          "id": 16,
+          "question": "[ICAI-style · Nov 2022] Can the operational creditor, with a defaulted amount of ₹90 lakh, initiate CIRP under Sec 9 of the IBC?",
+          "options": {
+            "A": "Yes — any default by an operational creditor supports a Sec 9 application",
+            "B": "No — the minimum default threshold for initiating CIRP is ₹1 crore (raised from ₹1 lakh in 2020); ₹90 lakh is below it, so no Sec 9 application lies",
+            "C": "Yes — the threshold for operational creditors is only ₹1 lakh",
+            "D": "No — operational creditors can never initiate CIRP"
+          },
+          "correct": "B",
+          "explanation": "Sec 4 of the IBC sets the minimum default at ₹1 crore (raised from ₹1 lakh by the 2020 notification). The operational creditor's ₹90 lakh default falls below ₹1 crore, so no CIRP can be initiated under Sec 9. Option C states the pre-2020 figure (the amendment trap). Option A ignores the threshold; Option D wrongly bars operational creditors entirely. Determinative fact: the ₹90 lakh default, just under the ₹1 crore line.",
+          "section": "IBC Sec 4 / Sec 9"
+        },
+        {
+          "id": 17,
+          "question": "Is the former promoter, Mr. Khanna, eligible to submit a resolution plan for Arthveda?",
+          "options": {
+            "A": "Yes — promoters always have a right of first refusal to submit a plan",
+            "B": "No — under Sec 29A, a person whose account has been classified as an NPA for one year or more (here 18 months) and who has not settled the overdue amounts is ineligible to submit a resolution plan",
+            "C": "Yes — Sec 29A bars only wilful defaulters, not ordinary NPA account holders",
+            "D": "No — but only if his earlier shareholding in Arthveda exceeded 50%"
+          },
+          "correct": "B",
+          "explanation": "Sec 29A(c) disqualifies a person whose account (or an account of a connected entity) has been an NPA for one year or more before commencement of CIRP and who has not cleared the overdue amount before submitting the plan. Khanna's account has been an NPA for 18 months and remains unsettled, so he is ineligible. Option A invents a promoter's first-refusal right. Option C wrongly limits Sec 29A to wilful defaulters. Option D adds an irrelevant shareholding condition. Determinative fact: the 18-month unsettled NPA.",
+          "section": "IBC Sec 29A"
+        },
+        {
+          "id": 18,
+          "question": "[ICAI-style · May 2023] A resolution plan secures 64% of the CoC's voting share. Can it be approved?",
+          "options": {
+            "A": "Yes — a simple majority of more than 50% suffices",
+            "B": "No — a resolution plan must be approved by at least 66% of the voting share of the CoC; 64% falls short",
+            "C": "Yes — 64% comfortably exceeds the required 51%",
+            "D": "No — it requires 75% of the voting share"
+          },
+          "correct": "B",
+          "explanation": "Sec 30(4) requires a resolution plan to be approved by at least 66% of the CoC's voting share. 64% is below this, so the plan cannot be approved. Option D states the pre-2019 figure of 75% (the amendment trap). Options A and C use a simple/51% majority that does not apply to plan approval. Determinative fact: the 64% voting share, just under the 66% bar.",
+          "section": "IBC Sec 30"
+        },
+        {
+          "id": 19,
+          "question": "Can the creditor with an unpaid statutory demand of ₹80,000 (unpaid for 25 days) succeed in a winding-up petition on inability-to-pay grounds?",
+          "options": {
+            "A": "Yes — non-payment for over 21 days establishes inability to pay regardless of the amount",
+            "B": "No — the statutory demand must exceed ₹1 lakh under the Companies Act inability-to-pay provision; ₹80,000 is below it (and far below the ₹1 crore IBC default threshold)",
+            "C": "Yes — the threshold is only ₹500",
+            "D": "No — because the IBC ₹1 crore threshold applies, although the Companies Act sets no monetary threshold at all"
+          },
+          "correct": "B",
+          "explanation": "Under the Companies Act inability-to-pay limb, the statutory demand must exceed ₹1 lakh; ₹80,000 does not, so the petition fails (and it is in any event well below the ₹1 crore IBC default). Option A ignores the monetary threshold. Option C uses a fictitious ₹500. Option D is half-right but wrongly says the Companies Act has no monetary threshold. Determinative fact: the ₹80,000 demand. (Cross-law trap: ₹1 lakh under the Companies Act vs ₹1 crore under the IBC.)",
+          "section": "Companies Act Sec 271 / IBC Sec 4"
+        },
+        {
+          "id": 20,
+          "question": "Which statement about the Arthveda matters is INCORRECT?",
+          "options": {
+            "A": "The financial creditor's ₹3 crore default exceeds the ₹1 crore threshold and supports a Sec 7 application",
+            "B": "A resolution plan needs 66% of the CoC voting share, not 75%",
+            "C": "An ex-promoter whose account has been an NPA for 18 months may freely submit a resolution plan",
+            "D": "The ₹80,000 demand is insufficient for a Companies Act winding-up petition on inability-to-pay grounds"
+          },
+          "correct": "C",
+          "explanation": "The question seeks the INCORRECT statement. Sec 29A bars a person whose account has been an NPA for one year or more (18 months here) and remains unsettled, so Option C is false and is the answer. Options A (₹3 crore > ₹1 crore), B (66%, not 75%) and D (₹80,000 < ₹1 lakh) are all correct. Determinative point: the Sec 29A NPA disqualification.",
+          "section": "IBC Sec 29A"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s5",
+      "scenarioText": "Setu Infra Ltd, an Indian company, proposes an OUTBOUND merger under which it will merge into Skyline Holdings, a company incorporated in a jurisdiction notified as permissible. The scheme also embodies a compromise with creditors. Creditors holding 8% of Setu's total outstanding debt object to the scheme. At the meeting, 76% in value of the creditors present and voting approve it. Mr. Sen, a Setu shareholder, has been resident outside India for 200 days during the financial year. Setu's last financial year ended 9 months before the first meeting convened for the scheme.",
+      "questions": [
+        {
+          "id": 21,
+          "question": "What approvals does Setu's outbound merger into Skyline Holdings require under Sec 234?",
+          "options": {
+            "A": "Only NCLT sanction; RBI approval is not required for outbound mergers",
+            "B": "Prior approval of the RBI AND sanction of the NCLT; outbound mergers are permitted only with companies incorporated in notified jurisdictions",
+            "C": "Only RBI approval; NCLT sanction is dispensed with for cross-border mergers",
+            "D": "Approval of SEBI and the Central Government, but not the RBI"
+          },
+          "correct": "B",
+          "explanation": "Sec 234 read with Rule 25A permits cross-border mergers only with companies in notified jurisdictions, and an outbound merger (Indian company merging into a foreign company) requires PRIOR RBI approval in addition to NCLT sanction of the scheme. Option A omits the RBI; Option C omits the NCLT; Option D substitutes SEBI/CG. Determinative fact: this is an outbound cross-border merger.",
+          "section": "Section 234"
+        },
+        {
+          "id": 22,
+          "question": "The scheme of compromise was approved by 76% in value of the creditors present and voting. Does this meet the Sec 230 voting requirement?",
+          "options": {
+            "A": "No — Sec 230 requires 90% in value",
+            "B": "Yes — Sec 230 requires a majority in number representing three-fourths (75%) in value of the creditors present and voting; 76% in value clears the 75% bar",
+            "C": "No — it requires 75% of the TOTAL creditors, not merely those present and voting",
+            "D": "Yes — but only a simple majority in value (over 50%) is required"
+          },
+          "correct": "B",
+          "explanation": "Sec 230(6) requires approval by a majority in number representing three-fourths (75%) in value of the creditors/members (or class) PRESENT AND VOTING. 76% in value satisfies the 75% bar. Option A confuses 75% with the 90% used for the meeting-waiver/squeeze-out contexts. Option C wrongly applies the threshold to total creditors. Option D understates the requirement. Determinative fact: 76% in value (present and voting).",
+          "section": "Section 230"
+        },
+        {
+          "id": 23,
+          "question": "Can the creditors holding 8% of Setu's total outstanding debt validly object to the scheme under Sec 230(4)?",
+          "options": {
+            "A": "No — only creditors holding at least 10% of the debt may object",
+            "B": "Yes — an objection may be made by creditors holding not less than 5% of the total outstanding debt; the objectors' 8% exceeds this, so the objection is maintainable",
+            "C": "No — any single creditor may object, irrespective of holding",
+            "D": "Yes — but only if they hold at least 25% of the total debt"
+          },
+          "correct": "B",
+          "explanation": "Sec 230(4) permits objections to a scheme only by creditors holding not less than 5% of the total outstanding debt (or shareholders holding not less than 10% of the shareholding). The objectors hold 8% of the debt, above the 5% creditor threshold, so their objection is maintainable. Option A applies the 10% SHAREHOLDER threshold to creditors (the cross-threshold trap). Options C and D state wrong thresholds. Determinative fact: 8% of total outstanding debt.",
+          "section": "Section 230(4)"
+        },
+        {
+          "id": 24,
+          "question": "Mr. Sen was resident outside India for 200 days during the financial year. Applying the day-count test, what is his residential status under FEMA?",
+          "options": {
+            "A": "Resident in India — because he holds shares in an Indian company",
+            "B": "Not a person resident in India under FEMA — he was in India for only about 165 days, below the 182-day threshold measured over the financial year (April–March)",
+            "C": "Resident in India — the 182-day test is measured over the calendar year, in which he was present long enough",
+            "D": "Not resident — because any stay abroad exceeding 180 days automatically makes one non-resident under the Companies Act resident-director rule"
+          },
+          "correct": "B",
+          "explanation": "Under FEMA Sec 2(v), residence turns on physical presence of more than 182 days in India during the PRECEDING FINANCIAL YEAR. Being outside India 200 days means presence of about 165 days, below 182, so (on the day-count) he is not a person resident in India. Option C swaps in the calendar year (the cross-law trap with the Companies Act resident-director test, which uses the calendar year). Option D mislabels the governing law. Determinative fact: 200 days outside / ~165 days in India in the financial year.",
+          "section": "FEMA Sec 2(v)"
+        },
+        {
+          "id": 25,
+          "question": "Setu's last financial year ended 9 months before the first meeting for the scheme. What does Sec 232 require as a consequence?",
+          "options": {
+            "A": "Nothing — accounts up to one year old may be used without any supplement",
+            "B": "Because more than 6 months have elapsed since the last financial year-end, the company must annex supplementary accounting statements (not more than 6 months old) to the scheme documents",
+            "C": "The merger cannot proceed at all because the accounts are over 6 months old",
+            "D": "Supplementary accounts are required only if more than 12 months have elapsed"
+          },
+          "correct": "B",
+          "explanation": "Sec 232(2)(c) requires that where the last annual accounts relate to a financial year ending more than 6 months before the first meeting, the company must annex supplementary accounting statements not more than 6 months old. Nine months have elapsed, so supplementary accounts are mandatory. Option A wrongly allows year-old accounts; Option C overstates the bar; Option D uses 12 months instead of 6. Determinative fact: the 9-month gap.",
+          "section": "Section 232"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s6",
+      "scenarioText": "FreshLeaf Foods Ltd recently completed an IPO and is now listed. For its IPO eligibility (profitability route), its net tangible assets in the three preceding full years were ₹4 crore, ₹3.5 crore and ₹3.2 crore, and its average pre-tax operating profit over the best three of the preceding five years was ₹16 crore. Post-listing, FreshLeaf failed to submit its quarterly financial results within the LODR timeline and also failed to furnish certain information sought by SEBI. During the year it proposes a related-party transaction worth ₹950 crore, against a consolidated turnover of ₹8,000 crore.",
+      "questions": [
+        {
+          "id": 26,
+          "question": "Does FreshLeaf satisfy the net-tangible-assets limb of ICDR Reg 6(1) (NTA of ₹4 cr, ₹3.5 cr and ₹3.2 cr in the three preceding years)?",
+          "options": {
+            "A": "No — the three-year average is below the ₹5 crore requirement",
+            "B": "Yes — Reg 6(1)(a) requires NTA of at least ₹3 crore in EACH of the three preceding full years; ₹4 cr, ₹3.5 cr and ₹3.2 cr each clear ₹3 crore",
+            "C": "No — only the most recent year (₹3.2 cr) counts, and it must be ₹5 crore",
+            "D": "Yes — but only because the three-year average exceeds ₹3 crore"
+          },
+          "correct": "B",
+          "explanation": "Reg 6(1)(a) requires NTA of at least ₹3 crore in EACH of the three preceding full years (not an average, not ₹5 crore). All three years (₹4, ₹3.5, ₹3.2 crore) clear ₹3 crore, so the limb is satisfied. Option A and C use a ₹5 crore figure that does not apply. Option D reaches the right result by the wrong (averaging) route. Determinative facts: the three year-by-year NTA figures.",
+          "section": "SEBI ICDR Reg 6(1)(a)"
+        },
+        {
+          "id": 27,
+          "question": "FreshLeaf's average pre-tax operating profit over the best three of the preceding five years is ₹16 crore. Does this satisfy the ICDR profitability limb?",
+          "options": {
+            "A": "No — each of the five years must individually exceed ₹15 crore",
+            "B": "Yes — Reg 6(1)(c) requires a minimum average pre-tax operating profit of ₹15 crore over any three of the five preceding years; ₹16 crore clears it",
+            "C": "No — the threshold is ₹25 crore",
+            "D": "Yes — but the test uses the average of all five years"
+          },
+          "correct": "B",
+          "explanation": "Reg 6(1) requires a minimum average pre-tax operating profit of ₹15 crore calculated over any THREE of the immediately preceding FIVE years. ₹16 crore exceeds ₹15 crore, so the limb is met. Option A wrongly demands each year individually exceed ₹15 crore; Option C inflates to ₹25 crore; Option D uses an all-five-year average. Determinative fact: the ₹16 crore best-three average.",
+          "section": "SEBI ICDR Reg 6(1)"
+        },
+        {
+          "id": 28,
+          "question": "FreshLeaf failed to submit its quarterly financial results within the LODR timeline. What is that timeline under Reg 33?",
+          "options": {
+            "A": "60 days from the end of the quarter",
+            "B": "45 days from the end of the quarter (quarterly results), as against 60 days for annual audited results",
+            "C": "30 days from the end of the quarter",
+            "D": "21 days from the end of the quarter"
+          },
+          "correct": "B",
+          "explanation": "LODR Reg 33 requires quarterly financial results to be submitted within 45 days of the end of each quarter, while annual audited results are due within 60 days of the financial year-end. Option A applies the annual (60-day) timeline to a quarter (the common swap). Options C and D use figures from other contexts. Determinative point: distinguishing the 45-day quarterly deadline from the 60-day annual one.",
+          "section": "SEBI LODR Reg 33"
+        },
+        {
+          "id": 29,
+          "question": "[ICAI-style · Nov 2023] Is FreshLeaf's ₹950 crore related-party transaction 'material' under LODR Reg 23 (consolidated turnover ₹8,000 crore)?",
+          "options": {
+            "A": "No — ₹950 crore is below the ₹1,000 crore threshold",
+            "B": "Yes — a RPT is material if it exceeds the LOWER of ₹1,000 crore or 10% of consolidated turnover; 10% of ₹8,000 crore is ₹800 crore, and ₹950 crore exceeds that lower figure, so prior shareholder approval is required",
+            "C": "No — materiality is tested only against 10% of net worth",
+            "D": "Yes — because any RPT above ₹100 crore is material"
+          },
+          "correct": "B",
+          "explanation": "Under LODR Reg 23, a RPT is material if it exceeds the LOWER of ₹1,000 crore or 10% of consolidated annual turnover. 10% of ₹8,000 crore is ₹800 crore; the lower of ₹800 crore and ₹1,000 crore is ₹800 crore. ₹950 crore exceeds ₹800 crore, so it is material and needs prior shareholder approval. Option A applies only the ₹1,000 crore absolute cap (the favourite trap — students forget 'LOWER'). Options C and D state wrong tests. Determinative facts: ₹950 crore RPT against ₹8,000 crore turnover.",
+          "section": "SEBI LODR Reg 23"
+        },
+        {
+          "id": 30,
+          "question": "FreshLeaf failed to furnish information required by SEBI. What is the maximum penalty under Sec 15A of the SEBI Act?",
+          "options": {
+            "A": "A flat ₹1 lakh, irrespective of the duration of default",
+            "B": "₹1 lakh per day during which the failure continues, subject to a maximum of ₹1 crore",
+            "C": "The higher of ₹25 crore or three times the profit made",
+            "D": "Up to ₹10 lakh only"
+          },
+          "correct": "B",
+          "explanation": "Sec 15A of the SEBI Act penalises failure to furnish information/returns/documents at ₹1 lakh per day during which the failure continues, subject to a maximum of ₹1 crore. Option A omits the per-day accrual. Option C states the Sec 15G/15H/15HA formula (insider trading/takeover/fraud) — a cross-provision trap. Option D uses a figure that does not apply. Determinative point: the ₹1 lakh/day, ₹1 crore-cap structure of Sec 15A.",
+          "section": "SEBI Act Sec 15A"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s7",
+      "scenarioText": "Veloce Motors Ltd is a public company with paid-up share capital of ₹100 crore, free reserves of ₹150 crore and a securities premium of ₹50 crore; it currently has no outstanding borrowings. Its board proposes (i) to make an inter-corporate investment of ₹190 crore, and (ii) to borrow ₹280 crore. Veloce has 11 directors and no woman director. It has appointed the same individual as both its Chairperson and its Managing Director; its articles are silent on the point and it carries on a single line of business.",
+      "questions": [
+        {
+          "id": 31,
+          "question": "[ICAI-style · May 2022] Is a special resolution required under Sec 186 for Veloce's proposed inter-corporate investment of ₹190 crore?",
+          "options": {
+            "A": "Yes — ₹190 crore exceeds ₹180 crore (60% of paid-up capital + free reserves + securities premium), so a special resolution is required",
+            "B": "No — the Sec 186 free limit is the HIGHER of ₹180 crore (60% of paid-up + free reserves + securities premium) or ₹200 crore (100% of free reserves + securities premium); ₹190 crore is within ₹200 crore, so no special resolution is needed",
+            "C": "Yes — any investment above ₹100 crore requires a special resolution",
+            "D": "No — Sec 186 imposes no monetary limit on inter-corporate investments"
+          },
+          "correct": "B",
+          "explanation": "Sec 186(2)/(3): a company may, without a special resolution, give loans/guarantees or make investments up to the HIGHER of (i) 60% of paid-up capital + free reserves + securities premium = 60% × ₹300 cr = ₹180 cr, or (ii) 100% of free reserves + securities premium = ₹200 cr. The free limit is therefore ₹200 crore; ₹190 crore is within it, so no special resolution is required. Option A wrongly takes the LOWER limit (₹180 cr) — the classic Sec 186 trap. Options C and D state wrong rules. Determinative facts: the three capital figures and the ₹190 crore proposal.",
+          "section": "Section 186"
+        },
+        {
+          "id": 32,
+          "question": "Is a special resolution required under Sec 180(1)(c) for Veloce's proposed borrowing of ₹280 crore (no existing borrowings)?",
+          "options": {
+            "A": "Yes — ₹280 crore exceeds ₹250 crore (paid-up capital plus free reserves), so a special resolution is required",
+            "B": "No — since the 2017 amendment, the Sec 180(1)(c) threshold is paid-up capital + free reserves + securities premium = ₹300 crore; ₹280 crore is within it, so no special resolution is required",
+            "C": "Yes — any borrowing above ₹100 crore requires a special resolution",
+            "D": "No — Sec 180 applies only where borrowings exceed ₹500 crore"
+          },
+          "correct": "B",
+          "explanation": "The Companies (Amendment) Act, 2017 (w.e.f. 9 Feb 2018) amended Sec 180(1)(c) so the borrowing threshold is the aggregate of paid-up capital, free reserves AND securities premium = ₹100 + ₹150 + ₹50 = ₹300 crore. Borrowing ₹280 crore is within ₹300 crore, so no special resolution is needed. Option A applies the PRE-amendment basis (excluding securities premium = ₹250 crore) — the amendment trap. Options C and D state wrong rules. Determinative facts: the three figures and the ₹280 crore borrowing.",
+          "section": "Section 180(1)(c)"
+        },
+        {
+          "id": 33,
+          "question": "Veloce (paid-up capital ₹100 crore) has no woman director. Which statement is correct?",
+          "options": {
+            "A": "A woman director is optional for unlisted companies regardless of their size",
+            "B": "A public company with paid-up capital of ₹100 crore or more (or turnover of ₹300 crore or more) must appoint at least one woman director; Veloce qualifies and is in default",
+            "C": "Only listed companies are required to have a woman director",
+            "D": "A woman director is required only if paid-up capital exceeds ₹300 crore"
+          },
+          "correct": "B",
+          "explanation": "Under Sec 149(1) and the Companies (Appointment and Qualification of Directors) Rules, every listed company and every other public company with paid-up share capital of ₹100 crore or more, OR turnover of ₹300 crore or more, must have at least one woman director. Veloce, at ₹100 crore paid-up, qualifies and is in default. Option A wrongly exempts all unlisted companies; Option C limits it to listed companies; Option D swaps the ₹300 crore turnover figure onto paid-up capital. Determinative fact: the ₹100 crore paid-up capital.",
+          "section": "Section 149"
+        },
+        {
+          "id": 34,
+          "question": "Veloce has appointed the same individual as both Chairperson and Managing Director; its articles are silent and it carries on a single line of business. Is this permissible under Sec 203?",
+          "options": {
+            "A": "No — an individual can never simultaneously be Chairperson and Managing Director",
+            "B": "Yes — the bar on one person holding both posts does not apply where the company carries on a single business (or the articles otherwise permit); as Veloce has a single line of business, the combined appointment is permissible",
+            "C": "No — it is permissible only if paid-up capital is below ₹10 crore",
+            "D": "Yes — but only with the prior approval of the Central Government"
+          },
+          "correct": "B",
+          "explanation": "The proviso to Sec 203(1) bars the same individual from being Chairperson and MD/CEO simultaneously UNLESS (a) the articles otherwise provide, OR (b) the company does not carry on multiple businesses. Veloce carries on a single line of business, so exception (b) applies and the combined appointment is permitted. Option A is the overbroad trap. Options C and D invent conditions. Determinative facts: single line of business + articles silent.",
+          "section": "Section 203"
+        },
+        {
+          "id": 35,
+          "question": "Which statement about Veloce is INCORRECT?",
+          "options": {
+            "A": "Since the 2017 amendment, the Sec 180(1)(c) borrowing threshold includes securities premium",
+            "B": "A public company with ₹100 crore paid-up capital must appoint at least one woman director",
+            "C": "The Sec 186 free limit for loans/investments is the LOWER of the two prescribed limits",
+            "D": "A company carrying on a single business may have the same person as Chairperson and Managing Director"
+          },
+          "correct": "C",
+          "explanation": "The question seeks the INCORRECT statement. The Sec 186 free limit is the HIGHER of the two limits, not the lower, so Option C is false and is the answer. Options A (securities premium now in Sec 180), B (woman director at ₹100 crore paid-up) and D (single-business exception in Sec 203) are all correct. Determinative point: 'higher of', not 'lower of', under Sec 186.",
+          "section": "Section 186"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s8",
+      "scenarioText": "TerraMin Resources Ltd is a mining company with 1,200 members. A group of 90 members, together holding 7% of the total voting power, suspect fraud and want the Tribunal to order an investigation into the company's affairs. Separately, a body of shareholders proposes to bring a class action over manipulated accounts — and wishes to make the company's statutory AUDITOR a respondent. The NCLAT later decides an appeal, and one party wants to carry the matter to the Supreme Court on a mixed question of fact and law.",
+      "questions": [
+        {
+          "id": 36,
+          "question": "Do the 90 members (of 1,200 total), holding 7% of the voting power, qualify to seek a Tribunal-ordered investigation under Sec 213?",
+          "options": {
+            "A": "Yes — any 90 members may apply for an investigation",
+            "B": "No — Sec 213 requires at least 100 members OR members holding at least one-tenth of the total voting power; 90 members (below 100), holding only 7% (below 10%), meet neither route",
+            "C": "Yes — 7% of the voting power suffices because the threshold is 5%",
+            "D": "No — they need at least 200 members"
+          },
+          "correct": "B",
+          "explanation": "For a company with share capital, Sec 213(a) requires an application by not less than 100 members OR members holding not less than one-tenth of the total voting power. The group has 90 members (short of 100) and 7% voting power (short of 10%), so it qualifies under neither route. Option A ignores the threshold; Option C invents a 5% figure; Option D uses 200. Determinative facts: 90 members and 7% voting power.",
+          "section": "Section 213"
+        },
+        {
+          "id": 37,
+          "question": "The shareholders want to make TerraMin's statutory AUDITOR a respondent in a Sec 245 class action over manipulated accounts. Is the auditor a proper respondent?",
+          "options": {
+            "A": "No — a Sec 245 class action lies only against the company and its directors, not its auditor",
+            "B": "Yes — Sec 245 expressly permits a class action against the company, its directors AND its auditor (including the audit firm) for an improper or misleading statement or conduct",
+            "C": "No — claims against auditors lie only before the NFRA, never under Sec 245",
+            "D": "Yes — but only if the auditor holds shares in the company"
+          },
+          "correct": "B",
+          "explanation": "Sec 245(1) allows members/depositors to bring a class action seeking, among other things, to claim damages or compensation from or against the company, its directors, the AUDITOR (including the audit firm) for any improper or misleading statement in the audit report or for fraudulent/unlawful conduct, and even experts/advisors. The auditor is therefore a proper respondent. Option A wrongly excludes auditors (the trap). Option C wrongly makes NFRA the exclusive forum. Option D adds an irrelevant shareholding condition. Determinative fact: the class action targets the auditor.",
+          "section": "Section 245"
+        },
+        {
+          "id": 38,
+          "question": "If the shareholders fall short of the Sec 245 numerical threshold, can the Tribunal waive the requirement, as it can for an oppression petition?",
+          "options": {
+            "A": "Yes — the Tribunal's waiver power under Sec 244 applies equally to Sec 245 class actions",
+            "B": "No — unlike Sec 244 (where the Tribunal may waive the eligibility requirement), Sec 245 contains NO power of waiver; the threshold must be met",
+            "C": "Yes — the Tribunal may waive any eligibility threshold in the Companies Act",
+            "D": "No — but the Central Government may grant a waiver instead"
+          },
+          "correct": "B",
+          "explanation": "The Tribunal's express power to waive the eligibility threshold exists under the proviso to Sec 244 (oppression/mismanagement). Sec 245 (class action) contains NO corresponding waiver, so its numerical threshold must be satisfied. Option A wrongly extends the Sec 244 waiver to Sec 245. Option C overstates the power; Option D invents a CG waiver. Determinative point: Sec 244 is waivable, Sec 245 is not — a cross-provision contrast.",
+          "section": "Section 245 / Section 244"
+        },
+        {
+          "id": 39,
+          "question": "A party wishes to appeal the NCLAT's order to the Supreme Court on a mixed question of fact and law. Is this maintainable under Sec 423?",
+          "options": {
+            "A": "Yes — any NCLAT order can be appealed to the Supreme Court on any ground",
+            "B": "No — an appeal to the Supreme Court under Sec 423 lies only on a QUESTION OF LAW arising out of the NCLAT's order; a mixed question of fact and law does not qualify",
+            "C": "Yes — appeals on pure questions of fact are specifically permitted",
+            "D": "No — appeals from the NCLAT lie to the High Court, not the Supreme Court"
+          },
+          "correct": "B",
+          "explanation": "Sec 423 confines an appeal to the Supreme Court to a QUESTION OF LAW arising out of the NCLAT's order; questions of fact (or mixed questions) do not qualify. Option A is too wide; Option C is the reverse of the rule; Option D names the wrong forum (appeals from the NCLAT go to the Supreme Court, not the High Court). Determinative fact: the appeal is on a mixed question of fact and law.",
+          "section": "Section 423"
+        },
+        {
+          "id": 40,
+          "question": "Which statement regarding TerraMin is INCORRECT?",
+          "options": {
+            "A": "A Sec 213 investigation application requires 100 members or members holding one-tenth of the voting power",
+            "B": "A Sec 245 class action may be maintained against the company's auditor",
+            "C": "The Tribunal may waive the Sec 245 eligibility threshold, just as it can for a Sec 244 petition",
+            "D": "An appeal from the NCLAT to the Supreme Court lies only on a question of law"
+          },
+          "correct": "C",
+          "explanation": "The question seeks the INCORRECT statement. Sec 245 has no waiver power (unlike Sec 244), so Option C is false and is the answer. Options A, B and D are all correct. Determinative point: Sec 245 thresholds are non-waivable.",
+          "section": "Section 245"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s9",
+      "scenarioText": "Citadel Realty Ltd is listed, with 8 crore equity shares. Apex Estates has held 40% of Citadel since 2020 and has made no market acquisition in the preceding 52 weeks; it now wishes to make a voluntary open offer. Citadel's CFO frames a trading plan that is disclosed to the stock exchanges on 10 February 2026 and proposes to commence trading on 1 May 2026. Separately, a designated person of Citadel buys shares and then sells them four months later. In an unrelated matter, an insider trades on UPSI and makes a profit of ₹12 crore.",
+      "questions": [
+        {
+          "id": 41,
+          "question": "Is Apex Estates eligible to make a voluntary open offer for Citadel under SAST Reg 6?",
+          "options": {
+            "A": "No — only an acquirer holding below 25% may make a voluntary offer",
+            "B": "Yes — holding 40% (at least 25% and below the maximum permissible non-public shareholding) and having made no acquisition in the preceding 52 weeks, Apex may make a voluntary open offer of at least 10%",
+            "C": "No — a voluntary offer requires the acquirer to hold at least 51%",
+            "D": "Yes — but the minimum size of a voluntary open offer is 26%"
+          },
+          "correct": "B",
+          "explanation": "SAST Reg 6 entitles an acquirer holding 25% or more (but below the maximum permissible non-public shareholding) to make a voluntary open offer of at least 10%, provided it has not acquired shares in the preceding 52 weeks without attracting an open-offer obligation. Apex (40%, no 52-week acquisitions) qualifies. Option A reverses the holding requirement; Option C invents 51%; Option D uses the 26% mandatory-offer minimum. Determinative facts: 40% holding + no 52-week acquisition.",
+          "section": "SEBI SAST Reg 6"
+        },
+        {
+          "id": 42,
+          "question": "The trading plan, disclosed on 10 February 2026, proposes to commence trading on 1 May 2026. Is this compliant with PIT Reg 5?",
+          "options": {
+            "A": "Yes — trading may begin as soon as the plan is approved and disclosed",
+            "B": "No — trading under a plan cannot commence before 120 calendar days from public disclosure; from 10 February 2026 that is around 10 June 2026, so a 1 May start is premature",
+            "C": "Yes — the cooling-off period is 60 days, which 1 May satisfies",
+            "D": "No — the plan must wait 6 months (until around 10 August 2026)"
+          },
+          "correct": "B",
+          "explanation": "PIT Reg 5 requires that trading under a plan not commence earlier than 120 calendar days from public disclosure of the plan (cooling-off reduced from 6 months by the 2024 amendment). From 10 February 2026, 120 days runs to about 10 June 2026, so a 1 May start is too early. Option A ignores the cooling-off; Option C uses a wrong 60-day figure; Option D applies the PRE-amendment 6-month period (the amendment trap). Determinative facts: disclosure on 10 February, proposed start 1 May.",
+          "section": "SEBI PIT Reg 5"
+        },
+        {
+          "id": 43,
+          "question": "A designated person of Citadel bought shares and sold them four months later. Is this permissible under the PIT Code of Conduct?",
+          "options": {
+            "A": "Yes — a four-month gap is sufficient",
+            "B": "No — a designated person cannot execute a contra-trade within 6 months; a sale four months after the purchase is a prohibited contra-trade, and any profit is liable to be disgorged",
+            "C": "Yes — the contra-trade restriction period is only 3 months",
+            "D": "No — the restriction period is 12 months"
+          },
+          "correct": "B",
+          "explanation": "Schedule B of the PIT Regulations bars a designated person from executing a contra-trade within 6 months of an earlier trade; profits from a prohibited contra-trade are liable to disgorgement to SEBI for the IPEF. A sale four months after the purchase is within the 6-month window. Option A treats four months as enough; Option C uses 3 months; Option D uses 12 months. Determinative fact: the four-month gap.",
+          "section": "SEBI PIT (Schedule B)"
+        },
+        {
+          "id": 44,
+          "question": "An insider trades on UPSI and makes a profit of ₹12 crore. What is the maximum penalty under Sec 15G of the SEBI Act?",
+          "options": {
+            "A": "₹25 crore — the fixed penalty for insider trading",
+            "B": "₹36 crore — the higher of ₹25 crore or three times the profit made (3 × ₹12 crore)",
+            "C": "₹12 crore — equal to the profit made",
+            "D": "₹1 crore — the general penalty cap"
+          },
+          "correct": "B",
+          "explanation": "Sec 15G penalises insider trading at the HIGHER of ₹25 crore or three times the profit made. Here 3 × ₹12 crore = ₹36 crore, which exceeds ₹25 crore, so the maximum is ₹36 crore. Option A stops at the ₹25 crore floor (ignoring the 3× limb); Option C equates it to bare disgorgement; Option D uses the ₹1 crore cap of Sec 15A/15HB. Determinative fact: the ₹12 crore profit makes 3× exceed ₹25 crore.",
+          "section": "SEBI Act Sec 15G"
+        },
+        {
+          "id": 45,
+          "question": "Which statement about Citadel is INCORRECT?",
+          "options": {
+            "A": "A voluntary open offer under SAST must be for at least 10% of the shares",
+            "B": "A PIT trading plan's cooling-off period is 120 calendar days",
+            "C": "A designated person may freely execute a contra-trade after four months",
+            "D": "The Sec 15G penalty is the higher of ₹25 crore or three times the profit"
+          },
+          "correct": "C",
+          "explanation": "The question seeks the INCORRECT statement. The contra-trade bar is 6 months, so a contra-trade after four months is NOT permitted — Option C is false and is the answer. Options A (10% voluntary minimum), B (120-day cooling-off) and D (Sec 15G formula) are all correct. Determinative point: the 6-month contra-trade restriction.",
+          "section": "SEBI PIT (Schedule B)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s10",
+      "scenarioText": "Sahaay Foundation is a non-profit organisation registered 4 years ago. Over the last three years it has spent ₹16 lakh on its charitable activities. It now seeks registration under the FCRA and expects a foreign donation of ₹50 lakh. Its administrative expenses run at 28% of the foreign contribution received. It has, for convenience, deposited foreign contribution into an ordinary State Bank of India branch in Mumbai. A newspaper editor sits on its board. One of its resident Indian directors questions whether the ₹50 lakh foreign donation is 'foreign contribution' under the FCRA or 'foreign investment' under FEMA.",
+      "questions": [
+        {
+          "id": 46,
+          "question": "Is Sahaay eligible for FCRA registration (registered 4 years ago, having spent ₹16 lakh on its activities in the last 3 years)?",
+          "options": {
+            "A": "No — it must have spent at least ₹10 lakh",
+            "B": "Yes — registration requires the organisation to be in existence for at least 3 years and to have spent at least ₹15 lakh on its core activities during the preceding 3 years; Sahaay (4 years, ₹16 lakh) meets both",
+            "C": "No — it must first have RECEIVED at least ₹15 lakh of foreign contribution",
+            "D": "No — it must be at least 5 years old"
+          },
+          "correct": "B",
+          "explanation": "FCRA registration requires the applicant to have existed for at least 3 years and to have spent at least ₹15 lakh on its core/charitable activities during the preceding 3 years (excluding administrative expenditure). Sahaay (4 years old, ₹16 lakh spent) qualifies. Option A understates the figure to ₹10 lakh; Option C swaps 'spent' for 'received'; Option D uses 5 years. Determinative facts: 4 years' existence + ₹16 lakh spent.",
+          "section": "FCRA Sec 11 / Registration"
+        },
+        {
+          "id": 47,
+          "question": "Sahaay's administrative expenses are 28% of the foreign contribution received. Is this within the FCRA limit?",
+          "options": {
+            "A": "Yes — administrative expenses of up to 50% of FC are permitted",
+            "B": "No — administrative expenses must not exceed 20% of the foreign contribution received in a financial year; 28% breaches the cap",
+            "C": "Yes — there is no cap on administrative expenses",
+            "D": "No — the cap is 10%"
+          },
+          "correct": "B",
+          "explanation": "Post the 2020 amendment, administrative expenses met out of foreign contribution must not exceed 20% of the FC received in a financial year (reduced from 50%). Sahaay's 28% breaches the cap. Option A states the pre-2020 50% figure (the amendment trap). Option C denies any cap; Option D uses 10%. Determinative fact: the 28% administrative-expense ratio.",
+          "section": "FCRA Sec 8"
+        },
+        {
+          "id": 48,
+          "question": "Sahaay deposited foreign contribution into an ordinary SBI branch in Mumbai. Is this compliant with the FCRA?",
+          "options": {
+            "A": "Yes — any branch of the State Bank of India qualifies as the designated FCRA account",
+            "B": "No — foreign contribution must first be received in the designated 'FCRA Account' opened at the State Bank of India, New Delhi Main Branch; an ordinary Mumbai branch does not satisfy this",
+            "C": "Yes — any nationalised-bank account is acceptable",
+            "D": "No — it must be deposited with the Reserve Bank of India"
+          },
+          "correct": "B",
+          "explanation": "Since the 2020 amendment, every person granted FCRA registration/prior permission must receive foreign contribution only in the designated 'FCRA Account' opened at the State Bank of India, New Delhi Main Branch. An ordinary Mumbai SBI branch does not satisfy this. Option A wrongly treats any SBI branch as sufficient; Option C any nationalised bank; Option D the RBI. Determinative fact: the deposit into an ordinary Mumbai branch.",
+          "section": "FCRA Sec 17"
+        },
+        {
+          "id": 49,
+          "question": "A newspaper editor sits on Sahaay's board. Under Sec 3 of the FCRA, what is the position of newspaper editors regarding foreign contribution?",
+          "options": {
+            "A": "Newspaper editors are free to accept foreign contribution like any other citizen",
+            "B": "Editors (and publishers/printers) of registered newspapers are among the persons EXPRESSLY PROHIBITED from accepting foreign contribution under Sec 3, alongside election candidates, judges, government servants and legislators",
+            "C": "Only journalists, not editors, are prohibited from accepting FC",
+            "D": "Editors are prohibited only if the newspaper receives government advertising"
+          },
+          "correct": "B",
+          "explanation": "Sec 3 of the FCRA lists persons barred from accepting foreign contribution, including candidates for election, correspondents/columnists/cartoonists/EDITORS/owners/printers/publishers of registered newspapers, judges, government servants, members of legislatures and political parties. A newspaper editor is squarely within the prohibition. Option A is the trap; Option C wrongly distinguishes journalists from editors; Option D invents a government-advertising condition. Determinative fact: the board member is a newspaper editor.",
+          "section": "FCRA Sec 3"
+        },
+        {
+          "id": 50,
+          "question": "Is the ₹50 lakh foreign donation governed by the FCRA (as 'foreign contribution') or by FEMA (as 'foreign investment')?",
+          "options": {
+            "A": "By FEMA — every inflow of foreign currency is 'foreign investment'",
+            "B": "By the FCRA — a donation or gift received without quid pro quo from a foreign source is 'foreign contribution'; FEMA's 'foreign investment' involves acquiring shares/capital instruments for a return, which a charitable donation is not",
+            "C": "By both equally, requiring dual registration for every donation",
+            "D": "By neither — donations below ₹1 crore are unregulated"
+          },
+          "correct": "B",
+          "explanation": "A gratuitous donation/gift from a foreign source — with no quid pro quo and no acquisition of capital instruments — is 'foreign contribution' regulated by the FCRA, not 'foreign investment' under FEMA (which contemplates acquisition of shares/securities for returns). Option A wrongly sweeps every foreign inflow into FEMA; Option C imposes dual registration; Option D invents a ₹1 crore exemption. Determinative fact: the inflow is a charitable donation (no quid pro quo). (Cross-law distinction: FCRA contribution vs FEMA investment.)",
+          "section": "FCRA Sec 2 / FEMA"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s11",
+      "scenarioText": "GrandStay Hotels Ltd (the holding company) proposes to merge its wholly-owned subsidiary, StayEasy Ltd, into itself. The board wishes to use the fast-track route. As part of its governance, GrandStay's board appointed Mr. Verma as an additional director. During the year, two consecutive meetings of GrandStay's board were held 130 days apart. The scheme will be put to the members and creditors for approval before being filed with the appropriate authority.",
+      "questions": [
+        {
+          "id": 51,
+          "question": "Is the merger of wholly-owned subsidiary StayEasy into its holding company GrandStay eligible for the fast-track route under Sec 233?",
+          "options": {
+            "A": "No — the fast-track route is available only between two small companies",
+            "B": "Yes — Sec 233 fast-track merger is available for a merger between a holding company and its wholly-owned subsidiary (among other eligible combinations), so the GrandStay–StayEasy merger qualifies",
+            "C": "No — a holding–subsidiary merger always requires the full NCLT route under Sec 232",
+            "D": "Yes — but only if both companies are listed"
+          },
+          "correct": "B",
+          "explanation": "Sec 233 permits fast-track mergers between specified categories, including two or more small companies, a holding company and its wholly-owned subsidiary, and certain start-up combinations. A holding–WOS merger is expressly covered, so GrandStay–StayEasy qualifies. Option A limits it to small companies only; Option C wrongly forces the Sec 232 route; Option D adds a listing condition. Determinative fact: StayEasy is a wholly-owned subsidiary of GrandStay.",
+          "section": "Section 233"
+        },
+        {
+          "id": 52,
+          "question": "What member and creditor approval does the Sec 233 fast-track scheme require?",
+          "options": {
+            "A": "Three-fourths in value of the members and creditors present and voting",
+            "B": "Members holding at least 90% of the total number of shares, and creditors representing nine-tenths in value (or their written consent)",
+            "C": "90% in value of the members and 90% in number of the creditors",
+            "D": "A simple majority of the members and creditors"
+          },
+          "correct": "B",
+          "explanation": "Sec 233(1) requires the scheme to be approved by members holding at least 90% of the total number of shares, and by creditors representing nine-tenths (9/10) in value (or their consent in writing). Note the distinct bases: members by NUMBER of shares, creditors by VALUE. Option A applies the Sec 230 'three-fourths in value' test (wrong for fast-track). Option C swaps the number/value bases. Option D understates both. Determinative point: the 90%-of-shares / 9-10ths-of-creditors structure unique to Sec 233.",
+          "section": "Section 233"
+        },
+        {
+          "id": 53,
+          "question": "After member and creditor approval, how is the Sec 233 fast-track scheme finalised?",
+          "options": {
+            "A": "It must be sanctioned by the NCLT through a formal order, like a Sec 232 merger",
+            "B": "It is filed with the Central Government (Regional Director); if no objection is communicated within 60 days, the scheme is registered and takes effect without any NCLT order",
+            "C": "It requires the prior approval of SEBI before registration",
+            "D": "It is registered automatically on filing, with no government scrutiny at all"
+          },
+          "correct": "B",
+          "explanation": "In a Sec 233 fast-track merger, the approved scheme is filed with the Regional Director (Central Government); if the RD has no objection (or the prescribed 60-day period lapses without objection / reference to the Tribunal), the scheme is registered and is effective — no NCLT sanction order is needed. Option A wrongly requires NCLT sanction; Option C invents SEBI approval; Option D denies any scrutiny. Determinative point: the 60-day RD process replaces NCLT sanction.",
+          "section": "Section 233"
+        },
+        {
+          "id": 54,
+          "question": "GrandStay held two consecutive board meetings 130 days apart. Is this compliant with Sec 173?",
+          "options": {
+            "A": "Yes — a gap of up to 180 days between board meetings is permitted",
+            "B": "No — the gap between two consecutive board meetings must not exceed 120 days; a 130-day gap violates Sec 173",
+            "C": "Yes — only the minimum of four meetings per year matters, not the gap",
+            "D": "No — the maximum permissible gap is 90 days"
+          },
+          "correct": "B",
+          "explanation": "Sec 173(1) requires a minimum of four board meetings per year AND that not more than 120 days intervene between two consecutive meetings. A 130-day gap breaches the 120-day cap, regardless of the number of meetings held. Option A uses 180 days; Option C ignores the gap rule; Option D uses 90 days (the minimum-interval concept for OPC/small/dormant companies). Determinative fact: the 130-day gap.",
+          "section": "Section 173"
+        },
+        {
+          "id": 55,
+          "question": "GrandStay's board appointed Mr. Verma as an additional director under Sec 161. Until when may he hold office?",
+          "options": {
+            "A": "For five years, like a director appointed in general meeting",
+            "B": "Only up to the date of the next annual general meeting, or the last date on which that AGM ought to have been held, whichever is earlier",
+            "C": "Until he resigns or is removed by special resolution",
+            "D": "Indefinitely, until the board chooses to reconstitute itself"
+          },
+          "correct": "B",
+          "explanation": "Sec 161(1) provides that an additional director appointed by the board holds office only up to the date of the next AGM or the last date on which the AGM should have been held, whichever is earlier — to be regularised by the members if he is to continue. Option A gives a five-year tenure he does not have; Options C and D wrongly make his tenure open-ended. Determinative fact: Mr. Verma is an ADDITIONAL director under Sec 161.",
+          "section": "Section 161"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s12",
+      "scenarioText": "Helios Inc, a company incorporated in the United States, establishes a branch office (a physical place of business) in India on 1 April 2026. Indian residents hold 45% of Helios's paid-up share capital. Helios files the documents required of a foreign company with the Registrar on 9 May 2026. For a separate product line, Helios merely runs a website accessible in India, with no physical presence in India for that line.",
+      "questions": [
+        {
+          "id": 56,
+          "question": "Helios established its branch office (place of business) on 1 April 2026 and filed the required documents with the Registrar on 9 May 2026. Was the filing within the Sec 380 time limit?",
+          "options": {
+            "A": "Yes — foreign companies have 60 days to file",
+            "B": "No — Sec 380 requires filing within 30 days of establishing a place of business (i.e., by 1 May 2026); the 9 May filing is late",
+            "C": "Yes — the deadline is 90 days",
+            "D": "No — but the deadline is only 21 days"
+          },
+          "correct": "B",
+          "explanation": "Sec 380 requires a foreign company to deliver the prescribed documents (charter/MoA-AoA, list of directors, principal officer, authorised representative, etc.) to the Registrar within 30 days of establishing a place of business in India. From 1 April 2026, the 30 days end on 1 May 2026; filing on 9 May is late. Option A uses 60 days; Option C 90 days; Option D 21 days. Determinative facts: establishment on 1 April, filing on 9 May.",
+          "section": "Section 380"
+        },
+        {
+          "id": 57,
+          "question": "Indian residents hold 45% of Helios's paid-up capital. Which provisions of the Companies Act apply to Helios?",
+          "options": {
+            "A": "The entire Companies Act, 2013, because Helios has a place of business in India",
+            "B": "Only Sections 380 to 386 and 392 to 393 (the foreign-company provisions); the whole Act would apply only if Indians held 50% or more of the paid-up capital",
+            "C": "No provision of the Companies Act applies to a foreign company",
+            "D": "The whole Act applies because Indian holding exceeds 25%"
+          },
+          "correct": "B",
+          "explanation": "Under Sec 379, the foreign-company provisions (Sec 380–386 and 392–393) apply to all foreign companies having a place of business in India; the FULL Companies Act applies only where not less than 50% of the paid-up capital is held by Indian citizens/companies. Indian holding here is 45% (below 50%), so only the foreign-company provisions apply. Option A and D apply the whole Act on wrong bases (place of business / 25%); Option C wrongly exempts the company entirely. Determinative fact: 45% Indian holding (below 50%).",
+          "section": "Section 379"
+        },
+        {
+          "id": 58,
+          "question": "Helios's separate product line is run only through a website accessible in India, with no physical presence for it. Does that online presence by itself constitute a 'place of business' triggering Sec 380 for that line?",
+          "options": {
+            "A": "Yes — any website accessible in India is a place of business",
+            "B": "No — a mere online presence, without a physical place of business, does not by itself constitute a 'place of business'; it is the branch office (a physical presence) that triggers the Sec 380 obligations",
+            "C": "Yes — online sales to Indian customers always create a place of business",
+            "D": "No — but only because that product line earns below ₹1 crore"
+          },
+          "correct": "B",
+          "explanation": "A 'place of business' connotes some physical or tangible presence (an office, branch, share-transfer/registration office, etc.). A mere website accessible in India, without a physical establishment, does not by itself create a place of business; here it is the physical branch office that triggers Sec 380. Options A and C wrongly equate online accessibility/sales with a place of business; Option D invents a turnover threshold. Determinative fact: the online product line has no physical presence in India.",
+          "section": "Section 386"
+        },
+        {
+          "id": 59,
+          "question": "Apart from the Companies Act filing, under which law is the establishment of Helios's branch office in India regulated?",
+          "options": {
+            "A": "It is unregulated apart from the Companies Act",
+            "B": "It is regulated under FEMA, 1999 — the establishment of a branch/liaison/project office in India by a person resident outside India requires RBI approval/compliance under the FEMA regulations",
+            "C": "It is regulated by SEBI under the ICDR Regulations",
+            "D": "It is regulated by the FCRA, 2010"
+          },
+          "correct": "B",
+          "explanation": "The establishment of a branch/liaison/project office in India by a person resident outside India is a capital-account-type activity regulated by the RBI under FEMA, 1999 and the regulations made thereunder (the Branch/Office regulations). Option A wrongly says it is unregulated; Option C (ICDR governs securities issues) and Option D (FCRA governs foreign contribution to non-profits) name the wrong laws — the FCRA confusion is a deliberate cross-law trap. Determinative fact: a foreign company establishing a branch in India.",
+          "section": "FEMA 1999"
+        },
+        {
+          "id": 60,
+          "question": "Which statement about Helios's obligations is INCORRECT?",
+          "options": {
+            "A": "The Sec 380 documents must be filed in electronic form on the MCA21 portal",
+            "B": "The 30-day filing period runs from the establishment of the place of business",
+            "C": "Because Indian residents hold 45%, the entire Companies Act applies to Helios",
+            "D": "A mere online presence, without a physical place of business, does not trigger Sec 380"
+          },
+          "correct": "C",
+          "explanation": "The question seeks the INCORRECT statement. The whole Act applies to a foreign company only where Indian holding is 50% or more; at 45% only Sec 380–386 and 392–393 apply, so Option C is false and is the answer. Options A (e-filing under Sec 398), B (30 days from establishment) and D (online-only is not a place of business) are all correct. Determinative point: the 50% Indian-holding threshold.",
+          "section": "Section 379"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s13",
+      "scenarioText": "Surya Textiles Ltd has not filed its financial statements or annual returns for five consecutive financial years. A creditor has served a statutory demand of ₹2 crore, which has remained unpaid for 30 days. The Registrar of Companies wishes to present a winding-up petition alleging that the company was formed for a fraudulent and unlawful purpose. The directors have filed a Declaration of Solvency stating that the company's debts will be paid in full within 3.5 years, intending a members' voluntary winding-up. The NCLT, hearing an oppression petition against the company, is considering ordering winding-up as a remedy.",
+      "questions": [
+        {
+          "id": 61,
+          "question": "Surya has not filed its financial statements and annual returns for five consecutive years. Is this a ground for compulsory winding-up?",
+          "options": {
+            "A": "No — non-filing is never a ground for winding-up",
+            "B": "Yes — failure to file financial statements or annual returns for five consecutive financial years is a specified ground for winding-up by the Tribunal under Sec 271",
+            "C": "No — the relevant threshold is three consecutive years",
+            "D": "Yes — but only after seven years of continuous non-filing"
+          },
+          "correct": "B",
+          "explanation": "Sec 271(e) makes default in filing financial statements or annual returns for the immediately preceding FIVE consecutive financial years a ground on which the Tribunal may wind up a company. Option A denies the ground; Option C uses three years (which is the Sec 164(2) DISQUALIFICATION trigger — a cross-provision trap); Option D uses seven years. Determinative fact: five consecutive years' non-filing.",
+          "section": "Section 271"
+        },
+        {
+          "id": 62,
+          "question": "Can the Registrar present a winding-up petition alleging that Surya was formed for a fraudulent and unlawful purpose?",
+          "options": {
+            "A": "Yes — the Registrar may petition on any of the statutory grounds",
+            "B": "No — under Sec 272 the Registrar is barred from presenting a winding-up petition on the 'fraudulent/unlawful purpose' ground (and the just-and-equitable ground); it may petition on the non-filing and certain other grounds",
+            "C": "Yes — but only with the prior sanction of the NCLAT",
+            "D": "No — the Registrar can never present a winding-up petition"
+          },
+          "correct": "B",
+          "explanation": "Sec 272 lets the Registrar present a winding-up petition on most grounds, but it is expressly barred from petitioning on the ground that the company was formed for a fraudulent/unlawful purpose (Sec 271(c)) and on the just-and-equitable ground (Sec 271(e) — just and equitable). The Registrar could, however, petition on the five-year non-filing ground. Option A ignores the bar; Option C invents an NCLAT sanction; Option D wrongly bars the Registrar entirely. Determinative fact: the Registrar is alleging a fraudulent/unlawful purpose.",
+          "section": "Section 272"
+        },
+        {
+          "id": 63,
+          "question": "The directors' Declaration of Solvency states that Surya's debts will be paid in full within 3.5 years. Is the declaration valid for a members' voluntary winding-up?",
+          "options": {
+            "A": "Yes — any period up to five years is acceptable",
+            "B": "No — a Declaration of Solvency must state that the company will be able to pay its debts in full within a period not exceeding three years from the commencement of winding-up; 3.5 years exceeds this",
+            "C": "Yes — there is no time limit in a Declaration of Solvency",
+            "D": "No — the period must not exceed one year"
+          },
+          "correct": "B",
+          "explanation": "A valid Declaration of Solvency requires the directors to declare that the company will be able to pay its debts in full within a period not exceeding THREE years from the commencement of winding-up. A 3.5-year statement exceeds the cap and is invalid. Option A uses five years; Option C denies any limit; Option D uses one year. Determinative fact: the 3.5-year payment period.",
+          "section": "Section 304"
+        },
+        {
+          "id": 64,
+          "question": "Can the NCLT, while deciding the oppression petition, order the winding-up of Surya as a remedy under Sec 242?",
+          "options": {
+            "A": "No — winding-up can be ordered only in a separate petition under Sec 271",
+            "B": "Yes — Sec 242 empowers the Tribunal, on an oppression/mismanagement petition, to order the winding-up of the company as one of its remedies, without a separate winding-up petition",
+            "C": "No — the Tribunal can only regulate the company's affairs and can never order winding-up",
+            "D": "Yes — but only if 75% of the members consent"
+          },
+          "correct": "B",
+          "explanation": "Sec 242(2) lists the wide reliefs the Tribunal may grant on an oppression/mismanagement petition, and Sec 242(1) allows it to wind up the company where that is just and equitable and winding-up would not unfairly prejudice the applicants — without requiring a separate winding-up petition. Option A wrongly insists on a Sec 271 petition; Option C denies the power; Option D invents a 75% consent. Determinative fact: winding-up sought as a remedy within the oppression petition.",
+          "section": "Section 242"
+        },
+        {
+          "id": 65,
+          "question": "The creditor's demand of ₹2 crore has gone unpaid for 30 days. Which is the correct position on initiating insolvency/winding-up?",
+          "options": {
+            "A": "The ₹2 crore default is below the IBC threshold, so only a Companies Act winding-up is possible",
+            "B": "The ₹2 crore default exceeds the ₹1 crore IBC default threshold, so a creditor may initiate CIRP under the IBC; if CIRP fails or no resolution plan is approved, liquidation follows under Sec 33 of the IBC",
+            "C": "The ₹2 crore default is below the ₹1 lakh Companies Act threshold",
+            "D": "No insolvency action lies until the default exceeds ₹5 crore"
+          },
+          "correct": "B",
+          "explanation": "The ₹2 crore default exceeds the ₹1 crore IBC minimum default, so a creditor may trigger CIRP; under Sec 33, liquidation follows if no resolution plan is approved (or the CoC/NCLT so decides). Option A wrongly says ₹2 crore is below the IBC threshold; Option C garbles the Companies Act ₹1 lakh figure (₹2 crore is well above it); Option D invents a ₹5 crore threshold. Determinative fact: the ₹2 crore default exceeds ₹1 crore. (Cross-law: ₹1 crore IBC vs ₹1 lakh Companies Act.)",
+          "section": "IBC Sec 4 / Sec 33"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s14",
+      "scenarioText": "LearnSphere Ltd, an ed-tech company, recently completed its IPO and is now listed. The minimum promoters' contribution amounts to 20% of the post-issue capital. The book-built issue (profitability route) proposed allocating 40% of the net offer to qualified institutional buyers. Shortly after listing, LearnSphere signs a material acquisition agreement that is not yet announced to the stock exchanges (UPSI), and the company delays informing the exchanges.",
+      "questions": [
+        {
+          "id": 66,
+          "question": "For how long is the minimum promoters' contribution (20% of post-issue capital) locked in after LearnSphere's IPO?",
+          "options": {
+            "A": "Three years from the date of allotment",
+            "B": "18 months from the date of allotment (the minimum promoters' contribution lock-in, reduced from three years)",
+            "C": "Six months from the date of listing",
+            "D": "12 months from the date of allotment"
+          },
+          "correct": "B",
+          "explanation": "Under the ICDR Regulations (as amended in 2021), the minimum promoters' contribution (20% of post-issue capital) is locked in for 18 months from the date of allotment, reduced from the earlier three-year period. Option A states the pre-amendment three years (the amendment trap); Option C (six months) is the lock-in for promoters' holding in excess of the minimum / certain pre-issue non-promoter holdings; Option D uses 12 months. Determinative point: the 18-month MPC lock-in.",
+          "section": "SEBI ICDR (lock-in)"
+        },
+        {
+          "id": 67,
+          "question": "LearnSphere's book-built issue (profitability route) proposed allocating 40% of the net offer to QIBs. Is this compliant with the ICDR Regulations?",
+          "options": {
+            "A": "Yes — the QIB allocation may be any percentage the issuer chooses",
+            "B": "No — in a book-built issue under the profitability route, at least 50% of the net offer must be allotted to QIBs; 40% is below the minimum",
+            "C": "Yes — the QIB minimum is only 35%",
+            "D": "No — the QIB minimum is 75%"
+          },
+          "correct": "B",
+          "explanation": "In a book-built issue made under the profitability/eligibility route, not less than 50% of the net offer must be allotted to QIBs (with not more than 15% to non-institutional investors and not less than 35% to retail). 40% is short of the 50% QIB floor. Option C uses the 35% retail figure; Option D uses the 75% QIB allotment required under the alternate Reg 6(2) route (a cross-context trap). Determinative fact: the proposed 40% QIB allocation.",
+          "section": "SEBI ICDR (allocation)"
+        },
+        {
+          "id": 68,
+          "question": "LearnSphere signed a material acquisition agreement and delayed informing the exchanges. As regards insider trading, which is correct?",
+          "options": {
+            "A": "Until the agreement is disclosed, insiders are free to trade because nothing is official yet",
+            "B": "The unannounced material acquisition is UPSI; insiders in possession of it are prohibited from trading until it becomes generally available, and delaying its disclosure does not legitimise trading on it",
+            "C": "Acquisition agreements are never UPSI until the deal is completed",
+            "D": "Only the counterparty's insiders, not LearnSphere's, are restricted from trading"
+          },
+          "correct": "B",
+          "explanation": "A material acquisition agreement that is not generally available is UPSI under the PIT Regulations. Insiders in possession of it cannot trade until it becomes generally available, and delaying the disclosure does not cure the prohibition — indeed it aggravates the LODR breach. Option A treats undisclosed information as tradeable; Option C wrongly says agreements are UPSI only on completion; Option D wrongly limits the restriction to the counterparty. Determinative fact: the unannounced material acquisition is UPSI.",
+          "section": "SEBI PIT Reg 4"
+        },
+        {
+          "id": 69,
+          "question": "The material acquisition is an event under LODR Reg 30. What is LearnSphere required to do?",
+          "options": {
+            "A": "Nothing until the next quarterly results are published",
+            "B": "Disclose the material event/agreement to the stock exchanges promptly, within the timeline prescribed under Reg 30, rather than withholding it until results",
+            "C": "Disclose it only in the annual report",
+            "D": "Disclose it only to SEBI, and not to the stock exchanges"
+          },
+          "correct": "B",
+          "explanation": "LODR Reg 30 requires a listed entity to disclose material events/information (a material acquisition being one) to the stock exchanges promptly within the prescribed timeline, so that the market is informed; it cannot be held back until results or the annual report. Option A defers improperly; Option C confines it to the annual report; Option D wrongly routes it to SEBI only. Determinative point: prompt Reg 30 disclosure to the exchanges.",
+          "section": "SEBI LODR Reg 30"
+        },
+        {
+          "id": 70,
+          "question": "Which statement about LearnSphere is INCORRECT?",
+          "options": {
+            "A": "The minimum promoters' contribution is locked in for 18 months, not three years",
+            "B": "A book-built issue under the profitability route requires at least 50% allotment to QIBs",
+            "C": "An unannounced material acquisition agreement is not UPSI until the deal is closed",
+            "D": "A material acquisition is a disclosable event under LODR Reg 30"
+          },
+          "correct": "C",
+          "explanation": "The question seeks the INCORRECT statement. An unannounced material acquisition agreement IS UPSI well before completion (it is not generally available and is price-sensitive), so Option C is false and is the answer. Options A (18-month MPC lock-in), B (50% QIB) and D (Reg 30 disclosure) are all correct. Determinative point: UPSI does not wait for deal closure.",
+          "section": "SEBI PIT Reg 4"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s15",
+      "scenarioText": "Voltedge Power Ltd has a net profit (computed under Sec 198) of ₹40 crore and has no managing director or whole-time director. One of its directors, Mr. Ghosh, holds 25% of a counterparty with which Voltedge proposes a related-party contract. At the board meeting, Mr. Ghosh participated in the discussion and voted on the resolution approving that contract, and he had earlier failed to disclose his interest in Form MBP-1. Mr. Ghosh also absented himself from all meetings of the board held over a period of 13 months.",
+      "questions": [
+        {
+          "id": 71,
+          "question": "Mr. Ghosh, interested in the related-party contract, participated in and voted on the board resolution approving it. Is this proper under Sec 184/188?",
+          "options": {
+            "A": "Yes — directors may always vote on contracts in which they are interested, provided they have disclosed the interest",
+            "B": "No — an interested director must disclose his interest and must NOT participate in or vote on the resolution relating to that contract; his presence is also not counted towards the quorum for that item",
+            "C": "Yes — voting is barred only for related-party transactions of listed companies",
+            "D": "No — but only his vote is invalid; his participation in the discussion is permitted"
+          },
+          "correct": "B",
+          "explanation": "Sec 184(2) requires a director to disclose his interest and not to participate in the meeting's discussion or vote on a contract/arrangement in which he is interested; Sec 188 reinforces that an interested director cannot vote on a related-party transaction, and his presence is disregarded for the quorum on that item. Mr. Ghosh's participation and vote are therefore improper. Option A wrongly allows voting on disclosure; Option C limits it to listed companies; Option D wrongly permits participation in discussion. Determinative fact: Mr. Ghosh's interest plus his participation and vote.",
+          "section": "Section 184 / Section 188"
+        },
+        {
+          "id": 72,
+          "question": "Mr. Ghosh failed to disclose his interest in Form MBP-1. What follows under Sec 184?",
+          "options": {
+            "A": "Nothing — MBP-1 disclosure is a mere formality with no consequence",
+            "B": "Non-disclosure of interest is a contravention attracting a penalty under Sec 184, and a contract entered into without the required disclosure is voidable at the option of the company",
+            "C": "He is automatically disqualified for five years",
+            "D": "The contract becomes automatically void ab initio"
+          },
+          "correct": "B",
+          "explanation": "Failure to disclose interest in Form MBP-1 contravenes Sec 184(1)/(2) and attracts a penalty under Sec 184(4); further, under Sec 188(3)/general principles a contract entered into without the requisite disclosure/approval is VOIDABLE at the company's option. Option A treats it as inconsequential; Option C imports the Sec 164 disqualification; Option D says the contract is void (it is voidable, not void) — a precise but important distinction. Determinative fact: the MBP-1 non-disclosure.",
+          "section": "Section 184"
+        },
+        {
+          "id": 73,
+          "question": "Mr. Ghosh absented himself from all meetings of the board held over a period of 13 months. What is the consequence under Sec 167?",
+          "options": {
+            "A": "Nothing — there is no minimum attendance requirement for directors",
+            "B": "His office is deemed vacated — a director who absents himself from ALL meetings of the board held during a period of 12 months (with or without leave of absence) vacates office under Sec 167(1)(b)",
+            "C": "His office is vacated only after 24 months of continuous absence",
+            "D": "He vacates office only if he misses three consecutive meetings"
+          },
+          "correct": "B",
+          "explanation": "Sec 167(1)(b) provides that the office of a director becomes vacant if he absents himself from ALL the meetings of the board held during a period of 12 months, with or without leave of absence. Over 13 months Mr. Ghosh missed all meetings, so his office is vacated. Option A denies the rule; Option C uses 24 months; Option D applies a 'three consecutive meetings' test that is not the statutory standard. Determinative fact: absence from all board meetings over 13 months.",
+          "section": "Section 167"
+        },
+        {
+          "id": 74,
+          "question": "Voltedge has no managing or whole-time director. What is the maximum remuneration payable to its non-executive directors (net profit ₹40 crore)?",
+          "options": {
+            "A": "1% of net profits = ₹40 lakh",
+            "B": "3% of net profits = ₹1.2 crore — because the company has no managing or whole-time director, the cap for non-executive directors is 3% (instead of 1%)",
+            "C": "11% of net profits = ₹4.4 crore",
+            "D": "5% of net profits = ₹2 crore"
+          },
+          "correct": "B",
+          "explanation": "Under Sec 197(1), remuneration to directors who are neither managing nor whole-time directors is capped at 1% of net profits if there is a managing/whole-time director or manager, and 3% if there is none. Voltedge has no MD/WTD, so the 3% cap applies: 3% × ₹40 crore = ₹1.2 crore. Option A uses the 1% (with-MD) figure; Option C uses the 11% overall cap; Option D uses the 5% single-MD limit. Determinative facts: no MD/WTD + ₹40 crore net profit.",
+          "section": "Section 197"
+        },
+        {
+          "id": 75,
+          "question": "Which statement about Voltedge is INCORRECT?",
+          "options": {
+            "A": "An interested director must not vote on the related-party resolution",
+            "B": "Absence from all board meetings over a period of 12 months vacates a director's office",
+            "C": "With no managing or whole-time director, the non-executive directors may be paid up to 1% of net profits",
+            "D": "Non-disclosure of interest renders the contract voidable at the company's option"
+          },
+          "correct": "C",
+          "explanation": "The question seeks the INCORRECT statement. Where there is no MD/WTD, the non-executive directors' remuneration cap is 3% (not 1%), so Option C is false and is the answer. Options A (Sec 184/188 voting bar), B (Sec 167(1)(b) 12-month absence) and D (voidable contract) are all correct. Determinative point: 3% applies in the absence of an MD/WTD.",
+          "section": "Section 197"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s16",
+      "scenarioText": "Maharaja Industries Ltd, the listed flagship of the Maharaja Group, is under investigation by the SFIO for suspected fund diversion. While the investigation is on, a raider acquires 26% of Maharaja's voting rights. The company then enters CIRP under the IBC; immediately on admission, the moratorium takes effect, and an equipment lessor seeks to repossess machinery in Maharaja's possession. The liquidator later finds that the business had been carried on with intent to defraud creditors. A party aggrieved by the NCLT's CIRP order wishes to appeal.",
+      "questions": [
+        {
+          "id": 76,
+          "question": "A raider acquired 26% of Maharaja's voting rights while the company was under SFIO investigation. Does the SFIO investigation affect the open-offer obligation under SAST?",
+          "options": {
+            "A": "Yes — an open offer cannot be made while a company is under SFIO investigation",
+            "B": "No — crossing 25% triggers a mandatory open offer under SAST Reg 3 regardless of any pending SFIO investigation; the two regimes operate independently",
+            "C": "No — but during an investigation the open-offer trigger rises to 30%",
+            "D": "Yes — the open offer is suspended until the investigation concludes"
+          },
+          "correct": "B",
+          "explanation": "The SAST open-offer obligation is triggered the moment an acquirer crosses 25% of voting rights (Reg 3), independent of any SFIO investigation under the Companies Act; the two regimes operate in parallel. Option A and D wrongly suspend the open offer; Option C invents a raised 30% trigger during investigations. Determinative facts: 26% acquisition (crossing 25%) during the SFIO probe — integrating Ch 4 and SAST.",
+          "section": "SEBI SAST Reg 3"
+        },
+        {
+          "id": 77,
+          "question": "During Maharaja's CIRP moratorium, the equipment lessor seeks to repossess machinery in the company's possession. Is this permitted?",
+          "options": {
+            "A": "Yes — a lessor's property rights override the moratorium",
+            "B": "No — the Sec 14 moratorium bars the recovery of any property by an owner or lessor where that property is in the possession of the corporate debtor; the lessor cannot repossess during the moratorium",
+            "C": "Yes — the moratorium applies only to financial creditors, not to lessors",
+            "D": "No — but the lessor may repossess with the interim resolution professional's oral consent"
+          },
+          "correct": "B",
+          "explanation": "Sec 14(1)(d) of the IBC prohibits, during the moratorium, the recovery of any property by an owner or lessor where such property is occupied by or in the possession of the corporate debtor. The lessor therefore cannot repossess the machinery during the moratorium. Option A wrongly elevates the lessor's rights; Option C wrongly limits the moratorium to financial creditors; Option D invents an oral-consent exception. Determinative fact: leased machinery in the debtor's possession during the moratorium.",
+          "section": "IBC Sec 14"
+        },
+        {
+          "id": 78,
+          "question": "When does the moratorium under the IBC take effect?",
+          "options": {
+            "A": "30 days after the insolvency application is admitted",
+            "B": "Simultaneously with the admission of the insolvency application by the NCLT, along with the appointment of the interim resolution professional",
+            "C": "Only after the committee of creditors holds its first meeting",
+            "D": "Only after a resolution plan has been approved"
+          },
+          "correct": "B",
+          "explanation": "Under Sec 13/14, the NCLT declares the moratorium SIMULTANEOUSLY with admission of the application (and appoints the IRP and causes a public announcement) — not after a delay or after the CoC/resolution stages. Option A introduces a 30-day delay; Options C and D defer the moratorium to later stages. Determinative point: moratorium is declared on admission.",
+          "section": "IBC Sec 13 / Sec 14"
+        },
+        {
+          "id": 79,
+          "question": "The liquidator finds that Maharaja's business was carried on with intent to defraud creditors. What is the consequence under Sec 339?",
+          "options": {
+            "A": "Nothing beyond the normal winding-up process",
+            "B": "On the liquidator's application, the Tribunal may hold persons who were knowingly parties to carrying on the business with intent to defraud creditors PERSONALLY responsible, without any limitation of liability, for the company's debts",
+            "C": "Only the company, as a separate legal entity, remains liable",
+            "D": "Personal liability is capped at the amount of the director's remuneration"
+          },
+          "correct": "B",
+          "explanation": "Sec 339 (fraudulent conduct of business) empowers the Tribunal, on the application of the Official Liquidator/company liquidator, to declare persons who were knowingly parties to carrying on the business with intent to defraud creditors personally responsible, WITHOUT any limitation of liability, for all or any of the debts of the company. Option A ignores this; Option C clings to separate legal personality despite the statutory lifting of the veil; Option D invents a remuneration cap. Determinative fact: business carried on to defraud creditors.",
+          "section": "Section 339"
+        },
+        {
+          "id": 80,
+          "question": "Which statement about the Maharaja Industries situation is INCORRECT?",
+          "options": {
+            "A": "Crossing 25% triggers a SAST open offer even during an SFIO investigation",
+            "B": "The IBC moratorium bars a lessor from repossessing equipment in the debtor's possession",
+            "C": "The IBC moratorium takes effect only 30 days after the application is admitted",
+            "D": "Persons who carried on the business to defraud creditors can be made personally liable under Sec 339"
+          },
+          "correct": "C",
+          "explanation": "The question seeks the INCORRECT statement. The moratorium is declared SIMULTANEOUSLY with admission, not 30 days later, so Option C is false and is the answer. Options A (SAST trigger independent of SFIO probe), B (Sec 14 bar on lessor repossession) and D (Sec 339 personal liability) are all correct. Determinative point: simultaneity of the moratorium with admission.",
+          "section": "IBC Sec 14"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s17",
+      "scenarioText": "CONCEPT-BASED SET (no fact scenario): the following questions test integrated, cross-chapter mastery of numbers that recur across the Corporate & Economic Laws with DIFFERENT meanings. (Exam-sitting tags shown below are indicative of ICAI's recurring testing areas — drawn from memory-based recaps, RTPs/MTPs and past papers — and are not claims of verbatim reproduction.) Pick the option that keeps the colliding thresholds correctly apart.",
+      "questions": [
+        {
+          "id": 81,
+          "question": "[ICAI-style · May 2023] Which statement correctly distinguishes the ₹1 lakh and ₹1 crore thresholds?",
+          "options": {
+            "A": "Both the Companies Act inability-to-pay demand and the IBC default threshold are ₹1 crore",
+            "B": "The Companies Act statutory-demand (inability-to-pay) threshold is ₹1 lakh, whereas the IBC minimum default threshold is ₹1 crore (raised from ₹1 lakh in 2020)",
+            "C": "The Companies Act threshold is ₹1 crore and the IBC threshold is ₹1 lakh",
+            "D": "Both are ₹1 lakh"
+          },
+          "correct": "B",
+          "explanation": "Two different statutes, two different figures: the Companies Act inability-to-pay statutory demand uses ₹1 lakh, while the IBC minimum default for initiating CIRP is ₹1 crore (raised from ₹1 lakh by the March 2020 notification). Option C reverses them; Option A and D collapse them into one figure. The trap is that both were ₹1 lakh historically until the IBC figure was raised in 2020.",
+          "section": "Companies Act Sec 271 / IBC Sec 4"
+        },
+        {
+          "id": 82,
+          "question": "Which statement about the '182-day' test is correct across the two laws that use it?",
+          "options": {
+            "A": "Both the FEMA residence test and the Companies Act resident-director test use 182 days measured over the calendar year",
+            "B": "The FEMA 182-day residence test is measured over the preceding FINANCIAL year (April–March), whereas the Companies Act resident-director requirement (Sec 149(3)) of 182 days is measured over the CALENDAR year",
+            "C": "FEMA uses the calendar year, and the Companies Act uses the financial year",
+            "D": "Both use the financial year"
+          },
+          "correct": "B",
+          "explanation": "Same number, different windows: FEMA Sec 2(v) measures residence by presence of more than 182 days in the preceding FINANCIAL year (April–March), while Sec 149(3) of the Companies Act requires a resident director to have stayed in India for at least 182 days during the CALENDAR year. Option C reverses the two; Options A and D wrongly unify them. This is a classic cross-law collision.",
+          "section": "FEMA Sec 2(v) / Companies Act Sec 149(3)"
+        },
+        {
+          "id": 83,
+          "question": "[ICAI-style · Nov 2023] Which statement correctly states the various super-majority/percentage thresholds?",
+          "options": {
+            "A": "An IBC resolution plan is approved by 75% of the CoC voting share",
+            "B": "An IBC resolution plan needs 66% of the CoC voting share; a Sec 230 compromise needs three-fourths (75%) in value present and voting; a Sec 233 fast-track scheme needs members holding 90% of the total shares (by number); and a Sec 236 squeeze-out operates at 90% holding",
+            "C": "All corporate-restructuring approvals require 90%",
+            "D": "A Sec 230 compromise needs only a simple majority (over 50%) in value"
+          },
+          "correct": "B",
+          "explanation": "Each restructuring tool has its own threshold: IBC CoC plan approval = 66% (reduced from 75% in 2019); Sec 230 compromise = majority in number representing three-fourths (75%) in value present and voting; Sec 233 fast-track = members holding 90% of the total number of shares (and 9/10 in value of creditors); Sec 236 minority squeeze-out = 90% holding. Option A states the pre-2019 75% CoC figure; Option C over-generalises to 90%; Option D understates Sec 230. The trap is conflating these distinct percentages.",
+          "section": "IBC Sec 30 / Companies Act Sec 230, 233, 236"
+        },
+        {
+          "id": 84,
+          "question": "Which statement about the '45-day' and '60-day' periods is correct?",
+          "options": {
+            "A": "The NCLT-to-NCLAT appeal period is 60 days and LODR quarterly results are due within 45 days",
+            "B": "An appeal from the NCLT to the NCLAT must be filed within 45 days (condonable by a further 45, capped at 90); LODR quarterly results are due within 45 days and annual audited results within 60 days of the period-end",
+            "C": "The NCLT-to-NCLAT appeal period is 90 days with no condonation",
+            "D": "LODR annual results are due within 45 days and quarterly within 60 days"
+          },
+          "correct": "B",
+          "explanation": "Sec 421: NCLT-to-NCLAT appeal within 45 days, condonable by a further 45 (max 90). LODR Reg 33: quarterly results within 45 days of the quarter-end, annual audited results within 60 days of the financial year-end. Option A swaps the appeal period to 60 days; Option C drops the condonation and uses 90; Option D reverses the quarterly/annual periods. The trap is the recurring 45/60 swap.",
+          "section": "Companies Act Sec 421 / SEBI LODR Reg 33"
+        },
+        {
+          "id": 85,
+          "question": "Which statement about the '5%/10%' disclosure and eligibility figures is correct?",
+          "options": {
+            "A": "PIT continual disclosure is triggered by a 2% change in holding",
+            "B": "SAST requires disclosure on crossing 5% and on every 2% change thereafter; PIT continual disclosure is value-based (₹10 lakh in a calendar quarter), not percentage-based; and Sec 244 oppression eligibility (share-capital company) is 100 members or one-tenth of members, whichever LESS, or one-tenth of the issued capital",
+            "C": "PIT and SAST use the same 5%/2% disclosure trigger",
+            "D": "Sec 244 eligibility uses the HIGHER of 100 members or one-tenth of the members"
+          },
+          "correct": "B",
+          "explanation": "SAST Reg 29 uses a 5% acquisition disclosure and a 2% change-disclosure; PIT Reg 7(2) continual disclosure is value-based (traded value above ₹10 lakh in a calendar quarter), NOT a 5%/2% test; Sec 244 eligibility is 100 members or one-tenth of members, whichever LESS, or one-tenth of issued capital. Option A and C wrongly graft SAST's percentage triggers onto PIT; Option D uses 'higher' instead of 'whichever less' for Sec 244. The trap is the SAST↔PIT disclosure confusion.",
+          "section": "SEBI SAST Reg 29 / PIT Reg 7 / Companies Act Sec 244"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s18",
+      "scenarioText": "CONCEPT-BASED SET (no fact scenario): integrated questions on eligibility, waivers and forum/jurisdiction across the Companies Act. Choose the option that states the law correctly.",
+      "questions": [
+        {
+          "id": 86,
+          "question": "Regarding waiver of eligibility thresholds, which statement is correct?",
+          "options": {
+            "A": "Both the Sec 244 and the Sec 245 thresholds can be waived by the Tribunal",
+            "B": "The Tribunal may waive the eligibility threshold for a Sec 244 oppression petition, but there is NO power to waive the threshold for a Sec 245 class action",
+            "C": "Neither threshold can ever be waived",
+            "D": "Only the Central Government, not the Tribunal, may waive the Sec 244 threshold"
+          },
+          "correct": "B",
+          "explanation": "The proviso to Sec 244 expressly empowers the Tribunal to waive the eligibility requirement for an oppression/mismanagement application; Sec 245 (class action) contains NO such waiver. Option A wrongly extends waiver to Sec 245; Option C denies the Sec 244 waiver; Option D misattributes the power to the Central Government. The trap is assuming both provisions behave alike.",
+          "section": "Section 244 / Section 245"
+        },
+        {
+          "id": 87,
+          "question": "Which statement about an SFIO investigation under Sec 212 is correct?",
+          "options": {
+            "A": "The SFIO shares jurisdiction with the State police and the CBI",
+            "B": "Once assigned, the SFIO has exclusive jurisdiction; offences under Sec 212 are both cognizable AND non-bailable, and arrests may be made by authorised officers",
+            "C": "SFIO offences are cognizable but bailable",
+            "D": "The SFIO must hand the matter to the CBI for prosecution"
+          },
+          "correct": "B",
+          "explanation": "Once the SFIO is assigned an investigation, it has exclusive jurisdiction (no other agency may proceed), and the offences specified are both cognizable AND non-bailable, with a power of arrest for authorised officers. Option A wrongly posits concurrent jurisdiction; Option C makes them bailable; Option D diverts prosecution to the CBI. The trap is the 'cognizable but bailable' half-truth.",
+          "section": "Section 212"
+        },
+        {
+          "id": 88,
+          "question": "Which statement about appeals and the bar on civil-court jurisdiction is correct?",
+          "options": {
+            "A": "A party aggrieved by an NCLT order may, as the first remedy, approach the High Court by writ",
+            "B": "An appeal from the NCLT lies to the NCLAT; a further appeal to the Supreme Court lies only on a question of law; and civil courts are barred (Sec 430) from entertaining matters within the NCLT's jurisdiction",
+            "C": "Appeals from the NCLAT to the Supreme Court lie on questions of fact",
+            "D": "Civil courts have concurrent jurisdiction with the NCLT"
+          },
+          "correct": "B",
+          "explanation": "The statutory channel is NCLT → NCLAT → Supreme Court (the last only on a question of law under Sec 423), and Sec 430 bars civil courts from entertaining any matter which the NCLT/NCLAT is empowered to determine. Option A bypasses the NCLAT; Option C allows fact appeals to the Supreme Court; Option D asserts concurrent civil-court jurisdiction. The trap is forum confusion.",
+          "section": "Section 421 / 423 / 430"
+        },
+        {
+          "id": 89,
+          "question": "Which of the following is NOT a trigger for a Central Government investigation into a company's affairs under Sec 210?",
+          "options": {
+            "A": "A special resolution passed by the company that its affairs ought to be investigated",
+            "B": "An order of the Tribunal directing that the company's affairs be investigated",
+            "C": "The Central Government forming an opinion (for instance, on a Registrar's or inspector's report) that an investigation is warranted",
+            "D": "A written request by any single shareholder, irrespective of his holding, demanding an investigation"
+          },
+          "correct": "D",
+          "explanation": "The question seeks the option that is NOT a trigger. Sec 210 lists three triggers: (i) on receipt of a report of the Registrar/inspector; (ii) on intimation of a special resolution passed by the company that its affairs ought to be investigated; and (iii) in the public interest — and the Central Government MUST order an investigation when the Tribunal so directs. A demand by any single shareholder regardless of holding is NOT a statutory trigger, so Option D is the answer. Options A, B and C are valid triggers. The trap is forgetting that the company's own special resolution is a trigger while a lone shareholder's demand is not.",
+          "section": "Section 210"
+        },
+        {
+          "id": 90,
+          "question": "Regarding privilege during an inspection/investigation under Sec 227, which statement is correct?",
+          "options": {
+            "A": "Neither a legal adviser nor a banker enjoys any privilege",
+            "B": "A legal adviser's privilege is absolute and cannot be overridden, whereas a banker may be required to disclose a customer's information only if the Tribunal specifically so directs",
+            "C": "A banker's privilege is absolute, while a legal adviser must always disclose",
+            "D": "Both privileges can be overridden by the inspector acting alone"
+          },
+          "correct": "B",
+          "explanation": "Sec 227 preserves a legal adviser's privilege ABSOLUTELY, while a banker's confidentiality yields only where the Tribunal specifically directs disclosure of a customer's affairs. Option C reverses the two; Options A and D wrongly abolish privilege or let the inspector override it. The trap is treating the banker's and the legal adviser's positions as identical.",
+          "section": "Section 227"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s19",
+      "scenarioText": "CONCEPT-BASED SET (no fact scenario): integrated questions on statutory timelines and limits across the Companies Act, the IBC, SEBI SAST and FEMA. Choose the option that states the periods/limits correctly.",
+      "questions": [
+        {
+          "id": 91,
+          "question": "Which set of meeting notice/gap periods is correct?",
+          "options": {
+            "A": "Board-meeting notice is 21 days and AGM notice is 7 days",
+            "B": "A board meeting requires 7 days' notice, an AGM requires 21 clear days' notice, and the gap between two consecutive board meetings must not exceed 120 days",
+            "C": "The maximum gap between two consecutive board meetings is 90 days",
+            "D": "AGM notice is 14 days and board-meeting notice is 30 days"
+          },
+          "correct": "B",
+          "explanation": "Sec 173: board meetings require at least 7 days' notice and the gap between two consecutive meetings must not exceed 120 days; Sec 101: an AGM requires 21 clear days' notice. Option A swaps the two notice periods; Option C uses 90 days for the board-meeting gap (that figure relates to the minimum interval for OPC/small/dormant companies' half-yearly meetings); Option D uses wrong figures. The trap is the 7/21-day notice swap.",
+          "section": "Section 173 / Section 101"
+        },
+        {
+          "id": 92,
+          "question": "Which IBC timeline is correct?",
+          "options": {
+            "A": "The NCLT must admit or reject a financial creditor's Sec 7 application within 30 days",
+            "B": "The NCLT is to ascertain the default and admit/reject a Sec 7 application within 14 days; an operational creditor must serve a 21-day demand notice before filing; and CIRP must be completed within 330 days including any litigation",
+            "C": "CIRP must be completed within 180 days, with no extension whatsoever",
+            "D": "A financial creditor must serve a 21-day demand notice before filing under Sec 7"
+          },
+          "correct": "B",
+          "explanation": "Sec 7(4): the NCLT ascertains the default and admits/rejects within 14 days; Sec 8: an operational creditor must first serve a 21-day demand notice (a financial creditor need not); Sec 12: CIRP is to be completed within 180 days, extendable by 90 (270), and in any case within 330 days including time taken in legal proceedings. Option A uses 30 days; Option C denies any extension; Option D wrongly requires a demand notice from a financial creditor. The trap is the FC-vs-OC demand-notice distinction.",
+          "section": "IBC Sec 7 / 8 / 12"
+        },
+        {
+          "id": 93,
+          "question": "Which SAST threshold is correct?",
+          "options": {
+            "A": "The open-offer trigger is 15% of voting rights and the minimum open-offer size is 20% of total shares",
+            "B": "The open-offer trigger is 25% of voting rights and the minimum open-offer size is 26% of total shares",
+            "C": "The trigger is 25% and the minimum open-offer size is 20%",
+            "D": "The trigger is 26% and the minimum open-offer size is 25%"
+          },
+          "correct": "B",
+          "explanation": "Under SAST 2011, the substantial-acquisition open-offer trigger is 25% of voting rights (Reg 3) and the minimum open-offer size is 26% of the total shares (Reg 7). Option A states the pre-2011 (1997 Code) figures of 15%/20% — the amendment trap; Option C keeps the right trigger but the old 20% size; Option D reverses the two figures. The trap is the 15%/20% legacy numbers.",
+          "section": "SEBI SAST Reg 3 / Reg 7"
+        },
+        {
+          "id": 94,
+          "question": "Which FEMA limit is correct?",
+          "options": {
+            "A": "The Liberalised Remittance Scheme (LRS) limit is USD 1,00,000 per person per financial year",
+            "B": "The LRS limit is USD 2,50,000 per person per financial year, and export proceeds must be realised and repatriated within the period prescribed under Sec 7",
+            "C": "The LRS limit is USD 5,00,000 per calendar year",
+            "D": "There is no monetary limit under the LRS"
+          },
+          "correct": "B",
+          "explanation": "The LRS permits remittance of up to USD 2,50,000 per person per FINANCIAL year for permitted current/capital-account transactions, and FEMA Sec 7 requires export proceeds to be realised and repatriated within the prescribed period. Option A understates the LRS limit; Option C uses a wrong figure and the calendar year; Option D denies any limit. The trap is the USD figure and the financial-year basis.",
+          "section": "FEMA (LRS) / Sec 7"
+        },
+        {
+          "id": 95,
+          "question": "Which incorporation/first-meeting timeline is correct?",
+          "options": {
+            "A": "The first board meeting must be held within 90 days of incorporation",
+            "B": "The first board meeting must be held within 30 days of the date of incorporation, and the first annual general meeting within 9 months of the close of the first financial year",
+            "C": "The first AGM must be held within 6 months of incorporation",
+            "D": "The first board meeting must be held within 7 days of incorporation"
+          },
+          "correct": "B",
+          "explanation": "Sec 173(1) requires the first board meeting within 30 days of the date of incorporation; Sec 96 requires the first AGM within 9 months of the close of the first financial year (and subsequent AGMs within 6 months of the close of the financial year, with a maximum 15-month gap). Option A uses 90 days; Option C confuses the 6-month rule (subsequent AGMs) and ties it to incorporation; Option D uses the 7-day notice period as if it were the holding deadline. The trap is mixing the first-AGM and subsequent-AGM rules.",
+          "section": "Section 173 / Section 96"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s20",
+      "scenarioText": "CONCEPT-BASED SET (no fact scenario): integrated questions on penalties and consequences across the SEBI Act, FEMA, the Companies Act and the PIT Regulations. Choose the option that states the consequence correctly.",
+      "questions": [
+        {
+          "id": 96,
+          "question": "Which SEBI Act penalty is correctly stated?",
+          "options": {
+            "A": "The penalty for insider trading (Sec 15G) is a flat ₹25 crore",
+            "B": "Sec 15G penalises insider trading at the HIGHER of ₹25 crore or three times the profit made, whereas failure to furnish information (Sec 15A) attracts ₹1 lakh per day, capped at ₹1 crore",
+            "C": "Sec 15A penalises failure to furnish information at the higher of ₹25 crore or three times the profit",
+            "D": "Both Sec 15G and Sec 15A cap the penalty at ₹1 crore"
+          },
+          "correct": "B",
+          "explanation": "Sec 15G (insider trading) and Sec 15H/15HA (takeover non-disclosure / fraudulent trade) impose a penalty of the HIGHER of ₹25 crore or three times the profit; Sec 15A (failure to furnish information/returns) imposes ₹1 lakh per day, capped at ₹1 crore. Option A drops the 3× limb of Sec 15G; Option C swaps the formulae; Option D wrongly caps Sec 15G at ₹1 crore. The trap is mixing the 15A cap with the 15G floor/multiple.",
+          "section": "SEBI Act Sec 15A / 15G"
+        },
+        {
+          "id": 97,
+          "question": "Which FEMA penalty under Sec 13 is correctly stated?",
+          "options": {
+            "A": "For a quantifiable contravention, the penalty is a flat ₹2 lakh",
+            "B": "For a quantifiable contravention, up to three times the sum involved; for a non-quantifiable contravention, up to ₹2 lakh; and a further ₹5,000 per day for a continuing contravention",
+            "C": "For a non-quantifiable contravention, up to three times the sum involved",
+            "D": "The continuing-contravention penalty is ₹1,000 per day"
+          },
+          "correct": "B",
+          "explanation": "FEMA Sec 13: where the amount is quantifiable, penalty up to three times the sum involved; where not quantifiable, up to ₹2 lakh; and where the contravention continues, a further penalty up to ₹5,000 for every day of continuance. Option A applies the non-quantifiable flat figure to a quantifiable contravention; Option C reverses the quantifiable/non-quantifiable treatment; Option D uses ₹1,000/day (a Companies Act-style figure). The trap is the quantifiable-vs-non-quantifiable swap.",
+          "section": "FEMA Sec 13"
+        },
+        {
+          "id": 98,
+          "question": "After the 2019 amendment, which statement about Sec 405 (failure to comply with a Central Government order to furnish statistics) is correct?",
+          "options": {
+            "A": "The default is punishable with imprisonment of up to six months and a fine of ₹25,000",
+            "B": "It now attracts a civil penalty of ₹20,000, plus ₹1,000 per day of continuing failure, subject to a maximum of ₹3,00,000 — with no imprisonment",
+            "C": "The penalty is the higher of ₹25 crore or three times any benefit obtained",
+            "D": "There is no penalty for failing to furnish statistics"
+          },
+          "correct": "B",
+          "explanation": "Sec 405 was decriminalised by the 2019 amendment: the company and every officer in default are liable to a PENALTY of ₹20,000, with a further ₹1,000 per day of continuing failure, subject to a maximum of ₹3,00,000 — there is no imprisonment. Option A states the repealed criminal regime; Option C borrows the SEBI insider-trading formula; Option D denies any penalty. The trap is the pre-2019 ₹25,000-plus-imprisonment position.",
+          "section": "Companies Act Sec 405"
+        },
+        {
+          "id": 99,
+          "question": "A designated person makes a profit on a prohibited contra-trade under the PIT Code of Conduct. What is the consequence?",
+          "options": {
+            "A": "A SEBI penalty of ₹25 crore",
+            "B": "The profit is liable to be disgorged and remitted to SEBI for credit to the Investor Protection and Education Fund; this is a Code-of-Conduct consequence distinct from the Sec 15G penalty",
+            "C": "The trade is automatically void and reversed by the depository",
+            "D": "An automatic 10-year ban from the securities market"
+          },
+          "correct": "B",
+          "explanation": "Under Schedule B of the PIT Regulations, where a designated person executes a prohibited contra-trade (an opposite transaction within 6 months), the profits are liable to be DISGORGED and remitted to SEBI for credit to the Investor Protection and Education Fund — a Code-of-Conduct consequence administered by the company, distinct from the Sec 15G insider-trading penalty. Option A imports the ₹25 crore Sec 15G figure; Option C treats the trade as void; Option D invents an automatic ban. The trap is confusing disgorgement with the SEBI Act penalty.",
+          "section": "SEBI PIT (Schedule B)"
+        },
+        {
+          "id": 100,
+          "question": "Which statement about punishment for fraud under Sec 447 is correct?",
+          "options": {
+            "A": "Fraud under Sec 447 is punishable only with a fine, never with imprisonment",
+            "B": "Fraud under Sec 447 is punishable with imprisonment from 6 months to 10 years and a fine ranging from the amount involved to three times that amount; where the fraud involves public interest, the minimum imprisonment is 3 years",
+            "C": "The maximum imprisonment under Sec 447 is 3 years",
+            "D": "Section 447 applies only to listed companies"
+          },
+          "correct": "B",
+          "explanation": "Sec 447 punishes fraud with imprisonment for a term of not less than 6 months extending to 10 years, plus a fine not less than the amount involved and up to three times that amount; where the fraud involves public interest, the minimum term is 3 years. Option A denies imprisonment; Option C caps imprisonment at 3 years (that is the minimum in public-interest cases, not the maximum); Option D wrongly limits Sec 447 to listed companies. The trap is treating the 3-year public-interest minimum as the overall maximum.",
+          "section": "Section 447"
+        }
+      ]
+    }
+  ]
+}

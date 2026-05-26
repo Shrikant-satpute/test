@@ -259,6 +259,19 @@
       "duration": 45,
       "available": true,
       "keySections": ["Sec 3", "Sec 4", "Sec 5", "Sec 6", "Sec 7", "Sec 8", "Sec 9", "Sec 10", "Sec 13", "Sec 14", "Sec 15", "Sec 16", "Sec 17", "Sec 18", "Sec 19", "Sec 20", "Sec 21", "Sec 22", "Sec 23", "Sec 24", "Sec 25", "Sec 29A", "Sec 31", "Sec 33"]
+    },
+    {
+      "id": "full-mock-1",
+      "code": "GT-01",
+      "name": "Full Syllabus Grand Test — All Chapters (Integrated)",
+      "law": "Corporate & Economic Laws (All 18 chapters)",
+      "category": "full-mock",
+      "totalQuestions": 100,
+      "totalMarks": 200,
+      "passMarks": 100,
+      "duration": 180,
+      "available": true,
+      "keySections": ["Companies Act 2013: Ch 1-10 (Sec 149-434)", "SEBI Act 1992", "SEBI LODR 2015", "SEBI ICDR 2018", "SEBI SAST 2011", "SEBI PIT 2015", "FEMA 1999", "FCRA 2010", "IBC 2016"]
     }
   ]
 }

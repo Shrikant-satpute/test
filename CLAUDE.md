@@ -89,5 +89,15 @@ Repo: `Shrikant-satpute/test` on GitHub, branch `main`. Linked to Vercel project
 
 For any new chapter generation, **always use WebSearch / WebFetch** to pull recent ICAI memory-based questions and coaching recaps. Use them to identify (a) topics ICAI repeatedly tests, (b) the trap style they favour, (c) distractor numbers they swap. Never copy verbatim — questions must be original and harder.
 
+## 9. Full Syllabus Grand Test card (`full-mock`)
+
+A special card type that tests the **entire** Corporate & Economic Laws syllabus in one paper, mirroring ICAI's real Paper 4 case-scenario MCQ style.
+
+- **ID/code:** `full-mock-1` / `GT-01`. **Category:** `full-mock` (4th category — has its own colour + dashboard filter; wired in `lib/types.ts` `Chapter.category` union, `app/dashboard/page.tsx` `CATEGORY_META`, and the filter buttons). Any new full-mock card MUST reuse this category, never invent another, or `tsc` and the dashboard `CATEGORY_META[category]` lookup break.
+- **Size:** 100 MCQs × 2 marks = 200; pass 50% (100); duration 180 min.
+- **Composition:** ~80 **scenario-based** questions where each scenario is **multi-chapter / integrated** (a single fact pattern that pulls in 2–4 different chapters — e.g. investigation → oppression → NCLT appeal, or takeover → insider trading → LODR), plus **20 concept-based** questions (standalone, still very hard, cross-chapter comparison / cross-law-trap driven; these are the only questions exempt from the blind-test).
+- **Exam-sitting tags:** where a question mirrors a perennially ICAI-tested topic, prefix the question with an indicative tag like `[ICAI-style · May 2023]` and note it in the explanation. Tags are **pattern-indicative** (memory-based / RTP / MTP / past-paper areas), not claims of verbatim reproduction — state this transparently.
+- All other rules (8 Rules, hardness bar, cross-law-traps, industry variety) apply unchanged. No two scenarios share an industry/persona across the 20 scenario blocks.
+
 ---
 *Coverage files isolate per-chapter detail. Only the chapter being worked on loads. Keep this index ≤200 lines.*

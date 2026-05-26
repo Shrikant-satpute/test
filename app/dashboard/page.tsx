@@ -8,6 +8,7 @@ const CATEGORY_META = {
   'companies-act':    { label: 'Companies Act, 2013', color: '#6366f1', bg: 'rgba(99,102,241,0.1)',  border: 'rgba(99,102,241,0.3)'  },
   'securities-laws':  { label: 'Securities Laws',      color: '#f59e0b', bg: 'rgba(245,158,11,0.1)', border: 'rgba(245,158,11,0.3)'  },
   'economic-laws':    { label: 'Economic Laws',         color: '#a855f7', bg: 'rgba(168,85,247,0.1)', border: 'rgba(168,85,247,0.3)'  },
+  'full-mock':        { label: 'Full Syllabus Grand Test', color: '#ef4444', bg: 'rgba(239,68,68,0.12)', border: 'rgba(239,68,68,0.35)' },
 };
 
 function StatusBadge({ progress }: { progress: ChapterProgress | undefined }) {
@@ -25,7 +26,7 @@ export default function DashboardPage() {
   const [progress, setProgress] = useState<Record<string, ChapterProgress>>({});
   const [legacyCount, setLegacyCount] = useState(0);
   const [loading, setLoading] = useState(true);
-  const [filter, setFilter] = useState<'all' | 'companies-act' | 'securities-laws' | 'economic-laws'>('all');
+  const [filter, setFilter] = useState<'all' | 'companies-act' | 'securities-laws' | 'economic-laws' | 'full-mock'>('all');
 
   useEffect(() => {
     const raw = localStorage.getItem('ca_session');
@@ -164,6 +165,7 @@ export default function DashboardPage() {
             { key: 'companies-act', label: 'Companies Act' },
             { key: 'securities-laws', label: 'Securities Laws' },
             { key: 'economic-laws', label: 'Economic Laws' },
+            { key: 'full-mock', label: 'Grand Test' },
           ].map(({ key, label }) => (
             <button
               key={key}

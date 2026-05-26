@@ -12,7 +12,7 @@ export interface Chapter {
   code: string;
   name: string;
   law: string;
-  category: 'companies-act' | 'securities-laws' | 'economic-laws';
+  category: 'companies-act' | 'securities-laws' | 'economic-laws' | 'full-mock';
   totalQuestions: number;
   totalMarks: number;
   passMarks: number;
