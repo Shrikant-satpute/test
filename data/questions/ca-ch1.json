@@ -1,0 +1,363 @@
+{
+  "chapterId": "ca-ch1",
+  "chapterName": "Appointment and Qualification of Directors",
+  "law": "Companies Act, 2013",
+  "category": "companies-act",
+  "scenarios": [
+    {
+      "scenarioId": "s1",
+      "scenarioText": "Aurevia Pharmaceuticals Ltd is a listed public company with a board of 12 directors, of whom only 3 are independent. Its chairperson, Mr. Desai, is an executive (whole-time) director. The company relies on Ms. Kapoor to satisfy the resident-director requirement; she stayed in India for 170 days during the calendar year 2025. Another proposed director, Mr. Iyer, already holds directorships in 20 other companies, of which 2 are dormant companies and 7 are public companies. A further appointee, Mr. Sen, was named a director at the AGM although he had only applied for, and not yet been allotted, a Director Identification Number.",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aurevia is a listed company with 12 directors, of whom 3 are independent. Under Sec 149(4), is the board's composition compliant?",
+          "options": {
+            "A": "Yes — 3 independent directors are sufficient for a listed company",
+            "B": "No — Sec 149(4) requires at least one-third of the total number of directors of a listed public company to be independent; one-third of 12 is 4, so with only 3 IDs the board is non-compliant",
+            "C": "Yes — only 2 independent directors are required",
+            "D": "No — at least half (6) of the board must be independent under Sec 149(4)"
+          },
+          "correct": "B",
+          "explanation": "Sec 149(4) requires every listed public company to have at least one-third of the total number of directors as independent directors. One-third of 12 = 4, so 3 IDs is short by one. Option A understates the requirement. Option C uses the '2 IDs' threshold applicable to certain UNLISTED public companies. Option D uses the one-half rule, which is a LODR Reg 17 requirement (where the chairperson is executive), not the Sec 149 baseline. Determinative facts: 12 directors and only 3 IDs.",
+          "section": "Section 149(4)"
+        },
+        {
+          "id": 2,
+          "question": "Aurevia relies on Ms. Kapoor for the resident-director requirement; she stayed in India for 170 days during calendar year 2025. Is the requirement met?",
+          "options": {
+            "A": "Yes — 170 days suffices because the threshold is measured over the financial year, in which she was present enough",
+            "B": "No — Sec 149(3) requires the resident director to have stayed in India for at least 182 days during the CALENDAR year; 170 days falls short",
+            "C": "Yes — the resident-director threshold is only 120 days",
+            "D": "No — the threshold is 182 days but measured over the financial year (April–March)"
+          },
+          "correct": "B",
+          "explanation": "Sec 149(3) requires every company to have at least one director who has stayed in India for at least 182 days during the CALENDAR year. Ms. Kapoor's 170 days falls short. Options A and D wrongly switch to the FINANCIAL year — that is FEMA's residence window (Sec 2(v)), a deliberate cross-law trap; the Companies Act director test uses the calendar year. Option C uses a wrong 120-day figure. Determinative fact: the 170-day stay in the calendar year.",
+          "section": "Section 149(3)"
+        },
+        {
+          "id": 3,
+          "question": "Mr. Iyer already holds directorships in 20 other companies, of which 2 are dormant and 7 are public. Can he accept appointment to Aurevia's board?",
+          "options": {
+            "A": "No — he already holds 20 directorships, the maximum permitted, so he cannot take any more",
+            "B": "Yes — directorships in dormant companies are excluded from the limit of 20; excluding the 2 dormant companies he holds 18, so adding Aurevia makes 19 (within 20), and his public-company count becomes 8 (7 + Aurevia), within the limit of 10",
+            "C": "No — his public-company directorships would become 11, exceeding the limit of 10",
+            "D": "Yes — there is no limit on the number of public-company directorships"
+          },
+          "correct": "B",
+          "explanation": "Sec 165 caps directorships at 20 (with a sub-limit of 10 public companies), but directorships in DORMANT companies are excluded from the count of 20. Excluding Iyer's 2 dormant companies leaves 18; adding Aurevia makes 19 (within 20), and his public count becomes 7 + 1 = 8 (within 10). Option A counts the dormant companies (the trap). Option C miscounts the public companies as 10 (it is 7). Option D denies the public sub-limit. Determinative facts: 20 others, of which 2 dormant and 7 public.",
+          "section": "Section 165"
+        },
+        {
+          "id": 4,
+          "question": "Mr. Sen was appointed a director at the AGM, having applied for but not yet been allotted a DIN. Is the appointment valid?",
+          "options": {
+            "A": "Yes — a DIN may be obtained within 30 days of appointment",
+            "B": "No — under Sec 152(3) no person can be appointed a director unless he has been allotted a Director Identification Number (or other prescribed number); appointment before allotment is invalid",
+            "C": "Yes — a DIN is required only for managing directors",
+            "D": "No — but only because he is not a member of the company"
+          },
+          "correct": "B",
+          "explanation": "Sec 152(3) bars the appointment of any person as a director unless he has been allotted a DIN under Sec 154 (or such other number as prescribed). Merely having applied is not enough; allotment must precede appointment. Option A invents a 30-day grace. Option C wrongly limits the DIN requirement to MDs. Option D raises an irrelevant membership point (directors need not be members). Determinative fact: Sen had applied for but not been allotted a DIN.",
+          "section": "Section 152(3)"
+        },
+        {
+          "id": 5,
+          "question": "Which statement about Aurevia's board is INCORRECT?",
+          "options": {
+            "A": "A listed public company must have at least one-third of its directors as independent directors",
+            "B": "The resident-director requirement of 182 days is measured over the calendar year",
+            "C": "Directorships held in dormant companies count towards the overall ceiling of 20",
+            "D": "A person must be allotted a DIN before being appointed a director"
+          },
+          "correct": "C",
+          "explanation": "The question seeks the INCORRECT statement. Sec 165 EXCLUDES directorships in dormant companies from the ceiling of 20, so Option C is false and is the answer. Options A (Sec 149(4)), B (Sec 149(3) calendar year) and D (Sec 152(3)) are all correct. Determinative point: dormant-company directorships are excluded from the count.",
+          "section": "Section 165"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s2",
+      "scenarioText": "Magnum Steelworks Ltd is a public company. Mr. Bose is a director of both Magnum and Delta Cements Ltd. Delta has failed to file its financial statements and annual returns for three consecutive financial years (FY 2022-23 to FY 2024-25). Separately, Mr. Bose was convicted of an offence and sentenced to imprisonment for 7 months in 2024. Another Magnum director, Ms. Nair, has been absent from all meetings of Magnum's board over the last 12 months. Magnum's board also wishes to add, by amending the company's articles, certain extra grounds on which a director would be disqualified.",
+      "questions": [
+        {
+          "id": 6,
+          "question": "[ICAI-style · Nov 2021] Delta's three-year non-filing disqualifies Mr. Bose under Sec 164(2). What is the effect on his directorship in Magnum, a non-defaulting company?",
+          "options": {
+            "A": "He continues in Magnum; the disqualification affects only Delta",
+            "B": "He vacates office in Magnum and in every other company EXCEPT the defaulting company Delta — under the proviso to Sec 167(1)(a), a director disqualified under Sec 164(2) vacates office in all companies other than the company in default",
+            "C": "He vacates office in Delta only and continues elsewhere",
+            "D": "He vacates office in all companies including Delta"
+          },
+          "correct": "B",
+          "explanation": "When a director is disqualified under Sec 164(2) (here, Delta's three-year non-filing), the proviso to Sec 167(1)(a) makes him vacate office in ALL companies OTHER than the company which is in default. He stays on the defaulting company's board (so he cannot escape accountability) but loses his seat everywhere else — including Magnum. Option A wrongly confines the effect to Delta. Option C reverses the rule. Option D wrongly ousts him from Delta too. Determinative facts: Delta's three-year default and Bose's seat on the non-defaulting Magnum board.",
+          "section": "Section 164(2) / 167(1)(a)"
+        },
+        {
+          "id": 7,
+          "question": "Mr. Bose was convicted and sentenced to 7 months' imprisonment in 2024. Does this disqualify him under Sec 164(1)?",
+          "options": {
+            "A": "No — disqualification arises only if the imprisonment is for 7 years or more",
+            "B": "Yes — under Sec 164(1)(d) a person convicted and sentenced to imprisonment for not less than 6 months is disqualified, and the disqualification continues for 5 years from the expiry of the sentence; the 7-month sentence crosses the 6-month line",
+            "C": "No — only convictions connected with the company's own affairs disqualify",
+            "D": "Yes — and the disqualification is permanent"
+          },
+          "correct": "B",
+          "explanation": "Sec 164(1)(d) disqualifies a person convicted of any offence and sentenced to imprisonment for not less than 6 months, the disqualification running for 5 years from expiry of the sentence. The 7-month sentence crosses the 6-month threshold. Option A confuses this with the SEPARATE rule that a sentence of 7 years or more bars a person permanently. Option C invents an 'own-affairs' limitation. Option D applies the permanent bar (7 years) to a 7-MONTH sentence. Determinative fact: the 7-month sentence (≥ 6 months, < 7 years).",
+          "section": "Section 164(1)"
+        },
+        {
+          "id": 8,
+          "question": "Ms. Nair has been absent from all meetings of Magnum's board over the last 12 months. What is the consequence?",
+          "options": {
+            "A": "Nothing — there is no minimum attendance requirement for directors",
+            "B": "Her office is vacated under Sec 167(1)(b) — absence from ALL meetings of the board held during a period of 12 months (with or without leave of absence) vacates the office",
+            "C": "Her office is vacated only if she missed three consecutive meetings",
+            "D": "Her office is vacated only after 24 months of absence"
+          },
+          "correct": "B",
+          "explanation": "Sec 167(1)(b) vacates the office of a director who absents himself from ALL the meetings of the board held during a period of 12 months, with or without leave of absence. Ms. Nair's complete absence over 12 months triggers it. Option A denies the rule; Option C applies a 'three consecutive meetings' test that is not the statutory standard; Option D doubles the period to 24 months. Determinative fact: absence from all board meetings over 12 months.",
+          "section": "Section 167(1)(b)"
+        },
+        {
+          "id": 9,
+          "question": "Magnum (a public company) wishes to add extra grounds of director disqualification by amending its articles. Is this permissible?",
+          "options": {
+            "A": "Yes — any company may add additional disqualification grounds by its articles",
+            "B": "No — only a PRIVATE company may, by its articles, provide for additional grounds of disqualification under Sec 164(3); a public company such as Magnum cannot",
+            "C": "Yes — but only with the prior approval of the Central Government",
+            "D": "No — additional grounds can be added only by special resolution, not by the articles"
+          },
+          "correct": "B",
+          "explanation": "Sec 164(3) permits ONLY a private company to provide, by its articles, for disqualifications in addition to those in Sec 164(1) and (2). A public company like Magnum has no such power. Option A wrongly extends the power to all companies. Option C invents a CG approval. Option D mis-describes the mechanism (it is the articles, and the power is confined to private companies). Determinative fact: Magnum is a public company.",
+          "section": "Section 164(3)"
+        },
+        {
+          "id": 10,
+          "question": "Which statement is INCORRECT?",
+          "options": {
+            "A": "A director disqualified under Sec 164(2) vacates office in all companies except the defaulting company",
+            "B": "A sentence of 7 months' imprisonment disqualifies a person under Sec 164(1)",
+            "C": "A public company may, by its articles, prescribe additional grounds of disqualification",
+            "D": "Absence from all board meetings over a period of 12 months vacates a director's office"
+          },
+          "correct": "C",
+          "explanation": "The question seeks the INCORRECT statement. Only a PRIVATE company may add disqualification grounds by its articles under Sec 164(3); a public company cannot, so Option C is false and is the answer. Options A (Sec 167(1)(a) proviso), B (Sec 164(1)(d)) and D (Sec 167(1)(b)) are all correct. Determinative point: the additional-grounds power is private-company-only.",
+          "section": "Section 164(3)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s3",
+      "scenarioText": "Innolytix Technologies Ltd has an independent director, Mr. Varma, who has completed two consecutive terms of 5 years each (10 years in all), ending on 31 March 2026. The board wishes to re-appoint him immediately and, in the meantime, to give him a paid consultancy contract. A new independent-director candidate, Ms. Pillai, has not passed the online proficiency self-assessment test. During director Mr. Joshi's 4-month overseas posting, the board appointed Mr. Khan as his alternate director; Mr. Khan is already a director of Innolytix.",
+      "questions": [
+        {
+          "id": 11,
+          "question": "Mr. Varma has completed two consecutive terms as an independent director. Can the board re-appoint him immediately, and can it give him a consultancy contract in the interim?",
+          "options": {
+            "A": "Yes — he may be re-appointed immediately by passing a special resolution",
+            "B": "No — after two consecutive terms he is not eligible for re-appointment until a 3-year cooling-off has elapsed, and during that period he cannot be appointed in or be associated with the company in ANY capacity, directly or indirectly — so the consultancy is also barred",
+            "C": "Yes — he may be re-appointed after a 1-year cooling-off",
+            "D": "No re-appointment, but a consultancy contract during the cooling-off is permitted"
+          },
+          "correct": "B",
+          "explanation": "Sec 149(10)/(11): an ID may hold office for up to two consecutive terms, after which he is not eligible for re-appointment for 3 years, and during that cooling-off he must NOT be appointed in or associated with the company in any capacity, directly or indirectly. So neither immediate re-appointment nor the interim consultancy is permitted. Option A wrongly uses a special resolution (that enables a SECOND term, not a third). Option C shortens the cooling-off to 1 year. Option D wrongly allows the consultancy. Determinative facts: two consecutive terms completed + the consultancy offer.",
+          "section": "Section 149(10)/(11)"
+        },
+        {
+          "id": 12,
+          "question": "Ms. Pillai is proposed as an independent director but has not passed the online proficiency self-assessment test. What is the position under Sec 150?",
+          "options": {
+            "A": "She can never be appointed without passing the test, with no exemption whatsoever",
+            "B": "Her name must be in the data bank and she must pass the online proficiency self-assessment test within the prescribed period, UNLESS she qualifies for an exemption (e.g., specified years of experience as a director/KMP); failing the test where not exempt bars her appointment",
+            "C": "The test must be passed with at least 75% marks",
+            "D": "The proficiency test applies only to directors of listed companies"
+          },
+          "correct": "B",
+          "explanation": "Sec 150 read with the rules requires an ID to have his/her name included in the independent directors' data bank and to clear the online proficiency self-assessment test within the prescribed period — subject to exemptions for individuals with specified experience as a director/KMP. Option A ignores the exemptions. Option C invents a 75% pass mark (the prescribed aggregate is far lower). Option D wrongly confines the requirement to listed companies. Determinative fact: Ms. Pillai has not passed the test and her exemption status is in question.",
+          "section": "Section 150"
+        },
+        {
+          "id": 13,
+          "question": "The board appointed Mr. Khan as alternate director for Mr. Joshi during Joshi's 4-month overseas posting. Mr. Khan is already a director of Innolytix. Is the appointment valid?",
+          "options": {
+            "A": "Yes — any person may be appointed an alternate director during the original director's absence",
+            "B": "No — under Sec 161(2) a person who is ALREADY a director of the company cannot be appointed as an alternate director; Mr. Khan's existing directorship disqualifies him from being Joshi's alternate",
+            "C": "Yes — but only because Joshi's absence exceeds 3 months",
+            "D": "No — because an alternate can be appointed only for an absence exceeding 6 months"
+          },
+          "correct": "B",
+          "explanation": "Sec 161(2) bars the appointment as an alternate director of a person who is already a director of the company (or who holds an alternate directorship for any other director). Khan, being an existing director, cannot be Joshi's alternate. The 3-month absence condition is satisfied (Joshi is away 4 months), so Option D's reasoning is wrong; the real bar is Khan's existing directorship. Option A ignores the qualification. Option C correctly notes the 3-month point but misses that Khan is still ineligible. Determinative fact: Khan is already a director of Innolytix.",
+          "section": "Section 161(2)"
+        },
+        {
+          "id": 14,
+          "question": "Mr. Varma's second term ends on 31 March 2026. From when, at the earliest, could he be re-appointed as an independent director of Innolytix?",
+          "options": {
+            "A": "1 April 2027 — after a 1-year cooling-off",
+            "B": "1 April 2029 — after the 3-year cooling-off following the end of his two consecutive terms",
+            "C": "Immediately on 1 April 2026, by passing a special resolution",
+            "D": "1 April 2031 — after a 5-year cooling-off"
+          },
+          "correct": "B",
+          "explanation": "After two consecutive terms ending 31 March 2026, Sec 149(11) requires a 3-year cooling-off before re-appointment as an ID, so the earliest is on/after 1 April 2029. Option A uses 1 year; Option C wrongly permits immediate re-appointment by SR; Option D uses 5 years. Determinative fact: the second term ending on 31 March 2026, from which the 3-year cooling-off runs.",
+          "section": "Section 149(11)"
+        },
+        {
+          "id": 15,
+          "question": "Which statement about Innolytix's directors is INCORRECT?",
+          "options": {
+            "A": "After two consecutive terms, an independent director needs a 3-year cooling-off before re-appointment",
+            "B": "During the cooling-off, the former independent director cannot be associated with the company in any capacity",
+            "C": "A person already a director of the company may be appointed as an alternate director for another director",
+            "D": "An independent director must generally have his name in the data bank and pass the proficiency self-assessment test (subject to exemptions)"
+          },
+          "correct": "C",
+          "explanation": "The question seeks the INCORRECT statement. Sec 161(2) bars a person who is already a director of the company from being an alternate director, so Option C is false and is the answer. Options A and B (Sec 149(11) cooling-off) and D (Sec 150) are all correct. Determinative point: an existing director cannot be an alternate.",
+          "section": "Section 161(2)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s4",
+      "scenarioText": "Finovate Capital Ltd is a public company. At its forthcoming AGM the members propose to appoint three directors. Mr. Gill, who is not a member of the company, wishes to stand for directorship and has deposited ₹1 lakh. The board proposes to appoint all three directors by a single resolution. Finovate has 9 directors, of whom 3 are independent (not liable to retire by rotation) and 6 are rotational. A person proposed for the board has applied for and holds two Director Identification Numbers.",
+      "questions": [
+        {
+          "id": 16,
+          "question": "Mr. Gill, a non-member, wishes to stand for directorship and has deposited ₹1 lakh. Under Sec 160, when is the deposit refunded, and is the deposit always required?",
+          "options": {
+            "A": "The deposit is forfeited regardless of outcome, and it is required from every candidate",
+            "B": "The ₹1 lakh deposit is refunded if Mr. Gill is elected OR secures more than 25% of the total valid votes; and the deposit requirement does NOT apply to a person recommended by the Board/Nomination and Remuneration Committee or to an independent director",
+            "C": "The deposit is ₹5 lakh and is non-refundable",
+            "D": "A non-member can never stand for directorship"
+          },
+          "correct": "B",
+          "explanation": "Sec 160 allows a person (member or not) to stand for directorship on depositing ₹1 lakh, which is refunded if the candidate is elected or secures more than 25% of the total valid votes cast. The deposit requirement does not apply to candidates recommended by the Board/NRC or to independent directors. Option A wrongly forfeits it in all cases; Option C uses ₹5 lakh and makes it non-refundable; Option D wrongly bars non-members. Determinative facts: the ₹1 lakh deposit and Gill being a non-member.",
+          "section": "Section 160"
+        },
+        {
+          "id": 17,
+          "question": "Can Finovate appoint all three directors by a single resolution at the general meeting?",
+          "options": {
+            "A": "Yes — multiple directors are routinely appointed by one resolution",
+            "B": "No — under Sec 162, two or more persons cannot be appointed as directors by a single resolution UNLESS a proposal to do so is first agreed to by the meeting without a single vote being cast against it",
+            "C": "Yes — a single resolution is permitted for up to five directors",
+            "D": "No — each director must be appointed by a separate special resolution"
+          },
+          "correct": "B",
+          "explanation": "Sec 162 prohibits the appointment of two or more persons as directors by a single resolution unless a proposal to move such a single resolution is first agreed to by the meeting WITHOUT any vote being cast against it. Option A ignores the bar. Option C invents a five-director allowance. Option D wrongly requires separate SPECIAL resolutions (ordinary resolutions suffice for separate appointments). Determinative fact: the proposal to appoint all three by one resolution.",
+          "section": "Section 162"
+        },
+        {
+          "id": 18,
+          "question": "Of Finovate's 9 directors, 3 are independent. How many directors must retire by rotation at the AGM?",
+          "options": {
+            "A": "3 — one-third of all 9 directors",
+            "B": "2 — one-third of the 6 rotational directors (independent directors are excluded, as they are not liable to retire by rotation)",
+            "C": "6 — two-thirds of the board",
+            "D": "None — retirement by rotation does not apply to this company"
+          },
+          "correct": "B",
+          "explanation": "Under Sec 152(6), independent directors are not liable to retire by rotation, so they are excluded from the base. Of the 6 rotational directors, one-third (6 ÷ 3 = 2) must retire at the AGM. Option A wrongly includes the IDs in the base (9 ÷ 3 = 3). Option C confuses 'directors liable to retire by rotation' (two-thirds) with 'directors who actually retire each AGM' (one-third of those). Option D wrongly disapplies rotation altogether. Determinative facts: 9 directors of whom 3 are independent (so 6 rotational).",
+          "section": "Section 152(6)"
+        },
+        {
+          "id": 19,
+          "question": "A person proposed for Finovate's board has applied for and holds two DINs. Is this permissible under Sec 155?",
+          "options": {
+            "A": "Yes — holding multiple DINs across different companies is normal",
+            "B": "No — Sec 155 prohibits any individual who already has a DIN from applying for, obtaining or possessing a second DIN; a person can hold only ONE DIN for life",
+            "C": "Yes — a separate DIN is needed for each public company",
+            "D": "No — but only if the two DINs were obtained in the same financial year"
+          },
+          "correct": "B",
+          "explanation": "Sec 155 prohibits any individual who has already been allotted a DIN from applying for, obtaining or possessing another DIN. A DIN is unique and lifelong — one person, one DIN. Option A treats multiple DINs as normal; Option C wrongly ties DINs to companies; Option D invents a same-year qualification. Determinative fact: the person holds two DINs.",
+          "section": "Section 155"
+        },
+        {
+          "id": 20,
+          "question": "Which statement is INCORRECT regarding Finovate?",
+          "options": {
+            "A": "The ₹1 lakh candidature deposit is refunded if the candidate secures more than 25% of the valid votes",
+            "B": "Two or more directors may be appointed by a single resolution only if the meeting first agrees without any dissent",
+            "C": "Independent directors are included in the base when computing how many directors retire by rotation",
+            "D": "An individual may hold only one DIN"
+          },
+          "correct": "C",
+          "explanation": "The question seeks the INCORRECT statement. Independent directors are NOT liable to retire by rotation and are excluded from the base for the rotation computation, so Option C is false and is the answer. Options A (Sec 160), B (Sec 162) and D (Sec 155) are all correct. Determinative point: IDs are excluded from the rotation base.",
+          "section": "Section 152(6)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s5",
+      "scenarioText": "Setubandh Infrastructure Ltd is a public company. Mr. Reddy, a director, tendered a resignation notice that was received by the company on 5 March 2026 and specified an effective date of 20 March 2026. A financial institution nominated Mr. Khanna as a nominee director under its loan agreement. The members wish to remove Ms. Dutta, a director appointed by the Tribunal under Sec 242, by an ordinary resolution, and separately to remove Mr. Iyer, an ordinary director, before the expiry of his term.",
+      "questions": [
+        {
+          "id": 21,
+          "question": "Mr. Reddy's resignation notice was received on 5 March 2026 and specified an effective date of 20 March 2026. From which date is the resignation effective under Sec 168?",
+          "options": {
+            "A": "5 March 2026 — the date the company received the notice",
+            "B": "20 March 2026 — a resignation takes effect from the date of receipt of the notice OR the date specified therein, whichever is LATER; here 20 March is later",
+            "C": "The date the company files Form DIR-12 with the Registrar",
+            "D": "4 April 2026 — 30 days after receipt of the notice"
+          },
+          "correct": "B",
+          "explanation": "Under Sec 168(2), a resignation takes effect from the date on which the notice is received by the company OR the date, if any, specified by the director in the notice, whichever is LATER. The notice was received on 5 March but specified 20 March, so 20 March (the later date) governs. Option A picks the earlier date; Option C ties it to the filing of DIR-12 (a procedural step, not the effective date); Option D applies an unrelated 30-day period. Determinative facts: received 5 March, specified 20 March.",
+          "section": "Section 168"
+        },
+        {
+          "id": 22,
+          "question": "Can the members remove Ms. Dutta — a director appointed by the Tribunal under Sec 242 — by an ordinary resolution under Sec 169?",
+          "options": {
+            "A": "Yes — any director can be removed by ordinary resolution with special notice",
+            "B": "No — Sec 169 does not permit the removal of a director appointed by the Tribunal under Sec 242; such a director is outside the members' removal power",
+            "C": "Yes — but only by special resolution",
+            "D": "No — she can be removed only with Central Government approval"
+          },
+          "correct": "B",
+          "explanation": "Sec 169 allows members to remove a director by ordinary resolution after special notice, BUT it expressly does not apply to a director appointed by the Tribunal under Sec 242. So Ms. Dutta cannot be removed by the members. Option A ignores this carve-out; Option C wrongly switches to a special resolution; Option D invents a CG approval. Determinative fact: Ms. Dutta was appointed by the Tribunal under Sec 242.",
+          "section": "Section 169"
+        },
+        {
+          "id": 23,
+          "question": "What procedure must Setubandh follow to remove Mr. Iyer, an ordinary director, before his term expires under Sec 169?",
+          "options": {
+            "A": "A special resolution, with no notice requirement",
+            "B": "An ordinary resolution after special notice, giving the director a reasonable opportunity of being heard",
+            "C": "A board resolution alone suffices",
+            "D": "Prior approval of the Central Government is required"
+          },
+          "correct": "B",
+          "explanation": "Sec 169 permits removal of a director (other than one appointed by the Tribunal or by proportional representation under Sec 163) by an ORDINARY resolution after SPECIAL NOTICE, and the director must be given a reasonable opportunity of being heard. Option A drops the special-notice requirement and wrongly demands a special resolution. Option C wrongly allows the board alone. Option D invents a CG approval. Determinative fact: Mr. Iyer is an ordinary director being removed mid-term.",
+          "section": "Section 169"
+        },
+        {
+          "id": 24,
+          "question": "A financial institution nominated Mr. Khanna as a nominee director under its loan agreement. Which statement is correct under Sec 161(3)?",
+          "options": {
+            "A": "Nominee directors are not recognised under the Companies Act",
+            "B": "Subject to the articles, the board may appoint a nominee director nominated by an institution under a law or an agreement; such a nominee director is NOT regarded as an independent director",
+            "C": "A nominee director is automatically an independent director",
+            "D": "A nominee director can be appointed only by the members in general meeting"
+          },
+          "correct": "B",
+          "explanation": "Sec 161(3) allows the board, subject to the articles, to appoint a person as a nominee director nominated by any institution under any law or under any agreement (such as a lender's loan agreement). A nominee director is NOT an independent director (an ID must not have such an interested-nominee relationship). Option A denies the concept; Option C wrongly treats the nominee as independent; Option D wrongly requires a general-meeting appointment. Determinative fact: Khanna is a lender's nominee director.",
+          "section": "Section 161(3)"
+        },
+        {
+          "id": 25,
+          "question": "Which statement is INCORRECT regarding Setubandh?",
+          "options": {
+            "A": "A resignation takes effect from the date of receipt or the date specified, whichever is later",
+            "B": "A director appointed by the Tribunal under Sec 242 cannot be removed by the members under Sec 169",
+            "C": "A nominee director appointed by a financial institution is treated as an independent director",
+            "D": "Removal of an ordinary director requires an ordinary resolution with special notice"
+          },
+          "correct": "C",
+          "explanation": "The question seeks the INCORRECT statement. A nominee director is NOT an independent director, so Option C is false and is the answer. Options A (Sec 168), B (Sec 169 carve-out) and D (Sec 169 procedure) are all correct. Determinative point: a lender's nominee director is not independent.",
+          "section": "Section 161(3)"
+        }
+      ]
+    }
+  ]
+}

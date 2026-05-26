@@ -11,11 +11,11 @@
 | 202 | Compensation for loss of office | NO compensation if removed by CG / for misconduct |
 | 203 | KMPs | CEO/MD, CFO, CS, WTD; same person ≠ MD + CS |
 | 204 | Secretarial audit | Listed + unlisted public with paid-up ≥ ₹50 Cr OR turnover ≥ ₹250 Cr |
-| Sch V | Remuneration in loss/inadequate-profit yrs | Slabs: <₹5 Cr → ₹30 L; ₹5–100 Cr → ₹42 L; ₹100–250 Cr → ₹60 L; >₹250 Cr → ₹84 L. SR **doubles** limits. |
+| Sch V | Remuneration in loss/inadequate-profit yrs | **Current (post-2016) slabs by EFFECTIVE CAPITAL:** neg/<₹5 Cr → ₹60 L; ₹5–<100 Cr → ₹84 L; ₹100–<250 Cr → ₹120 L; ≥₹250 Cr → ₹120 L + 0.01% of EC over ₹250 Cr. **SR doubles** limits. (Pre-2016 figures ₹30/42/60/84 L are now distractors.) |
 
 ## Top Traps
 - Sec 198 net profits ≠ P&L net profit.
-- Sch V slabs use **effective capital** not paid-up.
+- Sch V slabs use **effective capital** not paid-up. Current slab tops: ₹60/84/120 L (post-2016, doubled by SR) — NOT the old ₹30/42/60/84 L.
 - Loss yrs → Sch V applies, not Sec 197 %.
 - Both 5% (single) and 10% (multi) must fit within 11% aggregate.
 - Sitting fees outside Sec 197 cap.

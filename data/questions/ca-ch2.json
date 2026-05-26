@@ -1,0 +1,363 @@
+{
+  "chapterId": "ca-ch2",
+  "chapterName": "Appointment and Remuneration of Managerial Personnel",
+  "law": "Companies Act, 2013",
+  "category": "companies-act",
+  "scenarios": [
+    {
+      "scenarioId": "s1",
+      "scenarioText": "Zephyr Pharma Ltd is a public company. It proposes to appoint Mr. Krishnan, aged 72, as its Managing Director for a term of 6 years, and also to employ him simultaneously as the company's Manager. Separately, the company proposes that the same individual, Ms. Bose, hold both the office of Chairperson and that of Managing Director; the articles are silent on this and the company carries on multiple lines of business. The office of Chief Financial Officer has lain vacant for 8 months.",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Zephyr proposes to appoint Mr. Krishnan (aged 72) as Managing Director for a 6-year term. Which statement is correct under Sec 196?",
+          "options": {
+            "A": "Both are fine — there is no maximum term and no age limit for a managing director",
+            "B": "The term is invalid (a managerial person cannot be appointed for more than 5 years at a time), and appointing a person who has attained 70 years requires approval by a special resolution with an explanatory statement justifying the appointment",
+            "C": "The 6-year term is valid, but appointment beyond 70 years is absolutely prohibited",
+            "D": "The term is valid; appointment beyond 70 needs only Central Government approval, not a special resolution"
+          },
+          "correct": "B",
+          "explanation": "Sec 196(2) bars appointment of a managerial person for a term exceeding 5 years at a time, so the 6-year term is invalid. Sec 196(3) bars appointment of a person below 21 or who has attained 70, UNLESS a special resolution is passed (with an explanatory statement justifying it). Option A ignores both limits. Option C wrongly says appointment beyond 70 is absolutely barred. Option D substitutes CG approval (the pre-2017 position) for the special resolution. Determinative facts: age 72 and the 6-year term.",
+          "section": "Section 196"
+        },
+        {
+          "id": 2,
+          "question": "Can Zephyr appoint Mr. Krishnan simultaneously as both its Managing Director and its Manager?",
+          "options": {
+            "A": "Yes — a company may have an MD and a Manager who are the same person",
+            "B": "No — under Sec 196(1) a company cannot appoint or employ a managing director AND a manager at the same time; the two offices are mutually exclusive",
+            "C": "Yes — provided the articles expressly permit it",
+            "D": "No — but a listed company may appoint both"
+          },
+          "correct": "B",
+          "explanation": "Sec 196(1) provides that no company shall appoint or employ at the same time a managing director and a manager. The two offices cannot coexist, whether or not held by the same person. Option A and C wrongly allow the combination; Option D invents a listed-company exception. Determinative fact: the proposal to make Krishnan both MD and Manager.",
+          "section": "Section 196(1)"
+        },
+        {
+          "id": 3,
+          "question": "Zephyr proposes the same person (Ms. Bose) be both Chairperson and Managing Director; the articles are silent and the company carries on multiple businesses. Is this permissible under Sec 203?",
+          "options": {
+            "A": "Yes — a single person may always hold both offices",
+            "B": "No — the same individual cannot be both Chairperson and MD/CEO unless the articles so permit OR the company carries on a single business; here the articles are silent and Zephyr carries on multiple businesses, so neither exception applies",
+            "C": "Yes — because Zephyr carries on multiple businesses, the combination is expressly allowed",
+            "D": "No — the bar applies only to listed companies"
+          },
+          "correct": "B",
+          "explanation": "The proviso to Sec 203(1) bars one individual from being Chairperson and MD/CEO simultaneously UNLESS (a) the articles otherwise provide, OR (b) the company does not carry on multiple businesses. Zephyr's articles are silent AND it carries on multiple businesses, so neither exception is available and the combination is barred. Option C is the trap — it reverses the single-business exception (multiple businesses defeats it). Option A is overbroad; Option D wrongly limits the bar to listed companies. Determinative facts: articles silent + multiple businesses.",
+          "section": "Section 203"
+        },
+        {
+          "id": 4,
+          "question": "Zephyr's office of Chief Financial Officer has been vacant for 8 months. What does Sec 203 require?",
+          "options": {
+            "A": "A KMP vacancy may remain unfilled indefinitely",
+            "B": "A vacancy in the office of a whole-time key managerial personnel must be filled by the Board within 6 months from the date the vacancy arises; an 8-month vacancy is a default",
+            "C": "The vacancy must be filled within 30 days",
+            "D": "The vacancy must be filled within 3 months"
+          },
+          "correct": "B",
+          "explanation": "Sec 203(4) requires a vacancy in the office of a whole-time KMP to be filled by the Board at a meeting within 6 months from the date the vacancy occurs. An 8-month vacancy breaches this. Option A denies the requirement; Options C and D understate the period (30 days / 3 months). Determinative fact: the 8-month CFO vacancy.",
+          "section": "Section 203(4)"
+        },
+        {
+          "id": 5,
+          "question": "Which statement regarding Zephyr is INCORRECT?",
+          "options": {
+            "A": "A managerial person cannot be appointed for a term exceeding 5 years at a time",
+            "B": "A company cannot simultaneously have a managing director and a manager",
+            "C": "The same person may be both Chairperson and Managing Director where the company carries on multiple businesses",
+            "D": "A whole-time KMP vacancy must be filled within 6 months"
+          },
+          "correct": "C",
+          "explanation": "The question seeks the INCORRECT statement. The single-person Chairperson-plus-MD combination is allowed only where the company carries on a SINGLE business (or the articles permit); multiple businesses means the exception does NOT apply, so Option C is false and is the answer. Options A (Sec 196(2)), B (Sec 196(1)) and D (Sec 203(4)) are all correct. Determinative point: multiple businesses defeats the Sec 203 exception.",
+          "section": "Section 203"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s2",
+      "scenarioText": "Vajra Steel Ltd has incurred losses during the financial year. Its effective capital is ₹140 crore. It wishes to pay its managing director, Mr. Saxena, yearly remuneration of ₹2.1 crore. The board initially passes an ordinary resolution and then considers whether a special resolution is required. The company has no default in payment of dues to its bankers or debenture-holders.",
+      "questions": [
+        {
+          "id": 6,
+          "question": "[ICAI-style · May 2024] Vajra is loss-making with effective capital of ₹140 crore. Under Schedule V Part II, what is the BASE yearly remuneration limit for its managing director (without a special resolution)?",
+          "options": {
+            "A": "₹60 lakh — the limit for this effective-capital slab",
+            "B": "₹120 lakh — the limit for the effective-capital slab of ₹100 crore to less than ₹250 crore",
+            "C": "₹84 lakh — the limit for this slab",
+            "D": "₹2.1 crore — there is no cap on remuneration in a loss year"
+          },
+          "correct": "B",
+          "explanation": "Under the current Schedule V Part II Section II slabs, an effective capital of ₹100 crore to less than ₹250 crore carries a base yearly limit of ₹120 lakh. Vajra's ₹140 crore effective capital falls in this slab. Option A (₹60 lakh) is the limit for the lowest slab (effective capital negative/below ₹5 crore) and also mirrors the PRE-2016 figure for this slab — a double trap. Option C (₹84 lakh) is the ₹5–100 crore slab. Option D ignores the cap. Determinative fact: the ₹140 crore effective capital.",
+          "section": "Schedule V Part II"
+        },
+        {
+          "id": 7,
+          "question": "Can Vajra pay Mr. Saxena ₹2.1 crore in this loss year?",
+          "options": {
+            "A": "No — ₹2.1 crore exceeds ₹1.2 crore and cannot be paid in any circumstances",
+            "B": "Yes — the Schedule V base limit of ₹120 lakh may be DOUBLED to ₹240 lakh if a special resolution is passed; ₹2.1 crore is within ₹2.4 crore, so it is payable with a special resolution (an ordinary resolution will not do)",
+            "C": "Yes — an ordinary resolution suffices because ₹2.1 crore is within the 11% limit under Sec 197",
+            "D": "No — ₹2.1 crore exceeds even the doubled limit"
+          },
+          "correct": "B",
+          "explanation": "For effective capital of ₹100–250 crore the base limit is ₹120 lakh, which Schedule V allows to be DOUBLED to ₹240 lakh if the shareholders pass a special resolution. ₹2.1 crore is within ₹2.4 crore, so it is payable — but only with a special resolution, not the ordinary resolution first passed. Option A ignores the doubling. Option C wrongly invokes the Sec 197 11% (which applies in profit years, not loss years). Option D miscalculates the doubled limit (₹2.4 crore, not below ₹2.1 crore). Determinative facts: ₹2.1 crore against the ₹140 crore slab (₹120 lakh, doubled to ₹240 lakh).",
+          "section": "Schedule V Part II"
+        },
+        {
+          "id": 8,
+          "question": "In computing 'effective capital' for Schedule V, which item is correctly treated?",
+          "options": {
+            "A": "Revaluation reserve is INCLUDED in effective capital",
+            "B": "Effective capital includes paid-up share capital, securities premium, and reserves and surplus (EXCLUDING revaluation reserve), plus long-term loans and deposits repayable after one year, reduced by investments (and by accumulated losses and preliminary expenses not written off)",
+            "C": "Effective capital is simply the paid-up share capital",
+            "D": "Long-term loans repayable after one year are EXCLUDED from effective capital"
+          },
+          "correct": "B",
+          "explanation": "Effective capital under Schedule V is the aggregate of paid-up share capital, share premium, reserves and surplus (EXCLUDING revaluation reserve) and long-term loans and deposits repayable after one year, AS REDUCED BY investments, accumulated losses and preliminary expenses not written off. Option A wrongly includes revaluation reserve; Option C reduces it to paid-up capital alone; Option D wrongly excludes long-term loans. Determinative point: the precise build-up of effective capital, notably the exclusion of revaluation reserve.",
+          "section": "Schedule V Part II"
+        },
+        {
+          "id": 9,
+          "question": "Apart from the monetary limit, which condition must Vajra satisfy to pay remuneration under Schedule V in a loss year?",
+          "options": {
+            "A": "No further conditions apply once the monetary limit is met",
+            "B": "The remuneration must be approved by the Nomination and Remuneration Committee/Board and by the requisite resolution, and the company must not be in default in payment of dues to banks, financial institutions or debenture-holders (or, if in default, must obtain the creditor's prior approval before the meeting)",
+            "C": "The prior approval of the Central Government is mandatory in every loss year",
+            "D": "The remuneration must be approved by 90% of the shareholders"
+          },
+          "correct": "B",
+          "explanation": "Schedule V Part II Section III imposes conditions beyond the monetary cap: approval by the NRC/Board and the requisite shareholder resolution, and no default in payment of dues to banks/PFIs/non-convertible-debenture holders/secured creditors (or, where there is a default, prior approval of such creditor before the general meeting). Option A ignores these. Option C states the pre-2017 CG-approval position. Option D invents a 90% threshold. Determinative point: the no-default-to-creditors condition is part of Schedule V compliance.",
+          "section": "Schedule V Part II"
+        },
+        {
+          "id": 10,
+          "question": "Which statement about Vajra's loss-year remuneration is INCORRECT?",
+          "options": {
+            "A": "In a loss year, Schedule V governs the limit, not the 11% of Sec 197",
+            "B": "For effective capital of ₹100–250 crore, the base Schedule V limit is ₹120 lakh",
+            "C": "The Schedule V limit can be doubled merely by passing an ordinary resolution",
+            "D": "Revaluation reserve is excluded when computing effective capital"
+          },
+          "correct": "C",
+          "explanation": "The question seeks the INCORRECT statement. The Schedule V limit can be doubled only by a SPECIAL resolution, not an ordinary one, so Option C is false and is the answer. Options A (Schedule V governs loss years), B (₹120 lakh for the ₹100–250 crore slab) and D (revaluation reserve excluded) are all correct. Determinative point: doubling needs a special resolution.",
+          "section": "Schedule V Part II"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s3",
+      "scenarioText": "Innov8 Tech Ltd is a profitable public company. Its net profit computed under Sec 198 is ₹50 crore. The board comprises one managing director and two whole-time directors (three executives), plus four non-executive directors. The company proposes total remuneration of ₹6 crore to the three executives and ₹1.6 crore to the non-executive directors, in addition to sitting fees aggregating ₹40 lakh.",
+      "questions": [
+        {
+          "id": 11,
+          "question": "Innov8's net profit (Sec 198) is ₹50 crore. Including ₹6 crore to executives and ₹1.6 crore to non-executives (plus ₹40 lakh sitting fees), does it comply with the Sec 197 OVERALL limit without shareholder approval?",
+          "options": {
+            "A": "Yes — the total of about ₹8 crore is within the overall limit",
+            "B": "No — the overall managerial-remuneration cap is 11% of net profit (₹5.5 crore); the proposed ₹7.6 crore (₹6 crore + ₹1.6 crore, excluding sitting fees which fall outside the cap) exceeds it, and paying more requires approval of the shareholders by a special resolution",
+            "C": "Yes — the ₹40 lakh sitting fees bring it within the limit",
+            "D": "No — but the overall limit is 5% of net profit (₹2.5 crore)"
+          },
+          "correct": "B",
+          "explanation": "Sec 197 caps total managerial remuneration at 11% of net profit = ₹5.5 crore (sitting fees are excluded from this cap). The proposed ₹6 crore + ₹1.6 crore = ₹7.6 crore exceeds ₹5.5 crore, so shareholder approval by special resolution is needed to exceed 11%. Option A ignores the cap and wrongly folds in sitting fees; Option C treats sitting fees as reducing the remuneration; Option D uses the 5% single-MD limit as if it were the overall cap. Determinative facts: ₹50 crore profit and the ₹7.6 crore aggregate.",
+          "section": "Section 197"
+        },
+        {
+          "id": 12,
+          "question": "Innov8 has one MD and two whole-time directors. What is the maximum remuneration payable to these three together (net profit ₹50 crore) under Sec 197?",
+          "options": {
+            "A": "₹2.5 crore — 5% of net profit",
+            "B": "₹5 crore — 10% of net profit, being the limit where there is more than one managing/whole-time director",
+            "C": "₹5.5 crore — 11% of net profit",
+            "D": "₹1.5 crore — 3% of net profit"
+          },
+          "correct": "B",
+          "explanation": "Sec 197(1) caps remuneration to any ONE managing/whole-time director/manager at 5% of net profit, and where there is MORE THAN ONE such director, at 10% to all of them together. With one MD and two WTDs (more than one), the combined cap is 10% × ₹50 crore = ₹5 crore. Option A applies the single-person 5% limit; Option C uses the 11% overall cap; Option D uses the 3% (no-MD) non-executive figure. Determinative fact: three executive directors (more than one), so the 10% limit applies.",
+          "section": "Section 197"
+        },
+        {
+          "id": 13,
+          "question": "What is the maximum remuneration (excluding sitting fees) payable to Innov8's non-executive directors, given the company has executive directors (net profit ₹50 crore)?",
+          "options": {
+            "A": "₹1.5 crore — 3% of net profit",
+            "B": "₹50 lakh — 1% of net profit, because the company has managing/whole-time directors",
+            "C": "₹5.5 crore — 11% of net profit",
+            "D": "₹2.5 crore — 5% of net profit"
+          },
+          "correct": "B",
+          "explanation": "Sec 197(1) caps remuneration to directors who are neither managing nor whole-time directors at 1% of net profit IF the company has a managing/whole-time director or manager, and 3% if it does not. Innov8 has executive directors, so the cap is 1% × ₹50 crore = ₹50 lakh. Option A applies the 3% (no-MD) figure; Option C uses the overall 11%; Option D uses the 5% single-MD limit. Determinative fact: the presence of executive directors fixes the non-executive cap at 1%.",
+          "section": "Section 197"
+        },
+        {
+          "id": 14,
+          "question": "How are the ₹40 lakh sitting fees treated under the Sec 197 limits?",
+          "options": {
+            "A": "They are included within the 11% overall limit",
+            "B": "Sitting fees for attending board/committee meetings are EXCLUDED from the managerial-remuneration limits under Sec 197 (subject to the prescribed per-meeting ceiling)",
+            "C": "They count towards the 1% non-executive limit",
+            "D": "Sitting fees are counted for non-executive directors but not for executive directors"
+          },
+          "correct": "B",
+          "explanation": "Sitting fees paid to directors for attending meetings of the board or its committees are expressly EXCLUDED from the managerial-remuneration limits under Sec 197 (subject to the per-meeting ceiling prescribed by the rules). Options A and C wrongly bring sitting fees within the percentage caps; Option D draws a distinction that the section does not. Determinative point: sitting fees sit outside the Sec 197 percentage limits.",
+          "section": "Section 197"
+        },
+        {
+          "id": 15,
+          "question": "Which statement about Innov8's remuneration is INCORRECT?",
+          "options": {
+            "A": "The overall managerial-remuneration limit is 11% of net profit, exceedable by special resolution",
+            "B": "For more than one managing/whole-time director, the combined limit is 10% of net profit",
+            "C": "Where the company has executive directors, the non-executive directors' limit is 3% of net profit",
+            "D": "Sitting fees are excluded from the Sec 197 limits"
+          },
+          "correct": "C",
+          "explanation": "The question seeks the INCORRECT statement. Where a company HAS a managing/whole-time director, the non-executive directors' cap is 1% (not 3%); the 3% figure applies only where there is no MD/WTD. So Option C is false and is the answer. Options A, B and D are all correct. Determinative point: 1% applies (with an MD/WTD), not 3%.",
+          "section": "Section 197"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s4",
+      "scenarioText": "Pinnacle Finance Ltd is an unlisted public company. It removes its Managing Director, Mr. Verma, when 2 years of his term remained unexpired; his remuneration had averaged ₹80 lakh per year. The board proposes to pay him compensation for loss of office. A non-executive director also claims similar compensation. Pinnacle's paid-up share capital is ₹40 crore and its turnover is ₹260 crore, and a question arises as to whether it must obtain a secretarial audit.",
+      "questions": [
+        {
+          "id": 16,
+          "question": "Mr. Verma (MD) is removed with 2 years of his term unexpired; his remuneration averaged ₹80 lakh per year. What is the maximum compensation for loss of office under Sec 202?",
+          "options": {
+            "A": "₹2.4 crore — three years' remuneration (3 × ₹80 lakh)",
+            "B": "₹1.6 crore — remuneration for the unexpired term (2 years) or three years, whichever is SHORTER; here 2 years × ₹80 lakh",
+            "C": "No compensation is payable to a removed managing director",
+            "D": "₹80 lakh — one year's remuneration only"
+          },
+          "correct": "B",
+          "explanation": "Sec 202(3) caps compensation for loss of office at the remuneration the managerial person would have earned for the UNEXPIRED term, or for THREE years, whichever is SHORTER (computed on the average of the preceding three years or the period in office). The unexpired term (2 years) is shorter than 3 years, so the cap is 2 × ₹80 lakh = ₹1.6 crore. Option A wrongly uses 3 years; Option C wrongly denies compensation to an MD; Option D uses one year. Determinative facts: 2-year unexpired term and ₹80 lakh average.",
+          "section": "Section 202"
+        },
+        {
+          "id": 17,
+          "question": "Can a non-executive director of Pinnacle claim compensation for loss of office under Sec 202?",
+          "options": {
+            "A": "Yes — all directors are entitled to compensation for loss of office",
+            "B": "No — compensation for loss of office under Sec 202 is payable only to a managing director, whole-time director or manager; a non-executive/ordinary director is not entitled to it",
+            "C": "Yes — but limited to one year's sitting fees",
+            "D": "No — unless the articles specifically provide otherwise"
+          },
+          "correct": "B",
+          "explanation": "Sec 202 permits compensation for loss of office only to a managing director, whole-time director or manager. A director who is merely a non-executive/ordinary director cannot claim it. Option A is overbroad; Option C invents a sitting-fees measure; Option D wrongly makes it turn on the articles. Determinative point: only MD/WTD/Manager qualify.",
+          "section": "Section 202"
+        },
+        {
+          "id": 18,
+          "question": "In which situation would compensation for loss of office NOT be payable to Mr. Verma under Sec 202?",
+          "options": {
+            "A": "He is removed mid-term so that the company can appoint a different managing director",
+            "B": "He has been found guilty of fraud or breach of trust, or of gross negligence in or gross mismanagement of the conduct of the company's affairs",
+            "C": "His office is lost because the company shifts its registered office to another State",
+            "D": "He is removed without any allegation of misconduct against him"
+          },
+          "correct": "B",
+          "explanation": "The question asks where compensation is NOT payable. Sec 202(2) bars compensation in specified cases, including where the director has been guilty of fraud or breach of trust or of gross negligence/mismanagement in the conduct of the company's affairs (and on resignation due to reconstruction/amalgamation with re-appointment, on winding up due to his negligence, etc.). Option B is such a case and is the answer. In Options A, C and D there is no disqualifying misconduct, so compensation may be payable. Determinative point: misconduct (fraud/negligence) disentitles compensation.",
+          "section": "Section 202"
+        },
+        {
+          "id": 19,
+          "question": "Is Pinnacle (unlisted public, paid-up capital ₹40 crore, turnover ₹260 crore) required to obtain a secretarial audit under Sec 204?",
+          "options": {
+            "A": "No — its paid-up capital of ₹40 crore is below ₹50 crore",
+            "B": "Yes — secretarial audit is required for a public company with paid-up capital of ₹50 crore or more, OR turnover of ₹250 crore or more; Pinnacle's turnover of ₹260 crore meets the turnover limb",
+            "C": "No — secretarial audit applies only to listed companies",
+            "D": "Yes — but only because its paid-up capital exceeds ₹25 crore"
+          },
+          "correct": "B",
+          "explanation": "Sec 204 read with the rules requires a secretarial audit (Form MR-3) for every listed company and every public company with paid-up share capital of ₹50 crore OR MORE, or turnover of ₹250 crore OR MORE — the two limbs are alternative. Pinnacle's paid-up capital (₹40 crore) is below ₹50 crore, but its turnover (₹260 crore) crosses ₹250 crore, so the audit is required. Option A looks only at paid-up capital and ignores the turnover limb. Option C limits it to listed companies. Option D uses a wrong ₹25 crore threshold. Determinative facts: ₹40 crore paid-up (fails) but ₹260 crore turnover (qualifies).",
+          "section": "Section 204"
+        },
+        {
+          "id": 20,
+          "question": "Which statement regarding Pinnacle is INCORRECT?",
+          "options": {
+            "A": "Compensation for loss of office is payable only to a managing/whole-time director or manager",
+            "B": "Compensation is not payable where the managerial person is guilty of fraud or gross negligence",
+            "C": "A public company with turnover of ₹260 crore is exempt from secretarial audit so long as its paid-up capital is below ₹50 crore",
+            "D": "The maximum compensation is remuneration for the unexpired term or three years, whichever is shorter"
+          },
+          "correct": "C",
+          "explanation": "The question seeks the INCORRECT statement. Secretarial audit is triggered by EITHER the ₹50 crore paid-up-capital limb OR the ₹250 crore turnover limb; a turnover of ₹260 crore triggers it regardless of paid-up capital, so Option C is false and is the answer. Options A and B (Sec 202) and D (Sec 202(3) cap) are all correct. Determinative point: the turnover limb independently triggers secretarial audit.",
+          "section": "Section 204"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s5",
+      "scenarioText": "Solara Consumer Ltd is a profitable FMCG company. In computing net profit for managerial remuneration, its accountant included a ₹10 crore capital profit from the sale of a factory and also deducted income tax. It later emerged that the company had paid its managing director ₹3 crore for the year, whereas the permissible limit was ₹2.4 crore — an excess of ₹60 lakh drawn without the requisite approval. The board now wishes to know whether it may simply waive recovery of the excess, and what approval is needed if it wants to pay above the Sec 197 limits in future.",
+      "questions": [
+        {
+          "id": 21,
+          "question": "Solara's accountant included a ₹10 crore capital profit from the sale of a factory in net profit under Sec 198 and deducted income tax. Are these treatments correct?",
+          "options": {
+            "A": "Both treatments are correct",
+            "B": "Both are wrong — under Sec 198, profits of a capital nature (such as profit on the sale of a factory/capital asset) are NOT to be credited, and income tax is NOT to be deducted, in computing net profit for managerial remuneration",
+            "C": "The capital profit is correctly included, but income tax should not be deducted",
+            "D": "Income tax is correctly deducted, but the capital profit should be excluded"
+          },
+          "correct": "B",
+          "explanation": "Sec 198 prescribes specific adjustments: profits of a capital nature, including profit on the sale of the undertaking or of any immovable property/fixed assets of a capital nature, are NOT to be credited; and income tax (and super-tax) payable by the company is NOT to be deducted. The accountant erred on both counts. Options C and D each get only one limb right. Determinative facts: the ₹10 crore capital profit and the income-tax deduction.",
+          "section": "Section 198"
+        },
+        {
+          "id": 22,
+          "question": "Which of the following must NOT be credited when computing net profit under Sec 198 for managerial remuneration?",
+          "options": {
+            "A": "Normal operating revenue from the sale of goods",
+            "B": "Premium received on the issue of shares or debentures (a capital receipt)",
+            "C": "Interest earned on trade deposits in the ordinary course of business",
+            "D": "Bounties received in the ordinary course of trade"
+          },
+          "correct": "B",
+          "explanation": "Sec 198(2) lists sums NOT to be credited, including premium on shares or debentures issued by the company (a capital receipt), profits on sale of forfeited shares, capital profits, etc. Premium on issue of shares/debentures must therefore be excluded. Option A (operating revenue), Option C (interest earned) and Option D (trade bounties) are ordinary revenue items that ARE credited. Determinative point: share/debenture premium is a capital receipt excluded from Sec 198 net profit.",
+          "section": "Section 198"
+        },
+        {
+          "id": 23,
+          "question": "Solara paid its MD ₹3 crore against a permissible ₹2.4 crore — an excess of ₹60 lakh drawn without approval. Can the company simply waive recovery of the excess?",
+          "options": {
+            "A": "Yes — the board may waive recovery by an ordinary board resolution",
+            "B": "No — the director must refund the excess ₹60 lakh; the company may waive recovery only by passing a SPECIAL RESOLUTION within 2 years from the date the sum becomes refundable (and with the prior approval of any bank/financial institution/creditor in default)",
+            "C": "Yes — once paid, excess remuneration need not be refunded",
+            "D": "No — the excess can never be waived under any circumstances"
+          },
+          "correct": "B",
+          "explanation": "Sec 197(9) requires a director who draws remuneration in excess of the prescribed limits (without the requisite approval) to REFUND the excess and hold it in trust meanwhile. Sec 197(10) permits the company to waive recovery only by a SPECIAL RESOLUTION passed within 2 years from the date the sum becomes refundable (and, where the company is in default to any bank/PFI/non-convertible-debenture holder/secured creditor, with that creditor's prior approval). Option A (ordinary board resolution) understates the requirement; Option C wrongly says no refund is due; Option D wrongly says waiver is never possible. Determinative facts: the ₹60 lakh excess drawn without approval.",
+          "section": "Section 197(9)/(10)"
+        },
+        {
+          "id": 24,
+          "question": "If Solara wishes in future to pay its MD remuneration exceeding the Sec 197 limits, whose approval is required after the 2017 amendment?",
+          "options": {
+            "A": "The prior approval of the Central Government",
+            "B": "Approval of the shareholders by a special resolution; Central Government approval is no longer required after the 2017 amendment",
+            "C": "Approval of the National Company Law Tribunal",
+            "D": "Approval of the Registrar of Companies"
+          },
+          "correct": "B",
+          "explanation": "Following the Companies (Amendment) Act, 2017, payment of managerial remuneration in excess of the Sec 197 limits requires approval of the company in general meeting by a SPECIAL RESOLUTION; the earlier requirement of prior Central Government approval was done away with. Option A states the repealed pre-2017 position (the amendment trap). Options C and D name the wrong authorities. Determinative point: special resolution, not CG approval, post-2017.",
+          "section": "Section 197 / Section 200"
+        },
+        {
+          "id": 25,
+          "question": "Which statement about Solara is INCORRECT?",
+          "options": {
+            "A": "Capital profit on the sale of a factory is excluded when computing net profit under Sec 198",
+            "B": "Income tax payable by the company is not deducted in computing net profit under Sec 198",
+            "C": "Excess managerial remuneration, once paid, need not be refunded by the director",
+            "D": "After the 2017 amendment, exceeding the Sec 197 limits requires a special resolution rather than Central Government approval"
+          },
+          "correct": "C",
+          "explanation": "The question seeks the INCORRECT statement. Under Sec 197(9), a director who draws excess remuneration MUST refund it (and hold it in trust until then); it is not something that can simply be retained, so Option C is false and is the answer. Options A and B (Sec 198 adjustments) and D (post-2017 special-resolution requirement) are all correct. Determinative point: excess remuneration must be refunded.",
+          "section": "Section 197(9)"
+        }
+      ]
+    }
+  ]
+}

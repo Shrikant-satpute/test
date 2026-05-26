@@ -10,7 +10,7 @@
       "totalMarks": 50,
       "passMarks": 25,
       "duration": 45,
-      "available": false,
+      "available": true,
       "keySections": ["Sec 149", "Sec 150", "Sec 152", "Sec 153", "Sec 154", "Sec 155", "Sec 160", "Sec 161", "Sec 162", "Sec 164", "Sec 165", "Sec 167", "Sec 168", "Sec 169"]
     },
     {
@@ -23,7 +23,7 @@
       "totalMarks": 50,
       "passMarks": 25,
       "duration": 45,
-      "available": false,
+      "available": true,
       "keySections": ["Sec 196", "Sec 197", "Sec 198", "Sec 200", "Sec 201", "Sec 202", "Sec 203", "Sec 204", "Sec 205", "Schedule V"]
     },
     {
