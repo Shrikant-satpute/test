@@ -38,14 +38,14 @@
           "id": 3,
           "question": "[ICAI-style · May 2023] In this loss year, can Zencor pay Ms. Iyer remuneration of ₹78 lakh (effective capital ₹180 crore)?",
           "options": {
-            "A": "Yes, without special approval, since ₹78 lakh is within the 11% overall limit of Sec 197",
-            "B": "Yes, but only with a special resolution — the Schedule V slab for effective capital of ₹100–250 crore is ₹60 lakh, which may be doubled to ₹120 lakh by special resolution, and ₹78 lakh falls within that doubled band",
-            "C": "No — the maximum for this slab in a loss year is ₹42 lakh and cannot be exceeded",
-            "D": "Yes — ₹84 lakh is the slab limit, so ₹78 lakh needs only board approval"
+            "A": "No — ₹78 lakh exceeds the Schedule V limit of ₹60 lakh for this slab, so a special resolution is required",
+            "B": "Yes — for effective capital of ₹100–250 crore the current Schedule V base limit is ₹120 lakh; ₹78 lakh is within that base limit, so it may be paid without invoking the special-resolution route (subject to the Schedule V conditions and NRC/Board approval)",
+            "C": "Yes — without any monetary limit, because the 11% cap under Sec 197 does not apply in a loss year",
+            "D": "No — the maximum for this slab is ₹42 lakh and cannot be exceeded"
           },
           "correct": "B",
-          "explanation": "In a loss/inadequate-profit year the Sec 197 percentage limits do NOT operate; Schedule V Part II governs. For effective capital of ₹100–250 crore the yearly ceiling is ₹60 lakh, which can be DOUBLED to ₹120 lakh if approved by special resolution. ₹78 lakh exceeds ₹60 lakh but is within ₹120 lakh, so it is payable only with a special resolution. Option A wrongly applies the 11% (profit-year) limit. Option C uses the adjacent ₹5–100 crore slab (₹42 lakh). Option D uses the >₹250 crore slab (₹84 lakh) and wrongly says board approval suffices. Determinative facts: loss year + ₹180 crore effective capital + ₹78 lakh.",
-          "section": "Section 197 / Schedule V"
+          "explanation": "In a loss/inadequate-profit year the Sec 197 percentage limits do NOT operate; Schedule V Part II governs. Under the current (post-2016) slabs, an effective capital of ₹100 crore to less than ₹250 crore carries a BASE yearly limit of ₹120 lakh (which may be doubled to ₹240 lakh by special resolution). ₹78 lakh is within the ₹120 lakh base, so it is payable without invoking the doubling/special-resolution route — subject to the Schedule V conditions (NRC/Board approval, no default to creditors). Option A uses the PRE-2016 figure of ₹60 lakh for this slab (the amendment trap) and wrongly concludes a special resolution is needed. Option C wrongly assumes no cap applies in a loss year. Option D uses the adjacent ₹5–100 crore slab figure of ₹42 lakh. Determinative facts: loss year + ₹180 crore effective capital (₹120 lakh base) + ₹78 lakh.",
+          "section": "Schedule V Part II"
         },
         {
           "id": 4,
