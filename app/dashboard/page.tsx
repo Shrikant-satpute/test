@@ -56,7 +56,14 @@ export default function DashboardPage() {
     router.push('/');
   };
 
-  const filtered = filter === 'all' ? chapters : chapters.filter((c) => c.category === filter);
+  // Grand Test (full-syllabus mock) drives the announcement poster
+  const grandTest = chapters.find((c) => c.category === 'full-mock' && c.available);
+
+  // Filter by category, then float any Grand Test card to the front so it sits
+  // before the first chapter and is easy to spot.
+  const filtered = (filter === 'all' ? chapters : chapters.filter((c) => c.category === filter))
+    .slice()
+    .sort((a, b) => Number(b.category === 'full-mock') - Number(a.category === 'full-mock'));
 
   const totalPassed = Object.values(progress).filter((p) => p.passed).length;
   const totalAttempted = Object.values(progress).filter((p) => p.attempted).length;
@@ -116,6 +123,44 @@ export default function DashboardPage() {
           </h1>
           <p className="text-[#94a3b8] text-sm">SPOM Set A — Corporate & Economic Laws · New Scheme 2024</p>
         </div>
+
+        {/* Grand Test announcement poster */}
+        {grandTest && (
+          <div
+            onClick={() => router.push(`/exam/${grandTest.id}`)}
+            className="fade-in mb-8 cursor-pointer rounded-2xl border border-[#ef4444]/40 overflow-hidden group relative"
+            style={{ background: 'linear-gradient(110deg, rgba(239,68,68,0.20), rgba(168,85,247,0.14) 55%, rgba(99,102,241,0.10))' }}
+          >
+            <div className="absolute inset-0 bg-grid opacity-30 pointer-events-none" />
+            <div className="relative p-5 md:p-6 flex flex-col md:flex-row md:items-center gap-4">
+              <div className="flex-1">
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="text-[10px] font-black px-2 py-0.5 rounded-full bg-[#ef4444] text-white tracking-widest animate-pulse">NEW</span>
+                  <span className="text-xs font-bold text-[#ef4444] tracking-wide uppercase">Grand Test · Full Syllabus</span>
+                </div>
+                <h2 className="text-lg md:text-2xl font-black text-[#f1f5f9] mb-1.5 leading-tight">
+                  🎯 {grandTest.name}
+                </h2>
+                <p className="text-[#cbd5e1] text-xs md:text-sm leading-relaxed max-w-2xl">
+                  {grandTest.totalQuestions} integrated, multi-chapter MCQs spanning all 18 chapters of Corporate &amp; Economic Laws — exam-pattern, scenario-driven and very hard. Test your full-syllabus readiness in one paper.
+                </p>
+                <div className="flex flex-wrap items-center gap-3 mt-3 text-[11px] md:text-xs text-[#94a3b8]">
+                  <span className="px-2 py-0.5 rounded-md bg-[#ef4444]/15 text-[#fca5a5] font-bold border border-[#ef4444]/25">{grandTest.code}</span>
+                  <span>📝 {grandTest.totalQuestions} MCQs</span>
+                  <span>⏱ {grandTest.duration} min</span>
+                  <span>🏆 {grandTest.totalMarks} marks · Pass 50%</span>
+                </div>
+              </div>
+              <button
+                onClick={(e) => { e.stopPropagation(); router.push(`/exam/${grandTest.id}`); }}
+                className="shrink-0 px-6 py-3 rounded-xl text-sm font-black text-white transition-all group-hover:scale-105 shadow-lg whitespace-nowrap"
+                style={{ background: 'linear-gradient(90deg,#ef4444,#a855f7)' }}
+              >
+                Start Grand Test →
+              </button>
+            </div>
+          </div>
+        )}
 
         {/* Stats row */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8 fade-in stagger-1">
