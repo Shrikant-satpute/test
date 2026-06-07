@@ -1,0 +1,370 @@
+{
+  "chapterId": "ca-ch3",
+  "chapterName": "Meetings of Board and Its Powers",
+  "law": "Companies Act, 2013",
+  "category": "companies-act",
+  "researchNote": "Cross-checked ICAI BoS MCQ portal patterns, caclubindia Nov 2024 memory recalls, and bare-act text from ca2013.com/indiankanoon for Sec 173-189. Key ICAI traps identified: quorum 'higher vs lower', Sec 180 securities-premium exclusion, Sec 185 absolute-prohibition vs Sec 185(2) interested-person distinction, Sec 186 dual-limit 'higher' trap.",
+  "scenarios": [
+    {
+      "scenarioId": "s1",
+      "scenarioText": "Zenith Pharmaceuticals Ltd was incorporated on 15th March, 2024. The company has 9 directors including 4 independent directors. Mr. Anand Sharma, the Managing Director, convened the first board meeting on 10th April, 2024 by dispatching notices on 5th April, 2024 via registered email to all directors. At the meeting, 3 directors were physically present — Mr. Sharma (MD), Ms. Priya Rao (WTD), and Mr. Karthik Nair (independent director). The board took up a proposal to issue secured debentures worth ₹50 crore. Subsequently, the second board meeting was held on 5th August, 2024. Between these two meetings, Mr. Sharma circulated a draft resolution under Section 175 to all 9 directors seeking approval for an inter-corporate deposit of ₹3 crore. Six directors responded with approval, while 3 directors — all independent — formally demanded in writing that the matter be placed before a board meeting instead. Director Mr. Vikram Joshi, who holds a 35% stake in a supplier firm that contracts with Zenith, submitted his interest disclosure in Form MBP-1 on 12th April, 2024, two days after the first board meeting of the financial year.",
+      "questions": [
+        {
+          "id": 1,
+          "question": "With respect to the notice issued for the first board meeting of Zenith Pharmaceuticals, which of the following statements is CORRECT?",
+          "options": {
+            "A": "The notice is valid because newly incorporated companies enjoy a relaxed notice period of 3 days for their first board meeting under the proviso to Section 173(3)",
+            "B": "The notice is invalid because Section 173(3) mandates a minimum of 7 days' notice in writing, and only 5 days' notice was given between 5th April and 10th April",
+            "C": "The notice is valid because dispatch via registered email is deemed instantaneous delivery, making the 5-day gap sufficient under the Information Technology Act",
+            "D": "The notice is invalid because the first board meeting of a newly incorporated company requires 21 days' notice, analogous to the notice period for an Annual General Meeting"
+          },
+          "correct": "B",
+          "explanation": "Section 173(3) requires at least 7 days' notice in writing to every director at the address registered with the company. No exception exists for newly incorporated companies or for electronic dispatch — the 7-day minimum is absolute. Here, notice dispatched on 5th April for a meeting on 10th April provides only 5 days, rendering it non-compliant. Option A fabricates a non-existent proviso. Option C incorrectly conflates IT Act deemed-delivery with a statutory notice-period reduction. Option D wrongly equates the board meeting notice period with the 21-day AGM notice under Sec 101. The determinative fact is the 5-day gap (5th April → 10th April) against the 7-day statutory minimum.",
+          "section": "Section 173(3)"
+        },
+        {
+          "id": 2,
+          "question": "Assuming the first board meeting was validly convened, was there sufficient quorum for the meeting held on 10th April, 2024?",
+          "options": {
+            "A": "No, because quorum is one-third of total strength or 2 directors, whichever is LOWER, and only 2 directors are needed, but the meeting also requires at least one independent director by law",
+            "B": "No, because quorum requires a minimum of 4 directors to be physically present when the total board strength exceeds 7",
+            "C": "Yes, because quorum under Section 174 is one-third of total strength or 2 directors, whichever is HIGHER — one-third of 9 equals 3, and exactly 3 directors were present",
+            "D": "Yes, because quorum is one-third of total strength or 2 directors, whichever is LOWER — 2 directors suffice, and 3 were present"
+          },
+          "correct": "C",
+          "explanation": "Section 174(1) prescribes quorum as one-third of total strength or 2 directors, whichever is HIGHER. With 9 directors, one-third equals 3. Since 3 > 2, the quorum is 3. Exactly 3 directors (Mr. Sharma, Ms. Rao, Mr. Nair) were present, so quorum is just met. The classic trap is Option D, which uses 'whichever is LOWER' — a reversal students frequently fall for. Option A compounds this error by inventing a mandatory independent-director presence requirement for quorum (no such statutory provision). Option B fabricates a minimum-4 rule. The determinative facts are the total strength of 9 and the 3 directors present.",
+          "section": "Section 174(1)"
+        },
+        {
+          "id": 3,
+          "question": "Regarding the resolution by circulation for the inter-corporate deposit of ₹3 crore, which of the following statements is CORRECT?",
+          "options": {
+            "A": "The resolution stands validly passed because 6 out of 9 directors — a clear majority — approved it, and inter-corporate deposits are not listed under Section 179(3) mandatory board-meeting matters",
+            "B": "The resolution must be withdrawn and placed at a board meeting because Section 175(3) requires this when not less than one-third of total directors demand that the resolution be decided at a meeting",
+            "C": "The resolution is void ab initio because any financial commitment exceeding ₹1 crore can never be passed by circulation under the Companies (Meetings of Board and its Powers) Rules",
+            "D": "The resolution is valid but requires ratification at the next board meeting within 30 days, failing which it lapses automatically"
+          },
+          "correct": "B",
+          "explanation": "Under Section 175(3), where not less than one-third of the total number of directors require that a resolution under circulation be decided at a meeting, the chairperson shall put the resolution to be decided at a meeting of the Board. Here, 3 out of 9 directors (exactly one-third) made the demand in writing, triggering the mandatory referral. Option A correctly notes that inter-corporate deposits are not in the Sec 179(3) list but ignores the Sec 175(3) override. Option C fabricates a ₹1 crore threshold that does not exist. Option D invents a 30-day ratification rule. The determinative fact is that exactly 3 directors (one-third of 9) demanded a board meeting.",
+          "section": "Section 175(3)"
+        },
+        {
+          "id": 4,
+          "question": "If the board had proceeded to pass the resolution for issuance of secured debentures worth ₹50 crore at the first meeting (assuming valid convening), which of the following would be INCORRECT?",
+          "options": {
+            "A": "The resolution is valid because issuance of securities including debentures is listed under Section 179(3)(c) as a power exercisable only at a board meeting, and it was passed at a board meeting",
+            "B": "The resolution could alternatively have been passed by circulation under Section 175 since debenture issuance is a routine treasury function not restricted to board meetings",
+            "C": "The resolution requires a prior special resolution under Section 180(1)(a) if the debenture issuance constitutes disposal of substantially the whole of the undertaking",
+            "D": "The terms of the debenture issuance including the rate of interest must be disclosed in the resolution under Rule 8 of the Companies (Meetings of Board and its Powers) Rules, 2014"
+          },
+          "correct": "B",
+          "explanation": "Section 179(3)(c) explicitly lists 'to issue securities including debentures, whether in or outside India' as a power that the Board of Directors shall exercise only by means of resolutions passed at meetings of the Board. It CANNOT be passed by circulation under Section 175. Option B is therefore the INCORRECT statement. Option A correctly states the legal position. Option C correctly notes that if the debenture issuance amounts to disposal of substantially the whole undertaking, Sec 180(1)(a) would additionally apply — a valid cross-reference. The determinative fact is the ₹50 crore debenture issuance being tested against the Sec 179(3)(c) restriction.",
+          "section": "Section 179(3)(c)"
+        },
+        {
+          "id": 5,
+          "question": "Regarding Mr. Vikram Joshi's disclosure of interest in Form MBP-1 submitted on 12th April, 2024, which of the following is CORRECT?",
+          "options": {
+            "A": "The disclosure is timely because MBP-1 can be filed within 15 days of the first board meeting of the financial year under the proviso to Section 184(1)",
+            "B": "The disclosure is non-compliant because Section 184(1) requires disclosure AT the first meeting of the Board in which the director participates in each financial year, not after it",
+            "C": "The disclosure is timely because MBP-1 must be filed within the same quarter as the first board meeting, and 12th April falls in Q1 of FY 2024-25",
+            "D": "The disclosure is non-compliant because it should have been filed at least 7 days BEFORE the first board meeting, not at or after it"
+          },
+          "correct": "B",
+          "explanation": "Section 184(1) mandates that every director shall disclose his interest at the first meeting of the Board in which he participates as a director and thereafter at the first meeting of the Board in every financial year. The disclosure must be made AT the meeting — not before, not after. Mr. Joshi submitted Form MBP-1 on 12th April, two days after the first board meeting (10th April) of FY 2024-25, rendering it non-compliant. Option A fabricates a 15-day grace period. Option C invents a quarterly filing window. Option D wrongly requires pre-meeting filing — the statute says 'at the meeting', not before. The determinative facts are: first board meeting was 10th April (FY 2024-25 starts 1st April), and disclosure was made on 12th April (after the meeting).",
+          "section": "Section 184(1)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s2",
+      "scenarioText": "Bharat Infra Projects Ltd is a listed company with paid-up share capital of ₹200 crore, free reserves of ₹150 crore, and securities premium account of ₹50 crore. At a board meeting held on 20th June, 2024, the board considered four proposals: (i) borrowing ₹380 crore from a consortium of banks on a 5-year term basis — the company had no existing borrowings; (ii) selling its road construction division to Pinnacle Highways Ltd for ₹500 crore — this division constitutes 40% of Bharat Infra's total assets as per the latest audited balance sheet but is not a separate legal entity; (iii) making a political contribution of ₹10 lakh to a political party registered under Section 29A of the Representation of the People Act, 1951 — the company has been in existence for 8 years and its average net profit of the last three financial years was ₹80 crore; and (iv) contributing ₹50 lakh to a bona fide charitable trust not directly relating to the company's business. The board passed all four proposals by simple majority at the board meeting. Bharat Infra is not a Government company.",
+      "questions": [
+        {
+          "id": 6,
+          "question": "Does the borrowing of ₹380 crore by Bharat Infra require approval by special resolution of shareholders under Section 180(1)(c)?",
+          "options": {
+            "A": "No, because ₹380 crore is within the aggregate of paid-up capital (₹200 Cr), free reserves (₹150 Cr), and securities premium (₹50 Cr) totalling ₹400 crore, so a board resolution suffices",
+            "B": "Yes, because ₹380 crore exceeds the aggregate of paid-up share capital (₹200 Cr) and free reserves (₹150 Cr) totalling ₹350 crore — securities premium is NOT included in the Section 180(1)(c) computation",
+            "C": "No, because listed companies are exempt from the borrowing restrictions under Section 180(1)(c) by virtue of SEBI LODR compliance",
+            "D": "Yes, because any single borrowing exceeding ₹100 crore from a consortium of banks mandatorily requires a special resolution regardless of the company's capital structure"
+          },
+          "correct": "B",
+          "explanation": "Section 180(1)(c) provides that the Board shall not borrow money where the money to be borrowed, together with the money already borrowed, exceeds the aggregate of the paid-up share capital, free reserves and securities premium of the company — HOWEVER, the Explanation to Section 180(1)(c) clarifies that 'paid-up share capital' and 'free reserves' are the relevant aggregates and securities premium is specifically EXCLUDED from this computation. The aggregate is ₹200 Cr + ₹150 Cr = ₹350 Cr. Since ₹380 Cr > ₹350 Cr, a special resolution is needed. Option A is the classic trap — including securities premium (₹50 Cr) to arrive at ₹400 Cr. Option C fabricates a listed-company exemption. Option D invents a ₹100 Cr absolute threshold. The determinative facts are the specific capital figures and the ₹380 Cr borrowing amount.",
+          "section": "Section 180(1)(c)"
+        },
+        {
+          "id": 7,
+          "question": "Regarding the sale of the road construction division constituting 40% of total assets, which of the following is CORRECT?",
+          "options": {
+            "A": "Only a board resolution is needed because the division is not a separate legal entity and 'undertaking' under Section 180(1)(a) requires it to be a distinct subsidiary",
+            "B": "A special resolution is required because 40% of total assets triggers the 'substantially the whole of the undertaking' threshold, but only ordinary resolution is needed if the sale is at fair market value certified by a registered valuer",
+            "C": "A special resolution under Section 180(1)(a) is required because the Explanation defines 'substantially the whole of the undertaking' as 20% or more of the value of the undertaking as per the audited balance sheet, and 40% exceeds this threshold",
+            "D": "No resolution is needed because the sale of a division to another company in the same industry is a business restructuring exempt from Section 180(1)(a)"
+          },
+          "correct": "C",
+          "explanation": "The Explanation to Section 180(1)(a) defines the expression 'undertaking' to mean an undertaking in which the investment of the company exceeds 20% of its net worth as per the audited balance sheet of the preceding financial year, or generates 20% of the total income of the company during the previous financial year. Here, the road division constitutes 40% of total assets — well above the 20% threshold — making it 'substantially the whole of the undertaking.' A special resolution is mandatory. Option A wrongly requires a separate legal entity. Option B correctly identifies the trigger but fabricates a fair-value exemption. Option D invents a same-industry exemption. The determinative fact is 40% of total assets exceeding the 20% threshold.",
+          "section": "Section 180(1)(a)"
+        },
+        {
+          "id": 8,
+          "question": "Is the political contribution of ₹10 lakh by Bharat Infra valid as passed by board resolution?",
+          "options": {
+            "A": "Invalid, because listed companies are prohibited from making political contributions under Section 182 after the 2017 Amendment",
+            "B": "Valid, because ₹10 lakh is within 7.5% of the average net profit of ₹80 crore (i.e., ₹6 crore), the company has existed for more than 3 financial years, it is not a Government company, and the party is registered under Section 29A of RPA — a board resolution at a board meeting suffices",
+            "C": "Invalid, because political contributions under Section 182 require prior approval by special resolution of shareholders irrespective of the amount",
+            "D": "Valid, but the contribution must not exceed 5% (not 7.5%) of average net profits, and ₹10 lakh falls within this revised limit of ₹4 crore"
+          },
+          "correct": "B",
+          "explanation": "Section 182(1) permits a company (other than a Government company and a company in existence for less than 3 financial years) to contribute to any political party registered under Sec 29A of the Representation of the People Act, 1951. The aggregate contribution in any financial year shall not exceed 7.5% of the average net profits during the three immediately preceding financial years. Here: 7.5% × ₹80 Cr = ₹6 Cr. The contribution of ₹10 lakh is well within this limit. A resolution at a board meeting is sufficient. Option A wrongly states listed companies are prohibited — no such prohibition exists. Option C incorrectly mandates a special resolution. Option D uses an incorrect 5% limit (cross-law trap — 5% appears in LODR/SAST contexts, not Sec 182). The determinative facts are: ₹10 lakh vs ₹6 Cr limit, 8 years of existence, non-Government company, registered party.",
+          "section": "Section 182(1)"
+        },
+        {
+          "id": 9,
+          "question": "Regarding the ₹50 lakh contribution to a charitable trust not related to the company's business, which statement is CORRECT?",
+          "options": {
+            "A": "The contribution is prohibited under Section 181 because charitable contributions must directly relate to the business of the company or its CSR obligations under Section 135",
+            "B": "The contribution is valid without any limit because Section 181 imposes no cap on bona fide charitable contributions and merely requires board approval",
+            "C": "The contribution requires prior permission of the company in general meeting if it exceeds 5% of average net profits of the last three financial years under Section 181, which is not triggered here since ₹50 lakh < 5% of ₹80 crore (₹4 crore)",
+            "D": "The contribution is invalid because only Section 135 CSR contributions are permissible for listed companies; Section 181 applies exclusively to private companies"
+          },
+          "correct": "C",
+          "explanation": "Section 181(1) provides that the Board may contribute to bona fide charitable and other funds. However, the proviso states that prior permission of the company in general meeting shall be required if the aggregate of such contributions exceeds 5% of the average net profits of the company during the three immediately preceding financial years. Here, 5% of ₹80 Cr = ₹4 Cr. The contribution of ₹50 lakh is well below ₹4 Cr, so a board resolution suffices. Option A wrongly insists the charity must relate to business. Option B ignores the 5% threshold proviso. Option D fabricates a listed-company exclusion. The determinative facts are: ₹50 lakh contribution, ₹80 Cr average net profit, and the 5% threshold.",
+          "section": "Section 181(1)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s3",
+      "scenarioText": "NovaPay Financial Services Ltd is a public company with 7 directors. Mr. Rajat Mehra is the Managing Director drawing a salary of ₹1.2 crore per annum, and Mrs. Sunita Mehra (Rajat's wife) is a non-executive director on the board. During FY 2024-25, NovaPay entered into the following transactions: (i) advanced a housing loan of ₹40 lakh to Mr. Rajat Mehra as part of the company's employee housing loan scheme uniformly available to all employees from junior staff to the MD — the scheme was approved by members via ordinary resolution at the previous AGM; (ii) provided a guarantee of ₹25 lakh to HDFC Bank in connection with a personal car loan taken by Mrs. Sunita Mehra; (iii) gave a loan of ₹80 lakh to Mehra Consultants LLP, a firm in which Mr. Rajat holds a 30% stake and is designated partner, but Mrs. Sunita is not a partner; (iv) advanced ₹60 lakh to TechStar Private Limited, a private company where Mr. Rajat's brother Mr. Vinay (who is not a director of NovaPay) holds 55% equity and is sole director — Mr. Rajat is neither a member nor director of TechStar; and (v) gave an interest-free loan of ₹15 lakh to Mr. Sanjay Kulkarni, an independent director, to fund his daughter's overseas education. The company passed special resolutions for transactions (ii), (iii), (iv), and (v) with full disclosure in the explanatory statements.",
+      "questions": [
+        {
+          "id": 10,
+          "question": "Is the housing loan of ₹40 lakh to Mr. Rajat Mehra under the employee housing scheme valid under Section 185?",
+          "options": {
+            "A": "Invalid, because all loans to Managing Directors are absolutely prohibited under Section 185(1) without any exception whatsoever",
+            "B": "Valid under Section 185(3)(a), because the loan is part of conditions of service extended to ALL employees and the exemption does not require a special resolution when the scheme is uniformly applicable",
+            "C": "Invalid, because the exemption under Section 185(3)(a) requires approval by special resolution, and only an ordinary resolution was passed",
+            "D": "Valid, but only because the loan amount of ₹40 lakh is below the de minimis threshold of ₹50 lakh prescribed under Section 185"
+          },
+          "correct": "B",
+          "explanation": "Section 185(3)(a) carves out two alternative exceptions for loans to MD/WTD: (i) the loan is given as part of the conditions of service extended by the company to ALL its employees, OR (ii) the loan is pursuant to any scheme approved by members by special resolution. Here, the housing scheme is uniformly available to all employees from junior staff to MD — fitting squarely within limb (i). Under limb (i), no special resolution is required. Option A ignores the statutory exceptions. Option C confuses the two limbs — the SR requirement applies only to limb (ii), not limb (i). Option D fabricates a ₹50 lakh threshold. The determinative fact is that the scheme is 'uniformly available to all employees', satisfying limb (i) of Sec 185(3)(a).",
+          "section": "Section 185(3)(a)"
+        },
+        {
+          "id": 11,
+          "question": "Is the guarantee of ₹25 lakh provided for Mrs. Sunita Mehra's personal car loan valid?",
+          "options": {
+            "A": "Valid, because a special resolution was passed with full disclosure, which is the only requirement for guarantees in connection with loans taken by directors' relatives under Section 185(2)",
+            "B": "Invalid, because Mrs. Sunita is herself a director of NovaPay, and Section 185(1) imposes an absolute prohibition on guarantees in connection with loans taken by any director of the company — no special resolution can override this",
+            "C": "Valid, because non-executive directors are exempt from the prohibition under Section 185(1), which applies only to executive directors like MD and WTD",
+            "D": "Invalid, because the guarantee exceeds 10% of Mrs. Sunita's sitting fees, which is the permissible limit for financial assistance to non-executive directors"
+          },
+          "correct": "B",
+          "explanation": "Section 185(1) absolutely prohibits a company from directly or indirectly giving any guarantee or providing any security in connection with any loan taken by (a) any director of the company, or of a company which is its holding company, or any partner or relative of any such director, or (b) any firm in which any such director or relative is a partner. Mrs. Sunita IS a director of NovaPay — the prohibition is absolute and cannot be cured by special resolution. Section 185(2) permits loans/guarantees only to 'any person in whom any of the director of the company is interested' — this covers third-party entities, NOT directors themselves. Option A wrongly treats Mrs. Sunita as a 'relative' rather than a director. Option C fabricates a non-executive director exemption. Option D invents a sitting-fee-linked limit. The determinative fact is Mrs. Sunita's status as a director (not merely a relative).",
+          "section": "Section 185(1)"
+        },
+        {
+          "id": 12,
+          "question": "Is the loan of ₹80 lakh to Mehra Consultants LLP valid despite the special resolution?",
+          "options": {
+            "A": "Valid, because a special resolution with full disclosure was passed under Section 185(2), and the LLP is a 'person in whom the director is interested', not a director himself",
+            "B": "Invalid under Section 185(1)(b), because the LLP is a firm in which a director of the company (Mr. Rajat) is a partner — this triggers the absolute prohibition that cannot be overridden even by special resolution",
+            "C": "Valid, because a 30% stake in an LLP does not constitute a 'partner' relationship within the meaning of Section 185, which applies only to traditional partnership firms under the Partnership Act, 1932",
+            "D": "Invalid, but can be regularised retrospectively if the LLP repays the loan within 60 days and obtains a no-objection certificate from the Registrar of Companies"
+          },
+          "correct": "B",
+          "explanation": "Section 185(1)(b) expressly prohibits loans to 'any firm in which any such director or relative is a partner.' Mr. Rajat is a designated partner in Mehra Consultants LLP with 30% stake — he is unambiguously a 'partner' in the firm. The prohibition under Sec 185(1) is absolute and applies regardless of any special resolution passed. Section 185(2), which allows special-resolution approval, applies only to 'any person in whom any of the director is interested' — a category that specifically excludes entities already caught by Sec 185(1). Option A incorrectly categorises the LLP under 185(2). Option C wrongly argues LLP partners are not 'partners' under Sec 185. Option D fabricates a regularisation mechanism. The determinative facts are: Rajat is a director of NovaPay AND a designated partner (30% stake) in the LLP.",
+          "section": "Section 185(1)(b)"
+        },
+        {
+          "id": 13,
+          "question": "Regarding the ₹60 lakh loan to TechStar Private Limited where Mr. Rajat's brother Mr. Vinay holds 55% equity, which of the following is CORRECT?",
+          "options": {
+            "A": "The loan is prohibited under Section 185(1)(a) because Mr. Vinay is a relative of director Rajat, and any company controlled by a director's relative automatically falls within the absolute prohibition",
+            "B": "The loan requires approval under Section 185(2) by special resolution because TechStar is a 'person in whom the director is interested' — being a private company where the director's relative holds majority equity",
+            "C": "The loan is NOT caught by Section 185 at all, because the Explanation to Section 185 defines 'person in whom director is interested' by reference to the director's own directorship, membership, or 25%+ voting power in the body corporate — Mr. Rajat holds none of these in TechStar",
+            "D": "The loan is valid without restrictions because Section 185 only covers loans to directors, their spouses, and children — siblings are not 'relatives' under the Companies Act definition"
+          },
+          "correct": "C",
+          "explanation": "The Explanation to Section 185 defines 'a person in whom any of the director of the company is interested' to include: (a) any private company of which any such director is a director or member; (b) any body corporate at the general meeting of which not less than 25% of total voting power may be exercised or controlled by any such director, or by two or more such directors together. Mr. Rajat is neither a director nor member of TechStar, and does not exercise 25% voting power in it. His brother Vinay holds 55%, but Vinay is NOT a director of NovaPay, so Vinay's control over TechStar does not bring TechStar within the definition. Section 185(1)(a) prohibits loans to directors/relatives themselves — not to companies where relatives hold equity. The determinative facts are: Rajat has NO directorship, membership, or voting power in TechStar; Vinay is not a NovaPay director.",
+          "section": "Section 185 Explanation"
+        },
+        {
+          "id": 14,
+          "question": "Is the interest-free loan of ₹15 lakh to independent director Mr. Sanjay Kulkarni for his daughter's education valid?",
+          "options": {
+            "A": "Valid, because independent directors are exempt from Section 185(1) restrictions given their non-executive status and the fact that a special resolution was passed",
+            "B": "Invalid under Section 185(1)(a), because Mr. Kulkarni is a director of NovaPay and the absolute prohibition applies to ALL directors — independent or otherwise — and no special resolution can cure it",
+            "C": "Valid, because the loan is for the director's relative (daughter) rather than for the director personally, placing it under Section 185(2) which permits special-resolution approval",
+            "D": "Invalid, because interest-free loans are specifically prohibited under Section 186(7) which requires a minimum interest rate linked to the prevailing Government Securities yield"
+          },
+          "correct": "B",
+          "explanation": "Section 185(1) prohibits loans to 'any director of the company.' It makes no distinction between executive, non-executive, or independent directors. Mr. Kulkarni is a director of NovaPay, so the absolute prohibition applies. Even the special resolution passed cannot cure this, because Sec 185(2) covers only 'persons in whom a director is interested', not directors themselves. Option A fabricates an independent-director exemption. Option C incorrectly treats the loan as being to the daughter — the loan was advanced TO Mr. Kulkarni himself (for his daughter's education), not directly to the daughter. Option D wrongly invokes Sec 186(7), which applies to inter-corporate loans, not loans under Sec 185. The determinative fact is that the loan is TO Mr. Kulkarni (a director), regardless of the end-use purpose.",
+          "section": "Section 185(1)(a)"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s4",
+      "scenarioText": "OmniTech Solutions Ltd is a listed technology company with paid-up share capital of ₹100 crore, free reserves of ₹80 crore, and securities premium of ₹40 crore. As of 1st April, 2024, OmniTech had outstanding inter-corporate loans of ₹50 crore and corporate guarantees of ₹30 crore. During Q1 FY 2024-25, the board considered four proposals: (i) a fresh corporate guarantee of ₹100 crore to CloudNine Ltd, OmniTech's wholly-owned subsidiary, for a term loan from SBI; (ii) an inter-corporate loan of ₹15 crore at 8% per annum (for a one-year tenor) to Vertex Analytics Ltd, an unrelated company — the prevailing bank lending rate for Vertex's credit profile was 10.5% and the prevailing yield on one-year Government Securities was 7.1%; (iii) acquisition of 5% equity stake in DataMind AI Inc., a US-incorporated startup, for ₹12 crore; and (iv) subscription to debentures worth ₹8 crore issued by NexGen Infra Ltd, in which OmniTech's director Mr. Dhruv Kapoor holds a 20% equity stake. The board passed ordinary resolutions for proposals (i) and (iii), special resolutions for proposals (ii) and (iv). OmniTech has an outstanding term loan of ₹60 crore from Punjab National Bank ('PNB'). The prevailing yield on 10-year Government Securities was 7.4%.",
+      "questions": [
+        {
+          "id": 15,
+          "question": "What is OmniTech's aggregate limit under Section 186 for loans, guarantees, and investments (before exemptions)?",
+          "options": {
+            "A": "₹120 crore, being 100% of free reserves (₹80 Cr) plus securities premium (₹40 Cr)",
+            "B": "₹132 crore, being the HIGHER of 60% of (paid-up capital + free reserves + securities premium) or 100% of (free reserves + securities premium)",
+            "C": "₹108 crore, being 60% of paid-up capital (₹100 Cr) and free reserves (₹80 Cr) only, excluding securities premium from the computation",
+            "D": "₹180 crore, being the aggregate of paid-up share capital (₹100 Cr) and free reserves (₹80 Cr) — the same formula as Section 180(1)(c)"
+          },
+          "correct": "B",
+          "explanation": "Section 186(2) prescribes that no company shall make investments, give loans, give guarantees, or provide security exceeding the HIGHER of (a) 60% of (paid-up share capital + free reserves + securities premium) or (b) 100% of (free reserves + securities premium). Here: (a) = 60% × (₹100 + ₹80 + ₹40) = 60% × ₹220 = ₹132 Cr; (b) = 100% × (₹80 + ₹40) = ₹120 Cr. HIGHER = ₹132 Cr. Option A uses the LOWER of the two limbs. Option C excludes securities premium (which is the Sec 180 trap — securities premium IS included in Sec 186 but NOT in Sec 180). Option D uses the Sec 180(1)(c) formula — a cross-section trap. The determinative facts are the exact capital figures and the dual-formula with 'HIGHER' operative word.",
+          "section": "Section 186(2)"
+        },
+        {
+          "id": 16,
+          "question": "Is the ₹100 crore corporate guarantee to wholly-owned subsidiary CloudNine Ltd subject to the Section 186 limit?",
+          "options": {
+            "A": "Yes, and since existing commitments of ₹80 crore plus ₹100 crore total ₹180 crore — exceeding the ₹132 crore limit — a special resolution is mandatory",
+            "B": "No, because guarantees given by a holding company to its wholly-owned subsidiary are exempt from the limits, conditions, and procedural requirements of Section 186 under Section 186(11)",
+            "C": "Yes, but only the amount exceeding ₹132 crore requires special resolution approval — the first ₹52 crore (₹132 Cr minus existing ₹80 Cr) needs only a board resolution",
+            "D": "No, because corporate guarantees are entirely exempt from Section 186, which applies only to loans and investments"
+          },
+          "correct": "B",
+          "explanation": "Section 186(11) provides that nothing contained in this section, except sub-section (1), shall apply to a loan made, guarantee given, or security provided by a holding company to its wholly-owned subsidiary company. CloudNine is OmniTech's wholly-owned subsidiary, so the guarantee is exempt from the limits and special-resolution requirements of Section 186 (though sub-section (1) — disclosure in financial statements — still applies). Option A fails to apply the WOS exemption. Option C fabricates a partial-limit approach. Option D wrongly excludes all guarantees from Sec 186. The determinative fact is CloudNine being a 'wholly-owned subsidiary' of OmniTech.",
+          "section": "Section 186(11)"
+        },
+        {
+          "id": 17,
+          "question": "Regarding the inter-corporate loan of ₹15 crore to Vertex Analytics at 8% interest, which compliance requirement has the board MOST LIKELY overlooked?",
+          "options": {
+            "A": "The interest rate of 8% is below the bank lending rate of 10.5% for Vertex's credit profile, making the loan a deemed gift under Section 186(7)",
+            "B": "Prior approval of Punjab National Bank is required under Section 186(5) because OmniTech has an outstanding term loan of ₹60 crore from PNB",
+            "C": "SEBI approval is mandatory for all inter-corporate loans by listed companies exceeding ₹10 crore under LODR Regulation 23",
+            "D": "The interest rate of 8% is below the minimum prescribed rate under Section 186(7), which requires the rate to match the prevailing bank prime lending rate"
+          },
+          "correct": "B",
+          "explanation": "Section 186(5) provides that no loan shall be given or guarantee provided or security provided by the company unless prior approval is obtained from a public financial institution or bank where any term loan is subsisting. OmniTech has a term loan of ₹60 crore from PNB — hence PNB's prior approval is required. Regarding the interest rate: Section 186(7) prescribes that no loan shall be given at a rate of interest lower than the prevailing yield of Government Securities closest to the tenor of the loan. For a one-year loan, the prevailing one-year G-sec yield is 7.1%, and 8% > 7.1%, so the rate is compliant. Option A uses the wrong benchmark (bank rate, not G-sec yield). Option C fabricates a SEBI approval requirement. Option D wrongly cites bank prime lending rate instead of G-sec yield. The determinative facts are the outstanding ₹60 Cr PNB term loan and the 8% rate vs 7.1% one-year G-sec yield.",
+          "section": "Section 186(5)"
+        },
+        {
+          "id": 18,
+          "question": "For the ₹8 crore debenture subscription in NexGen Infra where director Mr. Dhruv Kapoor holds 20%, which of the following is NOT a valid compliance concern?",
+          "options": {
+            "A": "Mr. Kapoor must disclose his interest under Section 184(2) at the board meeting before the resolution is passed",
+            "B": "The transaction may additionally attract Section 188 as a related party transaction since Mr. Kapoor holds more than 2% in NexGen Infra, requiring separate board or shareholder approval",
+            "C": "The existing aggregate of loans, guarantees, and investments (₹80 crore + ₹15 crore + ₹12 crore + ₹8 crore = ₹115 crore) must be checked against the ₹132 crore limit, and since ₹115 crore is within the limit, a board resolution would suffice if it were not for the related-party element",
+            "D": "NCLT approval is mandatory for any investment in a body corporate where a director of the investing company holds more than 10% equity, and Mr. Kapoor's 20% stake triggers this requirement"
+          },
+          "correct": "D",
+          "explanation": "There is no provision in the Companies Act requiring NCLT approval for investments in entities where a director holds equity. Option D fabricates this requirement entirely and is therefore NOT a valid compliance concern. Options A, B, and C are all valid concerns: Sec 184(2) requires disclosure of interest at the meeting; NexGen Infra qualifies as a 'related party' under Sec 2(76)(iv) since Mr. Kapoor holds more than 2% paid-up share capital; and the aggregate computation (excluding the WOS guarantee but including other transactions) must be verified against the Sec 186 limit. The determinative facts are Mr. Kapoor's 20% stake in NexGen and the absence of any NCLT-approval provision for such investments.",
+          "section": "Section 186(2) read with Section 184(2) and Section 188"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s5",
+      "scenarioText": "Prism Realty Developers Ltd is a listed public company with a turnover of ₹800 crore, paid-up share capital of ₹60 crore, net worth of ₹250 crore, and outstanding loans and borrowings of ₹400 crore. The board has 12 directors — 6 independent directors, 1 Managing Director (Mr. Arun Desai), 1 Whole-Time Director (Ms. Neha Iyer), and 4 non-executive non-independent directors. The company reconstituted its Audit Committee on 1st July, 2024 with the following composition: Mr. Rajan Pillai (independent director, chartered accountant by qualification — appointed as Chairman), Ms. Deepa Varma (independent director, MBA Finance), Mr. Arun Desai (Managing Director, cost accountant by qualification), and Mr. Prakash Bhat (non-executive non-independent director, engineering graduate with 20 years of construction industry experience). Separately, the Nomination and Remuneration Committee (NRC) was constituted with: Mr. Vikas Sood (independent director — Chairman), Ms. Neha Iyer (Whole-Time Director), and Mr. Suresh Nanda (non-executive non-independent director). The company also decided not to constitute a Stakeholders Relationship Committee, arguing that the total number of security holders was only 850 — below 1,000 — even though 200 of them had filed unresolved complaints in the previous year.",
+      "questions": [
+        {
+          "id": 19,
+          "question": "Which of the following is a valid objection to the composition of Prism Realty's Audit Committee?",
+          "options": {
+            "A": "Mr. Rajan Pillai cannot be Chairman because chartered accountants in practice face a conflict of interest, and Section 177 bars practising CAs from chairing the Audit Committee",
+            "B": "Mr. Arun Desai (MD) cannot be a member of the Audit Committee because Section 177(2) requires that the majority of members be independent directors and including the MD dilutes this majority — here only 2 out of 4 members are independent directors, not a majority",
+            "C": "Mr. Prakash Bhat cannot be a member because Section 177(2) requires every member to be able to read and understand financial statements, and an engineering graduate does not meet this criterion",
+            "D": "The committee must have a minimum of 5 members because Prism Realty is a listed company with turnover exceeding ₹500 crore"
+          },
+          "correct": "B",
+          "explanation": "Section 177(2) requires: (i) minimum 3 directors, (ii) independent directors forming a majority, and (iii) majority of members including the chairperson being persons with ability to read and understand financial statements. The current composition has 4 members: Mr. Pillai (ID), Ms. Varma (ID), Mr. Desai (MD — not independent), and Mr. Bhat (non-independent). Only 2 out of 4 are independent directors — that is NOT a majority. The Audit Committee violates the mandatory independent-director majority requirement. Option A fabricates a bar on practising CAs. Option C is weak — 20 years of industry experience with financial exposure can satisfy the 'ability to read and understand' criterion, which is not defined by qualification alone. Option D invents a 5-member minimum. The determinative facts are: 4 members, only 2 IDs, making IDs exactly half (not majority).",
+          "section": "Section 177(2)"
+        },
+        {
+          "id": 20,
+          "question": "What is the defect in the composition of the Nomination and Remuneration Committee (NRC)?",
+          "options": {
+            "A": "The NRC must be chaired by an executive director, not an independent director, so Mr. Vikas Sood's chairmanship is invalid",
+            "B": "The NRC has only 3 members, but Section 178 mandates a minimum of 5 members for listed companies",
+            "C": "Ms. Neha Iyer, a Whole-Time Director, cannot be a member of the NRC because Section 178(1) requires all members to be non-executive directors with independent directors forming a majority",
+            "D": "Mr. Suresh Nanda (non-executive non-independent director) cannot serve on the NRC because all members must be independent directors under Section 178"
+          },
+          "correct": "C",
+          "explanation": "Section 178(1) mandates that the Nomination and Remuneration Committee shall consist of three or more non-executive directors, of which not less than one-half shall be independent directors. Ms. Neha Iyer is a Whole-Time Director — an executive director — and therefore CANNOT be a member of the NRC. Option A inverts the requirement (the chairperson must be an independent director, not an executive). Option B fabricates a 5-member minimum — the statutory minimum is 3. Option D incorrectly states ALL members must be independent — the requirement is only that not less than one-half be independent, allowing non-executive non-independent directors like Mr. Nanda. The determinative fact is Ms. Iyer's designation as WTD (executive), disqualifying her from the NRC entirely.",
+          "section": "Section 178(1)"
+        },
+        {
+          "id": 21,
+          "question": "Is Prism Realty's decision not to constitute a Stakeholders Relationship Committee legally tenable?",
+          "options": {
+            "A": "Yes, because the Stakeholders Relationship Committee is only mandatory for companies with more than 1,000 shareholders and debenture-holders, and Prism Realty has only 850 security holders",
+            "B": "No, because Section 178(5) requires every listed company to constitute a Stakeholders Relationship Committee regardless of the number of security holders",
+            "C": "Yes, because the Stakeholders Relationship Committee is optional for all companies and can be replaced by an expanded Audit Committee to handle investor grievances",
+            "D": "No, because Section 178(5) requires the committee when the number of security holders exceeds 1,000, and the 200 unresolved complaints trigger a separate mandatory constitution under the LODR Regulations"
+          },
+          "correct": "A",
+          "explanation": "Section 178(5) mandates the constitution of a Stakeholders Relationship Committee only for companies having more than 1,000 shareholders, debenture-holders, deposit-holders, and any other security holders at any time during a financial year. Prism Realty has only 850 security holders — below the 1,000 threshold. The 200 unresolved complaints are a red herring; the statute triggers the obligation based on NUMBER of security holders, not complaints. Option B incorrectly states all listed companies must constitute one regardless. Option C wrongly makes it optional for all companies. Option D correctly cites the 1,000 threshold but fabricates a LODR-triggered mandatory constitution based on complaints. The determinative fact is 850 security holders < 1,000 threshold.",
+          "section": "Section 178(5)"
+        },
+        {
+          "id": 22,
+          "question": "If Prism Realty's Audit Committee reports a suspected fraud involving ₹2 crore to the board, which of the following actions by the board would be INCORRECT?",
+          "options": {
+            "A": "Directing the Audit Committee to report the matter to the Central Government within 60 days of the Audit Committee's knowledge, in the prescribed manner under Section 177(4)",
+            "B": "Asking the Audit Committee to first determine the estimated financial impact and then report to the board within 45 days, after which the board will decide whether to report to the Central Government",
+            "C": "The board noting the Audit Committee's recommendation and immediately establishing a vigil mechanism for directors and employees to report genuine concerns, as required under Section 177(9)",
+            "D": "The board directing the statutory auditors to include the fraud reporting in their audit report under Section 143(12) and CARO"
+          },
+          "correct": "B",
+          "explanation": "Under Section 177(4), the Audit Committee may report to the Board about acts of fraud or irregularity, and the Board is required to take appropriate action. The Explanation to Section 177(4) states that the Audit Committee shall report the matter to the Central Government within 60 days if the Board fails to take appropriate action. Option B is INCORRECT because it imposes an internal 45-day review loop that could delay reporting to the Central Government beyond the prescribed timeline — the Audit Committee's obligation to report directly to the CG within 60 days cannot be subordinated to a board-imposed internal deadline. Option A correctly references the 60-day CG reporting timeline. Option C references Sec 177(9) vigil mechanism. Option D references Sec 143(12). The determinative facts are the ₹2 crore suspected fraud and the 60-day CG reporting timeline.",
+          "section": "Section 177(4) Explanation"
+        }
+      ]
+    },
+    {
+      "scenarioId": "s6",
+      "scenarioText": "Kaveri Textiles Ltd is a public company with a turnover of ₹500 crore and 10 directors. Mr. Harish Reddy, a non-executive director, also serves as the managing director of Reddy Looms Pvt Ltd, a company that supplies raw cotton to Kaveri Textiles. During FY 2024-25, Kaveri entered into the following transactions with Reddy Looms: (i) purchased raw cotton worth ₹8 crore in three separate invoices of ₹3 crore, ₹2.5 crore, and ₹2.5 crore spread across July, October, and January; (ii) sold surplus weaving machinery worth ₹1.5 crore to Reddy Looms at book value, which was 30% below the independent valuation; and (iii) leased a warehouse to Reddy Looms at ₹12 lakh per annum for a 3-year term — the prevailing market rent for comparable properties was ₹20 lakh per annum. The Audit Committee approved all three transactions. The board passed ordinary resolutions for transactions (i) and (iii), and a special resolution for transaction (ii). At the general meeting for transaction (ii), Mr. Harish Reddy, who holds 15% equity in Kaveri Textiles, voted in favour of the special resolution. The company secretary recorded all three transactions in the register maintained under Section 189.",
+      "questions": [
+        {
+          "id": 23,
+          "question": "Regarding the purchase of raw cotton worth ₹8 crore from Reddy Looms (a related party), which of the following is CORRECT?",
+          "options": {
+            "A": "Each invoice is below ₹5 crore and was independently approved, so no special resolution is needed — the transactions are evaluated individually, not in aggregate",
+            "B": "The aggregate value of ₹8 crore in a single financial year from the same related party must be considered together, and if it exceeds the material threshold prescribed under Section 188 read with Rule 15 of the Companies (Meetings of Board and its Powers) Rules, a special resolution is required",
+            "C": "Board approval via ordinary resolution is sufficient for all purchase transactions with related parties regardless of value, because Section 188 special-resolution requirements apply only to sale transactions",
+            "D": "No board or shareholder approval is needed because purchase of raw materials is an arm's-length transaction in the ordinary course of business, automatically exempt from Section 188"
+          },
+          "correct": "B",
+          "explanation": "Under Section 188 read with Rule 15 of the Companies (Meetings of Board and its Powers) Rules, 2014, the threshold for 'sale, purchase or supply of any goods or materials' requiring only Board approval is 10% of turnover OR ₹100 crore, whichever is lower. Here, 10% of ₹500 Cr = ₹50 Cr; whichever lower = ₹50 Cr. The ₹8 Cr aggregate falls within this board-approval threshold, so an ordinary resolution suffices. However, the critical principle is that the transactions MUST be aggregated — they cannot be split across invoices to circumvent the threshold. Option A wrongly suggests individual evaluation. Option C incorrectly limits SR to sales only. Option D incorrectly assumes automatic exemption for arm's-length ordinary-course transactions without checking the prescribed thresholds and approval mechanisms. The determinative facts are: aggregate ₹8 Cr from same related party, turnover ₹500 Cr, and the necessity to aggregate.",
+          "section": "Section 188(1) read with Rule 15"
+        },
+        {
+          "id": 24,
+          "question": "Is Mr. Harish Reddy's vote at the general meeting for the special resolution approving the sale of machinery to Reddy Looms valid?",
+          "options": {
+            "A": "Yes, because Section 188 only restricts a related party from voting at BOARD meetings, not at general meetings — shareholders can always exercise their voting rights",
+            "B": "No, because Section 188(1) second proviso provides that no member of the company who is a related party shall vote on a resolution to approve any contract or arrangement which may be entered into by the company with the related party",
+            "C": "Yes, because Mr. Reddy's 15% stake entitles him to vote on all resolutions at general meetings, and Section 188 does not override this fundamental shareholder right",
+            "D": "No, but only because Mr. Reddy holds more than 10% equity — shareholders with less than 10% who are related parties may vote on such resolutions"
+          },
+          "correct": "B",
+          "explanation": "The second proviso to Section 188(1) expressly states that no member of the company who is a related party shall vote on such resolution to approve any contract or arrangement which may be entered into by the company. Mr. Harish Reddy is a related party (director and MD of Reddy Looms) and also a member holding 15% equity. He is prohibited from voting on this resolution. Option A incorrectly limits the voting restriction to board meetings only. Option C ignores the statutory override. Option D fabricates a 10% threshold for the voting restriction — the bar applies to ALL related-party members regardless of shareholding. The determinative facts are: Mr. Reddy is both a related party (director of both companies) and a member (15% equity), and he voted on the related-party resolution.",
+          "section": "Section 188(1) Second Proviso"
+        },
+        {
+          "id": 25,
+          "question": "Which of the following would NOT need to be entered in the register maintained under Section 189?",
+          "options": {
+            "A": "The raw cotton purchase contract of ₹8 crore between Kaveri Textiles and Reddy Looms, given Mr. Harish Reddy's interest as MD of Reddy Looms",
+            "B": "The sale of weaving machinery worth ₹1.5 crore to Reddy Looms at below-market value, in which Mr. Reddy is interested",
+            "C": "A contract between Kaveri Textiles and an unrelated supplier of dyes where no director of Kaveri has any direct or indirect interest whatsoever",
+            "D": "The 3-year warehouse lease at ₹12 lakh per annum to Reddy Looms, given Mr. Reddy's dual directorship creating an interest"
+          },
+          "correct": "C",
+          "explanation": "Section 189(1) requires that every company shall keep a register of contracts or arrangements in which any director is interested. This covers all contracts where a director is directly or indirectly concerned or interested. The raw cotton purchase (A), machinery sale (B), and warehouse lease (D) all involve Reddy Looms — in which Mr. Harish Reddy has a direct interest as MD. A contract with a completely unrelated dye supplier where NO director has any interest (C) does not require entry in the Section 189 register. The determinative fact is the absence of any director's interest in the unrelated dye supplier contract, contrasted with Mr. Reddy's clear interest in all Reddy Looms transactions.",
+          "section": "Section 189(1)"
+        }
+      ]
+    }
+  ]
+}

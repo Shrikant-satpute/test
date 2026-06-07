@@ -36,7 +36,7 @@
       "totalMarks": 50,
       "passMarks": 25,
       "duration": 45,
-      "available": false,
+      "available": true,
       "keySections": ["Sec 173", "Sec 174", "Sec 175", "Sec 176", "Sec 177", "Sec 178", "Sec 179", "Sec 180", "Sec 181", "Sec 182", "Sec 183", "Sec 184", "Sec 185", "Sec 186", "Sec 187", "Sec 188", "Sec 189"]
     },
     {
