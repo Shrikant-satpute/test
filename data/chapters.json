@@ -272,6 +272,19 @@
       "duration": 180,
       "available": true,
       "keySections": ["Companies Act 2013: Ch 1-10 (Sec 149-434)", "SEBI Act 1992", "SEBI LODR 2015", "SEBI ICDR 2018", "SEBI SAST 2011", "SEBI PIT 2015", "FEMA 1999", "FCRA 2010", "IBC 2016"]
+    },
+    {
+      "id": "full-mock-2",
+      "code": "GT-02",
+      "name": "Full Syllabus Grand Test 2 — All Chapters (Integrated)",
+      "law": "Corporate & Economic Laws (All 18 chapters)",
+      "category": "full-mock",
+      "totalQuestions": 100,
+      "totalMarks": 200,
+      "passMarks": 100,
+      "duration": 180,
+      "available": true,
+      "keySections": ["Companies Act 2013: Ch 1-10 (Sec 149-434)", "SEBI Act 1992", "SEBI LODR 2015", "SEBI ICDR 2018", "SEBI SAST 2011", "SEBI PIT 2015", "FEMA 1999", "FCRA 2010", "IBC 2016"]
     }
   ]
 }
