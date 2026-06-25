@@ -56,8 +56,10 @@ export default function DashboardPage() {
     router.push('/');
   };
 
-  // Grand Test (full-syllabus mock) drives the announcement poster
-  const grandTest = chapters.find((c) => c.category === 'full-mock' && c.available);
+  // Grand Test (full-syllabus mock) drives the announcement poster.
+  // Feature the most recently added grand test (currently GT-02) in the banner.
+  const grandTests = chapters.filter((c) => c.category === 'full-mock' && c.available);
+  const grandTest = grandTests[grandTests.length - 1];
 
   // Filter by category, then float any Grand Test card to the front so it sits
   // before the first chapter and is easy to spot.
